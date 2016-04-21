@@ -1,0 +1,6 @@
+ROM set changed: no
+0.106-0.145: garou - "Garou - Mark of the Wolves (set 1)"
+0.146-0.169: garou - "Garou - Mark of the Wolves (NGM-2530)"
+
+Resolution, 0.106-0.113: 320x224 @ 59.185608Hz
+Resolution, 0.114-0.169: 320x224 @ 59.185606Hz

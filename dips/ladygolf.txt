@@ -1,0 +1,6 @@
+ROM set changed: no
+0.106-0.140: ladygolf - "Vs. Stroke &amp; Match Golf (Ladies Version)"
+0.141-0.146: ladygolf - "Vs. Stroke &amp; Match Golf (Ladies Version, set ?)"
+0.147-0.170: ladygolf - "Vs. Stroke &amp; Match Golf (Ladies Version, set LG4 ?)"
+
+Resolution, 0.106-0.170: 256x240 @ 60.000000Hz

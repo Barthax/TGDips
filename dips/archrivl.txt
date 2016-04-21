@@ -1,0 +1,7 @@
+ROM Changes: no
+0.106-0.141: archrivl - "Arch Rivals (rev 4.0)"
+0.142-0.169: archrivl - "Arch Rivals (rev 4.0 6/29/89)"  (minor description change)
+
+Resolution, 0.106-0.169: 512x480 @ 30.000000Hz
+
+Rules: http://www.twingalaxies.com/scores.php?scores=41128

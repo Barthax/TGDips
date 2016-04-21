@@ -1,0 +1,21 @@
+ROM set changed: yes
+0.106-0.131: forgottn - "Forgotten Worlds (US)"
+0.131u3-0.133: forgottu - "Forgotten Worlds (US)"
+0.133u1-0.138: forgottnu - "Forgotten Worlds (US)"
+0.139: forgottnu - "Forgotten Worlds (USA, 88618B B-Board)"
+0.139u1-0.140: forgottnua - "Forgotten Worlds (USA, B-Board 88618B-?)"
+0.141: forgottnua - "Forgotten Worlds (USA, B-Board 88618B-?)"
+0.141u2-0.145: forgottnua - "Forgotten Worlds (USA, B-Board 88618B-2)"
+0.146-0.169: forgottnua - "Forgotten Worlds (USA, B-Board 88618B-2, Rev. A)"
+
+MAME History:
+- 0.131u3: Corrado Tomaselli added Forgotten Worlds (World). Renamed (forgottn) to (forgottu). Removed Forgotten Worlds (World?).
+- 0.133u1: Renamed (forgottu) to (forgottnu).
+- 0.139u1: Changed description of clones 'Forgotten Worlds (USA, 88618B B-Board)' to 'Forgotten Worlds (USA, B-Board 88618B-?)' and 'Forgotten Worlds (USA, 88621B B-Board)' to 'Forgotten Worlds (USA, B-Board 88621B-2)'. Renamed (forgottnu) to (forgottnua) and (forgottnua) to (forgottnu).
+- 0.141u2: Changed description of clone 'Forgotten Worlds (USA, B-Board 88618B-?)' to 'Forgotten Worlds (USA, B-Board 88618B-2)'.
+- 0.145u4: Bonky0013 and JacKc added clone Forgotten Worlds (USA, B-Board 88618B-2, Rev. C). Changed description of clones '(USA, B-Board 88618B-2)' to '(USA, B-Board 88618B-2, Rev. A)' and '(USA, B-Board 88621B-2)' to '(USA, B-Board 88621B-2, Rev. C)'.
+
+Resolution, 0.106-0.126: 384x224 @ 60.000000Hz
+Resolution, 0.127-0.147: 384x224 @ 59.610000Hz
+Resolution, 0.148-0.152: 384x224 @ 59.629403Hz
+Resolution, 0.153-0.169: 384x224 @ 59.637405Hz

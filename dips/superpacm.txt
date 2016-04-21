@@ -1,0 +1,6 @@
+ROM set changed: yes
+0.106-0.133: superpcm - "Super Pac-Man (Midway)"
+0.133u1-0.170: superpacm - "Super Pac-Man (Midway)"
+
+Resolution, 0.106-0.115: 288x224 @ 60.606060Hz
+Resolution, 0.116-0.170: 288x224 @ 60.606061Hz

@@ -1,0 +1,13 @@
+ROM Set changed: yes
+0.106-0.138: 1941 - "1941 - Counter Attack (World)"
+0.139-0.145: 1941 - "1941: Counter Attack (World)" (very minor description change)
+0.145u5-0.169: 1941r1 - "1941: Counter Attack (World)"
+
+Resolution, 0.106-0.126: 384x224 @ 60.000000Hz
+Resolution, 0.127-0.147: 384x224 @ 59.610000Hz
+Resolution, 0.148-0.152: 384x224 @ 59.629403Hz
+Resolution, 0.154-0.169: 384x224 @ 59.637405Hz
+
+Note: do not check DIPs via Service Mode (F2) after playback has finished - they will reflect your local settings only.
+Rules, Single Player: http://www.twingalaxies.com/scores.php?scores=11801
+Rules, Two Player: http://www.twingalaxies.com/scores.php?scores=11877

@@ -1,0 +1,6 @@
+ROM set changed: yes
+0.106-0.151: whodunit - "Who Dunit (version 8.0)"
+0.152-0.170: whodunit8 - "Who Dunit (version 8.0)"
+
+Resolution, 0.106-0.170: 320x240 @ 60.000000Hz
+

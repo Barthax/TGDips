@@ -1,0 +1,8 @@
+ROM set changed: no
+0.106-0.111: progear - "Progear (US 010117)"
+0.112-0.170: progear - "Progear (USA 010117)"
+
+Resolution, 0.106-0.113: 384x224 @ 59.633331Hz
+Resolution, 0.114-0.127: 384x224 @ 59.633333Hz
+Resolution, 0.128-0.152: 384x224 @ 59.629403Hz
+Resolution, 0.153-0.170: 384x224 @ 59.637405Hz

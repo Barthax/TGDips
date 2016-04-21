@@ -1,0 +1,7 @@
+ROM Changes: none
+0.106-0.169: marvins - "Marvin's Maze"
+
+Resolution, 0.106-0.127: 288 x 224 @ 60.606060Hz
+Resolution, 0.128-0.169: 288 x 216 @ 60.000000Hz
+
+Rules: http://www.twingalaxies.com/scores.php?scores=11292

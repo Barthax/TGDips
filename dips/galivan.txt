@@ -1,0 +1,11 @@
+ROM set changed: yes
+0.106-0.143: galivan - "Galivan - Cosmo Police (12/16/1985)"
+0.144-0.146: galivan2 - "Galivan - Cosmo Police (12/16/1985)"
+0.147-0.169: galivan2 - "Cosmo Police Galivan (12/16/1985)"
+
+MAME History:
+- 0.143u1: Stefan Lindberg and The Dumping Union added Galivan - Cosmo Police (12/26/1985). Renamed (galivan2) to (galivan3) and (galivan) to (galivan2).
+- 0.146u5: Changed parent and clone descriptions to 'Galivan - Cosmo Police'.
+
+
+Resolution, 0.106-0.169: 256x224 @ 60.000000Hz

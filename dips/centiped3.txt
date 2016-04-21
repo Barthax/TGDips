@@ -1,0 +1,7 @@
+ROM set changed: yes
+0.106-0.154: centiped - "Centipede (revision 3)"
+0.155-0.168: centiped3 - "Centipede (revision 3)"
+
+Resolution, 0.106-0.169: 256x240 @ 60.000000Hz
+
+Rules: http://www.twingalaxies.com/scores.php?scores=7702

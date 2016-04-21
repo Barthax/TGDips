@@ -1,0 +1,5 @@
+ROM set changed: no
+0.106-0.143: gemini - "Gemini Wing"
+0.144-0.169: gemini - "Gemini Wing (Japan)"
+
+Resolution, 0.106-0.169: 256x224 @ 60.000000Hz

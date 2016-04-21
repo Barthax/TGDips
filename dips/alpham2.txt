@@ -1,0 +1,6 @@
+ROM set changed: no
+0.106-0.143: alpham2 - "Alpha Mission II / ASO II - Last Guardian"
+0.144-0.168: alpham2 - "Alpha Mission II / ASO II - Last Guardian (NGM-007)(NGH-007)"
+
+Resolution, 0.106-0.113: 320x224 @ 59.185608Hz
+Resolution, 0.114-0.168: 320x224 @ 59.185606Hz

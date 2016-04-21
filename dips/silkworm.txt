@@ -1,0 +1,5 @@
+ROM set changed: no
+0.106-0.143: silkworm - "Silk Worm (set 1)"
+0.144-0.170: silkworm - "Silk Worm (World)"
+
+Resolution, 0.106-0.170: 256x224 @ 60.000000Hz

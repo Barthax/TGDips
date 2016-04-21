@@ -1,0 +1,8 @@
+ROM set changed: no
+0.106-0.171: elevator - "Elevator Action"
+
+Resolution 0.106-0.171: 256x224 @ 60.000000Hz
+
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=5158
+Rules, Points [ADeca 2004 Only Variation]: http://www.twingalaxies.com/scores.php?scores=9692
+Rules, Points [Twin Galaxies Extreme Settings]: http://www.twingalaxies.com/scores.php?scores=9848

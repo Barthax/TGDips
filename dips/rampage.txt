@@ -1,0 +1,6 @@
+ROM set changed: no
+0.106-0.141: rampage - "Rampage (revision 3)"
+0.142-0.147: rampage - "Rampage (ver 3 8-27-86)"
+0.148-0.170: rampage - "Rampage (Rev 3, 8/27/86)"
+
+Resolution, 0.106-0.170: 512x480 @ 30.000000Hz

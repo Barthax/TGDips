@@ -1,0 +1,6 @@
+ROM set changed: no
+0.106-0.169: gseeker - "Grid Seeker: Project Storm Hammer (Ver 1.3O)"
+
+Resolution, 0.106-0.135: 320x224 @ 58.970000Hz
+Resolution, 0.136-0.153: 320x232 @ 58.970000Hz
+Resolution, 0.154-0.169: 320x224 @ 58.970000Hz

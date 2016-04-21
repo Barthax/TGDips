@@ -1,0 +1,6 @@
+ROM set changed: yes
+0.106-0.115: gyrodine - "Gyrodine"
+0.116-0.138: gyrodine - "Gyrodine (Taito Corporation license)"
+0.139-0.169: gyrodinet - "Gyrodine (Taito Corporation license)"
+
+Resolution, 0.106-0.169: 288x224 @ 60.000000Hz

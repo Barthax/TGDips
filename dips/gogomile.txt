@@ -1,0 +1,5 @@
+ROM set changed: no
+0.106-0.154: gogomile - "Go Go! Mile Smile"
+0.155-0.169: gogomile - "Susume! Mile Smile / Go Go! Mile Smile (newer)"
+
+Resolution, 0.106-0.169: 320x240 @ 60.000000Hz

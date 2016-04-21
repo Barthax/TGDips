@@ -1,0 +1,6 @@
+ROM set changed: no
+0.106-0.140: turbofrc - "Turbo Force"
+0.141-0.170: turbofrc - "Turbo Force (old revision)"
+
+Resolution, 0.106-0.135: 352x240 @ 60.000000Hz
+Resolution, 0.136-0.170: 352x240 @ 61.310000Hz

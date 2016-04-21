@@ -1,0 +1,7 @@
+ROM Changes: no
+0.106-0.169: nova2001 - "Nova 2001 (Japan)"
+
+Resolution, 0.106-0.169: 256x192 @ 60.000000Hz
+
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=78791
+Rules, Hardest Difficulty: http://www.twingalaxies.com/scores.php?scores=198125

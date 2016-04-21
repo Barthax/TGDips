@@ -1,0 +1,5 @@
+ROM set changed: no
+0.106-0.133: mgcrystj - "Magical Crystals (Japan, 92/01/13)"
+0.133u1-0.170: mgcrystlj - "Magical Crystals (Japan, 92/01/13)"
+
+Resolution, 0.106-0.170: 256x224 @ 60.000000Hz

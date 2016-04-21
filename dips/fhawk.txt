@@ -1,0 +1,6 @@
+ROM set changed: Added in 0.78.
+0.78-0.169: fhawk - "Fighting Hawk (World)"
+NB: 0.77 and prior used the Japan set for fhawk (which became fhawkj in 0.78).
+
+Resolution, 0.83: 320x224 @ 60 Hz
+Resolution, 0.106-0.169: 320x224 @ 60.000000Hz

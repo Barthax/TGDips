@@ -1,0 +1,10 @@
+ROM Changes: no
+0.106-0.164: bowlrama - "Bowl-O-Rama"
+0.165-0.168: bowlrama - "Bowl-O-Rama Rev 1.0" (minor description change)
+
+Resolution, 0.106-0.168: 360x240 @ 57.000000Hz
+
+Rules: http://www.twingalaxies.com/scores.php?scores=20435
+Settings are accessible via Service Mode: use F2 to access after game if not confirmed during playback.
+
+

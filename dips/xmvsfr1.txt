@@ -1,0 +1,13 @@
+ROM Set changes: no
+* 0.056-0.102u3 xmvsf   (FYI, ROMset rename prior to 0.106)
+0.106-0.168: xmvsfr1 - "X-Men Vs. Street Fighter (Euro 960910)"
+
+Resolution, 0.106-0.113: 384 x 224 @ 59.633331 Hz
+Resolution, 0.114-0.127: 384 x 224 @ 59.633333 Hz
+Resolution, 0.128-0.152: 384 x 224 @ 59.629403 Hz
+Resolution, 0.153-0.168: 384 x 224 @ 59.637405 Hz
+
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=18974
+
+ALL INTERNAL SETTINGS
+Note: if settings not shown by the player, use F2 after playback to enter the internal settings.

@@ -1,0 +1,63 @@
+# MAME 0.106 source snippet
+
+GAME( 1995, ncv1,      0, namcond1, namcond1, 0, ROT90, "Namco", "Namco Classics Collection Vol.1", GAME_IMPERFECT_SOUND | GAME_IMPERFECT_GRAPHICS | GAME_SUPPORTS_SAVE )
+
+INPUT_PORTS_START( namcond1 )
+	PORT_START      /* player 1 */
+	PORT_BIT( 0x0001, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT )
+	PORT_BIT( 0x0002, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT )
+	PORT_BIT( 0x0004, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN )
+	PORT_BIT( 0x0008, IP_ACTIVE_LOW, IPT_JOYSTICK_UP )
+	PORT_BIT( 0x0010, IP_ACTIVE_LOW, IPT_BUTTON1 )
+	PORT_BIT( 0x0020, IP_ACTIVE_LOW, IPT_BUTTON2 )
+	PORT_BIT( 0x0040, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_BIT( 0x0080, IP_ACTIVE_LOW, IPT_START1 )
+	PORT_BIT( 0x0100, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_PLAYER(2)
+	PORT_BIT( 0x0200, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_PLAYER(2)
+	PORT_BIT( 0x0400, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_PLAYER(2)
+	PORT_BIT( 0x0800, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_PLAYER(2)
+	PORT_BIT( 0x1000, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_PLAYER(2)
+	PORT_BIT( 0x2000, IP_ACTIVE_LOW, IPT_BUTTON2 ) PORT_PLAYER(2)
+	PORT_BIT( 0x4000, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_BIT( 0x8000, IP_ACTIVE_LOW, IPT_START2 )
+
+	PORT_START  	/* dipswitches */
+	PORT_DIPNAME( 0x0100, 0x0100, "Freeze" )
+	PORT_DIPSETTING(    0x0100, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x0000, DEF_STR( On ) )
+	PORT_DIPNAME( 0x0200, 0x0200, DEF_STR( Test ) )
+	PORT_DIPSETTING(    0x0200, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x0000, DEF_STR( On ) )
+	PORT_BIT( 0x1000, IP_ACTIVE_LOW, IPT_COIN1 )
+	PORT_BIT( 0x2000, IP_ACTIVE_LOW, IPT_COIN2 )
+	PORT_BIT( 0x4000, IP_ACTIVE_LOW, IPT_SERVICE ) PORT_NAME(DEF_STR( Test )) PORT_CODE(KEYCODE_F2) PORT_TOGGLE
+	PORT_BIT( 0x8000, IP_ACTIVE_LOW, IPT_SERVICE1 )
+	PORT_BIT( 0x00ff, IP_ACTIVE_LOW, IPT_UNUSED )
+INPUT_PORTS_END
+
+Resolution: 288x224 @ 60Hz
+
+Rules, Points [Galaga - Original]: http://www.twingalaxies.com/scores.php?scores=21447
+Rules, Points [Galaga Arrangement]: http://www.twingalaxies.com/scores.php?scores=21448
+Rules, Points [Mappy Arrangement]: http://www.twingalaxies.com/scores.php?scores=21453
+Rules, Points [Mappy - Original]: http://www.twingalaxies.com/scores.php?scores=21452
+Rules, Points [Xevious Arrangement]: http://www.twingalaxies.com/scores.php?scores=21450
+Rules, Points [Xevious Original - Normal Mode]: http://www.twingalaxies.com/scores.php?scores=21449
+Rules, Points [Xevious Original - Super Xevious Mode]: http://www.twingalaxies.com/scores.php?scores=21451
+ROMSet: NCV1
+Freeze: Off
+Test: Off
+NB: all other settings are internal.  Use F2 to access the settings with normal directions and player 1 button 1 for selection and player 1 button 2 for exit.
+
+Sample correct TG:
+dipswitches: offset 0x26, repeat every 0x7C, typical value 0xF3FF
+- dipswitches: 0x0100 (Freeze): 0x0100 (Off)
+- dipswitches: 0x0200 (Test): 0x0200 (Off)
+- dipswitches: 0x1000 (coin 1): [not relevant]
+- dipswitches: 0x2000 (coin 2): [not relevant]
+- dipswitches: 0x4000 (service mode button): [not relevant]
+- dipswitches: 0x1000 (service 1): [not relevant]
+- dipswitches: 0x00ff (unused): [not relevant]
+    20: 00 00 FF FF 00 00 F3 FF  00 00 00 00 00 00 00 00 | ..  ..= ........
+    A0: 00 00 F3 FF 00 00 00 00  00 00 00 00 00 00 00 00 | ..= ............
+   110: 00 00 00 00 3E 82 43 E1  00 00 FF FF 00 00 F3 FF | ....>.Cß..  ..= 

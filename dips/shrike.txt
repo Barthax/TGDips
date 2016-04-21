@@ -1,0 +1,7 @@
+ROM Changes: no
+0.106-0.169: shrike - "Shrike Avenger (prototype)"
+
+Resolution, 0.106-0.113: 256x240 @ 60.000000Hz
+Resolution, 0.114-0.169: 256x240 @ 59.185606Hz
+
+Rules: http://www.twingalaxies.com/scores.php?scores=110647

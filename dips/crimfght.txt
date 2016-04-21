@@ -1,0 +1,6 @@
+ROM set changed: no
+0.106-0.169: crimfght - "Crime Fighters (US 4 players)"
+
+Resolution, 0.106-0.145: 304x224 @ 54.000000Hz
+Resolution, 0.146-0.164: 320x224 @ 59.170000Hz
+Resolution, 0.165-0.169: 320x224 @ 59.185606Hz

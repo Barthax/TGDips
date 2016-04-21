@@ -1,0 +1,24 @@
+Note: two different sets tracked.
+
+Asteroid, Rev 2
+---------------
+ROM set changed: yes
+0.106-0.132: asteroid - "Asteroids (rev 2)"
+0.132u2-0.169: asteroid2 - "Asteroids (rev 2)"
+
+Resolution, 0.106-0.152: vector @ 60.000000Hz
+Resolution, 0.153-0.169: vector @ 61.523438Hz
+
+Rules, Marathon: http://www.twingalaxies.com/scores.php?scores=12447
+Rules, TGES: http://www.twingalaxies.com/scores.php?scores=10094
+
+
+Asteroid, Rev 4
+---------------
+ROM set changed: no.  Added in 0.133.
+0.133-0.168: asteroid - "Asteroids (rev 4)"
+
+Resolution, 0.133-0.152: vector @ 60.000000Hz
+Resolution, 0.153-0.168: vector @ 61.523438Hz
+
+Rules, TGTS: http://www.twingalaxies.com/scores.php?scores=132358

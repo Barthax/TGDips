@@ -1,0 +1,5 @@
+ROM set changed: no
+0.106-0.138: tgmj - "Tetris The Grand Master (JAPAN 980710)"
+0.139-0.170: tgmj - "Tetris The Grand Master (Japan 980710)"
+
+Resolution, 0.106-0.170: 640x480 @ 60.000000Hz

@@ -1,0 +1,7 @@
+ROM set changed: yes
+0.106-0.133: galaxiaj - "Galaxian (Namco set 2)"
+0.134-0.169: galaxiana - "Galaxian (Namco set 2)"
+
+0.106-0.113: 256x224 @ 60.606060Hz
+0.114-0.123: 256x224 @ 60.606061Hz
+0.125-0.169: 768x224 @ 60.606061Hz

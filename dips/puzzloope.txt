@@ -1,0 +1,6 @@
+ROM set changed: yes
+0.106-0.143: puzzloop - "Puzz Loop (Europe)"
+0.143u4-0.170: puzzloope - "Puzz Loop (Europe, v0.93)"
+
+Resolution, 0.106-0.125: 320x240 @ 60.000000Hz
+Resolution, 0.126-0.170: 320x240 @ 59.597100Hz

@@ -1,0 +1,138 @@
+# MAME 0.106 source snippet
+
+GAME( 1999, 4in1boot, 0,        _4in1,    4in1boot, 4in1boot, ROT0, "bootleg", "Puzzle King (bootleg)" , 0) // original is 1999, bootleg 2002?
+
+INPUT_PORTS_START( 4in1boot )
+	PORT_START	/* 500001 */
+	PORT_DIPNAME( 0x01, 0x00, DEF_STR( Demo_Sounds ) )
+	PORT_DIPSETTING(    0x01, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x06, 0x06, DEF_STR( Difficulty ) )
+	PORT_DIPSETTING(    0x04, DEF_STR( Easy ) )
+	PORT_DIPSETTING(    0x06, DEF_STR( Normal ) )
+	PORT_DIPSETTING(    0x02, DEF_STR( Hard ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Hardest ) )
+	PORT_DIPNAME( 0x78, 0x78, DEF_STR( Coinage ) )
+	PORT_DIPSETTING(    0x18, DEF_STR( 4C_1C ) )
+	PORT_DIPSETTING(    0x38, DEF_STR( 3C_1C ) )
+	PORT_DIPSETTING(    0x10, DEF_STR( 4C_2C ) )
+	PORT_DIPSETTING(    0x58, DEF_STR( 2C_1C ) )
+	PORT_DIPSETTING(    0x30, DEF_STR( 3C_2C ) )
+	PORT_DIPSETTING(    0x08, DEF_STR( 4C_3C ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( 4C_4C ) )
+	PORT_DIPSETTING(    0x28, DEF_STR( 3C_3C ) )
+	PORT_DIPSETTING(    0x50, DEF_STR( 2C_2C ) )
+	PORT_DIPSETTING(    0x78, DEF_STR( 1C_1C ) )
+	PORT_DIPSETTING(    0x20, DEF_STR( 3C_4C ) )
+	PORT_DIPSETTING(    0x48, DEF_STR( 2C_3C ) )
+	PORT_DIPSETTING(    0x40, DEF_STR( 2C_4C ) )
+	PORT_DIPSETTING(    0x70, DEF_STR( 1C_2C ) )
+	PORT_DIPSETTING(    0x68, DEF_STR( 1C_3C ) )
+	PORT_DIPSETTING(    0x60, DEF_STR( 1C_4C ) )
+	PORT_DIPNAME( 0x80, 0x80, DEF_STR( Free_Play ) )
+	PORT_DIPSETTING(    0x80, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_BIT( 0x0100, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_8WAY
+	PORT_BIT( 0x0200, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_8WAY
+	PORT_BIT( 0x0400, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_8WAY
+	PORT_BIT( 0x0800, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_8WAY
+	PORT_BIT( 0x1000, IP_ACTIVE_LOW, IPT_BUTTON1 )
+	PORT_BIT( 0x2000, IP_ACTIVE_LOW, IPT_BUTTON2 )
+	PORT_BIT( 0x4000, IP_ACTIVE_LOW, IPT_BUTTON3 )
+	PORT_BIT( 0x8000, IP_ACTIVE_HIGH, IPT_UNKNOWN )	/* Must be low or game stops! */
+													/* probably VBlank */
+
+	PORT_START	/* 500003 */
+	PORT_DIPNAME( 0x03, 0x03, DEF_STR( Lives ) )
+	PORT_DIPSETTING(    0x02, "1" )
+	PORT_DIPSETTING(    0x00, "2" )
+	PORT_DIPSETTING(    0x03, "3" )
+	PORT_DIPSETTING(    0x01, "4" )
+	PORT_DIPNAME( 0x04, 0x04, DEF_STR( Unused ) )
+	PORT_DIPSETTING(    0x04, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x08, 0x08, DEF_STR( Unused ) )
+	PORT_DIPSETTING(    0x08, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x10, 0x10, DEF_STR( Unused ) )
+	PORT_DIPSETTING(    0x10, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x20, 0x20, DEF_STR( Unused ) )
+	PORT_DIPSETTING(    0x20, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x40, 0x40, DEF_STR( Unused ) )
+	PORT_DIPSETTING(    0x40, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_SERVICE( 0x80, IP_ACTIVE_LOW )
+	PORT_BIT( 0x0100, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_8WAY PORT_PLAYER(2)
+	PORT_BIT( 0x0200, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_8WAY PORT_PLAYER(2)
+	PORT_BIT( 0x0400, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_8WAY PORT_PLAYER(2)
+	PORT_BIT( 0x0800, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_8WAY PORT_PLAYER(2)
+	PORT_BIT( 0x1000, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_PLAYER(2)
+	PORT_BIT( 0x2000, IP_ACTIVE_LOW, IPT_BUTTON2 ) PORT_PLAYER(2)
+	PORT_BIT( 0x4000, IP_ACTIVE_LOW, IPT_BUTTON3 ) PORT_PLAYER(2)
+	PORT_BIT( 0x8000, IP_ACTIVE_HIGH, IPT_UNKNOWN )
+
+	PORT_START	/* 500005 */
+	PORT_BIT( 0x0100, IP_ACTIVE_LOW, IPT_START1 )
+	PORT_BIT( 0x0200, IP_ACTIVE_LOW, IPT_START2 )
+	PORT_BIT( 0x0400, IP_ACTIVE_LOW, IPT_COIN1 )
+	PORT_BIT( 0x0800, IP_ACTIVE_LOW, IPT_COIN2 )
+	PORT_BIT( 0x1000, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_BIT( 0x2000, IP_ACTIVE_LOW, IPT_TILT )
+	PORT_BIT( 0x4000, IP_ACTIVE_LOW, IPT_COIN3 )
+	PORT_BIT( 0x8000, IP_ACTIVE_LOW, IPT_UNKNOWN )
+INPUT_PORTS_END
+
+Resolution: 256x224 @57.5Hz
+
+Rules, Hyper Man 2, 1 Player: http://www.twingalaxies.com/scores.php?scores=79012
+Rules, Hyper Man 2, 2 Player: http://www.twingalaxies.com/scores.php?scores=79013
+Rules, Pacman 2, 1 Player: http://www.twingalaxies.com/scores.php?scores=79014
+Rules, Pacman 2, 2 Player: http://www.twingalaxies.com/scores.php?scores=79015
+Rules, Snow, 1 Player: http://www.twingalaxies.com/scores.php?scores=79017
+Rules, Snow, 2 Player: http://www.twingalaxies.com/scores.php?scores=79018
+Rules, Tetris, 1 Player: http://www.twingalaxies.com/scores.php?scores=79016
+ROMSet: 4In1Boot
+Difficulty: Normal
+Free Play: Off
+Lives: 3
+Unused: Off [All]
+Service Mode: Off
+
+Sample correct TG:
+500001: offset 0x22, repeat every 0x7C, typical value 0x7FFE
+- 500001: 0x01 (Demo_Sounds): [not relevant]
+- 500001: 0x06 (Difficulty): 0x06 (Normal)
+- 500001: 0x78, 0x78, DEF_STR( Coinage ) )
+- 500001: 0x80 (Free_Play): 0x80 (Off)
+- 500001: 0x0100 (P1, joystick up): [not relevant]
+- 500001: 0x0200 (P1, joystick down): [not relevant]
+- 500001: 0x0400 (P1, joystick left): [not relevant]
+- 500001: 0x0800 (P1, joystick right): [not relevant]
+- 500001: 0x1000 (P1, button 1): [not relevant]
+- 500001: 0x2000 (P1, button 2): [not relevant]
+- 500001: 0x4000 (P1, button 3): [not relevant]
+- 500001: 0x8000 (unknown): [not relevant]
+
+500003: offset 0x26, repeat every 0x7C, typical value 0x7FFF
+- 500003: 0x03 (Lives): 0x03 (3)
+- 500003: 0x04 (Unused): 0x04 (Off)
+- 500003: 0x08 (Unused): 0x08 (Off)
+- 500003: 0x10 (Unused): 0x10 (Off)
+- 500003: 0x20 (Unused): 0x20 (Off)
+- 500003: 0x40 (Unused): 0x40 (Off)
+- 500003: 0x80, IP_ACTIVE_LOW )
+- 500003: 0x0100 (P2, joystick up): [not relevant]
+- 500003: 0x0200 (P2, joystick down): [not relevant]
+- 500003: 0x0400 (P2, joystick left): [not relevant]
+- 500003: 0x0800 (P2, joystick right): [not relevant]
+- 500003: 0x1000 (P2, button 1): [not relevant]
+- 500003: 0x2000 (P2, button 2): [not relevant]
+- 500003: 0x4000 (P2, button 3): [not relevant]
+- 500003: 0x8000 (unknown): [not relevant]
+
+    20: 00 00 7F FE 00 00 7F FF  00 00 FF 00 00 00 00 00 | ...¦... .. .....
+    90: 00 00 00 00 00 00 00 00  3E 82 43 E1 00 00 7F FE | ........>.Cß...¦
+    A0: 00 00 7F FF 00 00 FF 00  00 00 00 00 00 00 00 00 | ... .. .........
+   110: 00 00 00 00 3E 82 43 E1  00 00 7F FE 00 00 7F FF | ....>.Cß...¦... 

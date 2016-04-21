@@ -1,0 +1,7 @@
+ROM set changed: yes
+0.106-0.142: ghostb - "The Real Ghostbusters (US 2 Players)"
+0.142u6-0.170: ghostb2a - "The Real Ghostbusters (US 2 Players)"
+
+Resolution, 0.106-0.147: 256x240 @ 58.000000Hz
+Resolution, 0.148-0.155: 256x240 @ 57.392103Hz
+Resolution, 0.156-0.170: 256x240 @ 57.444853Hz

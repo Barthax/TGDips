@@ -1,0 +1,68 @@
+INPUT_PORTS_START( zookeep )
+	PORT_START	/* PIA 0 Port A (PLAYER 1) */
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_4WAY
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_4WAY
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_4WAY
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_4WAY
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_START1 )
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_START2 )
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_BUTTON1 )
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_UNKNOWN )
+
+	PORT_START	/* PIA 0 Port B (COIN) */
+	COIN_PORT
+
+	PORT_START	/* PIA 1 Port A (SPARE) */
+	PORT_BIT( 0xff, IP_ACTIVE_LOW, IPT_UNKNOWN )
+
+    PORT_START	/* PIA 1 Port B (PLAYER 1/2) */
+	PORT_BIT( 0xff, IP_ACTIVE_LOW, IPT_UNKNOWN )
+
+	PORT_START	/* PIA 2 Port A (PLAYER 2) */
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_4WAY PORT_COCKTAIL
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_4WAY PORT_COCKTAIL
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_4WAY PORT_COCKTAIL
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_4WAY PORT_COCKTAIL
+	PORT_BIT( 0x30, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_COCKTAIL
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_UNKNOWN )
+INPUT_PORTS_END
+
+#define COIN_PORT \
+	PORT_BIT(0x01, IP_ACTIVE_LOW, IPT_SERVICE ) PORT_NAME("Test Advance") PORT_CODE(KEYCODE_F1) \
+	PORT_BIT(0x02, IP_ACTIVE_LOW, IPT_SERVICE ) PORT_NAME("Test Next line") PORT_CODE(KEYCODE_F2) \
+	PORT_BIT(0x04, IP_ACTIVE_LOW, IPT_SERVICE ) PORT_NAME("Test Slew Up") PORT_CODE(KEYCODE_F5) \
+	PORT_BIT(0x08, IP_ACTIVE_LOW, IPT_SERVICE ) PORT_NAME("Test Slew Down") PORT_CODE(KEYCODE_F6) \
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_COIN1 ) \
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_COIN2 ) \
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_COIN3 ) \
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_TILT )
+
+All settings are in the F2 service mode.
+
+Resolution: 256x240 @60Hz
+
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=5217
+Rules, Coconut Challenge: http://www.twingalaxies.com/scores.php?scores=131624
+----
+ROMSet: ZooKeep
+Dip Switches/Service Mode are Activated via using F1 and virtually all these settings are the default displayed
+Initial Number of Keepers: 3
+High Score Enable: 1
+Cocktail Table Mode: 0
+Novice Animal Speed: 39
+Expert Animal Speed: 30
+No Hit Mode: 0
+Free Game Rate: 0
+----
+
+----
+Rules, Zoo Keeper Extreme! (ZEKE-99): http://www.twingalaxies.com/scores.php?scores=132438
+Dip Switches:
+--Initial Number of Keepers: 3
+--High Score Enable: 1
+--Novice Animal Speed: 99 (Default is 39)
+--Expert Animal Speed: 99 (Default is 30)
+--No Hit Mode: 0
+--Free Game Rate: 0
+----

@@ -1,0 +1,7 @@
+ROM set changed: no
+0.106-0.165: enduror - "Enduro Racer (YM2151, FD1089B 317-0013A)"
+0.166-0.169: enduror - "Enduro Racer (YM2151) (FD1089B 317-0013A)"
+
+Resolution, 0.106-0.107: 304x224 @ 60.000000Hz
+Resolution, 0.108-0.114: 320x224 @ 60.000000Hz
+Resolution, 0.115-0.169: 320x224 @ 60.054389Hz

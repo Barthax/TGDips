@@ -1,0 +1,4 @@
+ROM set changed: no
+0.106-0.170: panic - "Space Panic (version E)"
+
+Resolution, 0.106-0.170: 256x192 @ 60.000000Hz

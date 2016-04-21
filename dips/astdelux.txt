@@ -1,0 +1,12 @@
+ROM set changed: no
+0.106-0.107: astdelux - "Asteroids Deluxe (rev 2)"
+0.108-0.168: astdelux - "Asteroids Deluxe (rev 3)" (minor description change)
+
+MAME History:
+*- 0.107u4: Added clone Asteroids Deluxe (rev 1). Changed parent description to 'Asteroids Deluxe (rev 3)' and clone (rev 1) to 'Asteroids Deluxe (rev 2)'. Renamed (astdelu1) to (astdelu2).
+In MAME 0.107 and earlier, "rev 2" was actually "rev 3" all along.
+
+Resolution, 0.106-0.152: vector @ 60.000000Hz
+Resolution, 0.153-0.168: vector @ 61.523438Hz
+
+Rules: http://www.twingalaxies.com/scores.php?scores=7676

@@ -1,0 +1,8 @@
+ROM set changed: yes
+0.106-0.122: terraf - "Terra Force"
+0.123-0.142: terraf - "Terra Force (set 1)"
+0.143-0.148: terrafb - "Terra Force (bootleg)"
+0.149-0.159: terrafb - "Terra Force (Japan bootleg set 2)"
+0.160-0.170: terrafb - "Terra Force (Japan, bootleg set 2)"
+
+Resolution, 0.106-0.170: 320x240 @ 57.000000Hz

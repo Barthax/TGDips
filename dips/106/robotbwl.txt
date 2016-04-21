@@ -1,0 +1,56 @@
+# MAME 0.106 source snippet.
+
+INPUT_PORTS_START( robotbwl )
+	PORT_START /* IN0 */
+	PORT_BIT( 0x01, IP_ACTIVE_HIGH, IPT_START1 )
+	PORT_BIT( 0x02, IP_ACTIVE_HIGH, IPT_BUTTON1 )
+	PORT_BIT(0x04, IP_ACTIVE_HIGH, IPT_OTHER ) PORT_NAME("Hook Right") PORT_CODE(KEYCODE_X)
+	PORT_BIT(0x08, IP_ACTIVE_HIGH, IPT_OTHER ) PORT_NAME("Hook Left") PORT_CODE(KEYCODE_Z)
+	PORT_BIT( 0x10, IP_ACTIVE_HIGH, IPT_BUTTON2 )
+	PORT_BIT( 0x20, IP_ACTIVE_HIGH, IPT_JOYSTICK_RIGHT )
+	PORT_BIT( 0x40, IP_ACTIVE_HIGH, IPT_JOYSTICK_LEFT )
+	PORT_BIT( 0x80, IP_ACTIVE_HIGH, IPT_COIN1 )
+
+	PORT_START      /* Dip Switch */
+	PORT_DIPNAME( 0x01, 0x00, DEF_STR( Unknown ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x01, DEF_STR( On ) )
+	PORT_DIPNAME( 0x02, 0x00, DEF_STR( Unknown ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x02, DEF_STR( On ) )
+	PORT_DIPNAME( 0x04, 0x04, "Beer Frame" )
+	PORT_DIPSETTING(    0x00, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x04, DEF_STR( On ) )
+	PORT_DIPNAME( 0x18, 0x08, DEF_STR( Coinage ) )
+	PORT_DIPSETTING(    0x10, DEF_STR( 2C_1C ) )
+	PORT_DIPSETTING(    0x08, DEF_STR( 1C_1C ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( 1C_2C ) )
+//  PORT_DIPSETTING(    0x18, DEF_STR( 1C_2C ) )
+	PORT_DIPNAME( 0x60, 0x00, "Bowl Timer" )
+	PORT_DIPSETTING(    0x00, "3 seconds" )
+	PORT_DIPSETTING(    0x20, "5 seconds" )
+	PORT_DIPSETTING(    0x40, "7 seconds" )
+	PORT_DIPSETTING(    0x60, "9 seconds" )
+	PORT_BIT( 0x80, IP_ACTIVE_HIGH, IPT_VBLANK )
+INPUT_PORTS_END
+
+Resolution: 248x256 @ 57Hz
+
+Rules: http://www.twingalaxies.com/scores.php?scores=91243
+ROMSet: RobotBwl
+Unknown: Off [Both]
+Beer Frame: On
+Bowl Timer: 5 Seconds
+
+Sample correct TG:
+DIPs: offset 0x27, repeat every 0x7C, typical value 0x2C (upper nibble will toggle)
+- DIPs: 0x01 (Unknown): 0x00 (Off)
+- DIPs: 0x02 (Unknown): 0x00 (Off)
+- DIPs: 0x04 (Beer Frame): 0x04 (On)
+- DIPs: 0x18 (Coinage): [not relevant]
+- DIPs: 0x60 (Bowl Timer): 0x20 (5 seconds)
+- DIPs: 0x80 (vertical blank): [not relevant]
+
+    20: 00 00 00 00 00 00 00 2C  00 00 00 00 00 00 00 00 | .......,........
+    A0: 00 00 00 2C 00 00 00 00  00 00 00 00 00 00 00 00 | ...,............
+   110: 00 00 00 00 3E 82 43 E1  00 00 00 00 00 00 00 AC | ....>.Cß.......¼

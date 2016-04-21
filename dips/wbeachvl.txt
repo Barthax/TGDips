@@ -1,0 +1,7 @@
+ROM set changed: no
+0.106-0.170: wbeachvl - "World Beach Volley (set 1)"
+
+Resolution, 0.106-0.170: 320x240 @ 58.000000Hz
+
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=120648
+NOTE: There are no hardware DIP switches.  Use Service Mode (F2) to access the internal settings after playback if not shown during playback.

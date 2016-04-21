@@ -1,0 +1,8 @@
+ROM Changes: 
+0.106-0.169: twinqix - "Twin Qix (Ver 1.0A 1995/01/17) (Prototype)"
+
+Resolution, 0.106-0.113: 320x224 @ 58.970001Hz
+Resolution, 0.114-0.169: 320x224 @ 58.970000Hz
+
+Note: use Service Mode (F2) to check settings if not shown during playback.  Navigation is with up/down and first button for selection.
+Rules: http://www.twingalaxies.com/scores.php?scores=10827

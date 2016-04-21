@@ -1,0 +1,4 @@
+ROM set changed: no
+0.106-0.169: robotbwl - "Robot Bowl"
+
+Resolution, 0.106-0.169: 248x256 @ 57.000000Hz

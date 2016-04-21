@@ -1,0 +1,6 @@
+ROM set changed: no
+0.106-0.155: firetrap - "Fire Trap (US)"
+0.156-0.169: firetrap - "Fire Trap (US, set 1)"
+
+Resolution, 0.106-0.138: 256x240 @ 60.000000Hz
+Resolution, 0.139-0.169: 256x240 @ 57.403400Hz

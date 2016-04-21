@@ -1,0 +1,7 @@
+ROM set changed: no
+0.106-0.127: s1945 - "Strikers 1945"
+0.128-0.170: s1945 - "Strikers 1945 (World)"
+
+Resolution, 0.106-0.113: 320x224 @ 59.299999Hz
+Resolution, 0.114-0.133: 320x224 @ 59.300000Hz
+Resolution, 0.134-0.170: 320x224 @ 59.900000Hz

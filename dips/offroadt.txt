@@ -1,0 +1,8 @@
+ROM set changed: no
+0.106-0.122: offroadt - "Ironman Stewart's Super Off-Road Track Pack"
+0.123-0.169: offroadt - "Ironman Ivan Stewart's Super Off-Road Track-Pak"
+
+Resolution, 0.106-0.169: 320x240 @ 60.000000Hz
+
+NOTE: from MAMEINFO.DAT
+- To enter service mode, press the blue nitro button (3P button 1) and then press the service switch (F2).

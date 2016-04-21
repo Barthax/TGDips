@@ -1,0 +1,5 @@
+ROM set changed: no
+0.106-0.123: skykid - "Sky Kid (New Ver.)"
+0.125-0.170: skykid - "Sky Kid (new version)"
+
+Resolution, 0.106-0.170: 288x224 @ 60.606060Hz

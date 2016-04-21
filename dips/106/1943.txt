@@ -1,0 +1,113 @@
+INPUT_PORTS_START( 1943 )
+	PORT_START_TAG("IN0")
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_START1 )
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_START2 )
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_SPECIAL )	// VBLANK
+	PORT_BIT( 0x30, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_COIN1 )
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_COIN2 )
+
+	PORT_START_TAG("IN1")
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_8WAY
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT  ) PORT_8WAY
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN  ) PORT_8WAY
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_JOYSTICK_UP    ) PORT_8WAY
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_BUTTON1 )
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_BUTTON2 )
+	PORT_BIT( 0xc0, IP_ACTIVE_LOW, IPT_UNUSED )
+
+	PORT_START_TAG("IN2")
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_8WAY PORT_PLAYER(2)
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT  ) PORT_8WAY PORT_PLAYER(2)
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN  ) PORT_8WAY PORT_PLAYER(2)
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_JOYSTICK_UP    ) PORT_8WAY PORT_PLAYER(2)
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_PLAYER(2)
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_BUTTON2 ) PORT_PLAYER(2)
+	PORT_BIT( 0xc0, IP_ACTIVE_LOW, IPT_UNUSED )
+
+	PORT_START_TAG("DSW0")
+	PORT_DIPNAME( 0x0f, 0x08, DEF_STR( Difficulty ) )
+	PORT_DIPSETTING(    0x0f, "1 (Easy)" )
+	PORT_DIPSETTING(    0x0e, "2" )
+	PORT_DIPSETTING(    0x0d, "3" )
+	PORT_DIPSETTING(    0x0c, "4" )
+	PORT_DIPSETTING(    0x0b, "5" )
+	PORT_DIPSETTING(    0x0a, "6" )
+	PORT_DIPSETTING(    0x09, "7" )
+	PORT_DIPSETTING(    0x08, "8 (Normal)" )
+	PORT_DIPSETTING(    0x07, "9" )
+	PORT_DIPSETTING(    0x06, "10" )
+	PORT_DIPSETTING(    0x05, "11" )
+	PORT_DIPSETTING(    0x04, "12" )
+	PORT_DIPSETTING(    0x03, "13" )
+	PORT_DIPSETTING(    0x02, "14" )
+	PORT_DIPSETTING(    0x01, "15" )
+	PORT_DIPSETTING(    0x00, "16 (Difficult)" )
+	PORT_DIPNAME( 0x10, 0x10, "2 Player Game" )
+	PORT_DIPSETTING(    0x00, "1 Credit/2 Players" )
+	PORT_DIPSETTING(    0x10, "2 Credits/2 Players" )
+	PORT_DIPNAME( 0x20, 0x20, DEF_STR( Flip_Screen ) )
+	PORT_DIPSETTING(    0x20, DEF_STR( Off ))
+	PORT_DIPSETTING(    0x00, DEF_STR( On ))
+	PORT_DIPNAME( 0x40, 0x40, "Freeze" )
+	PORT_DIPSETTING(    0x40, DEF_STR( Off ))
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_SERVICE( 0x80, IP_ACTIVE_LOW )
+
+	PORT_START_TAG("DSW1")
+	PORT_DIPNAME( 0x07, 0x07, DEF_STR( Coin_A ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( 4C_1C ))
+	PORT_DIPSETTING(    0x01, DEF_STR( 3C_1C ) )
+	PORT_DIPSETTING(    0x02, DEF_STR( 2C_1C ) )
+	PORT_DIPSETTING(    0x07, DEF_STR( 1C_1C ) )
+	PORT_DIPSETTING(    0x06, DEF_STR( 1C_2C ) )
+	PORT_DIPSETTING(    0x05, DEF_STR( 1C_3C ) )
+	PORT_DIPSETTING(    0x04, DEF_STR( 1C_4C ) )
+	PORT_DIPSETTING(    0x03, DEF_STR( 1C_5C ) )
+	PORT_DIPNAME( 0x38, 0x38, DEF_STR( Coin_B ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( 4C_1C ))
+	PORT_DIPSETTING(    0x08, DEF_STR( 3C_1C ) )
+	PORT_DIPSETTING(    0x10, DEF_STR( 2C_1C ) )
+	PORT_DIPSETTING(    0x38, DEF_STR( 1C_1C ) )
+	PORT_DIPSETTING(    0x30, DEF_STR( 1C_2C ) )
+	PORT_DIPSETTING(    0x28, DEF_STR( 1C_3C ) )
+	PORT_DIPSETTING(    0x20, DEF_STR( 1C_4C ) )
+	PORT_DIPSETTING(    0x18, DEF_STR( 1C_5C ) )
+	PORT_DIPNAME( 0x40, 0x40, DEF_STR( Allow_Continue ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( No ) )
+	PORT_DIPSETTING(    0x40, DEF_STR( Yes ) )
+	PORT_DIPNAME( 0x80, 0x80, DEF_STR( Demo_Sounds ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x80, DEF_STR( On ) )
+INPUT_PORTS_END
+
+Resolution: 256x224 @ 60Hz
+
+Rules, 1 player: http://www.twingalaxies.com/scores.php?scores=5155
+Rules, 2 player: http://www.twingalaxies.com/scores.php?scores=11970
+Rules, Single player max points NO special allowed: http://www.twingalaxies.com/scores.php?scores=132363
+ROMSet: 1943
+Difficulty: 8 [Normal]
+Flip screen: Off
+Freeze: Off
+Allow Continue: No
+
+Sample correct TG:
+DSW0: offset 0x2F, repeat every 0x7C, typical value 0xF8
+- DSW0: 0x0f (Difficulty): 0x08 (8 (Normal))
+- DSW0: 0x10 (2 Player Game): [not relevant]
+- DSW0: 0x20 (Flip_Screen): 0x20 (Off)
+- DSW0: 0x40 (Freeze): 0x40 (Off)
+- DSW0: 0x80 (Service): [not relevant and would be obvious]
+
+DSW1: offset 0x33, repeat every 0x7C, typical value 0xBF
+- DSW1: 0x07 (Coin_A): [not relevant]
+- DSW1: 0x38 (Coin_B): [not relevant]
+- DSW1: 0x40 (Allow_Continue): 0x00 (No)
+- DSW1: 0x80, 0x80, DEF_STR( Demo_Sounds): [not relevant]
+
+    20: 00 00 00 FF 00 00 00 FF  00 00 00 FF 00 00 00 F8 | ... ... ... ...°
+    30: 00 00 00 BF 00 00 00 00  00 00 00 00 00 00 00 00 | ...+............
+    A0: 00 00 00 FF 00 00 00 FF  00 00 00 F8 00 00 00 BF | ... ... ...°...+
+   120: 00 00 00 FF 00 00 00 F8  00 00 00 BF 00 00 00 00 | ... ...°...+....

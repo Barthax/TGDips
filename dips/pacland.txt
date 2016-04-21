@@ -1,0 +1,9 @@
+ROM set changed: no.
+0.106-0.114: pacland - "Pac-Land (set 1)"
+0.114u1-0.170: pacland - "Pac-Land (World)"
+
+Resolution, 0.106-0.152: 288x224 @ 60.606060Hz
+Resolution, 0.153-0.170: 288x224 @ 60.606061Hz
+
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=23104
+NOTE: rules setting for Bonus life should read "30K 80K 130K 300K 500K 1M", which is the default setting (contradictory info in manual).

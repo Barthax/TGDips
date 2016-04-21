@@ -1,0 +1,54 @@
+# MAME 0.106 source snippet.
+
+GAME( 2001, gtclassc, 0,        gt3d,    aama,  aama,     ROT0, "Incredible Technologies", "Golden Tee Classic (v1.00)" , 0) /* PIC 16C54 labeled as ITGFCL */
+
+INPUT_PORTS_START( aama )
+    PORT_INCLUDE(gt3d)
+
+    PORT_MODIFY("DIPS")
+    PORT_DIPNAME( 0x0010, 0x0000, "Trackball Orientation" )    /* Determined by actual use / trial & error */
+    PORT_DIPSETTING(      0x0000, "Normal Mount" )            /* The manual says "Always on (defualt)" and "Off -- UNUSED --" */
+    PORT_DIPSETTING(      0x0010, "45 Degree Angle" )
+    PORT_DIPNAME( 0x0020, 0x0000, DEF_STR( Cabinet ))
+    PORT_DIPSETTING(      0x0000, DEF_STR( Upright ))
+    PORT_DIPSETTING(      0x0020, DEF_STR( Cocktail ))        /* Cocktail mode REQUIRES "Controls" to be set to "Two Trackballs" */
+    PORT_DIPNAME( 0x0040, 0x0000, DEF_STR( Controls ))
+    PORT_DIPSETTING(      0x0000, "One Trackball" )
+    PORT_DIPSETTING(      0x0040, "Two Trackballs" )        /* Two Trackballs will work for Upright for "side by side" controls */
+INPUT_PORTS_END
+
+Resolution: 384 x 240 @ 60.000000 Hz
+
+Rules, Anchor Cove [Least Amount Of Strokes]: http://www.twingalaxies.com/scores.php?scores=70241
+Rules, Anchor Cove [Longest Drive]: http://www.twingalaxies.com/scores.php?scores=70245
+Rules, Anchor Cove [Longest Putt]: http://www.twingalaxies.com/scores.php?scores=70248
+Rules, Mt. Springs [Least Amount Of Strokes]: http://www.twingalaxies.com/scores.php?scores=70242
+Rules, Mt. Springs [Longest Drive]: http://www.twingalaxies.com/scores.php?scores=70246
+Rules, Mt. Springs [Longest Putt]: http://www.twingalaxies.com/scores.php?scores=70249
+Rules, Scorpion Bend [Least Amount Of Strokes]: http://www.twingalaxies.com/scores.php?scores=70243
+Rules, Scorpion Bend [Longest Drive]: http://www.twingalaxies.com/scores.php?scores=70247
+Rules, Scorpion Bend [Longest Putt]: http://www.twingalaxies.com/scores.php?scores=70250
+
+ROMSet: GTClassC
+Service Mode: Off
+Trackball Orientation: Normal Mount
+Cabinet: Upright
+Controls: One Trackball
+Internal Defaults
+-----------------
+Skill Level 3
+No Hole In One Contest
+3 Hole Operator Event Off
+
+Sample correct TG:
+DIPS: offset 0x33, repeat every 0x7C, typical value 0x??
+- DIPS: 0x0010 (Trackball Orientation): 0x0000 (Normal Mount)
+- DIPS: 0x0020 (Cabinet): 0x0000 (Upright)
+- DIPS: 0x0040 (Controls): 0x0000 (One Trackball)
+
+    30: 00 00 00 0F 00 00 00 FF  00 00 00 00 00 00 00 00
+    A0: 00 00 00 FF 00 00 00 FF  00 00 00 FF 00 00 00 0F
+   120: 00 00 00 FF 00 00 00 FF  00 00 00 0B 00 00 00 FF
+
+-----------------
+- For internal settings.  Use service mode (F2) after replay if internal settings are not shown during replay.

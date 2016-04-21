@@ -1,0 +1,7 @@
+ROM set changed: yes
+0.106-0.140: suprmrio - "Vs. Super Mario Bros."
+0.141-0.146: suprmrio - "Vs. Super Mario Bros. (set ?)"
+0.146u1-0.147: suprmrioa - "Vs. Super Mario Bros. (set ?)"
+0.148-0.170: suprmrioa - "Vs. Super Mario Bros. (set ?, harder)"
+
+Resolution, 0.106-0.170: 256x240 @ 60.000000Hz

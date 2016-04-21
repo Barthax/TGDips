@@ -1,0 +1,8 @@
+ROM set changed: no
+0.106-0.117: circus - "Circus"
+0.118-0.168: circus - "Circus / Acrobat TV"
+
+MAME History:
+- 0.117u1: Changed description to 'Circus / Acrobat TV'.
+
+Resolution, 0.106-0.168: 248x256 @ 57.000000Hz

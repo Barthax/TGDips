@@ -1,0 +1,16 @@
+Spin Master is entirely controlled by soft-dips.  Check them via F2 after playback concludes to confirm.
+
+Resolution: 304x224 @59.185608Hz
+
+Rules, Single Player: http://www.twingalaxies.com/scores.php?scores=15409
+Rules, Two Player: http://www.twingalaxies.com/scores.php?scores=110741
+ROMSet: SpinMast
+Hero: 3
+Continue: WITHOUT
+Difficulty: LEVEL 4
+Life: 3
+Bomber: 2
+Demo Sound: WITH
+Credit Disp.: ON
+How To Play: WITH
+Level: WITH

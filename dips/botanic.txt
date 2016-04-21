@@ -1,0 +1,7 @@
+ROM set changed: yes
+0.106-0.148: botanic - "Botanic"
+0.149-0.155: botanic - "Botanic (French)"
+0.156-0.169: botanicf - "Botanic (French)"
+
+Resolution, 0.106-0.138: 256x224 @ 60.000000Hz
+Resolution, 0.139-0.169: 256x224 @ 60.606061Hz

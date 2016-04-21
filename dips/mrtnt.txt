@@ -1,0 +1,8 @@
+ROM set changed: no
+0.106-0.170: mrtnt - "Mr. TNT"
+
+Resolution, 0.106-0.113: 288x224 @ 60.606060Hz
+Resolution, 0.114-0.170: 288x224 @ 60.606061Hz
+
+Rules, Points [Marathon Settings]: http://www.twingalaxies.com/scores.php?scores=9816
+Rules, Points [Tournament Settings]: http://www.twingalaxies.com/scores.php?scores=9815

@@ -1,0 +1,8 @@
+ROM set changed: no
+0.106-0.145: bucky - "Bucky O'Hare (ver EA)"
+0.146-0.168: bucky - "Bucky O'Hare (ver EAB)"
+
+MAME History:
+- 0.145u4: Fixed Bucky O'Hare ROMs labels, added PCB locations and a better documentation about sub-revisions. Renamed some romsets to use revision codes [Team CPS-1]. Repair rom labels [Guru]. Changed description to 'Bucky O'Hare (ver EAB)' and clones '(ver UA)' to '(ver UAB)' and '(ver AA)' to '(ver AAB)'. Renamed (buckyua) to (buckyuab) and (buckyaa) to (buckyaab).
+
+Resolution, 0.106-0.168: 384x224 @ 60.000000Hz

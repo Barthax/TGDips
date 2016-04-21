@@ -1,0 +1,109 @@
+INPUT_PORTS_START( zoar )
+	PORT_START_TAG("IN0")
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_8WAY
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_8WAY
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_8WAY
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_8WAY
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_BUTTON1 )
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_BUTTON2 )
+	PORT_BIT( 0xc0, IP_ACTIVE_LOW, IPT_UNUSED )
+
+	PORT_START_TAG("IN1")
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_8WAY PORT_COCKTAIL
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_8WAY PORT_COCKTAIL
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_8WAY PORT_COCKTAIL
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_8WAY PORT_COCKTAIL
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_COCKTAIL
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_BUTTON2 ) PORT_COCKTAIL
+	PORT_BIT( 0xc0, IP_ACTIVE_LOW, IPT_UNUSED )
+
+	PORT_START_TAG("IN2")
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_START1 )
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_START2 )
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_BUTTON3 )
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_BUTTON3 ) PORT_COCKTAIL
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_COIN1 )
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_COIN2 )
+
+	PORT_START_TAG("DSW1")
+	PORT_DIPNAME( 0x03, 0x03, DEF_STR( Coin_A ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( 2C_1C ) )
+	PORT_DIPSETTING(    0x03, DEF_STR( 1C_1C ) )
+	PORT_DIPSETTING(    0x02, DEF_STR( 1C_2C ) )
+	PORT_DIPSETTING(    0x01, DEF_STR( 1C_3C ) )
+	PORT_DIPNAME( 0x0c, 0x0c, DEF_STR( Coin_B ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( 2C_1C ) )
+	PORT_DIPSETTING(    0x0c, DEF_STR( 1C_1C ) )
+	PORT_DIPSETTING(    0x08, DEF_STR( 1C_2C ) )
+	PORT_DIPSETTING(    0x04, DEF_STR( 1C_3C ) )
+	PORT_DIPNAME( 0x10, 0x00, DEF_STR( Unknown ) )    /* almost certainly unused */
+	PORT_DIPSETTING(    0x00, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x10, DEF_STR( On ) )
+	/* Service mode doesn't work because of missing ROMs */
+	PORT_SERVICE( 0x20, IP_ACTIVE_LOW )
+	PORT_DIPNAME( 0x40, 0x00, DEF_STR( Cabinet ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Upright ) )
+	PORT_DIPSETTING(    0x40, DEF_STR( Cocktail ) )
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_VBLANK  )
+
+	PORT_START_TAG("DSW2")
+	PORT_DIPNAME( 0x01, 0x01, DEF_STR( Lives ) )
+	PORT_DIPSETTING(    0x01, "3" )
+	PORT_DIPSETTING(    0x00, "5" )
+	PORT_DIPNAME( 0x06, 0x06, DEF_STR( Bonus_Life ) )
+	PORT_DIPSETTING(    0x06, "5000" )
+	PORT_DIPSETTING(    0x04, "10000" )
+	PORT_DIPSETTING(    0x02, "15000"  )
+	PORT_DIPSETTING(    0x00, "20000"  )
+	PORT_DIPNAME( 0x08, 0x08, DEF_STR( Difficulty ) )
+	PORT_DIPSETTING(    0x08, DEF_STR( Easy ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Hard ) )
+	PORT_DIPNAME( 0x10, 0x00, "Weapon Select" )
+	PORT_DIPSETTING(    0x00, "Manual" )
+	PORT_DIPSETTING(    0x10, "Auto" )
+	PORT_DIPNAME( 0x20, 0x00, DEF_STR( Unknown ) )    /* These 3 switches     */
+	PORT_DIPSETTING(    0x00, DEF_STR( Off ) )        /* have to do with      */
+	PORT_DIPSETTING(    0x20, DEF_STR( On ) )         /* coinage.             */
+	PORT_DIPNAME( 0x40, 0x00, DEF_STR( Unknown ) )    /* See code at $d234.   */
+	PORT_DIPSETTING(    0x00, DEF_STR( Off ) )        /* Feel free to figure  */
+	PORT_DIPSETTING(    0x40, DEF_STR( On ) )         /* them out.            */
+	PORT_DIPNAME( 0x80, 0x00, DEF_STR( Unknown ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x80, DEF_STR( On ) )
+INPUT_PORTS_END
+
+Resolution: 240x240 @ 57Hz
+
+Rules: http://www.twingalaxies.com/scores.php?scores=10694
+ROMSet: Zoar
+Unknown: Off [All]
+Service Mode: Off
+Cabinet: Upright
+Lives: 3
+Bonus: 5000
+Difficulty: Easy
+Weapon Select: Off
+
+Sample correct TG:
+DSW1: offset 0x2F, repeat every 0x7C, typical value 0xAF but 0x2F common due to vblank
+- DSW1: 0x03 (Coin_A): [not relevant]
+- DSW1: 0x0c (Coin_B): [not relevant]
+- DSW1: 0x10 (Unknown): 0x00 (Off)
+- DSW1: 0x20 (unused): [not relevant]
+- DSW1: 0x40 (Cabinet): 0x00 (Upright)
+- DSW1: 0x80 (vertical Blank): [not relevant]
+DSW2: offset 0x33, repeat every 0x7C, typical value 0x0F
+- DSW2: 0x01 (Lives): 0x01 (3)
+- DSW2: 0x06 (Bonus_Life): 0x06 (5000)
+- DSW2: 0x08 (Difficulty): 0x08 (Easy)
+- DSW2: 0x10 (Weapon Select): 0x00 (Manual)  Note: the rules do not reflect 0.106 options
+- DSW2: 0x20 (Unknown): 0x00 (Off)
+- DSW2: 0x40 (Unknown): 0x00 (Off)
+- DSW2: 0x80 (Unknown): 0x00 (Off)
+
+    20: 00 00 00 FF 00 00 00 FF  00 00 00 FF 00 00 00 AF | ... ... ... ...»
+    30: 00 00 00 0F 00 00 00 00  00 00 00 00 00 00 00 00 | ................
+    A0: 00 00 00 FF 00 00 00 FF  00 00 00 AF 00 00 00 0F | ... ... ...»....
+   120: 00 00 00 FF 00 00 00 2F  00 00 00 0F 00 00 00 00 | ... .../........

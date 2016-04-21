@@ -1,0 +1,8 @@
+ROM Changes:
+0.31-0.169: mpatrolw - "Moon Patrol (Williams)"
+
+Resolution, 0.106-0.122: 240x248 @ 57.000000Hz
+Resolution, 0.123-0.169: 240x252 @ 56.737589Hz
+
+Rules: http://www.twingalaxies.com/scores.php?scores=5215
+

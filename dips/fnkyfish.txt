@@ -1,0 +1,6 @@
+ROM set changed:
+0.106-0.169: fnkyfish - "Funky Fish"
+
+Resolution, 0.106-0.122: 256x240 @ 60.000000Hz
+Resolution, 0.123-0.169: 512x240 @ 60.096154Hz
+

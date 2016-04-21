@@ -1,0 +1,7 @@
+ROM set changed: no
+0.106-0.171: kdynastg - "King of Dynast Gear (version 1.8)"
+
+Resolution, 0.106-0.171: 320x240 @ 60.000000Hz
+
+Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=75197
+Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=75198

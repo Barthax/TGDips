@@ -1,0 +1,179 @@
+# MAME 0.106 source snippet
+
+GAME( 1981, challeng, 0, gameplan, challeng, 0, ROT0,   "GamePlan (Centuri license)", "Challenger", 0 )
+
+INPUT_PORTS_START( challeng )
+    PORT_START      /* COL. A - from "TEST NO.7 - status locator - coin-door" */
+    PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_UNUSED )
+    PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_UNUSED )
+    PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_TILT )
+    PORT_BIT(0x08, IP_ACTIVE_LOW, IPT_SERVICE ) PORT_NAME("Do Tests") PORT_CODE(KEYCODE_F1)
+    PORT_BIT(0x10, IP_ACTIVE_LOW, IPT_SERVICE ) PORT_NAME("Select Test") PORT_CODE(KEYCODE_F2)
+    PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_COIN3 )
+    PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_COIN2 )
+    PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_COIN1 )
+
+    PORT_START      /* COL. B - from "TEST NO.7 - status locator - start sws." */
+    PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_UNUSED )
+    PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_UNUSED )
+    PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_UNUSED )
+    PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_UNUSED )
+    PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_UNUSED )
+    PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_START2 )
+    PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_UNUSED )
+    PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_START1 )
+
+    PORT_START      /* COL. C - from "TEST NO.8 - status locator - player no.1" */
+    PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_BUTTON3 )
+    PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_BUTTON1 )
+    PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_UNUSED )
+    PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_BUTTON2 )
+    PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT )
+    PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_UNUSED )
+    PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT )
+    PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_UNUSED )
+
+    PORT_START      /* COL. D - from "TEST NO.8 - status locator - player no.2" */
+    PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_BUTTON3 ) PORT_COCKTAIL
+    PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_COCKTAIL
+    PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_UNUSED )
+    PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_BUTTON2 ) PORT_COCKTAIL
+    PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_COCKTAIL
+    PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_UNUSED )
+    PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_COCKTAIL
+    PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_UNUSED )
+
+    PORT_START      /* DSW A - from "TEST NO.6 - dip switch A" */
+    PORT_DIPNAME( 0x03, 0x03, "Coinage P1/P2" )
+    PORT_DIPSETTING(    0x03, "1 Credit/2 Credits" )
+    PORT_DIPSETTING(    0x02, "2 Credits/3 Credits" )
+    PORT_DIPSETTING(    0x01, "2 Credits/4 Credits" )
+    PORT_DIPSETTING(    0x00, DEF_STR( Free_Play ) )
+    PORT_DIPNAME( 0x04, 0x04, DEF_STR( Unused ) )
+    PORT_DIPSETTING(    0x04, DEF_STR( Off ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+    PORT_DIPNAME( 0x08, 0x08, DEF_STR( Unused ) )
+    PORT_DIPSETTING(    0x08, DEF_STR( Off ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+    PORT_DIPNAME( 0x10, 0x10, DEF_STR( Unused ) )
+    PORT_DIPSETTING(    0x10, DEF_STR( Off ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+    PORT_DIPNAME( 0x20, 0x20, DEF_STR( Unused ) )
+    PORT_DIPSETTING(    0x20, DEF_STR( Off ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+    PORT_DIPNAME( 0xc0, 0xc0, DEF_STR( Lives ) )
+    PORT_DIPSETTING(    0xc0, "3" )
+    PORT_DIPSETTING(    0x80, "4" )
+    PORT_DIPSETTING(    0x40, "5" )
+    PORT_DIPSETTING(    0x00, "6" )
+
+    PORT_START      /* DSW B - from "TEST NO.6 - dip switch B" */
+    PORT_DIPNAME( 0x07, 0x07, DEF_STR( Bonus_Life ) )
+    PORT_DIPSETTING(    0x01, "20000" )
+    PORT_DIPSETTING(    0x00, "30000" )
+    PORT_DIPSETTING(    0x07, "40000" )
+    PORT_DIPSETTING(    0x06, "50000" )
+    PORT_DIPSETTING(    0x05, "60000" )
+    PORT_DIPSETTING(    0x04, "70000" )
+    PORT_DIPSETTING(    0x03, "80000" )
+    PORT_DIPSETTING(    0x02, "90000" )
+    PORT_DIPNAME( 0x08, 0x08, DEF_STR( Unused ) )
+    PORT_DIPSETTING(    0x08, DEF_STR( Off ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+    PORT_DIPNAME( 0x10, 0x10, "Monitor View" )
+    PORT_DIPSETTING(    0x10, "Direct" )
+    PORT_DIPSETTING(    0x00, "Mirror" )
+    PORT_DIPNAME( 0x20, 0x20, "Monitor Orientation" )
+    PORT_DIPSETTING(    0x20, "Horizontal" )
+    PORT_DIPSETTING(    0x00, "Vertical" )
+    PORT_DIPNAME( 0x40, 0x40, DEF_STR( Flip_Screen ) )
+    PORT_DIPSETTING(    0x40, DEF_STR( Off ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+    PORT_DIPNAME( 0x80, 0x80, DEF_STR( Cabinet ) )
+    PORT_DIPSETTING(    0x80, DEF_STR( Upright ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( Cocktail ) )
+
+    PORT_START      /* sound board DSW A */
+    PORT_DIPNAME( 0x01, 0x00, "Sound Test A 0" )
+    PORT_DIPSETTING(    0x01, DEF_STR( Off ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+    PORT_DIPNAME( 0x02, 0x00, "Sound Test A 1" )
+    PORT_DIPSETTING(    0x02, DEF_STR( Off ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+    PORT_DIPNAME( 0x04, 0x00, "Sound Test A 2" )
+    PORT_DIPSETTING(    0x04, DEF_STR( Off ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+    PORT_DIPNAME( 0x08, 0x00, "Sound Test A 3" )
+    PORT_DIPSETTING(    0x08, DEF_STR( Off ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+    PORT_DIPNAME( 0x10, 0x00, "Sound Test A 4" )
+    PORT_DIPSETTING(    0x10, DEF_STR( Off ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+    PORT_DIPNAME( 0x20, 0x00, "Sound Test A 5" )
+    PORT_DIPSETTING(    0x20, DEF_STR( Off ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+    PORT_DIPNAME( 0x40, 0x00, "Sound Test A 6" )
+    PORT_DIPSETTING(    0x40, DEF_STR( Off ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+    PORT_DIPNAME( 0x80, 0x80, "Sound Test Enable" )
+    PORT_DIPSETTING(    0x80, DEF_STR( Off ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+
+    PORT_START      /* sound board DSW B */
+    PORT_DIPNAME( 0x01, 0x00, "Sound Test B 0" )
+    PORT_DIPSETTING(    0x01, DEF_STR( Off ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+    PORT_DIPNAME( 0x02, 0x00, "Sound Test B 1" )
+    PORT_DIPSETTING(    0x02, DEF_STR( Off ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+    PORT_DIPNAME( 0x04, 0x00, "Sound Test B 2" )
+    PORT_DIPSETTING(    0x04, DEF_STR( Off ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+    PORT_DIPNAME( 0x08, 0x00, "Sound Test B 3" )
+    PORT_DIPSETTING(    0x08, DEF_STR( Off ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+    PORT_DIPNAME( 0x10, 0x00, "Sound Test B 4" )
+    PORT_DIPSETTING(    0x10, DEF_STR( Off ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+    PORT_DIPNAME( 0x20, 0x00, "Sound Test B 5" )
+    PORT_DIPSETTING(    0x20, DEF_STR( Off ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+    PORT_DIPNAME( 0x40, 0x00, "Sound Test B 6" )
+    PORT_DIPSETTING(    0x40, DEF_STR( Off ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+    PORT_DIPNAME( 0x80, 0x00, "Sound Test B 7" )
+    PORT_DIPSETTING(    0x80, DEF_STR( Off ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+INPUT_PORTS_END
+
+Resolution: 256x256 @ 57.000000Hz
+
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=9789
+ROMSet: Challeng
+Unused: Off [All]
+Lives: 3
+Bonus Life: 40000
+Flip Screen: Off
+Cabinet: Upright
+Note: You have 1 Super Bomb per Ship.
+
+Sample correct TG:
+DSWA: offset 0x33, repeat every 0x7C, typical value 0xFF
+- DSWA: 0x03 (Coinage P1/P2): [not relevant]
+- DSWA: 0x04 (Unused): 0x04 (Off)
+- DSWA: 0x08 (Unused): 0x08 (Off)
+- DSWA: 0x10 (Unused): 0x10 (Off)
+- DSWA: 0x20 (Unused): 0x20 (Off)
+- DSWA: 0xc0 (Lives): 0xc0 (3)
+DSWB: offset 0x37, repeat every 0x7C, typical value 0xFF
+- DSWB: 0x07 (Bonus_Life): 0x07 (40000)
+- DSWB: 0x08 (Unused): 0x08 (Off)
+- DSWB: 0x10 (Monitor View): [not relevant]
+- DSWB: 0x20 (Monitor Orientation): [not relevant]
+- DSWB: 0x40 (Flip_Screen): 0x40 (Off)
+- DSWB: 0x80 (Cabinet): 0x80 (Upright)
+
+    30: 00 00 00 FF 00 00 00 FF  00 00 00 80 00 00 00 00
+    A0: 00 00 00 FF 00 00 00 FF  00 00 00 FF 00 00 00 FF
+    B0: 00 00 00 FF 00 00 00 80  00 00 00 00 00 00 00 00
+   120: 00 00 00 FF 00 00 00 FF  00 00 00 FF 00 00 00 FF

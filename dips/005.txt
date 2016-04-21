@@ -1,0 +1,8 @@
+ROM set changes: no
+0.106-0.169: 005 - "005"
+
+Resolution, 0.106-0.107: 256x224 @ 60.000000Hz
+Resolution, 0.108-0.113: 256x224 @ 59.998135Hz
+Resolution, 0.114-0.169: 256x224 @ 59.998138Hz
+
+Rules: http://www.twingalaxies.com/scores.php?scores=10088

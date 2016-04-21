@@ -1,0 +1,6 @@
+# MAME 0.106 source snippet
+
+GAMEB( 1997, neobombe, neogeo,   neogeo, neogeo, neogeo,  neogeo,   ROT0, "Hudson", "Neo Bomberman", 0 )
+
+
+All relevant rules are covered by software-dips.  If not shown during playback, use F2 to access after playback completed.

@@ -1,0 +1,5 @@
+ROM set changed: no
+0.106-0.147: kikstart - "Kick Start Wheelie King"
+0.148-0.169: kikstart - "Kick Start - Wheelie King"
+
+Resolution, 0.106-0.169: 256x224 @ 60.000000Hz

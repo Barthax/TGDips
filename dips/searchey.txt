@@ -1,0 +1,5 @@
+ROM set changed: yes
+0.106-0.154: searchey - "Search Eye"
+0.155-0.170: searcheya - "Search Eye (English / Korean)"
+
+Resolution, 0.106-0.170: 320x240 @ 60.000000Hz

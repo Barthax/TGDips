@@ -1,0 +1,9 @@
+ROM set changed: yes
+0.106-0.110: bionicc - "Bionic Commando (US set 1)"
+0.111-0.169: bionicc1 - "Bionic Commando (US set 1)"
+
+MAME History:
+- 0.110u3: Stefan Lindberg added Bionic Commando (Euro). Fixed rom names. Renamed (bionicc) to (bionicc1).
+
+Resolution, 0.106-0.169: 256x224 @ 60.000000Hz
+

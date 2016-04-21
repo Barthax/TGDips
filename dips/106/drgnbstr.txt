@@ -1,0 +1,124 @@
+INPUT_PORTS_START( drgnbstr )
+	PORT_START	/* DSW A */
+	PORT_SERVICE( 0x80, IP_ACTIVE_LOW )
+	PORT_DIPNAME( 0x60, 0x60, DEF_STR( Coin_A ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( 3C_1C ) )
+	PORT_DIPSETTING(    0x20, DEF_STR( 2C_1C ) )
+	PORT_DIPSETTING(    0x60, DEF_STR( 1C_1C ) )
+	PORT_DIPSETTING(    0x40, DEF_STR( 1C_2C ) )
+	PORT_DIPNAME( 0x10, 0x10, DEF_STR( Demo_Sounds ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x10, DEF_STR( On ) )
+	PORT_DIPNAME( 0x08, 0x08, "Round Skip" )
+	PORT_DIPSETTING(    0x08, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x04, 0x04, "Freeze" )
+	PORT_DIPSETTING(    0x04, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x03, 0x03, DEF_STR( Coin_B ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( 3C_1C ) )
+	PORT_DIPSETTING(    0x01, DEF_STR( 2C_1C ) )
+	PORT_DIPSETTING(    0x03, DEF_STR( 1C_1C ) )
+	PORT_DIPSETTING(    0x02, DEF_STR( 1C_2C ) )
+
+	PORT_START	/* DSW B */
+	PORT_DIPNAME( 0x80, 0x80, "Spurt Time" )
+	PORT_DIPSETTING(    0x80, DEF_STR( Normal ) )
+	PORT_DIPSETTING(    0x00, "Difficult" )
+	PORT_DIPNAME( 0x40, 0x40, "Level of Monster" )
+	PORT_DIPSETTING(    0x40, DEF_STR( Normal ) )
+	PORT_DIPSETTING(    0x00, "Difficult" )
+	PORT_DIPNAME( 0x30, 0x30, "Starting Vitality" )
+	PORT_DIPSETTING(    0x00, "160" )
+	PORT_DIPSETTING(    0x30, "128" )
+	PORT_DIPSETTING(    0x10, "96" )
+	PORT_DIPSETTING(    0x20, "64" )
+	PORT_DIPNAME( 0x0c, 0x0c, "Bonus Vitality" ) /* Clear Mountain, Tower, ect... */
+	PORT_DIPSETTING(    0x00, "64" )
+	PORT_DIPSETTING(    0x08, "48/64" )
+	PORT_DIPSETTING(    0x04, "32/64" )
+	PORT_DIPSETTING(    0x0c, DEF_STR( None ) )
+	PORT_DIPNAME( 0x02, 0x02, "Bonus Level" )    /* Clear Round */
+	PORT_DIPSETTING(    0x02, "Full" )
+	PORT_DIPSETTING(    0x00, "Partial" )
+	PORT_DIPNAME( 0x01, 0x01, DEF_STR( Allow_Continue ) )
+	PORT_DIPSETTING(    0x01, DEF_STR( No ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Yes ) )
+
+	PORT_START
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_DIPNAME( 0x02, 0x02, DEF_STR( Cabinet ) )
+	PORT_DIPSETTING(    0x02, DEF_STR( Upright ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Cocktail ) )
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_BUTTON2 ) PORT_PLAYER(2)
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_BUTTON2 ) PORT_PLAYER(1)
+	PORT_BIT( 0xf0, IP_ACTIVE_LOW, IPT_UNUSED )
+
+	PORT_START	/* IN 0 */
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_SERVICE1 )
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_COIN1 )
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_COIN2 )
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_START1 )
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_START2 )
+	PORT_BIT( 0xe0, IP_ACTIVE_LOW, IPT_UNUSED )
+
+	PORT_START	/* IN 1 */
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_4WAY
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_4WAY
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_4WAY
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_4WAY
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_PLAYER(1)
+	PORT_BIT( 0xe0, IP_ACTIVE_LOW, IPT_UNUSED )
+
+	PORT_START	/* IN 2 */
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_4WAY PORT_COCKTAIL
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_4WAY PORT_COCKTAIL
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_4WAY PORT_COCKTAIL
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_4WAY PORT_COCKTAIL
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_COCKTAIL
+	PORT_BIT( 0xe0, IP_ACTIVE_LOW, IPT_UNUSED )
+INPUT_PORTS_END
+
+Resolution: 288x224 @ 60.606060Hz
+
+Rules: http://www.twingalaxies.com/scores.php?scores=26130
+ROMSet: DrgnBstr
+Service Mode: Off
+Round Skip: Off
+Freeze: Off
+Spurt Time: Normal
+Level of Monster: Normal
+Starting Vitality: 128
+Bonus Vitality: None
+Bonus Level: Full
+Allow Continue: No
+Cabinet: Upright
+
+Sample correct TG:
+DSWA: offset 0x23, repeat every 0x7C, typical value 0xFF
+- DSWA: 0x80 (unused): [not relevant]
+- DSWA: 0x60 (Coin_A): [not relevant]
+- DSWA: 0x10 (Demo_Sounds): [not relevant]
+- DSWA: 0x08 (Round Skip): 0x08 (Off)
+- DSWA: 0x04 (Freeze): 0x04 (Off)
+- DSWA: 0x03 (Coin_B): [not relevant]
+DSWB: offset 0x27, repeat every 0x7C, typical value 0xFF
+- DSWB: 0x80 (Spurt Time): 0x80 (Normal)
+- DSWB: 0x40 (Level of Monster): 0x40 (Normal)
+- DSWB: 0x30 (Starting Vitality): 0x30 (128)
+- DSWB: 0x0c (Bonus Vitality): 0x0c (None)
+- DSWB: 0x02 (Bonus Level): 0x02 (Full)
+- DSWB: 0x01 (Allow_Continue): 0x01 (No)
+unnamed: offset 0x2B, repeat every 0x7C, typical value 0xFF
+- unnamed: 0x01 (unknown): [not relevant]
+- unnamed: 0x02 (Cabinet): 0x02 (Upright)
+- unnamed: 0x04 (Button 2, Player 2): [not relevant]
+- unnamed: 0x08 (Button 2, Player 1): [not relevant]
+- unnamed: 0xf0 (unused): [not relevant]
+
+
+    20: 00 00 00 FF 00 00 00 FF  00 00 00 FF 00 00 00 FF | ... ... ... ... 
+    90: 00 00 00 00 00 00 00 00  3E 82 43 E1 00 00 00 FF | ........>.Cß... 
+    A0: 00 00 00 FF 00 00 00 FF  00 00 00 FF 00 00 00 FF | ... ... ... ... 
+   110: 00 00 00 00 3E 82 43 E1  00 00 00 FF 00 00 00 FF | ....>.Cß... ... 
+   120: 00 00 00 FF 00 00 00 FF  00 00 00 FF 00 00 00 FF | ... ... ... ... 

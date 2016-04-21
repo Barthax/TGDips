@@ -1,0 +1,7 @@
+ROM set changed: no
+0.106-0.165: mvp - "MVP (set 2, US, FD1094 317-0143)"
+0.166-0.169: mvp - "MVP (set 2, US) (FD1094 317-0143)"
+
+Resolution, 0.106-0.114: 320x224 @ 60.000000Hz
+Resolution, 0.115-0.116: 321x224 @ 60.054389Hz
+Resolution, 0.117-0.169: 320x224 @ 60.054389Hz

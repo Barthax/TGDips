@@ -1,0 +1,7 @@
+ROM Set changes: No
+0.106-0.169: nost - "Nostradamus"
+
+Resolution, 0.106-0.169: 320 x 224 @ 60.000000 Hz
+
+Rules, points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=78789
+Rules, points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=78790

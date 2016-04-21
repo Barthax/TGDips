@@ -1,0 +1,5 @@
+ROM set changed: no
+0.106-0.169: landmakr - "Land Maker (Ver 2.01J 1998/06/01)"
+
+Resolution, 0.106-0.113: 320x232 @ 58.970001Hz
+Resolution, 0.114-0.169: 320x232 @ 58.970000Hz

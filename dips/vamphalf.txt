@@ -1,0 +1,8 @@
+ROM set changed: yes
+0.106-0.128: vamphalf - "Vamp 1/2 (Korea version)"
+0.129-0.133: vamphafk - "Vamp x1/2 (Korea)"
+0.133u1-0.170: vamphalfk - "Vamp x1/2 (Korea)"
+
+Resolution, 0.106-0.146: 320x240 @ 60.000000Hz
+Resolution, 0.147-0.170: 320x236 @ 60.000000Hz
+

@@ -1,0 +1,8 @@
+ROM set changed: no
+0.106-0.170: smashtv - "Smash T.V. (rev 8.00)"
+
+Rsolution, 0.106-0.113: 410x256 @ 53.204948Hz
+Rsolution, 0.114: 410x256 @ 53.204950Hz
+Rsolution, 0.115-0.122: 399x253 @ 27.407585Hz
+Rsolution, 0.123-0.154: 399x253 @ 54.815170Hz
+Rsolution, 0.155-0.170: 410x256 @ 54.706840Hz

@@ -1,0 +1,5 @@
+ROM set changed: yes
+0.106-0.114: sfex - "Street Fighter EX (USA 961219)"
+0.114u2-0.170: sfexu - "Street Fighter EX (USA 961219)"
+
+Resolution, 0.106-0.170: 640x480 @ 60.000000Hz

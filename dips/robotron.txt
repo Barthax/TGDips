@@ -1,0 +1,16 @@
+ROM set changes: none
+0.106-0.143: robotron - "Robotron (Solid Blue label)"
+0.144-0.169: robotron - "Robotron: 2084 (Solid Blue label)"
+
+Resolution, 0.106-0.115: 292x240 @ 60.000000Hz
+Resolution, 0.116-0.169: 292x240 @ 60.096154Hz
+
+All configuration is done via soft-dips.  Use F2 repeatedly (cycles through settings) after the recording if they are not shown during the recording.
+
+Rules, Solid Blue, Marathon: http://www.twingalaxies.com/scores.php?scores=5218
+Rules, Solid Blue, Tournament: http://www.twingalaxies.com/scores.php?scores=7803
+
+ROM Set Changes not applicable due to rules:
+Rules: Robotron 2084 [ROBO-Novice Training Camp (NOOB)]: http://www.twingalaxies.com/scores.php?scores=132404
+Rules: Robotron 2084 [VidKidz 40-Wave Challenge (VK40)]: http://www.twingalaxies.com/scores.php?scores=132291
+

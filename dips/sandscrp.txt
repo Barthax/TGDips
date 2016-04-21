@@ -1,0 +1,5 @@
+ROM set changed: no
+0.106-0.123: sandscrp - "Sand Scorpion (set 1)"
+0.125-0.170: sandscrp - "Sand Scorpion"
+
+Resolution, 0.106-0.170: 256x224 @ 60.000000Hz

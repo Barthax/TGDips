@@ -1,0 +1,14 @@
+ROM set changed: no
+0.106-0.136: ncv1 - "Namco Classics Collection Vol.1"
+0.137-0.169: ncv1 - "Namco Classic Collection Vol.1"
+
+Resolution, 0.106-0.169: 288x224 @ 60.000000Hz
+
+Rules, Points [Galaga - Original]: http://www.twingalaxies.com/scores.php?scores=21447
+Rules, Points [Galaga Arrangement]: http://www.twingalaxies.com/scores.php?scores=21448
+Rules, Points [Mappy Arrangement]: http://www.twingalaxies.com/scores.php?scores=21453
+Rules, Points [Mappy - Original]: http://www.twingalaxies.com/scores.php?scores=21452
+Rules, Points [Xevious Arrangement]: http://www.twingalaxies.com/scores.php?scores=21450
+Rules, Points [Xevious Original - Normal Mode]: http://www.twingalaxies.com/scores.php?scores=21449
+Rules, Points [Xevious Original - Super Xevious Mode]: http://www.twingalaxies.com/scores.php?scores=21451
+Use F2 to access the settings with normal directions and player 1 button 1 for selection and player 1 button 2 for exit.

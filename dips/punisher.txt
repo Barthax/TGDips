@@ -1,0 +1,10 @@
+ROM set changed: no
+0.106-0.171: punisher - "The Punisher (World 930422)"
+
+Resolution, 0.106-0.126: 384x224 @ 60.000000Hz
+Resolution, 0.127-0.147: 384x224 @ 59.610000Hz
+Resolution, 0.148-0.152: 384x224 @ 59.629403Hz
+Resolution, 0.153-0.171: 384x224 @ 59.637405Hz
+
+Rules, 1 Player: http://www.twingalaxies.com/scores.php?scores=14464
+Rules, 2 Player: http://www.twingalaxies.com/scores.php?scores=14465

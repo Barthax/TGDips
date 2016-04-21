@@ -1,0 +1,14 @@
+ROM set changed: yes
+0.106-0.122: ckong - "Crazy Kong (set 1)"
+0.123-0.138: ckong - "Crazy Kong Part II (set 1)"
+0.138u3-0.171: ckongpt2 - "Crazy Kong Part II (set 1)"
+
+MAME History:
+- 0.138u3: cclimber/ckong sprite X was off by 1 (video\cclimber.c) [hap]. Renamed (ckong) to (ckongpt2), (ckonga) to (ckongpt2a), (ckongb) to (ckongpt2b), (ckong2j) to (ckongpt2j) and (ckongjeu) to (ckongpt2jeu).
+
+Resolution, 0.106-0.171: 256x224 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Crazy%20Kong%20[Set%201]
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=7712
+Rules, Points [No Hammer Challenge]: http://www.twingalaxies.com/scores.php?scores=42190
+Rules, Wall Jumps - Rivet Stage: http://www.twingalaxies.com/scores.php?scores=198687

@@ -1,0 +1,11 @@
+ROM set changed: yes
+0.106-0.134: bstars - "Baseball Stars Professional"
+0.135-0.142: bstarsh - "Baseball Stars Professional (set 2)"
+0.143-0.169: bstarsh - "Baseball Stars Professional (NGH-002)"
+
+MAME History:
+- 0.134u1: JohnBoy added Baseball Stars Professional (set 1). JohnBoy renamed sets based on them being used for the initial AES production runs. Renamed (bstars) to (bstarsh).
+- 0.142u5: Changed description to 'Baseball Stars Professional (NGM-002)' and clone to 'Baseball Stars Professional (NGH-002)'. Fixed rom names.
+
+Resolution, 0.106-0.112: 320x224 @ 59.185608Hz
+Resolution, 0.113-0.169: 320x224 @ 59.185606Hz

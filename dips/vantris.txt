@@ -1,0 +1,6 @@
+ROM changed: yes - homebrew that was removed.
+0.106: vantris - "Vantris (Vanguard hardware)"
+0.107-0.170: NOT SUPPORTED
+
+Resolution, 0.106: 224x256 @ 61.246746Hz
+

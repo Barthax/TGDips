@@ -1,0 +1,14 @@
+ROM set changed: no
+0.106-0.169: gtmr2 - "Mille Miglia 2: Great 1000 Miles Rally (95/05/24)"
+
+Resolution, 0.106-0.169: 320x240 @ 60.000000Hz
+
+Rules, All Stages [Fastest Total Completion]: http://www.twingalaxies.com/scores.php?scores=75584
+Rules, Stage 1 [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=75576
+Rules, Stage 2 [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=75577
+Rules, Stage 3 [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=75578
+Rules, Stage 4 [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=75579
+Rules, Stage 5 [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=75580
+Rules, Stage 6 [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=75581
+Rules, Stage 7 [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=75582
+Rules, Stage 8 [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=75583

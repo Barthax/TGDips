@@ -1,0 +1,5 @@
+ROM set changed: no
+0.106-0.148: bssoccer - "Back Street Soccer"
+0.149-0.168: bssoccer - "Back Street Soccer (KRB-0031 PCB)" (minor description change)
+
+Resolution, 0.106-0.168: 256x224 @ 60.000000Hz

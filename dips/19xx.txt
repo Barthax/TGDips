@@ -1,0 +1,10 @@
+ROM set changed: no
+0.106-0.111: 19xx - "19XX: The War Against Destiny (US 951207)"
+0.112-0.168: 19xx - "19XX: The War Against Destiny (USA 951207)" (minor description change)
+
+Resolution, 0.106-0.127: 384x224 @ 59.633333Hz
+Resolution, 0.128-0.152: 384x224 @ 59.629403Hz
+Resolution, 0.153-0.168: 384x224 @ 59.637405Hz
+
+Rules, One Player: http://www.twingalaxies.com/scores.php?scores=19622
+Rules, Two Player: http://www.twingalaxies.com/scores.php?scores=19623

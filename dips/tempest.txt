@@ -1,0 +1,5 @@
+ROM set changed: yes
+0.106-0.143: tempest - "Tempest (rev 3)"
+0.143u5-0.170: tempest3 - "Tempest (rev 3)"
+
+Resolution, 0.106-0.170: vector @ 60.000000Hz

@@ -1,0 +1,12 @@
+ROM set changed: yes
+0.106-0.123: tdragon - "Thunder Dragon"
+0.123u6-0.154: tdragon1 - "Thunder Dragon (4th Jun. 1991)"
+0.155-0.170: tdragon1 - "Thunder Dragon (4th Jun. 1991, protected)"
+
+MAME History:
+- 0.123u6: Corrado Tomaselli added Thunder Dragon (9th Jan. 1992). Renamed (tdragon) to (tdragon1). Changed 'Thunder Dragon' to clone 'Thunder Dragon (4th Jun. 1991)'. Changed 68000 CPU1 clock speed to 8MHz.
+
+Resolution, 0.106-0.122: 256x224 @ 60.000000Hz
+Resolution, 0.123-0.154: 256x224 @ 56.000000Hz
+Resolution, 0.155-0.170: 256x224 @ 56.180000Hz
+

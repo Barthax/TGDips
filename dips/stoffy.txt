@@ -1,0 +1,25 @@
+ROM set changed: yes
+0.106-0.152: stoffy - "Super Toffy"
+0.153-0.170: stoffyu - "Super Toffy (Unico license)"
+
+Resolution, 0.106-0.122: 240x224 @ 57.444853Hz
+Resolution, 0.123-0.0.170: 256x240 @ 57.444853Hz
+
+Additional information confirming the transition from 0.152 to 0.153:
+C:\MAME>mame152 -listcrc stoffy
+3c156610 u70.2                   stoffy          Super Toffy
+541bd7f0 u142.1                  stoffy          Super Toffy
+83735d25 u35.7                   stoffy          Super Toffy
+9743a74d u78.4                   stoffy          Super Toffy
+f267109a u77.3                   stoffy          Super Toffy
+ff190865 u80.5                   stoffy          Super Toffy
+333d5b8a u79.5                   stoffy          Super Toffy
+
+C:\MAME>mame153 -listcrc stoffyu
+3c156610 u70.2                   stoffyu         Super Toffy (Unico license)
+541bd7f0 1.u142                  stoffyu         Super Toffy (Unico license)
+83735d25 u35.7                   stoffyu         Super Toffy (Unico license)
+9743a74d u78.4                   stoffyu         Super Toffy (Unico license)
+f267109a u77.3                   stoffyu         Super Toffy (Unico license)
+ff190865 6.u80                   stoffyu         Super Toffy (Unico license)
+333d5b8a 5.u79                   stoffyu         Super Toffy (Unico license)

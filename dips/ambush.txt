@@ -1,0 +1,6 @@
+ROM set changed: yes
+0.106-0.138: ambush - "Ambush"
+0.138u1-0.169: ambushj - "Ambush (Japan)"
+
+Resolution, 0.106-0.169: 256x222 @ 60.000000Hz
+

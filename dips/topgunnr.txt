@@ -1,0 +1,7 @@
+ROM set changed: no
+0.106-0.138: topgunnr - "Top Gunner"
+0.139-0.172: topgunnr - "Top Gunner (Exidy)"
+
+Resolution, 0.106-0.172: vector @ 60.000000Hz
+
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=120443

@@ -1,0 +1,7 @@
+ROM Changes: no
+0.106-0.168: abscam - "Abscam"
+
+Resolution, 0.106-0.113: 288 x 224 @ 60.606060 Hz
+Resolution, 0.114-0.168: 288 x 224 @ 60.606061 Hz
+
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=124832

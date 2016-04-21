@@ -1,0 +1,5 @@
+ROM set changed: yes
+0.106-0.144: rainbow - "Rainbow Islands (new version)"
+0.144u5-0.170: rbisland - "Rainbow Islands (new version)"
+
+Resolution, 0.106-0.170: 320x224 @ 60.000000Hz

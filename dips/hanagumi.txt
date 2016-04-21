@@ -1,0 +1,8 @@
+ROM set changed: no
+0.106-0.148: hanagumi - "Hanagumi Taisen Columns - Sakura Wars (J 971007 V1.010)"
+0.149-0.169: hanagumi - "Sakura Taisen - Hanagumi Taisen Columns (J 971007 V1.010)"
+
+Resolution, 0.106-0.128: 704x513 @ 60.000000Hz
+Resolution, 0.129-0.133: 704x512 @ 60.000000Hz
+Resolution, 0.134-0.142: 320x224 @ 59.828244Hz
+Resolution, 0.143-0.169: 320x224 @ 59.764793Hz

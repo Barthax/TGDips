@@ -1,0 +1,6 @@
+ROM set changed: no
+0.106-0.115: nyny - "New York New York"
+0.116-0.170: nyny - "New York! New York!"
+
+Resolution, 0.106-0.115: 256x248 @ 50.000000Hz
+Resolution, 0.116-0.170: 256x256 @ 85.449219Hz

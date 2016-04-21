@@ -1,0 +1,117 @@
+INPUT_PORTS_START( drtoppel )
+	PORT_START_TAG("DSWA")
+	PORT_DIPNAME( 0x01, 0x00, DEF_STR( Cabinet ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Upright ) )
+	PORT_DIPSETTING(    0x01, DEF_STR( Cocktail ) )
+	PORT_DIPNAME( 0x02, 0x02, DEF_STR( Flip_Screen ) )
+	PORT_DIPSETTING(    0x02, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_SERVICE( 0x04, IP_ACTIVE_LOW )
+	PORT_DIPNAME( 0x08, 0x08, DEF_STR( Demo_Sounds ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x08, DEF_STR( On ) )
+	TAITO_COINAGE_WORLD_8
+	DRTOPP_COMMON
+INPUT_PORTS_END
+
+#define TAITO_COINAGE_WORLD_8\
+	PORT_DIPNAME( 0x30, 0x30, DEF_STR( Coin_A ) )\
+	PORT_DIPSETTING(    0x00, DEF_STR( 4C_1C ) )\
+	PORT_DIPSETTING(    0x10, DEF_STR( 3C_1C ) )\
+	PORT_DIPSETTING(    0x20, DEF_STR( 2C_1C ) )\
+	PORT_DIPSETTING(    0x30, DEF_STR( 1C_1C ) )\
+	PORT_DIPNAME( 0xc0, 0xc0, DEF_STR( Coin_B ) )\
+	PORT_DIPSETTING(    0xc0, DEF_STR( 1C_2C ) )\
+	PORT_DIPSETTING(    0x80, DEF_STR( 1C_3C ) )\
+	PORT_DIPSETTING(    0x40, DEF_STR( 1C_4C ) )\
+	PORT_DIPSETTING(    0x00, DEF_STR( 1C_6C ) )
+
+#define DRTOPP_COMMON\
+	PORT_START_TAG("DSWB")\
+	PORT_DIPNAME( 0x03, 0x03, DEF_STR( Difficulty ) )\
+	PORT_DIPSETTING(    0x02, DEF_STR( Easy ) )\
+	PORT_DIPSETTING(    0x03, DEF_STR( Medium ) )\
+	PORT_DIPSETTING(    0x01, DEF_STR( Hard ) )\
+	PORT_DIPSETTING(    0x00, DEF_STR( Hardest ) )\
+	PORT_DIPNAME( 0x0c, 0x0c, DEF_STR( Bonus_Life ) )\
+	PORT_DIPSETTING(    0x0c, "30000" )\
+	PORT_DIPSETTING(    0x00, DEF_STR( Unknown ) )\
+	PORT_DIPSETTING(    0x04, DEF_STR( Unknown ) )\
+	PORT_DIPSETTING(    0x08, DEF_STR( Unknown ) )\
+	PORT_DIPNAME( 0x30, 0x30, DEF_STR( Lives ) )\
+	PORT_DIPSETTING(    0x20, "2" )\
+	PORT_DIPSETTING(    0x30, "3" )\
+	PORT_DIPSETTING(    0x10, "4" )\
+	PORT_DIPSETTING(    0x00, "5" )\
+	PORT_DIPNAME( 0x40, 0x40, DEF_STR( Unknown ) )\
+	PORT_DIPSETTING(    0x40, DEF_STR( Off ) )\
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )\
+	PORT_DIPNAME( 0x80, 0x80, DEF_STR( Unknown ) )\
+	PORT_DIPSETTING(    0x80, DEF_STR( Off ) )\
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )\
+	PORT_START_TAG("IN0")\
+	TNZS_PLAYER_INPUT(1)\
+	PORT_START_TAG("IN1")\
+	TNZS_PLAYER_INPUT(2)\
+	COMMON_IN2\
+	COMMON_COIN1(IP_ACTIVE_HIGH)\
+	COMMON_COIN2(IP_ACTIVE_HIGH)
+
+#define TNZS_PLAYER_INPUT(_n_)\
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_PLAYER(_n_)\
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_PLAYER(_n_)\
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_PLAYER(_n_)\
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_PLAYER(_n_)\
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_PLAYER(_n_)\
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_BUTTON2 ) PORT_PLAYER(_n_)\
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_UNKNOWN )\
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_START##_n_ )
+
+#define COMMON_IN2\
+	PORT_START_TAG("IN2")\
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_SERVICE1 )\
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_TILT )\
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_UNKNOWN )\
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_UNKNOWN )\
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_UNKNOWN )\
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_UNKNOWN )\
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_UNKNOWN )\
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_UNKNOWN )
+
+#define COMMON_COIN1(coinstate)\
+	PORT_START_TAG("COIN1")\
+	PORT_BIT( 0x01, coinstate, IPT_COIN1 )\
+	PORT_BIT( 0xfe, IP_ACTIVE_HIGH, IPT_UNUSED )
+
+Resoltuion: 256x224 @ 60 Hz
+
+Rules: http://www.twingalaxies.com/scores.php?scores=26127
+ROMSet: DrToppel
+Cabinet: Upright
+Flip Screen: Off
+Service Mode: Off
+Difficulty: Medium
+Bonus Life: 30000
+Lives: 3
+Unknown: Off [All]
+
+Sample correct TG:
+DSWA: offset 0x23, repeat every 0x7C, typical value 0xFE
+- DSWA: 0x01 (Cabinet): 0x00 (Upright)
+- DSWA: 0x02 (Flip_Screen): 0x02 (Off)
+- DSWA: 0x04 (unused): [not relevant]
+- DSWA: 0x08 (Demo_Sounds): [not relevant]
+- DSWA: 0x30 (Coin_A): [not relevant]
+- DSWA: 0xc0 (Coin_B: [not relevant]
+
+DSWB: offset 0x27, repeat every 0x7C, typical value 0xFF
+- DSWB: 0x03 (Difficulty): 0x03 (Medium)
+- DSWB: 0x0c (Bonus_Life): 0x0c (30000)
+- DSWB: 0x30 (Lives): 0x30 (3)
+- DSWB: 0x40 (Unknown): 0x40 (Off)
+- DSWB: 0x80 (Unknown): 0x80 (Off)
+
+    20: 00 00 00 FE 00 00 00 FF  00 00 00 FF 00 00 00 FF | ...¦... ... ... 
+    90: 00 00 00 00 00 00 00 00  3E 82 43 E1 00 00 00 FE | ........>.Cß...¦
+    A0: 00 00 00 FF 00 00 00 FF  00 00 00 FF 00 00 00 FF | ... ... ... ... 
+   110: 00 00 00 00 3E 82 43 E1  00 00 00 FE 00 00 00 FF | ....>.Cß...¦... 

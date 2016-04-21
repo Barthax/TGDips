@@ -1,0 +1,8 @@
+ROM set changes: no
+0.106-0.169: indytemp - "Indiana Jones and the Temple of Doom (set 1)"
+
+Resolution, 0.106-0.114: 336x240 @ 60.000000Hz
+Resolution, 0.115-0.169: 336x240 @ 59.922743Hz
+
+All settings (except Service Mode - which is obvious on boot) available via Service Mode (F2).  Navigation done with up/down movement and default/start button (CTRL/1) to change screens.  Settings altered with left/right movement.
+Rules: http://www.twingalaxies.com/scores.php?scores=20666

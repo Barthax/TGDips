@@ -1,0 +1,72 @@
+# MAME 0.139 source snippet
+
+static INPUT_PORTS_START( newsin7 )
+	PORT_START("IN0")
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_8WAY PORT_COCKTAIL
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_BUTTON1 )
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_8WAY
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_8WAY
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_COIN2 )
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_COIN1 )
+
+	PORT_START("IN1")
+	PORT_DIPNAME( 0x03, 0x03, DEF_STR( Coinage ) )
+	PORT_DIPSETTING(    0x03, " A 1C/1C  B 2C/1C" )
+	PORT_DIPSETTING(    0x01, " A 1C/3C  B 3C/1C" )
+	PORT_DIPSETTING(    0x02, " A 1C/2C  B 1C/1C" )
+	PORT_DIPSETTING(    0x00, " A 1C/4C  B 4C/1C" )
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_COCKTAIL
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_8WAY PORT_COCKTAIL
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_8WAY PORT_COCKTAIL
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_START2 )
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_START1 )
+
+	PORT_START("IN2")	/* IN2 */
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_8WAY PORT_COCKTAIL
+	PORT_DIPNAME( 0x02, 0x02, DEF_STR( Cabinet ) )
+	PORT_DIPSETTING(    0x02, DEF_STR( Upright ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Cocktail ) )
+	PORT_DIPNAME( 0x04, 0x00, DEF_STR( Unknown ) )  /* difficulty? */
+	PORT_DIPSETTING(    0x00, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x04, DEF_STR( On ) )
+	PORT_DIPNAME( 0x08, 0x00, DEF_STR( Lives ) )
+	PORT_DIPSETTING(    0x00, "3" )
+	PORT_DIPSETTING(    0x08, "5" )
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_8WAY
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_8WAY
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_UNKNOWN )
+INPUT_PORTS_END
+
+ROM set changed?: no.
+
+Resolution: 256x224 @ 60.606061Hz
+
+Rules: http://www.twingalaxies.com/scores.php?scores=78630
+ROMSet: NewSin7
+Cabinet: Upright
+Unknown: Off
+Lives: 3
+
+Sample correct TG:
+IN2: offset 0x60, repeat every 0x28, typical value 0xF3 (only lower nibble relevant)
+- IN2: 0x01 (joystick up, cocktail): [not relevant]
+- IN2: 0x02 (Cabinet): 0x02 (Upright)
+- IN2: 0x04 (Unknown): 0x00 (Off)
+- IN2: 0x08 (Lives): 0x00 (3)
+- IN2: 0x10 (joystick up, upright): [not relevant]
+- IN2: 0x20 (unknown): [not relevant]
+- IN2: 0x40 (joystick down): [not relevant]
+- IN2: 0x80 (unknown): [not relevant]
+
+    60: F3 00 00 00 00 00 00 00  00 00 00 00 00 40 CB 9E | =............@-.
+    80: FF 00 00 00 00 00 00 00  F3 00 00 00 00 00 00 00 |  .......=.......
+    B0: F3 00 00 00 00 00 00 00  00 00 00 00 00 C0 61 DC | =............+a_
+    D0: FF 00 00 00 00 00 00 00  F3 00 00 00 00 00 00 00 |  .......=.......
+   100: F3 00 00 00 00 00 00 00  00 00 00 00 00 40 F8 19 | =............@°.
+   120: FF 00 00 00 00 00 00 00  F3 00 00 00 00 00 00 00 |  .......=.......
+   150: F3 00 00 00 00 00 00 00  00 00 00 00 00 C0 8E 57 | =............+.W
+   170: FF 00 00 00 00 00 00 00  F3 00 00 00 00 00 00 00 |  .......=.......

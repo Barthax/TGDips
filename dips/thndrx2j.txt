@@ -1,0 +1,6 @@
+ROM set changed: yes
+0.106-0.128: thndrx2 - "Thunder Cross II (Japan)"
+0.129-0.170: thndrx2j - "Thunder Cross II (Japan)"
+
+Resolution, 0.106-0.128: 288x224 @ 60.000000Hz
+Resolution, 0.129-0.170: 288x224 @ 60.000000Hz

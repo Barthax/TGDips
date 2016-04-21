@@ -1,0 +1,46 @@
+ROM set changed: yes
+0.106-0.118: baraduke - "Baraduke (set 1)"
+0.119-0.169: aliensec - "Alien Sector"
+
+MAME History:
+- 0.118u5: Changed description of 'Baraduke (set 1)' to 'Alien Sector' and clone 'Baraduke (set 2)' to 'Baraduke'. Renamed (baraduke) to (aliensec) and (baraduka) to (baraduke). Added new gfx2 roms ($0, 8000). Fixed rom names.
+
+Resolution, 0.106-0.118: 288x224 @ 60.606060Hz
+Resolution, 0.119-0.152: 288x224 @ 60.606060Hz
+Resolution, 0.153-0.169: 288x224 @ 60.606061Hz
+
+
+Because of the unusual nature of the ROM set change, here's added information to help understand the transition was minor:
+C:\MAME>mame118 -listcrc baraduke
+ea2ea790 prg1.9c      Baraduke (set 1)
+9a0a9a87 prg2.9a      Baraduke (set 1)
+383e5458 prg3.9b      Baraduke (set 1)
+abda0fe7 prg4.3b      Baraduke (set 1)
+076ea82a cus60-60a1.mcu Baraduke (set 1)
+706b7fee ch1.3j       Baraduke (set 1)
+b0bb0710 ch2.4p       Baraduke (set 1)
+0d7ebec9 ch3.4n       Baraduke (set 1)
+e5da0896 ch4.4m       Baraduke (set 1)
+87a29acc obj1.8k      Baraduke (set 1)
+72b6d20c obj2.8l      Baraduke (set 1)
+3076af9c obj3.8m      Baraduke (set 1)
+8b4c09a3 obj4.8n      Baraduke (set 1)
+0d78ebc6 prmcolbg.1n  Baraduke (set 1)
+03f7241f prmcolr.2m   Baraduke (set 1)
+
+C:\MAME>mame119 -listcrc aliensec
+ea2ea790 bd1_3.9c     Alien Sector
+9a0a9a87 bd2_1.9a     Alien Sector
+383e5458 bd2_2.9b     Alien Sector
+abda0fe7 bd1_4.3b     Alien Sector
+076ea82a cus60-60a1.mcu Alien Sector
+706b7fee bd1_5.3j     Alien Sector
+432bd7d9 bd2_8.4p     Alien Sector
+0d7ebec9 bd1_7.4n     Alien Sector
+f4c1df60 bd2_6.4m     Alien Sector
+87a29acc bd1_9.8k     Alien Sector
+72b6d20c bd1_10.8l    Alien Sector
+3076af9c bd1_11.8m    Alien Sector
+8b4c09a3 bd1_12.8n    Alien Sector
+0d78ebc6 bd1-1.1n     Alien Sector
+03f7241f bd1-2.2m     Alien Sector

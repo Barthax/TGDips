@@ -1,0 +1,8 @@
+ROM set changed: yes
+0.106-0.127: sbasketb - "Super Basketball (version G)"
+0.127u3-0.170: sbasketg - "Super Basketball (version G, encrypted)"
+
+MAME History:
+- 0.127u3: Super Basketball changes [Kevin Eshbach]: Corrected the Super Basketball Revision H rom dump. Updated driver with the DIP locations. Corrected the VLM XTAL. Corrected parent/child relationships by making the Revision H the parent. Turned on save state support. Changed clone 'Super Basketball (not encrypted)' to parent 'Super Basketball (version H, unprotected)', '(version G)' to clone '(version G, encrypted)' and '(version E)' to '(version E, encrypted)'. Renamed (sbasketb) to (sbasketg), (sbasketu) to (sbasketb) and (sbasketo) to (sbaskete).
+
+Resolution, 0.106-0.170: 256x224 @ 60.000000Hz

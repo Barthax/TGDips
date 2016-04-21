@@ -1,0 +1,9 @@
+ROM set changed: yes
+0.106-0.138: looping - "Looping (Set 1)"
+0.139-0.169: loopingv - "Looping (Venture Line license, set 1)"
+
+Resolution, 0.106-0.113: 256x224 @ 60.606060Hz
+Resolution, 0.114-0.169: 256x224 @ 60.606061Hz
+
+Rules: http://www.twingalaxies.com/scores.php?scores=10835
+

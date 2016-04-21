@@ -1,0 +1,131 @@
+INPUT_PORTS_START( bosco )
+	PORT_START
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_BUTTON1 )
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_COCKTAIL
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_START1 )
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_START2 )
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_COIN1 )
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_COIN2 )
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_SERVICE1 )
+	PORT_SERVICE( 0x80, IP_ACTIVE_LOW )
+
+
+	PORT_START
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_8WAY
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_8WAY
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_8WAY
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_8WAY
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_8WAY PORT_COCKTAIL
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_8WAY PORT_COCKTAIL
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_8WAY PORT_COCKTAIL
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_8WAY PORT_COCKTAIL
+
+
+	PORT_START	/* DSW A */
+	PORT_DIPNAME( 0x03, 0x03, DEF_STR( Difficulty ) )
+	PORT_DIPSETTING(    0x01, DEF_STR( Easy ) )
+	PORT_DIPSETTING(    0x03, DEF_STR( Medium ) )
+	PORT_DIPSETTING(    0x02, DEF_STR( Hardest ) )
+	PORT_DIPSETTING(    0x00, "Auto" )
+	PORT_DIPNAME( 0x04, 0x04, DEF_STR( Unknown ) )
+	PORT_DIPSETTING(    0x04, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x08, 0x00, DEF_STR( Demo_Sounds ) )
+	PORT_DIPSETTING(    0x08, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x10, 0x10, "Freeze" )
+	PORT_DIPSETTING(    0x10, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x20, 0x20, DEF_STR( Allow_Continue ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( No ) )
+	PORT_DIPSETTING(    0x20, DEF_STR( Yes ) )
+	PORT_DIPNAME( 0x40, 0x40, DEF_STR( Unknown ) )
+	PORT_DIPSETTING(    0x40, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x80, 0x80, DEF_STR( Cabinet ) )
+	PORT_DIPSETTING(    0x80, DEF_STR( Upright ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Cocktail ) )
+
+
+	PORT_START	/* DSW B */
+	PORT_DIPNAME( 0x07, 0x07, DEF_STR( Coinage ) )
+	PORT_DIPSETTING(    0x01, DEF_STR( 4C_1C ) )
+	PORT_DIPSETTING(    0x02, DEF_STR( 3C_1C ) )
+	PORT_DIPSETTING(    0x03, DEF_STR( 2C_1C ) )
+	PORT_DIPSETTING(    0x07, DEF_STR( 1C_1C ) )
+	PORT_DIPSETTING(    0x04, DEF_STR( 2C_3C ) )
+	PORT_DIPSETTING(    0x06, DEF_STR( 1C_2C ) )
+	PORT_DIPSETTING(    0x05, DEF_STR( 1C_3C ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Free_Play ) )
+	/* TODO: bonus scores are different for 5 lives */
+	PORT_DIPNAME( 0x38, 0x08, "Bonus Fighter" )
+	PORT_DIPSETTING(    0x30, "15K 50K" )
+	PORT_DIPSETTING(    0x38, "20K 70K" )
+	PORT_DIPSETTING(    0x08, "10K 50K 50K" )
+	PORT_DIPSETTING(    0x10, "15K 50K 50K" )
+	PORT_DIPSETTING(    0x18, "15K 70K 70K" )
+	PORT_DIPSETTING(    0x20, "20K 70K 70K" )
+	PORT_DIPSETTING(    0x28, "30K 100K 100K" )
+	PORT_DIPSETTING(    0x00, DEF_STR( None ) )
+	PORT_DIPNAME( 0xc0, 0x80, DEF_STR( Lives ) )
+	PORT_DIPSETTING(    0x00, "1" )
+	PORT_DIPSETTING(    0x40, "2" )
+	PORT_DIPSETTING(    0x80, "3" )
+	PORT_DIPSETTING(    0xc0, "5" )
+INPUT_PORTS_END
+
+
+Resolution: 288x224 @ 60.606060 Hz
+
+
+Rules, Marathon: http://www.twingalaxies.com/scores.php?scores=5231
+Special Rules: Continues are NOT allowed!
+
+
+Rules, Tournament, 5 Lives: http://www.twingalaxies.com/scores.php?scores=7696
+Special Rules: Your scoring attempt ends after your 3rd, 4th or 5th life, depending on if you earn Extra Lives. Continues are NOT allowed!
+
+
+Rules, Tournament, 1 Life: http://www.twingalaxies.com/scores.php?scores=11797
+Special Rules: Your scoring attempt ends after your 1st life, although you MAY continue playing and submit as a 5 Life Tournament score or a Marathon score. Continues are NOT allowed!
+
+
+Listed settings for all variations*:
+ROMSet: Bosco 
+Unknown: Off [All]
+Freeze: Off
+Allow Continue: No
+Rank: A [Medium Difficulty]
+Starting ships: 3
+Extra ships: 20K Then 70K
+
+
+Sample correct TG:
+DSW A: offset 0x2B, repeat every 0x7C, typical value 0xD7
+- DSW A: 0x03 (Difficulty): 0x03 (Medium)
+- DSW A: 0x04 (Unknown): 0x04 (Off)
+- DSW A: 0x08 (Demo_Sounds): [not relevant]
+- DSW A: 0x10 (Freeze): 0x10 (Off)
+- DSW A: 0x20 (Allow Continue): 0x00 (No)
+- DSW A: 0x40 (Unknown): 0x40 (Off)
+- DSW A: 0x80 (Cabinet): [not relevant]
+
+
+DSW B: offset 0x2F, repeat every 0x7C, typical value 0xBF
+- DSW B: 0x07 (Coinage): [not relevant]
+- DSW B: 0x38 (Bonus Fighter): 0x38 (20K 70K)*
+- DSW B: 0xc0 (Lives): 0x80
+
+
+*Even the MAME Marathon track lists the bonus setting as only "20K Then 70K." The Marathon arcade track lists the bonus as "Dip Switch 6k / 4-5: ON / 6: OFF" and "1st Ship @ 20,000 2nd Ship @ 70,000 and every 70,000." Clearly the Marathon tracks are intended to allow for the continued accumulation of bonus lives and the 1-Life track allows for the game to be played and submitted as a 5-Life or Marathon game. Therefore, an allowable alternative for DSW B is as follows:
+
+
+DSW B: offset 0x2F, repeat every 0x7C, typical value 0xA7
+- DSW B: 0x07 (Coinage): [not relevant]
+- DSW B: 0x38 (Bonus Fighter): 0x20 (20K 70K 70K)
+- DSW B: 0xc0 (Lives): 0x80
+
+
+    20: 00 00 00 FF 00 00 00 FF  00 00 00 D7 00 00 00 BF | ...ÿ...ÿ...×...¿
+    A0: 00 00 00 FF 00 00 00 D7  00 00 00 BF 00 00 00 00 | ...ÿ...×...¿....
+   120: 00 00 00 D7 00 00 00 BF  00 00 00 00 00 00 00 00 | ...×...¿........

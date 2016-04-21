@@ -1,0 +1,9 @@
+ROM set changed: no
+0.106-0.170: ctribe - "The Combatribes (US)"
+
+Resolution, 0.106-0.109: 320x232 @ 60.000000Hz
+Resolution, 0.110-0.125: 320x240 @ 60.000000Hz
+Resolution, 0.126-0.128: 320x240 @ 57.000000Hz
+Resolution, 0.129-0.149: 320x240 @ 57.444853Hz
+Resolution, 0.150: 320x240 @ 49.238445Hz
+Resolution, 0.151-0.170: 320x240 @ 57.444853Hz

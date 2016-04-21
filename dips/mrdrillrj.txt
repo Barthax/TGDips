@@ -1,0 +1,7 @@
+ROM set changed: yes
+0.106-0.130: mrdrillr - "Mr Driller (DRI1/VER.A2)"
+0.131-0.133: mrdrillr - "Mr Driller (Japan, DRI1/VER.A2)"
+0.134-0.152: mrdrillr - "Mr. Driller (Japan, DRI1/VER.A2)"
+0.153-0.169: mrdrillrj - "Mr. Driller (Japan, DRI1/VER.A2)"
+
+Resolution, 0.106-0.169: 640x480 @ 60.000000Hz

@@ -1,0 +1,14 @@
+ROM set changed: yes
+0.106-0.138: 1943 - "1943: The Battle of Midway (US)"
+0.138u1-0.143: 1943u - "1943: The Battle of Midway (US)"
+0.144-0.171: 1943u - "1943: The Battle of Midway (US, Rev C)" (description only changed)
+
+MAME History:
+- 0.138u1: Stefan Lindberg added 1943: The Battle of Midway (Euro). Renamed (1943) to (1943u).
+
+Resolution, 0.106-0.171: 256x224 @ 60.000000Hz
+
+Rules, Single Player Only: http://www.twingalaxies.com/scores.php?scores=5155
+Rules, Single Player max points NO Specials: http://www.twingalaxies.com/scores.php?scores=132363
+Rules, Two Player Team: http://www.twingalaxies.com/scores.php?scores=11970
+

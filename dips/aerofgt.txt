@@ -1,0 +1,6 @@
+ROM set changed: no
+0.106-0.147: aerofgt - "Aero Fighters"
+0.148-0.168: aerofgt - "Aero Fighters (World / USA + Canada / Korea / Hong Kong / Taiwan) (newer hardware)" (minor description change)
+
+Resolution, 0.106-0.135: 320x224 @ 60.000000Hz
+Resolution, 0.136-0.168: 320x224 @ 61.310000Hz

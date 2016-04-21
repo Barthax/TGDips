@@ -1,0 +1,12 @@
+ROM set changed: yes
+0.106-0.115: tdragon2 - "Thunder Dragon 2"
+0.115u3-0.133: tdragn2a - "Thunder Dragon 2 (1st Oct. 1993)"
+0.133u1-0.170: tdragon2a - "Thunder Dragon 2 (1st Oct. 1993)"
+
+MAME History:
+- 0.115u3: Corrado Tomaselli added Thunder Dragon 2 (9th Nov. 1993). Changed the sound balance in Thunder Dragon 2 to match the original PCB. Also verified the 68000 clock. Changed 'Thunder Dragon 2' to clone '(1st Oct. 1993)' and clone 'Big Bang' to 'Big Bang (9th Nov. 1993)'. Renamed (tdragon2) to (tdragn2a).
+- 0.133u1: Brian Troha added DIP locations to Thunder Dragon 2. Renamed (tdragn2a) to (tdragon2a).
+
+Resolution, 0.106-0.122: 384x224 @ 57.000000Hz
+Resolution, 0.123-0.154: 384x224 @ 56.000000Hz
+Resolution, 0.155-0.170: 384x224 @ 56.180000Hz

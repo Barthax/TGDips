@@ -1,0 +1,67 @@
+# MAME 0.106 source snippet.
+
+/*******************************************************/
+/*                                                     */
+/* Midway "Shuffleboard"                               */
+/*                                                     */
+/*******************************************************/
+
+INPUT_PORTS_START( shuffle )
+	PORT_START_TAG("DSW0")
+	PORT_DIPNAME( 0x03, 0x00, DEF_STR( Language ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( English ) )
+	PORT_DIPSETTING(    0x01, DEF_STR( French ) )
+	PORT_DIPSETTING(    0x02, DEF_STR( German ) )
+  /*PORT_DIPSETTING(    0x03, DEF_STR( German ) )*/
+	PORT_DIPNAME( 0x0c, 0x04, "Points to Win" )
+	PORT_DIPSETTING(    0x00, "25" )
+	PORT_DIPSETTING(    0x04, "35" )
+	PORT_DIPSETTING(    0x08, "40" )
+	PORT_DIPSETTING(    0x0c, "50" )
+	PORT_DIPNAME( 0x30, 0x10, DEF_STR( Coinage ) )
+	PORT_DIPSETTING(    0x30, "2 Coins/1 Player  4 Coins/2 Players" )
+	PORT_DIPSETTING(    0x20, "2 Coins/1 or 2 Players" )
+	PORT_DIPSETTING(    0x10, "1 Coin/1 Player  2 Coins/2 Players" )
+	PORT_DIPSETTING(    0x00, "1 Coin/1 or 2 Players" )
+	PORT_DIPNAME( 0x40, 0x00, DEF_STR( Unknown ) )	/* time limit? */
+	PORT_DIPSETTING(    0x00, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x40, DEF_STR( On ) )
+	PORT_SERVICE( 0x80, IP_ACTIVE_LOW )
+
+	PORT_START_TAG("IN1")
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_COIN1  )
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_START1 )
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_START2 )
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_BUTTON1) PORT_NAME("Game Select")
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_UNUSED )
+
+	PORT_START_TAG("IN2")
+	PORT_BIT( 0xff, 0, IPT_TRACKBALL_Y ) PORT_SENSITIVITY(10) PORT_KEYDELTA(10)
+
+	PORT_START_TAG("IN3")
+	PORT_BIT( 0xff, 0, IPT_TRACKBALL_X ) PORT_SENSITIVITY(10) PORT_KEYDELTA(10) PORT_REVERSE
+INPUT_PORTS_END
+
+Resolution: 256x224 @ 60Hz
+
+Rules: http://www.twingalaxies.com/scores.php?scores=110648
+ROMSet: Shuffle
+Language: English
+Points To Win: 35
+Unknown: Off
+Service Mode: Off
+
+Sample correct TG:
+DSW0: offset 0x23, repeat 0x7C then 0x84 then every 0x7C, typical value 0x94
+- DSW0: 0x03 (Language): 0x00 (English)
+- DSW0: 0x0c (Points to Win): 0x04 (35)
+- DSW0: 0x30 (Coinage): [not relevant]
+- DSW0: 0x40 (Unknown): 0x00 (Off)
+- DSW0: 0x80 (service): 0x80 (Off)
+
+    20: 00 00 00 94 00 00 00 FF  00 00 00 00 00 00 00 00 | ....... ........
+    90: 00 00 00 00 00 00 00 00  3E 82 43 E1 00 00 00 94 | ........>.Cß....
+   120: 00 00 00 94 00 00 00 FF  00 00 00 00 00 00 00 00 | ....... ........

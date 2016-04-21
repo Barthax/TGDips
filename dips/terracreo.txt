@@ -1,0 +1,5 @@
+ROM set changed: yes
+0.106-0.141: terracre - "Terra Cresta (YM3526 set 1)"
+0.141u4-0.170: terracreo - "Terra Cresta (YM3526 set 2)"
+
+Resolution, 0.106-0.170: 256x224 @ 60.000000Hz

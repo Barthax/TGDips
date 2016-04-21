@@ -1,0 +1,5 @@
+ROM set changed: yes
+0.106-0.152: shanghai - "Shanghai (Japan)"
+0.153-0.170: shanghaij - "Shanghai (Japan)"
+
+Resolution, 0.106-0.170: 384x280 @ 30.000000Hz

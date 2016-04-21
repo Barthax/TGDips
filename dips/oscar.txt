@@ -1,0 +1,10 @@
+ROM set changes: yes
+0.106-0.128: oscar - "Psycho-Nics Oscar (US)"
+0.129-0.169: oscaru - "Psycho-Nics Oscar (US)"
+
+Resolution, 0.106-0.128: 256x240 @ 58.000000Hz
+Resolution, 0.129-0.147: 256x240 @ 58.000000Hz
+Resolution, 0.148-0.155: 256x240 @ 57.392103Hz
+Resolution, 0.156-0.169: 256x240 @ 57.444853Hz
+
+Rules: http://www.twingalaxies.com/scores.php?scores=78987

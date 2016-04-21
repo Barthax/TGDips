@@ -1,0 +1,6 @@
+ROM set changed: yes
+0.106-0.148: thunderj - "ThunderJaws"
+0.149-0.170: thunderja - "ThunderJaws (rev 2)"
+
+Resolution, 0.106-0.114: 336x240 @ 60.000000Hz
+Resolution, 0.115-0.170: 336x240 @ 59.922743Hz

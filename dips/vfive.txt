@@ -1,0 +1,8 @@
+ROM set changed: no
+0.106-0.170: vfive - "V-Five (Japan)"
+
+Resolution, 0.106-0.113: 320x240 @ 59.410645Hz
+Resolution, 0.114-0.127: 320x240 @ 59.410646Hz
+Resolution, 0.128-0.141: 320x240 @ 59.000000Hz
+Resolution, 0.142-0.151: 320x240 @ 59.410646Hz
+Resolution, 0.152-0.170: 320x240 @ 59.637405Hz

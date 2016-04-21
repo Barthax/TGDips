@@ -1,0 +1,6 @@
+ROM set changed: yes
+0.106-0.111: bwing - "B-Wings (Japan)"
+0.112-0.169: bwingso - "B-Wings (Japan old Ver.)"
+
+Resolution, 0.106-0.169: 256x240 @ 60.000000Hz
+

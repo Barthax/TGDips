@@ -1,0 +1,10 @@
+ROM set changed: no
+0.106-0.146: redbaron - "Red Baron"
+0.147-0.170: redbaron - "Red Baron (Revised Hardware)"
+
+MAME History:
+- 0.146u1: Andrew Welburn and The Dumping Union added clone Red Baron. Changed parent description to 'Red Baron (Revised Hardware)'. Couriersud fixed bad POKEY sound in Red Baron (wrong address_map_entry). Added address decoding PROM to Red Baron. Currently not used in emulation but we archive it anyways [The Dumping Union]. Fixed rom names.
+
+Resolution, 0.106-0.108: vector @ 45.000000Hz
+Resolution, 0.109-0.152: vector @ 60.000000Hz
+Resolution, 0.153-0.170: vector @ 61.523438Hz

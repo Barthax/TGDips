@@ -1,0 +1,5 @@
+ROM set changed: no
+0.106-0.135: spacedx - "Space Invaders DX (US) v2.1"
+0.136-0.169: spacedx - "Space Invaders DX (US, v2.1)"
+
+Resolution, 0.106-0.169: 320x224 @ 60.000000Hz

@@ -1,0 +1,7 @@
+ROM set changed: no
+0.106-0.169: chasehq - "Chase H.Q. (World)"
+
+Resolution, 0.106-0.169: 320x240 @ 60.000000Hz
+
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=16878
+NB: Difficulty = "Normal" was relabelled to "Medium" between 0.126 & 0.127.

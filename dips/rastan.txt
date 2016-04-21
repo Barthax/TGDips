@@ -1,0 +1,5 @@
+ROM set changed: yes
+0.106-0.145: rastan - "Rastan (World)"
+0.145u6-0.170: rastana - "Rastan (World)"
+
+Resolution, 0.106-0.170: 320x240 @ 60.000000Hz

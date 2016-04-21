@@ -1,0 +1,5 @@
+ROM set changed: no
+0.106-0.129: rockrage - "Rock 'n Rage (World?)"
+0.130-0.170: rockrage - "Rock'n Rage (World)"
+
+Resolution, 0.106-0.170: 256x224 @ 60.000000Hz

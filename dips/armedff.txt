@@ -1,0 +1,6 @@
+ROM set changed: yes
+0.106-0.137: armedf - "Armed Formation"
+0.138-0.169: armedff - "Armed Formation (Fillmore license)"
+
+Resolution, 0.106-0.169: 320x240 @ 57.000000Hz
+

@@ -1,0 +1,7 @@
+ROM set changed: yes
+0.106-0.130: starblad - "Starblade"
+0.131-0.148: starblad - "Starblade (Japan)"
+0.148u2-0.170: starbladj - "Starblade (Japan)"
+
+Resolution, 0.106-0.170: 496x480 @ 60.000000Hz
+

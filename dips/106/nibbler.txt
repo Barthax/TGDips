@@ -1,0 +1,106 @@
+# MAME 0.106 source snippet.
+
+INPUT_PORTS_START( nibbler )
+	PORT_START	// IN0
+	PORT_BIT(0x01, IP_ACTIVE_HIGH, IPT_SERVICE ) PORT_NAME("Debug 0") PORT_CODE(KEYCODE_Z) // slow down
+	PORT_BIT(0x02, IP_ACTIVE_HIGH, IPT_SERVICE ) PORT_NAME("Debug 1") PORT_CODE(KEYCODE_X)
+	PORT_BIT(0x04, IP_ACTIVE_HIGH, IPT_SERVICE ) PORT_NAME("Debug 2") PORT_CODE(KEYCODE_C)
+	PORT_BIT(0x08, IP_ACTIVE_HIGH, IPT_SERVICE ) PORT_NAME("Debug 3") PORT_CODE(KEYCODE_V)
+	PORT_BIT( 0x10, IP_ACTIVE_HIGH, IPT_JOYSTICK_DOWN) PORT_8WAY
+	PORT_BIT( 0x20, IP_ACTIVE_HIGH, IPT_JOYSTICK_UP) PORT_8WAY
+	PORT_BIT( 0x40, IP_ACTIVE_HIGH, IPT_JOYSTICK_RIGHT ) PORT_8WAY
+	PORT_BIT( 0x80, IP_ACTIVE_HIGH, IPT_JOYSTICK_LEFT ) PORT_8WAY
+
+	PORT_START	// IN1
+	PORT_BIT(0x01, IP_ACTIVE_HIGH, IPT_SERVICE ) PORT_NAME("Debug 4") PORT_CODE(KEYCODE_B) // pause
+	PORT_BIT(0x02, IP_ACTIVE_HIGH, IPT_SERVICE ) PORT_NAME("Debug 5") PORT_CODE(KEYCODE_N) // unpause
+	PORT_BIT(0x04, IP_ACTIVE_HIGH, IPT_SERVICE ) PORT_NAME("Debug 6") PORT_CODE(KEYCODE_M) // end game
+	PORT_BIT(0x08, IP_ACTIVE_HIGH, IPT_SERVICE ) PORT_NAME("Debug 7") PORT_CODE(KEYCODE_K)
+	PORT_BIT( 0x10, IP_ACTIVE_HIGH, IPT_JOYSTICK_DOWN ) PORT_8WAY PORT_COCKTAIL
+	PORT_BIT( 0x20, IP_ACTIVE_HIGH, IPT_JOYSTICK_UP ) PORT_8WAY PORT_COCKTAIL
+	PORT_BIT( 0x40, IP_ACTIVE_HIGH, IPT_JOYSTICK_RIGHT ) PORT_8WAY PORT_COCKTAIL
+	PORT_BIT( 0x80, IP_ACTIVE_HIGH, IPT_JOYSTICK_LEFT ) PORT_8WAY PORT_COCKTAIL
+
+	PORT_START	// DSW0
+	PORT_DIPNAME( 0x03, 0x00, DEF_STR( Lives ) )
+	PORT_DIPSETTING(    0x00, "3" )
+	PORT_DIPSETTING(    0x01, "4" )
+	PORT_DIPSETTING(    0x02, "5" )
+	PORT_DIPSETTING(    0x03, "6" )
+	PORT_DIPNAME( 0x04, 0x00, "Pause at Corners" )
+	PORT_DIPSETTING(    0x04, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x08, 0x00, DEF_STR( Cabinet ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Upright ) )
+	PORT_DIPSETTING(    0x08, DEF_STR( Cocktail ) )
+	PORT_SERVICE( 0x10, IP_ACTIVE_HIGH )
+	PORT_DIPNAME( 0x20, 0x00, DEF_STR( Free_Play ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x20, DEF_STR( On ) )
+	PORT_DIPNAME( 0xc0, 0x00, DEF_STR( Coinage ) )
+	PORT_DIPSETTING(    0x40, DEF_STR( 2C_1C ) )
+	PORT_DIPSETTING(    0xc0, DEF_STR( 4C_3C ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( 1C_1C ) )
+	PORT_DIPSETTING(    0x80, DEF_STR( 2C_3C ) )
+
+	PORT_START	// IN2
+	PORT_BIT( 0x01, IP_ACTIVE_HIGH, IPT_COIN2 ) PORT_IMPULSE(1)
+	PORT_BIT( 0x02, IP_ACTIVE_HIGH, IPT_COIN1 ) PORT_IMPULSE(1)
+	PORT_BIT( 0x04, IP_ACTIVE_HIGH, IPT_UNKNOWN )
+	PORT_BIT( 0x08, IP_ACTIVE_HIGH, IPT_UNKNOWN )
+	PORT_BIT( 0x10, IP_ACTIVE_HIGH, IPT_UNKNOWN )
+	PORT_BIT( 0x20, IP_ACTIVE_HIGH, IPT_UNKNOWN )
+	PORT_BIT( 0x40, IP_ACTIVE_HIGH, IPT_START2 )
+	PORT_BIT( 0x80, IP_ACTIVE_HIGH, IPT_START1 )
+INPUT_PORTS_END
+
+Resolution: 256x224 @ 61.246746 Hz
+
+----
+Rules, Marathon: http://www.twingalaxies.com/scores.php?scores=7777
+Rules, Tournament - 5 Life Limit: http://www.twingalaxies.com/scores.php?scores=57234&ref=fbshare
+ROMSet: Nibbler
+Lives: 3 [Extra Life after Every 4th Wave]
+Pause At Corners: On
+Cabinet: Upright
+Service Mode: Off
+Free Play: Off
+
+Sample correct TG:
+DSW0: offset 0x2B, repeat every 0x7C, typical value 0x00
+- DSW0: 0x03 (Lives): 0x00 (3)
+- DSW0: 0x04 (Pause at Corners): 0x00 (On)
+- DSW0: 0x08 (Cabinet): 0x00 (Upright)
+- DSW0: 0x10 (unused): [not relevant]
+- DSW0: 0x20 (Free_Play): 0x00 (Off)
+- DSW0: 0xc0 (Coinage): [not relevant]
+    20: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 | ................
+    A0: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 | ................
+   120: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 | ................
+
+Hard to tell from a quick glance but is a line below & one back from the frame:
+   3F0: 00 00 00 00 00 00 00 00  00 00 00 00 A2 82 43 E1 | ............ó.Cß
+   400: 00 00 00 00 00 00 00 00  00 00 00>00<00 00 00 00 | ................
+
+   950: A2 82 43 E1 00 00 00 00  00 00 00 00 00 00 00>00<| ó.Cß............
+
+----
+Rules, Training Camp: http://www.twingalaxies.com/scores.php?scores=197849
+ROMset: Player Choice. 
+Lives: Player Choice up to 6 [Extra Life after Every 4th Wave]
+Pause At Corners: On
+Cabinet: Upright
+Service Mode: Off
+Free Play: Player Choice
+
+Sample correct TG:
+DSW0: offset 0x2B, repeat every 0x7C, typical value 0x03 (6 lives probably typical)
+- DSW0: 0x03 (Lives): [not relevant]
+- DSW0: 0x04 (Pause at Corners): 0x00 (On)
+- DSW0: 0x08 (Cabinet): 0x00 (Upright)
+- DSW0: 0x10 (unused): [not relevant]
+- DSW0: 0x20 (Free_Play): [not relevant]
+- DSW0: 0xc0 (Coinage): [not relevant]
+    20: 00 00 00 00 00 00 00 00  00 00 00 03 00 00 00 00 | ................
+    A0: 00 00 00 00 00 00 00 03  00 00 00 00 00 00 00 00 | ................
+   120: 00 00 00 03 00 00 00 00  00 00 00 00 00 00 00 00 | ................

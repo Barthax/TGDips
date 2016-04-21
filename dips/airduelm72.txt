@@ -1,0 +1,9 @@
+ROM set changed: yes
+0.106-0.166: airduel - "Air Duel (Japan)"
+0.167-0.168: airduelm72 - "Air Duel (Japan, M72)"
+
+Resolution, 0.106-0.122: 384x256 @ 55.000000Hz
+Resolution, 0.123-0.168: 384x256 @ 55.017606 Hz
+
+Rules, Single Player: http://www.twingalaxies.com/scores.php?scores=11820
+Rules, Two Player: http://www.twingalaxies.com/scores.php?scores=11821

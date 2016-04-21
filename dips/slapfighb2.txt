@@ -1,0 +1,5 @@
+ROM set changed: yes
+0.106-0.138: slapbtuk - "Slap Fight (English bootleg)"
+0.138u3-0.170: slapfighb2 - "Slap Fight (bootleg set 2)"
+
+Resolution, 0.139-0.170: 280x240 @ 60.000000Hz

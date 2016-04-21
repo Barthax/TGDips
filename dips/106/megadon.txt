@@ -1,0 +1,94 @@
+#MAME Source info from epos.c
+#Source/driver version 0.106
+
+
+#Game Information: (Year, Driver, Parent, Machine, Inputs, Init, Orientation, Manufacturer, Name, Status)
+GAME( 1982, megadon,  0,        epos,   megadon,  0,         ROT270, "Epos Corporation (Photar Industries license)", "Megadon", 0 )
+
+
+/* I think the upper two bits of port 1 are used as a simple form of protection,
+   so that ROMs couldn't be simply swapped.  Each game checks these bits and halts
+   the processor if an unexpected value is read. */
+
+
+INPUT_PORTS_START( megadon )
+    PORT_START_TAG("IN0")
+    PORT_DIPNAME( 0x01, 0x00, DEF_STR( Coinage ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( 1C_1C ) )
+    PORT_DIPSETTING(    0x01, DEF_STR( 1C_2C ) )
+    PORT_DIPNAME( 0x02, 0x00, "Fuel Consumption" )
+    PORT_DIPSETTING(    0x00, "Slow" )
+    PORT_DIPSETTING(    0x02, "Fast" )
+    PORT_DIPNAME( 0x04, 0x00, "Rotation" )
+    PORT_DIPSETTING(    0x04, "Slow" )
+    PORT_DIPSETTING(    0x00, "Fast" )
+    PORT_DIPNAME( 0x08, 0x08, "ERG" )
+    PORT_DIPSETTING(    0x08, DEF_STR( Easy ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( Hard ) )
+    PORT_DIPNAME( 0x20, 0x20, "Enemy Fire Rate" )
+    PORT_DIPSETTING(    0x20, "Slow" )
+    PORT_DIPSETTING(    0x00, "Fast" )
+    PORT_DIPNAME( 0x50, 0x00, DEF_STR( Lives ) )
+    PORT_DIPSETTING(    0x00, "3" )
+    PORT_DIPSETTING(    0x10, "4" )
+    PORT_DIPSETTING(    0x40, "5" )
+    PORT_DIPSETTING(    0x50, "6" )
+    PORT_DIPNAME( 0x80, 0x00, "Game Mode" )
+    PORT_DIPSETTING(    0x00, "Arcade" )
+    PORT_DIPSETTING(    0x80, "Contest" )
+
+
+    PORT_START_TAG("IN1")
+    PORT_BIT( 0x01, IP_ACTIVE_HIGH, IPT_COIN1 )
+    PORT_BIT( 0x02, IP_ACTIVE_LOW,  IPT_UNKNOWN )
+    PORT_BIT( 0x04, IP_ACTIVE_LOW,  IPT_START1 )
+    PORT_BIT( 0x08, IP_ACTIVE_LOW,  IPT_START2 )
+    PORT_SERVICE_NO_TOGGLE(0x10, IP_ACTIVE_LOW)
+    PORT_BIT( 0x20, IP_ACTIVE_LOW,  IPT_UNKNOWN )
+    PORT_BIT( 0x40, IP_ACTIVE_LOW,  IPT_SPECIAL )    /* this has to be HI */
+    PORT_BIT( 0x80, IP_ACTIVE_LOW,  IPT_SPECIAL )   /* this has to be HI */
+
+
+    PORT_START_TAG("IN2")
+    PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT )
+    PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT )
+    PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_BUTTON1 )
+    PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_BUTTON2 )
+    PORT_BIT( 0xf0, IP_ACTIVE_LOW, IPT_UNKNOWN )
+
+
+    PORT_START_TAG("IN3")
+    PORT_BIT( 0xff, IP_ACTIVE_HIGH, IPT_UNKNOWN )
+INPUT_PORTS_END
+
+
+Resolution: 272x236 @ 60 Hz
+
+
+Rules: http://www.twingalaxies.com/scores.php?scores=19173
+ROMSet: Megadon
+Fuel Consumption: Slow
+Rotation: Fast
+ERG: Easy
+Enemy Fire Rate: Slow
+Lives: 3
+Game Mode: Arcade
+Special Rules: None
+
+
+Note: These are the default settings in WolfMAME 0.106
+
+
+Sample correct TG:
+IN0: Offset 0x23, repeat every 0x7C, typical value 0x28
+-IN0: 0x01 (Coinage): [not relevant, typical value 0x00 (1C_1C)]
+-IN0: 0x02 (Fuel Consumption): 0x00 (Slow)
+-IN0: 0x04 (Rotation): 0x00 (Fast)
+-IN0: 0x08 (ERG): 0x08 (Easy)
+-IN0: 0x20 (Enemy Fire Rate): 0x20 (Slow)
+-IN0: 0x50 (Lives): 0x00 (3)
+-IN0: 0x80 (Game Mode): 0x00 (Arcade)
+
+
+90: 00 00 00 00 00 00 00 00  3E 82 43 E1 00 00 00 28 | ........>‚Cá...(
+A0: 00 00 00 FE 00 00 00 FF  00 00 00 00 00 00 00 00 | ...þ...ÿ........

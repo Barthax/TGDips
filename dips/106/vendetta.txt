@@ -1,0 +1,26 @@
+#MAME Source info from vendetta.c
+#Source/driver version 0.106
+
+
+#Game Information: (Year, Driver, Parent, Machine, Inputs, Init, Orientation, Manufacturer, Name, Status)
+GAME( 1991, vendetta, 0,        vendetta, vendet4p, vendetta, ROT0, "Konami", "Vendetta (World 4 Players ver. T)", 0 )
+
+
+Resolution: 304x224 @ 60 Hz
+
+
+Settings are adjusted in Service Mode (F2) and will be evident in playback if changed. Settings can also be checked after playback. No DIP analysis or INP dump needed.
+
+
+Rules: http://www.twingalaxies.com/scores.php?scores=21360
+
+
+ROMSet: Vendetta
+
+
+Internal Defaults
+-----------------
+Player Life: 2 Lives
+Difficulty: Normal
+Video Screen Flip: Normal
+Special Rules: The above are the default internal settings for this title and need not be changed. This is a Single Player ONLY Variation! You may freely choose your character. Continues are NOT allowed!

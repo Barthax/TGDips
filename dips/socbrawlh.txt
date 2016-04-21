@@ -1,0 +1,9 @@
+ROM set changed: yes
+0.106-0.121: socbrawl - "Soccer Brawl"
+0.122-0.138: socbrawl - "Soccer Brawl (set 1)"
+0.138u4-0.143: socbrawlh - "Soccer Brawl (set 2)"
+0.144-0.170: socbrawlh - "Soccer Brawl (NGH-031)"
+
+Resolution, 0.106-0.113: 320x224 @ 59.185608Hz
+Resolution, 0.114-0.138: 320x224 @ 59.185606Hz
+Resolution, 0.139-0.170: 320x224 @ 59.185606Hz

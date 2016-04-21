@@ -1,0 +1,8 @@
+ROM set changed?:
+0.31-0.169: toobin - "Toobin' (rev 3)"
+
+Resolution, 0.106-0.128: 512x384 @ 60.000000Hz
+Resolution, 0.129-0.169: 512x384 @ 60.096154Hz
+
+Rules: http://www.twingalaxies.com/scores.php?scores=20657
+

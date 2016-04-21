@@ -1,0 +1,8 @@
+ROM Set changes: No
+0.106-0.149: kungfum - "Kung-Fu Master"
+0.150-0.170: kungfum - "Kung-Fu Master (World)"   (minor description change only)
+
+Resolution, 0.106-0.170: 256x256 @ 55.000000Hz
+
+Rules, Points [Tournament Settings]: http://www.twingalaxies.com/scores.php?scores=7759
+Rules, Points [Marathon Settings]: http://www.twingalaxies.com/scores.php?scores=7758

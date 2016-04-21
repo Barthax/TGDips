@@ -1,0 +1,15 @@
+All games in namcos12.c are software-dips only.
+
+Resolution: multiple resolutions during boot up but gameplay is at 512x480 @60Hz
+
+Rules, 500M: http://www.twingalaxies.com/scores.php?scores=20779
+Rules, 1000M: http://www.twingalaxies.com/scores.php?scores=20780
+ROMSet: MrDrillr
+Service Mode: Off
+Freeze: Off
+Internal Defaults
+-----------------
+500M Difficulty: Medium
+1000M Difficulty: Medium
+Life: 3
+Music In Attract: Yes

@@ -1,0 +1,6 @@
+ROM set changed: no
+0.106-0.145: goldmedl - "Gold Medalist"
+0.146-0.169: goldmedl - "Gold Medalist (set 1)"
+
+Resolution, 0.106-0.155: 256x224 @ 60.000000Hz
+Resolution, 0.156-0.169: 256x224 @ 60.191409Hz

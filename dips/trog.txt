@@ -1,0 +1,12 @@
+ROM set changed: yes
+0.106-0.120u2: trog - "Trog (rev LA4 03/11/91)"
+0.120u3-0.169: trog4 - "Trog (rev LA4 03/11/91)"
+
+MAME History:
+- 0.120u3: icronnya77 added Trog (rev LA5 03/29/91). Changed parent description to 'Trog (rev LA5 03/29/91)'. Renamed (trog) to (trog4).
+
+Resolution, 0.106-0.113: 396x256 @ 53.204948Hz
+Resolution, 0.114: 396x256 @ 53.204950Hz
+Resolution, 0.115-0.122: 399x253 @ 27.407585Hz
+Resolution, 0.123-0.154: 399x253 @ 54.815170Hz
+Resolution, 0.155-0.169: 410x256 @ 54.706840Hz

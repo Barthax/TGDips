@@ -1,0 +1,5 @@
+ROm set changed: no
+0.106-0.163: hotchase - "Hot Chase"
+0.164-0.169: hotchase - "Hot Chase (set 1)"
+
+Resolution, 0.106-0.169: 320x224 @ 60.000000Hz

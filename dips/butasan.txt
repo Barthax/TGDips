@@ -1,0 +1,6 @@
+ROM set changed: yes
+0.106-0.143: butasan - "Butasan (Japan)"
+0.144-0.169: butasanj - "Butasan (Japan, Japanese)"
+
+Resolution, 0.106-0.169: 256x240 @ 54.000000Hz
+

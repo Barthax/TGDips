@@ -1,0 +1,7 @@
+ROM set changed: no
+0.106-0.170: drmario - "Vs. Dr. Mario"
+
+Resolution, 0.106-0.170: 256x240 @ 60.000000Hz
+
+Rules, Points [Marathon Settings]: http://www.twingalaxies.com/scores.php?scores=10981
+Rules, Points [Tournament Settings]: http://www.twingalaxies.com/scores.php?scores=10982

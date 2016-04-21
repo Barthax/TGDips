@@ -1,0 +1,8 @@
+ROM set changed: yes
+0.106-0.133: hardhead - "Hard Head"
+0.134-0.165: hardheadb - "Hard Head (bootleg)"
+0.166-0.169: hardheadb - "Hard Head (bootleg, set 1)"
+
+Resolution, 0.106-0.136: 256x224 @ 60.000000Hz
+Resolution, 0.137-0.169: 256x224 @ 59.100000Hz
+

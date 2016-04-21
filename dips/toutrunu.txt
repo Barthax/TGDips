@@ -1,0 +1,13 @@
+ROM set changed: yes
+0.106-0.107: toutrun - "Turbo Out Run (set 3, upgrade kit, FD1094 317-0118)"
+0.108-0.125u5: toutrun - "Turbo Out Run (Out Run upgrade, FD1094 317-0118)"    (minor description change only)
+0.125u6-0.137u3: toutrunu - "Turbo Out Run (Out Run upgrade, FD1094 317-0118)"
+0.137u4-0.165: toutrun - "Turbo Out Run (Out Run upgrade, FD1094 317-0118)"
+0.166-0.169: toutrun - "Turbo Out Run (Out Run upgrade) (FD1094 317-0118)"    (minor description change only)
+
+Resolution, 0.106-0.114: 320x224 @ 60.000000Hz
+Resolution, 0.115-0.116: 321x224 @ 59.637405Hz
+Resolution, 0.117-0.135: 320x224 @ 59.637405Hz
+Resolution, 0.136-0.169: 320x224 @ 60.054389Hz
+
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=120481

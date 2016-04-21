@@ -1,0 +1,5 @@
+ROM set changed: yes
+0.106-0.147: enforce - "Enforce (Japan)"
+0.147u1-0.169: enforcej - "Enforce (Japan)"
+
+Resolution, 0.106-0.169: 320x232 @ 60.000000Hz

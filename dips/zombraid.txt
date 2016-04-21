@@ -1,0 +1,5 @@
+ROM set changed: no
+0.106-0.149: zombraid - "Zombie Raid (US)"
+0.150-0.170: zombraid - "Zombie Raid (9/28/95, US)"
+
+Resolution, 0.106-0.170: 384x240 @ 60.000000Hz

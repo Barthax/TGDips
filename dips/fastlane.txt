@@ -1,0 +1,5 @@
+ROM set changed: no
+0.106-0.169: fastlane - "Fast Lane"
+
+Resolution, 0.106-0.147: 280x224 @ 60.000000Hz
+Resolution, 0.148-0.169: 280x224 @ 59.170000Hz

@@ -1,0 +1,159 @@
+# MAME 0.106 source snippet
+
+GAME( 1980, puckman,  0,        pacman,   pacman,   0,        ROT90,  "Namco", "PuckMan (Japan set 1, Probably Bootleg)", GAME_SUPPORTS_SAVE )
+
+INPUT_PORTS_START( pacman )
+	PORT_START_TAG("IN0")
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_JOYSTICK_UP )	PORT_PLAYER(1) PORT_4WAY
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT )	PORT_PLAYER(1) PORT_4WAY
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT )	PORT_PLAYER(1) PORT_4WAY
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN )	PORT_PLAYER(1) PORT_4WAY
+	PORT_DIPNAME(0x10, 0x10, "Rack Test (Cheat)" )	PORT_CODE(KEYCODE_F1)
+	PORT_DIPSETTING(    0x10, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_COIN1 )
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_COIN2 )
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_SERVICE1 )
+
+	PORT_START_TAG("IN1")
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_JOYSTICK_UP )	PORT_PLAYER(2) PORT_4WAY PORT_COCKTAIL
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT )	PORT_PLAYER(2) PORT_4WAY PORT_COCKTAIL
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT )	PORT_PLAYER(2) PORT_4WAY PORT_COCKTAIL
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN )	PORT_PLAYER(2) PORT_4WAY PORT_COCKTAIL
+	PORT_SERVICE( 0x10, IP_ACTIVE_LOW )
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_START1 )
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_START2 )
+	PORT_DIPNAME(0x80, 0x80, DEF_STR( Cabinet ) )
+	PORT_DIPSETTING(   0x80, DEF_STR( Upright ) )
+	PORT_DIPSETTING(   0x00, DEF_STR( Cocktail ) )
+
+	PORT_START_TAG("DSW 1")
+	PORT_DIPNAME( 0x03, 0x01, DEF_STR( Coinage ) )
+	PORT_DIPSETTING(    0x03, DEF_STR( 2C_1C ) )
+	PORT_DIPSETTING(    0x01, DEF_STR( 1C_1C ) )
+	PORT_DIPSETTING(    0x02, DEF_STR( 1C_2C ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Free_Play ) )
+	PORT_DIPNAME( 0x0c, 0x08, DEF_STR( Lives ) )
+	PORT_DIPSETTING(    0x00, "1" )
+	PORT_DIPSETTING(    0x04, "2" )
+	PORT_DIPSETTING(    0x08, "3" )
+	PORT_DIPSETTING(    0x0c, "5" )
+	PORT_DIPNAME( 0x30, 0x00, DEF_STR( Bonus_Life ) )
+	PORT_DIPSETTING(    0x00, "10000" )
+	PORT_DIPSETTING(    0x10, "15000" )
+	PORT_DIPSETTING(    0x20, "20000" )
+	PORT_DIPSETTING(    0x30, DEF_STR( None ) )
+	PORT_DIPNAME( 0x40, 0x40, DEF_STR( Difficulty ) )
+	PORT_DIPSETTING(    0x40, DEF_STR( Normal ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Hard ) )
+	PORT_DIPNAME( 0x80, 0x80, "Ghost Names" )
+	PORT_DIPSETTING(    0x80, DEF_STR( Normal ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Alternate ) )
+
+	PORT_START_TAG("DSW 2")
+	PORT_BIT( 0xff, IP_ACTIVE_HIGH, IPT_UNUSED )
+
+	PORT_START_TAG("FAKE")
+	/* This fake input port is used to get the status of the fire button */
+	/* and activate the speedup cheat if it is. */
+	PORT_BIT( 0x01, IP_ACTIVE_HIGH, IPT_BUTTON1 ) PORT_NAME( "2x Speed (Cheat)" )
+	PORT_DIPNAME( 0x06, 0x00, "2x Speed Cheat" )
+	PORT_DIPSETTING(    0x00, "Disabled" )
+	PORT_DIPSETTING(    0x02, "Enabled Always" )
+	PORT_DIPSETTING(    0x04, "Enabled with Button" )
+INPUT_PORTS_END
+
+Resolution: 288x224 @ 60.606060 Hz
+
+----
+Rules, TG Settings: http://www.twingalaxies.com/scores.php?scores=11853
+ROMSet: PuckMan
+Rack Test [Cheat]: Off
+Service Mode: Off
+Cabinet: Upright
+Lives: 5
+Bonus Life: 10000
+Difficulty: Normal
+Ghost Names: Normal
+2x Speed Cheat: Disabled
+
+Sample correct TG:
+IN0: offset 0x23, repeat every 0x7C, typical value 0xFF - only 0x10 bit relevant
+- IN0: 0x01 (P1 Joystick Up): [not relevant]
+- IN0: 0x02 (P1 Joystick Left): [not relevant]
+- IN0: 0x04 (P1 Joystick Right): [not relevant]
+- IN0: 0x08 (P1 Joystick Down): [not relevant]
+- IN0: 0x10 (Rack Test (Cheat)): 0x10 (Off)
+- IN0: 0x20 (Coin 1): [not relevant]
+- IN0: 0x40 (Coin 2): [not relevant]
+- IN0: 0x80 (Service Mode): [not relevant]
+
+IN1: offset 0x27, repeat every 0x7C, typical value 0xFF - only high bit relevant
+- IN1: 0x01 (P1 Joystick Up, Cocktail cab): [not relevant]
+- IN1: 0x02 (P1 Joystick Left, Cocktail cab): [not relevant]
+- IN1: 0x04 (P1 Joystick Right, Cocktail cab): [not relevant]
+- IN1: 0x08 (P1 Joystick Down, Cocktail cab): [not relevant]
+- IN1: 0x10 (Service): [not relevant]
+- IN1: 0x20 (Start 1): [not relevant]
+- IN1: 0x40 (Start 2): [not relevant]
+- IN1: 0x80 (Cabinet): 0x80 (Upright)
+
+DSW 1: offset 0x2B, repeat every 0x7C, typical value 0xCD
+- DSW 1: 0x03 (Coinage): [not relevant]
+- DSW 1: 0x0c (Lives): 0x0c (5)
+- DSW 1: 0x30 (Bonus_Life): 0x00 (10000)
+- DSW 1: 0x40 (Difficulty): 0x40 (Normal)
+- DSW 1: 0x80 (Ghost Names): 0x80 (Normal)
+
+FAKE: offset 0x33, repeat every 0x7C, typical value 0x00
+- FAKE: 0x01 (Button 1 / 2x Speed (Cheat)): 0x00 (Button 1)
+- FAKE: 0x06 (2x Speed Cheat): 0x00 (Disabled)
+
+    20: 00 00 00 FF 00 00 00 FF  00 00 00 CD 00 00 00 00 | ... ... ...-....
+    30: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 | ................
+    90: 00 00 00 00 00 00 00 00  3E 82 43 E1 00 00 00 FF | ........>.Cß... 
+    A0: 00 00 00 FF 00 00 00 CD  00 00 00 00 00 00 00 00 | ... ...-........
+   110: 00 00 00 00 3E 82 43 E1  00 00 00 FF 00 00 00 FF | ....>.Cß... ... 
+   120: 00 00 00 CD 00 00 00 00  00 00 00 00 00 00 00 00 | ...-............
+----
+
+Rules, High Score Challenge!: http://www.twingalaxies.com/scores.php?scores=11853
+ROM Set: not specified but described as being "original"
+Rack Test- Off
+Service Mode- Off
+Coinage- Player Choice
+Freeplay acceptable
+Lives- Player Choice, up to 5
+Bonus Life- 10000
+Difficulty- Normal
+Speed- Normal 
+
+Sample correct TG:
+IN0: offset 0x23, repeat every 0x7C, typical value 0xFF - only 0x10 bit relevant
+- IN0: 0x01 (P1 Joystick Up): [not relevant]
+- IN0: 0x02 (P1 Joystick Left): [not relevant]
+- IN0: 0x04 (P1 Joystick Right): [not relevant]
+- IN0: 0x08 (P1 Joystick Down): [not relevant]
+- IN0: 0x10 (Rack Test (Cheat)): 0x10 (Off)
+- IN0: 0x20 (Coin 1): [not relevant]
+- IN0: 0x40 (Coin 2): [not relevant]
+- IN0: 0x80 (Service Mode): [not relevant]
+
+DSW 1: offset 0x2B, repeat every 0x7C, typical value 0xCD
+- DSW 1: 0x03 (Coinage): [not relevant]
+- DSW 1: 0x0c (Lives): [not relevant]
+- DSW 1: 0x30 (Bonus_Life): 0x00 (10000)
+- DSW 1: 0x40 (Difficulty): 0x40 (Normal)
+- DSW 1: 0x80 (Ghost Names): [not relevant]
+
+FAKE: offset 0x33, repeat every 0x7C, typical value 0x00
+- FAKE: 0x01 (Button 1 / 2x Speed (Cheat)): 0x00 (Button 1)
+- FAKE: 0x06 (2x Speed Cheat): 0x00 (Disabled)
+
+    20: 00 00 00 FF 00 00 00 FF  00 00 00 CD 00 00 00 00 | ... ... ...-....
+    30: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 | ................
+    90: 00 00 00 00 00 00 00 00  3E 82 43 E1 00 00 00 FF | ........>.Cß... 
+    A0: 00 00 00 FF 00 00 00 CD  00 00 00 00 00 00 00 00 | ... ...-........
+   110: 00 00 00 00 3E 82 43 E1  00 00 00 FF 00 00 00 FF | ....>.Cß... ... 
+   120: 00 00 00 CD 00 00 00 00  00 00 00 00 00 00 00 00 | ...-............
+----

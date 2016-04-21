@@ -1,0 +1,8 @@
+ROM Changes:
+0.66-0.120: kicknrun - "Kick and Run"
+0.121-0.169: kicknrun - "Kick and Run (World)"
+
+Resolution, 0.106-0.169: 256x224 @ 60.000000Hz
+
+Rules: http://www.twingalaxies.com/scores.php?scores=75187 (note typo in ROM set: kicknrun)
+

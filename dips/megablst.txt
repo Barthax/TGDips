@@ -1,0 +1,5 @@
+ROM set changed: yes
+0.106-0.136: megab - "Mega Blast (World)"
+0.136u1-0.170: megablst - "Mega Blast (World)"
+
+0.106-0.170: 320x224 @ 60.000000Hz

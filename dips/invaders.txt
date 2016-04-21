@@ -1,0 +1,9 @@
+ROM set changed: no
+0.106-0.117: invaders - "Space Invaders"
+0.118-0.169: invaders - "Space Invaders / Space Invaders M"
+
+MAME History:
+- 0.117u1: Changed description to 'Space Invaders / Space Invaders M'.
+
+Resolution, 0.106-0.111: 240x224 @ 60.000000Hz
+Resolution, 0.112-0.169: 260x224 @ 59.541985Hz

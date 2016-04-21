@@ -1,0 +1,7 @@
+ROM set changed: yes
+0.106-0.154: centtime - "Centipede (1 player, timed)"
+0.155-0.168: centiped - "Centipede (revision 4)"
+
+Resolution, 0.106-0.168: 256x240 @ 60.000000Hz
+
+Rules, 1 Player, Timed: http://www.twingalaxies.com/scores.php?scores=21079

@@ -1,0 +1,6 @@
+ROM set changed: yes
+0.106-0.146: thndzone - "Thunder Zone (World)"
+0.146u5-0.170: thndzonea - "Thunder Zone (World)"
+
+Resolution, 0.106-0.170: 320x240 @ 60.000000Hz
+

@@ -1,0 +1,112 @@
+# MAME 0.106 source snippet
+
+GAME( 1988, shanghai, 0, shanghai, shanghai, 0, ROT0, "Sunsoft", "Shanghai (Japan)", GAME_IMPERFECT_GRAPHICS )
+
+INPUT_PORTS_START( shanghai )
+    PORT_START    /* IN0 */
+    PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_8WAY
+    PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_8WAY
+    PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_8WAY
+    PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_8WAY
+    PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_BUTTON1 )
+    PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_BUTTON2 )
+    PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_BUTTON3 )
+    PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_UNKNOWN )
+
+    PORT_START    /* IN1 */
+    PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_8WAY PORT_COCKTAIL
+    PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_8WAY PORT_COCKTAIL
+    PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_8WAY PORT_COCKTAIL
+    PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_8WAY PORT_COCKTAIL
+    PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_COCKTAIL
+    PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_BUTTON2 ) PORT_COCKTAIL
+    PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_BUTTON3 ) PORT_COCKTAIL
+    PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_UNKNOWN )
+
+    PORT_START    /* IN2 */
+    PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_COIN1 )
+    PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_COIN2 )
+    PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_COIN3 )
+    PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_START1 )
+    PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_START2 )
+    PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_UNKNOWN )
+    PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_UNKNOWN )
+    PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_UNKNOWN )
+
+    PORT_START    /* DSW0 */
+    PORT_SERVICE( 0x01, IP_ACTIVE_LOW )
+    PORT_DIPNAME( 0x02, 0x02, DEF_STR( Allow_Continue ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( No ) )
+    PORT_DIPSETTING(    0x02, DEF_STR( Yes ) )
+    PORT_DIPNAME( 0x1c, 0x1c, DEF_STR( Coin_B ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( 5C_1C ) )
+    PORT_DIPSETTING(    0x04, DEF_STR( 4C_1C ) )
+    PORT_DIPSETTING(    0x08, DEF_STR( 3C_1C ) )
+    PORT_DIPSETTING(    0x0c, DEF_STR( 2C_1C ) )
+    PORT_DIPSETTING(    0x1c, DEF_STR( 1C_1C ) )
+    PORT_DIPSETTING(    0x18, DEF_STR( 1C_2C ) )
+    PORT_DIPSETTING(    0x14, DEF_STR( 1C_3C ) )
+    PORT_DIPSETTING(    0x10, DEF_STR( 1C_4C ) )
+    PORT_DIPNAME( 0xe0, 0xe0, DEF_STR( Coin_A ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( 5C_1C ) )
+    PORT_DIPSETTING(    0x20, DEF_STR( 4C_1C ) )
+    PORT_DIPSETTING(    0x40, DEF_STR( 3C_1C ) )
+    PORT_DIPSETTING(    0x60, DEF_STR( 2C_1C ) )
+    PORT_DIPSETTING(    0xe0, DEF_STR( 1C_1C ) )
+    PORT_DIPSETTING(    0xc0, DEF_STR( 1C_2C ) )
+    PORT_DIPSETTING(    0xa0, DEF_STR( 1C_3C ) )
+    PORT_DIPSETTING(    0x80, DEF_STR( 1C_4C ) )
+
+    PORT_START    /* DSW1 */
+    PORT_DIPNAME( 0x01, 0x01, "Confirmation" )
+    PORT_DIPSETTING(    0x01, DEF_STR( No ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( Yes ) )
+    PORT_DIPNAME( 0x02, 0x02, "Help" )
+    PORT_DIPSETTING(    0x00, DEF_STR( Off ) )
+    PORT_DIPSETTING(    0x02, DEF_STR( On ) )
+    PORT_DIPNAME( 0x0c, 0x08, "2 Players Move Time" )
+    PORT_DIPSETTING(    0x0c, "8" )
+    PORT_DIPSETTING(    0x08, "10" )
+    PORT_DIPSETTING(    0x04, "12" )
+    PORT_DIPSETTING(    0x00, "14" )
+    PORT_DIPNAME( 0x30, 0x20, "Bonus Time for Making Pair" )
+    PORT_DIPSETTING(    0x30, "3" )
+    PORT_DIPSETTING(    0x20, "4" )
+    PORT_DIPSETTING(    0x10, "5" )
+    PORT_DIPSETTING(    0x00, "6" )
+    PORT_DIPNAME( 0xc0, 0x40, "Start Time" )
+    PORT_DIPSETTING(    0xc0, "30" )
+    PORT_DIPSETTING(    0x80, "60" )
+    PORT_DIPSETTING(    0x40, "90" )
+    PORT_DIPSETTING(    0x00, "120" )
+INPUT_PORTS_END
+
+Resolution: 384x280 @ 30.000000Hz
+
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=23015
+ROMSet: Shanghai
+Service Mode: Off
+Allow Continue: No
+Confirmation: No
+Help: On
+2 Players Move Time: 10
+Bonus Time For Making Pair: 4
+Start Time: 90
+
+Sample correct TG:
+DSW0: offset 0x2F, repeat every 0x7C, typical value 0xFD
+- DSW0: 0x01 (Service Mode): 0x01 (Off)
+- DSW0: 0x02 (Allow_Continue): 0x00 (No)
+- DSW0: 0x0c (Coin_B): [not relevant]
+- DSW0: 0xe0 (Coin_A): [not relevant]
+DSW1: offset 0x33, repeat every 0x7C, typical value 0x6B
+- DSW1: 0x01 (Confirmation): 0x01 (No)
+- DSW1: 0x02 (Help): 0x02 (On)
+- DSW1: 0x0c (2 Players Move Time): 0x08 (10)
+- DSW1: 0x30 (Bonus Time for Making Pair): 0x20 (4)
+- DSW1: 0xc0 (Start Time): 0x40 (90)
+
+    20: 00 00 00 FF 00 00 00 FF  00 00 00 FF 00 00 00 FD
+    30: 00 00 00 6B 00 00 00 00  00 00 00 00 00 00 00 00
+    A0: 00 00 00 FF 00 00 00 FF  00 00 00 FD 00 00 00 6B
+   120: 00 00 00 FF 00 00 00 FD  00 00 00 6B 00 00 00 00

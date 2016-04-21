@@ -1,0 +1,10 @@
+ROM Changes: none
+0.30-0.169: joust - "Joust (White/Green label)"
+
+Resolution, 0.106-0.115: 292x240 @ 60.000000Hz
+Resolution, 0.116-0.169: 292x240 @ 60.096154Hz
+
+Rules, 1 Player, Tournament: http://www.twingalaxies.com/scores.php?scores=9837
+Rules, 2 Player, Tournament: http://www.twingalaxies.com/scores.php?scores=75157
+Rules, 1 Player, Marathon: http://www.twingalaxies.com/scores.php?scores=5161
+Rules, 2 Player, Marathon: http://www.twingalaxies.com/scores.php?scores=75156

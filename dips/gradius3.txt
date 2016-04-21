@@ -1,0 +1,5 @@
+ROM set changed: yes
+0.106-0.146: gradius3 - "Gradius III (Japan)"
+0.147-0.169: gradius3j - "Gradius III (Japan, program code S)"
+
+Resolution, 0.106-0.169: 320x224 @ 60.000000Hz

@@ -1,0 +1,5 @@
+ROM set changed: no
+0.106-0.140: goonies - "Vs. The Goonies"
+0.141-0.170: goonies - "Vs. The Goonies (set E)"
+
+Resolution, 0.106-0.170: 256x240 @ 60.000000Hz

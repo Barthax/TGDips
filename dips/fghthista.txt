@@ -1,0 +1,7 @@
+ROM set changed: yes
+0.106-0.149: fghthist - "Fighter's History (World ver 43-07)"
+0.150-0.167: fghthist - "Fighter's History (World ver 43-07, DE-0380-2 PCB)"
+0.168-0.169: fghthista - "Fighter's History (World ver 43-07, DE-0380-2 PCB)"
+
+Resolution, 0.106-0.169: 320x240 @ 60.000000Hz
+

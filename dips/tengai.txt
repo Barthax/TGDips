@@ -1,0 +1,7 @@
+ROM set changed: yes
+0.106-0.127: tengai - "Tengai / Sengoku Blade: Sengoku Ace Episode II"
+0.127u4-0.170: tengaij - "Sengoku Blade: Sengoku Ace Episode II / Tengai"
+
+Resolution, 0.106-0.113: 320x224 @ 59.299999Hz
+Resolution, 0.114-0.133: 320x224 @ 59.300000Hz
+Resolution, 0.134-0.170: 320x224 @ 59.900000Hz

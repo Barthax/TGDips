@@ -1,0 +1,7 @@
+ROM set changed: yes
+0.106-0.132: tnexspce - "The Next Space"
+0.132u4-0.148: tnextspc - "The Next Space"
+0.149-0.170: tnextspc - "The Next Space (set 1)"
+
+Resolution, 0.106-0.155: 256x224 @ 60.000000Hz
+Resolution, 0.156-0.170: 256x224 @ 60.191409Hz

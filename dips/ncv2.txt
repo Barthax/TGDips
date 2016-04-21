@@ -1,0 +1,18 @@
+ROM set changed: no
+0.106-0.136: ncv2 - "Namco Classics Collection Vol.2"
+0.137-0.170: ncv2 - "Namco Classic Collection Vol.2"
+
+Resolution, 0.106: 224x288 @ 60.000000Hz
+Resolution, 0.106-0.170: 288x224 @ 60.000000Hz
+
+Rules, Points [Dig Dug - Original]: http://www.twingalaxies.com/scores.php?scores=21459
+Rules, Points [Dig Dug Arrangement] [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=21460
+Rules, Points [Dig Dug Arrangement] [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=78604
+Rules, Points [New Rally-X - Original]: http://www.twingalaxies.com/scores.php?scores=21457
+Rules, Points [Pac-Man - Original]: http://www.twingalaxies.com/scores.php?scores=21454
+Rules, Points [Pac-Man Arrangement] [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=78606
+Rules, Points [Pac-Man Arrangement] [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=78607
+Rules, Points [Rally-X - Original Mode]: http://www.twingalaxies.com/scores.php?scores=21456
+Rules, Points [Rally-X Arrangement]: http://www.twingalaxies.com/scores.php?scores=21458
+
+Use F2 to access the settings with normal directions and player 1 button 1 for selection and 1P start for exit.

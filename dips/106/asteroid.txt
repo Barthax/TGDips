@@ -1,0 +1,71 @@
+# MAME 0.106 source snippet
+
+GAME( 1979, asteroid, 0,        asteroid, asteroid, 0,        ROT0, "Atari", "Asteroids (rev 2)", 0 )
+
+INPUT_PORTS_START( asteroid )
+    PORT_START_TAG("IN0")
+    PORT_BIT( 0x01, IP_ACTIVE_HIGH, IPT_UNKNOWN )
+    /* Bit 2 and 3 are handled in the machine dependent part. */
+    /* Bit 2 is the 3 KHz source and Bit 3 the VG_HALT bit    */
+    PORT_BIT( 0x02, IP_ACTIVE_HIGH, IPT_UNKNOWN )
+    PORT_BIT( 0x04, IP_ACTIVE_HIGH, IPT_UNKNOWN )
+    PORT_BIT( 0x08, IP_ACTIVE_HIGH, IPT_BUTTON3 )
+    PORT_BIT( 0x10, IP_ACTIVE_HIGH, IPT_BUTTON1 )
+    PORT_BIT(0x20, IP_ACTIVE_HIGH, IPT_SERVICE ) PORT_NAME("Diagnostic Step") PORT_CODE(KEYCODE_F1)
+    PORT_BIT( 0x40, IP_ACTIVE_HIGH, IPT_TILT )
+    PORT_SERVICE( 0x80, IP_ACTIVE_HIGH )
+
+    PORT_START_TAG("IN1")
+    PORT_BIT( 0x01, IP_ACTIVE_HIGH, IPT_COIN1 )
+    PORT_BIT( 0x02, IP_ACTIVE_HIGH, IPT_COIN2 )
+    PORT_BIT( 0x04, IP_ACTIVE_HIGH, IPT_COIN3 )
+    PORT_BIT( 0x08, IP_ACTIVE_HIGH, IPT_START1 )
+    PORT_BIT( 0x10, IP_ACTIVE_HIGH, IPT_START2 )
+    PORT_BIT( 0x20, IP_ACTIVE_HIGH, IPT_BUTTON2 )
+    PORT_BIT( 0x40, IP_ACTIVE_HIGH, IPT_JOYSTICK_RIGHT ) PORT_2WAY
+    PORT_BIT( 0x80, IP_ACTIVE_HIGH, IPT_JOYSTICK_LEFT ) PORT_2WAY
+
+    PORT_START_TAG("DSW")
+    PORT_DIPNAME( 0x03, 0x00, DEF_STR( Language ) )
+    PORT_DIPSETTING (    0x00, DEF_STR( English ) )
+    PORT_DIPSETTING (    0x01, DEF_STR( German ) )
+    PORT_DIPSETTING (    0x02, DEF_STR( French ) )
+    PORT_DIPSETTING (    0x03, DEF_STR( Spanish ) )
+    PORT_DIPNAME( 0x04, 0x04, DEF_STR( Lives ) )
+    PORT_DIPSETTING (    0x04, "3" )
+    PORT_DIPSETTING (    0x00, "4" )
+    PORT_DIPNAME( 0x08, 0x00, "Center Mech" ) /*Left same for 2-door mech*/
+    PORT_DIPSETTING (    0x00, "X 1" )
+    PORT_DIPSETTING (    0x08, "X 2" )
+    PORT_DIPNAME( 0x30, 0x00, "Right Mech" )
+    PORT_DIPSETTING (    0x00, "X 1" )
+    PORT_DIPSETTING (    0x10, "X 4" )
+    PORT_DIPSETTING (    0x20, "X 5" )
+    PORT_DIPSETTING (    0x30, "X 6" )
+    PORT_DIPNAME( 0xc0, 0x80, DEF_STR( Coinage ) )
+    PORT_DIPSETTING (    0xc0, DEF_STR( 2C_1C ) )
+    PORT_DIPSETTING (    0x80, DEF_STR( 1C_1C ) )
+    PORT_DIPSETTING (    0x40, DEF_STR( 1C_2C ) )
+    PORT_DIPSETTING (    0x00, DEF_STR( Free_Play ) )
+INPUT_PORTS_END
+
+Resolution: vector
+
+Rules, Marathon: http://www.twingalaxies.com/scores.php?scores=12447 
+Rules, TGTS: http://www.twingalaxies.com/scores.php?scores=10094 
+
+ROMSet: Asteroid
+Service Mode: Off
+Lives: 3
+
+Sample correct TG:
+DSW: offset 0x2B, repeat every 0x7C, typical value 0x84
+- DSW: 0x03 (Language): [not relevant]
+- DSW: 0x04 (Lives): 0x04 (3)
+- DSW: 0x08 (Center Mech): [not relevant]
+- DSW: 0x30 (Right Mech): [not relevant]
+- DSW: 0xc0 (Coinage): [not relevant]
+
+    20: 00 00 00 00 00 00 00 00  00 00 00 84 00 00 00 00
+    A0: 00 00 00 00 00 00 00 84  00 00 00 00 00 00 00 00
+   120: 00 00 00 84 00 00 00 00  00 00 00 00 00 00 00 00

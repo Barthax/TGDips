@@ -1,0 +1,14 @@
+ROM Set changes: no
+0.106-0.138: varth - "Varth - Operation Thunderstorm (World 920714)"
+0.139-0.169: varth - "Varth: Operation Thunderstorm (World 920714)"   (minor description change only)
+
+Resolution, 0.106-0.126: 384 x 224 @ 60.000000 Hz
+Resolution, 0.127-0.147: 384 x 224 @ 59.610000 Hz
+Resolution, 0.148-0.152: 384 x 224 @ 59.629403 Hz
+Resolution, 0.153-0.169: 384 x 224 @ 59.637405 Hz
+
+Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=14473
+Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=14474
+
+NOTE: from MAMEINFO.DAT
+- 0.148u5: Andrew Gardner added QSound internal DSP ROM to the device.  Added DSP16 (4Mhz) CPU3. Sonikos fixed 'Difficulty' dipswitch which has  in the tab menu values from 1 (easiest) to 8 (hardest) but in the game's  menu it's from 0 to 7.

@@ -1,0 +1,224 @@
+Source info for WolfMAME 0.139
+
+
+static INPUT_PORTS_START( darkwar )
+    PORT_INCLUDE(cvs)
+
+
+#if !CVS_SHOW_ALL_INPUTS
+    PORT_MODIFY("IN1")
+    PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_UNUSED )             /* IPT_BUTTON2 
+
+
+PORT_COCKTAIL */
+    PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_UNUSED )             /* IPT_BUTTON2 
+
+
+*/
+
+
+    PORT_MODIFY("IN2")
+    PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_UNUSED )             /* 
+
+
+IPT_SERVICE1 */
+
+
+    PORT_MODIFY("IN3")
+    PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_UNUSED )             /* 
+
+
+IPT_JOYSTICK_UP   PORT_COCKTAIL */
+    PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_UNUSED )             /* 
+
+
+IPT_JOYSTICK_DOWN PORT_COCKTAIL */
+    PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_UNUSED )             /* 
+
+
+IPT_JOYSTICK_UP */
+    PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_UNUSED )             /* 
+
+
+IPT_JOYSTICK_DOWN */
+#endif
+
+
+    /* DSW3 bits 0 to 3 are not read */
+INPUT_PORTS_END
+
+
+static INPUT_PORTS_START( cvs )
+    PORT_START("IN0")    /* Matrix 0 */
+    PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_START1 )
+    PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_START2 )
+    PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_COIN2 )
+    PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_COIN1 )
+    PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_COCKTAIL        /* 
+
+
+"Red button" */
+    PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_BUTTON1 )                      /* 
+
+
+"Red button" */
+    PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_UNKNOWN )
+    PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_UNKNOWN )
+
+
+    PORT_START("IN1")
+    PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_BUTTON2 ) PORT_COCKTAIL        /* 
+
+
+"Green button" */
+    PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_BUTTON2 )                      /* 
+
+
+"Green button" */
+    PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_COCKTAIL
+    PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT )  PORT_COCKTAIL
+    PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT )
+    PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT )
+    PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_UNKNOWN )
+    PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_UNKNOWN )
+
+
+    PORT_START("IN2")
+    PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_SERVICE1 )           /* not sure 
+
+
+it's SERVICE1 : it uses "Coin B" coinage and doesn't say "CREDIT" */
+    PORT_BIT( 0xfe, IP_ACTIVE_LOW, IPT_UNKNOWN )
+
+
+    PORT_START("IN3")
+    PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_UNKNOWN )
+    PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_UNKNOWN )
+    PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_JOYSTICK_UP )    PORT_COCKTAIL
+    PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN )  PORT_COCKTAIL
+    PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_JOYSTICK_UP )
+    PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN )
+    PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_UNKNOWN )
+    PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_UNKNOWN )
+
+
+    PORT_START("DSW3")
+    PORT_DIPUNUSED( 0x01, IP_ACTIVE_HIGH )                  /* can't tell 
+
+
+if it's ACTIVE_HIGH or ACTIVE_LOW */
+    PORT_DIPUNUSED( 0x02, IP_ACTIVE_HIGH )                  /* can't tell 
+
+
+if it's ACTIVE_HIGH or ACTIVE_LOW */
+    PORT_DIPUNUSED( 0x04, IP_ACTIVE_HIGH )                  /* can't tell 
+
+
+if it's ACTIVE_HIGH or ACTIVE_LOW */
+    PORT_DIPUNUSED( 0x08, IP_ACTIVE_HIGH )                  /* can't tell 
+
+
+if it's ACTIVE_HIGH or ACTIVE_LOW */
+    PORT_DIPNAME( 0x10, 0x00, DEF_STR( Cabinet ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( Upright ) )
+    PORT_DIPSETTING(    0x10, DEF_STR( Cocktail ) )
+    PORT_DIPUNUSED( 0x20, IP_ACTIVE_HIGH )                  /* can't tell 
+
+
+if it's ACTIVE_HIGH or ACTIVE_LOW */
+
+
+    PORT_START("DSW2")
+    PORT_DIPNAME( 0x03, 0x00, DEF_STR( Coin_A ) )
+    PORT_DIPSETTING(    0x03, DEF_STR( 4C_1C ) )
+    PORT_DIPSETTING(    0x01, DEF_STR( 3C_1C ) )
+    PORT_DIPSETTING(    0x02, DEF_STR( 2C_1C ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( 1C_1C ) )
+    PORT_DIPNAME( 0x0c, 0x0c, DEF_STR( Coin_B ) )
+    PORT_DIPSETTING(    0x0c, DEF_STR( 1C_2C ) )
+    PORT_DIPSETTING(    0x04, DEF_STR( 1C_3C ) )
+    PORT_DIPSETTING(    0x08, DEF_STR( 1C_4C ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( 1C_5C ) )
+    PORT_DIPNAME( 0x10, 0x00, DEF_STR( Lives ) )
+    PORT_DIPSETTING(    0x00, "3" )
+    PORT_DIPSETTING(    0x10, "5" )
+    PORT_DIPUNUSED( 0x20, IP_ACTIVE_HIGH )                  /* can't tell 
+
+
+if it's ACTIVE_HIGH or ACTIVE_LOW */
+
+
+    PORT_START("SENSE")
+    PORT_BIT( 0x80, IP_ACTIVE_HIGH, IPT_VBLANK )
+INPUT_PORTS_END
+
+
+Not used in 0.139, but Meter Pulses are "used" in 0.106:
+static INPUT_PORTS_START( cvs_registration )
+    PORT_INCLUDE(cvs)
+
+
+    PORT_MODIFY("DSW3")
+    PORT_DIPNAME( 0x01, 0x01, "Registration" )              /* can't tell 
+
+
+what shall be the default value */
+    PORT_DIPSETTING(    0x00, DEF_STR( Off ) )
+    PORT_DIPSETTING(    0x01, DEF_STR( On ) )
+    PORT_DIPNAME( 0x02, 0x02, "Registration Length" )       /* can't tell 
+
+
+what shall be the default value */
+    PORT_DIPSETTING(    0x02, "3" )
+    PORT_DIPSETTING(    0x00, "10" )
+    /* bits 2 and 3 determine bonus life settings but they might change 
+
+
+from game to game - they are sometimes unused */
+
+
+    PORT_MODIFY("DSW2")
+    /* Told to be "Meter Pulses" but I don't know what this means */
+    PORT_DIPNAME( 0x20, 0x00, DEF_STR( Unknown ) )          /* has an 
+
+
+effect when COIN2 is pressed (when COIN1 is pressed, value always 1 */
+    PORT_DIPSETTING(    0x00, "2" )
+    PORT_DIPSETTING(    0x20, "5" )
+INPUT_PORTS_END
+
+
+Resolution: 240x248 @ 60 Hz
+
+
+Rules: http://www.twingalaxies.com/scores.php?scores=10463
+
+WolfMAME 0.106-specific rules:
+ROMSet: DarkWar
+Cabinet: Upright
+Bonus: 10k Only
+Lives: 3
+Meter Pulses: 2
+Special Rules: None
+
+DIPs for Bonus and Meter Pulses are not used in 0.139. "Unused" and Coinage DIPs in 0.139 are not used in 0.106. Round and round we go...
+
+Sample correct TG:
+DSW3: Offset 0x70, repeat every 0x48, typical value 0x00
+-DSW3: 0x01 (Unused): [not relevant, typical value 0x00 (Off)]
+-DSW3: 0x02 (Unused): [not relevant, typical value 0x00 (Off)]
+-DSW3: 0x04 (Unused): [not relevant, typical value 0x00 (Off)]
+-DSW3: 0x08 (Unused): [not relevant, typical value 0x00 (Off)]
+-DSW3: 0x10 (Cabinet): 0x00 (Upright)
+-DSW3: 0x20 (Unused): [not relevant, typical value 0x00 (Off)]
+
+
+DSW2: Offset 0x78, repeat every 0x48, typical value 0x0c
+-DSW2: 0x03 (Coin A): [not relevant, typical value 0x00 (1C_1C)]
+-DSW2: 0x0c (Coin B): [not relevant, typical value 0x0c (1C_2C)]
+-DSW2: 0x10 (Lives): 0x00 (3)
+-DSW2: 0x20 (Unused): [not relevant, typical value 0x00 (Off)]
+
+
+60: FF 00 00 00 00 00 00 00 FF 00 00 00 00 00 00 00 | ÿ.......ÿ.......
+70: 00 00 00 00 00 00 00 00 0C 00 00 00 00 00 00 00 | ................

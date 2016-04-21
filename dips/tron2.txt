@@ -1,0 +1,5 @@
+ROM set changed: yes
+0.106-0.128: tron - "Tron (set 1)"
+0.128u4-0.170: tron2 - "Tron (6/25)"
+
+Resolution, 0.106-0.170: 512x480 @ 30.000000Hz

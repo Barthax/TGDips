@@ -1,0 +1,6 @@
+ROM set changed: no
+0.106-0.121: pwrinst2 - "Power Instinct 2 (USA)"
+0.122-0.170: pwrinst2 - "Power Instinct 2 (US, Ver. 94/04/08)"
+
+Resolution, 0.106-0.113: 320x240 @ 57.550644Hz
+Resolution, 0.114-0.170: 320x240 @ 57.550645Hz

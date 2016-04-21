@@ -1,0 +1,4 @@
+ROM set changed: no
+0.106-0.169: kamenrid - "Masked Riders Club Battle Race"
+
+Resolution, 0.106-0.169: 384x240 @ 60.000000Hz

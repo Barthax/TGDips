@@ -1,0 +1,117 @@
+INPUT_PORTS_START( berzerk )
+	PORT_START      /* IN0 */
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_8WAY
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_8WAY
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_8WAY
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_8WAY
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_BUTTON1 )
+	PORT_BIT( 0xe0, IP_ACTIVE_LOW, IPT_UNUSED )
+
+	PORT_START      /* IN1 */
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_START1 )
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_START2 )
+	PORT_BIT( 0x1c, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_COIN3 )
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_COIN2 )
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_COIN1 )
+
+	PORT_START      /* IN2 */
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_8WAY PORT_COCKTAIL
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_8WAY PORT_COCKTAIL
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_8WAY PORT_COCKTAIL
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_8WAY PORT_COCKTAIL
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_COCKTAIL
+	PORT_BIT( 0x60, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_DIPNAME( 0x80, 0x80, DEF_STR( Cabinet ) )
+	PORT_DIPSETTING(    0x80, DEF_STR( Upright ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Cocktail ) )
+
+	PORT_START      /* IN3 */
+	PORT_BIT( 0x01, IP_ACTIVE_HIGH, IPT_VBLANK )
+	PORT_BIT( 0x7e, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_BIT( 0x80, IP_ACTIVE_HIGH, IPT_SPECIAL )	/* Collision */
+
+	PORT_START      /* IN4 */
+	PORT_BIT(    0x01, 0x00, IPT_DIPSWITCH_NAME ) PORT_NAME("Input Test Mode") PORT_CODE(KEYCODE_F2) PORT_TOGGLE
+	PORT_DIPSETTING(    0x00, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x01, DEF_STR( On ) )
+	PORT_BIT(    0x02, 0x00, IPT_DIPSWITCH_NAME ) PORT_NAME("Crosshair Pattern") PORT_CODE(KEYCODE_F4) PORT_TOGGLE
+	PORT_DIPSETTING(    0x00, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x02, DEF_STR( On ) )
+	PORT_BIT( 0x3c, IP_ACTIVE_LOW,  IPT_UNUSED )
+	PORT_DIPNAME( 0xc0, 0x00, DEF_STR( Language ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( English ) )
+	PORT_DIPSETTING(    0x40, DEF_STR( German ) )
+	PORT_DIPSETTING(    0x80, DEF_STR( French ) )
+	PORT_DIPSETTING(    0xc0, DEF_STR( Spanish ) )
+
+	PORT_START      /* IN5 */
+	PORT_BIT(    0x03, 0x00, IPT_DIPSWITCH_NAME ) PORT_NAME("Color Test") PORT_CODE(KEYCODE_F5) PORT_TOGGLE
+	PORT_DIPSETTING(    0x00, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x03, DEF_STR( On ) )
+	PORT_BIT( 0x3c, IP_ACTIVE_LOW,  IPT_UNUSED )
+	PORT_DIPNAME( 0xc0, 0xc0, DEF_STR( Bonus_Life ) )
+	PORT_DIPSETTING(    0xc0, "5000 and 10000" )
+	PORT_DIPSETTING(    0x40, "5000" )
+	PORT_DIPSETTING(    0x80, "10000" )
+	PORT_DIPSETTING(    0x00, DEF_STR( None ) )
+
+	PORT_START      /* IN6 */
+	COINAGE(3)
+
+	PORT_START      /* IN7 */
+	COINAGE(2)
+
+	PORT_START      /* IN8 */
+	COINAGE(1)
+
+	PORT_START      /* IN9 */
+	PORT_DIPNAME( 0x01, 0x00, DEF_STR( Free_Play ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x01, DEF_STR( On ) )
+	PORT_BIT( 0x7e, IP_ACTIVE_LOW,  IPT_UNUSED )
+	PORT_BIT(0x80, IP_ACTIVE_HIGH, IPT_OTHER ) PORT_NAME("Stats") PORT_CODE(KEYCODE_F1)
+INPUT_PORTS_END
+
+#define COINAGE(CHUTE) \
+	PORT_DIPNAME( 0x0f, 0x00, "Coin "#CHUTE ) \
+	PORT_DIPSETTING(    0x09, DEF_STR( 2C_1C ) ) \
+	PORT_DIPSETTING(    0x0d, DEF_STR( 4C_3C ) ) \
+	PORT_DIPSETTING(    0x00, DEF_STR( 1C_1C ) ) \
+	PORT_DIPSETTING(    0x0e, DEF_STR( 4C_5C ) ) \
+	PORT_DIPSETTING(    0x0a, DEF_STR( 2C_3C ) ) \
+	PORT_DIPSETTING(    0x0f, DEF_STR( 4C_7C ) ) \
+	PORT_DIPSETTING(    0x01, DEF_STR( 1C_2C ) ) \
+	PORT_DIPSETTING(    0x0b, DEF_STR( 2C_5C ) ) \
+	PORT_DIPSETTING(    0x02, DEF_STR( 1C_3C ) ) \
+	PORT_DIPSETTING(    0x0c, DEF_STR( 2C_7C ) ) \
+	PORT_DIPSETTING(    0x03, DEF_STR( 1C_4C ) ) \
+	PORT_DIPSETTING(    0x04, DEF_STR( 1C_5C ) ) \
+	PORT_DIPSETTING(    0x05, DEF_STR( 1C_6C ) ) \
+	PORT_DIPSETTING(    0x06, DEF_STR( 1C_7C ) ) \
+	PORT_DIPSETTING(    0x07, "1 Coin/10 Credits" ) \
+	PORT_DIPSETTING(    0x08, "1 Coin/14 Credits" ) \
+	PORT_BIT( 0xf0, IP_ACTIVE_LOW,  IPT_UNUSED )
+
+Resolution: 256x224 @ 60Hz
+
+Rules, 1-life, Slow Bullets, Random Play: http://www.twingalaxies.com/scores.php?scores=131843
+Rules, 1-life, Fast Bullets, Random Play: http://www.twingalaxies.com/scores.php?scores=9867
+Rules, 1-life, Slow Bullets, Pattern Play: http://www.twingalaxies.com/scores.php?scores=131847
+Rules, 1-life, Fast Bullets, Pattern Play: http://www.twingalaxies.com/scores.php?scores=131846
+Rules, Slow Bullets, Random Play: http://www.twingalaxies.com/scores.php?scores=7685
+Rules, Fast Bullets, Random Play: http://www.twingalaxies.com/scores.php?scores=7686
+Rules, Slow Bullets, Pattern Play: http://www.twingalaxies.com/scores.php?scores=131844
+Rules, Fast Bullets, Pattern Play: http://www.twingalaxies.com/scores.php?scores=131845
+ROM Set = "BERZERK" (actually berzerk1 for Slow Bullets)
+Starting lives = 3
+1st extra at 5K, 2nd at 10K
+
+Sample correct TG:
+IN5: offset 0x37, repeat every 0x7C, typical value 0xFC
+- 0x03 (Color Test): [not relevant]
+- 0x3c (unused): [not relevant]
+- 0xc0 (Bonus_Life): 0xc0 (5000 and 10000)
+    30: 00 00 00 3C 00 00 00 FC  00 00 00 F0 00 00 00 F0 | ...<...n...=...=
+    B0: 00 00 00 FC 00 00 00 F0  00 00 00 F0 00 00 00 F0 | ...n...=...=...=
+   120: 00 00 00 FF 00 00 00 7F  00 00 00 3C 00 00 00 FC | ... .......<...n

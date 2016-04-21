@@ -1,0 +1,65 @@
+INPUT_PORTS_START( blasto )
+    PORT_START  /* IN0 */
+    PORT_DIPNAME(    0x03, 0x03, DEF_STR( Coinage ) )
+    PORT_DIPSETTING( 0x00, DEF_STR( 4C_1C ) )
+    PORT_DIPSETTING( 0x01, DEF_STR( 3C_1C ) )
+    PORT_DIPSETTING( 0x02, DEF_STR( 2C_1C ) )
+    PORT_DIPSETTING( 0x03, DEF_STR( 1C_1C ) )
+    PORT_DIPNAME(    0x04, 0x04, "Boom Switch" )
+    PORT_DIPSETTING( 0x00, DEF_STR( Off ) )
+    PORT_DIPSETTING( 0x04, DEF_STR( On ) )
+    PORT_DIPNAME(    0x08, 0x08, DEF_STR( Game_Time ) )
+    PORT_DIPSETTING( 0x00, "70 Secs" )
+    PORT_DIPSETTING( 0x08, "90 Secs" )
+    PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_UNKNOWN )
+    PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_UNKNOWN )
+    PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_UNKNOWN )
+    PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_COIN1 ) PORT_IMPULSE(1)
+                                /* this is really used for the coin latch,  */
+                                /* see blockade_interrupt()                 */
+
+    PORT_START  /* IN1 */
+    PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_PLAYER(2)
+    PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_UNKNOWN )
+    PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_UNKNOWN )
+    PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_UNKNOWN )
+    PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_UNKNOWN )
+    PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_START1 )
+    PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_START2 )
+    PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_PLAYER(1)
+
+    PORT_START  /* IN2 */
+    PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_4WAY PORT_PLAYER(2)
+    PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_4WAY PORT_PLAYER(2)
+    PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_4WAY PORT_PLAYER(2)
+    PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_4WAY PORT_PLAYER(2)
+    PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_4WAY PORT_PLAYER(1)
+    PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_4WAY PORT_PLAYER(1)
+    PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_4WAY PORT_PLAYER(1)
+    PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_4WAY PORT_PLAYER(1)
+
+	PORT_START	/* IN3 */
+	PORT_BIT( 0x7f, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_VBLANK )
+INPUT_PORTS_END
+
+Resolution: 256 x 224 @ 60Hz
+
+Rules: http://www.twingalaxies.com/scores.php?scores=9231
+ROMSet: Blasto
+Boom Switch: On
+Starting Time: 90 seconds
+
+Sample correct TG:
+IN0: offset 0x23, repeat every 0x7C, typical value 0xFF
+- IN0: 0x03 (Coinage): [not relevant]
+- IN0: 0x04 (Boom Switch): 0x00 (Off)
+- IN0: 0x08 (Game_Time): 0x08 (90 Secs)
+- IN0: 0x10 (unknown): [not relevant]
+- IN0: 0x20 (unknown): [not relevant]
+- IN0: 0x40 (unknown): [not relevant]
+- IN0: 0x80 (unknown): [not relevant]
+
+    20: 00 00 00 FF 00 00 00 FF  00 00 00 FF 00 00 00 FF | ... ... ... ... 
+    90: 00 00 00 00 00 00 00 00  3E 82 43 E1 00 00 00 FF | ........>.Cß... 
+   110: 00 00 00 00 3E 82 43 E1  00 00 00 FF 00 00 00 FF | ....>.Cß... ... 

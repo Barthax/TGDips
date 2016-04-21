@@ -1,0 +1,7 @@
+ROM Set changes: No
+0.106-0.169: spiders - "Spiders (set 1)"
+
+Resolution, 0.106-0.115: 256 x 224 @ 60.000000 Hz
+Resolution, 0.116-0.169: 256 x 256 @ 85.449219 Hz
+
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=7820

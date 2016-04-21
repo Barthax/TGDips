@@ -1,0 +1,9 @@
+ROM Changes: none but description has changed:
+0.106-0.145: mslug2 - "Metal Slug 2 - Super Vehicle-001/II"
+0.146-0.169: mslug2 - "Metal Slug 2 - Super Vehicle-001/II (NGM-2410)(NGH-2410)"
+
+Resolution, 0.106-0.113: 320x224 @ 59.185608Hz
+Resolution, 0.114-0.169: 320x224 @ 59.185606Hz
+
+Rules: http://www.twingalaxies.com/scores.php?scores=14704
+

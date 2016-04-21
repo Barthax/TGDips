@@ -1,0 +1,11 @@
+ROM set changed: Added in 0.140.
+0.140-0.154: dkongx - "Donkey Kong II - Jumpman Returns (V1.2) (hack)"
+0.155-0.172: dkongx - "Donkey Kong II: Jumpman Returns (hack, V1.2)" (minor description change)
+
+Resolution, 0.140-0.172: 256x224 @ 60.606061Hz
+
+Rules, Points [6 Men to Start]: http://www.twingalaxies.com/scores.php?scores=132334
+Rules, Points [3 Men to Start]: http://www.twingalaxies.com/scores.php?scores=196064
+
+Note 1: all settings are internal and can only be changed/shown during boot up.  Once booted, the Service Mode merely inserts a coin.
+Note 2: the default settings are for 6 men.  However, entering the settings will default to 3 men.  So if booted without entering, 6 men are used.

@@ -1,0 +1,11 @@
+ROM set changed: yes
+0.106-0.140: spacefb - "Space Firebird (Nintendo)"
+0.141-0.145: spacefb - "Space Firebird (Nintendo, set 1)"
+0.146-0.169: spacefbe2 - "Space Firebird (rev. 03-e set 2)"
+
+MAME History:
+- 0.145u8: Andy Welburn added clone Space Firebird (rev. 02-a). Dumped mb7051 prom, I8035 audio and gfx2 rom. Changed clones '(Nintendo, set 2)' to parent 'Space Firebird (rev. 04-u)', '(Nintendo, set 3)' to '(rev. 03-e set 1)' and '(Nintendo, set 1)' to clone '(rev. 03-e set 2)'. Renamed (spacefb) to (spacefbe2) and (spacefbu) to (spacefb).
+
+Resolution, 0.106-0.115: 264x232 @ 60.000000Hz
+Resolution, 0.116-0.169: 512x224 @ 61.523438Hz
+

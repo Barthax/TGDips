@@ -1,0 +1,9 @@
+ROM set changed: yes
+0.106-0.143: fightfev - "Fight Fever (set 1)"
+0.143u4-0.169: fightfeva - "Fight Fever (set 2)"
+
+MAME History:
+- 0.143u4: Cleaned up Fight Fever [Jackc, Johnboy]: Removed duplicate p2 and marked p1 bad dump. Changed 'Fight Fever (set 1)' to clone '(set 2)' and '(set 2)' to parent 'Fight Fever (set 1)'. Renamed (fightfev) to (fightfeva) and (fightfeva) to (fightfev).
+
+Resolution, 0.106-0.113: 320x224 @ 59.185608Hz
+Resolution, 0.114-0.169: 320x224 @ 59.185606Hz

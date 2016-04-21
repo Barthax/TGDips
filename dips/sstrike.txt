@@ -1,0 +1,7 @@
+ROM set changes: none
+0.106-0.169: sstrike - "Super Strike Bowling"
+
+Resolution, 0.106-0.169: 256x240 @ 60.000000Hz
+
+Service Mode (F2) to enter settings.  Navigation is done with Service Mode (F2) and selection is done with Player 1 Start (1).
+Rules: http://www.twingalaxies.com/scores.php?scores=62383

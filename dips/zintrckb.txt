@@ -1,0 +1,6 @@
+ROM set changed: no
+0.106-0.138: zintrckb - "Zintrick / Oshidashi Zentrix (hack / bootleg)"
+0.139-0.170: zintrckb - "Zintrick / Oshidashi Zentrix (hack)"
+
+Resolution, 0.106-0.113: 320x224 @ 59.185608Hz
+Resolution, 0.114-0.170: 320x224 @ 59.185606Hz

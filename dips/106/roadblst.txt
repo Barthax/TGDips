@@ -1,0 +1,48 @@
+INPUT_PORTS_START( roadblst )
+	PORT_START	/* F20000 */
+	PORT_BIT( 0xff, 0x40, IPT_DIAL ) PORT_MINMAX(0x00,0x7f) PORT_SENSITIVITY(25) PORT_KEYDELTA(10) PORT_REVERSE
+
+	PORT_START	/* F40000 */
+	PORT_BIT( 0xff, 0x00, IPT_PEDAL ) PORT_MINMAX(0x00,0xff) PORT_SENSITIVITY(100) PORT_KEYDELTA(64)
+
+	PORT_START	/* n/a */
+	PORT_BIT( 0xff, IP_ACTIVE_HIGH, IPT_UNUSED )
+
+	PORT_START	/* n/a */
+	PORT_BIT( 0xff, IP_ACTIVE_HIGH, IPT_UNUSED )
+
+	PORT_START	/* F60000 */
+	PORT_BIT( 0x0001, IP_ACTIVE_LOW, IPT_BUTTON3 )
+	PORT_BIT( 0x0002, IP_ACTIVE_LOW, IPT_BUTTON2 )
+	PORT_BIT( 0x0004, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_BIT( 0x0008, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_BIT( 0x0010, IP_ACTIVE_LOW, IPT_VBLANK )
+	PORT_BIT( 0x0020, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_SERVICE( 0x0040, IP_ACTIVE_LOW )
+	PORT_BIT( 0x0080, IP_ACTIVE_HIGH, IPT_SPECIAL )
+	PORT_BIT( 0xff00, IP_ACTIVE_LOW, IPT_UNUSED )
+
+	PORT_START	/* 1820 (sound) */
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_COIN1 )
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_COIN2 )
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_COIN3 )
+	PORT_BIT( 0x08, IP_ACTIVE_HIGH, IPT_SPECIAL )
+	PORT_BIT( 0x10, IP_ACTIVE_HIGH, IPT_SPECIAL )
+	PORT_BIT( 0x60, IP_ACTIVE_HIGH, IPT_UNUSED )
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_SPECIAL )
+INPUT_PORTS_END
+
+Resolution: 336x240 @60Hz
+
+Rules: http://www.twingalaxies.com/scores.php?scores=91238
+ROMSet: RoadBlst
+Service Mode: Off
+Internal Defaults
+-----------------
+Play/Demo Mode: Play
+Restore Factory Options: No
+Clear High Score Table: No
+Game Difficulty: Medium
+
+Sample correct TG:
+If not already shown during playback, use the F2 button after playback to access service mode (the above are defaults, however).  Once in service mode, use Button 3 (space by default) to cycle through options.

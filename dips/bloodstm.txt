@@ -1,0 +1,6 @@
+ROM set changed: no
+0.106-0.168: bloodstm - "Blood Storm (v2.22)"
+
+Resolution, 0.106-0.113: 384x240 @ 60.000000Hz
+Resolution, 0.114-0.122: 200x200 @ 60.000000Hz
+Resolution, 0.123-0.168: 384x240 @ 60.106990Hz

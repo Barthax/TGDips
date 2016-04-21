@@ -1,0 +1,5 @@
+ROM set changed: no
+0.106-0.151: 4enraya - "4 En Raya"
+0.152-0.168: 4enraya - "4 En Raya (set 1)" (minor description change)
+
+Resolution, 0.106-0.168: 256x224 @ 60.000000Hz

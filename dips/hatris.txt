@@ -1,0 +1,5 @@
+ROM set changed: yes
+0.106-0.131: hatris - "Hatris (Japan)"
+0.131u2-0.169: hatrisj - "Hatris (Japan)"
+
+Resolution, 0.106-0.169: 352x240 @ 60.000000Hz

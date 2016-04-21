@@ -1,0 +1,17 @@
+ROM Set changes: No
+0.106-0.169: gtclassc - "Golden Tee Classic (v1.00)"
+
+Resolution, 0.106-0.113: 384 x 240 @ 60.000000 Hz
+Resolution, 0.114-0.122: 200 x 200 @ 60.000000 Hz
+Resolution, 0.123-0.153: 384 x 256 @ 60.106990 Hz
+Resolution, 0.154-0.169: 384 x 240 @ 60.106990 Hz
+
+Rules, Anchor Cove [Least Amount Of Strokes]: http://www.twingalaxies.com/scores.php?scores=70241
+Rules, Anchor Cove [Longest Drive]: http://www.twingalaxies.com/scores.php?scores=70245
+Rules, Anchor Cove [Longest Putt]: http://www.twingalaxies.com/scores.php?scores=70248
+Rules, Mt. Springs [Least Amount Of Strokes]: http://www.twingalaxies.com/scores.php?scores=70242
+Rules, Mt. Springs [Longest Drive]: http://www.twingalaxies.com/scores.php?scores=70246
+Rules, Mt. Springs [Longest Putt]: http://www.twingalaxies.com/scores.php?scores=70249
+Rules, Scorpion Bend [Least Amount Of Strokes]: http://www.twingalaxies.com/scores.php?scores=70243
+Rules, Scorpion Bend [Longest Drive]: http://www.twingalaxies.com/scores.php?scores=70247
+Rules, Scorpion Bend [Longest Putt]: http://www.twingalaxies.com/scores.php?scores=70250

@@ -1,0 +1,74 @@
+# MAME source 0.143 snippet
+
+static INPUT_PORTS_START( nomnlnd )
+	PORT_START("IN0")	/* Controls - Remapped for game */
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_8WAY
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_8WAY
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_8WAY
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_8WAY
+	PORT_BIT( 0x55, IP_ACTIVE_LOW, IPT_SPECIAL )	/* diagonals */
+
+	PORT_START("IN1")
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_8WAY PORT_COCKTAIL
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_8WAY PORT_COCKTAIL
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_8WAY PORT_COCKTAIL
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_8WAY PORT_COCKTAIL
+	PORT_BIT( 0x55, IP_ACTIVE_LOW, IPT_SPECIAL )	/* diagonals */
+
+	PORT_START("IN2")
+	PORT_DIPNAME( 0x03, 0x02, DEF_STR( Bonus_Life ) ) PORT_DIPLOCATION("SW:5,6")
+	PORT_DIPSETTING(    0x01, "2000" )
+	PORT_DIPSETTING(    0x02, "3000" )
+	PORT_DIPSETTING(    0x03, "5000" )
+	PORT_DIPSETTING(    0x00, DEF_STR( None ) )
+	PORT_DIPNAME( 0x0c, 0x00, DEF_STR( Coinage ) ) PORT_DIPLOCATION("SW:3,4")
+	PORT_DIPSETTING(    0x04, DEF_STR( 2C_1C ) )
+	PORT_DIPSETTING(    0x0c, DEF_STR( 4C_4C ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( 1C_1C ) )
+	PORT_DIPSETTING(    0x08, DEF_STR( 1C_2C ) )
+	PORT_DIPNAME( 0x10, 0x00, DEF_STR( Lives ) ) PORT_DIPLOCATION("SW:2")
+	PORT_DIPSETTING(    0x00, "3" )
+	PORT_DIPSETTING(    0x10, "5" )
+	PORT_DIPNAME( 0x20, 0x00, DEF_STR( Cabinet ) ) PORT_DIPLOCATION("SW:1")
+	PORT_DIPSETTING(    0x00, DEF_STR( Upright ) )
+	PORT_DIPSETTING(    0x20, DEF_STR( Cocktail ) )
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_START2 )
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_START1 )
+
+	PORT_START("IN3")
+	PORT_BIT( 0x01, IP_ACTIVE_HIGH, IPT_VBLANK )
+	PORT_BIT( 0x1e, IP_ACTIVE_LOW, IPT_UNUSED )		/* always HI */
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_SPECIAL )	/* reads what was written to 4808.  Probably not used?? */
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_COCKTAIL
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_BUTTON1 )
+
+	/* Fake port to handle coin */
+	PORT_START("COIN")
+	PORT_BIT( 0x01, IP_ACTIVE_HIGH, IPT_COIN1 ) PORT_CHANGED(coin_inserted_nmi, 0)
+INPUT_PORTS_END
+
+ROM changes: no, 0.106-0.161
+
+Resolution: 256x192 @ 60Hz
+
+Rules: http://www.twingalaxies.com/scores.php?scores=9229
+ROMSet: NoMnLnd
+Bonus Life: 3000
+Lives: 3
+Cabinet: Upright
+
+Sample correct TG:
+IN2: offset 0x60, repeat every 0x38, typical value 0xC2
+- IN2: 0x03 (Bonus_Life): 0x03 (5000)
+- IN2: 0x0c (Coinage): [not relevant]
+- IN2: 0x10 (Lives): 0x00 (3)
+- IN2: 0x20 (Cabinet): 0x00 (Upright)
+- IN2: 0x40 (P2 start): [not relevant]
+- IN2: 0x80 (P1 start): [not relevant]
+
+   60: C2 00 00 00 00 00 00 00  FE 00 00 00 00 00 00 00 | -.......¦.......
+   90: FF 00 00 00 00 00 00 00  C2 00 00 00 00 00 00 00 |  .......-.......
+   D0: C2 00 00 00 00 00 00 00  FE 00 00 00 00 00 00 00 | -.......¦.......
+  100: FF 00 00 00 00 00 00 00  C2 00 00 00 00 00 00 00 |  .......-.......
+  140: C2 00 00 00 00 00 00 00  FE 00 00 00 00 00 00 00 | -.......¦.......
+  170: FF 00 00 00 00 00 00 00  C2 00 00 00 00 00 00 00 |  .......-.......

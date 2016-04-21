@@ -1,0 +1,5 @@
+ROM set changed: no
+0.106-0.151: vsgradus - "Vs. Gradius"
+0.152-0.170: vsgradus - "Vs. Gradius (US, set GR E)"
+
+Resolution, 0.106-0.170: 256x240 @ 60.000000Hz

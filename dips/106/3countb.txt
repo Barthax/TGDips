@@ -1,0 +1,3 @@
+All relevant rules are covered by software-dips.  If not shown during playback, use F2 to access after playback completed.
+
+Resolution: 320x224 @ 59.185608Hz

@@ -1,0 +1,6 @@
+ROM set changed: no
+0.106-0.147: pacmanf - "Pac-Man (Midway, with speedup hack)"
+0.148-0.170: pacmanf - "Pac-Man (Midway, speedup hack)"
+
+Resolution, 0.106-0.113: 288x224 @ 60.606060Hz
+Resolution, 0.114-0.170: 288x224 @ 60.606061Hz

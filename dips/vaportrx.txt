@@ -1,0 +1,18 @@
+ROM set changed: no
+0.106-0.168: vaportrx - "Vapor TRX"
+
+Resolution, 0.106-0.168: 640x480 @ 57.000000Hz
+
+Rules, Alpine Edge [Fastest Completion]: http://www.twingalaxies.com/scores.php?scores=120541
+Rules, Eagle Canyon [Fastest Completion]: http://www.twingalaxies.com/scores.php?scores=120542
+Rules, Midnight Blue [Fastest Completion]: http://www.twingalaxies.com/scores.php?scores=120543
+
+MAME History:
+- 0.133u1: Renamed (vaportrp) to (vaportrxp).
+
+NOTE: rename information appears incorrect, it has the prototype clone (vaportrp) being renamed to both vaportrx & vaportrxp at 0.133u1.
+vaportrp   > vaportrx
+vaportrp   > vaportrxp
+
+MAMEINFO.dat suggests that only vaportrp > vaportrxp is correct. There is no mention of any change to the parent set.
+

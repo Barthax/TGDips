@@ -1,0 +1,11 @@
+ROM set changed: no
+0.106-0.169: kov - "Knights of Valour / Sangoku Senki (ver. 117)"
+
+Resolution, 0.106-0.145: 448x224 @ 60.000000Hz
+Resolution, 0.146-0.169: 448x224 @ 59.170000Hz
+
+Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=75199
+Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=75200
+Rules, Points [Three Player Team]: http://www.twingalaxies.com/scores.php?scores=75201
+Rules, Points [Four Player Team]: http://www.twingalaxies.com/scores.php?scores=75202
+Note: To enter service mode after playback ends, alter the Dip Switch for Service Mode to On and then use a Reset (F3).  Resets are not recorded in the INP and therefore cannot be shown during a recording.

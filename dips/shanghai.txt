@@ -1,0 +1,7 @@
+ROM set changed: yes
+0.106-0.152: shanghai - "Shanghai (Japan)"
+0.153-0.171: shanghaij - "Shanghai (Japan)"
+
+Resolution, 0.106-0.171: 384x280 @ 30.000000Hz
+
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=23015

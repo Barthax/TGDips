@@ -1,0 +1,111 @@
+# MAME 0.141 source snippet
+
+GAME( 1984, snakjack, 0,        balsente, snakjack, snakjack, ROT0, "Bally/Sente",  "Snacks'n Jaxson", GAME_SUPPORTS_SAVE )
+
+static INPUT_PORTS_START( snakjack )
+    PORT_INCLUDE( sentetst )
+
+    PORT_MODIFY("SWG")
+    PORT_DIPNAME( 0x03, 0x01, DEF_STR( Bonus_Life ) )    PORT_DIPLOCATION("G1:1,2")
+    PORT_DIPSETTING(    0x00, "Every 15,000" )
+    PORT_DIPSETTING(    0x01, "Every 20,000" )
+    PORT_DIPSETTING(    0x02, "Every 25,000" )
+    PORT_DIPSETTING(    0x03, "Every 30,000" )
+    PORT_DIPUNUSED_DIPLOC( 0x40, 0x40, "G1:7" )
+
+    PORT_MODIFY("IN0")
+    PORT_BIT( 0x0f, IP_ACTIVE_LOW, IPT_UNUSED )
+INPUT_PORTS_END
+
+static INPUT_PORTS_START( sentetst )
+    PORT_START("SWH")
+    PORT_DIPNAME( 0x03, 0x03, DEF_STR( Coinage ) )        PORT_DIPLOCATION("H1:1,2")
+    PORT_DIPSETTING(    0x02, DEF_STR( 2C_1C ) )
+    PORT_DIPSETTING(    0x03, DEF_STR( 1C_1C ) )
+    PORT_DIPSETTING(    0x01, DEF_STR( 1C_2C ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( Free_Play ) )
+    PORT_DIPUNUSED_DIPLOC( 0x04, 0x04, "H1:3" )
+    PORT_DIPUNUSED_DIPLOC( 0x08, 0x08, "H1:4" )
+    PORT_DIPUNUSED_DIPLOC( 0x10, 0x10, "H1:5" )
+    PORT_DIPUNUSED_DIPLOC( 0x20, 0x20, "H1:6" )
+    PORT_DIPUNUSED_DIPLOC( 0x40, 0x40, "H1:7" )
+    PORT_DIPNAME( 0x80, 0x80, "High Scores" )            PORT_DIPLOCATION("H1:8")
+    PORT_DIPSETTING(    0x80, "Keep Top 5" )
+    PORT_DIPSETTING(    0x00, "Keep All" )
+
+    PORT_START("SWG")
+    PORT_DIPNAME( 0x03, 0x00, DEF_STR( Bonus_Life ) )    PORT_DIPLOCATION("G1:1,2")
+    PORT_DIPSETTING(    0x00, "Every 10,000" )
+    PORT_DIPSETTING(    0x01, "Every 15,000" )
+    PORT_DIPSETTING(    0x02, "Every 20,000" )
+    PORT_DIPSETTING(    0x03, "Every 25,000" )
+    PORT_DIPNAME( 0x0c, 0x04, DEF_STR( Lives ) )        PORT_DIPLOCATION("G1:3,4")
+    PORT_DIPSETTING(    0x00, "2" )
+    PORT_DIPSETTING(    0x04, "3" )
+    PORT_DIPSETTING(    0x08, "4" )
+    PORT_DIPSETTING(    0x0c, "5" )
+    PORT_DIPUNUSED_DIPLOC( 0x10, 0x10, "G1:5" )
+    PORT_DIPUNUSED_DIPLOC( 0x20, 0x20, "G1:6" )
+    PORT_DIPNAME( 0x40, 0x40, DEF_STR( Difficulty ) )    PORT_DIPLOCATION("G1:7")
+    PORT_DIPSETTING(    0x40, DEF_STR( Easy ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( Hard ) )
+    PORT_DIPNAME( 0x80, 0x00, DEF_STR( Demo_Sounds ) )    PORT_DIPLOCATION("G1:8")
+    PORT_DIPSETTING(    0x80, DEF_STR( Off ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+
+    PORT_START("IN0")
+    PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_JOYSTICKLEFT_UP ) PORT_PLAYER(1)
+    PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_JOYSTICKLEFT_DOWN ) PORT_PLAYER(1)
+    PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_JOYSTICKLEFT_RIGHT ) PORT_PLAYER(1)
+    PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_JOYSTICKLEFT_LEFT ) PORT_PLAYER(1)
+    PORT_BIT( 0x30, IP_ACTIVE_LOW, IPT_UNUSED )
+    PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_COIN1 )
+    PORT_SERVICE( 0x80, IP_ACTIVE_LOW )
+
+    PORT_START("IN1")
+    PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_START1 )
+    PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_START2 )
+    PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_BUTTON1 )
+    PORT_BIT( 0x38, IP_ACTIVE_LOW, IPT_UNUSED )
+    PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_COIN2 )
+    PORT_BIT( 0x80, IP_ACTIVE_HIGH, IPT_VBLANK )
+
+    /* Analog ports */
+    PORT_START("AN0")
+    UNUSED_ANALOG
+
+    PORT_START("AN1")
+    UNUSED_ANALOG
+
+    /* Player 1 Trackball */
+    PORT_START("AN2")
+    PORT_BIT( 0xff, 0, IPT_TRACKBALL_Y ) PORT_SENSITIVITY(100) PORT_KEYDELTA(20) PORT_RESET PORT_PLAYER(1)
+
+    PORT_START("AN3")
+    PORT_BIT( 0xff, 0, IPT_TRACKBALL_X ) PORT_SENSITIVITY(100) PORT_KEYDELTA(20) PORT_RESET PORT_REVERSE PORT_PLAYER(1)
+INPUT_PORTS_END
+
+Resolution: 256x240 @ 59.185606Hz
+
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=110688
+High Scores: Keep Top 5
+Bonus Life: Every 20,000
+Lives: 3
+Service Mode: Off
+Special Rules: None
+
+Sample correct TG:
+SWH: offset 0x50, repeat every 0x6A, typical value 0xFF
+- SWH: 0x03 (Coinage): [not relevant]
+- SWH: 0x80 (High Scores): 0x80 (Keep Top 5)
+
+SWG: offset 0x58, repeat every 0x6A, typical value 0x75
+- SWG: 0x03 (Bonus_Life): 0x01 (Every 20,000)
+- SWG: 0x0c (Lives): 0x04 (3)
+
+
+Sample correct TG:
+    50: FF 00 00 00 00 00 00 00  75 00 00 00 00 00 00 00
+    B0: 20 8E D2 06 3C 00 00 00  10 00 FF 00 00 00 00 00
+    C0: 00 00 75 00 00 00 00 00  00 00 FF 00 00 00 00 00
+   120: 00 00 10 00 FF 00 00 00  00 00 00 00 75 00 00 00

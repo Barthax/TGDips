@@ -1,0 +1,7 @@
+ROM set changed?:
+0.33b1-0.169: popeye - "Popeye (revision D)"
+
+Resolution, 0.106-0.169: 512x448 @ 60.000000Hz
+
+Rules: http://www.twingalaxies.com/scores.php?scores=7792
+

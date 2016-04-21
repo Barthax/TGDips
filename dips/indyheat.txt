@@ -1,0 +1,4 @@
+ROM set changed:
+0.106-0.169: indyheat - "Danny Sullivan's Indy Heat"
+
+Resolution, 0.106-0.169: 320x240 @ 60.000000Hz

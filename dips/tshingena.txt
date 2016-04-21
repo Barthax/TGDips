@@ -1,0 +1,7 @@
+ROM set changed: yes
+0.106-0.129: tshingen - "Takeda Shingen (Japan, Japanese)"
+0.129u1-0.133: tshingna - "Takeda Shingen (Japan, Japanese)"
+0.133u1-0.170: tshingena - "Takeda Shingen (Japan, Japanese)"
+
+Resolution, 0.106-0.168: 256x224 @ 60.000000Hz
+Resolution, 0.169-0.170: 256x224 @ 56.191350Hz

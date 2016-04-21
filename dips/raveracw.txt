@@ -1,0 +1,24 @@
+ROM set changed: no
+0.106-0.170: raveracw - "Rave Racer (Rev. RV2, World)"
+
+Resolution, 0.106-0.144: 640x480 @ 60.000000Hz
+Resolution, 0.145-0.152: 640x480 @ 59.937809Hz
+Resolution, 0.153-0.170: 640x480 @ 60.000000Hz
+
+Rules, City - Time Trial [Fastest Lap]: http://www.twingalaxies.com/scores.php?scores=91194
+Rules, City - Time Trial [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=91195
+Rules, City [Fastest Lap]: http://www.twingalaxies.com/scores.php?scores=91184
+Rules, City [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=91185
+Rules, Mountain - Time Trial [Fastest Lap]: http://www.twingalaxies.com/scores.php?scores=91196
+Rules, Mountain - Time Trial [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=91197
+Rules, Mountain [Fastest Lap]: http://www.twingalaxies.com/scores.php?scores=91187
+Rules, Mountain [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=91188
+Rules, Ridge Racer Long - Time Trial [Fastest Lap]: http://www.twingalaxies.com/scores.php?scores=91198
+Rules, Ridge Racer Long - Time Trial [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=91199
+Rules, Ridge Racer Long [Fastest Lap]: http://www.twingalaxies.com/scores.php?scores=91189
+Rules, Ridge Racer Long [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=91190
+Rules, Ridge Racer Short - Time Trial [Fastest Lap]: http://www.twingalaxies.com/scores.php?scores=91201
+Rules, Ridge Racer Short - Time Trial [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=91202
+Rules, Ridge Racer Short [Fastest Lap]: http://www.twingalaxies.com/scores.php?scores=91191
+Rules, Ridge Racer Short [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=91192
+NB: Use service mode (F2) to access settings after playback if not shown.  Use steering left/right to navigate menu and button 1 to select.

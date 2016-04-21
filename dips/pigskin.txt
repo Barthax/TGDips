@@ -1,0 +1,5 @@
+ROM set changed: no
+0.106-0.141: pigskin - "Pigskin 621AD"
+0.142-0.170: pigskin - "Pigskin 621AD (rev 1.1K 8/01/90)"
+
+Resolution, 0.106-0.170: 512x480 @ 30.000000Hz

@@ -1,0 +1,6 @@
+ROM set changed: yes
+0.106-0.143: gunbustr - "Gunbuster (Japan)"
+0.144-0.169: gunbustrj - "Gunbuster (Japan)"
+
+Resolution, 0.106-0.169: 320x240 @ 60.000000Hz
+

@@ -1,0 +1,10 @@
+ROM set changed: no
+0.106-0.171: qbert - "Q*bert (US set 1)"
+
+Resolution, 0.106-0.126: 256x240 @ 61.000000Hz
+Resolution, 0.127-0.171: 256x240 @ 61.419025Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Q*Bert%20[US%20set%201]
+Rules, [Marathon Settings]: http://www.twingalaxies.com/scores.php?scores=7795
+Rules, [Tournament Settings]: http://www.twingalaxies.com/scores.php?scores=5163
+NB: Use Service Mode (F2) to check settings after playback.  Use Select (F1) briefly to navigate and hold Select (F1) to choose an option.  This also enabled checking the hardware dip switches via DIP switches option.

@@ -1,0 +1,8 @@
+ROM set changed: yes
+0.106-0.137: sf - "Street Fighter (World)"
+0.138-0.154: sf - "Street Fighter (World, Analog buttons)" (minor description change)
+0.155-0.169: sfan - "Street Fighter (World, pneumatic buttons)"
+
+Resolution, 0.106-0.169: sf - 384x224 @ 60.000000Hz
+
+Rules, Tournament settings: http://www.twingalaxies.com/scores.php?scores=23012

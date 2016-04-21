@@ -1,0 +1,8 @@
+ROM set changed: yes
+0.106-0.144: taxidrvr - "Taxi Driver"
+0.144u4-0.169: taxidriv - "Taxi Driver"
+
+MAME History:
+- 0.144u4: Added proper ROM labels for Taxi Driver [f205v]. Fixed rom names. Renamed (taxidrvr) to (taxidriv).
+
+Resolution, 0.106-0.169: 256x208 @ 60.000000Hz

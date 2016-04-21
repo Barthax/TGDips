@@ -1,0 +1,5 @@
+ROM set changed: no
+0.106-0.168: dogfight - "Dog Fight (Thunderbolt)"
+
+Resolution, 0.106-0.148: 256x224 @ 60.000000Hz
+Resolution, 0.149-0.168: 256x224 @ 60.606061Hz

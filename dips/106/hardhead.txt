@@ -1,0 +1,99 @@
+INPUT_PORTS_START( hardhead )
+
+	PORT_START_TAG("IN0")	// Player 1 - $da00 (ip = 0)
+	JOY(1)
+
+	PORT_START_TAG("IN1")	// Player 2 - $da00 (ip = 1)
+	JOY(2)
+
+	PORT_START_TAG("IN2")	// DSW 1 - $da00 (ip = 2)
+	PORT_DIPNAME( 0x01, 0x00, DEF_STR( Demo_Sounds ) )
+	PORT_DIPSETTING(    0x01, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x0e, 0x0e, DEF_STR( Bonus_Life ) )
+	PORT_DIPSETTING(    0x0e, "No Bonus" )
+	PORT_DIPSETTING(    0x0c, "10K" )
+	PORT_DIPSETTING(    0x0a, "20K" )
+	PORT_DIPSETTING(    0x08, "50K" )
+	PORT_DIPSETTING(    0x06, "50K, Every 50K" )
+	PORT_DIPSETTING(    0x04, "100K, Every 50K" )
+	PORT_DIPSETTING(    0x02, "100K, Every 100K" )
+	PORT_DIPSETTING(    0x00, "200K, Every 100K" )
+	PORT_DIPNAME( 0x70, 0x70, DEF_STR( Coinage ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( 5C_1C ) )
+	PORT_DIPSETTING(    0x10, DEF_STR( 4C_1C ) )
+	PORT_DIPSETTING(    0x20, DEF_STR( 3C_1C ) )
+	PORT_DIPSETTING(    0x30, DEF_STR( 2C_1C ) )
+	PORT_DIPSETTING(    0x70, DEF_STR( 1C_1C ) )
+	PORT_DIPSETTING(    0x60, DEF_STR( 1C_2C ) )
+	PORT_DIPSETTING(    0x50, DEF_STR( 1C_3C ) )
+	PORT_DIPSETTING(    0x40, DEF_STR( 1C_4C ) )
+	PORT_DIPNAME( 0x80, 0x80, "Invulnerability (Cheat)")
+	PORT_DIPSETTING(    0x80, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+
+	PORT_START_TAG("IN3") //DSW 2 - $da00 (ip = 3)
+	PORT_DIPNAME( 0x01, 0x01, DEF_STR( Flip_Screen ) )
+	PORT_DIPSETTING(    0x01, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x02, 0x02, DEF_STR( Cabinet ) )
+	PORT_DIPSETTING(    0x02, DEF_STR( Upright ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Cocktail ) )
+	PORT_DIPNAME( 0x04, 0x04, "Play Together" )
+	PORT_DIPSETTING(    0x00, DEF_STR( No ) )
+	PORT_DIPSETTING(    0x04, DEF_STR( Yes ) )
+	PORT_DIPNAME( 0x18, 0x18, DEF_STR( Lives ) )
+	PORT_DIPSETTING(    0x18, "2" )
+	PORT_DIPSETTING(    0x10, "3" )
+	PORT_DIPSETTING(    0x08, "4" )
+	PORT_DIPSETTING(    0x00, "5" )
+	PORT_DIPNAME( 0xe0, 0xe0, DEF_STR( Difficulty ) )
+	PORT_DIPSETTING(    0xe0, DEF_STR( Easiest ) )
+	PORT_DIPSETTING(    0xc0, DEF_STR( Very_Easy) )
+	PORT_DIPSETTING(    0xa0, DEF_STR( Easy ) )
+	PORT_DIPSETTING(    0x80, "Moderate" )
+	PORT_DIPSETTING(    0x60, DEF_STR( Normal ) )
+	PORT_DIPSETTING(    0x40, DEF_STR( Harder ) )
+	PORT_DIPSETTING(    0x20, DEF_STR( Very_Hard ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Hardest ) )
+INPUT_PORTS_END
+
+#define JOY(_n_) \
+	PORT_BIT(  0x01, IP_ACTIVE_LOW, IPT_JOYSTICK_UP    ) PORT_PLAYER(_n_) \
+	PORT_BIT(  0x02, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN  ) PORT_PLAYER(_n_) \
+	PORT_BIT(  0x04, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT  ) PORT_PLAYER(_n_) \
+	PORT_BIT(  0x08, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_PLAYER(_n_) \
+	PORT_BIT(  0x10, IP_ACTIVE_LOW, IPT_BUTTON1        ) PORT_PLAYER(_n_) \
+	PORT_BIT(  0x20, IP_ACTIVE_LOW, IPT_BUTTON2        ) PORT_PLAYER(_n_) \
+	PORT_BIT(  0x40, IP_ACTIVE_LOW, IPT_START##_n_ ) \
+	PORT_BIT(  0x80, IP_ACTIVE_LOW, IPT_COIN##_n_  )
+
+Resolution: 256x224 @60Hz
+
+Rules, Single Player: http://www.twingalaxies.com/scores.php?scores=75033
+Rules, Two Player: http://www.twingalaxies.com/scores.php?scores=75034
+ROMSet: HardHead
+Bonus Life: No Bonus
+Invulnerability [Cheat]: Off
+Flip Screen: Off
+Cabinet: Upright
+Play Together: Yes
+Lives: 2
+Difficulty: Normal
+
+Sample correct TG:
+DSW 1: offset 0x2B, repeat every 0x7C, value 0xFE typical
+- DSW1: 0x01 (Demo_Sounds): [not relevant]
+- DSW1: 0x0e (Bonus_Life): 0x0e (No Bonus)
+- DSW1: 0x70 (Coinage): [not relevant]
+- DSW1: 0x80 (Invulnerability (Cheat)): 0x80 (Off)
+DSW 2: offset 0x2F, repeat every 0x7C, value 0x7F only
+- DSW2: 0x01 (Flip_Screen): 0x01 (Off)
+- DSW2: 0x02 (Cabinet): 0x02 (Upright)
+- DSW2: 0x04 (Play Together): 0x04 (Yes)
+- DSW2: 0x18 (Lives): 0x18 (2)
+- DSW2: 0xe0 (Difficulty): 0x60 (Normal)
+
+    20: 00 00 00 FF 00 00 00 FF  00 00 00 FE 00 00 00 7F | ... ... ...¦....
+    A0: 00 00 00 FF 00 00 00 FE  00 00 00 7F 00 00 00 00 | ... ...¦........
+   120: 00 00 00 FE 00 00 00 7F  00 00 00 00 00 00 00 00 | ...¦............

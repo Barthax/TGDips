@@ -1,0 +1,11 @@
+ROM set changed: yes
+0.106-0.133: scrambls - "Scramble (Stern)"
+0.133u1-0.138: scrambles - "Scramble (Stern)"
+0.139-0.147: scrambles - "Scramble (Stern Electronics)"
+0.148-0.170: scrambles - "Scramble (Stern Electronics set 1)"
+
+MAME History:
+- 0.133u1: Renamed (scrambls) to (scrambles).
+
+Resolution, 0.106-0.113: 256x224 @ 60.606060Hz
+Resolution, 0.114-0.133: 768x224 @ 60.606061Hz

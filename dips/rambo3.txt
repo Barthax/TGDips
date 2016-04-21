@@ -1,0 +1,5 @@
+ROM set changed: yes
+0.106-0.143: rambo3 - "Rambo III (Europe set 1)"
+0.143u3-0.170: rambo3p - "Rambo III (Europe, Proto?)"
+
+Resolution, 0.106-0.170: 320x224 @ 60.000000Hz

@@ -1,0 +1,201 @@
+INPUT_PORTS_START( kaos )
+	PORT_START      /* COL. A - from "TEST NO.7 - status locator - coin-door" */
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_TILT )
+	PORT_BIT(0x08, IP_ACTIVE_LOW, IPT_SERVICE ) PORT_NAME("Do Tests") PORT_CODE(KEYCODE_F1)
+	PORT_BIT(0x10, IP_ACTIVE_LOW, IPT_SERVICE ) PORT_NAME("Select Test") PORT_CODE(KEYCODE_F2)
+	PORT_BIT( 0x20, IP_ACTIVE_HIGH, IPT_COIN3 )
+	PORT_BIT( 0x40, IP_ACTIVE_HIGH, IPT_COIN2 )
+	PORT_BIT( 0x80, IP_ACTIVE_HIGH, IPT_COIN1 )
+
+	PORT_START      /* COL. B - from "TEST NO.7 - status locator - start sws." */
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_START2 )
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_START1 )
+
+	PORT_START      /* COL. C - from "TEST NO.8 - status locator - player no.1" */
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_BUTTON1 )
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT )
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT )
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_BUTTON2 )
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_BUTTON3 )
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_UNUSED )
+
+	PORT_START      /* COL. D - from "TEST NO.8 - status locator - player no.2" */
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_BUTTON2 ) PORT_COCKTAIL
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_BUTTON3 ) PORT_COCKTAIL
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_COCKTAIL
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_COCKTAIL
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_COCKTAIL
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_UNUSED )
+
+	PORT_START
+	PORT_DIPNAME( 0x0f, 0x0e, DEF_STR( Coinage ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( 2C_1C ) )
+	PORT_DIPSETTING(    0x0e, DEF_STR( 1C_1C ) )
+	PORT_DIPSETTING(    0x0d, DEF_STR( 1C_2C ) )
+	PORT_DIPSETTING(    0x0c, DEF_STR( 1C_3C ) )
+	PORT_DIPSETTING(    0x0b, DEF_STR( 1C_4C ) )
+	PORT_DIPSETTING(    0x0a, DEF_STR( 1C_5C ) )
+	PORT_DIPSETTING(    0x09, DEF_STR( 1C_6C ) )
+	PORT_DIPSETTING(    0x08, DEF_STR( 1C_7C ) )
+	PORT_DIPSETTING(    0x07, DEF_STR( 1C_8C ) )
+	PORT_DIPSETTING(    0x06, DEF_STR( 1C_9C ) )
+	PORT_DIPSETTING(    0x05, "1 Coin/10 Credits" )
+	PORT_DIPSETTING(    0x04, "1 Coin/11 Credits" )
+	PORT_DIPSETTING(    0x03, "1 Coin/12 Credits" )
+	PORT_DIPSETTING(    0x02, "1 Coin/13 Credits" )
+	PORT_DIPSETTING(    0x01, "1 Coin/14 Credits" )
+	PORT_DIPSETTING(    0x0f, DEF_STR( 2C_3C ) )
+	PORT_DIPNAME( 0x10, 0x00, DEF_STR( Demo_Sounds ) )
+	PORT_DIPSETTING(    0x10, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x60, 0x60, "Max Credits" )
+	PORT_DIPSETTING(    0x60, "10" )
+	PORT_DIPSETTING(    0x40, "20" )
+	PORT_DIPSETTING(    0x20, "30" )
+	PORT_DIPSETTING(    0x00, "40" )
+	PORT_DIPNAME( 0x80, 0x80, DEF_STR( Free_Play ) )
+	PORT_DIPSETTING(    0x80, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+
+	PORT_START
+	PORT_DIPNAME( 0x01, 0x01, DEF_STR( Lives ) )
+	PORT_DIPSETTING(    0x01, "3" )
+	PORT_DIPSETTING(    0x00, "4" )
+	PORT_DIPNAME( 0x02, 0x00, "Speed" )
+	PORT_DIPSETTING(    0x00, "Slow" )
+	PORT_DIPSETTING(    0x02, "Fast" )
+	PORT_DIPNAME( 0x0c, 0x00, DEF_STR( Bonus_Life ) )
+	PORT_DIPSETTING(    0x0c, "No Bonus" )
+	PORT_DIPSETTING(    0x08, "10k" )
+	PORT_DIPSETTING(    0x04, "10k 30k" )
+	PORT_DIPSETTING(    0x00, "10k 30k 60k" )
+	PORT_DIPNAME( 0x10, 0x10, "Number of $" )
+	PORT_DIPSETTING(    0x10, "8" )
+	PORT_DIPSETTING(    0x00, "12" )
+	PORT_DIPNAME( 0x20, 0x00, "Bonus erg" )
+	PORT_DIPSETTING(    0x20, "Every other screen" )
+	PORT_DIPSETTING(    0x00, "Every screen" )
+	PORT_DIPNAME( 0x40, 0x40, DEF_STR( Unused ) )
+	PORT_DIPSETTING(    0x40, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x80, 0x80, DEF_STR( Cabinet ) )
+	PORT_DIPSETTING(    0x80, DEF_STR( Upright ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Cocktail ) )
+
+	PORT_START      /* sound board DSW A */
+	PORT_DIPNAME( 0x01, 0x01, DEF_STR( Unused ) )
+	PORT_DIPSETTING(    0x01, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x02, 0x02, DEF_STR( Unused ) )
+	PORT_DIPSETTING(    0x02, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x04, 0x04, DEF_STR( Unused ) )
+	PORT_DIPSETTING(    0x04, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x08, 0x08, DEF_STR( Unused ) )
+	PORT_DIPSETTING(    0x08, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x10, 0x10, DEF_STR( Unused ) )
+	PORT_DIPSETTING(    0x10, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x20, 0x20, DEF_STR( Unused ) )
+	PORT_DIPSETTING(    0x20, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x40, 0x40, DEF_STR( Unused ) )
+	PORT_DIPSETTING(    0x40, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x80, 0x80, DEF_STR( Unused ) )
+	PORT_DIPSETTING(    0x80, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+
+	PORT_START      /* sound board DSW B */
+	PORT_DIPNAME( 0x01, 0x01, DEF_STR( Unused ) )
+	PORT_DIPSETTING(    0x01, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x02, 0x02, DEF_STR( Unused ) )
+	PORT_DIPSETTING(    0x02, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x04, 0x04, DEF_STR( Unused ) )
+	PORT_DIPSETTING(    0x04, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x08, 0x08, DEF_STR( Unused ) )
+	PORT_DIPSETTING(    0x08, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x10, 0x10, DEF_STR( Unused ) )
+	PORT_DIPSETTING(    0x10, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x20, 0x20, DEF_STR( Unused ) )
+	PORT_DIPSETTING(    0x20, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x40, 0x40, DEF_STR( Unused ) )
+	PORT_DIPSETTING(    0x40, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x80, 0x80, DEF_STR( Unused ) )
+	PORT_DIPSETTING(    0x80, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+INPUT_PORTS_END
+
+Resolution: 256x256 @ 57Hz
+
+Rules: http://www.twingalaxies.com/scores.php?scores=10469
+ROMSet: Kaos
+Max Credits: 10
+Free Play: Off
+Lives: 3
+Speed: Slow
+Bonus Life: 10K, 30K, 60K
+Number of $: 8
+Bonus erg: Every Screen
+Cabinet: Upright
+Unused: Off [All]
+
+Sample correct TG:
+Dips1: offset 0x33, repeat every 0x7C, typical value 0xEE
+- Dips1: 0x0f (Coinage): [not relevant]
+- Dips1: 0x10 (Demo_Sounds): [not relevant]
+- Dips1: 0x60 (Max Credits): 0x60 (10)
+- Dips1: 0x80 (Free_Play): 0x80 (Off)
+Dips2: offset 0x37, repeat every 0x7C, typical value 0xD1
+- Dips2: 0x01 (Lives): 0x01 (3)
+- Dips2: 0x02 (Speed): 0x00 (Slow)
+- Dips2: 0x0c (Bonus_Life): 0x00 (10k 30k 60k)
+- Dips2: 0x10 (Number of $): 0x10 (8)
+- Dips2: 0x20 (Bonus erg): 0x00 (Every screen)
+- Dips2: 0x40 (Unused): 0x40 (Off)
+- Dips2: 0x80 (Cabinet): 0x80 (Upright)
+DSW A: offset 0x3B, repeat every 0x7C, typical value 0xFF
+- DSW A: 0x01 (Unused): 0x01 (Off)
+- DSW A: 0x02 (Unused): 0x02 (Off)
+- DSW A: 0x04 (Unused): 0x04 (Off)
+- DSW A: 0x08 (Unused): 0x08 (Off)
+- DSW A: 0x10 (Unused): 0x10 (Off)
+- DSW A: 0x20 (Unused): 0x20 (Off)
+- DSW A: 0x40 (Unused): 0x40 (Off)
+- DSW A: 0x80 (Unused): 0x80 (Off)
+DSW B: offset 0x3F, repeat every 0x7C, typical value 0xFF
+- DSW B: 0x01 (Unused): 0x01 (Off)
+- DSW B: 0x02 (Unused): 0x02 (Off)
+- DSW B: 0x04 (Unused): 0x04 (Off)
+- DSW B: 0x08 (Unused): 0x08 (Off)
+- DSW B: 0x10 (Unused): 0x10 (Off)
+- DSW B: 0x20 (Unused): 0x20 (Off)
+- DSW B: 0x40 (Unused): 0x40 (Off)
+- DSW B: 0x80 (Unused): 0x80 (Off)
+
+    30: 00 00 00 EE 00 00 00 D1  00 00 00 FF 00 00 00 FF | ...e...-... ... 
+    A0: 00 00 00 FF 00 00 00 FF  00 00 00 FF 00 00 00 EE | ... ... ... ...e
+    B0: 00 00 00 D1 00 00 00 FF  00 00 00 FF 00 00 00 00 | ...-... ... ....
+   120: 00 00 00 FF 00 00 00 FF  00 00 00 EE 00 00 00 D1 | ... ... ...e...-
+   130: 00 00 00 FF 00 00 00 FF  00 00 00 00 00 00 00 00 | ... ... ........

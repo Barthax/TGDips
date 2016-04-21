@@ -1,0 +1,5 @@
+ROM set changed: no
+0.106-0.138: tondemo - "Tondemo Crisis (JAPAN)"
+0.139-0.170: tondemo - "Tondemo Crisis (Japan)"
+
+Resolution, 0.106-0.170: 640x480 @ 60.000000Hz

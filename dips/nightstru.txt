@@ -1,0 +1,6 @@
+ROM set changed: yes
+0.106-0.125: nightstr - "Night Striker (US)"
+0.125u9-0.133: nghtstru - "Night Striker (US)"
+0.133u1-0.170: nightstru - "Night Striker (US)"
+
+Resolution, 0.106-0.170: 320x240 @ 60.000000Hz

@@ -1,0 +1,9 @@
+ROM set changed: yes
+0.106-0.138: boggy84 - "Boggy '84"
+0.139-0.169: boggy84b - "Boggy '84 (bootleg)"
+
+MAME History:
+- 0.138u3: Klaus Sommer, Team Europe and The Dumping Union added Boggy '84, original Kaneko. Changed 'Boggy '84' to clone 'Boggy '84 (bootleg)'. Renamed (boggy84) to (boggy84b).
+
+Resolution, 0.106-0.169: 256x224 @ 60.000000Hz
+

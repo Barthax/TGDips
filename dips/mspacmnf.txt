@@ -1,0 +1,8 @@
+ROM set changed: no
+0.106-0.147: mspacmnf - "Ms. Pac-Man (with speedup hack)"
+0.148-0.171: mspacmnf - "Ms. Pac-Man (speedup hack)"
+
+Resolution, 0.106-0.113: 288x224 @ 60.606060Hz
+Resolution, 0.114-0.171: 288x224 @ 60.606061Hz
+
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=7775

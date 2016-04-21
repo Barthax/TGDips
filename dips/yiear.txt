@@ -1,0 +1,6 @@
+ROM set changed: no
+0.106-0.146: yiear - "Yie Ar Kung-Fu (set 1)"
+0.147-0.170: yiear - "Yie Ar Kung-Fu (program code I)"
+
+Resolution, 0.106-0.133: 256x224 @ 60.000000Hz
+Resolution, 0.134-0.170: 256x224 @ 60.580000Hz

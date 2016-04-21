@@ -1,0 +1,7 @@
+ROM set changed: yes
+0.106-0.130: kov2 - "Knights of Valour 2"
+0.131-0.137: kov2 - "Knights of Valour 2 / Sangoku Senki 2 (ver. 100)"
+0.137u1-0.169: kov2100 - "Knights of Valour 2 / Sangoku Senki 2 (ver. 100, 100, 100HK)"
+
+Resolution, 0.106-0.137: 448x224 @ 60.000000Hz
+Resolution, 0.138-0.169: 448x224 @ 60.000000Hz

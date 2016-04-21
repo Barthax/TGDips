@@ -1,0 +1,125 @@
+# MAME 0.106 source snippet.
+
+GAME( 1980, centiped, 0,        centiped, centiped, 0,        ROT270, "Atari",   "Centipede (revision 3)", 0 )
+
+/* The input ports are identical for the real one and the bootleg one, except
+   that one of the languages is Italian in the bootleg one instead of Spanish */
+
+#define PORTS(GAMENAME, FOURTH_LANGUAGE)										\
+																				\
+INPUT_PORTS_START( GAMENAME )													\
+	PORT_START	/* IN0 */														\
+	PORT_BIT( 0x0f, IP_ACTIVE_HIGH, IPT_SPECIAL )	/* trackball data */		\
+	PORT_DIPNAME( 0x10, 0x00, DEF_STR( Cabinet ))								\
+	PORT_DIPSETTING(    0x00, DEF_STR( Upright ))								\
+	PORT_DIPSETTING(    0x10, DEF_STR( Cocktail ))								\
+	PORT_SERVICE( 0x20, IP_ACTIVE_LOW )											\
+	PORT_BIT( 0x40, IP_ACTIVE_HIGH, IPT_VBLANK )								\
+	PORT_BIT( 0x80, IP_ACTIVE_HIGH, IPT_SPECIAL )	/* trackball sign bit */	\
+																				\
+	PORT_START	/* IN1 */														\
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_START1 )									\
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_START2 )									\
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_BUTTON1 )								\
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_COCKTAIL					\
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_TILT )									\
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_COIN1 )									\
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_COIN2 )									\
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_SERVICE1 )								\
+																				\
+	PORT_START	/* IN2 */														\
+	PORT_BIT( 0x0f, IP_ACTIVE_HIGH, IPT_SPECIAL )	/* trackball data */		\
+	PORT_BIT( 0x70, IP_ACTIVE_HIGH, IPT_UNKNOWN )								\
+	PORT_BIT( 0x80, IP_ACTIVE_HIGH, IPT_SPECIAL )	/* trackball sign bit */	\
+																				\
+	PORT_START	/* IN3 */														\
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_8WAY PORT_COCKTAIL\
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_8WAY PORT_COCKTAIL	\
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_8WAY PORT_COCKTAIL\
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_8WAY PORT_COCKTAIL\
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_8WAY					\
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_8WAY				\
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_8WAY				\
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_8WAY				\
+																				\
+	PORT_START	/* IN4 */														\
+	PORT_DIPNAME( 0x03, 0x00, DEF_STR( Language ) )										\
+	PORT_DIPSETTING(    0x00, DEF_STR( English ) )										\
+	PORT_DIPSETTING(    0x01, DEF_STR( German ) )										\
+	PORT_DIPSETTING(    0x02, DEF_STR( French ) )										\
+	PORT_DIPSETTING(    0x03, FOURTH_LANGUAGE )									\
+	PORT_DIPNAME( 0x0c, 0x04, DEF_STR( Lives ))									\
+	PORT_DIPSETTING(    0x00, "2" )												\
+	PORT_DIPSETTING(    0x04, "3" )												\
+	PORT_DIPSETTING(    0x08, "4" )												\
+	PORT_DIPSETTING(    0x0c, "5" )												\
+	PORT_DIPNAME( 0x30, 0x10, DEF_STR( Bonus_Life ))							\
+	PORT_DIPSETTING(    0x00, "10000" )											\
+	PORT_DIPSETTING(    0x10, "12000" )											\
+	PORT_DIPSETTING(    0x20, "15000" )											\
+	PORT_DIPSETTING(    0x30, "20000" )											\
+	PORT_DIPNAME( 0x40, 0x40, DEF_STR( Difficulty ))							\
+	PORT_DIPSETTING(    0x40, DEF_STR( Easy ) )											\
+	PORT_DIPSETTING(    0x00, DEF_STR( Hard ) )											\
+	PORT_DIPNAME( 0x80, 0x00, "Credit Minimum" )								\
+	PORT_DIPSETTING(    0x00, "1" )												\
+	PORT_DIPSETTING(    0x80, "2" )												\
+																				\
+	PORT_START	/* IN5 */														\
+	PORT_DIPNAME( 0x03, 0x02, DEF_STR( Coinage ))								\
+	PORT_DIPSETTING(    0x03, DEF_STR( 2C_1C ))									\
+	PORT_DIPSETTING(    0x02, DEF_STR( 1C_1C ))									\
+	PORT_DIPSETTING(    0x01, DEF_STR( 1C_2C ))									\
+	PORT_DIPSETTING(    0x00, DEF_STR( Free_Play ))								\
+	PORT_DIPNAME( 0x0c, 0x00, "Right Coin" )									\
+	PORT_DIPSETTING(    0x00, "*1" )											\
+	PORT_DIPSETTING(    0x04, "*4" )											\
+	PORT_DIPSETTING(    0x08, "*5" )											\
+	PORT_DIPSETTING(    0x0c, "*6" )											\
+	PORT_DIPNAME( 0x10, 0x00, "Left Coin" )										\
+	PORT_DIPSETTING(    0x00, "*1" )											\
+	PORT_DIPSETTING(    0x10, "*2" )											\
+	PORT_DIPNAME( 0xe0, 0x00, "Bonus Coins" )									\
+	PORT_DIPSETTING(    0x00, DEF_STR( None ) )											\
+	PORT_DIPSETTING(    0x20, "3 credits/2 coins" )								\
+	PORT_DIPSETTING(    0x40, "5 credits/4 coins" )								\
+	PORT_DIPSETTING(    0x60, "6 credits/4 coins" )								\
+	PORT_DIPSETTING(    0x80, "6 credits/5 coins" )								\
+	PORT_DIPSETTING(    0xa0, "4 credits/3 coins" )								\
+																				\
+	PORT_START	/* IN6, fake trackball input port. */							\
+	PORT_BIT( 0xff, 0x00, IPT_TRACKBALL_X ) PORT_SENSITIVITY(50) PORT_KEYDELTA(10) PORT_REVERSE	\
+																				\
+	PORT_START	/* IN7, fake trackball input port. */							\
+	PORT_BIT( 0xff, 0x00, IPT_TRACKBALL_Y ) PORT_SENSITIVITY(50) PORT_KEYDELTA(10) \
+																				\
+	PORT_START	/* IN8, fake trackball input port. */							\
+	PORT_BIT( 0xff, 0x00, IPT_TRACKBALL_X ) PORT_SENSITIVITY(50) PORT_KEYDELTA(10) PORT_COCKTAIL	\
+																				\
+	PORT_START	/* IN9, fake trackball input port. */							\
+	PORT_BIT( 0xff, 0x00, IPT_TRACKBALL_Y ) PORT_SENSITIVITY(50) PORT_KEYDELTA(10) PORT_REVERSE PORT_COCKTAIL	\
+INPUT_PORTS_END
+
+PORTS(centiped, DEF_STR( Spanish ))
+
+
+Resolution: 256x240 @ 60Hz
+
+Rules: http://www.twingalaxies.com/scores.php?scores=7702
+ROMSet: Centiped
+Service Mode: Off
+Lives: 3
+Bonus Life: Every 12,000 points
+Difficulty: Hard
+
+Sample correct TG:
+IN4: offset 0x33, repetition varies due to analogue input, typical value 0x14
+- IN4: 0x03 (Language): [not relevant]
+- IN4: 0x0c (Lives): 0x04 (3)
+- IN4: 0x30 (Bonus_Life): 0x10 (12000)
+- IN4: 0x40 (Difficulty): 0x00 (Hard)
+- IN4: 0x80 (Credit Minimum): [not relevant]
+
+    30: 00 00 00 14 00 00 00 02  00 00 00 00 00 00 00 00 | ................
+    A0: 00 00 00 FF 00 00 00 00  00 00 00 FF 00 00 00 14 | ... ....... ....
+   120: 00 00 00 FF 00 00 00 00  00 00 00 FF 00 00 00 14 | ... ....... ....

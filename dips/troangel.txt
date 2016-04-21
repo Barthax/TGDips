@@ -1,0 +1,7 @@
+ROM Changes:
+0.106-0.169: troangel - "Tropical Angel"
+
+Resolution, 0.106-0.169: 240x240 @ 57.000000Hz
+
+Rules: http://www.twingalaxies.com/scores.php?scores=9808
+

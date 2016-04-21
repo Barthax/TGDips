@@ -1,0 +1,8 @@
+ROM set changed: no
+0.106-0.137: lghost - "Laser Ghost (set 2, World, 317-0166)"
+0.138-0.146: lghost - "Laser Ghost (World, 317-0166)"
+0.147-0.165: lghost - "Laser Ghost (World, FD1094 317-0166)"
+0.166-0.169: lghost - "Laser Ghost (World) (FD1094 317-0166)"
+
+Resolution, 0.106-0.133: 320x224 @ 60.000000Hz
+Resolution, 0.134-0.169: 320x224 @ 57.230000Hz

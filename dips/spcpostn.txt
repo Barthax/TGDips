@@ -1,0 +1,6 @@
+ROM set changed:
+0.106-0.169: spcpostn - "Space Position (Japan)"
+
+Resolution, 0.106-0.169: 256x240 @ 60.000000Hz
+
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=110723

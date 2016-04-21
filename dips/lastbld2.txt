@@ -1,0 +1,8 @@
+ROM set changed: no
+0.106: lastbld2 - "The Last Blade 2 / Bakumatsu Roman - Dai Ni Maku Gekka no Kenshi"
+0.107-0.136: lastbld2 - "Last Blade 2 / Bakumatsu Roman - Dai Ni Maku Gekka no Kenshi, The"
+0.137-0.143: lastbld2 - "The Last Blade 2 / Bakumatsu Roman - Dai Ni Maku Gekka no Kenshi"
+0.144-0.170: lastbld2 - "The Last Blade 2 / Bakumatsu Roman - Dai Ni Maku Gekka no Kenshi (NGM-2430)(NGH-2430)"
+
+Resolution, 0.106-0.113: 320x224 @ 59.185608Hz
+Resolution, 0.114-0.170: 320x224 @ 59.185606Hz

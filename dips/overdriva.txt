@@ -1,0 +1,5 @@
+ROM set changed: yes
+0.106-0.157: overdriv - "Over Drive"
+0.158-0.170: overdriva - "Over Drive (set 2)"
+
+Resolution, 0.106-0.170: 304x256 @ 59.000000Hz

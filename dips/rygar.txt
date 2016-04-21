@@ -1,0 +1,4 @@
+ROM set changed: no
+0.106-0.170: rygar - "Rygar (US set 1)"
+
+Resolution, 0.106-0.170: 256x224 @ 60.000000Hz

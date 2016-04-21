@@ -1,0 +1,27 @@
+#MAME Source info from cps2.c
+#Source/driver version 0.106
+
+
+#Game Information: (Year, Driver, Parent, Machine, Inputs, Init, Orientation, Manufacturer, Name, Status)
+GAME( 2000, dimahoo,  0,       cps2, sgemf,   cps2, ROT270, "Eighting/Raizing, distributed by Capcom", "Dimahoo (US 000121)", 0 )
+
+
+Resolution: 384x224 @ 59.633331 Hz
+
+
+Settings are adjusted in Service Mode (F2) and will be evident in playback if changed. Settings can also be checked after playback. No DIP analysis or INP dump needed.
+
+
+Rules: http://www.twingalaxies.com/scores.php?scores=26109
+ROMSet: Dimahoo
+
+
+Internal Settings
+-----------------
+Player Stock: 3
+Bomber Stock: 3
+Game Difficulty: 4 [Normal]
+Extend Type: 2.000.000 and 5.000.000
+Stage Type: 1 Loop
+Invincible: Off
+Special Rules: These settings are the internal defaults and do not need to be changed. This is a Single Player ONLY Variation! You may freely choose your character. Continues are NOT allowed!

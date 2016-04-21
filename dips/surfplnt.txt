@@ -1,0 +1,5 @@
+ROM set changed: no
+0.106-0.128: surfplnt - "Surf Planet"
+0.129-0.170: surfplnt - "Surf Planet (Version 4.1)"
+
+Resolution, 0.106-0.170: 576x432 @ 60.000000Hz

@@ -1,0 +1,6 @@
+ROM set changed: yes
+0.106-0.146: gigandes - "Gigandes"
+0.147-0.169: gigandesa - "Gigandes (earlier)"
+
+Resolution, 0.106-0.169: 384x240 @ 60.000000Hz
+

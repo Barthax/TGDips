@@ -1,0 +1,120 @@
+INPUT_PORTS_START( 720 )
+	PORT_START_TAG("1840")	/* (sound) */
+	PORT_BIT( 0x01, IP_ACTIVE_HIGH, IPT_SPECIAL )
+	PORT_BIT( 0x02, IP_ACTIVE_HIGH, IPT_SPECIAL )
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_SPECIAL )
+	PORT_BIT( 0x08, IP_ACTIVE_HIGH, IPT_UNUSED )
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_SPECIAL )
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_COIN3 )
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_COIN1 )
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_COIN2 )
+
+	PORT_START_TAG("1800")
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_BIT( 0x10, IP_ACTIVE_HIGH, IPT_SPECIAL )
+	PORT_BIT( 0x20, IP_ACTIVE_HIGH, IPT_SPECIAL )
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_BUTTON2 )
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_START2 )
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_BUTTON1 )
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_START1 )
+
+	PORT_START_TAG("1801")
+	PORT_BIT( 0x7f, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_SERVICE( 0x80, IP_ACTIVE_LOW )
+
+	PORT_START_TAG("ADC0")
+	PORT_BIT( 0xff, IP_ACTIVE_LOW, IPT_UNUSED )
+
+	PORT_START_TAG("ADC1")
+	PORT_BIT( 0xff, IP_ACTIVE_LOW, IPT_UNUSED )
+
+	PORT_START_TAG("ADC2")
+	PORT_BIT( 0xff, IP_ACTIVE_LOW, IPT_UNUSED )
+
+	PORT_START_TAG("ADC3")
+	PORT_BIT( 0xff, IP_ACTIVE_LOW, IPT_UNUSED )
+
+	PORT_START_TAG("LETA0")	/* not direct mapped */
+	PORT_BIT( 0xff, 0x80, IPT_AD_STICK_X ) PORT_MINMAX(0x00,0xff) PORT_SENSITIVITY(100) PORT_KEYDELTA(10)
+
+	PORT_START_TAG("LETA1")	/* not direct mapped */
+	PORT_BIT( 0xff, 0x80, IPT_AD_STICK_Y ) PORT_MINMAX(0x00,0xff) PORT_SENSITIVITY(100) PORT_KEYDELTA(10) PORT_REVERSE
+
+	PORT_START_TAG("LETA2")
+	PORT_BIT( 0xff, IP_ACTIVE_LOW, IPT_UNUSED )
+
+	PORT_START_TAG("LETA3")
+	PORT_BIT( 0xff, IP_ACTIVE_LOW, IPT_UNUSED )
+
+	PORT_START_TAG("DSW0")
+	PORT_DIPNAME( 0x03, 0x00, DEF_STR( Coinage ) )
+	PORT_DIPSETTING(    0x03, DEF_STR( 4C_1C ) )
+	PORT_DIPSETTING(    0x02, DEF_STR( 3C_1C ) )
+	PORT_DIPSETTING(    0x01, DEF_STR( 2C_1C ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( 1C_1C ) )
+	PORT_DIPNAME( 0x0c, 0x00, "Right Coin" )
+	PORT_DIPSETTING(    0x00, "*1" )
+	PORT_DIPSETTING(    0x04, "*4" )
+	PORT_DIPSETTING(    0x08, "*5" )
+	PORT_DIPSETTING(    0x0c, "*6" )
+	PORT_DIPNAME( 0x10, 0x00, "Left Coin" )
+	PORT_DIPSETTING(    0x00, "*1" )
+	PORT_DIPSETTING(    0x10, "*2" )
+	PORT_DIPNAME( 0xe0, 0x00, "Bonus Coins" )
+	PORT_DIPSETTING(    0x00, DEF_STR( None ) )
+/*  PORT_DIPSETTING(    0xc0, DEF_STR( None ) )*/
+	PORT_DIPSETTING(    0x80, "1 each 5" )
+	PORT_DIPSETTING(    0x40, "1 each 4" )
+	PORT_DIPSETTING(    0xa0, "1 each 3" )
+	PORT_DIPSETTING(    0x60, "2 each 4" )
+	PORT_DIPSETTING(    0x20, "1 each 2" )
+	PORT_DIPSETTING(    0xe0, DEF_STR( Free_Play ) )
+
+	PORT_START_TAG("DSW1")
+	PORT_DIPNAME( 0x03, 0x01, DEF_STR( Bonus_Life ) )
+	PORT_DIPSETTING(    0x01, "3000" )
+	PORT_DIPSETTING(    0x00, "5000" )
+	PORT_DIPSETTING(    0x02, "8000" )
+	PORT_DIPSETTING(    0x03, "12000" )
+	PORT_DIPNAME( 0x0c, 0x04, DEF_STR( Difficulty ) )
+	PORT_DIPSETTING(    0x04, DEF_STR( Easy ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Medium ) )
+	PORT_DIPSETTING(    0x08, DEF_STR( Hard ) )
+	PORT_DIPSETTING(    0x0c, DEF_STR( Hardest ) )
+	PORT_DIPNAME( 0x30, 0x10, "Maximum Add. A. Coins" )
+	PORT_DIPSETTING(    0x10, "0" )
+	PORT_DIPSETTING(    0x20, "1" )
+	PORT_DIPSETTING(    0x00, "2" )
+	PORT_DIPSETTING(    0x30, "3" )
+	PORT_DIPNAME( 0xc0, 0x40, "Coins Required" )
+	PORT_DIPSETTING(    0x80, "3 to Start, 2 to Continue" )
+	PORT_DIPSETTING(    0xc0, "3 to Start, 1 to Continue" )
+	PORT_DIPSETTING(    0x00, "2 to Start, 1 to Continue" )
+	PORT_DIPSETTING(    0x40, "1 to Start, 1 to Continue" )
+INPUT_PORTS_END
+
+Resolution: 512x384 @ 60Hz
+
+DIPs are shown via F2 service mode and mirror the hardware dips.  Cannot check using Service Mode after playback, however: settings shown at that point are reverted to the local settings (not the playback).
+
+Rules: http://www.twingalaxies.com/scores.php?scores=21422
+ROMSet: 720
+Settings can be altered in the Service Menu
+Timer For Street: Medium
+Tickets At Start: 2 - note: this is only accessible via the F2 service mode
+Tickets Level: 5000
+Maximum Add A Coins: 2
+
+Sample correct TG:
+DSW1: offset 0x53, repeat every 0x7C, typical value 0x40
+- DSW1: 0x03 (Bonus_Life): 0x00 (5000) - note: this is the "Tickets Level" in the rules.
+- DSW1: 0x0c (Difficulty): 0x00 (Medium)
+- DSW1: 0x30 (Maximum Add. A. Coins): 0x00 (2)
+- DSW1: 0xc0 (Coins Required): [not relevant]
+
+    50: 00 00 00 40 00 00 00 00  00 00 00 00 00 00 00 00 | ...@............
+    C0: 00 00 00 FF 00 00 00 FF  00 00 00 00 00 00 00 40 | ... ... .......@
+   140: 00 00 00 FF 00 00 00 00  00 00 00 40 00 00 00 00 | ... .......@....

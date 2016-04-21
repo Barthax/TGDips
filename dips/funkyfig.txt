@@ -1,0 +1,6 @@
+ROM set changed: no
+0.106-0.151: funkyfig - "The First Funky Fighter"
+0.152-0.164: funkyfig - "The First Funky Fighter (set 1)"
+0.165-0.170: funkyfig - "The First Funky Fighter (North America, set 1)"
+
+Resolution, 0.106-0.170: 336x240 @ 60.000000Hz

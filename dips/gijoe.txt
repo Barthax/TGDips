@@ -1,0 +1,6 @@
+ROM set changed: no
+0.106-0.136: gijoe - "GI Joe (World)"
+0.137-0.140: gijoe - "G.I. Joe (World)"
+0.141-0.169: gijoe - "G.I. Joe (World, EAB, set 1)"
+
+Resolution, 0.106-0.169: 288x224 @ 60.000000Hz

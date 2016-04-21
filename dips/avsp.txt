@@ -1,0 +1,6 @@
+ROM set changed: no
+0.106-0.168: avsp - "Alien vs. Predator (Euro 940520)"
+
+Resolution, 0.106-0.127: 384x224 @ 59.633333Hz
+Resolution, 0.128-0.152: 384x224 @ 59.629403Hz
+Resolution, 0.153-0.168: 384x224 @ 59.637405Hz

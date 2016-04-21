@@ -1,0 +1,82 @@
+INPUT_PORTS_START( journey )
+    PORT_START_TAG("SSIO.IP0")    /* J4 1-8 */
+    PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_COIN1 )
+    PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_COIN2 )
+    PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_START1 )
+    PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_START2 )
+    PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_BUTTON1 )
+    PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_TILT )
+    PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_SERVICE1 )
+    PORT_SERVICE( 0x80, IP_ACTIVE_LOW )
+
+
+    PORT_START_TAG("SSIO.IP1")    /* J4 10-13,15-18 */
+    PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_8WAY
+    PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_8WAY
+    PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_8WAY
+    PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_8WAY
+    PORT_BIT( 0xf0, IP_ACTIVE_LOW, IPT_UNUSED )
+
+
+    PORT_START_TAG("SSIO.IP2")    /* J5 1-8 */
+    PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_8WAY PORT_COCKTAIL
+    PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_8WAY PORT_COCKTAIL
+    PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_8WAY PORT_COCKTAIL
+    PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_8WAY PORT_COCKTAIL
+    PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_COCKTAIL
+    PORT_BIT( 0xe0, IP_ACTIVE_LOW, IPT_UNUSED )
+
+
+    PORT_START_TAG("SSIO.IP3")    /* DIPSW @ B3 */
+    PORT_DIPNAME( 0x01, 0x01, "Coin Meters" )
+    PORT_DIPSETTING(    0x01, "1" )
+    PORT_DIPSETTING(    0x00, "2" )
+    PORT_DIPNAME( 0x02, 0x00, DEF_STR( Cabinet ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( Upright ) )
+    PORT_DIPSETTING(    0x02, DEF_STR( Cocktail ) )
+    PORT_BIT( 0xfc, IP_ACTIVE_LOW, IPT_UNUSED )
+
+
+    PORT_START_TAG("SSIO.IP4")    /* J6 1-8 */
+    PORT_BIT( 0xff, IP_ACTIVE_LOW, IPT_UNKNOWN )
+
+
+    PORT_START_TAG("SSIO.DIP")
+    PORT_BIT( 0xff, IP_ACTIVE_LOW, IPT_UNKNOWN )
+INPUT_PORTS_END
+
+
+Resolution: 512x480 @ 30 Hz
+
+
+Rules: http://www.twingalaxies.com/scores.php?scores=75155
+ROMSet: Journey
+Service Mode: Off
+Cabinet: Upright
+Internal Defaults
+-----------------
+1 Credit For 3 Men
+1st Extra Man at 20000 Pts
+Additional Extra Man Every 40000 Pts
+3 Difficulty Level
+No Buy In Allowed
+Special Rules: The above are the default internal settings for this title and need not be changed.
+Note: These are the default settings in WolfMAME 0.106
+
+
+Sample correct TG:
+Internal settings are accessed by changing the Service Mode DIP switch to "On." This can be done, and settings can be 
+changed, while recording and this will be evident in playback. Offset 0x23, repeating every 0x7C will have a value of 0xFF when NOT in Service Mode, and a value of 0x7F or 0x6F while IN Service Mode (0x6F indicating that Button 1 has been pushed).
+
+
+SSIO.IP3 / DIPSW @ B3: Offset 0x2F, repeat every 0x7C, typical value 0xFD
+-SSIO.IP3: 0x01 (Coin Meters): [not relevant, typical value 0x01 (1)]
+-SSIO.IP3: 0x02 (Cabinet): 0x00 (Upright)
+-SSIO.IP3: 0xfc: IP_ACTIVE_LOW
+
+
+20: 00 00 00 FF 00 00 00 FF  00 00 00 FF 00 00 00 FD | ...ÿ...ÿ...ÿ...ý
+30: 00 00 00 FF 00 00 00 FF  00 00 00 00 00 00 00 00 | ...ÿ...ÿ........
+...
+90: 00 00 00 00 00 00 00 00  3E 82 43 E1 00 00 00 FF | ........>‚Cá...ÿ
+A0: 00 00 00 FF 00 00 00 FF  00 00 00 FD 00 00 00 FF | ...ÿ...ÿ...ý...ÿ

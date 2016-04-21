@@ -1,0 +1,7 @@
+ROM set changed: yes
+0.106-0.146: bzone - "Battle Zone (set 1)"
+0.146u1-0.169: bzonea - "Battle Zone (rev 1)"
+
+Resolution, 0.106-0.152: x @ 40.000000Hz
+Resolution, 0.153-0.169: x @ 41.015625Hz
+

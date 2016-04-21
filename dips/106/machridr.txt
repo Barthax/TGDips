@@ -1,0 +1,54 @@
+/***************************************************************************
+
+
+INPUT_PORTS_START( machridr )
+    VS_CONTROLS( IPT_START1, IPT_UNKNOWN, IPT_START2, IPT_UNKNOWN )
+
+
+    PORT_START /* DSW0 - bit 0 and 1 read from bit 3 and 4 on $4016, rest of the bits read on $4017 */
+    PORT_DIPNAME( 0x07, 0x00, DEF_STR( Coinage ) )
+    PORT_DIPSETTING(    0x03, DEF_STR( 4C_1C ) )
+    PORT_DIPSETTING(    0x05, DEF_STR( 3C_1C ) )
+    PORT_DIPSETTING(    0x01, DEF_STR( 2C_1C ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( 1C_1C ) )
+    PORT_DIPSETTING(    0x04, DEF_STR( 1C_2C ) )
+    PORT_DIPSETTING(    0x02, DEF_STR( 1C_3C ) )
+    PORT_DIPSETTING(    0x06, DEF_STR( 1C_4C ) )
+    PORT_DIPSETTING(    0x07, DEF_STR( Free_Play ) )
+    PORT_DIPNAME( 0x18, 0x00, "Time" )
+    PORT_DIPSETTING(    0x00, "280" )
+    PORT_DIPSETTING(    0x10, "250" )
+    PORT_DIPSETTING(    0x08, "220" )
+    PORT_DIPSETTING(    0x18, "200" )
+    PORT_DIPNAME( 0x20, 0x00, DEF_STR( Unknown ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( Off ) )
+    PORT_DIPSETTING(    0x20, DEF_STR( On ) )
+    PORT_DIPNAME( 0x40, 0x00, DEF_STR( Unknown ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( Off ) )
+    PORT_DIPSETTING(    0x40, DEF_STR( On ) )
+    PORT_DIPNAME( 0x80, 0x00, DEF_STR( Unknown ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( Off ) )
+    PORT_DIPSETTING(    0x80, DEF_STR( On ) )
+INPUT_PORTS_END
+
+
+Resolution: 256 x 240 @ 60Hz
+
+
+Rules: http://www.twingalaxies.com/scores.php?scores=120585
+ROMset: MachRidr
+Time: 280 [Easiest]
+Unknown: Off [All]
+Special Rules: None
+
+
+Sample correct TG:
+DSW0: offset 0x2f, repeat every 0x7C, typical value 0x00
+ - DSW0: 0x07 (Coinage): [not relevant]
+ - DSW0: 0x18 (Time): 0x00 (280)
+ - DSW0: 0x20, 0x40, 0x80 (Unknown): 0x00 (All off)
+
+
+     20: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 | ................
+     A0: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 | ................
+    120: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 | ................

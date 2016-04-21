@@ -1,0 +1,5 @@
+ROM set changed: no
+0.106-0.170: sspeedr - "Super Speed Race"
+
+Resolution, 0.106-0.113: 376x248 @ 59.389999Hz
+Resolution, 0.114-0.170: 376x248 @ 59.390000Hz

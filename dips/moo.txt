@@ -1,0 +1,9 @@
+ROM set changed: yes
+0.106-0.141: moo - "Wild West C.O.W.-Boys of Moo Mesa (ver EA)"
+0.141u3-0.145: moomesa - "Wild West C.O.W.-Boys of Moo Mesa (ver EA)"
+0.146-0.170: moomesa - "Wild West C.O.W.-Boys of Moo Mesa (ver EAB)"
+
+MAME History:
+- 0.141u3: Irongiant added clone Wild West C.O.W.-Boys of Moo Mesa (ver UA, set 1). Changed description of clone 'Wild West C.O.W.-Boys of Moo Mesa (ver UA)' to 'Wild West C.O.W.-Boys of Moo Mesa (ver UA, set 2)'. Renamed (moo) to (moomesa), (mooaa) to (moomesaa), (moobl) to (moomesabl) and (mooua) to (moomesaua).
+
+Resolution, 0.106-0.170: 384x224 @ 60.000000Hz

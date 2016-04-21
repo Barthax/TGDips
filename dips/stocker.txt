@@ -1,0 +1,7 @@
+ROM set changed: no
+0.36b5-0.137u1: stocker - "Stocker"
+0.137u2-0.169: stocker - "Stocker (3/19/85)"
+NB: DIP/Input descriptions were updated in 0.123u4. Internal ROMs were redumped and renamed between 0.137u2 and 0.139.
+
+Resolution, 0.106-0.113: 256x240 @ 60.000000Hz
+Resolution, 0.114-0.169: 256x240 @ 59.185606Hz

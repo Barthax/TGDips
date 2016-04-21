@@ -1,0 +1,17 @@
+ROM Set changes: No
+0.106-0.169: hyperath - "Hyper Athlete (GV021 JAPAN 1.00)"
+
+Resolution, 0.106-0.169: 640x480 @ 60.000000Hz
+
+Rules, Fastest Race [100m Dash]: http://www.twingalaxies.com/scores.php?scores=75089
+Rules, Fastest Race [100m Freestyle]: http://www.twingalaxies.com/scores.php?scores=75090
+Rules, Fastest Race [110m Hurdle]: http://www.twingalaxies.com/scores.php?scores=75091
+Rules, Furthest Distance [Discus Throw]: http://www.twingalaxies.com/scores.php?scores=75092
+Rules, Furthest Distance [Hammer]: http://www.twingalaxies.com/scores.php?scores=75093
+Rules, Furthest Distance [Javelin]: http://www.twingalaxies.com/scores.php?scores=75096
+Rules, Furthest Distance [Long Jump]: http://www.twingalaxies.com/scores.php?scores=75097
+Rules, Furthest Distance [Shot Put]: http://www.twingalaxies.com/scores.php?scores=75100
+Rules, Furthest Distance [Triple Jump]: http://www.twingalaxies.com/scores.php?scores=75101
+Rules, Highest Height [High Jump]: http://www.twingalaxies.com/scores.php?scores=75095
+Rules, Highest Height [Pole Vault]: http://www.twingalaxies.com/scores.php?scores=75099
+Rules, Points [Total]: http://www.twingalaxies.com/scores.php?scores=75088

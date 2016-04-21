@@ -1,0 +1,64 @@
+INPUT_PORTS_START( stocker )
+	PORT_START	/* IN0 */
+	PORT_DIPNAME( 0x03, 0x01, DEF_STR( Coinage ) )
+	PORT_DIPSETTING(    0x03, DEF_STR( 2C_1C ) )
+	PORT_DIPSETTING(    0x01, DEF_STR( 1C_1C ) )
+	PORT_DIPSETTING(    0x02, DEF_STR( 1C_2C ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Free_Play ) )
+	PORT_DIPNAME( 0x1c, 0x00, "Bonus Coins" )
+	PORT_DIPSETTING(    0x00, DEF_STR( None ) )
+	PORT_DIPSETTING(    0x04, "2 Coins = 1 Bonus" )
+	PORT_DIPSETTING(    0x08, "3 Coins = 1 Bonus" )
+	PORT_DIPSETTING(    0x0c, "4 Coins = 1 Bonus" )
+	PORT_DIPSETTING(    0x10, "4 Coins = 2 Bonus" )
+	PORT_DIPSETTING(    0x14, "5 Coins = 1 Bonus" )
+	PORT_DIPSETTING(    0x18, "5 Coins = 2 Bonus" )
+	PORT_DIPSETTING(    0x1c, "5 Coins = 3 Bonus" )
+	PORT_DIPNAME( 0x20, 0x00, "Left Coin Mech" )
+	PORT_DIPSETTING(    0x00, "x1" )
+	PORT_DIPSETTING(    0x20, "x2" )
+	PORT_DIPNAME( 0xc0, 0x00, "Right Coin Mech" )
+	PORT_DIPSETTING(    0x00, "x1" )
+	PORT_DIPSETTING(    0x40, "x4" )
+	PORT_DIPSETTING(    0x80, "x5" )
+	PORT_DIPSETTING(    0xc0, "x6" )
+
+	PORT_START	/* IN1 */
+	PORT_BIT( 0x3f, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_DIPNAME( 0x40, 0x40, "End of Game" )
+	PORT_DIPSETTING(    0x40, DEF_STR( Normal ) )
+	PORT_DIPSETTING(    0x00, "3 Tickets" )
+	PORT_DIPNAME( 0x80, 0x00, DEF_STR( Demo_Sounds ) )
+	PORT_DIPSETTING(    0x80, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+
+	PORT_START	/* IN2 */
+	PORT_BIT( 0x3f, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_COIN1 )
+	PORT_SERVICE( 0x80, IP_ACTIVE_LOW )
+
+	PORT_START	/* IN3 */
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_START1 )
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_BUTTON1 )
+	PORT_BIT( 0x3c, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_COIN2 )
+	PORT_BIT( 0x80, IP_ACTIVE_HIGH, IPT_VBLANK )
+
+	/* analog ports */
+	UNUSED_ANALOG_X3
+	PLAYER1_WHEEL
+INPUT_PORTS_END
+
+Rules: http://www.twingalaxies.com/scores.php?scores=9956
+ROMSet: Stocker
+End of Game: Normal
+Service Mode: Off
+
+Sample correct for TG:
+Offset 0x27 (value 0x7F) then 0xA3, repeat every 0x80 thereafter
+- IN1: 0x3f - unused, always 0x3f (not relevant but is the reason for 0x7F value)
+- IN1: 0x40 (End of Game): 0x40 (Normal)
+    20: 00 00 00 01 00 00 00 7F  00 00 00 FF 00 00 00 7F | ........... ....
+    A0: 00 00 00 7F 00 00 00 FF  00 00 00 7F 00 00 00 00 | ....... ........
+   120: 00 00 00 7F 00 00 00 FF  00 00 00 FF 00 00 00 00 | ....... ... ....
+Note: Service Mode set to On is very obvious and is a test suite instead of the game.  Doesn't need checking for in the INP.

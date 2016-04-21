@@ -1,0 +1,8 @@
+ROM set changed: no
+0.106-0.168: bagman - "Bagman"
+
+Resolution, 0.106-0.138: 256x224 @ 60.000000Hz
+Resolution, 0.139-0.168: 256x224 @ 60.606061Hz
+
+Rules, Tournament: http://www.twingalaxies.com/scores.php?scores=7681
+Rules, Marathon: http://www.twingalaxies.com/scores.php?scores=9822

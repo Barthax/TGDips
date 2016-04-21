@@ -1,0 +1,132 @@
+# MAME 0.143 source snippet
+
+/* 04 */ GAME( 1981, cterrani, decocass, cterrani, cterrani, decocass, ROT270, "Data East Corporation", "Terranean (Cassette)", 0 )
+
+static INPUT_PORTS_START( decocass )
+    PORT_START("IN0")
+    PORT_BIT( 0x01, IP_ACTIVE_HIGH,IPT_JOYSTICK_RIGHT )
+    PORT_BIT( 0x02, IP_ACTIVE_HIGH,IPT_JOYSTICK_LEFT )
+    PORT_BIT( 0x04, IP_ACTIVE_HIGH,IPT_JOYSTICK_UP )
+    PORT_BIT( 0x08, IP_ACTIVE_HIGH,IPT_JOYSTICK_DOWN )
+    PORT_BIT( 0x10, IP_ACTIVE_HIGH,IPT_BUTTON1 )
+    PORT_BIT( 0x20, IP_ACTIVE_HIGH,IPT_BUTTON2 )
+    PORT_BIT( 0x40, IP_ACTIVE_HIGH,IPT_UNUSED )
+    PORT_BIT( 0x80, IP_ACTIVE_HIGH,IPT_UNUSED )
+
+    PORT_START("IN1")
+    PORT_BIT( 0x01, IP_ACTIVE_HIGH,IPT_JOYSTICK_RIGHT ) PORT_COCKTAIL
+    PORT_BIT( 0x02, IP_ACTIVE_HIGH,IPT_JOYSTICK_LEFT ) PORT_COCKTAIL
+    PORT_BIT( 0x04, IP_ACTIVE_HIGH,IPT_JOYSTICK_UP ) PORT_COCKTAIL
+    PORT_BIT( 0x08, IP_ACTIVE_HIGH,IPT_JOYSTICK_DOWN ) PORT_COCKTAIL
+    PORT_BIT( 0x10, IP_ACTIVE_HIGH,IPT_BUTTON1 ) PORT_COCKTAIL
+    PORT_BIT( 0x20, IP_ACTIVE_HIGH,IPT_BUTTON2 ) PORT_COCKTAIL
+    PORT_BIT( 0x40, IP_ACTIVE_HIGH,IPT_UNUSED )
+    PORT_BIT( 0x80, IP_ACTIVE_HIGH,IPT_UNUSED )
+
+    PORT_START("IN2")
+    PORT_BIT( 0x01, IP_ACTIVE_HIGH,IPT_UNKNOWN )
+    PORT_BIT( 0x02, IP_ACTIVE_HIGH,IPT_UNKNOWN )
+    PORT_BIT( 0x04, IP_ACTIVE_HIGH,IPT_UNKNOWN )
+    PORT_BIT( 0x08, IP_ACTIVE_HIGH,IPT_START1 ) PORT_IMPULSE(1)
+    PORT_BIT( 0x10, IP_ACTIVE_HIGH,IPT_START2 ) PORT_IMPULSE(1)
+    PORT_BIT( 0x20, IP_ACTIVE_HIGH,IPT_UNKNOWN )
+    PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_COIN2 ) PORT_IMPULSE(1)
+    PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_COIN1 ) PORT_IMPULSE(1)
+
+    PORT_START("AN0")
+    PORT_BIT( 0xff, 0x80, IPT_AD_STICK_X ) PORT_MINMAX(0x10,0xf0) PORT_SENSITIVITY(100) PORT_KEYDELTA(10) PORT_PLAYER(1)
+
+    PORT_START("AN1")
+    PORT_BIT( 0xff, 0x80, IPT_AD_STICK_Y ) PORT_MINMAX(0x10,0xf0) PORT_SENSITIVITY(100) PORT_KEYDELTA(10) PORT_PLAYER(1)
+
+    PORT_START("AN2")
+    PORT_BIT( 0xff, 0x80, IPT_AD_STICK_X ) PORT_MINMAX(0x10,0xf0) PORT_SENSITIVITY(100) PORT_KEYDELTA(10) PORT_PLAYER(2)
+
+    PORT_START("AN3")
+    PORT_BIT( 0xff, 0x80, IPT_AD_STICK_Y ) PORT_MINMAX(0x10,0xf0) PORT_SENSITIVITY(100) PORT_KEYDELTA(10) PORT_PLAYER(2)
+
+    PORT_START("DSW1")
+    PORT_DIPNAME( 0x03, 0x03, DEF_STR( Coin_A ) )        PORT_DIPLOCATION("SW1:1,2")
+    PORT_DIPSETTING(    0x00, DEF_STR( 2C_1C ) )
+    PORT_DIPSETTING(    0x03, DEF_STR( 1C_1C ) )
+    PORT_DIPSETTING(    0x02, DEF_STR( 1C_2C ) )
+    PORT_DIPSETTING(    0x01, DEF_STR( 1C_3C ) )
+    PORT_DIPNAME( 0x0c, 0x0c, DEF_STR( Coin_B ) )        PORT_DIPLOCATION("SW1:3,4")
+    PORT_DIPSETTING(    0x00, DEF_STR( 2C_1C ) )
+    PORT_DIPSETTING(    0x0c, DEF_STR( 1C_1C ) )
+    PORT_DIPSETTING(    0x08, DEF_STR( 1C_2C ) )
+    PORT_DIPSETTING(    0x04, DEF_STR( 1C_3C ) )
+    PORT_DIPNAME( 0x30, 0x30, "Type of Tape" )        PORT_DIPLOCATION("SW1:5,6")   /* Used by the "bios" */
+    PORT_DIPSETTING(    0x00, "MT (Big)" )            /* Was listed as "Board Type" with this being "OLD" */
+    PORT_DIPSETTING(    0x10, "invalid?" )
+    PORT_DIPSETTING(    0x20, "invalid?" )
+    PORT_DIPSETTING(    0x30, "MD (Small)" )        /* Was listed as "Board Type" with this being "NEW" */
+    PORT_DIPNAME( 0x40, 0x00, DEF_STR( Cabinet ) )        PORT_DIPLOCATION("SW1:7")
+    PORT_DIPSETTING(    0x00, DEF_STR( Upright ) )
+    PORT_DIPSETTING(    0x40, DEF_STR( Cocktail ) )
+    PORT_BIT( 0x80, IP_ACTIVE_HIGH, IPT_VBLANK)
+
+    PORT_START("DSW2") /* Start with all Unknown as each can change per game, except for Country Code */
+    PORT_DIPUNKNOWN_DIPLOC( 0x01, 0x01, "SW2:1")        /* Most Dipswitch Settings sheets show this as "Number of Players" (Lives) */
+    PORT_DIPUNKNOWN_DIPLOC( 0x02, 0x02, "SW2:2")        /* Most Dipswitch Settings sheets show 2 & 3 as "Bonus Players" */
+    PORT_DIPUNKNOWN_DIPLOC( 0x04, 0x04, "SW2:3")
+    PORT_DIPUNKNOWN_DIPLOC( 0x08, 0x08, "SW2:4")        /* Most Dipswitch Settings sheets show 4 (with/without 5) as some form of Diffculty */
+    PORT_DIPUNKNOWN_DIPLOC( 0x10, 0x10, "SW2:5")
+    PORT_DIPNAME( 0xe0, 0xe0, "Country Code" )        PORT_DIPLOCATION("SW2:6,7,8") /* Always Listed as "DON'T CHANGE" */
+    PORT_DIPSETTING(    0xe0, "A" )
+    PORT_DIPSETTING(    0xc0, "B" )
+    PORT_DIPSETTING(    0xa0, "C" )
+    PORT_DIPSETTING(    0x80, "D" )
+    PORT_DIPSETTING(    0x60, "E" )
+    PORT_DIPSETTING(    0x40, "F" )
+INPUT_PORTS_END
+
+static INPUT_PORTS_START( cterrani )
+    PORT_INCLUDE( decocass )
+
+    PORT_MODIFY("DSW2")
+    PORT_DIPNAME( 0x01, 0x01, DEF_STR( Lives ) )        PORT_DIPLOCATION("SW2:1")
+    PORT_DIPSETTING(    0x01, "3" )
+    PORT_DIPSETTING(    0x00, "5" )
+    PORT_DIPNAME( 0x06, 0x06, DEF_STR( Bonus_Life ) )    PORT_DIPLOCATION("SW2:2,3")
+    PORT_DIPSETTING(    0x00, DEF_STR( None )  )
+    PORT_DIPSETTING(    0x06, "3000" )
+    PORT_DIPSETTING(    0x04, "5000" )
+    PORT_DIPSETTING(    0x02, "7000" )
+    PORT_DIPNAME( 0x08, 0x08, "Player's Rocket Movement" )    PORT_DIPLOCATION("SW2:4")
+    PORT_DIPSETTING(    0x08, DEF_STR( Easy ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( Difficult ) )
+    PORT_DIPNAME( 0x10, 0x10, "Alien Craft Movement" )    PORT_DIPLOCATION("SW2:5")
+    PORT_DIPSETTING(    0x10, DEF_STR( Easy ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( Difficult ) )
+    /* Switches 6, 7 & 8 are shown as completly blank */
+INPUT_PORTS_END
+
+Resolution: 240x240 @ 57.444853Hz
+
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=120362
+ROMSet: CTerrani
+Board type: new
+Cabinet: Upright
+Unknown: Off [All]
+
+NOTE: DSW2 was relabelled at 0.133u1, settings below at the equivalent of "Unknown: Off [All]" at 0.106
+- 0.133u1: Brian Troha added DIP locations to DECO Cassette System driver (also split out settings for specific games where appropriate). Added dipswitches 'Country Code' and 'Type of Tape'.
+
+Sample correct TG:
+DSW1: offset 0xBC, repeat every 0x8C, typical value 0x3F
+- DSW1: 0x03 (Coin_A): [not relevant]
+- DSW1: 0x0c (Coin_B): [not relevant]
+- DSW1: 0x30 (Type of Tape): 0x30 (MD (Small))     /* Was listed as "Board Type" with this being "NEW" */
+- DSW1: 0x40 (Cabinet): 0x00 (Upright)
+DSW2: offset 0xC4, repeat every 0x8C, typical value 0xFF
+- DSW2: 0x01 (Lives): 0x01 (3)
+- DSW2: 0x06 (Bonus_Life): 0x06 (3000)
+- DSW2: 0x08 (Player's Rocket Movement): 0x08 (Easy)
+- DSW2: 0x10 (Alien Craft Movement): 0x10 (Easy)
+- DSW2: 0xe0 (Country Code): 0xe0 (A)
+
+   140: 00 00 00 64 00 00 00 00  3F 00 00 00 00 00 00 00
+   150: FF 00 00 00 00 00 00 00  00 00 00 00 00 E0 7D B0
+   1D0: 00 00 00 00 3F 00 00 00  00 00 00 00 FF 00 00 00
+   260: 3F 00 00 00 00 00 00 00  FF 00 00 00 00 00 00 00

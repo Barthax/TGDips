@@ -1,0 +1,89 @@
+#MAME Source info from vicdual.c
+#Source/driver version 0.106
+-----
+#Game Information: (Year, Driver, Parent, Machine, Inputs, Init, Orientation, Manufacturer, Name, Status)
+GAME( 1980, tranqgun, 0,        4ports,   tranqgun, tranqgun,  ROT270, "Sega", "Tranquilizer Gun", GAME_NO_SOUND )
+-----
+INPUT_PORTS_START( tranqgun )
+	PORT_START	/* IN0 */
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_4WAY PORT_COCKTAIL
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_COCKTAIL
+	PORT_DIPNAME( 0x04, 0x00, DEF_STR( Unknown ) )
+	PORT_DIPSETTING(    0x04, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x08, 0x00, DEF_STR( Unknown ) )
+	PORT_DIPSETTING(    0x08, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_4WAY
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_4WAY
+	PORT_BIT( 0xc0, IP_ACTIVE_LOW, IPT_UNUSED )
+
+
+	PORT_START	/* IN1 */
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_4WAY PORT_COCKTAIL
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_DIPNAME( 0x04, 0x00, DEF_STR( Unknown ) )
+	PORT_DIPSETTING(    0x04, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_VBLANK )
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_4WAY
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_4WAY
+	PORT_BIT( 0xc0, IP_ACTIVE_LOW, IPT_UNUSED )
+
+
+	PORT_START	/* IN2 */
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_4WAY PORT_COCKTAIL
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_DIPNAME( 0x04, 0x00, DEF_STR( Unknown ) )
+	PORT_DIPSETTING(    0x04, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_UNKNOWN )	/* timer */
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_START1 )
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_BUTTON1 )
+	PORT_BIT( 0xc0, IP_ACTIVE_LOW, IPT_UNUSED )
+
+
+	PORT_START	/* IN3 */
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_4WAY PORT_COCKTAIL
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_DIPNAME( 0x04, 0x00, DEF_STR( Unknown ) )
+	PORT_DIPSETTING(    0x04, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_COIN1 ) PORT_IMPULSE(30) /* PORT_RESETCPU */
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_START2 )
+	PORT_BIT( 0xc0, IP_ACTIVE_LOW, IPT_UNUSED )
+INPUT_PORTS_END
+-----
+Resolution: 256x224 @ 60 Hz
+-----
+Rules: http://www.twingalaxies.com/scores.php?scores=120456
+
+
+ROMSet: TranqGun
+Unknown: On [All]
+Special Rules: None
+
+
+Note: These are the default settings in WolfMAME 0.106
+-----
+Sample correct TG:
+IN0: Offset 0x23, repeat every 0x7C, typical value of lower nibble 0x3
+-IN0: 0x04 (Unknown): 0x00 (On)
+-IN0: 0x08 (Unknown): 0x00 (On)
+
+
+IN1: Offset 0x27, repeat every 0x7C, typical value of lower nibble 0x3 (initial frames may be 0xB as a result of VBLANK)
+-IN1: 0x04 (Unknown): 0x00 (On)
+
+
+IN2: Offset 0x2B, repeat every 0x7C, typical value of lower nibble 0xB
+-IN2: 0x04 (Unknown): 0x00 (On)
+
+
+IN3: Offset 0x2F, repeat every 0x7C, typical value of lower nibble 0xB
+-IN3: 0x04 (Unknown): 0x00 (On)
+
+
+110: 00 00 00 00 3E 82 43 E1  00 00 00 F3 00 00 00 F3 | ....>‚Cá...ó...ó
+120: 00 00 00 FB 00 00 00 FB  00 00 00 00 00 00 00 00 | ...û...û........

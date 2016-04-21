@@ -1,0 +1,11 @@
+ROM set changes:
+0.106-0.138: 1943 - "1943: The Battle of Midway (US)"
+0.138u1-0.143: 1943u - "1943: The Battle of Midway (US)"
+0.144-0.169: 1943u - "1943: The Battle of Midway (US, Rev C)" (description only changed)
+
+Resolution, 0.106-0.169: 256x224 @ 60.000000Hz
+
+Rules, Single Player Only: http://www.twingalaxies.com/scores.php?scores=5155
+Rules, Single Player max points NO Specials: http://www.twingalaxies.com/scores.php?scores=132363
+Rules, Two Player Team: http://www.twingalaxies.com/scores.php?scores=11970
+

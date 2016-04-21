@@ -1,0 +1,4 @@
+ROM set changed: no
+0.106-0.168: aquajack - "Aqua Jack (World)"
+
+Resolution, 0.106-0.168: 320x240 @ 60.000000Hz

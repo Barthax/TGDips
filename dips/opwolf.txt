@@ -1,0 +1,5 @@
+ROM set changed: no
+0.106-0.118: opwolf - "Operation Wolf (World)"
+0.119-0.170: opwolf - "Operation Wolf (World, set 1)"
+
+Resolution, 0.106-0.170: 320x240 @ 60.000000Hz

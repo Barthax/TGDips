@@ -1,0 +1,7 @@
+ROM set changes: no
+0.106-0.145: congo - "Congo Bongo"
+0.146-0.168: congo - "Congo Bongo (Rev C, 2 board stack)"
+
+Resolution, 0.106-0.107: 256x224 @ 60.000000Hz
+Resolution, 0.108-0.113: 256x224 @ 59.999409Hz
+Resolution, 0.114-0.168: 256x224 @ 59.999408Hz

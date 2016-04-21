@@ -1,0 +1,10 @@
+ROM Set changes: 
+0.106-0.111: mvscu - "Marvel Vs. Capcom: Clash of Super Heroes (US 980123)"
+0.112-0.169: mvscu - "Marvel Vs. Capcom: Clash of Super Heroes (USA 980123)" (minor description change)
+
+Resolution, 0.106-0.113: 384x224 @ 59.633331Hz
+Resolution, 0.114-0.127: 384x224 @ 59.633333Hz
+Resolution, 0.128-0.152: 384x224 @ 59.629403Hz
+Resolution, 0.153-0.169: 384x224 @ 59.637405Hz
+
+Rules, Points [Tournament Settings]: http://www.twingalaxies.com/scores.php?scores=75524

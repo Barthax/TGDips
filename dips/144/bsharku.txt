@@ -1,0 +1,161 @@
+ROM set changed? 0.53 - 0.143u8: bshark
+                 0.143u9 - 0.161: bsharku
+
+
+#MAME Source info from taito_z.c and taitoipt.h
+#Source/driver version 0.144
+
+
+#Game Information: (Year, Driver, Parent, Machine, Inputs, Init, Orientation, Manufacturer, Name, Status)
+GAME( 1989, bsharku,    bshark,   bshark,   bsharku,  bshark,   ORIENTATION_FLIP_X, "Taito America Corporation", "Battle Shark (US)", GAME_IMPERFECT_GRAPHICS | GAME_SUPPORTS_SAVE )
+
+
+static INPUT_PORTS_START( bsharku )
+	PORT_INCLUDE(bshark)
+
+
+	PORT_MODIFY("DSWA")
+	TAITO_COINAGE_US_LOC(SW A)
+INPUT_PORTS_END
+
+
+static INPUT_PORTS_START( bshark )
+	PORT_START("DSWA")
+	PORT_DIPNAME( 0x01, 0x01, "Mirror screen" ) PORT_DIPLOCATION("SW A:1")	// manual says it must be off
+	PORT_DIPSETTING(    0x01, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPUNUSED_DIPLOC( 0x02, 0x02, "SW A:2" )	// manual says it must be off
+	PORT_SERVICE_DIPLOC( 0x04, IP_ACTIVE_LOW, "SW A:3" )
+	PORT_DIPNAME( 0x08, 0x08, DEF_STR( Demo_Sounds ) ) PORT_DIPLOCATION("SW A:4")
+	PORT_DIPSETTING(    0x00, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x08, DEF_STR( On ) )
+	TAITO_COINAGE_WORLD_LOC(SW A)
+
+
+	PORT_START("DSWB")
+	TAITO_DIFFICULTY_LOC(SW B)
+	PORT_DIPNAME( 0x0c, 0x04, "Speed of Sight" ) PORT_DIPLOCATION("SW B:3,4")
+	PORT_DIPSETTING(    0x0c, "Slow" )
+	PORT_DIPSETTING(    0x08, DEF_STR( Medium ) )
+	PORT_DIPSETTING(    0x04, "Fast" )
+	PORT_DIPSETTING(    0x00, "Fastest" )
+	PORT_DIPUNUSED_DIPLOC( 0x10, 0x10, "SW B:5" )	// manual says all these must be off
+	PORT_DIPUNUSED_DIPLOC( 0x20, 0x20, "SW B:6" )
+	PORT_DIPUNUSED_DIPLOC( 0x40, 0x40, "SW B:7" )
+	PORT_DIPUNUSED_DIPLOC( 0x80, 0x80, "SW B:8" )
+
+
+	PORT_START("IN0")
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_COIN2 )
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_COIN1 )
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_SERVICE1 )
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_TILT )
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_UNKNOWN )
+
+
+	PORT_START("IN1")	/* unused */
+	PORT_BIT( 0xff, IP_ACTIVE_LOW, IPT_UNUSED )
+
+
+	PORT_START("IN2")	/* b2-5 affect sound num in service mode but otherwise useless (?) */
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_START1 )
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_START2 )
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_BUTTON2 ) PORT_PLAYER(1)
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_BUTTON3 ) PORT_PLAYER(1)
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_BUTTON4 ) PORT_PLAYER(1)
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_BUTTON5 ) PORT_PLAYER(1)
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_PLAYER(1)	/* "Fire" */
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_BUTTON6 ) PORT_PLAYER(1)	/* same as "Fire" */
+
+
+	PORT_START("STICKX")	/* values chosen to match allowed crosshair area */
+	PORT_BIT( 0xff, 0x80, IPT_AD_STICK_X ) PORT_MINMAX(0x35, 0xcc) PORT_SENSITIVITY(20) PORT_KEYDELTA(4) PORT_REVERSE PORT_PLAYER(1)
+
+
+	PORT_START("X_ADJUST")	/* declare as DIP SWITCH instead of VARIABLE REGISTER */
+	TAITO_Z_ANALOG_ADJUST( "Adjust Stick H (VARIABLE REGISTER)" )
+
+
+	PORT_START("STICKY")	/* values chosen to match allowed crosshair area */
+	PORT_BIT( 0xff, 0x80, IPT_AD_STICK_Y ) PORT_MINMAX(0x32, 0xd5) PORT_SENSITIVITY(20) PORT_KEYDELTA(4) PORT_PLAYER(1)
+
+
+	PORT_START("Y_ADJUST")	/* declare as DIP SWITCH instead of VARIABLE REGISTER */
+	TAITO_Z_ANALOG_ADJUST( "Adjust Stick V (VARIABLE REGISTER)" )
+INPUT_PORTS_END
+
+
+#define TAITO_DIFFICULTY_LOC(DIPBANK) \
+	PORT_DIPNAME( 0x03, 0x03, DEF_STR( Difficulty ) ) PORT_DIPLOCATION(#DIPBANK":1,2") \
+	PORT_DIPSETTING(    0x02, DEF_STR( Easy ) ) \
+	PORT_DIPSETTING(    0x03, DEF_STR( Medium ) ) \
+	PORT_DIPSETTING(    0x01, DEF_STR( Hard ) ) \
+	PORT_DIPSETTING(    0x00, DEF_STR( Hardest ) )
+
+
+#define TAITO_COINAGE_US_COIN_START_LOC(DIPBANK) \
+	PORT_DIPNAME( 0x30, 0x30, DEF_STR( Coinage ) ) PORT_DIPLOCATION(#DIPBANK":5,6") \
+	PORT_DIPSETTING(    0x00, DEF_STR( 4C_1C ) ) \
+	PORT_DIPSETTING(    0x10, DEF_STR( 3C_1C ) ) \
+	PORT_DIPSETTING(    0x20, DEF_STR( 2C_1C ) ) \
+	PORT_DIPSETTING(    0x30, DEF_STR( 1C_1C ) )
+
+
+#define TAITO_COINAGE_US_COIN_CONT_LOC(DIPBANK) \
+	PORT_DIPNAME( 0xc0, 0xc0, "Price to Continue" ) PORT_DIPLOCATION(#DIPBANK":7,8") \
+	PORT_DIPSETTING(    0x00, DEF_STR( 3C_1C ) ) \
+	PORT_DIPSETTING(    0x40, DEF_STR( 2C_1C ) ) \
+	PORT_DIPSETTING(    0x80, DEF_STR( 1C_1C ) ) \
+	PORT_DIPSETTING(    0xc0, "Same as Start" )
+
+
+#define TAITO_COINAGE_US_LOC(DIPBANK) \
+	TAITO_COINAGE_US_COIN_START_LOC(DIPBANK) \
+	TAITO_COINAGE_US_COIN_CONT_LOC(DIPBANK)
+
+
+Resolution: 320x240 @ 60 Hz
+
+
+0.106-specific ruleset:
+------
+Rules: http://www.twingalaxies.com/scores.php?scores=10823
+
+
+ROMSet: BShark
+Mirror screen: Off
+Uknown: Off [All]
+Difficulty: Normal
+Speed of Sight: Fast
+Special Rules: Continues are NOT allowed!
+Note: The initials sign-in screen MUST use a controller for input, as they do not allow sign-in of initials with keyboard use.
+------
+
+
+Additional notes: These are the default settings in 0.144. Also, DIPs and their value descriptions have changed over time for this game. "Unknown" = "Unused" and "Normal" difficulty = "Medium" difficulty.
+
+
+Sample correct TG:
+DSWA: Offset 0x50, repeat every 0x72, typical value 0xFF
+-DSWA: 0x01 (Mirror Screen): 0x01 (Off)
+-DSWA: 0x02 (Unused): 0x02 (Off)
+-DSWA: 0x04 (Service):  [not relevant, obvious if used. Typical value 0x04 (Off)]
+-DSWA: 0x08 (Demo Sounds): [not relevant, typical value 0x08 (On)]
+-DSWA: 0x30 (Coinage): [not relevant, typical value 0x30 (1C_1C)]
+-DSWA: 0xc0 (Price to Continue): [Continues not allowed by rules, but rules don't define this DIP so it's not relevant. Typical value 0xc0 (Same as Start)]
+
+
+DSWB: Offset 0x58, repeat every 0x72, typical value 0xF7
+-DSWB: 0x03 (Difficulty): 0x03 (Medium)
+-DSWB: 0xc0 (Speed of Sight): 0x04 (Fast)
+-DSWB: 0x10 (Unused): 0x10 (Off)
+-DSWB: 0x20 (Unused): 0x20 (Off)
+-DSWB: 0x40 (Unused): 0x40 (Off)
+-DSWB: 0x80 (Unused): 0x80 (Off)
+
+
+B0: 00 00 00 00 00 00 AA AA  41 BA 3E 36 3B 00 00 00 | ......ªªAº>6;...
+C0: 10 00 FF 00 00 00 00 00  00 00 F7 00 00 00 00 00 | ..ÿ.......÷.....

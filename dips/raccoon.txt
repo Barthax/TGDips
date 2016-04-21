@@ -1,0 +1,6 @@
+ROM Changes: 
+0.106-0.169: raccoon - "Raccoon World"
+
+Resolution, 0.106-0.169: 320x240 @ 60.000000Hz
+
+Rules: http://www.twingalaxies.com/scores.php?scores=91147

@@ -1,0 +1,5 @@
+ROM set changed: no
+0.106-0.170: skysmash - "Sky Smasher"
+
+Resolutions, 0.106-0.133: 256x224 @ 60.000000Hz
+Resolutions, 0.134-0.170: 256x224 @ 59.390000Hz

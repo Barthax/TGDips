@@ -1,0 +1,18 @@
+Resolution: 320x224 @ 58.970001Hz
+
+Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=27195
+Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=110717
+ROMSet: SpcInv95
+Internal Defaults
+-----------------
+Game Style: D [2P]
+Monitor: Normal
+R1 Difficulty: Normal
+R2 Difficulty: Normal
+R3 Difficulty: Normal
+R4 Difficulty: Normal
+R5 Difficulty: Normal
+Player Stock: 3
+
+NOTE: All dips are internal.  Use Service Mode button (F2) to enter configuration after playback if not shown.
+Navigation keys are the joystick directions and button 1 to select.

@@ -1,0 +1,4 @@
+ROM set changed: yes.
+0.78: galagads  "Galaga (fast shoot)"
+
+NB: Last appeared in 0.78.  Was a cheat option thereafter.

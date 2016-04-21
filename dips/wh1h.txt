@@ -1,0 +1,7 @@
+ROM set changed: yes
+0.106-0.119: wh1 - "World Heroes (set 1)"
+0.120-0.143: wh1h - "World Heroes (set 2)"
+0.144-0.170: wh1h - "World Heroes (ALH-005)"
+
+Resolution, 0.106-0.113: 320x224 @ 59.185608Hz
+Resolution, 0.114-0.170: 320x224 @ 59.185606Hz

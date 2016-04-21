@@ -1,0 +1,72 @@
+# MAME 0.106 source snippet
+
+GAME( 1979, cutieq,   0,        bombbee,  cutieq,   bombbee,  ROT90, "Namco", "Cutie Q", 0 )
+
+INPUT_PORTS_START( cutieq )
+    PORT_START_TAG("IN0")
+    PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_COIN1 )
+    PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_COIN2 )
+    PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_START1 )
+    PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_START2 )
+    PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_BUTTON1 )
+    PORT_SERVICE( 0x20, IP_ACTIVE_LOW )
+    PORT_DIPNAME( 0x40, 0x40, DEF_STR( Cabinet ) )
+    PORT_DIPSETTING(    0x40, DEF_STR( Upright ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( Cocktail ) )
+    PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_SERVICE1 )
+
+    PORT_START_TAG("DSW1")
+    PORT_DIPNAME( 0x03, 0x03, DEF_STR( Coinage ) )
+    PORT_DIPSETTING(    0x02, DEF_STR( 2C_1C ) )
+    PORT_DIPSETTING(    0x03, DEF_STR( 1C_1C ) )
+    PORT_DIPSETTING(    0x01, DEF_STR( 1C_2C ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( Free_Play ) )
+    PORT_DIPNAME( 0x0c, 0x00, DEF_STR( Lives ) )
+    PORT_DIPSETTING(    0x00, "3" )
+    PORT_DIPSETTING(    0x04, "4" )
+//  PORT_DIPSETTING(    0x08, "4" )             // duplicated setting
+    PORT_DIPSETTING(    0x0c, "5" )
+    PORT_DIPNAME( 0x10, 0x00, DEF_STR( Unused ) )
+    PORT_DIPSETTING(    0x10, DEF_STR( Off ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+    PORT_DIPNAME( 0xe0, 0x00, DEF_STR( Bonus_Life ) )
+    PORT_DIPSETTING(    0x00, "50000" )
+    PORT_DIPSETTING(    0x20, "60000" )
+    PORT_DIPSETTING(    0x40, "80000" )
+    PORT_DIPSETTING(    0x60, "100000" )
+    PORT_DIPSETTING(    0x80, "120000" )
+    PORT_DIPSETTING(    0xa0, "150000" )
+    PORT_DIPSETTING(    0xc0, "200000" )
+    PORT_DIPSETTING(    0xe0, DEF_STR( None ) )
+
+    PORT_START_TAG("VOLIN1")    /* Mux input - player 1 controller - handled by warpwarp_vol_r */
+    PORT_BIT( 0xff, 0x60, IPT_PADDLE ) PORT_MINMAX(0x14,0xac) PORT_SENSITIVITY(30) PORT_KEYDELTA(10) PORT_CENTERDELTA(0) PORT_REVERSE
+
+    PORT_START_TAG("VOLIN2")    /* Mux input - player 2 controller - handled by warpwarp_vol_r */
+    PORT_BIT( 0xff, 0x60, IPT_PADDLE ) PORT_MINMAX(0x14,0xac) PORT_SENSITIVITY(30) PORT_KEYDELTA(10) PORT_CENTERDELTA(0) PORT_REVERSE PORT_COCKTAIL
+INPUT_PORTS_END
+
+Resolution: 272x224 @ 60.000000Hz
+
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=9950
+ROMSet: CutieQ
+Service Mode: Off
+Cabinet: Upright
+Balls: 3
+Unused: On
+Bonus Ball: 50000
+
+Sample correct TG:
+IN0: offset 0x23, repeat every 0x7C to begin with but varies due to analog input, typical value 0xFF
+- IN0: 0x20 (Service Mode): 0x20 (Off)
+- IN0: 0x40 (Cabinet): 0x40 (Upright)
+DSW1: offset 0x27, repeat every 0x7C to begin with but varies due to analog input, typical value 0x03 
+- DSW1: 0x03 (Coinage): [not relevant]
+- DSW1: 0xc0 (Lives): 0x00 (3)
+- DSW1: 0x10 (Unused): 0x00 (On)
+- DSW1: 0xe0 (Bonus_Life): 0x00 (50000)
+
+    20: 00 00 00 FF 00 00 00 03  00 00 00 60 00 00 00 60
+    90: 00 00 00 00 00 00 00 00  3E 82 43 E1 00 00 00 FF
+    A0: 00 00 00 03 00 00 00 60  00 00 00 60 00 00 00 00
+   110: 00 00 00 00 3E 82 43 E1  00 00 00 FF 00 00 00 03

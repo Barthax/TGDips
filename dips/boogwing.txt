@@ -1,0 +1,7 @@
+ROM set changed: no
+0.106-0.171: boogwing - "Boogie Wings (Euro v1.5, 92.12.07)"
+
+Resolution, 0.106-0.171: 320x240 @ 58.000000Hz
+
+Rules, Points [1 Player Only]: http://www.twingalaxies.com/scores.php?scores=24371
+Rules, Points [2 Player Team]: http://www.twingalaxies.com/scores.php?scores=24372

@@ -1,0 +1,10 @@
+ROM set changed: yes
+0.106-0.123: contra - "Contra (US)"
+0.123u1-0.161: contra1 - "Contra (US, set 2)"
+0.162-0.169: contra1 - "Contra (US / Asia, set 2)" (minor description change)
+
+MAME History:
+- 0.123u1: Brian Troha added clone Contra (bootleg). Changed clone 'Contra (US bootleg)' to parent 'Contra (US, Set 1)' and 'Contra (US)' to clone 'Contra (US, Set 2)'. Renamed (contra) to (contra1) and (contrab) to (contra).
+
+Resolution, 0.106-0.169: 280x224 @ 60.000000Hz
+

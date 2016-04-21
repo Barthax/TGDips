@@ -1,0 +1,4 @@
+ROM set changes: no
+0.106-0.168: dazzler - "Dazzler"
+
+Resolution, 0.106-0.168: 240x248 @ 60.000000Hz

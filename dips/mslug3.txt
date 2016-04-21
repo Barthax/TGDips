@@ -1,0 +1,11 @@
+ROM set changed: no
+0.106-0.143: mslug3 - "Metal Slug 3"
+0.144-0.172: mslug3 - "Metal Slug 3 (NGM-2560)"
+
+Resolution, 0.106-0.113: 320x224 @ 59.185608Hz
+Resolution, 0.114-0.172: 320x224 @ 59.185606Hz
+
+Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=14706
+Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=14707
+
+All configuration is done via soft-dips.  Use F2 to enter Service Mode after the recording if settings are not shown during the recording.

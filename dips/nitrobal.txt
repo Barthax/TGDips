@@ -1,0 +1,54 @@
+ROM set changed: no
+0.106-0.159: nitrobal - "Nitro Ball (US)"
+0.160-0.170: nitrobal - "Nitro Ball (World, set 1)"
+
+Resolution, 0.106-0.170: 320x240 @ 58.000000Hz
+
+Additional information to confirm no change in ROM set between 0.159 and 0.160:
+C:\MAME>mame159.exe -listcrc nitrobal
+0414e409 jl01-4.d3               nitrobal        Nitro Ball (US)
+dd9e2bcc jl00-4.b3               nitrobal        Nitro Ball (US)
+ea264ac5 jl03-4.d5               nitrobal        Nitro Ball (US)
+74047997 jl02-4.b5               nitrobal        Nitro Ball (US)
+b820fa20 jl05-2.d6               nitrobal        Nitro Ball (US)
+1fd8995b jl04-2.b6               nitrobal        Nitro Ball (US)
+93d93fe1 jl08.r20                nitrobal        Nitro Ball (US)
+91cf668e jl06.d10                nitrobal        Nitro Ball (US)
+e61d0e42 jl07.d12                nitrobal        Nitro Ball (US)
+34785d97 mav00.b10               nitrobal        Nitro Ball (US)
+8b531b16 mav01.b12               nitrobal        Nitro Ball (US)
+20723bf7 mav02.b16               nitrobal        Nitro Ball (US)
+ef6195f0 mav03.e16               nitrobal        Nitro Ball (US)
+d92d769c mav05.e19               nitrobal        Nitro Ball (US)
+8ba48385 mav04.b19               nitrobal        Nitro Ball (US)
+5fc10ccd mav07.e20               nitrobal        Nitro Ball (US)
+ae6201a5 mav06.b20               nitrobal        Nitro Ball (US)
+1ce7b51a mav09.e23               nitrobal        Nitro Ball (US)
+64966576 mav08.b23               nitrobal        Nitro Ball (US)
+8ad734b0 mav10.r17               nitrobal        Nitro Ball (US)
+ef513908 mav11.r19               nitrobal        Nitro Ball (US)
+6ac77b84 jn-00.17l               nitrobal        Nitro Ball (US)
+
+C:\MAME>mame160.exe -listcrc nitrobal
+0414e409 jl01-4.d3               nitrobal        Nitro Ball (World, set 1)
+dd9e2bcc jl00-4.b3               nitrobal        Nitro Ball (World, set 1)
+ea264ac5 jl03-4.d5               nitrobal        Nitro Ball (World, set 1)
+74047997 jl02-4.b5               nitrobal        Nitro Ball (World, set 1)
+b820fa20 jl05-2.d6               nitrobal        Nitro Ball (World, set 1)
+1fd8995b jl04-2.b6               nitrobal        Nitro Ball (World, set 1)
+93d93fe1 jl08.r20                nitrobal        Nitro Ball (World, set 1)
+91cf668e jl06.d10                nitrobal        Nitro Ball (World, set 1)
+e61d0e42 jl07.d12                nitrobal        Nitro Ball (World, set 1)
+34785d97 mav00.b10               nitrobal        Nitro Ball (World, set 1)
+8b531b16 mav01.b12               nitrobal        Nitro Ball (World, set 1)
+20723bf7 mav02.b16               nitrobal        Nitro Ball (World, set 1)
+ef6195f0 mav03.e16               nitrobal        Nitro Ball (World, set 1)
+d92d769c mav05.e19               nitrobal        Nitro Ball (World, set 1)
+8ba48385 mav04.b19               nitrobal        Nitro Ball (World, set 1)
+5fc10ccd mav07.e20               nitrobal        Nitro Ball (World, set 1)
+ae6201a5 mav06.b20               nitrobal        Nitro Ball (World, set 1)
+1ce7b51a mav09.e23               nitrobal        Nitro Ball (World, set 1)
+64966576 mav08.b23               nitrobal        Nitro Ball (World, set 1)
+8ad734b0 mav10.r17               nitrobal        Nitro Ball (World, set 1)
+ef513908 mav11.r19               nitrobal        Nitro Ball (World, set 1)
+6ac77b84 jn-00.17l               nitrobal        Nitro Ball (World, set 1)

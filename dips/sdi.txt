@@ -1,0 +1,6 @@
+ROM set changed: no
+0.106-0.134: sdi - "SDI - Strategic Defense Initiative (Europe, System 16A, FD1089B 317-0027)"
+0.135-0.153: sdi - "SDI - Strategic Defense Initiative (Japan, old, System 16A, FD1089B 317-0027)"
+0.154-0.170: sdi - "SDI - Strategic Defense Initiative (Japan, newer, System 16A, FD1089B 317-0027)"
+
+Resolution, 0.106-0.170: 320x224 @ 60.000000Hz

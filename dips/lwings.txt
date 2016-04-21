@@ -1,0 +1,7 @@
+ROM set changed: no
+0.106-0.171: lwings - "Legendary Wings (US set 1)"
+
+Resolution, 0.106-0.171: 256x240 @ 60.000000Hz
+
+Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=10116
+Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=10117

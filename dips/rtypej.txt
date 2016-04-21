@@ -1,0 +1,6 @@
+ROM set changed: yes
+0.106-0.111: rtype - "R-Type (Japan)"
+0.111u1-0.170: rtypej - "R-Type (Japan)"
+
+Resolution, 0.106-0.122: 384x256 @ 55.000000Hz
+Resolution, 0.123-0.170: 384x256 @ 55.017606Hz

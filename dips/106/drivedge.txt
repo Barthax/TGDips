@@ -1,0 +1,12 @@
+All settings are soft-based except the network number.  The network should be off anyway and so the network number should bear no effect.  Internal navigation up/down is performed with Fan (f) and Tow Truck (t) buttons with Horn (space) to select.
+
+Resolution: 384x240 @ 60Hz
+
+Rules, various variations: 
+ROMSet: DrivEdge
+Network Number: 1
+Service Mode: Off
+Internal Defaults
+-----------------
+Skill Level 2
+

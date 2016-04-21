@@ -1,0 +1,5 @@
+ROM set changed: no
+0.106-0.141: pitnrun - "Pit & Run (set 1)"
+0.142-0.170: pitnrun - "Pit & Run - F-1 Race (set 1)"
+
+Resolution, 0.106-0.170: 256x224 @ 60.000000Hz

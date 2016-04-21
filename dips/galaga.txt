@@ -1,0 +1,14 @@
+ROM set changed?: no
+0.79u1-0.169: galaga - "Galaga (Namco rev. B)"
+
+NB: note: 0.79 & earlier used a different set "Galaga (Namco)" which is now galagao (0.160).
+
+Resolution, 0.106-0.131: 288x224 @ 60.606060Hz
+Resolution, 0.132-0.169: 288x224 @ 60.606061Hz
+
+Rules, Points [Marathon]: http://www.twingalaxies.com/scores.php?scores=5223
+Rules, Points [Tournament]: http://www.twingalaxies.com/scores.php?scores=131651
+Rules, Points [Marathon / No Double Ship]: http://www.twingalaxies.com/scores.php?scores=131650
+Rules, Points [Tournament / No Double Ship]: http://www.twingalaxies.com/scores.php?scores=131652
+
+Note: the player can use Service Mode (F2) during recording to show the settings.  It is not possible to confirm the settings after playback has ended as MAME reverts to the localised configuration.

@@ -1,0 +1,5 @@
+ROM set changed: yes
+0.106-0.148: galaga3 - "Galaga 3 (rev. C)"
+0.149-0.169: galaga3a - "Galaga 3 (GP3 rev. C)"
+
+Resolution, 0.106-0.169: 288x224 @ 60.606060Hz

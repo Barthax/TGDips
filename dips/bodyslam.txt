@@ -1,0 +1,5 @@
+ROM set changed: no
+0.106-0.112: bodyslam - "Body Slam (8751 317-unknown)"
+0.113-0.168: bodyslam - "Body Slam (8751 317-0015)"
+
+Resolution, 0.106-0.168: 320x224 @ 60.000000Hz

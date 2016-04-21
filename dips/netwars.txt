@@ -1,0 +1,7 @@
+ROM Changes: no
+0.106-0.170: netwars - "Net Wars"
+
+Resolution, 0.106: 224x256 @ 60.000000Hz
+Resolution, 0.107-0.170: 256x224 @ 60.000000Hz
+
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=78628

@@ -1,0 +1,5 @@
+ROM set changed: no
+0.106-0.116: tinstar - "The Tin Star"
+0.117-0.170: tinstar - "The Tin Star (set 1)"
+
+Resolution, 0.106-0.170: 256x224 @ 60.000000Hz

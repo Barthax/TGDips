@@ -1,0 +1,5 @@
+ROM set changed: no
+0.106-0.147: jpark - "Jurassic Park"
+0.148-0.169: jpark - "Jurassic Park (World)"
+
+Resolution, 0.106-0.169: 416x224 @ 60.000000Hz

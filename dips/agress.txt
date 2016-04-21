@@ -1,0 +1,5 @@
+ROM set changed: no
+0.106-0.147: agress - "Agress"
+0.148-0.168: agress - "Agress - Missile Daisenryaku (Japan)" (description change only)
+
+Resolution, 0.106-0.168: 320x240 @ 58.000000Hz

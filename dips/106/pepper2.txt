@@ -1,0 +1,74 @@
+INPUT_PORTS_START( pepper2 )
+	PORT_START_TAG("DSW")
+	PORT_BIT ( 0x01, IP_ACTIVE_HIGH, IPT_COIN2 )
+	PORT_DIPNAME( 0x06, 0x06, DEF_STR( Bonus_Life ) )
+	PORT_DIPSETTING(    0x06, "40000" )
+	PORT_DIPSETTING(    0x04, "50000" )
+	PORT_DIPSETTING(    0x02, "60000" )
+	PORT_DIPSETTING(    0x00, "70000" )
+	PORT_DIPNAME( 0x60, 0x40, DEF_STR( Lives ) )
+	PORT_DIPSETTING(    0x60, "2" )
+	PORT_DIPSETTING(    0x40, "3" )
+	PORT_DIPSETTING(    0x20, "4" )
+	PORT_DIPSETTING(    0x00, "5" )
+	PORT_DIPNAME( 0x98, 0x98, DEF_STR( Coinage ) )
+	PORT_DIPSETTING(    0x90, DEF_STR( 2C_1C ) )
+	PORT_DIPSETTING(    0x00, "Coin A 2C/1C Coin B 1C/3C" )
+	PORT_DIPSETTING(    0x98, DEF_STR( 1C_1C ) )
+	PORT_DIPSETTING(    0x10, "Coin A 1C/1C Coin B 1C/4C" )
+	PORT_DIPSETTING(    0x18, "Coin A 1C/1C Coin B 1C/5C" )
+	PORT_DIPSETTING(    0x88, DEF_STR( 1C_2C ) )
+	PORT_DIPSETTING(    0x08, "1 Coin/3 Credits 2C/7C" )
+	PORT_DIPSETTING(    0x80, DEF_STR( 1C_4C ) )
+
+	PORT_START_TAG("IN0")
+	PORT_BIT ( 0x01, IP_ACTIVE_LOW, IPT_START1 )
+	PORT_BIT ( 0x02, IP_ACTIVE_LOW, IPT_START2 )
+	PORT_BIT ( 0x04, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_4WAY
+	PORT_BIT ( 0x08, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_4WAY
+	PORT_BIT ( 0x10, IP_ACTIVE_LOW, IPT_BUTTON1 )
+	PORT_BIT ( 0x20, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_4WAY
+	PORT_BIT ( 0x40, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_4WAY
+	PORT_BIT ( 0x80, IP_ACTIVE_LOW, IPT_COIN1 )
+
+	PORT_START_TAG("INTSOURCE")
+/*
+    The schematics claim these exist, but there's nothing in
+    the ROMs to support that claim (as far as I can see):
+
+    PORT_DIPNAME( 0x03, 0x00, DEF_STR( Language ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( English ) )
+    PORT_DIPSETTING(    0x01, DEF_STR( French ) )
+    PORT_DIPSETTING(    0x02, DEF_STR( German ) )
+    PORT_DIPSETTING(    0x03, DEF_STR( Spanish ) )
+    PORT_DIPNAME( 0x08, 0x00, DEF_STR( Cabinet ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( Upright ) )
+    PORT_DIPSETTING(    0x08, DEF_STR( Cocktail ) )
+*/
+	PORT_BIT( 0x1f, IP_ACTIVE_HIGH, IPT_SPECIAL )
+	PORT_BIT( 0x20, IP_ACTIVE_HIGH, IPT_COIN2 )
+	PORT_BIT( 0x40, IP_ACTIVE_HIGH, IPT_COIN1 )
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_VBLANK )
+
+	PORT_START_TAG("IN2")
+	PORT_BIT( 0xff, IP_ACTIVE_LOW, IPT_UNKNOWN )
+INPUT_PORTS_END
+
+Resolution: 238x256 @57Hz
+
+Rules: http://www.twingalaxies.com/scores.php?scores=7784
+ROMSet: Pepper2
+Bonus Life: 70000
+Lives: 3
+
+Sample correct TG:
+DSW: offset 0x23, repeat every 0x7C, value 0xD8 typical
+- DSW: 0x01 (Coin 2): [not relevant]
+- DSW: 0x06 (Bonus_Life): 0x00 (70000)
+- DSW: 0x60 (Lives): 0x40 (3)
+- DSW: 0x98 (Coinage): [not relevant]
+Please note that the 70k Bonus Life setting actually awards extra lives as 90k and 180k. See Post #7 of the previous adjudication thread for more information at http://www.twingalaxies.com/showthread.php/140492-M-A-M-E-Pepper-II-Points-1-136-630-Max-Haraske
+
+    20: 00 00 00 D8 00 00 00 FF  00 00 00 80 00 00 00 FF | ...+... ....... 
+    90: 00 00 00 00 00 00 00 00  3E 82 43 E1 00 00 00 D8 | ........>.Cß...+
+   110: 00 00 00 00 3E 82 43 E1  00 00 00 D8 00 00 00 FF | ....>.Cß...+... 

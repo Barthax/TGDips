@@ -1,0 +1,9 @@
+ROM set changed: no
+0.106-0.138: strider - "Strider (US set 1)"
+0.139: strider - "Strider (USA, set 1)"
+0.140-0.170: strider - "Strider (USA, B-Board 89624B-2)"
+
+Resolution, 0.106-0.126: 384x224 @ 60.000000Hz
+Resolution, 0.127-0.147: 384x224 @ 59.610000Hz
+Resolution, 0.148-0.152: 384x224 @ 59.629403Hz
+Resolution, 0.153-0.170: 384x224 @ 59.637405Hz

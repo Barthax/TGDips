@@ -1,0 +1,4 @@
+ROM set changed: no
+0.106-0.170: triothep - "Trio The Punch - Never Forget Me... (World)"
+
+Resolution, 0.106-0.170: 256x240 @ 60.000000Hz

@@ -1,0 +1,126 @@
+INPUT_PORTS_START( poundfor )
+	PORT_START
+	PORT_BIT( 0x1f, IP_ACTIVE_HIGH, IPT_SPECIAL )	/* high bits of trackball X */
+	PORT_BIT( 0x20, IP_ACTIVE_HIGH, IPT_BUTTON2 ) PORT_PLAYER(1)
+	PORT_BIT( 0x40, IP_ACTIVE_HIGH, IPT_BUTTON1 ) PORT_PLAYER(1)
+	PORT_BIT( 0x80, IP_ACTIVE_HIGH, IPT_UNKNOWN )
+
+	PORT_START
+	PORT_BIT( 0x1f, IP_ACTIVE_HIGH, IPT_SPECIAL )	/* high bits of trackball X */
+	PORT_BIT( 0x20, IP_ACTIVE_HIGH, IPT_BUTTON2 ) PORT_PLAYER(2)
+	PORT_BIT( 0x40, IP_ACTIVE_HIGH, IPT_BUTTON1 ) PORT_PLAYER(2)
+	PORT_BIT( 0x80, IP_ACTIVE_HIGH, IPT_UNKNOWN )
+
+	PORT_START
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_START1 )
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_START2 )
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_COIN1 )
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_COIN2 )
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_SERVICE1 )
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_SERVICE ) /* 0x20 is another test mode */
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_SPECIAL )	/* sprite DMA complete */
+
+	PORT_START
+	PORT_BIT( 0xff, IP_ACTIVE_LOW, IPT_UNKNOWN )
+
+	PORT_START
+	PORT_DIPNAME( 0x03, 0x03, "Round Time" )
+	PORT_DIPSETTING(    0x02, "60" )
+	PORT_DIPSETTING(    0x03, "90" )
+	PORT_DIPSETTING(    0x01, "120" )
+	PORT_DIPSETTING(    0x00, "150" )
+	PORT_DIPNAME( 0x04, 0x04, "Matches/Credit (2P)" )
+	PORT_DIPSETTING(    0x04, "1" )
+	PORT_DIPSETTING(    0x00, "2" )
+	PORT_DIPNAME( 0x08, 0x08, "Rounds/Match" )
+	PORT_DIPSETTING(    0x08, "2" )
+	PORT_DIPSETTING(    0x00, "3" )
+	PORT_DIPNAME( 0x10, 0x10, DEF_STR( Difficulty ) )
+	PORT_DIPSETTING(    0x10, DEF_STR( Normal ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Hard ) )
+	PORT_DIPNAME( 0x20, 0x20, "Trackball Size" )
+	PORT_DIPSETTING(    0x20, "Small" )
+	PORT_DIPSETTING(    0x00, "Large" )
+	PORT_DIPNAME( 0x40, 0x00, DEF_STR( Demo_Sounds ) )
+	PORT_DIPSETTING(    0x40, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_SERVICE( 0x80, IP_ACTIVE_LOW )
+
+	PORT_START
+	PORT_DIPNAME( 0x01, 0x01, DEF_STR( Flip_Screen ) )
+	PORT_DIPSETTING(    0x01, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x06, 0x04, DEF_STR( Cabinet ) )
+	PORT_DIPSETTING(    0x04, DEF_STR( Upright ) )
+	PORT_DIPSETTING(    0x02, "Upright (2P)" )
+	PORT_DIPSETTING(    0x06, DEF_STR( Cocktail ) )
+	PORT_DIPNAME( 0x08, 0x08, "Coin Mode" )
+	PORT_DIPSETTING(    0x08, "Mode 1" )
+	PORT_DIPSETTING(    0x00, "Mode 2" )
+
+	/* Coin Mode 1 */
+	PORT_DIPNAME( 0xf0, 0xf0, DEF_STR( Coinage ) )
+	PORT_DIPSETTING(    0xa0, DEF_STR( 6C_1C ) )
+	PORT_DIPSETTING(    0xb0, DEF_STR( 5C_1C ) )
+	PORT_DIPSETTING(    0xc0, DEF_STR( 4C_1C ) )
+	PORT_DIPSETTING(    0xd0, DEF_STR( 3C_1C ) )
+	PORT_DIPSETTING(    0xe0, DEF_STR( 2C_1C ) )
+	PORT_DIPSETTING(    0x30, DEF_STR( 3C_2C ) )
+	PORT_DIPSETTING(    0x20, DEF_STR( 4C_3C ) )
+	PORT_DIPSETTING(    0xf0, DEF_STR( 1C_1C ) )
+	PORT_DIPSETTING(    0x10, "1 Coin/1 Credit, 1 Coin/Continue" )
+	PORT_DIPSETTING(    0x40, DEF_STR( 2C_3C ) )
+	PORT_DIPSETTING(    0x90, DEF_STR( 1C_2C ) )
+	PORT_DIPSETTING(    0x80, DEF_STR( 1C_3C ) )
+	PORT_DIPSETTING(    0x70, DEF_STR( 1C_4C ) )
+	PORT_DIPSETTING(    0x60, DEF_STR( 1C_5C ) )
+	PORT_DIPSETTING(    0x50, DEF_STR( 1C_6C ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Free_Play ) )
+    /* Coin Mode 2, not supported yet */
+    // COIN_MODE_2
+
+	PORT_START
+	PORT_BIT( 0xffff, 0x0000, IPT_TRACKBALL_X ) PORT_SENSITIVITY(50) PORT_KEYDELTA(30) PORT_PLAYER(1)
+
+	PORT_START
+	PORT_BIT( 0xffff, 0x0000, IPT_TRACKBALL_Y ) PORT_SENSITIVITY(50) PORT_KEYDELTA(30) PORT_REVERSE PORT_PLAYER(1)
+
+	PORT_START
+	PORT_BIT( 0xffff, 0x0000, IPT_TRACKBALL_X ) PORT_SENSITIVITY(50) PORT_KEYDELTA(30) PORT_REVERSE PORT_PLAYER(2)
+
+	PORT_START
+	PORT_BIT( 0xffff, 0x0000, IPT_TRACKBALL_Y ) PORT_SENSITIVITY(50) PORT_KEYDELTA(30) PORT_PLAYER(2)
+INPUT_PORTS_END
+
+Resolution: 384x256 @ 55Hz
+
+Rules: http://www.twingalaxies.com/scores.php?scores=78955
+ROMSet: PoundFor
+Round Time: 60
+Matches/Credit [2P]: 1
+Rounds/Matches: 2
+Difficulty: Normal
+Trackball Size: Player's Choice
+Service Mode: Off
+Flip Screen: Off
+Cabinet: Upright
+
+Sample correct TG:
+Dips1: offset 0x33, repeat every 0x7C, typical value 0xBE
+- Dips1: 0x03 (Round Time): 0x02 (60)
+- Dips1: 0x04 (Matches/Credit (2P)): 0x04 (1)
+- Dips1: 0x08 (Rounds/Match): 0x08 (2)
+- Dips1: 0x10 (Difficulty): 0x10 (Normal)
+- Dips1: 0x20 (Trackball Size): [not relevant]
+- Dips1: 0x40 (Demo_Sounds): [not relevant]
+- Dips1: 0x80 (unused): [not relevant]
+Dips2: offset 0x37, repeat every 0x7C, typical value 0xFD
+- Dips2: 0x01 (Flip_Screen): 0x01 (Off)
+- Dips2: 0x06 (Cabinet): 0x04 (Upright)
+- Dips2: 0x08 (Coin Mode): [not relevant]
+
+    30: 00 00 00 BE 00 00 00 FD  00 00 00 00 00 00 00 00 | ...+...²........
+    A0: 00 00 00 00 00 00 00 FF  00 00 00 FF 00 00 00 BE | ....... ... ...+
+    B0: 00 00 00 FD 00 00 00 00  00 00 00 00 00 00 00 00 | ...²............
+   120: 00 00 00 FF 00 00 00 FF  00 00 00 BE 00 00 00 FD | ... ... ...+...²

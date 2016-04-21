@@ -1,0 +1,10 @@
+ROM set changed: yes
+0.106-0.111: sfa2 - "Street Fighter Alpha 2 (US 960306)"
+0.112-0.124: sfa2 - "Street Fighter Alpha 2 (USA 960306)"
+0.124u5-0.141: sfa2u - "Street Fighter Alpha 2 (USA 960306)"
+0.141u1-0.170: sfa2ur1 - "Street Fighter Alpha 2 (USA 960306)"
+
+Resolution, 0.106-0.113: 384x224 @ 59.633331Hz
+Resolution, 0.114-0.127: 384x224 @ 59.633333Hz
+Resolution, 0.128-0.152: 384x224 @ 59.629403Hz
+Resolution, 0.153-0.170: 384x224 @ 59.637405Hz

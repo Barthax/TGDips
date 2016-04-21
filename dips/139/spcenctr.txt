@@ -1,0 +1,81 @@
+# MAME 0.139 source snippet
+
+/*************************************
+ *
+ *  Space Encounters (PCB #645)
+ *
+ *************************************/
+
+#define SPCENCTR_STROBE_FREQ		(9.00)  /* Hz - calculated from the 555 timer */
+#define SPCENCTR_STROBE_DUTY_CYCLE	(95)	/* % */
+
+
+static INPUT_PORTS_START( spcenctr )
+	PORT_START("IN0")
+	/* horizontal range is limited to 12 - 46 by stoppers on the control for 35 positions */
+	PORT_BIT( 0x3f, 17, IPT_POSITIONAL ) PORT_POSITIONS(35) PORT_REMAP_TABLE(spcenctr_controller_table+12) PORT_SENSITIVITY(5) PORT_KEYDELTA(10) PORT_CENTERDELTA(0) PORT_REVERSE /* 6 bit horiz encoder */
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_PLAYER(1)
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_COIN1 )
+
+	PORT_START("IN1")
+	/* vertical range is limited to 22 - 41 by stoppers on the control for 20 positions */
+	PORT_BIT( 0x3f, 19, IPT_POSITIONAL_V ) PORT_POSITIONS(20) PORT_REMAP_TABLE(spcenctr_controller_table+22) PORT_SENSITIVITY(5) PORT_KEYDELTA(10) PORT_CENTERDELTA(0) PORT_REVERSE /* 6 bit vert encoder - pushing control in makes ship move faster */
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_UNUSED )  /* not connected */
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_UNUSED )  /* marked as COIN #2, but the software never reads it */
+
+	PORT_START("IN2")
+	PORT_DIPNAME( 0x03, 0x02, DEF_STR( Bonus_Life ) ) PORT_CONDITION("IN2", 0x30, PORTCOND_EQUALS, 0x00) PORT_DIPLOCATION("F3:1,2")
+	PORT_DIPSETTING(    0x00, "2000 4000 8000" )
+	PORT_DIPSETTING(    0x01, "3000 6000 12000" )
+	PORT_DIPSETTING(    0x02, "4000 8000 16000" )
+	PORT_DIPSETTING(    0x03, "5000 10000 20000" )
+	PORT_DIPNAME( 0x0c, 0x00, DEF_STR( Coinage ) ) PORT_CONDITION("IN2", 0x30, PORTCOND_NOTEQUALS, 0x10) PORT_DIPLOCATION("F3:3,4")
+	PORT_DIPSETTING(    0x04, DEF_STR( 2C_1C ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( 1C_1C ) )
+	PORT_DIPSETTING(    0x0c, DEF_STR( 2C_3C ) )
+	PORT_DIPSETTING(    0x08, DEF_STR( 1C_3C ) )
+	PORT_DIPNAME( 0x30, 0x00, "Bonus/Test Mode" ) PORT_DIPLOCATION("F3:5,6")
+	PORT_DIPSETTING(    0x00, "Bonus On" )
+	PORT_DIPSETTING(    0x30, "Bonus Off" )
+	PORT_DIPSETTING(    0x20, "Cross Hatch" )
+	PORT_DIPSETTING(    0x10, "Test Mode" )
+	PORT_DIPNAME( 0xc0, 0x40, "Time" ) PORT_CONDITION("IN2", 0x30, PORTCOND_NOTEQUALS, 0x10) PORT_DIPLOCATION("F3:7,8")
+	PORT_DIPSETTING(    0x00, "45" )
+	PORT_DIPSETTING(    0x40, "60" )
+	PORT_DIPSETTING(    0x80, "75" )
+	PORT_DIPSETTING(    0xc0, "90" )
+INPUT_PORTS_END
+
+
+ROM set change: none found
+
+Resolution: 260x224 @ 59.541985 Hz
+
+----
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=110708&ref=fbshare
+ROMSet: SpcEnctr
+Bonus Life: 2000 4000 8000
+Bonus/Test Mode: Bonus On
+Time: 45
+NB: all settings can be visually confirmed: if the bonus is displayed then "Bonus On" is set.
+
+Sample correct TG:
+IN2: offset 0x7A, repeat every 0x42, typical value 0x00
+- IN2: 0x03 (Bonus_Life): 0x00 (2000 4000 8000)
+- IN2: 0x0c (Coinage): [not relevant]
+- IN2: 0x30 (Bonus/Test Mode): 0x00 (Bonus On)
+- IN2: 0xc0 (Time): 0x00 (45)
+
+    70: 00 00 00 00 00 05 00 00  00 01 00 00 00 00 00 00 | ................
+    B0: 00 00 00 00 00 00 00 05  00 00 00 01 00 00 00 00 | ................
+    F0: 00 00 00 00 00 00 00 00  00 05 00 00 00 01 00 00 | ................
+   140: 00 00 00 00 00 00 00 00  00 00 00 00 00 18 84 3D | ...............=
+
+----
+Rules, Score No Restrictive Settings: http://www.twingalaxies.com/scores.php?scores=132433
+ROMSet: SpcEnctr
+Bonus Life: Any
+Bonus/Test Mode: Bonus On
+Time: Any
+All settings can be visually confirmed: if the Bonus is displayed then "Bonus On" is set.
+----

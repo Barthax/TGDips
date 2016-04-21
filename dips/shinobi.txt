@@ -1,0 +1,9 @@
+ROM set changed: no
+0.106-0.124: shinobi - "Shinobi (set 5, System 16A, unprotected)"
+0.124u3-0.165: shinobi - "Shinobi (set 6, System 16A, unprotected)"
+0.166-0.170: shinobi - "Shinobi (set 6, System 16A) (unprotected)"
+
+MAME History:
+- 0.124u3: Brian Troha added clone Shinobi (set 5, System 16B, unprotected). Arzeno Fabrice added correct rom dump for clone Shinobi (set 4). Changed parent description to 'Shinobi (set 6, System 16A, unprotected)' and clone '(set 4, System 16B, unprotected)' to '(set 4, System 16B, MC-8123B 317-0054)'.
+
+Resolution, 0.106-0.170: 320x224 @ 60.000000Hz

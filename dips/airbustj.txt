@@ -1,0 +1,7 @@
+ROM Set changed:
+0.35-0.60: airbustr
+0.61-0.133: airbustj - "Air Buster: Trouble Specialty Raid Unit (Japan)"
+0.134-0.169: airbustrj - "Air Buster: Trouble Specialty Raid Unit (Japan)"
+
+Resolution, 0.106-0.155: 256x224 @ 60.000000Hz
+Resolution, 0.156-0.169: 256x224 @ 57.400000Hz

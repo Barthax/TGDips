@@ -1,0 +1,9 @@
+ROM set changed: yes
+0.106-0.149: outzone - "Out Zone (set 1)"
+0.149u1-0.170: outzoneh - "Out Zone (harder)"
+
+Resolution, 0.106-0.113: 320x240 @ 55.161545Hz
+Resolution, 0.114-0.144: 320x240 @ 60.000000Hz
+Resolution, 0.145-0.152: 320x240 @ 57.584258Hz
+Resolution, 0.153-0.170: 320x240 @ 55.161545Hz
+

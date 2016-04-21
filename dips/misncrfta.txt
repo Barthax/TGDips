@@ -1,0 +1,5 @@
+ROM set changed: yes
+0.106-0.148: misncrft - "Mission Craft (version 2.4)"
+0.149-0.170: misncrfta - "Mission Craft (version 2.4)"
+
+Resolution, 0.106-0.170: 320x236 @ 60.000000Hz

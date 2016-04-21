@@ -1,0 +1,61 @@
+INPUT_PORTS_START( 64street )
+	COINS
+//  fire    jump
+	PORT_START_TAG("IN1")
+	JOY_2BUTTONS(1)
+	PORT_START_TAG("IN2")
+	RESERVE				// Unused
+	PORT_START_TAG("IN3")
+	JOY_2BUTTONS(2)
+
+	PORT_START_TAG("DSW1")
+	COINAGE_8BITS
+
+	PORT_START_TAG("DSW2")
+	PORT_DIPNAME( 0x01, 0x01, DEF_STR( Flip_Screen ) )
+	PORT_DIPSETTING(    0x01, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x02, 0x00, DEF_STR( Demo_Sounds ) )
+	PORT_DIPSETTING(    0x02, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x04, 0x04, DEF_STR( Allow_Continue ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x04, DEF_STR( On ) )
+	PORT_DIPNAME( 0x18, 0x18, DEF_STR( Difficulty ) )
+	PORT_DIPSETTING(    0x10, DEF_STR( Easy ) )
+	PORT_DIPSETTING(    0x18, DEF_STR( Normal ) )
+	PORT_DIPSETTING(    0x08, DEF_STR( Hard ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Hardest ) )
+	PORT_DIPNAME( 0x60, 0x20, DEF_STR( Lives ) )
+	PORT_DIPSETTING(    0x40, "1" )
+	PORT_DIPSETTING(    0x60, "2" )
+	PORT_DIPSETTING(    0x20, "3" )
+	PORT_DIPSETTING(    0x00, "5" )
+	PORT_SERVICE( 0x80, IP_ACTIVE_LOW )
+
+INPUT_PORTS_END
+
+Resolution: 256x224 @ 60Hz
+
+Dips can be checked by enabling service mode in the active Dips and reset (F3) the machine.  Player one cycles options in service mode.
+
+Rules, One Player: http://www.twingalaxies.com/scores.php?scores=11800
+Rules, Two Player: http://www.twingalaxies.com/scores.php?scores=11878
+ROMSet: 64Street
+Flip screen: Off
+Allow Continue: Off
+Difficulty: Normal
+Lives: 3
+
+Sample correct TG:
+DSW2: offset 0x37, repeat every 0x7C, typical value 0xB9
+- DSW2: 0x01 (Flip_Screen): 0x01 (Off)
+- DSW2: 0x02 (Demo_Sounds): [not relevant]
+- DSW2: 0x04 (Allow_Continue): 0x04 (On)
+- DSW2: 0x18 (Difficulty): 0x18 (Normal)
+- DSW2: 0x60 (Lives): 0x20 (3)
+- DSW2: 0x80 (unused): [not relevant]
+
+    30: 00 00 00 FF 00 00 00 B9  00 00 00 00 00 00 00 00 | ... ...¦........
+    B0: 00 00 00 B9 00 00 00 00  00 00 00 00 00 00 00 00 | ...¦............
+   120: 00 00 00 FF 00 00 00 FF  00 00 00 FF 00 00 00 B9 | ... ... ... ...¦

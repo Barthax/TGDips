@@ -1,0 +1,8 @@
+ROM set change: No
+0.106-0.169: irobot - "I, Robot"
+
+Resolution, 0.106-0.169: 256x232 @ 60.000000Hz
+
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=10114
+Rules, Points (Factory Settings): http://www.twingalaxies.com/scores.php?scores=199038
+Rules, Points (No Bird Hunting): http://www.twingalaxies.com/scores.php?scores=199040

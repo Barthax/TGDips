@@ -1,0 +1,14 @@
+All relevant rules are covered by software-dips.  If not shown during playback, use F2 to access after playback completed.
+
+Resolution: 304x224 @ 59.185608Hz
+
+Rules: http://www.twingalaxies.com/scores.php?scores=15445
+ROMSet: WJammers
+Set Time: 30
+Continue: WITHOUT
+Difficulty: LEVEL 4
+Credit Disp.: WITH
+Level Disp: WITH
+Demo Sound: WITH
+How To Play: WITH
+Korea/U.K.: U.K.

@@ -1,0 +1,6 @@
+ROM set changed: no
+0.106-0.171: diggerc - "Digger (CVS)"
+
+Resolution, 0.106-0.171: 240x248 @ 60.000000Hz
+
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=26106

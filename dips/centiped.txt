@@ -1,0 +1,17 @@
+Note: two different ROM sets are tracked by this file.  In 0.106 centiped was the original release and centtime was the time-limited version.
+
+ROM set changed: YES
+0.106-0.154: centiped - "Centipede (revision 3)"
+0.155-0.168: centiped3 - "Centipede (revision 3)"
+
+Resolution, 0.106-0.168: 256 x 240 @ 60.000000 Hz
+
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=7702
+---------------------------------------------------------------------
+ROM set changed: YES
+0.106-0.154: centtime - "Centipede (1 player, timed)"
+0.155-0.168: centiped - "Centipede (revision 4)"
+
+Resolution, 0.106-0.168: 256 x 240 @ 60.000000 Hz
+
+Rules, 3 Minutes Time Challenge: http://www.twingalaxies.com/scores.php?scores=21079

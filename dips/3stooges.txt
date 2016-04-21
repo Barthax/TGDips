@@ -1,0 +1,6 @@
+ROM set changed: no
+0.106-0.152: 3stooges - "The Three Stooges In Brides Is Brides"
+0.153-0.170: 3stooges - "The Three Stooges In Brides Is Brides (set 1)"
+
+Resolution, 0.106-0.126: 256x240 @ 61.000000Hz
+Resolution, 0.127-0.170: 256x240 @ 61.419025Hz

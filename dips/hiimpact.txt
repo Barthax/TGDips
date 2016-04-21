@@ -1,0 +1,11 @@
+ROM set changed: yes
+0.106-0.131: hiimpact - "High Impact Football (rev LA4 02/04/91)"
+0.131u3-0.133: hiimpac4 - "High Impact Football (rev LA4 02/04/91)"
+0.133u1-0.169: hiimpact4 - "High Impact Football (rev LA4 02/04/91)"
+
+Resolution, 0.106-0.113: 396x256 @ 53.204948Hz
+Resolution, 0.114: 396x256 @ 53.204950Hz
+Resolution, 0.115-0.122: 399x253 @ 27.407585Hz
+Resolution, 0.123-0.154: 399x253 @ 54.815170Hz
+Resolution, 0.155-0.169: 410x256 @ 54.706840Hz
+

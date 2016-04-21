@@ -1,0 +1,6 @@
+ROM set changed: no
+0.106-0.147: wecleman - "WEC Le Mans 24"
+0.148-0.166: wecleman - "WEC Le Mans 24 (set 1)"
+0.167-0.170: wecleman - "WEC Le Mans 24 (v2.00, set 1)"
+
+Resolution, 0.106-0.170: 320x224 @ 60.000000Hz

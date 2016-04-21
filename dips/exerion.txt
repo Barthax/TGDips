@@ -1,0 +1,11 @@
+ROM Set changes: No
+0.106-0.169: exerion - "Exerion"
+
+Resolution, 0.106-0.113: 320 x 224 @ 60.000000 Hz
+Resolution, 0.114-0.135: 320 x 224 @ 61.419019 Hz
+Resolution, 0.136-0.169: 320 x 224 @ 61.320755 Hz
+
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=10107
+
+NOTE: from MAMEINFO.DAT
+- 0.116: ShimaPong fixed Exerion ends regardless after the bonus stage, when you die. [this problem was introduced 0.102]

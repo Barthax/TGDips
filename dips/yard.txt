@@ -1,0 +1,9 @@
+ROM set changed: yes
+0.106-0.108: yard - "10-Yard Fight (Japan)"
+0.109-0.169: 10yardj - "10-Yard Fight (Japan)"
+
+Resolution, 0.106-0.108: 256x240 @ 57.000000Hz
+Resolution, 0.109-0.122: 256x240 @ 57.000000Hz
+Resolution, 0.123-0.169: 256x224 @ 56.737589Hz
+
+Rules: http://www.twingalaxies.com/scores.php?scores=7672

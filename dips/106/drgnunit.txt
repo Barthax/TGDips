@@ -1,0 +1,110 @@
+INPUT_PORTS_START( drgnunit )
+	PORT_START_TAG("IN0")	//Player 1
+	JOY_TYPE1_3BUTTONS(1)
+
+	PORT_START_TAG("IN1")	//Player 2
+	JOY_TYPE1_3BUTTONS(2)
+
+	PORT_START_TAG("IN2")	//Coins
+	PORT_BIT( 0x0001, IP_ACTIVE_LOW, IPT_COIN1 ) PORT_IMPULSE(5)
+	PORT_BIT( 0x0002, IP_ACTIVE_LOW, IPT_COIN2 ) PORT_IMPULSE(5)
+	PORT_BIT(  0x0004, IP_ACTIVE_LOW, IPT_SERVICE1 )
+	PORT_BIT(  0x0008, IP_ACTIVE_LOW, IPT_TILT     )
+	PORT_DIPNAME( 0x0010, 0x0010, "Coinage Type" ) // not supported
+	PORT_DIPSETTING(      0x0010, "1" )
+	PORT_DIPSETTING(      0x0000, "2" )
+	PORT_DIPNAME( 0x0020, 0x0020, "Title" )
+	PORT_DIPSETTING(      0x0020, "Dragon Unit" )
+	PORT_DIPSETTING(      0x0000, "Castle of Dragon" )
+	PORT_DIPNAME( 0x00c0, 0x00c0, "(C) / License" )
+	PORT_DIPSETTING(      0x00c0, "Athena (Japan)" )
+	PORT_DIPSETTING(      0x0080, "Athena / Taito (Japan)" )
+	PORT_DIPSETTING(      0x0040, "Seta USA / Taito America" )
+	PORT_DIPSETTING(      0x0000, "Seta USA / Romstar" )
+
+	PORT_START_TAG("IN3")	//2 DSWs - $600001 & 3.b
+	PORT_DIPNAME( 0x0003, 0x0002, DEF_STR( Difficulty ) )
+	PORT_DIPSETTING(      0x0003, DEF_STR( Easy ) )
+	PORT_DIPSETTING(      0x0002, DEF_STR( Normal ) )
+	PORT_DIPSETTING(      0x0001, DEF_STR( Hard ) )
+	PORT_DIPSETTING(      0x0000, DEF_STR( Hardest ) )
+	PORT_DIPNAME( 0x000c, 0x000c, DEF_STR( Bonus_Life ) )
+	PORT_DIPSETTING(      0x0008, "150K, Every 300K" )
+	PORT_DIPSETTING(      0x000c, "200K, Every 400K" )
+	PORT_DIPSETTING(      0x0004, "300K, Every 500K" )
+	PORT_DIPSETTING(      0x0000, "400K Only" )
+	PORT_DIPNAME( 0x0030, 0x0030, DEF_STR( Lives ) )
+	PORT_DIPSETTING(      0x0000, "1" )
+	PORT_DIPSETTING(      0x0010, "2" )
+	PORT_DIPSETTING(      0x0030, "3" )
+	PORT_DIPSETTING(      0x0020, "5" )
+	PORT_DIPNAME( 0x0040, 0x0040, "Unknown 1-6" )	/* Labeled "Don't Touch" in manual */
+	PORT_DIPSETTING(      0x0040, DEF_STR( Off ) )
+	PORT_DIPSETTING(      0x0000, DEF_STR( On ) )
+	PORT_DIPNAME( 0x0080, 0x0080, "Unknown 1-7*" )	/* Labeled "Don't Touch" in manual */
+	PORT_DIPSETTING(      0x0080, DEF_STR( Off ) )
+	PORT_DIPSETTING(      0x0000, DEF_STR( On ) )
+
+	PORT_DIPNAME( 0x0100, 0x0100, "Unknown 2-0" )	/* Labeled "Don't Touch" in manual */
+	PORT_DIPSETTING(      0x0100, DEF_STR( Off ) )
+	PORT_DIPSETTING(      0x0000, DEF_STR( On ) )
+	PORT_DIPNAME( 0x0200, 0x0200, DEF_STR( Flip_Screen ) )
+	PORT_DIPSETTING(      0x0200, DEF_STR( Off ) )
+	PORT_DIPSETTING(      0x0000, DEF_STR( On ) )
+	PORT_DIPNAME( 0x0400, 0x0400, DEF_STR( Demo_Sounds ) )
+	PORT_DIPSETTING(      0x0400, "1 of 4 Scenes" )
+	PORT_DIPSETTING(      0x0000, "1 of 8 Scenes" )
+	PORT_SERVICE( 0x0800, IP_ACTIVE_LOW )
+	PORT_DIPNAME( 0x3000, 0x3000, DEF_STR( Coin_A ) )
+	PORT_DIPSETTING(      0x1000, DEF_STR( 2C_1C ) )
+	PORT_DIPSETTING(      0x3000, DEF_STR( 1C_1C ) )
+	PORT_DIPSETTING(      0x0000, DEF_STR( 2C_3C ) )
+	PORT_DIPSETTING(      0x2000, DEF_STR( 1C_2C ) )
+	PORT_DIPNAME( 0xc000, 0xc000, DEF_STR( Coin_B ) )
+	PORT_DIPSETTING(      0x4000, DEF_STR( 2C_1C ) )
+	PORT_DIPSETTING(      0xc000, DEF_STR( 1C_1C ) )
+	PORT_DIPSETTING(      0x0000, DEF_STR( 2C_3C ) )
+	PORT_DIPSETTING(      0x8000, DEF_STR( 1C_2C ) )
+INPUT_PORTS_END
+
+#define	JOY_TYPE1_3BUTTONS(_n_) \
+	PORT_BIT(  0x0001, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT	) PORT_PLAYER(_n_) \
+	PORT_BIT(  0x0002, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT) PORT_PLAYER(_n_) \
+	PORT_BIT(  0x0004, IP_ACTIVE_LOW, IPT_JOYSTICK_UP	) PORT_PLAYER(_n_) \
+	PORT_BIT(  0x0008, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN	) PORT_PLAYER(_n_) \
+	PORT_BIT(  0x0010, IP_ACTIVE_LOW, IPT_BUTTON1		) PORT_PLAYER(_n_) \
+	PORT_BIT(  0x0020, IP_ACTIVE_LOW, IPT_BUTTON2		) PORT_PLAYER(_n_) \
+	PORT_BIT(  0x0040, IP_ACTIVE_LOW, IPT_BUTTON3		) PORT_PLAYER(_n_) \
+	PORT_BIT(  0x0080, IP_ACTIVE_LOW, IPT_START##_n_					)
+
+Resolution: 384x240 @ 60Hz
+
+Rules, One Player: http://www.twingalaxies.com/scores.php?scores=26135
+Rules, Two Player: http://www.twingalaxies.com/scores.php?scores=26136
+ROMSet: DrgnUnit
+Difficulty: Normal
+Bonus Life: 200k, Every 400k
+Lives: 3
+Unknown 1-6: Off
+Unknown 1-7*: Off
+Unknown 2-0: Off
+Flip Screen: Off
+Service Mode: Off
+
+Sample correct TG:
+IN3: offset 0x2E, repeat every 0x7C, typical value 0xFFFE
+- IN3: 0x0003 (Difficulty): 0x0002 (Normal)
+- IN3: 0x000c (Bonus_Life): 0x000c (200K, Every 400K)
+- IN3: 0x0030 (Lives): 0x0030 (3)
+- IN3: 0x0040 (Unknown 1-6): 0x0040 (Off)
+- IN3: 0x0080 (Unknown 1-7*): 0x0080 (Off)
+- IN3: 0x0100 (Unknown 2-0): 0x0100 (Off)
+- IN3: 0x0200 (Flip_Screen): 0x0200 (Off)
+- IN3: 0x0400 (Demo_Sounds): [not relevant]
+- IN3: 0x0800 (unused): [not relevant]
+- IN3: 0x3000 (Coin_A): [not relevant]
+- IN3: 0xc000 (Coin_B): [not relevant]
+
+    20: 00 00 00 FF 00 00 00 FF  00 00 00 FF 00 00 FF FE | ...а...а...а..аж
+    A0: 00 00 00 FF 00 00 00 FF  00 00 FF FE 00 00 00 00 | ...а...а..аж....
+   120: 00 00 00 FF 00 00 FF FE  00 00 00 00 00 00 00 00 | ...а..аж........

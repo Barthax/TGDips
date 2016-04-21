@@ -1,0 +1,7 @@
+ROM set changed: yes
+0.106-0.128: powerins - "Gouketsuji Ichizoku (Japan)"
+0.128u2-0.133: powerinj - "Gouketsuji Ichizoku (Japan)"
+0.134-0.169: powerinsj - "Gouketsuji Ichizoku (Japan)"
+
+Resolution, 0.106-0.133: 320x224 @ 56.000000Hz
+Resolution, 0.134-0.169: 320x224 @ 56.000000Hz

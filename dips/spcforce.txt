@@ -1,0 +1,7 @@
+ROM set changed: no
+0.106-0.122: spcforce - "Space Force"
+0.123-0.171: spcforce - "Space Force (set 1)"
+
+Resolution, 0.106-0.171: 256x224 @ 60.000000Hz
+
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=10455

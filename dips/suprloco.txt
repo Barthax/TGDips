@@ -1,0 +1,8 @@
+ROM set changed: yes
+0.106-0.147: suprloco - "Super Locomotive"
+0.147u3-0.170: suprlocoo - "Super Locomotive"
+
+MAME History:
+- 0.147u3: Made Rev A the parent set. Added DIP locations to the Super Locomotive sets. Added minor documentation about basic PCB parts [Brian Troha]. Renamed (suprloco) to (suprlocoo) and (suprlocoa) to (suprloco).
+
+Resolution, 0.106-0.170: 240x224 @ 60.000000Hz

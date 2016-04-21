@@ -1,0 +1,11 @@
+ROM set changed: yes
+0.106-0.133: cyberb2p - "Cyberball 2072 (2 player, rev 4)"
+0.134-0.169: cyberbal2p - "Cyberball 2072 (2 player, rev 4)"
+
+MAME History:
+- 0.133u1: Renamed (cyberba2) to (cyberbal2), (cyberbap) to (cyberbalp), (cyberb2p) to (cyberbal2p), (cyberb23) to (cyberbal2p3), (cyberb22) to (cyberbal2p2), (cyberb21) to (cyberbal2p1), (cyberbt) to (cyberbalt) and (cyberbt1) to (cyberbalt1).
+
+Resolution, 0.106-0.114: 672x240 @ 60.000000Hz
+Resolution, 0.115-0.143: 672x240 @ 59.922743Hz
+Resolution, 0.144-0.169: 672x240 @ 59.922748Hz
+

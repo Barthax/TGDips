@@ -1,0 +1,9 @@
+ROM set changed: yes
+0.106-0.146: excitebk - "Vs. Excitebike"
+0.146u1-0.170: excitebka - "Vs. Excitebike (set EB4-3 ?)"
+
+MAME History:
+- 0.146u1: Changed clone '(Japan)' to parent 'Vs. Excitebike (set EB4-4 A)' and 'Vs. Excitebike' to clone '(set EB4-3 ?)'. Renamed (excitebk) to (excitebka) and (excitebkj) to (excitebk).
+
+Resolution, 0.106-0.146: 256x240 @ 60.000000Hz
+Resolution, 0.147-0.170: 256x240 @ 60.000000Hz

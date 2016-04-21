@@ -1,0 +1,95 @@
+INPUT_PORTS_START( solarfox )
+	PORT_START_TAG("SSIO.IP0")	/* J4 1-8 */
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_COIN1 )
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_COIN2 )
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_BUTTON2 )
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_BUTTON2 ) PORT_COCKTAIL
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_BUTTON1 )
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_TILT )
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_SERVICE1 )
+	PORT_SERVICE( 0x80, IP_ACTIVE_LOW )
+
+	PORT_START_TAG("SSIO.IP1")	/* J4 10-13,15-18 */
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_4WAY
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_4WAY
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_4WAY
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_4WAY
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_4WAY PORT_COCKTAIL
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_4WAY PORT_COCKTAIL
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_4WAY PORT_COCKTAIL
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_4WAY PORT_COCKTAIL
+
+	PORT_START_TAG("SSIO.IP2")	/* J5 1-8 */
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_COCKTAIL
+	PORT_BIT( 0xfe, IP_ACTIVE_LOW, IPT_UNUSED )
+
+	PORT_START_TAG("SSIO.IP3")	/* DIPSW @ B3 */
+	PORT_DIPNAME( 0x03, 0x03, "Bonus" )
+	PORT_DIPSETTING(    0x02, DEF_STR( None ) )
+	PORT_DIPSETTING(    0x03, "After 10 racks" )
+	PORT_DIPSETTING(    0x01, "After 20 racks" )
+	PORT_BIT( 0x0c, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_DIPNAME( 0x10, 0x00, DEF_STR( Demo_Sounds ))
+	PORT_DIPSETTING(    0x10, DEF_STR( Off ))
+	PORT_DIPSETTING(    0x00, DEF_STR( On ))
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_DIPNAME( 0x40, 0x40, "Ignore Hardware Failure" )
+	PORT_DIPSETTING(    0x40, DEF_STR( Off ))
+	PORT_DIPSETTING(    0x00, DEF_STR( On ))
+	PORT_DIPNAME( 0x80, 0x80, DEF_STR( Cabinet ))
+	PORT_DIPSETTING(    0x80, DEF_STR( Upright ))
+	PORT_DIPSETTING(    0x00, DEF_STR( Cocktail ))
+
+	PORT_START_TAG("SSIO.IP4")	/* J6 1-8 */
+	PORT_BIT( 0xff, IP_ACTIVE_LOW, IPT_UNUSED )
+
+	PORT_START_TAG("SSIO.DIP")
+	PORT_BIT( 0xff, IP_ACTIVE_LOW, IPT_UNKNOWN )
+INPUT_PORTS_END
+
+----
+Rules, 3 Lives to start: http://www.twingalaxies.com/scores.php?scores=10128
+ROMSet: SolarFox
+Service Mode: Off
+Bonus: After 10 Racks
+Ignore Hardware Failure: Off
+Cabinet: Upright
+Lives: 3
+Internal Defaults
+-----------------
+3 Bases For 1 Credit
+7 Bases For 2 Credit
+3 Replay Levels
+3 Timer Levels
+
+Sample correct TG: note: this game is part-hardware, part-software configuration - software dips require reset of the machine & F2 during boot.
+DIPSW @ B3: offset 0x2F, repeat every 0x7C
+- DIPSWB3: 0x03 (Bonus): 0x03 (After 10 racks)
+- DIPSWB3: 0x0c (unknown): [not relevant]
+- DIPSWB3: 0x10 (Demo_Sounds): [not relevant]
+- DIPSWB3: 0x20 (unknown): [not relevant]
+- DIPSWB3: 0x40 (Ignore Hardware Failure): 0x40 (Off)
+- DIPSWB3: 0x80 (Cabinet): 0x80 (Upright)
+
+    20: 00 00 00 7F 00 00 00 FF  00 00 00 FF 00 00 00 EF | ....... ... ...n
+    A0: 00 00 00 FF 00 00 00 FF  00 00 00 EF 00 00 00 FF | ... ... ...n... 
+   120: 00 00 00 FF 00 00 00 EF  00 00 00 FF 00 00 00 FF | ... ...n... ... 
+----
+
+----
+Rules, 6 lives to start: http://www.twingalaxies.com/scores.php?scores=110694
+ROMSet: SolarFox
+Service Mode: Off
+Bonus: After 10 Racks
+Ignore Hardware Failure: Off
+Cabinet: Upright
+Lives: 3Internal Defaults
+-----------------
+3 Bases For 1 Credit
+7 Bases For 2 Credit
+3 Replay Levels
+3 Timer Levels
+
+Sample correct TG:
+to do
+----

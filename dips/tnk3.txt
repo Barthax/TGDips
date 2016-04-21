@@ -1,0 +1,8 @@
+ROM set changed: no
+0.106-0.127: tnk3 - "T.N.K. III (US)"
+0.128-0.170: tnk3 - "T.N.K III (US)"   (minor description change only)
+
+Resolution, 0.106: 216x288 @ 60.000000Hz
+Resolution, 0.107-0.170: 288x216 @ 60.000000Hz
+
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=10801

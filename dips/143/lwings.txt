@@ -1,0 +1,116 @@
+# MAME 0.143 source snippet
+
+GAME( 1986, lwings,    0,        lwings,   lwings,   0, ROT90, "Capcom",     "Legendary Wings (US set 1)", GAME_SUPPORTS_SAVE )
+
+static INPUT_PORTS_START( lwings )
+    PORT_INCLUDE( lwings_generic )
+
+    PORT_START("DSWA")
+    PORT_DIPUNUSED_DIPLOC( 0x0001, 0x0001, "SWA:8" )
+    PORT_DIPNAME( 0x02, 0x02, DEF_STR( Flip_Screen ) ) PORT_DIPLOCATION("SWA:7")
+    PORT_DIPSETTING(    0x02, DEF_STR( Off ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+    PORT_DIPNAME( 0x0c, 0x0c, DEF_STR( Lives ) ) PORT_DIPLOCATION("SWA:6,5")
+    PORT_DIPSETTING(    0x0c, "3" )
+    PORT_DIPSETTING(    0x04, "4" )
+    PORT_DIPSETTING(    0x08, "5" )
+    PORT_DIPSETTING(    0x00, "6" )
+    PORT_DIPNAME( 0x30, 0x30, DEF_STR( Coin_B ) ) PORT_DIPLOCATION("SWA:4,3")
+    PORT_DIPSETTING(    0x00, DEF_STR( 4C_1C ) )
+    PORT_DIPSETTING(    0x20, DEF_STR( 3C_1C ) )
+    PORT_DIPSETTING(    0x10, DEF_STR( 2C_1C ) )
+    PORT_DIPSETTING(    0x30, DEF_STR( 1C_1C ) )
+    PORT_DIPNAME( 0xc0, 0xc0, DEF_STR( Coin_A ) ) PORT_DIPLOCATION("SWA:2,1")
+    PORT_DIPSETTING(    0xc0, DEF_STR( 1C_1C ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( 2C_4C ) )
+    PORT_DIPSETTING(    0x40, DEF_STR( 1C_2C ) )
+    PORT_DIPSETTING(    0x80, DEF_STR( 1C_3C ) )
+
+    PORT_START("DSWB")
+    PORT_DIPUNUSED_DIPLOC( 0x0001, 0x0001, "SWB:8" )
+    PORT_DIPNAME( 0x06, 0x06, DEF_STR( Difficulty ) ) PORT_DIPLOCATION("SWB:7,6")
+    PORT_DIPSETTING(    0x02, DEF_STR( Easy ) )
+    PORT_DIPSETTING(    0x06, DEF_STR( Medium ) )
+    PORT_DIPSETTING(    0x04, DEF_STR( Hard ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( Hardest ) )
+    PORT_DIPNAME( 0x08, 0x08, DEF_STR( Demo_Sounds ) ) PORT_DIPLOCATION("SWB:5")
+    PORT_DIPSETTING(    0x00, DEF_STR( Off ) )
+    PORT_DIPSETTING(    0x08, DEF_STR( On ) )
+    PORT_DIPNAME( 0x10, 0x10, DEF_STR( Allow_Continue ) ) PORT_DIPLOCATION("SWB:4")
+    PORT_DIPSETTING(    0x00, DEF_STR( No ) )
+    PORT_DIPSETTING(    0x10, DEF_STR( Yes ) )
+    PORT_DIPNAME( 0xe0, 0xe0, DEF_STR( Bonus_Life ) ) PORT_DIPLOCATION("SWB:3,2,1")
+    PORT_DIPSETTING(    0xe0, "20000 and every 50000" )
+    PORT_DIPSETTING(    0x60, "20000 and every 60000" )
+    PORT_DIPSETTING(    0xa0, "20000 and every 70000" )
+    PORT_DIPSETTING(    0x20, "30000 and every 60000" )
+    PORT_DIPSETTING(    0xc0, "30000 and every 70000" )
+    PORT_DIPSETTING(    0x40, "30000 and every 80000" )
+    PORT_DIPSETTING(    0x80, "40000 and every 100000" )
+    PORT_DIPSETTING(    0x00, DEF_STR( None ) )
+INPUT_PORTS_END
+
+static INPUT_PORTS_START( lwings_generic )
+    PORT_START("SERVICE")
+    PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_START1 )
+    PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_START2 )
+    PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_UNKNOWN )    /* probably unused */
+    PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_UNKNOWN )    /* probably unused */
+    PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_UNKNOWN )    /* probably unused */
+    PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_UNKNOWN )    /* probably unused */
+    PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_COIN1 )
+    PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_COIN2 )
+
+    PORT_START("P1")
+    PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_8WAY
+    PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_8WAY
+    PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_8WAY
+    PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_8WAY
+    PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_BUTTON1 )
+    PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_BUTTON2 )
+    PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_UNKNOWN )    /* probably unused */
+    PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_UNKNOWN )    /* probably unused */
+
+    PORT_START("P2")
+    PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_8WAY PORT_PLAYER(2)
+    PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_8WAY PORT_PLAYER(2)
+    PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_8WAY PORT_PLAYER(2)
+    PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_8WAY PORT_PLAYER(2)
+    PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_PLAYER(2)
+    PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_BUTTON2 ) PORT_PLAYER(2)
+    PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_UNKNOWN )    /* probably unused */
+    PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_UNKNOWN )    /* probably unused */
+INPUT_PORTS_END
+
+Resolution: 256x240 @ 60.000000Hz
+
+Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=10116
+Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=10117
+ROMSet: LWings
+Unused: Off [Both]
+Flip Screen: Off
+Lives: 3
+Difficulty: Medium
+Allow continue: No
+Bonus Life: 20000 and every 50000
+
+Sample correct TG:
+DSWA: offset 0x68, repeat every 0x38, typical value 0xFF
+- DSWA: 0x01 (Unused): 0x01 (Off)
+- DSWA: 0x02 (Flip_Screen): 0x02 (Off)
+- DSWA: 0x0c (Lives): 0x0c (3)
+- DSWA: 0x30 (Coin_B): [not relevant]
+- DSWA: 0xc0 (Coin_A): [not relevant]
+DSWB: offset 0x70, repeat every 0x38, typical value 0xEF
+- DSWB: 0x01 (Unused): 0x01 (Off)
+- DSWB: 0x06 (Difficulty): 0x06 (Medium)
+- DSWB: 0x08 (Demo_Sounds): [not relevant]
+- DSWB: 0x10 (Allow_Continue): 0x00 (No)
+- DSWB: 0xe0 (Bonus_Life): 0xe0 (20000 and every 50000)
+
+    60: FF 00 00 00 00 00 00 00  FF 00 00 00 00 00 00 00
+    70: EF 00 00 00 00 00 00 00  00 00 00 00 AA AA 41 BA
+    A0: FF 00 00 00 00 00 00 00  EF 00 00 00 00 00 00 00
+    D0: FF 00 00 00 00 00 00 00  FF 00 00 00 00 00 00 00
+    E0: EF 00 00 00 00 00 00 00  00 00 00 00 FE FF C4 2E
+   110: FF 00 00 00 00 00 00 00  EF 00 00 00 00 00 00 00

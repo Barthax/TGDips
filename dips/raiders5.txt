@@ -1,0 +1,6 @@
+ROM Changes: 
+0.106-0.169: raiders5 - "Raiders5"
+
+Resolution, 0.106-0.169: 256x192 @ 60.000000Hz
+
+Rules: http://www.twingalaxies.com/scores.php?scores=91173

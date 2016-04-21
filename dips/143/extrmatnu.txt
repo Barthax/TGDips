@@ -1,0 +1,153 @@
+# MAME 0.143 source snippet
+
+GAME( 1987, extrmatnu,extrmatn, arknoid2, extrmatn, extrmatn, ROT270, "Taito (World Games license)", "Extermination (US)", 0 )
+
+static INPUT_PORTS_START( extrmatn )
+    /* 0xb001 (CPU1) port 0 -> 0xef0e (shared RAM) */
+    PORT_START("DSWA")
+    PORT_DIPUNUSED( 0x01, IP_ACTIVE_LOW )
+    PORT_DIPNAME( 0x02, 0x02, DEF_STR( Flip_Screen ) )
+    PORT_DIPSETTING(    0x02, DEF_STR( Off ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+    PORT_SERVICE( 0x04, IP_ACTIVE_LOW )
+    PORT_DIPUNUSED( 0x08, IP_ACTIVE_LOW )
+    TAITO_COINAGE_JAPAN_OLD
+
+    /* 0xb001 (CPU1) port 1 -> 0xef0f (shared RAM) */
+    PORT_START("DSWB")
+    TAITO_DIFFICULTY
+    PORT_DIPUNUSED( 0x04, IP_ACTIVE_LOW )
+    PORT_DIPUNUSED( 0x08, IP_ACTIVE_LOW )
+    PORT_DIPUNUSED( 0x10, IP_ACTIVE_LOW )
+    PORT_DIPUNUSED( 0x20, IP_ACTIVE_LOW )
+    PORT_DIPNAME( 0xc0, 0xc0, "Damage Multiplier" )
+    PORT_DIPSETTING(    0xc0, "*1" )
+    PORT_DIPSETTING(    0x80, "*1.5" )
+    PORT_DIPSETTING(    0x40, "*2" )
+    PORT_DIPSETTING(    0x00, "*3" )
+
+    PORT_START("IN0")
+    TAITO_JOY_LRUD_2_BUTTONS_START( 1 )
+
+    PORT_START("IN1")
+    TAITO_JOY_LRUD_2_BUTTONS_START( 2 )
+
+    COMMON_IN2
+    COMMON_COIN1(IP_ACTIVE_HIGH)
+    COMMON_COIN2(IP_ACTIVE_HIGH)
+INPUT_PORTS_END
+
+
+--------------------------------------------------------
+*** from includes/taitoipt.h ***
+
+#define TAITO_COINAGE_JAPAN_OLD \
+    TAITO_COINAGE_JAPAN_OLD_COIN_A \
+    TAITO_COINAGE_JAPAN_OLD_COIN_B
+
+#define TAITO_COINAGE_JAPAN_OLD_COIN_A \
+    PORT_DIPNAME( 0x30, 0x30, DEF_STR( Coin_A ) ) \
+    PORT_DIPSETTING(    0x10, DEF_STR( 2C_1C ) ) \
+    PORT_DIPSETTING(    0x30, DEF_STR( 1C_1C ) ) \
+    PORT_DIPSETTING(    0x00, DEF_STR( 2C_3C ) ) \
+    PORT_DIPSETTING(    0x20, DEF_STR( 1C_2C ) )
+
+#define TAITO_COINAGE_JAPAN_OLD_COIN_B \
+    PORT_DIPNAME( 0xc0, 0xc0, DEF_STR( Coin_B ) ) \
+    PORT_DIPSETTING(    0x40, DEF_STR( 2C_1C ) ) \
+    PORT_DIPSETTING(    0xc0, DEF_STR( 1C_1C ) ) \
+    PORT_DIPSETTING(    0x00, DEF_STR( 2C_3C ) ) \
+    PORT_DIPSETTING(    0x80, DEF_STR( 1C_2C ) )
+
+#define TAITO_DIFFICULTY \
+    PORT_DIPNAME( 0x03, 0x03, DEF_STR( Difficulty ) ) \
+    PORT_DIPSETTING(    0x02, DEF_STR( Easy ) ) \
+    PORT_DIPSETTING(    0x03, DEF_STR( Medium ) ) \
+    PORT_DIPSETTING(    0x01, DEF_STR( Hard ) ) \
+    PORT_DIPSETTING(    0x00, DEF_STR( Hardest ) )
+
+#define TAITO_JOY_LRUD_2_BUTTONS_START(PL) \
+    TAITO_GENERIC_JOY_MONO_LRUD(PL) \
+    TAITO_GENERIC_2_BUTTONS_START(PL)
+
+#define TAITO_GENERIC_JOY_MONO_LRUD(PL) \
+    INPUT_GENERIC_JOY_LOW_NIBBLE(PL, IP_ACTIVE_LOW, PORT_8WAY, LEFT, RIGHT, UP, DOWN)
+
+#define INPUT_GENERIC_JOY_LOW_NIBBLE(PL, STATE, WAY, B01, B02, B04, B08) \
+    PORT_BIT( 0x01, STATE, IPT_JOYSTICK_##B01 ) WAY PORT_PLAYER(PL) \
+    PORT_BIT( 0x02, STATE, IPT_JOYSTICK_##B02 ) WAY PORT_PLAYER(PL) \
+    PORT_BIT( 0x04, STATE, IPT_JOYSTICK_##B04 ) WAY PORT_PLAYER(PL) \
+    PORT_BIT( 0x08, STATE, IPT_JOYSTICK_##B08 ) WAY PORT_PLAYER(PL)
+
+#define TAITO_GENERIC_2_BUTTONS_START(PL) \
+    TAITO_GENERIC_BUTTONS_HIGH_NIBBLE(PL, IP_ACTIVE_LOW, BUTTON1, BUTTON2, UNKNOWN) \
+    PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_START##PL )
+
+#define TAITO_GENERIC_BUTTONS_HIGH_NIBBLE(PL, STATE, BUTTON_A, BUTTON_B, BUTTON_C) \
+    PORT_BIT( 0x10, STATE, IPT_##BUTTON_A ) PORT_PLAYER(PL) \
+    PORT_BIT( 0x20, STATE, IPT_##BUTTON_B ) PORT_PLAYER(PL) \
+    PORT_BIT( 0x40, STATE, IPT_##BUTTON_C ) PORT_PLAYER(PL)
+    /* DO NOT fill bit 7 as it may be defined as START button ! */
+
+--------------------------------------------------------
+*** from tnzs.c ***
+
+#define COMMON_IN2\
+    PORT_START("IN2")\
+    PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_SERVICE1 )\
+    PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_TILT )\
+    PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_UNKNOWN )\
+    PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_UNKNOWN )\
+    PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_UNKNOWN )\
+    PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_UNKNOWN )\
+    PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_UNKNOWN )\
+    PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_UNKNOWN )
+
+#define COMMON_COIN1(coinstate)\
+    PORT_START("COIN1")\
+    PORT_BIT( 0x01, coinstate, IPT_COIN1 )\
+    PORT_BIT( 0xfe, IP_ACTIVE_HIGH, IPT_UNUSED )
+
+#define COMMON_COIN2(coinstate)\
+    PORT_START("COIN2")\
+    PORT_BIT( 0x01, coinstate, IPT_COIN2 )\
+    PORT_BIT( 0xfe, IP_ACTIVE_HIGH, IPT_UNUSED )
+
+Resolution: 256x224 @ 60.000000Hz
+
+Rules, Points [1 Player Only]: http://www.twingalaxies.com/scores.php?scores=55972
+Rules, Points [2 Player Team]: http://www.twingalaxies.com/scores.php?scores=55973
+ROMSet: Extrmatn
+Unused: Off [All]
+Flip Screen: Off
+Service Mode: Off
+Difficulty: Normal
+Damage Multiplier: *1
+
+MAME HISTORY:
+- 0.143u8: Kanikani added DIP locations to Extermination.
+- 0.133u1: Renamed (extrmatu) to (extrmatnu) and (extrmatj) to (extrmatnj).
+- 0.129u4: Stefan Lindberg added Extermination (World). Renamed (extrmatn) to (extrmatu).
+
+Sample correct TG:
+DSWA: offset 0x50, repeat every 0x48, typical value 0xFF
+- DSWA: 0x01 (Unused): 0x01 (Off)
+- DSWA: 0x02 (Flip_Screen): 0x02 (Off)
+- DSWA: 0x04 (Service Mode): 0x04 (Off)
+- DSWA: 0x08 (Unused): 0x08 (Off)
+- DSWA: 0x30 (Coin_A): [not relevant]
+- DSWA: 0xc0 (Coin_B): [not relevant]
+DSWB: offset 0x58, repeat every 0x48, typical value 0xFF
+- DSWB: 0x03 (Difficulty): 0x03 (Medium)     /* NOTE: originally labelled as "Normal" */
+- DSWA: 0x04 (Unused): 0x04 (Off)
+- DSWA: 0x08 (Unused): 0x08 (Off)
+- DSWA: 0x10 (Unused): 0x10 (Off)
+- DSWA: 0x20 (Unused): 0x20 (Off)
+- DSWA: 0xc0 (Damage Multiplier): 0xc0 (*1)
+
+    50: FF 00 00 00 00 00 00 00  FF 00 00 00 00 00 00 00
+    90: 3E 36 3B 00 00 00 10 00  FF 00 00 00 00 00 00 00
+    A0: FF 00 00 00 00 00 00 00  FF 00 00 00 00 00 00 00
+    E0: FF 00 00 00 00 00 00 00  FF 00 00 00 00 00 00 00
+   120: BC A2 B1 00 00 00 10 00  FF 00 00 00 00 00 00 00
+   130: FF 00 00 00 00 00 00 00  FF 00 00 00 00 00 00 00

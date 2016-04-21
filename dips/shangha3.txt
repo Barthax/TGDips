@@ -1,0 +1,6 @@
+ROM set changed: yes
+0.106-0.149: shangha3 - "Shanghai III (Japan)"
+0.149u1-0.170: shangha3j - "Shanghai III (Japan)"
+
+Resolution, 0.106-0.148: 384x224 @ 60.000000Hz
+Resolution, 0.149-0.170: 384x224 @ 59.410646Hz

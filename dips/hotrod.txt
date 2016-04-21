@@ -1,0 +1,6 @@
+ROM set changed: no
+0.106-0.121: hotrod - "Hot Rod (World, 3 Players, Turbo set 1)"
+0.122-0.169: hotrod - "Hot Rod (World, 3 Players, Turbo set 1, Floppy Based)"
+
+Resolution, 0.106-0.127: 496x384 @ 58.000000Hz
+Resolution, 0.128-0.169: 496x384 @ 57.524160Hz

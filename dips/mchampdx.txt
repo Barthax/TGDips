@@ -1,0 +1,4 @@
+ROM set changed: no
+0.106-0.169: mchampdx - "Multi Champ Deluxe (ver. 0106, 06/01/2000)"
+
+Resolution, 0.106-0.169: 320x240 @ 60.000000Hz

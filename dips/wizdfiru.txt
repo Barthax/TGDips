@@ -1,0 +1,6 @@
+ROM set changed: yes
+0.106-0.131: wizdfire - "Wizard Fire (US v1.1)"
+0.131u3-0.133: wizdfiru - "Wizard Fire (US v1.1)"
+0.133u1-0.170: wizdfireu - "Wizard Fire (US v1.1)"
+
+Resolution, 0.106-0.170: 320x240 @ 58.000000Hz

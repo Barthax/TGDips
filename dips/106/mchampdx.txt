@@ -1,0 +1,52 @@
+INPUT_PORTS_START( hedpanic )
+	PORT_START_TAG("IN0")	// $600002.w
+	PORT_BIT(  0x0001, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_PLAYER(1)
+	PORT_BIT(  0x0002, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_PLAYER(1)
+	PORT_BIT(  0x0004, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_PLAYER(1)
+	PORT_BIT(  0x0008, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_PLAYER(1)
+	PORT_BIT(  0x0010, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_PLAYER(1)
+	PORT_BIT(  0x0020, IP_ACTIVE_LOW, IPT_BUTTON2 ) PORT_PLAYER(1)
+	PORT_BIT(  0x0040, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_BIT(  0x0080, IP_ACTIVE_LOW, IPT_UNKNOWN )
+
+	PORT_BIT(  0x0100, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_PLAYER(2)
+	PORT_BIT(  0x0200, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_PLAYER(2)
+	PORT_BIT(  0x0400, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_PLAYER(2)
+	PORT_BIT(  0x0800, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_PLAYER(2)
+	PORT_BIT(  0x1000, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_PLAYER(2)
+	PORT_BIT(  0x2000, IP_ACTIVE_LOW, IPT_BUTTON2 ) PORT_PLAYER(2)
+	PORT_BIT(  0x4000, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_BIT(  0x8000, IP_ACTIVE_LOW, IPT_UNKNOWN )
+
+	PORT_START_TAG("IN1")	// $600005.b
+	PORT_BIT(  0x0001, IP_ACTIVE_LOW, IPT_COIN1   )
+	PORT_BIT(  0x0002, IP_ACTIVE_LOW, IPT_COIN2   )
+	PORT_BIT(  0x0004, IP_ACTIVE_LOW, IPT_START1  )
+	PORT_BIT(  0x0008, IP_ACTIVE_LOW, IPT_START2  )
+	PORT_BIT(  0x0010, IP_ACTIVE_LOW, IPT_SERVICE1  )
+	PORT_BIT(  0x0020, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_SERVICE_NO_TOGGLE( 0x0040, IP_ACTIVE_LOW)
+	PORT_BIT(  0xff00, IP_ACTIVE_LOW, IPT_UNKNOWN )
+INPUT_PORTS_END
+
+
+GAME( 2000, mchampdx, 0,        mchampdx, hedpanic, 0, ROT0, "ESD",         "Multi Champ Deluxe (ver. 0106, 06/01/2000)", 0 ) // 06/01/2000 ?
+
+All internal settings are accessed via service mode button (F2) during boot up only.  After playback concludes, hit F3 to reset the machine and then F2 during the copyright message to access the menu.  Use Service Mode (F2) to navigate menu and Service Button (9) to alter setting if necessary.
+
+Resolution: Resolution: 320x240 @ 60Hz
+
+Rules, Pac-Man: http://www.twingalaxies.com/scores.php?scores=23043
+Rules, Pang Pang: http://www.twingalaxies.com/scores.php?scores=23044
+Rules, Tetris: http://www.twingalaxies.com/scores.php?scores=23045
+Rules, Solitaire: http://www.twingalaxies.com/scores.php?scores=75618
+ROMSet: MChampDx
+Internal Defaults
+-----------------
+Free Play: None
+Screen: Normal
+Back Type: None
+Difficulty: Normal [All Games]
+Number of Life: 1
+One Up Score: Every 200000
+

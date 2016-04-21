@@ -1,0 +1,10 @@
+ROM set changed: yes
+0.106-0.125: hedpanic - "Head Panic (ver. 0315, 15/03/2000)"
+0.125u5-0.133: hedpanif - "Head Panic (ver. 0315, 15/03/2000)"
+0.133u1-0.169: hedpanicf - "Head Panic (ver. 0315, 15/03/2000)"
+
+MAME History:
+- 0.125u5: Brian Troha added Head Panic (ver. 0117, 17/01/2000). Renamed (hedpanic) to (hedpanif).
+- 0.133u1: Brian Troha added PCB location to 4 roms in a Head Panic clone. Renamed (hedpanif) to (hedpanicf) and (hedpanio) to (hedpanico).
+
+Resolution, 0.106-0.169: 320x240 @ 60.000000Hz

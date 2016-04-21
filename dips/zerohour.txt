@@ -1,0 +1,7 @@
+ROM set changed: no
+0.106-0.141: zerohour - "Zero Hour"
+0.142-0.171: zerohour - "Zero Hour (set 1)"
+
+Resolution, 0.106-0.171: 240x192 @ 60.000000Hz
+
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=10041

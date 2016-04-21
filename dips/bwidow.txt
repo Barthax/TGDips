@@ -1,0 +1,9 @@
+ROM set changed: no
+0.26-0.168: bwidow - "Black Widow"
+
+Resolution, 0.106-0.152: vector @ 60.000000Hz
+Resolution, 0.153-0.168: vector @ 61.523438Hz
+
+Rules, Marathon: http://www.twingalaxies.com/scores.php?scores=10098
+Rules, Tournament: http://www.twingalaxies.com/scores.php?scores=41805
+

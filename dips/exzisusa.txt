@@ -1,0 +1,5 @@
+ROM set changed: yes
+0.106-0.134: exzisus - "Exzisus (Japan)"
+0.134u1-0.169: exzisusa - "Exzisus (Japan, conversion)"
+
+Resolution, 0.106-0.169: 256x224 @ 60.000000Hz

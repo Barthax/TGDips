@@ -1,0 +1,8 @@
+ROM Changes: minor description change only.
+0.106-0.146: maketrax - "Make Trax (set 1)"
+0.147-0.169: maketrax - "Make Trax (US set 1)"
+
+Resolution, 0.106-0.113: 288x224 @ 60.606060Hz
+Resolution, 0.114-0.169: 288x224 @ 60.606061Hz
+
+Rules: http://www.twingalaxies.com/scores.php?scores=5227

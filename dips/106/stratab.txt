@@ -1,0 +1,61 @@
+# MAME 0.106 source snippet
+
+INPUT_PORTS_START( stratab )
+	PORT_START	/* 40 */
+	PORT_BIT( 0x01, IP_ACTIVE_HIGH, IPT_SPECIAL )	/* input from sound board */
+	PORT_BIT( 0x06, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_DIPNAME( 0x08, 0x08, DEF_STR( Cabinet ))
+	PORT_DIPSETTING(    0x08, DEF_STR( Upright ))
+	PORT_DIPSETTING(    0x00, DEF_STR( Cocktail ))
+	PORT_BIT( 0x70, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_SERVICE_NO_TOGGLE( 0x80, IP_ACTIVE_LOW )
+
+	PORT_START	/* 60 */
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_BUTTON2 ) PORT_NAME("P2 Right Hook") PORT_COCKTAIL PORT_PLAYER(2)
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_NAME("P2 Left Hook") PORT_COCKTAIL PORT_PLAYER(2)
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_BUTTON2 ) PORT_NAME("P1 Right Hook") PORT_PLAYER(1)
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_NAME("P1 Left Hook") PORT_PLAYER(1)
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_START2 )
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_START1 )
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_COIN2 )
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_COIN1 )
+
+	PORT_START	/* 80 */
+	PORT_BIT( 0xff, IP_ACTIVE_LOW, IPT_UNUSED )
+
+	PORT_START	/* analog C */
+    PORT_BIT( 0xff, 0x00, IPT_TRACKBALL_Y ) PORT_SENSITIVITY(25) PORT_KEYDELTA(32) PORT_RESET PORT_PLAYER(1)
+
+	PORT_START	/* analog D */
+    PORT_BIT( 0xff, 0x00, IPT_TRACKBALL_X ) PORT_SENSITIVITY(25) PORT_KEYDELTA(32) PORT_RESET PORT_REVERSE PORT_PLAYER(1)
+
+	PORT_START	/* analog E */
+    PORT_BIT( 0xff, 0x00, IPT_TRACKBALL_Y ) PORT_SENSITIVITY(25) PORT_KEYDELTA(32) PORT_RESET PORT_COCKTAIL PORT_PLAYER(2)
+
+	PORT_START	/* analog F */
+    PORT_BIT( 0xff, 0x00, IPT_TRACKBALL_X ) PORT_SENSITIVITY(25) PORT_KEYDELTA(32) PORT_RESET PORT_REVERSE PORT_COCKTAIL PORT_PLAYER(2)
+INPUT_PORTS_END
+
+Resolution: 256x240 @ 60Hz
+
+Use Service Mode (F2) to check internal settings if not shown during playback.
+Rules: http://www.twingalaxies.com/scores.php?scores=20781
+ROMSet: StrataB
+Cabinet: Upright
+Internal Defaults
+-----------------
+Free Play Enable: No
+Game Difficulty: Level 5 Hardest
+Trackball Sensitivity: Level 4
+
+Sample correct TG:
+40: offset 0x23, repeat initially 0x7C but expect to change due to analogue controls, typical value 0xFE
+- 40: 0x01 (sound board input): [not relevant]
+- 40: 0x06 (unused): [not relevant]
+- 40: 0x08 (Cabinet): 0x08 (Upright)
+- 40: 0x70 (unused): [not relevant]
+- 40: 0x80 (unused): [not relevant]
+
+    20: 00 00 00 FE 00 00 00 FF  00 00 00 FF 00 00 00 00 | ...¦... ... ....
+    90: 00 00 00 00 00 00 00 00  3E 82 43 E1 00 00 00 FE | ........>.Cß...¦
+   110: 00 00 00 00 3E 82 43 E1  00 00 00 FE 00 00 00 FF | ....>.Cß...¦... 

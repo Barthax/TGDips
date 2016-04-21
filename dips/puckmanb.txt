@@ -1,0 +1,14 @@
+ROM set changes: yes:
+0.53-0.131: puckman - "PuckMan (Japan set 1, Probably Bootleg)"
+0.132-0.148: puckman - "PuckMan (Japan set 1)"
+0.148u4-0.169: puckmanb - "Puck Man (bootleg set 1)"
+
+From MAME history:
+- 3rd May 2009, git repository: New clones added
+- 0.148u4: Verified original puckman roms and made that set the parent and split some of the roms [Andy Welburn]. Changed 'Puck Man (Japan set 1)' to clone 'Puck Man (bootleg set 1)', clone 'Puck Man (Japan set 2)' to parent 'Puck Man (Japan set 1)', clones 'Puck Man (Japan set 1, speedup hack)' to 'Puck Man (speedup hack)', 'Puck Man (Falcom?)' to 'Puck Man (bootleg set 2)' and 'Puck Man (Japan set 3)' to 'Puck Man (Japan set 2)'. Renamed (puckman) to (puckmanb) and (puckmana) to (puckman).
+
+Resolution, 0.106-0.113: 288x224 @ 60.606060Hz
+Resolution, 0.114-0.169: 288x224 @ 60.606061Hz
+
+Rules, TG settings: http://www.twingalaxies.com/scores.php?scores=11853
+Rules, High Score Challenge: http://www.twingalaxies.com/scores.php?scores=197901

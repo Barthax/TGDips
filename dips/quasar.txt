@@ -1,0 +1,5 @@
+ROM set changed:
+0.106-0.145: quasar - "Quasar"
+0.146-0.169: quasar - "Quasar (set 1)"
+
+Resolution, 0.106-0.169: 223x240 @ 50.000000Hz

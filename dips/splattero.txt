@@ -1,0 +1,8 @@
+ROM set changed: yes
+0.106-0.129: splatter - "Splatter House (World)"
+0.129u6-0.133: splatteo - "Splatter House (World old version)"
+0.133u1-0.152: splattero - "Splatter House (World old version)"
+0.153-0.170: splatter2 - "Splatter House (World, old version (SH2))"
+
+Resolution, 0.106-0.152: 288x224 @ 60.606060Hz
+Resolution, 0.153-0.170: 288x224 @ 60.606061Hz

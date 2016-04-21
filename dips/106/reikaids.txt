@@ -1,0 +1,128 @@
+#MAME Source info from homedata.c
+#Source/driver version 0.106
+-----
+#Game Information: (Year, Driver, Parent, Machine, Inputs, Init, Orientation, Manufacturer, Name, Status)
+GAME( 1988, reikaids, 0, reikaids, reikaids, reikaids,   ROT0, "Home Data", "Reikai Doushi (Japan)", 0 )
+-----
+INPUT_PORTS_START( reikaids )
+    PORT_START    // IN0  - 0x7801
+    PORT_BIT(  0x01, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_4WAY PORT_PLAYER(1)
+    PORT_BIT(  0x02, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_4WAY PORT_PLAYER(1)
+    PORT_BIT(  0x04, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_4WAY PORT_PLAYER(1)
+    PORT_BIT(  0x08, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_4WAY PORT_PLAYER(1)
+    PORT_BIT(  0x10, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_PLAYER(1) /* punch */
+    PORT_BIT(  0x20, IP_ACTIVE_LOW, IPT_BUTTON2 ) PORT_PLAYER(1) /* kick */
+    PORT_BIT(  0x40, IP_ACTIVE_LOW, IPT_BUTTON3 ) PORT_PLAYER(1) /* jump */
+    PORT_BIT(  0x80, IP_ACTIVE_LOW, IPT_START1 )
+
+
+    PORT_START    // IN1 - 0x7802
+    PORT_BIT(  0x01, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_4WAY PORT_PLAYER(2)
+    PORT_BIT(  0x02, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_4WAY PORT_PLAYER(2)
+    PORT_BIT(  0x04, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_4WAY PORT_PLAYER(2)
+    PORT_BIT(  0x08, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_4WAY PORT_PLAYER(2)
+    PORT_BIT(  0x10, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_PLAYER(2) /* punch */
+    PORT_BIT(  0x20, IP_ACTIVE_LOW, IPT_BUTTON2 ) PORT_PLAYER(2) /* kick */
+    PORT_BIT(  0x40, IP_ACTIVE_LOW, IPT_BUTTON3 ) PORT_PLAYER(2) /* jump */
+    PORT_BIT(  0x80, IP_ACTIVE_LOW, IPT_START2 )
+
+
+    PORT_START    // IN2 - 0x7803
+    PORT_BIT(  0x01, IP_ACTIVE_HIGH,IPT_SPECIAL ) /* coprocessor status */
+    PORT_BIT(  0x02, IP_ACTIVE_HIGH,IPT_SPECIAL ) /* coprocessor data */
+    PORT_BIT(  0x04, IP_ACTIVE_HIGH,IPT_SPECIAL ) /* vblank */
+    PORT_BIT(  0x08, IP_ACTIVE_HIGH,IPT_SPECIAL ) /* visible page */
+    PORT_BIT(  0x10, IP_ACTIVE_LOW,    IPT_COIN1    )
+    PORT_BIT(  0x20, IP_ACTIVE_LOW,    IPT_SERVICE1 )
+    PORT_BIT(  0x40, IP_ACTIVE_LOW,    IPT_UNKNOWN  )
+    PORT_BIT(  0x80, IP_ACTIVE_LOW,    IPT_UNKNOWN  )
+
+
+    PORT_START    // DSW1
+    PORT_DIPNAME( 0x01, 0x01, DEF_STR( Allow_Continue ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( Off ) )
+    PORT_DIPSETTING(    0x01, DEF_STR( On ) )
+    PORT_DIPNAME( 0x06, 0x06, DEF_STR( Bonus_Life ) )
+    PORT_DIPSETTING(    0x06, "20k then every 60k" )
+    PORT_DIPSETTING(    0x04, "30k then every 80k" )
+    PORT_DIPSETTING(    0x02, "20k" )
+    PORT_DIPSETTING(    0x00, "30k" )
+    PORT_DIPNAME( 0x18, 0x10, DEF_STR( Lives ) )
+    PORT_DIPSETTING(    0x18, "2" )
+    PORT_DIPSETTING(    0x10, "3" )
+    PORT_DIPSETTING(    0x08, "4" )
+    PORT_DIPSETTING(    0x00, DEF_STR( Free_Play ) )
+    PORT_DIPNAME( 0x20, 0x20, "Time" )
+    PORT_DIPSETTING(    0x20, "60" )
+    PORT_DIPSETTING(    0x00, "45" )
+    PORT_DIPNAME( 0x40, 0x40, "Unknown 2-6" )
+    PORT_DIPSETTING(    0x40, DEF_STR( Off ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+    PORT_DIPNAME( 0x80, 0x80, "Unknown 2-7" )
+    PORT_DIPSETTING(    0x80, DEF_STR( Off ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+
+
+    PORT_START    // DSW2
+    PORT_DIPNAME( 0x03, 0x03, DEF_STR( Difficulty ) )
+    PORT_DIPSETTING(    0x03, DEF_STR( Easy ) )
+    PORT_DIPSETTING(    0x02, DEF_STR( Normal ) )
+    PORT_DIPSETTING(    0x01, DEF_STR( Hard ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( Hardest ) )
+    PORT_DIPNAME( 0x04, 0x00, DEF_STR( Demo_Sounds ) )
+    PORT_DIPSETTING(    0x04, DEF_STR( Off ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+    PORT_DIPNAME( 0x08, 0x08, DEF_STR( Flip_Screen ) )
+    PORT_DIPSETTING(    0x08, DEF_STR( Off ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+    PORT_DIPNAME( 0x10, 0x10, DEF_STR( Cabinet ) )
+    PORT_DIPSETTING(    0x10, DEF_STR( Upright ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( Cocktail ) )
+    PORT_DIPNAME( 0xe0, 0xe0, DEF_STR( Coinage ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( 4C_1C ) )
+    PORT_DIPSETTING(    0x20, DEF_STR( 3C_1C ) )
+    PORT_DIPSETTING(    0x40, DEF_STR( 2C_1C ) )
+    PORT_DIPSETTING(    0xe0, DEF_STR( 1C_1C ) )
+    PORT_DIPSETTING(    0xc0, DEF_STR( 1C_2C ) )
+    PORT_DIPSETTING(    0xa0, DEF_STR( 1C_3C ) )
+    PORT_DIPSETTING(    0x80, DEF_STR( 1C_4C ) )
+    PORT_DIPSETTING(    0x60, DEF_STR( 1C_5C ) )
+INPUT_PORTS_END
+-----
+Resolution: 256x224 @ 59 Hz
+-----
+Rules: http://www.twingalaxies.com/scores.php?scores=91214
+
+
+ROMSet: ReikaiDs
+Allow Continue: No
+Bonus Life: 20k then every 60k
+Lives: 3
+Time: 60
+Unknown 2-6: Off
+Unknown 2-7: Off
+Difficulty: Normal
+Flip Screen: Off
+Cabinet: Upright
+Special Rules: Continues are NOT allowed!
+-----
+Sample correct TG:
+DSW1: Offset 0x2F, repeat every 0x7C, typical value 0XF6
+-DSW1: 0x01 (Allow Continue): 0x00 (Off)
+-DSW1: 0x06 (Bonus Life): 0x06 (20k then every 60k)
+-DSW1: 0x18 (Lives): 0x10 (3)
+-DSW1: 0x20 (Time): 0x20 (60)
+-DSW1: 0x40 (Unknown 2-6): 0x40 (Off)
+-DSW1: 0x80 (Unknown 2-7): 0x80 (Off)
+
+
+DSW2: Offset 0x33, repeat every 0x7C, typical value 0xFA
+-DSW2: 0x03 (Difficulty): 0x02 (Normal)
+-DSW2: 0x04 (Demo Sounds): [not relevant, typical value 0x00 (On)]
+-DSW2: 0x08 (Flip Screen): 0x08 (Off)
+-DSW2: 0x10 (Cabinet): 0x10 (Upright)
+-DSW2: 0xe0 (Coinage): [not relevant, typical value 0xe0 (1C_1C)]
+
+
+90: 00 00 00 00 00 00 00 00  3E 82 43 E1 00 00 00 FF | ........>‚Cá...ÿ
+A0: 00 00 00 FF 00 00 00 F0  00 00 00 F6 00 00 00 FA | ...ÿ...ð...ö...ú

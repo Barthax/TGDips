@@ -1,0 +1,51 @@
+ROM set changed: no
+0.106: diggerma - "Digger Man"
+0.107-0.168: diggerma - "Digger Man (prototype)"
+
+MAME History:
+- 0.106u13: MAME32Plus added 'Digger Man (prototype)' (Kyle Hodgetts 2000). Unlicensed prototype, no official game ID.
+
+Resolution, 0.106-0.113: 320x224 @ 59.185608Hz
+Resolution, 0.114-0.168: 320x224 @ 59.185606Hz
+
+Additional information confirming ROM set not changed betwen 0.106 and 0.107 (differences are in the NeoGeo BIOS only):
+C:\MAME>mame106 -listcrc diggerma | find "Digger Man"
+eda433d7 dig_p1.rom   Digger Man
+75a88c1f dig_s1.rom   Digger Man
+354029fc sfix.sfx     Digger Man
+9036d879 sp-s2.sp1    Digger Man
+c7f2fa45 sp-s.sp1     Digger Man
+e72943de usa_2slt.bin Digger Man
+2723a5b5 sp-e.sp1     Digger Man
+91b64be3 asia-s3.rom  Digger Man
+f0e8f27d vs-bios.rom  Digger Man
+acede59c sp-j2.rom    Digger Man
+9fb0abe4 sp1.jipan.1024 Digger Man
+2d50996a uni-bios.22  Digger Man
+698ebb7d neodebug.rom Digger Man
+d27a71f1 aes-bios.bin Digger Man
+97cf998b sm1.sm1      Digger Man
+833cdf1b dig_m1.rom   Digger Man
+e09e253c 000-lo.lo    Digger Man
+ee15bda4 dig_v1.rom   Digger Man
+3db0a4ed dig_c1.rom   Digger Man
+3e632161 dig_c2.rom   Digger Man
+
+C:\MAME>mame107 -listcrc diggerma | find "Digger Man"
+eda433d7 dig_p1.rom   Digger Man (prototype)
+75a88c1f dig_s1.rom   Digger Man (prototype)
+354029fc sfix.sfx     Digger Man (prototype)
+9036d879 sp-s2.sp1    Digger Man (prototype)
+c7f2fa45 sp-s.sp1     Digger Man (prototype)
+e72943de usa_2slt.bin Digger Man (prototype)
+2723a5b5 sp-e.sp1     Digger Man (prototype)
+91b64be3 asia-s3.rom  Digger Man (prototype)
+f0e8f27d vs-bios.rom  Digger Man (prototype)
+acede59c sp-j2.rom    Digger Man (prototype)
+9fb0abe4 sp1.jipan.1024 Digger Man (prototype)
+97cf998b sm1.sm1      Digger Man (prototype)
+833cdf1b dig_m1.rom   Digger Man (prototype)
+e09e253c 000-lo.lo    Digger Man (prototype)
+ee15bda4 dig_v1.rom   Digger Man (prototype)
+3db0a4ed dig_c1.rom   Digger Man (prototype)
+3e632161 dig_c2.rom   Digger Man (prototype)

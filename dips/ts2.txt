@@ -1,0 +1,8 @@
+ROM set changed: yes
+0.106-0.144: ts2 - "Battle Arena Toshinden 2 (USA 951124)"
+0.145-0.169: ts2a - "Battle Arena Toshinden 2 (USA 951124) Older"
+
+MAME History:
+- 0.144u7: Brian Troha added Battle Arena Toshinden 2 (USA 951124), readded the alt mask rom format. Changed 'Battle Arena Toshinden 2 (USA 951124)' to clone 'Battle Arena Toshinden 2 (USA 951124) Older'. Renamed (ts2) to (ts2a).
+
+Resolution, 0.106-0.169: 640x480 @ 60.000000Hz

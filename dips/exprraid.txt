@@ -1,0 +1,7 @@
+ROM set changed: yes
+0.106-0.122: exprraid - "Express Raider (US)"
+0.123-0.147: exprraid - "Express Raider (US set 1)"
+0.148-0.169: exprraidu - "Express Raider (US, rev 5)"
+
+Resolution, 0.106-0.152: 240x240 @ 60.000000Hz
+Resolution, 0.153-0.169: 256x240 @ 59.637405Hz

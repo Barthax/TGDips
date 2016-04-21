@@ -1,0 +1,9 @@
+ROM set changed: yes.  Added in 0.127u6.
+0.127u6-0.138: 20pacgal - "Ms. Pac-Man/Galaga - 20 Year Reunion (V1.04)"
+0.138u1-0.170: 20pacgalr4 - "Ms. Pac-Man/Galaga - 20th Anniversary Class of 1981 Reunion (V1.04)"
+
+MAME History:
+- 0.127u6: Johan Samuelsson added 'Ms. Pac-Man/Galaga - 20 Year Reunion (V1.04)'. Changed 'Ms. Pac-Man/Galaga - 20 Year Reunion' to clone '(V1.01)'. Renamed (20pacgal) to (20pacgaa).
+- 0.138u1: Brian Troha and The Dumping Union added Ms. Pac-Man/Galaga - 20 Year Reunion (V1.08) and clone (V1.02). Renamed (20pacgal) to (20pacgalr4) and (20pacgala) to (20pacgalr1). Couriersud improved Z180 timer and HALT processing. This fixes severe slowdown after initials are entered in Ms. Pac-Man/Galaga - 20 Year Reunion. Rewrote rom/ram banking. 20pacgal now supports save state. Added lfsr-driven starfield. The general principle is understood now but star set selection and the star drawing condition are guesses.
+
+Resolution, 0.128-0.170: 288x224 @ 60.000000Hz

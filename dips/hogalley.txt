@@ -1,0 +1,5 @@
+ROM set changed: no
+0.106-0.146: hogalley - "Vs. Hogan's Alley"
+0.147-0.170: hogalley - "Vs. Hogan's Alley (set HA4-1 E-1)"
+
+Resolution, 0.106-0.170: 256x240 @ 60.000000Hz

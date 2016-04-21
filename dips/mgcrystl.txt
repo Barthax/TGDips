@@ -1,0 +1,7 @@
+ROM Changes: not available until 0.103u2
+0.103u2-0.169: mgcrystl - "Magical Crystals (World, 92/01/10)"
+
+Resolution, 0.106-0.169: 256x224 @ 60.000000Hz
+
+Hold Service Mode (F2) during reboot (F3) to check settings after playback if not shown. NB: Service Mode dip switch seems to only function during first boot (not reset).
+Rules: http://www.twingalaxies.com/scores.php?scores=19133

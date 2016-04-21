@@ -1,0 +1,5 @@
+ROM set changed: no
+0.106-0.153: drgnbowl - "Dragon Bowl"
+0.154-0.168: drgnbowl - "Dragon Bowl (set 1, encrypted program)"
+
+Resolution, 0.106-0.168: 256x224 @ 60.000000Hz

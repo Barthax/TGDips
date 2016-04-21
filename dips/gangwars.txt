@@ -1,0 +1,10 @@
+ROM set changed: yes
+0.106-0.139: gangwars - "Gang Wars (US)"
+0.139u2-0.169: gangwarsu - "Gang Wars (US)"
+
+MAME History:
+- 0.139u2: David Raingeard added correct GFX roms for Gang Wars, renamed bootleg set as Euro set (and new parent), made note about bootleg GFX roms. Changed description of clone 'Gang Wars (bootleg)' to 'Gang Wars'. Renamed (gangwars) to (gangwarsu) and (gangwarsb) to (gangwars).
+
+Resolution, 0.106-0.155: 256x224 @ 60.000000Hz
+Resolution, 0.156-0.169: 256x224 @ 60.191409Hz
+

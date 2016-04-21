@@ -1,0 +1,7 @@
+ROM Changes: no
+0.106-0.169: screwloo - "Screw Loose (prototype)"
+
+Resolution, 0.106-0.126: 256x240 @ 61.000000Hz
+Resolution, 0.127-0.169: 256x240 @ 61.419025Hz
+
+Rules: http://www.twingalaxies.com/scores.php?scores=110599

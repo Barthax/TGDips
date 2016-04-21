@@ -1,0 +1,4 @@
+ROM set change: no
+0.106-0.170: battroad - "The Battle-Road"
+
+Resolution, 0.106-0.170: 256x256 @ 55.000000Hz

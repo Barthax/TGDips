@@ -1,0 +1,5 @@
+ROM set changed: yes
+0.106-0.133: spacefev - "Space Fever (set 1)"
+0.133u2-0.170: spacefevo - "Space Fever (Old Ver.)"
+
+Resolution, 0.106-0.170: 256x224 @ 60.000000Hz

@@ -1,0 +1,4 @@
+ROM set changed: no
+0.106-0.168: bottom9 - "Bottom of the Ninth (version T)"
+
+Resolution, 0.106-0.168: 288x224 @ 60.000000Hz

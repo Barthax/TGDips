@@ -1,0 +1,5 @@
+ROM set changed: no
+0.106-0.170: wwjgtin - "Wai Wai Jockey Gate-In!"
+
+Resolution, 0.106-0.122: 240x224 @ 60.000000Hz
+Resolution, 0.123-0.170: 240x224 @ 57.000000Hz

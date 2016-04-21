@@ -1,0 +1,10 @@
+ROM set changed: yes
+0.106-0.133: kaitei - "Kaitei Takara Sagashi"
+0.134-0.138: kaitei - "Kaitei Takara Sagashi (Namco license)"
+0.138u1-0.169: kaitein - "Kaitei Takara Sagashi (Namco license)"
+
+MAME History:
+- 0.138u1: Changed 'Kaitei Takara Sagashi (K'K-Tokki)' to parent set 'Kaitei Takara Sagashi'. Renamed (kaitei) to (kaitein) and (kaiteik) to (kaitei).
+
+Resolution, 0.106-0.128: 272x224 @ 60.000000Hz
+Resolution, 0.129-0.169: 272x224 @ 60.606061Hz

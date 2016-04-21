@@ -1,0 +1,4 @@
+ROM set changed: no
+0.106-0.170: wcvol95 - "World Cup Volley '95 (Japan v1.0)"
+
+Resolution, 0.106-0.170: 320x240 @ 58.000000Hz

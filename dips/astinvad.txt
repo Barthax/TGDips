@@ -1,0 +1,6 @@
+ROM Changes: None
+0.106-0.168: astinvad - "Astro Invader"
+
+Resolution, 0.106-0.168: 256x224 @ 60.000000Hz
+
+Rules: http://www.twingalaxies.com/scores.php?scores=7677

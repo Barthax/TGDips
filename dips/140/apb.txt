@@ -1,0 +1,183 @@
+# MAME 0.140 source snippet
+
+static INPUT_PORTS_START( apb )
+	PORT_INCLUDE( paperboy )
+
+	PORT_MODIFY("1840")
+	PORT_BIT( 0x20, IP_ACTIVE_LOW,  IPT_SERVICE1 )
+
+	PORT_MODIFY("1800")
+	PORT_BIT( 0x02, IP_ACTIVE_LOW,  IPT_BUTTON2 ) PORT_PLAYER(1)
+	PORT_BIT( 0x04, IP_ACTIVE_LOW,  IPT_UNUSED )
+	PORT_BIT( 0x08, IP_ACTIVE_LOW,  IPT_BUTTON3 ) PORT_PLAYER(1)
+	PORT_BIT( 0x40, IP_ACTIVE_LOW,  IPT_UNUSED )
+	PORT_BIT( 0x80, IP_ACTIVE_LOW,  IPT_UNUSED )
+
+	PORT_MODIFY("ADC0")
+	PORT_BIT( 0xff, IP_ACTIVE_HIGH, IPT_UNUSED )
+
+	PORT_MODIFY("ADC1")
+	PORT_BIT( 0xff, 0x00, IPT_PEDAL ) PORT_MINMAX(0x00,0x3f) PORT_SENSITIVITY(100) PORT_KEYDELTA(4) PORT_PLAYER(1)
+
+	PORT_MODIFY("LETA0")
+	PORT_BIT( 0xff, 0x00, IPT_DIAL ) PORT_SENSITIVITY(25) PORT_KEYDELTA(10) PORT_PLAYER(1)
+
+	PORT_MODIFY("DSW0")
+	PORT_DIPNAME( 0xe0, 0x00, "Bonus Coins" )			PORT_DIPLOCATION("6/7A:!3,!2,!1")
+	PORT_DIPSETTING(    0x00, DEF_STR( None ) )
+	PORT_DIPSETTING(    0xc0, "1 Each 6" )				/* Not documented */
+	PORT_DIPSETTING(    0xa0, "1 Each 5" )
+	PORT_DIPSETTING(    0x80, "1 Each 4" )
+	PORT_DIPSETTING(    0x60, "1 Each 3" )
+	PORT_DIPSETTING(    0x40, "1 Each 2" )
+	PORT_DIPSETTING(    0x20, "1 Each 1" )
+	PORT_DIPSETTING(    0xe0, DEF_STR( Free_Play ) )
+
+	PORT_MODIFY("DSW1")
+	PORT_DIPNAME( 0x01, 0x00, "Attract Lights" )		PORT_DIPLOCATION("5/6A:!8") /* Listed As Unused. */
+	PORT_DIPSETTING(    0x01, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x06, 0x00, "Max Continues" )			PORT_DIPLOCATION("5/6A:!7,!6")
+	PORT_DIPSETTING(    0x02, "3" )
+	PORT_DIPSETTING(    0x04, "10" )
+	PORT_DIPSETTING(    0x00, "25" )
+	PORT_DIPSETTING(    0x06, "199" )
+	PORT_DIPNAME( 0x38, 0x00, DEF_STR( Difficulty ) )	PORT_DIPLOCATION("5/6A:!5,!4,!3")	/* No. Of Demerits Allowed  Bonus Inc. Every x Pts  Perfect Day Bonus   */
+	PORT_DIPSETTING(    0x38, DEF_STR( Easiest ) )											/* 11                       5000                    Yes                 */
+	PORT_DIPSETTING(    0x30, DEF_STR( Very_Easy ) )										/* 10                       6000                    Yes                 */
+	PORT_DIPSETTING(    0x28, DEF_STR( Easy ) )												/* 9                        8000                    Yes                 */
+	PORT_DIPSETTING(    0x00, DEF_STR( Medium_Easy ) )												/* 8                        10000                   Yes                 */
+	PORT_DIPSETTING(    0x20, DEF_STR( Medium_Hard ) )												/* 7                        11000                   Yes                 */
+	PORT_DIPSETTING(    0x10, DEF_STR( Hard ) )												/* 6                        13000                   Yes                 */
+	PORT_DIPSETTING(    0x08, DEF_STR( Very_Hard ) )										/* 5                        15000                   No                  */
+	PORT_DIPSETTING(    0x18, DEF_STR( Hardest ) )											/* 4                        18000                   No                  */
+	PORT_DIPNAME( 0xc0, 0x00, "Coins Required" )		PORT_DIPLOCATION("5/6A:!2,!1")
+	PORT_DIPSETTING(    0x80, "3 To Start, 2 To Continue" )
+	PORT_DIPSETTING(    0xc0, "3 To Start, 1 To Continue" )
+	PORT_DIPSETTING(    0x00, "2 To Start, 1 To Continue" )
+	PORT_DIPSETTING(    0x40, "1 To Start, 1 To Continue" )
+INPUT_PORTS_END
+
+static INPUT_PORTS_START( paperboy )
+	PORT_START("1840")	/*(sound) */
+	PORT_BIT( 0x01, IP_ACTIVE_HIGH, IPT_SPECIAL )
+	PORT_BIT( 0x02, IP_ACTIVE_HIGH, IPT_SPECIAL )
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_SPECIAL )
+	PORT_BIT( 0x08, IP_ACTIVE_HIGH, IPT_UNUSED )
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_SERVICE )
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_COIN3 )
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_COIN1 )
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_COIN2 )
+
+	PORT_START("1800")
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_BIT( 0x10, IP_ACTIVE_HIGH, IPT_SPECIAL )
+	PORT_BIT( 0x20, IP_ACTIVE_HIGH, IPT_SPECIAL )
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_BUTTON2 )
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_BUTTON1 )
+
+	PORT_START("1801")
+	PORT_BIT( 0x7f, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_SERVICE( 0x80, IP_ACTIVE_LOW )
+
+	PORT_START("ADC0")
+	PORT_BIT( 0xff, 0x80, IPT_AD_STICK_X ) PORT_MINMAX(0x10,0xf0) PORT_SENSITIVITY(100) PORT_KEYDELTA(10) PORT_PLAYER(1)
+
+	PORT_START("ADC1")
+	PORT_BIT( 0xff, 0x80, IPT_AD_STICK_Y ) PORT_MINMAX(0x10,0xf0) PORT_SENSITIVITY(100) PORT_KEYDELTA(10) PORT_PLAYER(1)
+
+	PORT_START("ADC2")
+	PORT_BIT( 0xff, IP_ACTIVE_LOW, IPT_UNUSED )
+
+	PORT_START("ADC3")
+	PORT_BIT( 0xff, IP_ACTIVE_LOW, IPT_UNUSED )
+
+	PORT_START("LETA0")
+	PORT_BIT( 0xff, IP_ACTIVE_LOW, IPT_UNUSED )
+
+	PORT_START("LETA1")
+	PORT_BIT( 0xff, IP_ACTIVE_LOW, IPT_UNUSED )
+
+	PORT_START("LETA2")
+	PORT_BIT( 0xff, IP_ACTIVE_LOW, IPT_UNUSED )
+
+	PORT_START("LETA3")
+	PORT_BIT( 0xff, IP_ACTIVE_LOW, IPT_UNUSED )
+
+	PORT_START("DSW0")
+	PORT_DIPNAME( 0x03, 0x00, DEF_STR( Coinage ) )		PORT_DIPLOCATION("6/7A:!8,!7")
+	PORT_DIPSETTING(    0x03, DEF_STR( 4C_1C ) )
+	PORT_DIPSETTING(    0x02, DEF_STR( 3C_1C ) )
+	PORT_DIPSETTING(    0x01, DEF_STR( 2C_1C ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( 1C_1C ) )
+	PORT_DIPNAME( 0x0c, 0x00, "Right Coin" )			PORT_DIPLOCATION("6/7A:!6,!5")
+	PORT_DIPSETTING(    0x00, "*1" )
+	PORT_DIPSETTING(    0x04, "*4" )
+	PORT_DIPSETTING(    0x08, "*5" )
+	PORT_DIPSETTING(    0x0c, "*6" )
+	PORT_DIPNAME( 0x10, 0x00, "Left Coin" )				PORT_DIPLOCATION("6/7A:!4")
+	PORT_DIPSETTING(    0x00, "*1" )
+	PORT_DIPSETTING(    0x10, "*2" )
+	PORT_DIPNAME( 0xe0, 0x00, "Bonus Coins" )			PORT_DIPLOCATION("6/7A:!3,!2,!1")
+	PORT_DIPSETTING(    0x00, DEF_STR( None ) )
+	PORT_DIPSETTING(    0x80, "1 Each 5" )
+	PORT_DIPSETTING(    0x40, "1 Each 4" )
+	PORT_DIPSETTING(    0xa0, "1 Each 3" )
+	PORT_DIPSETTING(    0x60, "2 Each 4" )
+	PORT_DIPSETTING(    0x20, "1 Each 2" )
+	PORT_DIPSETTING(    0xc0, "1 Each ?" )				/* Not Documented */
+	PORT_DIPSETTING(    0xe0, DEF_STR( Free_Play ) )
+
+	PORT_START("DSW1")
+	PORT_DIPNAME( 0x03, 0x00, DEF_STR( Difficulty ) )	PORT_DIPLOCATION("5/6A:!8,!7")
+	PORT_DIPSETTING(    0x01, DEF_STR( Easy ) )
+	PORT_DIPSETTING(    0x02, DEF_STR( Medium ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Medium_Hard ) )
+	PORT_DIPSETTING(    0x03, DEF_STR( Hard ) )
+	PORT_DIPNAME( 0x0c, 0x00, DEF_STR( Bonus_Life ) )	PORT_DIPLOCATION("5/6A:!6,!5")
+	PORT_DIPSETTING(    0x08, "10000" )
+	PORT_DIPSETTING(    0x00, "15000" )
+	PORT_DIPSETTING(    0x0c, "20000" )
+	PORT_DIPSETTING(    0x04, DEF_STR( None ) )
+	PORT_DIPNAME( 0x30, 0x00, DEF_STR( Lives ) )		PORT_DIPLOCATION("5/6A:!4,!3")
+	PORT_DIPSETTING(    0x20, "3" )
+	PORT_DIPSETTING(    0x00, "4" )
+	PORT_DIPSETTING(    0x30, "5" )
+	PORT_DIPSETTING(    0x10, "Infinite (Cheat)")
+	PORT_DIPUNUSED_DIPLOC( 0x40, 0x40, "5/6A:!2" )		/* Listed as "Unused" */
+	PORT_DIPUNUSED_DIPLOC( 0x80, 0x80, "5/6A:!1" )		/* Listed as "Unused" */
+INPUT_PORTS_END
+
+Resolution: 512x384 @ 60.096154 Hz
+
+----
+Rules: http://www.twingalaxies.com/scores.php?scores=196597
+Rom = APB
+Dips = Difficulty - Easy Medium (4 in some versions)
+Bonus Coins - None
+
+Sample correct TG:
+DSW1: offset 0xC8, repeat every 0x94(always?), typical value 0x00 (Medium Easy)
+- DSW1: 0x01 (Attract Lights): [not relevant]
+- DSW1: 0x06 (Max Continues): [not relevant]
+- DSW1: 0x38 (Difficulty): 0x00 (Medium_Easy)
+- DSW1: 0xc0 (Coins Required): [not relevant]
+
+    C0: 00 00 00 00 00 00 00 00  00 00>00<00 00 00 00 00 | ................
+   150: 00 00 00 00 00 00 00 00  00 00 00 00>00<00 00 00 | ................
+   1E0: 00 00 00 00 00 00 00 00  00 00 00 00 00 00>00<00 | ................
+----
+
+----
+Rules: http://www.twingalaxies.com/scores.php?scores=20941
+ROMset: APB
+Difficulty: 4
+Max Continues: 3
+Bonus Life: every 10,000 points (unchangeable)
+Perfect day bonus: Yes (controlled in service menu, switch bank 5-6A, switch 8, appears as Always be bad: N by Default)
+
+To do...
+----

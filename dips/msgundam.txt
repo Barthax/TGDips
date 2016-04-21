@@ -1,0 +1,4 @@
+ROM set changed: no
+0.106-0.169: msgundam - "Mobile Suit Gundam"
+
+Resolution, 106-0.169: 384x240 @ 56.660000Hz

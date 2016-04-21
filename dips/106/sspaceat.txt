@@ -1,0 +1,59 @@
+INPUT_PORTS_START( sspaceat )
+	PORT_START	/* IN0 */
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_2WAY
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_BUTTON1 )
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_START1 )
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_START2 )
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_COCKTAIL
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_2WAY PORT_COCKTAIL
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_2WAY PORT_COCKTAIL
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_2WAY
+
+	PORT_START	/* IN1 */
+	PORT_DIPNAME( 0x01, 0x00, "Bonus Life For Final UFO" )
+	PORT_DIPSETTING(    0x01, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x0e, 0x0e, DEF_STR( Lives ) )
+	PORT_DIPSETTING(    0x0e, "3" )
+	PORT_DIPSETTING(    0x0c, "4" )
+	PORT_DIPSETTING(    0x0a, "5" )
+	PORT_DIPSETTING(    0x06, "6" )
+/* the following are duplicates
+    PORT_DIPSETTING(    0x00, "4" )
+    PORT_DIPSETTING(    0x04, "4" )
+    PORT_DIPSETTING(    0x08, "4" )
+    PORT_DIPSETTING(    0x02, "5" ) */
+	PORT_DIPNAME( 0x10, 0x00, DEF_STR( Bonus_Life ) )
+	PORT_DIPSETTING(    0x00, "10000" )
+	PORT_DIPSETTING(    0x10, "15000" )
+	PORT_BIT( 0x60, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_DIPNAME( 0x80, 0x00, "Credits Display" )
+	PORT_DIPSETTING(    0x80, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+
+	PORT_START	/* IN2 */
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_VBLANK )
+	PORT_BIT( 0x7e, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_COIN1 ) PORT_IMPULSE(30) /* PORT_RESETCPU */
+INPUT_PORTS_END
+
+Resolution: 256x224 @60Hz
+
+Rules: http://www.twingalaxies.com/scores.php?scores=10055
+ROMSet: SSpaceAt
+Bonus Life For Final UFO: On
+Lives: 3
+Bonus Life: 10000 points
+Credits Display: On
+
+Sample correct TG:
+IN1: offset 0x27, repeat every 0x7C, typical value 0x6E
+- IN1: 0x01 (Bonus Life For Final UFO): 0x00 (On)
+- IN1: 0x0e (Lives): 0x0e (3)
+- IN1: 0x10 (Bonus_Life): 0x00 (10000)
+- IN1: 0x60 (unused): [not relevant]
+- IN1: 0x80 (Credits Display): 0x00 (On)
+
+    20: 00 00 00 FF 00 00 00 6E  00 00 00 FF 00 00 00 00 | ... ...n... ....
+    A0: 00 00 00 6E 00 00 00 FF  00 00 00 00 00 00 00 00 | ...n... ........
+   110: 00 00 00 00 3E 82 43 E1  00 00 00 FF 00 00 00 6E | ....>.Cß... ...n

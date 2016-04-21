@@ -1,0 +1,6 @@
+ROM set changed: no
+0.106-0.123: legion - "Legion (ver 2.03)"
+0.125-0.142: legion - "Chouji Meikyuu Legion (ver 2.03)"
+0.143-0.169: legion - "Legion - Spinner-87 (World ver 2.03)"
+
+Resolution, 0.106-0.169: 288x224 @ 60.000000Hz

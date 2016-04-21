@@ -1,0 +1,8 @@
+ROM set changed: yes
+0.106-0.129: psychic5 - "Psychic 5"
+0.130-0.157: psychic5 - "Psychic 5 (set 1)"
+0.158-0.170: psychic5j - "Psychic 5 (Japan)"
+
+Resolution, 0.106-0.113: 256x224 @ 53.799999Hz
+Resolution, 0.114-0.169: 256x224 @ 53.800000Hz
+Resolution, 0.170: 256x224 @ 54.001512Hz

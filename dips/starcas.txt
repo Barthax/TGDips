@@ -1,0 +1,4 @@
+ROM set changes:
+0.35-0.169: starcas - "Star Castle (version 3)"
+
+Resolution, 0.106-0.169: vector @ 38.000000Hz

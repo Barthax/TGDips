@@ -1,0 +1,5 @@
+ROM set changed: no
+0.106-0.130: g13knd - "Golgo 13 Kiseki no Dandou (GLS1/VER.A)"
+0.131-0.169: g13knd - "Golgo 13 Kiseki no Dandou (Japan, GLS1/VER.A)"
+
+Resolution, 0.106-0.169: 640x480 @ 60.000000Hz

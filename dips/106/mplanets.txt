@@ -1,0 +1,74 @@
+# MAME 0.106 source snippet
+
+GAME( 1983, mplanets, 0,        gottlieb, mplanets, 0,        ROT270, "Gottlieb", "Mad Planets", 0 )
+
+INPUT_PORTS_START( mplanets )
+    PORT_START_TAG("DSW")
+    PORT_DIPNAME( 0x01, 0x00, DEF_STR( Demo_Sounds ) )
+    PORT_DIPSETTING(    0x01, DEF_STR( Off ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+    PORT_DIPNAME( 0x02, 0x00, DEF_STR( Bonus_Life ) )
+    PORT_DIPSETTING(    0x00, "10000" )
+    PORT_DIPSETTING(    0x02, "12000" )
+    PORT_DIPNAME( 0x08, 0x00, "Allow Round Select" )
+    PORT_DIPSETTING(    0x00, DEF_STR( No ) )
+    PORT_DIPSETTING(    0x08, DEF_STR( Yes ) )
+    PORT_DIPNAME( 0x14, 0x00, DEF_STR( Coinage ) )
+    PORT_DIPSETTING(    0x04, DEF_STR( 2C_1C ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( 1C_1C ) )
+    PORT_DIPSETTING(    0x10, DEF_STR( 1C_2C ) )
+    PORT_DIPSETTING(    0x14, DEF_STR( Free_Play ) )
+    PORT_DIPNAME( 0x20, 0x00, DEF_STR( Lives ) )
+    PORT_DIPSETTING(    0x00, "3" )
+    PORT_DIPSETTING(    0x20, "5" )
+    PORT_DIPNAME( 0xc0, 0x00, DEF_STR( Difficulty ) )
+    PORT_DIPSETTING(    0x40, DEF_STR( Easy ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( Medium ) )
+    PORT_DIPSETTING(    0x80, DEF_STR( Hard ) )
+    PORT_DIPSETTING(    0xc0, DEF_STR( Hardest ) )
+
+    PORT_START_TAG("IN1")
+    PORT_BIT( 0x01, IP_ACTIVE_HIGH, IPT_COIN1 )
+    PORT_BIT( 0x02, IP_ACTIVE_HIGH, IPT_COIN2 )
+    PORT_BIT( 0x3c, IP_ACTIVE_HIGH, IPT_UNKNOWN )
+    PORT_BIT(0x40, IP_ACTIVE_HIGH, IPT_SERVICE ) PORT_NAME("Select in Service Mode") PORT_CODE(KEYCODE_F1)
+    PORT_SERVICE( 0x80, IP_ACTIVE_LOW )
+
+    PORT_START_TAG("IN2")    /* trackball H not used */
+    PORT_BIT( 0xff, IP_ACTIVE_LOW, IPT_UNUSED )
+
+    PORT_START_TAG("IN3")    /* trackball V (dial) */
+    PORT_BIT( 0xff, 0x00, IPT_DIAL ) PORT_SENSITIVITY(5) PORT_KEYDELTA(10) PORT_CODE_DEC(KEYCODE_Z) PORT_CODE_INC(KEYCODE_X)
+
+    PORT_START_TAG("IN4")
+    PORT_BIT( 0x01, IP_ACTIVE_HIGH, IPT_JOYSTICK_UP ) PORT_8WAY
+    PORT_BIT( 0x02, IP_ACTIVE_HIGH, IPT_JOYSTICK_RIGHT ) PORT_8WAY
+    PORT_BIT( 0x04, IP_ACTIVE_HIGH, IPT_JOYSTICK_DOWN ) PORT_8WAY
+    PORT_BIT( 0x08, IP_ACTIVE_HIGH, IPT_JOYSTICK_LEFT ) PORT_8WAY
+    PORT_BIT( 0x10, IP_ACTIVE_HIGH, IPT_BUTTON1 )
+    PORT_BIT( 0x20, IP_ACTIVE_HIGH, IPT_START1 )
+    PORT_BIT( 0x40, IP_ACTIVE_HIGH, IPT_START2 )
+    PORT_BIT( 0x80, IP_ACTIVE_HIGH, IPT_BUTTON2 )
+INPUT_PORTS_END
+
+Resolution: 256x240 @ 61.000000Hz
+
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=23022
+ROMSet: MPlanets
+Bonus Life: 10000
+Allow Round Select: No
+Lives: 3
+Difficulty: Medium
+
+Sample correct TG:
+DSW: offset 0x23, repeat every 0x7C, typical value 0x00
+- DSW: 0x01 (Demo_Sounds): [not relevant]
+- DSW: 0x02 (Bonus_Life): 0x00 (10000)
+- DSW: 0x08 (Allow Round Select): 0x00 (No)
+- DSW: 0x14 (Coinage): [not relevant]
+- DSW: 0x20 (Lives): 0x00 (3)
+- DSW: 0xc0 (Difficulty): 0x00 (Medium)
+
+    20: 00 00 00 00 00 00 00 80  00 00 00 FF 00 00 00 00
+    90: 00 00 00 00 00 00 00 00  3E 82 43 E1 00 00 00 00
+   110: 00 00 00 00 3E 82 43 E1  00 00 00 00 00 00 00 80

@@ -1,0 +1,13 @@
+All relevant rules are covered by software-dips.  If not shown during playback, use F2 to access after playback completed.
+
+Rules: http://www.twingalaxies.com/scores.php?scores=14711
+ROMSet: MiExchng
+Continue: Off
+Difficulty: LEVEL 4
+How To Play: ON
+Demo Sound: WITH
+Credit/Level: DISP/ON
+Match Play: ROUND 1/3
+Opening Name: DISP Off
+Alert Line: ON
+Advice Mark: DISP LEVEL 2

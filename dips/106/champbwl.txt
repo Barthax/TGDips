@@ -1,0 +1,140 @@
+# MAME 0.106 source snippet.
+
+INPUT_PORTS_START( champbwl )
+	PORT_START
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_BUTTON1 )
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_BUTTON2 )
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_START1 )
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_BUTTON3 ) PORT_NAME("Player Change")
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_COIN1 )
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_COIN2 )
+	PORT_BIT( 0x40, IP_ACTIVE_HIGH, IPT_SPECIAL ) // INT( 4M)
+	PORT_BIT( 0x80, IP_ACTIVE_HIGH, IPT_SPECIAL ) // INT(16M)
+
+	PORT_START
+	PORT_DIPNAME( 0x01, 0x01, DEF_STR( Unknown ) )
+	PORT_DIPSETTING(    0x01, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x02, 0x02, DEF_STR( Unknown ) )
+	PORT_DIPSETTING(    0x02, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x04, 0x04, DEF_STR( Unknown ) )
+	PORT_DIPSETTING(    0x04, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x08, 0x08, DEF_STR( Unknown ) )
+	PORT_DIPSETTING(    0x08, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x10, 0x10, DEF_STR( Unknown ) )
+	PORT_DIPSETTING(    0x10, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x20, 0x20, DEF_STR( Unknown ) )
+	PORT_DIPSETTING(    0x20, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x40, 0x40, DEF_STR( Unknown ) )
+	PORT_DIPSETTING(    0x40, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x80, 0x80, DEF_STR( Unknown ) )
+	PORT_DIPSETTING(    0x80, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+
+	PORT_START
+	PORT_SERVICE( 0x01, IP_ACTIVE_LOW )
+	PORT_DIPNAME( 0x02, 0x02, DEF_STR( Unknown ) )
+	PORT_DIPSETTING(    0x02, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x04, 0x04, DEF_STR( Free_Play ) )
+	PORT_DIPSETTING(    0x04, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x08, 0x00, DEF_STR( Demo_Sounds ) )
+	PORT_DIPSETTING(    0x08, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x10, 0x10, DEF_STR( Unused ) )
+	PORT_DIPSETTING(    0x10, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x20, 0x20, DEF_STR( Unused ) )
+	PORT_DIPSETTING(    0x20, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x40, 0x40, DEF_STR( Unused ) )
+	PORT_DIPSETTING(    0x40, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x80, 0x80, DEF_STR( Unused ) )
+	PORT_DIPSETTING(    0x80, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+
+	PORT_START
+	PORT_DIPNAME( 0x01, 0x01, DEF_STR( Flip_Screen ) )
+	PORT_DIPSETTING(    0x01, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x02, 0x02, DEF_STR( Unknown ) )
+	PORT_DIPSETTING(    0x02, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x0c, 0x0c, "License" )
+	PORT_DIPSETTING(    0x00, "Romstar (1)")
+	PORT_DIPSETTING(    0x04, "Romstar (2)")
+	PORT_DIPSETTING(    0x08, "Seta U.S.A, Romstar License" )
+	PORT_DIPSETTING(    0x0c, "Seta" )
+	PORT_DIPNAME( 0x10, 0x10, DEF_STR( Unused ) )
+	PORT_DIPSETTING(    0x10, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x20, 0x20, DEF_STR( Unused ) )
+	PORT_DIPSETTING(    0x20, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x40, 0x40, DEF_STR( Unused ) )
+	PORT_DIPSETTING(    0x40, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x80, 0x80, DEF_STR( Unused ) )
+	PORT_DIPSETTING(    0x80, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+
+	PORT_START	/* FAKE */
+	PORT_BIT( 0xff, 0x00, IPT_TRACKBALL_X )PORT_SENSITIVITY(50) PORT_KEYDELTA(50) PORT_CENTERDELTA(0)
+
+	PORT_START	/* FAKE */
+	PORT_BIT( 0xff, 0x00, IPT_TRACKBALL_Y ) PORT_SENSITIVITY(50) PORT_KEYDELTA(45) PORT_CENTERDELTA(0) PORT_REVERSE
+INPUT_PORTS_END
+
+Resolution: 384x240 @ 57.5 Hz
+
+Rules: http://www.twingalaxies.com/scores.php?scores=24463
+ROMSet: ChampBwl
+Unknown: Off [All]
+Service Mode: Off
+Free Play: Off
+Unused: Off [All]
+Flip Screen: Off
+Licence: Seta
+
+Sample correct TG:
+Dips1: offset 0x27, repeat every 0x7C, typical value 0xFF
+- Dips1: 0x01 (Unknown): 0x01 (Off)
+- Dips1: 0x02 (Unknown): 0x02 (Off)
+- Dips1: 0x04 (Unknown): 0x04 (Off)
+- Dips1: 0x08 (Unknown): 0x08 (Off)
+- Dips1: 0x10 (Unknown): 0x10 (Off)
+- Dips1: 0x20 (Unknown): 0x20 (Off)
+- Dips1: 0x40 (Unknown): 0x40 (Off)
+- Dips1: 0x80 (Unknown): 0x80 (Off)
+
+Dips2: offset 0x2B, repeat every 0x7C, typical value 0xF7
+- Dips2: 0x01 (service): 0x01 (Off)
+- Dips2: 0x02 (Unknown): 0x02 (Off)
+- Dips2: 0x04 (Free_Play): 0x04 (Off)
+- Dips2: 0x08 (Demo_Sounds): [not relevant]
+- Dips2: 0x10 (Unused): 0x10 (Off)
+- Dips2: 0x20 (Unused): 0x20 (Off)
+- Dips2: 0x40 (Unused): 0x40 (Off)
+- Dips2: 0x80 (Unused): 0x80 (Off)
+
+Dips3: offset 0x2F, repeat every 0x7C, typical value 0xFF
+- Dips3: 0x01 (Flip_Screen): 0x01 (Off)
+- Dips3: 0x02 (Unknown): 0x02 (Off)
+- Dips3: 0x0c (License): 0x0c (Seta)
+- Dips3: 0x10 (Unused): 0x10 (Off)
+- Dips3: 0x20 (Unused): 0x20 (Off)
+- Dips3: 0x40 (Unused): 0x40 (Off)
+- Dips3: 0x80 (Unused): 0x80 (Off)
+
+    20: 00 00 00 3F 00 00 00 FF  00 00 00 F7 00 00 00 FF | ...?... ...˜... 
+    A0: 00 00 00 FF 00 00 00 F7  00 00 00 FF 00 00 00 00 | ... ...˜... ....
+   110: 00 00 00 00 3E 82 43 E1  00 00 00 3F 00 00 00 FF | ....>.Cß...?... 
+   120: 00 00 00 F7 00 00 00 FF  00 00 00 00 00 00 00 00 | ...˜... ........

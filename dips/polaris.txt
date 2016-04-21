@@ -1,0 +1,6 @@
+ROM set changed: yes
+0.106-0.137: polaris - "Polaris (set 1)"
+0.137u4-0.170: polarisa - "Polaris (First revision)"
+
+Resolution, 0.106-0.113: 240x224 @ 60.000000Hz
+Resolution, 0.114-0.170: 260x224 @ 59.541985Hz

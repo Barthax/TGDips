@@ -1,0 +1,87 @@
+# MAME 0.106 source snippet.
+
+GAME( 1996, hyperath, konamigv, konamigv, konamigv, konamigv, ROT0, "Konami", "Hyper Athlete (GV021 JAPAN 1.00)", GAME_IMPERFECT_SOUND | GAME_IMPERFECT_GRAPHICS )
+
+INPUT_PORTS_START( konamigv )
+    /* IN0 */
+    PORT_START
+    PORT_BIT( 0x0001, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_8WAY
+    PORT_BIT( 0x0002, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT) PORT_8WAY
+    PORT_BIT( 0x0004, IP_ACTIVE_LOW, IPT_JOYSTICK_UP) PORT_8WAY
+    PORT_BIT( 0x0008, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN) PORT_8WAY
+    PORT_BIT( 0x0010, IP_ACTIVE_LOW, IPT_BUTTON1 )
+    PORT_BIT( 0x0020, IP_ACTIVE_LOW, IPT_BUTTON2 )
+    PORT_BIT( 0x0040, IP_ACTIVE_LOW, IPT_BUTTON3 )
+    PORT_BIT( 0x0080, IP_ACTIVE_LOW, IPT_UNKNOWN )
+    PORT_BIT( 0x0100, IP_ACTIVE_LOW, IPT_UNKNOWN )
+    PORT_BIT( 0x0200, IP_ACTIVE_LOW, IPT_START1 )
+    PORT_BIT( 0x0400, IP_ACTIVE_LOW, IPT_COIN1 )
+    PORT_BIT( 0x0800, IP_ACTIVE_LOW, IPT_SERVICE1 )
+    PORT_BIT(0x1000, IP_ACTIVE_LOW, IPT_OTHER ) PORT_NAME("Test Switch") PORT_CODE(KEYCODE_F2)
+    PORT_BIT( 0x2000, IP_ACTIVE_HIGH, IPT_SPECIAL )    /* EEPROM data */
+    PORT_BIT( 0x4000, IP_ACTIVE_LOW, IPT_UNKNOWN )
+    PORT_BIT( 0x8000, IP_ACTIVE_LOW, IPT_UNKNOWN )
+
+    /* IN1 */
+    PORT_START
+    PORT_BIT( 0x0001, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_8WAY PORT_PLAYER(2)
+    PORT_BIT( 0x0002, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_8WAY PORT_PLAYER(2)
+    PORT_BIT( 0x0004, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_8WAY PORT_PLAYER(2)
+    PORT_BIT( 0x0008, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_8WAY PORT_PLAYER(2)
+    PORT_BIT( 0x0010, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_PLAYER(2)
+    PORT_BIT( 0x0020, IP_ACTIVE_LOW, IPT_BUTTON2 ) PORT_PLAYER(2)
+    PORT_BIT( 0x0040, IP_ACTIVE_LOW, IPT_BUTTON3 ) PORT_PLAYER(2)
+    PORT_BIT( 0x0080, IP_ACTIVE_LOW, IPT_UNKNOWN )
+    PORT_BIT( 0x0100, IP_ACTIVE_LOW, IPT_UNKNOWN )
+    PORT_BIT( 0x0200, IP_ACTIVE_LOW, IPT_START2 )
+    PORT_BIT( 0x0400, IP_ACTIVE_LOW, IPT_COIN2 )
+    PORT_BIT( 0x0800, IP_ACTIVE_LOW, IPT_UNKNOWN )
+    PORT_BIT( 0x1000, IP_ACTIVE_LOW, IPT_UNKNOWN )
+    PORT_BIT( 0x2000, IP_ACTIVE_LOW, IPT_UNKNOWN )
+    PORT_BIT( 0x4000, IP_ACTIVE_LOW, IPT_UNKNOWN )
+    PORT_BIT( 0x8000, IP_ACTIVE_LOW, IPT_UNKNOWN )
+
+    /* IN2 */
+    PORT_START
+    PORT_BIT( 0x0001, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_8WAY PORT_PLAYER(3)
+    PORT_BIT( 0x0002, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_8WAY PORT_PLAYER(3)
+    PORT_BIT( 0x0004, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_8WAY PORT_PLAYER(3)
+    PORT_BIT( 0x0008, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_8WAY PORT_PLAYER(3)
+    PORT_BIT( 0x0010, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_PLAYER(3)
+    PORT_BIT( 0x0020, IP_ACTIVE_LOW, IPT_BUTTON2 ) PORT_PLAYER(3)
+    PORT_BIT( 0x0040, IP_ACTIVE_LOW, IPT_BUTTON3 ) PORT_PLAYER(3)
+    PORT_BIT( 0x0080, IP_ACTIVE_LOW, IPT_START3 )
+    PORT_BIT( 0x0100, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_8WAY PORT_PLAYER(4)
+    PORT_BIT( 0x0200, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_8WAY PORT_PLAYER(4)
+    PORT_BIT( 0x0400, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_8WAY PORT_PLAYER(4)
+    PORT_BIT( 0x0800, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_8WAY PORT_PLAYER(4)
+    PORT_BIT( 0x1000, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_PLAYER(4)
+    PORT_BIT( 0x2000, IP_ACTIVE_LOW, IPT_BUTTON2 ) PORT_PLAYER(4)
+    PORT_BIT( 0x4000, IP_ACTIVE_LOW, IPT_BUTTON3 ) PORT_PLAYER(4)
+    PORT_BIT( 0x8000, IP_ACTIVE_LOW, IPT_START4 )
+
+INPUT_PORTS_END
+
+Resolution: 640 x 480 @ 60.000000 Hz
+
+Rules, Fastest Race [100m Dash]: http://www.twingalaxies.com/scores.php?scores=75089
+Rules, Fastest Race [100m Freestyle]: http://www.twingalaxies.com/scores.php?scores=75090
+Rules, Fastest Race [110m Hurdle]: http://www.twingalaxies.com/scores.php?scores=75091
+Rules, Furthest Distance [Discus Throw]: http://www.twingalaxies.com/scores.php?scores=75092
+Rules, Furthest Distance [Hammer]: http://www.twingalaxies.com/scores.php?scores=75093
+Rules, Furthest Distance [Javelin]: http://www.twingalaxies.com/scores.php?scores=75096
+Rules, Furthest Distance [Long Jump]: http://www.twingalaxies.com/scores.php?scores=75097
+Rules, Furthest Distance [Shot Put]: http://www.twingalaxies.com/scores.php?scores=75100
+Rules, Furthest Distance [Triple Jump]: http://www.twingalaxies.com/scores.php?scores=75101
+Rules, Highest Height [High Jump]: http://www.twingalaxies.com/scores.php?scores=75095
+Rules, Highest Height [Pole Vault]: http://www.twingalaxies.com/scores.php?scores=75099
+Rules, Points [Total]: http://www.twingalaxies.com/scores.php?scores=75088
+
+ROMSet: HyperAth
+Internal Defaults
+-----------------
+Number of Players: 2 Players
+Difficulty Level: 4 Medium
+
+Sample correct TG:
+- All internal.  Use service mode (F2) after replay ends if not shown in replay.

@@ -1,0 +1,5 @@
+ROM set changed: no
+0.106-0.168: digdug2 - "Dig Dug II (New Ver.)"
+
+Resolution, 0.106-0.115: 288x224 @ 60.606060Hz
+Resolution, 0.116-0.168: 288x224 @ 60.606061Hz

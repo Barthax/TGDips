@@ -1,0 +1,9 @@
+ROM set changed: yes
+0.106-0.141: cyvern - "Cyvern (Japan)"
+0.141u3-0.169: cyvernj - "Cyvern (Japan)"
+
+MAME History:
+- 0.141u3: Added Cyvern (US). Renamed (cyvern) to (cyvernj).
+
+Resolution, 0.106-0.125: 320x240 @ 60.000000Hz
+Resolution, 0.126-0.169: 320x240 @ 59.597100Hz

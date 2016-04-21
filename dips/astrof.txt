@@ -1,0 +1,6 @@
+ROM set change:
+0.106-0.168: astrof - "Astro Fighter (set 1)"
+
+Resolution, 0.106-0.115: 240x240 @ 60.000000Hz
+Resolution, 0.116-0.122: 256x248 @ 59.948171Hz
+Resolution, 0.123-0.168: 256x256 @ 56.308461Hz

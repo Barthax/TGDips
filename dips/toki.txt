@@ -1,0 +1,7 @@
+ROM set changed: no
+0.106-0.138: toki - "Toki (World set 1)"
+0.139-0.170: toki - "Toki (World, set 1)"
+
+Resolutin, 0.106-0.111: 256x240 @ 60.000000Hz
+Resolutin, 0.112-0.133: 256x224 @ 60.000000Hz
+Resolutin, 0.134-0.170: 256x224 @ 59.610000Hz

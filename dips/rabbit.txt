@@ -1,0 +1,37 @@
+ROM set changed: no
+0.106-0.136: rabbit - "Rabbit"
+0.137-0.161: rabbit - "Rabbit (Japan)"
+0.162-0.170: rabbit - "Rabbit (Asia 3/6)"
+
+Resolution, 0.106-0.170: 320x224 @ 60.000000Hz
+
+Additional information confirming no change between 0.161 and 0.162:
+C:\MAME>mame161.exe -listcrc rabbit
+52bb18c0 jpr0.0                  rabbit          Rabbit (Japan)
+38299d0d jpr1.1                  rabbit          Rabbit (Japan)
+fa3fd91a jpr2.2                  rabbit          Rabbit (Japan)
+d22727ca jpr3.3                  rabbit          Rabbit (Japan)
+b2a4d3d3 jfv0.00                 rabbit          Rabbit (Japan)
+83f3926e jfv1.01                 rabbit          Rabbit (Japan)
+b264bfb5 jfv2.02                 rabbit          Rabbit (Japan)
+3e1a9be2 jfv3.03                 rabbit          Rabbit (Japan)
+89662944 jbg0.40                 rabbit          Rabbit (Japan)
+1fc7f6e0 jbg1.50                 rabbit          Rabbit (Japan)
+aee265fc jbg2.60                 rabbit          Rabbit (Japan)
+e1f726e8 jsn0.11                 rabbit          Rabbit (Japan)
+73d471ed rabbit.nv               rabbit          Rabbit (Japan)
+
+C:\MAME>mame162.exe -listcrc rabbit
+52bb18c0 jpr0.0                  rabbit          Rabbit (Asia 3/6)
+38299d0d jpr1.1                  rabbit          Rabbit (Asia 3/6)
+fa3fd91a jpr2.2                  rabbit          Rabbit (Asia 3/6)
+d22727ca jpr3.3                  rabbit          Rabbit (Asia 3/6)
+b2a4d3d3 jfv0.00                 rabbit          Rabbit (Asia 3/6)
+83f3926e jfv1.01                 rabbit          Rabbit (Asia 3/6)
+b264bfb5 jfv2.02                 rabbit          Rabbit (Asia 3/6)
+3e1a9be2 jfv3.03                 rabbit          Rabbit (Asia 3/6)
+89662944 jbg0.40                 rabbit          Rabbit (Asia 3/6)
+1fc7f6e0 jbg1.50                 rabbit          Rabbit (Asia 3/6)
+aee265fc jbg2.60                 rabbit          Rabbit (Asia 3/6)
+e1f726e8 jsn0.11                 rabbit          Rabbit (Asia 3/6)
+73d471ed rabbit.nv               rabbit          Rabbit (Asia 3/6)

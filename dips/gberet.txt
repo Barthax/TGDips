@@ -1,0 +1,10 @@
+ROM Changes: 
+0.106-0.169: gberet - "Green Beret"
+
+Resolution, 0.106-0.144: 240x224 @ 30.000000Hz
+Resolution, 0.145-0.169: 240x224 @ 60.600000Hz
+
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=7743
+Rules, Points [1st Life Only]: http://www.twingalaxies.com/scores.php?scores=10577
+Rules, Highest Score Completing Stage 1 on 1st Life: http://www.twingalaxies.com/scores.php?scores=198074
+Rules, Highest Score Completing thru Stage 2 on 1st Life: http://www.twingalaxies.com/scores.php?scores=198081

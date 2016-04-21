@@ -1,0 +1,96 @@
+# MAME 0.106 source snippet
+
+GAME( 1980, wow,      0,    wow,      wow,      wow,      ROT0,   "Midway", "Wizard of Wor", GAME_SUPPORTS_SAVE )
+
+INPUT_PORTS_START( wow )
+    PORT_START_TAG("IN0")
+    PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_COIN1 )
+    PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_COIN2 )
+    PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_COIN3 )
+    PORT_SERVICE( 0x08, IP_ACTIVE_LOW )
+    PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_TILT )
+    PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_START1 )
+    PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_START2 )
+    PORT_DIPNAME( 0x80, 0x80, DEF_STR( Flip_Screen ) )
+    PORT_DIPSETTING(    0x80, DEF_STR( Off ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+
+    PORT_START_TAG("IN1")
+    PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_8WAY PORT_PLAYER(2)
+    PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_8WAY PORT_PLAYER(2)
+    PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_8WAY PORT_PLAYER(2)
+    PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_8WAY PORT_PLAYER(2)
+    PORT_BIT( 0x10, IP_ACTIVE_HIGH, IPT_BUTTON2 ) PORT_PLAYER(2)
+    PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_PLAYER(2)
+    PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_UNKNOWN )
+    PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_UNKNOWN )
+
+    PORT_START_TAG("IN2")
+    PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_8WAY
+    PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_8WAY
+    PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_8WAY
+    PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_8WAY
+    PORT_BIT( 0x10, IP_ACTIVE_HIGH, IPT_BUTTON2 )
+    PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_BUTTON1 )
+    PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_UNKNOWN )
+    PORT_BIT( 0x80, IP_ACTIVE_HIGH, IPT_UNKNOWN )    /* speech status */
+
+    PORT_START_TAG("DSW")
+    PORT_DIPNAME( 0x01, 0x01, DEF_STR( Coin_A ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( 2C_1C ) )
+    PORT_DIPSETTING(    0x01, DEF_STR( 1C_1C ) )
+    PORT_DIPNAME( 0x06, 0x06, DEF_STR( Coin_B ) )
+    PORT_DIPSETTING(    0x04, DEF_STR( 2C_1C ) )
+    PORT_DIPSETTING(    0x06, DEF_STR( 1C_1C ) )
+    PORT_DIPSETTING(    0x02, DEF_STR( 1C_3C ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( 1C_5C ) )
+    PORT_DIPNAME( 0x08, 0x08, DEF_STR( Language ) )
+    PORT_DIPSETTING(    0x08, DEF_STR( English ) )
+    PORT_DIPSETTING(    0x00, "Foreign (NEED ROM)" )
+    PORT_DIPNAME( 0x10, 0x00, DEF_STR( Lives ) )
+     PORT_DIPSETTING(    0x10, "2 for 1 Credit / 5 for 2 Credits" )
+     PORT_DIPSETTING(    0x00, "3 for 1 Credit / 7 for 2 Credits" )
+    PORT_DIPNAME( 0x20, 0x20, DEF_STR( Bonus_Life ) )
+    PORT_DIPSETTING(    0x20, "3rd Level" )
+    PORT_DIPSETTING(    0x00, "4th Level" )
+    PORT_DIPNAME( 0x40, 0x40, DEF_STR( Free_Play ) )
+    PORT_DIPSETTING(    0x40, DEF_STR( Off ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+    PORT_DIPNAME( 0x80, 0x80, DEF_STR( Demo_Sounds ) )
+    PORT_DIPSETTING(    0x00, "On only when controls are touched" )
+    PORT_DIPSETTING(    0x80, "Always On"  )
+INPUT_PORTS_END
+
+Resolution: 320x204 @ 60.000000Hz
+
+Rules, Points [Single Player Only, 3 Lives]: http://www.twingalaxies.com/scores.php?scores=7895
+Rules, Points [Single Player Only, 7 Lives]: http://www.twingalaxies.com/scores.php?scores=7896
+Rules, Points [Two Player Team, 3 Lives Each]: http://www.twingalaxies.com/scores.php?scores=7897
+Rules, Points [Two Player Team, 7 Lives Each]: http://www.twingalaxies.com/scores.php?scores=7898
+
+ROMSet: WOW
+Service Mode: Off
+Flip Screen: Off
+Language: English
+Lives: 3 for 1 Credit / 7 for 2 Credits
+Bonus Life: 3rd Level
+Free Play: Off
+Demo Sounds: Always On
+
+Sample correct TG:
+IN0: offset 0x23, repeat every 0x7C, typical value 0xFF, will change at coin drop & 1P/2P start
+- IN0: 0x80 (Flip_Screen): 0x80 (Off)
+DSW: offset 0x2F, repeat every 0x7C, typical value 0xEF
+- DSW: 0x01 (Coin_A): [not relevant]
+- DSW: 0x06 (Coin_B): [not relevant]
+- DSW: 0x08 (Language): 0x08 (English)
+- DSW: 0x10 (Lives): 0x00 (3 for 1 Credit / 7 for 2 Credits)
+- DSW: 0x20 (Bonus_Life): 0x20 (3rd Level)
+- DSW: 0x40 (Free_Play): 0x40 (Off)
+- DSW: 0x80 (Demo_Sounds): 0x80 (Always On)
+
+    20: 00 00 00 FF 00 00 00 EF  00 00 00 6F 00 00 00 EF
+    90: 00 00 00 00 00 00 00 00  3E 82 43 E1 00 00 00 FF
+    A0: 00 00 00 EF 00 00 00 6F  00 00 00 EF 00 00 00 00
+   110: 00 00 00 00 3E 82 43 E1  00 00 00 FF 00 00 00 EF
+   120: 00 00 00 6F 00 00 00 EF  00 00 00 00 00 00 00 00

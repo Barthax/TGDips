@@ -1,0 +1,9 @@
+ROM set changed: no
+0.106-0.123: kof2003 - "The King of Fighters 2003 (World / US, MVS)"
+0.125-0.127: kof2003 - "The King of Fighters 2003"
+0.128-0.138: kof2003 - "The King of Fighters 2003 (set 1)"
+0.139-0.143: kof2003 - "The King of Fighters 2003"
+0.144-0.170: kof2003 - "The King of Fighters 2003 (NGM-2710)"
+
+Resolution, 0.106-0.113: 320x224 @ 59.185608Hz
+Resolution, 0.114-0.170: 320x224 @ 59.185606Hz

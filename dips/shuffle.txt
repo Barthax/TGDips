@@ -1,0 +1,5 @@
+ROM set changed: no
+0.106-0.169: shuffle - "Shuffleboard"
+
+Resolution, 0.106-0.111: 256x224 @ 60.000000Hz
+Resolution, 0.112-0.169: 260x224 @ 59.541985Hz

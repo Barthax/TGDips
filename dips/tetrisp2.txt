@@ -1,0 +1,5 @@
+ROM set changed: no
+0.106-0.122: tetrisp2 - "Tetris Plus 2 (World?)"
+0.123-0.170: tetrisp2 - "Tetris Plus 2 (World)"
+
+Resolution, 0.106-0.170: 320x224 @ 60.000000Hz

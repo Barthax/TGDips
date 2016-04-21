@@ -1,0 +1,6 @@
+ROM set changed: yes
+0.106-0.148: pbball96 - "Powerful Baseball '96 (GV017 Japan 1.03)"
+0.148u5-0.170: powyak96 - "Jikkyou Powerful Pro Yakyuu '96 (GV017 Japan 1.03)"
+
+Resolution, 0.106-0.170: 640x480 @ 60.000000Hz
+

@@ -1,0 +1,10 @@
+ROM set changed: yes
+0.106-0.139: kof99 - "The King of Fighters '99 - Millennium Battle (set 1)"
+0.139u2-0.145: kof99h - "The King of Fighters '99 - Millennium Battle (set 2)"
+0.146-0.170: kof99h - "The King of Fighters '99 - Millennium Battle (NGH-2510)"
+
+MAME History:
+- 0.139u2: Johnboy renamed (kof99) to (kof99h) and (kof99a) to (kof99).
+
+Resolution, 0.106-0.113: 320x224 @ 59.185608Hz
+Resolution, 0.114-0.170: 320x224 @ 59.185606Hz

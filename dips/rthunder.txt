@@ -1,0 +1,6 @@
+ROM set changed: no
+0.106-0.147: rthunder - "Rolling Thunder (new version)"
+0.148-0.170: rthunder - "Rolling Thunder (rev 3)"
+
+Resolution, 0.106-0.152: 288x224 @ 60.606060Hz
+Resolution, 0.153-0.170: 288x224 @ 60.606061Hz

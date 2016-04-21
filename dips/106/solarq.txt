@@ -1,0 +1,54 @@
+INPUT_PORTS_START( solarq )
+	PORT_START_TAG("INPUTS")
+	PORT_BIT( 0x0001, IP_ACTIVE_LOW, IPT_START2 )
+	PORT_BIT( 0x0001, IP_ACTIVE_LOW, IPT_BUTTON4 ) PORT_PLAYER(1) /* nova */
+	PORT_BIT( 0x0002, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_PLAYER(1) /* fire */
+	PORT_BIT( 0x0004, IP_ACTIVE_LOW, IPT_BUTTON2 ) PORT_PLAYER(1) /* thrust */
+	PORT_BIT( 0x0008, IP_ACTIVE_LOW, IPT_START1 )
+	PORT_BIT( 0x0008, IP_ACTIVE_LOW, IPT_BUTTON3 ) PORT_PLAYER(1) /* hyperspace */
+	PORT_BIT( 0x0010, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_2WAY PORT_PLAYER(1)
+	PORT_BIT( 0x0020, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_2WAY PORT_PLAYER(1)
+	PORT_BIT( 0xffc0, IP_ACTIVE_LOW, IPT_UNUSED )
+
+	PORT_START_TAG("SWITCHES")
+	PORT_DIPNAME( 0x05, 0x05, DEF_STR( Coinage ) )
+	PORT_DIPSETTING(	0x01, DEF_STR( 2C_1C ) )
+	PORT_DIPSETTING(	0x00, DEF_STR( 4C_3C ) )
+	PORT_DIPSETTING(	0x05, DEF_STR( 1C_1C ) )
+	PORT_DIPSETTING(	0x04, DEF_STR( 2C_3C ) )
+	PORT_DIPNAME( 0x02,	0x02, DEF_STR( Bonus_Life ) )
+	PORT_DIPSETTING(	0x02, "25 captures" )
+	PORT_DIPSETTING(	0x00, "40 captures" )
+	PORT_DIPNAME( 0x18, 0x10, DEF_STR( Lives ) )
+	PORT_DIPSETTING(	0x18, "2" )
+	PORT_DIPSETTING(	0x08, "3" )
+	PORT_DIPSETTING(	0x10, "4" )
+	PORT_DIPSETTING(	0x00, "5" )
+	PORT_DIPNAME( 0x20,	0x20, DEF_STR( Free_Play ) )
+	PORT_DIPSETTING(	0x20, DEF_STR( Off ) )
+	PORT_DIPSETTING(	0x00, DEF_STR( On ) )
+	PORT_SERVICE( 0x40,	IP_ACTIVE_HIGH )
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_COIN1 )
+INPUT_PORTS_END
+
+Resolution: Vector @ ~37.9Hz
+
+Rules: http://www.twingalaxies.com/scores.php?scores=10129
+ROMSet: SolarQ
+Bonus Life: 25 Captures
+Lives: 3
+Free Play: Off
+Service Mode: Off
+
+Sample correct TG:
+SWITCHES: offset 0x27, repeat every 0x7C, typical value 0xAF.
+- SWITCHES: 0x05 (Coinage): [not relevant]
+- SWITCHES: 0x02 (Bonus_Life): 0x02 (25 captures)
+- SWITCHES: 0x18 (Lives): 0x08 (3)
+- SWITCHES: 0x20 (Free_Play): 0x20 (Off)
+- SWITCHES: 0x40 (unused): [not relevant]
+- SWITCHES: 0x80 (Coin 1): [not relevant]
+
+    20: 00 00 FF FF 00 00 00 AF  00 00 00 00 00 00 00 00 | ..  ...»........
+    A0: 00 00 00 AF 00 00 00 00  00 00 00 00 00 00 00 00 | ...»............
+   110: 00 00 00 00 3E 82 43 E1  00 00 FF FF 00 00 00 AF | ....>.Cß..  ...»

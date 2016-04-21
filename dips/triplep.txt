@@ -1,0 +1,6 @@
+ROM set changed: no
+0.106-0.147: triplep - "Triple Punch"
+0.148-0.169: triplep - "Triple Punch (set 1)"
+
+Resolution, 0.106-0.113: 256x224 @ 60.606060Hz
+Resolution, 0.114-0.169: 256x224 @ 60.606061Hz

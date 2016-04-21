@@ -1,0 +1,6 @@
+ROM set changed: no
+0.106-0.152: rompers - "Rompers (Japan)"
+0.153-0.169: rompers - "Rompers (Japan, new version (Rev B))"
+
+Resolution, 0.106-0.152: 288x224 @ 60.606060Hz
+Resolution, 0.153-0.169: 288x224 @ 60.606061Hz

@@ -1,0 +1,5 @@
+ROM set changed: no
+0.106-0.143: gunforc2 - "Gunforce 2 (US)"
+0.144-0.169: gunforc2 - "Gun Force II (US)"
+
+Resolution, 0.106-0.169: 320x240 @ 60.000000Hz

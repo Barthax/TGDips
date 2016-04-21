@@ -1,0 +1,10 @@
+ROM set changed: yes
+0.106-0.128: carnevil - "CarnEvil"
+0.129-0.133: carnevi1 - "CarnEvil (v1.0.1)"
+0.134-0.169: carnevil1 - "CarnEvil (v1.0.1)"
+
+MAME History:
+- 0.128u6: Brian Troha added CarnEvil (v1.0.3). Changed 'CarnEvil' to clone '(v1.0.1)'. Renamed (carnevil) to (carnevi1).
+- 0.133u1: Renamed (carnevi1) to (carnevil1).
+
+Resolution, 0.106-0.169: 640x480 @ 57.000000Hz

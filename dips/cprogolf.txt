@@ -1,0 +1,8 @@
+ROM set changed: no
+0.106-0.138: cprogolf - "Pro Golf (Cassette)"
+0.139-0.145: cprogolf - "Tournament Pro Golf (Cassette)"
+0.146-0.170: cprogolf - "Tournament Pro Golf (DECO Cassette)"
+
+Resolution, 0.106-0.128: 240x240 @ 57.000000Hz
+Resolution, 0.129-0.145: 240x240 @ 57.444853Hz
+Resolution, 0.146-0.170: 256x240 @ 57.444853Hz

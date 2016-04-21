@@ -1,0 +1,6 @@
+ROM set changed: no
+0.106-0.171: matmania - "Mat Mania"
+
+Resolution, 0.106-0.171: 256x240 @ 60.000000Hz
+
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=7768

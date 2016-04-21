@@ -1,0 +1,4 @@
+ROM set changed: no
+0.106-0.169: mx5000 - "MX5000"
+
+Resolution, 0.106-0.169: 280x224 @ 60.000000Hz

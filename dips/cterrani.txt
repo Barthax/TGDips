@@ -1,0 +1,9 @@
+ROM set changed: no
+0.106-0.145: cterrani - "Terranean (Cassette)"
+0.146-0.171: cterrani - "Terranean (DECO Cassette)"
+
+Resolution, 0.106-0.128: 240x240 @ 57.000000Hz
+Resolution, 0.129-0.145: 240x240 @ 57.444853Hz
+Resolution, 0.146-0.171: 256x240 @ 57.444853Hz
+
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=120362

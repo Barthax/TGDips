@@ -1,0 +1,9 @@
+ROM set changed: yes
+0.106-0.139: vigilant - "Vigilante (World)"
+0.140-0.155: vigilant - "Vigilante (World, set 1)"
+0.156-0.161: vigilantb - "Vigilante (bootleg)"
+0.162: vigilanbl - "Vigilante (bootleg)"
+0.163-0.170: vigilantbl - "Vigilante (bootleg)"
+
+Resolution, 0.106-0.170: 256x256 @ 55.000000Hz
+

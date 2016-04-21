@@ -1,0 +1,10 @@
+ROM set changes: none
+0.106-0.118: satansat - "Satan of Saturn"
+0.119-0.169: satansat - "Satan of Saturn (set 1)"
+
+Resolution, 0.106-0.113: 256x224 @ 61.246746Hz
+Resolution, 0.114-0.128: 256x224 @ 61.246745Hz
+Resolution, 0.129-0.169: 256x224 @ 61.000000Hz
+
+Rules: http://www.twingalaxies.com/scores.php?scores=10696
+

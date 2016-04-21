@@ -1,0 +1,6 @@
+ROM set changed: yes
+0.106-0.143: ikari3 - "Ikari III - The Rescue (Rotary Joystick)"
+0.143u6-0.169: ikari3u - "Ikari III - The Rescue (US, Rotary Joystick)"
+
+Resolution, 0.106-0.126: 256x224 @ 60.000000Hz
+Resolution, 0.127-0.169: 256x224 @ 59.185606Hz

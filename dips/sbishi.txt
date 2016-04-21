@@ -1,0 +1,5 @@
+ROM set changed: no
+0.106-0.131: sbishi - "Super Bishi Bashi Championship (ver JAA)"
+0.132-0.170: sbishi - "Super Bishi Bashi Championship (ver JAA, 2 Players)"
+
+Resolution, 0.106-0.170: 288x224 @ 60.000000Hz

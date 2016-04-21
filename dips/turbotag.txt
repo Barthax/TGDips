@@ -1,0 +1,10 @@
+ROM set changed: no
+0.106-0.171: turbotag - "Turbo Tag (prototype)"
+
+Resolution, 0.106-0.171: 480x480 @ 30.000000Hz
+
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=120482
+
+NOTE:
+To access the internal settings after playback if not shown during playback, set service mode to On (either via F2 or by altering DIPs) then reset (F3).
+Use 1P/2P start to navigate, and center (Left Shift) to select.

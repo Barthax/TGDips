@@ -1,0 +1,106 @@
+# MAME 0.106 source snippet
+
+INPUT_PORTS_START( sbowling )
+	PORT_START
+	PORT_BIT( 0x10, IP_ACTIVE_HIGH, IPT_COIN1   )
+	PORT_BIT( 0x20, IP_ACTIVE_HIGH,	IPT_TILT )
+
+	PORT_START
+	PORT_BIT( 0x01, IP_ACTIVE_HIGH, IPT_COIN2 )
+	PORT_BIT( 0x40, IP_ACTIVE_HIGH, IPT_START1 )
+	PORT_BIT( 0x80, IP_ACTIVE_HIGH, IPT_START2 )
+
+	PORT_START
+	PORT_BIT( 0xff, 0, IPT_TRACKBALL_Y ) PORT_SENSITIVITY(30) PORT_KEYDELTA(30)
+
+	PORT_START
+	PORT_BIT( 0xff, 0, IPT_TRACKBALL_X ) PORT_SENSITIVITY(30) PORT_KEYDELTA(30) PORT_REVERSE
+
+	PORT_START	/* coin slots: A 4 LSB, B 4 MSB */
+	PORT_DIPNAME( 0x01, 0x01, DEF_STR( Unknown ) )
+	PORT_DIPSETTING(    0x01, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x02, 0x02, DEF_STR( Unknown ) )
+	PORT_DIPSETTING(    0x02, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x04, 0x04, DEF_STR( Unknown ) )
+	PORT_DIPSETTING(    0x04, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x08, 0x08, DEF_STR( Unknown ) )
+	PORT_DIPSETTING(    0x08, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x10, 0x10, DEF_STR( Unknown ) )
+	PORT_DIPSETTING(    0x10, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x20, 0x20, DEF_STR( Unknown ) )
+	PORT_DIPSETTING(    0x20, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x40, 0x40, DEF_STR( Unknown ) )
+	PORT_DIPSETTING(    0x40, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x80, 0x80, DEF_STR( Unknown ) )
+	PORT_DIPSETTING(    0x80, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+
+	PORT_START
+	PORT_DIPNAME( 0x01, 0x01, DEF_STR( Cabinet ) )
+	PORT_DIPSETTING(    0x01, DEF_STR( Upright ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Cocktail ) )
+	PORT_DIPNAME( 0x02, 0x02, DEF_STR( Unknown ) )
+	PORT_DIPSETTING(    0x02, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x04, 0x04, "Year Display" )
+	PORT_DIPSETTING(    0x04, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x08, 0x08, DEF_STR( Unknown ) )
+	PORT_DIPSETTING(    0x08, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x10, 0x10, DEF_STR( Unknown ) )
+	PORT_DIPSETTING(    0x10, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x20, 0x20, DEF_STR( Unknown ) )
+	PORT_DIPSETTING(    0x20, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x40, 0x00, "Ball Controll Check" )
+	PORT_DIPSETTING(    0x00, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x40, DEF_STR( On ) )
+	PORT_DIPNAME( 0x80, 0x00, "Video Test" )
+	PORT_DIPSETTING(    0x00, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x80, DEF_STR( On ) )
+INPUT_PORTS_END
+
+Resolution: 240x224 @ 60Hz
+
+Rules: http://www.twingalaxies.com/scores.php?scores=18946
+ROMSet: SBowling
+Unknown: Off [All]
+Cabinet: Upright
+Year Display: Off
+Ball Control Check: Off
+Video test: Off
+
+Sample correct TG:
+Dips1: offset 0x33, repeat every 0x7C, typical value 0xFF
+- Dips1: 0x01 (Unknown): 0x01 (Off)
+- Dips1: 0x02 (Unknown): 0x02 (Off)
+- Dips1: 0x04 (Unknown): 0x04 (Off)
+- Dips1: 0x08 (Unknown): 0x08 (Off)
+- Dips1: 0x10 (Unknown): 0x10 (Off)
+- Dips1: 0x20 (Unknown): 0x20 (Off)
+- Dips1: 0x40 (Unknown): 0x40 (Off)
+- Dips1: 0x80 (Unknown): 0x80 (Off)
+
+Dips2: offset 0x33, repeat every 0x7C, typical value 0x3F
+- Dips2: 0x01 (Cabinet): 0x01 (Upright)
+- Dips2: 0x02 (Unknown): 0x02 (Off)
+- Dips2: 0x04 (Year Display): 0x04 (Off)
+- Dips2: 0x08 (Unknown): 0x08 (Off)
+- Dips2: 0x10 (Unknown): 0x10 (Off)
+- Dips2: 0x20 (Unknown): 0x20 (Off)
+- Dips2: 0x40 (Ball Controll Check): 0x00 (Off)
+- Dips2: 0x80 (Video Test): 0x00 (Off)
+
+    30: 00 00 00 FF 00 00 00 3F  00 00 00 00 00 00 00 00 | ... ...?........
+    A0: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 FF | ............... 
+    B0: 00 00 00 3F 00 00 00 00  00 00 00 00 00 00 00 00 | ...?............
+   120: 00 00 00 00 00 00 00 00  00 00 00 FF 00 00 00 3F | ........... ...?

@@ -1,0 +1,143 @@
+INPUT_PORTS_START( turbo )
+	PORT_START		/* IN0 */
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_BUTTON2 )				/* ACCEL B */
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_BUTTON1 )				/* ACCEL A */
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_BUTTON3 ) PORT_TOGGLE	/* SHIFT */
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_START1 )
+	PORT_SERVICE_NO_TOGGLE( 0x10, IP_ACTIVE_LOW )
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_SERVICE1 )
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_COIN2 )
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_COIN1 )
+
+	PORT_START	/* DSW 1 */
+	PORT_DIPNAME( 0x03, 0x03, "Car On Extended Play" )
+	PORT_DIPSETTING( 0x03, "1" )
+	PORT_DIPSETTING( 0x02, "2" )
+	PORT_DIPSETTING( 0x01, "3" )
+	PORT_DIPSETTING( 0x00, "4" )
+	PORT_DIPNAME( 0x04, 0x04, DEF_STR( Game_Time ) )
+	PORT_DIPSETTING( 0x00, "Fixed (55 sec)" )
+	PORT_DIPSETTING( 0x04, "Adjustable" )
+	PORT_DIPNAME( 0x08, 0x00, DEF_STR( Difficulty ) )
+	PORT_DIPSETTING( 0x00, DEF_STR( Easy ))
+	PORT_DIPSETTING( 0x08, DEF_STR( Hard ))
+	PORT_DIPNAME( 0x10, 0x00, "Game Mode" )
+	PORT_DIPSETTING( 0x10, "No Collisions (cheat)" )
+	PORT_DIPSETTING( 0x00, DEF_STR( Normal ) )
+	PORT_DIPNAME( 0x20, 0x00, "Initial Entry" )
+	PORT_DIPSETTING( 0x20, DEF_STR( Off ))
+	PORT_DIPSETTING( 0x00, DEF_STR( On ))
+	PORT_BIT( 0xc0, 0xc0, IPT_UNUSED )
+
+	PORT_START	/* DSW 2 */
+	PORT_DIPNAME( 0x03, 0x03, DEF_STR( Game_Time ) )
+	PORT_DIPSETTING( 0x00, "60 seconds" )
+	PORT_DIPSETTING( 0x01, "70 seconds" )
+	PORT_DIPSETTING( 0x02, "80 seconds" )
+	PORT_DIPSETTING( 0x03, "90 seconds" )
+	PORT_DIPNAME( 0x1c, 0x1c, DEF_STR( Coin_B ))
+	PORT_DIPSETTING(	0x18, DEF_STR( 4C_1C ))
+	PORT_DIPSETTING(	0x14, DEF_STR( 3C_1C ))
+	PORT_DIPSETTING(	0x10, DEF_STR( 2C_1C ))
+/*  PORT_DIPSETTING(    0x00, DEF_STR( 1C_1C ))*/
+	PORT_DIPSETTING(	0x1c, DEF_STR( 1C_1C ))
+	PORT_DIPSETTING(	0x04, DEF_STR( 1C_2C ))
+	PORT_DIPSETTING(	0x08, DEF_STR( 1C_3C ))
+	PORT_DIPSETTING(	0x0c, DEF_STR( 1C_6C ))
+	PORT_DIPNAME( 0xe0, 0xe0, DEF_STR( Coin_A ))
+	PORT_DIPSETTING(	0xc0, DEF_STR( 4C_1C ))
+	PORT_DIPSETTING(	0xa0, DEF_STR( 3C_1C ))
+	PORT_DIPSETTING(	0x80, DEF_STR( 2C_1C ))
+/*  PORT_DIPSETTING(    0x00, DEF_STR( 1C_1C ))*/
+	PORT_DIPSETTING(	0xe0, DEF_STR( 1C_1C ))
+	PORT_DIPSETTING(	0x20, DEF_STR( 1C_2C ))
+	PORT_DIPSETTING(	0x40, DEF_STR( 1C_3C ))
+	PORT_DIPSETTING(	0x60, DEF_STR( 1C_6C ))
+
+	PORT_START	/* DSW 3 */
+	PORT_BIT( 0x0f, 0x00, IPT_UNUSED )		/* Merged with collision bits */
+	PORT_BIT( 0x30, 0x00, IPT_UNUSED )
+	PORT_DIPNAME( 0x40, 0x40, "Tachometer" )
+	PORT_DIPSETTING(	0x40, "Analog (Meter)")
+	PORT_DIPSETTING(	0x00, "Digital (led)")
+	PORT_DIPNAME( 0x80, 0x80, "Sound System" )
+	PORT_DIPSETTING(	0x80, DEF_STR( Upright ) )
+	PORT_DIPSETTING(	0x00, "Cockpit")
+
+	PORT_START		/* IN0 */
+	PORT_BIT( 0xff, 0, IPT_DIAL ) PORT_SENSITIVITY(10) PORT_KEYDELTA(30) PORT_RESET
+INPUT_PORTS_END
+
+Resolution: 248x208 @ 60Hz
+
+----
+Rules, Original Setting: http://www.twingalaxies.com/scores.php?scores=11959
+ROMSet: Turbo
+Car On Extended Play: 3
+Game time: Adjustable
+Difficulty: Easy
+Game Mode: Normal
+Inital Entry: On
+Game Time: 70 seconds
+Tachometer: Analog [Meter]
+Sound System: Upright
+
+Sample correct TG:
+DSW 1: offset 0x27, repeat every 0x7C, typical value 0xC5 - lower nibble precise
+- DSW 1: 0x03 (Car On Extended Play): 0x01 (3)
+- DSW 1: 0x04 (Game_Time): 0x04 (Adjustable)
+- DSW 1: 0x08 (Difficulty): 0x00 (Easy)
+- DSW 1: 0x10 (Game Mode): 0x00 (Normal)
+- DSW 1: 0x20 (Initial Entry): 0x00 (On)
+- DSW 1: 0xc0 (unused): [not relevant]
+DSW 2: offset 0x2B, repeat every 0x7C, typical value 0xFD - only lower nibble relevant
+- DSW 2: 0x03 (Game_Time): 0x01 (70 seconds)
+- DSW 2: 0x1c (Coin_B): [not relevant]
+- DSW 2: 0xe0 (Coin_A): [not relevant]
+DSW 3: offset 0x2F, repeat every 0x7C, typical value 0xC0 - only upper nibble relevant
+- DSW 3: 0x0f (unused): [not relevant]
+- DSW 3: 0x30 (unused): [not relevant]
+- DSW 3: 0x40 (Tachometer): 0x40 (Analog (Meter))
+- DSW 3: 0x80 (Sound System): 0x80 (Upright)
+
+    20: 00 00 00 FF 00 00 00 C5  00 00 00 FD 00 00 00 C0 | ... ...+...²...+
+    A0: 00 00 00 C5 00 00 00 FD  00 00 00 C0 00 00 00 00 | ...+...²...+....
+   110: 00 00 00 00 3E 82 43 E1  00 00 00 FF 00 00 00 C5 | ....>.Cß... ...+
+   120: 00 00 00 FD 00 00 00 C0  00 00 00 00 00 00 00 00 | ...²...+........
+----
+
+----
+Rules: Harder Setting: http://www.twingalaxies.com/scores.php?scores=18850
+ROMSet: Turbo
+Car On Extended Play: 1 
+Game time: Adjustable
+Difficulty: Hard
+Game Mode: Normal
+Inital Entry: On
+Game Time: 70 seconds
+Tachometer: Analog [Meter]
+Sound System: Upright
+
+Sample correct TG:
+DSW 1: offset 0x27, repeat every 0x7C, typical value 0xCF - lower nibble precise
+- DSW 1: 0x03 (Car On Extended Play): 0x03 (1)
+- DSW 1: 0x04 (Game_Time): 0x04 (Adjustable)
+- DSW 1: 0x08 (Difficulty): 0x08 (Hard)
+- DSW 1: 0x10 (Game Mode): 0x00 (Normal)
+- DSW 1: 0x20 (Initial Entry): 0x00 (On)
+- DSW 1: 0xc0 (unused): [not relevant]
+DSW 2: offset 0x2B, repeat every 0x7C, typical value 0xFD - only lower nibble relevant
+- DSW 2: 0x03 (Game_Time): 0x01 (70 seconds)
+- DSW 2: 0x1c (Coin_B): [not relevant]
+- DSW 2: 0xe0 (Coin_A): [not relevant]
+DSW 3: offset 0x2F, repeat every 0x7C, typical value 0xC0 - only upper nibble relevant
+- DSW 3: 0x0f (unused): [not relevant]
+- DSW 3: 0x30 (unused): [not relevant]
+- DSW 3: 0x40 (Tachometer): 0x40 (Analog (Meter))
+- DSW 3: 0x80 (Sound System): 0x80 (Upright)
+
+    20: 00 00 00 FF 00 00 00 CF  00 00 00 FD 00 00 00 C0 | ... ...-...²...+
+    A0: 00 00 00 CF 00 00 00 FD  00 00 00 C0 00 00 00 00 | ...-...²...+....
+   110: 00 00 00 00 3E 82 43 E1  00 00 00 FF 00 00 00 CF | ....>.Cß... ...-
+   120: 00 00 00 FD 00 00 00 C0  00 00 00 00 00 00 00 00 | ...²...+........
+----

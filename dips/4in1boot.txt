@@ -1,0 +1,9 @@
+ROM set changed: no
+0.106-0.110: 4in1boot - "Puzzle King (bootleg)"
+0.111-0.156: 4in1boot - "Puzzle King (includes bootleg of Snow Bros.)"
+0.157-0.169: 4in1boot - "Puzzle King (PacMan 2, Tetris, HyperMan 2, Snow Bros.)"
+
+MAME History:
+- 0.110u5: Changed description to 'Puzzle King (includes bootleg of Snow Bros.)' and manufacturer/year to (K1 Soft 2002).
+
+Resolution, 0.106-0.169: 256x224 @ 57.500000Hz

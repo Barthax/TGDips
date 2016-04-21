@@ -1,0 +1,10 @@
+ROM set changed: no but rules incorrectly specify mshvssfu
+0.106-0.169: mshvsfu - "Marvel Super Heroes Vs. Street Fighter (US 970827)"
+
+Resolution, 0.106-0.113: 384x224 @ 59.633331Hz
+Resolution, 0.114-0.127: 384x224 @ 59.633333Hz
+Resolution, 0.128-0.152: 384x224 @ 59.629403Hz
+Resolution, 0.153-0.169: 384x224 @ 59.637405Hz
+
+Note: can use Service Mode (F2) after playback to confirm the settings.  Navigation is done with Up/Down and primary fire button.
+Rules: http://www.twingalaxies.com/scores.php?scores=75523

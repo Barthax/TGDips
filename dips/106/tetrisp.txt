@@ -1,0 +1,214 @@
+INPUT_PORTS_START( tetrisp )
+    MS32_UNKNOWN_INPUTS
+
+
+    MS32_SYSTEM_INPUTS
+    PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_UNKNOWN )
+    PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_UNKNOWN )
+
+
+    /* There are inputs for players 3 and 4 in the "test mode",
+       but NO addresses are read to check them ! */
+
+
+    PORT_START_TAG("IN2")
+    MS32_PLAYER_INPUTS(1, BUTTON1, BUTTON2, UNKNOWN, UNKNOWN)    // BUTTON3 and BUTTON4 in "test mode"
+    PORT_START_TAG("IN3")
+    MS32_PLAYER_INPUTS(2, BUTTON1, BUTTON2, UNKNOWN, UNKNOWN)    // BUTTON3 and BUTTON4 in "test mode"
+
+
+    MS32_DIP1
+
+
+    PORT_START_TAG("DSW2")
+    PORT_DIPNAME( 0xc0, 0xc0, DEF_STR( Difficulty ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( Easy ) )
+    PORT_DIPSETTING(    0xc0, DEF_STR( Normal ) )
+    PORT_DIPSETTING(    0x40, DEF_STR( Hard ) )
+    PORT_DIPSETTING(    0x80, DEF_STR( Hardest ) )
+    PORT_DIPNAME( 0x30, 0x30, "Winning Rounds (Player VS Player)" )
+    PORT_DIPSETTING(    0x00, "1/1" )
+    PORT_DIPSETTING(    0x30, "2/3" )
+    PORT_DIPSETTING(    0x10, "3/5" )
+    PORT_DIPSETTING(    0x20, "4/7" )
+    PORT_DIPNAME( 0x0c, 0x0c, "Join In" )
+    PORT_DIPSETTING(    0x0c, "All Modes" )
+    PORT_DIPSETTING(    0x04, "Normal and Puzzle Modes" )
+    PORT_DIPSETTING(    0x08, "VS Mode" )
+//  PORT_DIPSETTING(    0x00, "Normal and Puzzle Modes" )       // "can't play normal mode" in "test mode"
+    PORT_DIPNAME( 0x02, 0x02, DEF_STR( Demo_Sounds ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( Off ) )
+    PORT_DIPSETTING(    0x02, DEF_STR( On ) )
+    PORT_DIPNAME( 0x01, 0x01, DEF_STR( Flip_Screen ) )
+    PORT_DIPSETTING(    0x01, DEF_STR( Off ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+
+
+    PORT_START_TAG("DSW3")
+    PORT_DIPNAME( 0x80, 0x00, DEF_STR( Language ) )
+    PORT_DIPSETTING(    0x80, DEF_STR( Japanese ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( English ) )
+    PORT_DIPNAME( 0x40, 0x40, "FBI Logo" )
+    PORT_DIPSETTING(    0x40, DEF_STR( No ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( Yes ) )
+    PORT_DIPNAME( 0x20, 0x20, DEF_STR( Unused ) )
+    PORT_DIPSETTING(    0x20, DEF_STR( Off ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+    PORT_DIPNAME( 0x10, 0x10, "Voice" )
+    PORT_DIPSETTING(    0x00, "English Only" )
+    PORT_DIPSETTING(    0x10, DEF_STR( Yes ) )
+    PORT_DIPNAME( 0x08, 0x08, "After VS Mode" )
+    PORT_DIPSETTING(    0x08, "Game Ends" )
+    PORT_DIPSETTING(    0x00, "Winner Continues" )
+    PORT_DIPNAME( 0x04, 0x04, DEF_STR( Unused ) )
+    PORT_DIPSETTING(    0x04, DEF_STR( Off ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+    PORT_DIPNAME( 0x02, 0x02, DEF_STR( Unused ) )
+    PORT_DIPSETTING(    0x02, DEF_STR( Off ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+    PORT_DIPNAME( 0x01, 0x01, "Freeze" )
+    PORT_DIPSETTING(    0x01, DEF_STR( Off ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+
+
+    MS32_UNUSED_PORT
+
+
+INPUT_PORTS_END
+
+
+#define MS32_UNKNOWN_INPUTS \
+    PORT_START_TAG("UNKNOWN") \
+    PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_UNKNOWN ) \
+    PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_UNKNOWN ) \
+    PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_UNKNOWN ) \
+    PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_UNKNOWN ) \
+    PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_UNKNOWN ) \
+    PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_UNKNOWN ) \
+    PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_UNKNOWN ) \
+    PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_UNKNOWN )
+
+
+#define MS32_SYSTEM_INPUTS \
+    PORT_START_TAG("IN1") \
+    PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_COIN1 ) \
+    PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_COIN2 ) \
+    PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_SERVICE1 ) \
+    PORT_BIT(0x08, IP_ACTIVE_LOW, IPT_SERVICE ) PORT_NAME(DEF_STR( Test )) PORT_CODE(KEYCODE_F1) \
+    PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_START1 ) \
+    PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_START2 )
+    /* bits 6 and 7 might be different from game to game */
+
+
+#define MS32_PLAYER_INPUTS(_n_, _b1_, _b2_, _b3_, _b4_) \
+    PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_JOYSTICK_UP    ) PORT_PLAYER(_n_) \
+    PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN  ) PORT_PLAYER(_n_) \
+    PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT  ) PORT_PLAYER(_n_) \
+    PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_PLAYER(_n_) \
+    PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_##_b1_         ) PORT_PLAYER(_n_) \
+    PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_##_b2_         ) PORT_PLAYER(_n_) \
+    PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_##_b3_         ) PORT_PLAYER(_n_) \
+    PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_##_b4_         ) PORT_PLAYER(_n_)
+
+
+#define MS32_DIP1 \
+    PORT_START_TAG("DSW1") \
+    PORT_DIPNAME( 0xe0, 0xe0, DEF_STR( Coin_A ) ) \
+    PORT_DIPSETTING(    0x00, DEF_STR( 5C_1C ) ) \
+    PORT_DIPSETTING(    0x80, DEF_STR( 4C_1C ) ) \
+    PORT_DIPSETTING(    0x40, DEF_STR( 3C_1C ) ) \
+    PORT_DIPSETTING(    0xc0, DEF_STR( 2C_1C ) ) \
+    PORT_DIPSETTING(    0xe0, DEF_STR( 1C_1C ) ) \
+    PORT_DIPSETTING(    0x60, DEF_STR( 1C_2C ) ) \
+    PORT_DIPSETTING(    0xa0, DEF_STR( 1C_3C ) ) \
+    PORT_DIPSETTING(    0x20, DEF_STR( 1C_4C ) ) \
+    PORT_DIPNAME( 0x1c, 0x1c, DEF_STR( Coin_B ) ) \
+    PORT_DIPSETTING(    0x00, DEF_STR( 5C_1C ) ) \
+    PORT_DIPSETTING(    0x10, DEF_STR( 4C_1C ) ) \
+    PORT_DIPSETTING(    0x08, DEF_STR( 3C_1C ) ) \
+    PORT_DIPSETTING(    0x18, DEF_STR( 2C_1C ) ) \
+    PORT_DIPSETTING(    0x1c, DEF_STR( 1C_1C ) ) \
+    PORT_DIPSETTING(    0x0c, DEF_STR( 1C_2C ) ) \
+    PORT_DIPSETTING(    0x14, DEF_STR( 1C_3C ) ) \
+    PORT_DIPSETTING(    0x04, DEF_STR( 1C_4C ) ) \
+    PORT_DIPNAME( 0x02, 0x02, DEF_STR( Free_Play ) ) \
+    PORT_DIPSETTING(    0x02, DEF_STR( Off ) ) \
+    PORT_DIPSETTING(    0x00, DEF_STR( On ) ) \
+    PORT_SERVICE( 0x01, IP_ACTIVE_LOW )
+
+
+Resolution: 320 x 224 @ 60 Hz
+
+
+Points [Normal Mode]
+Rules: http://www.twingalaxies.com/scores.php?scores=120364
+ROMSet: TetrisP
+Free Play: Off
+Service Mode: Off
+Difficulty: Normal
+Winning Rounds [Player vs Player]: 2/3
+Join In: All Modes
+Flip Screen: Off
+Language: English
+FBI Logo: No
+Unused: Off [All]
+Voice: Yes
+After VS Mode: Game Ends
+Freeze: Off
+Special Rules: This is a Single Player ONLY variation for Normal Mode.
+Note: These are the default settings for WolfMAME 0.106. Normal Mode is chosen after startup.
+
+
+Points [Puzzle Mode]
+http://www.twingalaxies.com/scores.php?scores=120365
+ROMSet: TetrisP
+Free Play: Off
+Service Mode: Off
+Difficulty: Normal
+Winning Rounds [Player vs Player]: 2/3
+Join In: All Modes
+Flip Screen: Off
+Language: English
+FBI Logo: No
+Unused: Off [All]
+Voice: Yes
+After VS Mode: Game Ends
+Freeze: Off
+Special Rules: This is a Single Player ONLY variation for Puzzle Mode. You may freely Easy or Standard.
+Note: These are the default settings for WolfMAME 0.106. Puzzle Mode is chosen after startup.
+
+
+DIPs are the same for Normal Mode and Puzzle Mode
+
+
+DSW1: offset 0x33, repeat every 0x7C, typical value 0xFF
+-DSW1: 0xe0 (Coin A): [not relevant, typical value 0xe0 (1C_1C)
+-DSW1: 0x1c (Coin B): [not relevant, typical value 0x1c (1C_1C)
+-DSW1: 0x02 (Free Play): 0x02 (Off)
+-DSW1: PORT_SERVICE: 0x01
+
+DSW2: offset 0x37, repeat every 0x7C, typical value 0xFF
+-DSW2: 0xc0 (Difficulty): 0xc0 (Normal)
+-DSW2: 0x30 (Winning Rounds (Player VS Player)): 0x30 (2/3)
+-DSW2: 0x0c (Join In): 0x0c (All Modes)
+-DSW2: 0x02 (Demo Sounds): [not relevant, typical value 0x02 (On)]
+-DSW2: 0x01 (Flip Screen): 0x01 (Off)
+ 
+DSW3: offset 0x3B, repeat every 0x7C, typical value 0x7F
+-DSW3: 0x80 (Language): 0x00 (English)
+-DSW3: 0x40 (FBI Logo): 0x40 (No)
+-DSW3: 0x20 (Unused): 0x20 (Off)
+-DSW3: 0x10 (Voice): 0x10 (Yes)
+-DSW3: 0x08 (After VS Mode): 0x08 (Game Ends)
+-DSW3: 0x04 (Unused): 0x04 (Off)
+-DSW3: 0x02 (Unused): 0x02 (Off)
+-DSW3: 0x01 (Freeze): 0x01 (Off)
+
+
+ 90: 00 00 00 00 00 00 00 00  3E 82 43 E1 00 00 00 FF | ........>‚Cá...ÿ
+ A0: 00 00 00 FF 00 00 00 FF  00 00 00 FF 00 00 00 FF | ...ÿ...ÿ...ÿ...ÿ
+ B0: 00 00 00 FF 00 00 00 7F  00 00 00 FF 00 00 00 00 | ...ÿ.......ÿ....
+...
+110: 00 00 00 00 3E 82 43 E1  00 00 00 FF 00 00 00 FF | ....>‚Cá...ÿ...ÿ
+120: 00 00 00 FF 00 00 00 FF  00 00 00 FF 00 00 00 FF | ...ÿ...ÿ...ÿ...ÿ
+130: 00 00 00 7F 00 00 00 FF  00 00 00 00 00 00 00 00 | .......ÿ........

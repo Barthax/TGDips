@@ -1,0 +1,4 @@
+ROM set changed: no
+0.106-0.169: hvnsgate - "Heaven's Gate"
+
+Resolution, 0.106-0.169: 640x480 @ 60.000000Hz

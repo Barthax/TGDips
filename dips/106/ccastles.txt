@@ -1,0 +1,59 @@
+# MAME 0.106 source snippet.
+
+/*************************************
+ *
+ *  Port definitions
+ *
+ *************************************/
+
+INPUT_PORTS_START( ccastles )
+	PORT_START	/* IN0 */
+	PORT_BIT ( 0x01, IP_ACTIVE_LOW, IPT_COIN2 )
+	PORT_BIT ( 0x02, IP_ACTIVE_LOW, IPT_COIN1 )
+	PORT_BIT ( 0x04, IP_ACTIVE_LOW, IPT_COIN3 )
+	PORT_BIT ( 0x08, IP_ACTIVE_LOW, IPT_TILT )
+	PORT_SERVICE( 0x10, IP_ACTIVE_LOW )
+	PORT_BIT ( 0x20, IP_ACTIVE_HIGH, IPT_VBLANK )
+	PORT_BIT ( 0x40, IP_ACTIVE_LOW, IPT_BUTTON1 )				/* 1p Jump, non-cocktail start1 */
+	PORT_BIT ( 0x80, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_PLAYER(2)		/* 2p Jump, non-cocktail start2 */
+
+	PORT_START	/* IN1 */
+	PORT_BIT ( 0x07, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_BIT ( 0x08, IP_ACTIVE_LOW, IPT_START1 )				/* cocktail only */
+	PORT_BIT ( 0x10, IP_ACTIVE_LOW, IPT_START2 )				/* cocktail only */
+	PORT_DIPNAME( 0x20, 0x00, DEF_STR( Cabinet ) )
+	PORT_DIPSETTING (   0x00, DEF_STR( Upright ) )
+	PORT_DIPSETTING (   0x20, DEF_STR( Cocktail ) )
+	PORT_BIT ( 0xc0, IP_ACTIVE_HIGH, IPT_UNKNOWN )
+
+	PORT_START	/* IN2 */
+	PORT_BIT( 0xff, 0x7f, IPT_TRACKBALL_Y ) PORT_SENSITIVITY(10) PORT_KEYDELTA(30) PORT_REVERSE
+
+	PORT_START	/* IN3 */
+	PORT_BIT( 0xff, 0x7f, IPT_TRACKBALL_X ) PORT_SENSITIVITY(10) PORT_KEYDELTA(30)
+INPUT_PORTS_END
+
+Resolution: 256x232 @ 60Hz
+
+Use Service Mode (F2) button to access internal settings: P1 Start to navigate and P2 start to select.
+Rules: http://www.twingalaxies.com/scores.php?scores=5190
+ROMSet: CCastles
+Service Mode: Off
+Cabinet: Upright
+Internal Defaults
+
+Game Difficulty: Medium
+Starting Lives: 3
+Extra Lives: Yes
+
+Sample correct TG:
+IN1: offset 0x27, repeat every 0x7C, typical value 0x1F
+- IN1: 0x07 (unknown): [not relevant]
+- IN1: 0x08 (start1): [not relevant]
+- IN1: 0x10 (start2): [not relevant]
+- IN1: 0x20 (Cabinet): 0x00 (Upright)
+- IN1: 0xc0 (unknown): [not relevant]
+
+    20: 00 00 00 DF 00 00 00 1F  00 00 00 7F 00 00 00 7F | ...¯............
+    A0: 00 00 00 1F 00 00 00 7F  00 00 00 7F 00 00 00 00 | ................
+   110: 00 00 00 00 3E 82 43 E1  00 00 00 FF 00 00 00 1F | ....>.Cß... ....

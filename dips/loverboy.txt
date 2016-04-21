@@ -1,0 +1,7 @@
+ROM set changed?: Added in 0.119u2.
+0.120-0.169: loverboy - "Lover Boy"
+
+Resolution, 0.120-0.169: 256x224 @ 60.000000Hz
+
+Rules: http://www.twingalaxies.com/scores.php?scores=132411
+

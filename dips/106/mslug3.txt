@@ -1,0 +1,16 @@
+All configuration is done via soft-dips.  Use F2 to enter Service Mode after the recording if settings are not shown during the recording.
+
+Resolution: 320x224 @ 59.185608Hz
+
+Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=14706
+Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=14707
+ROMSet: MSlug3
+Hero: 3
+Continue: Off
+Difficulty: Level 4
+Play Time: 60
+Play Manual: ON
+Credit/Level: ON/ON
+Language: English
+Blood: ON or Off
+Country: USA

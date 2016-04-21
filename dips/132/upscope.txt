@@ -1,0 +1,42 @@
+ROM set changed? 0.105u3 - 0.161, no.
+
+
+#MAME Source info from upscope.c
+#Source/driver version 0.132
+
+
+#Game Information: (Year, Driver, Parent, Machine, Inputs, Init, Orientation, Manufacturer, Name, Status)
+GAME( 1986, upscope, 0, upscope, upscope, upscope, ORIENTATION_FLIP_X, "Grand Products", "Up Scope", GAME_IMPERFECT_SOUND )
+
+
+static INPUT_PORTS_START( upscope )
+	PORT_START("POT1DAT")
+	PORT_BIT( 0xff, 0x80, IPT_PADDLE) PORT_SENSITIVITY(25) PORT_MINMAX(0x02,0xfe) PORT_KEYDELTA(5) PORT_CENTERDELTA(0) PORT_REVERSE
+
+
+	PORT_START("IO0")
+	PORT_SERVICE( 0x01, IP_ACTIVE_LOW )
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_BUTTON1 )
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_COIN1 )
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_COIN2 )
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN )
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_JOYSTICK_UP )
+INPUT_PORTS_END
+
+
+Resolution: 671x216 @ 59.997 Hz
+
+
+Rules: http://www.twingalaxies.com/scores.php?scores=120523
+ROMSet: UpScope
+Service Mode: Off
+Start Time: 90
+Bonus Time: 30
+Special Rules: None
+Special Note: Please note, this title is NOT working as of Wolfmame 0.106. When a newer version is accepted and this title works, this note will be removed.
+
+
+Note: These are the default settings in WolfMAME 0.132
+
+
+DIP analysis and INP dump not relevant. The only DIP is for Service Mode, which will be obvious from playback if used. Start Time (90) and Bonus Time (30) default to TG rules and can be visually confirmed during playback.

@@ -1,0 +1,29 @@
+ROM set changed: yes
+0.106-0.156: dharma - "Dharma Doujou"
+0.157-0.169: dharmaj - "Dharma Doujou (Japan)"
+
+Resolution, 0.106-0.144: 320x224 @ 60.000000Hz
+Resolution, 0.145-0.146: 320x240 @ 59.922743Hz
+Resolution, 0.147-0.169: 320x224 @ 60.000000Hz
+
+
+Additional information to confirm transition from 0.156 to 0.157
+C:\MAME>mame156 -listcrc dharma
+b5d44426 dd_jc-5                 dharma          Dharma Doujou
+bc5a202e dd_jc-6                 dharma          Dharma Doujou
+af7ebc4c dd_ja-8                 dharma          Dharma Doujou
+2c07c29b dd_jb-2                 dharma          Dharma Doujou
+fe15538e dd_jb-4                 dharma          Dharma Doujou
+e6ca9bf6 dd_jb-1                 dharma          Dharma Doujou
+6ecbe193 dd_jb-3                 dharma          Dharma Doujou
+7ce817eb dd_ja-7                 dharma          Dharma Doujou
+
+C:\MAME>mame157 -listcrc dharmaj
+b5d44426 dd_jc-5                 dharmaj         Dharma Doujou (Japan)
+bc5a202e dd_jc-6                 dharmaj         Dharma Doujou (Japan)
+af7ebc4c dd_ja-8                 dharmaj         Dharma Doujou (Japan)
+2c07c29b dd_jb-2                 dharmaj         Dharma Doujou (Japan)
+fe15538e dd_jb-4                 dharmaj         Dharma Doujou (Japan)
+e6ca9bf6 dd_jb-1                 dharmaj         Dharma Doujou (Japan)
+6ecbe193 dd_jb-3                 dharmaj         Dharma Doujou (Japan)
+7ce817eb dd_ja-7                 dharmaj         Dharma Doujou (Japan)

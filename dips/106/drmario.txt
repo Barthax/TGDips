@@ -1,0 +1,51 @@
+INPUT_PORTS_START( drmario )
+    VS_CONTROLS_REVERSE( IPT_START1, IPT_UNKNOWN, IPT_START2, IPT_UNKNOWN )
+
+
+    PORT_START /* DSW0 - bit 0 and 1 read from bit 3 and 4 on $4016, rest of the bits read on $4017 */
+    PORT_DIPNAME( 0x03, 0x00, "Drop Rate Increases After" )
+    PORT_DIPSETTING(    0x00, "7 Pills" )
+    PORT_DIPSETTING(    0x01, "8 Pills" )
+    PORT_DIPSETTING(    0x02, "9 Pills" )
+    PORT_DIPSETTING(    0x03, "10 Pills" )
+    PORT_DIPNAME( 0x0c, 0x00, "Virus Level" )
+    PORT_DIPSETTING(    0x00, "1" )
+    PORT_DIPSETTING(    0x04, "3" )
+    PORT_DIPSETTING(    0x08, "5" )
+    PORT_DIPSETTING(    0x0c, "7" )
+    PORT_DIPNAME( 0x30, 0x00, "Drop Speed Up" )
+    PORT_DIPSETTING(    0x00, "Slow" )
+    PORT_DIPSETTING(    0x10, DEF_STR( Medium ) )
+    PORT_DIPSETTING(    0x20, "Fast" )
+    PORT_DIPSETTING(    0x30, "Fastest" )
+    PORT_DIPNAME( 0x40, 0x00, DEF_STR( Free_Play ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( Off ) )
+    PORT_DIPSETTING(    0x40, DEF_STR( On ) )
+    PORT_DIPNAME( 0x80, 0x80, DEF_STR( Demo_Sounds ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( Off ) )
+    PORT_DIPSETTING(    0x80, DEF_STR( On ) )
+INPUT_PORTS_END
+
+Resolution: 256x240 @ 60Hz
+
+Rules: http://www.twingalaxies.com/scores.php?scores=10981
+ROMSet: DrMario
+Drop Rate Increase After: 7 Pills
+Virus Level: 1
+Drop Speed Up: Medium
+Free Play: Off
+Special Rules: You may freely choose your Starting Level and Music.
+
+
+Sample correct TG:
+DSW0: offset 0x2F, repeat every 0x7C, typical value 0x90
+-DSW0: 0x03 (Drop Rate Increases After): 0x00 (7 Pills)
+-DSW0: 0x0c (Virus Level): 0x00 (1)
+-DSW0: 0x30 (Drop Speed Up): 0x10 (Medium)
+-DSW0: 0x40 (Free Play): 0x00 (Off)
+-DSW0: 0x80 (Demo Sounds): [not relevant]
+
+
+ 20: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 90 | ................
+ A0: 00 00 00 00 00 00 00 00  00 00 00 90 00 00 00 00 ................
+120: 00 00 00 00 00 00 00 90  00 00 00 00 00 00 00 00 ................

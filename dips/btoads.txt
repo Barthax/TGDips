@@ -1,0 +1,6 @@
+ROM set changed: no
+0.106-0.147: btoads - "Battle Toads"
+0.148-0.168: btoads - "Battletoads" (minor description change)
+
+Resolution, 0.106-0.114: 512x224 @ 60.000000Hz
+Resolution, 0.115-0.168: 512x224 @ 60.797665Hz

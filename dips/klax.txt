@@ -1,0 +1,7 @@
+ROM Changes: none
+0.106-0.169: klax - "Klax (set 1)"
+
+Resolution, 0.106-0.114: 336x240 @ 60.000000Hz
+Resolution, 0.115-0.169: 336x240 @ 59.922743Hz
+
+Rules: http://www.twingalaxies.com/scores.php?scores=7756

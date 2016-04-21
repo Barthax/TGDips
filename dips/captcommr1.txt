@@ -1,0 +1,12 @@
+ROM set changed: yes
+0.106-0.138: captcomm - "Captain Commando (World 911014)"
+0.139-0.169: captcommr1 - "Captain Commando (World 911014)"
+
+MAME History: 
+- 0.138u4: Stefan Lindberg and The Dumping Union added Captain Commando (World 911202). Renamed (captcomm) to (captcommr1).
+
+Resolution, 0.106-0.126: 384x224 @ 60.000000Hz
+Resolution, 0.127-0.147: 384x224 @ 59.610000Hz
+Resolution, 0.148-0.152: 384x224 @ 59.629403Hz
+Resolution, 0.153-0.169: 384x224 @ 59.637405Hz
+

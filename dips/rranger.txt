@@ -1,0 +1,7 @@
+ROM set changed: yes
+0.106-0.135: rranger - "Rough Ranger (v2.0)"
+0.136-0.152: rranger - "Rough Ranger (v2.0, unprotected, bootleg?)"
+0.153-0.170: rrangerb - "Rough Ranger (v2.0, bootleg)"
+
+Resolution, 0.106-0.155: 256x224 @ 60.000000Hz
+Resolution, 0.156-0.170: 256x224 @ 59.100000Hz

@@ -1,0 +1,11 @@
+ROM set changed: yes
+0.106-0.127: samsho3 - "Samurai Shodown III / Samurai Spirits - Zankurou Musouken (set 1)"
+0.127u6-0.143: samsho3h - "Samurai Shodown III / Samurai Spirits - Zankurou Musouken (set 2)"
+0.144-0.170: samsho3h - "Samurai Shodown III / Samurai Spirits - Zankurou Musouken (NGH-087)"
+
+MAME History:
+- 0.127u6: Johnboy renamed (samsho3) to (samsho3h) and (samsho3a) to (samsho3). Renamed p1 to correct chip label. Marked samsho3h as AES version.
+
+Resolution, 0.106-0.113: 320x224 @ 59.185608Hz
+Resolution, 0.114-0.170: 320x224 @ 59.185606Hz
+

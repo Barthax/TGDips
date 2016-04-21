@@ -1,0 +1,61 @@
+INPUT_PORTS_START( complexx )
+	PORT_START	/* PIA 0 Port A (Left Stick) */
+    PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_JOYSTICKLEFT_UP ) PORT_8WAY
+    PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_JOYSTICKLEFT_RIGHT ) PORT_8WAY
+    PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_JOYSTICKLEFT_DOWN ) PORT_8WAY
+    PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_JOYSTICKLEFT_LEFT ) PORT_8WAY
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_BUTTON1 )
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_START2 )
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_START1 )
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_UNUSED )
+
+/* 0x80 isn't scanned unless the difficulty in the game is below 4. I
+decided not to map this button, so if you set the difficulty that low,
+you can't fire. If I do map that button, and you set difficulty below 4
+and hit this fire button without pressing the second stick in any
+direction it fires up. If you're pressing left it fires right, press
+right it fires left and press down it fires down. That's just too wacky.
+I gotta think it's not supposed to be hooked up at all and if the
+difficulty is that low, you just can't shoot, so I think it should stay
+as-is. Tim Lindquist 1-17-03 */
+
+	PORT_START	/* PIA 0 Port B (COIN) */
+	COIN_PORT
+
+	PORT_START	/* PIA 1 Port A (SPARE) */
+	PORT_BIT( 0xff, IP_ACTIVE_LOW, IPT_UNKNOWN )
+
+    PORT_START	/* PIA 1 Port B (PLAYER 1/2) */
+	PORT_BIT( 0xff, IP_ACTIVE_LOW, IPT_UNKNOWN )
+
+	PORT_START	/* PIA 2 Port A (Right Stick) */
+    PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_UNUSED )
+    PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_UNUSED )
+    PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_UNUSED )
+    PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_UNUSED )
+    PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_JOYSTICKRIGHT_UP ) PORT_8WAY
+    PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_JOYSTICKRIGHT_RIGHT ) PORT_8WAY
+    PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_JOYSTICKRIGHT_DOWN ) PORT_8WAY
+    PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_JOYSTICKRIGHT_LEFT ) PORT_8WAY
+INPUT_PORTS_END
+
+#define COIN_PORT \
+	PORT_BIT(0x01, IP_ACTIVE_LOW, IPT_SERVICE ) PORT_NAME("Test Advance") PORT_CODE(KEYCODE_F1) \
+	PORT_BIT(0x02, IP_ACTIVE_LOW, IPT_SERVICE ) PORT_NAME("Test Next line") PORT_CODE(KEYCODE_F2) \
+	PORT_BIT(0x04, IP_ACTIVE_LOW, IPT_SERVICE ) PORT_NAME("Test Slew Up") PORT_CODE(KEYCODE_F5) \
+	PORT_BIT(0x08, IP_ACTIVE_LOW, IPT_SERVICE ) PORT_NAME("Test Slew Down") PORT_CODE(KEYCODE_F6) \
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_COIN1 ) \
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_COIN2 ) \
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_COIN3 ) \
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_TILT )
+
+Resolution: 256x240 @ 60Hz
+
+Rules: http://www.twingalaxies.com/scores.php?scores=55693
+ROMSet: ComplexX
+Number of Turns: 3
+First Bonus [0000]: 15
+Difficulty Index: 4
+Table Mode: 0
+
+No hardware dips - all software.

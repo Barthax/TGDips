@@ -1,0 +1,12 @@
+ROM set changes: yes
+0.106-0.111: spf2t - "Super Puzzle Fighter II Turbo (US 960620)"
+0.112-0.160: spf2t - "Super Puzzle Fighter II Turbo (USA 960620)"
+0.161-0.169: spf2tu - "Super Puzzle Fighter II Turbo (USA 960620)"
+
+Resolution, 0.106-0.113: 384x224 @ 59.633331Hz
+Resolution, 0.114-0.127: 384x224 @ 59.633333Hz
+Resolution, 0.128-0.152: 384x224 @ 59.629403Hz
+Resolution, 0.153-0.169: 384x224 @ 59.637405Hz
+
+Note: all settings are internal.  Use Service Mode (F2) to access and confirm after playback if not shown during playback.
+Rules: http://www.twingalaxies.com/scores.php?scores=30449

@@ -1,0 +1,5 @@
+ROM set changed?: No major changes. "Unknown" DIP in 0.106 was updated to "Cabinet" in 0.111u4.
+0.106-0.169: invad2ct - "Space Invaders II (Midway, cocktail)"
+
+Resolution, 0.106-0.111: 256x224 @ 60.000000Hz
+Resolution, 0.112-0.169: 260x224 @ 59.541985Hz

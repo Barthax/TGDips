@@ -1,0 +1,10 @@
+ROM set changed: yes
+0.106-0.119: crkdown - "Crack Down (US, FD1094 317-0058-04d)"
+0.119u3-0.121: crkdownu - "Crack Down (US, FD1094 317-0058-04d)"
+0.122-0.169: crkdownu - "Crack Down (US, Floppy Based, FD1094 317-0058-04d)" (description change only)
+
+MAME History:
+- 0.119u3: Arzeno Fabrice and Chris Hardy added Crack Down (World, FD1094 317-0058-04c). Renamed (crkdown) to (crkdownu).
+
+Resolution, 0.106-0.127: 496x384 @ 58.000000Hz
+Resolution, 0.128-0.169: 496x384 @ 57.524160Hz

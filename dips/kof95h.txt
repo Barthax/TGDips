@@ -1,0 +1,10 @@
+ROM set changed: yes
+0.106-0.127: kof95 - "The King of Fighters '95 (set 1)"
+0.127u6-0.143: kof95h - "The King of Fighters '95 (set 2)"
+0.144-0.170: kof95h - "The King of Fighters '95 (NGH-084)"
+
+MAME History:
+- 0.127u6: Johnboy renamed (kof95) to (kof95h) and (kof95a) to (kof95). Renamed p1 to correct chip label and added note.
+
+Resolution, 0.106-0.113: 320x224 @ 59.185608Hz
+Resolution, 0.114-0.127: 320x224 @ 59.185606Hz

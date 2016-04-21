@@ -1,0 +1,109 @@
+# MAME 0.106 source snippet.
+
+GAME( 1993, nost,     0,       nost,    nost,    mcatadv, ROT270, "Face",      "Nostradamus", GAME_NO_COCKTAIL )
+
+INPUT_PORTS_START( nost )
+    PORT_START_TAG("IN0")
+    PORT_BIT( 0x0001, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_PLAYER(1)
+    PORT_BIT( 0x0002, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_PLAYER(1)
+    PORT_BIT( 0x0004, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_PLAYER(1)
+    PORT_BIT( 0x0008, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_PLAYER(1)
+    PORT_BIT( 0x0010, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_PLAYER(1)
+    PORT_BIT( 0x0020, IP_ACTIVE_LOW, IPT_UNKNOWN )                    // Button 2 in "test mode"
+    PORT_BIT( 0x0040, IP_ACTIVE_LOW, IPT_UNKNOWN )                    // Button 3 in "test mode"
+    PORT_BIT( 0x0080, IP_ACTIVE_LOW, IPT_START1 )
+    PORT_BIT( 0x0100, IP_ACTIVE_LOW, IPT_COIN1 )
+    PORT_BIT( 0x0200, IP_ACTIVE_LOW, IPT_UNKNOWN )                    // "test" 3 in "test mode"
+    PORT_BIT( 0x0800, IP_ACTIVE_HIGH, IPT_UNKNOWN )                    // Must be LOW or startup freezes !
+    PORT_BIT( 0xf400, IP_ACTIVE_LOW, IPT_UNKNOWN )
+
+    PORT_START_TAG("IN1")
+    PORT_BIT( 0x0001, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_PLAYER(2)
+    PORT_BIT( 0x0002, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_PLAYER(2)
+    PORT_BIT( 0x0004, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_PLAYER(2)
+    PORT_BIT( 0x0008, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_PLAYER(2)
+    PORT_BIT( 0x0010, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_PLAYER(2)
+    PORT_BIT( 0x0020, IP_ACTIVE_LOW, IPT_UNKNOWN )                    // Button 2 in "test mode"
+    PORT_BIT( 0x0040, IP_ACTIVE_LOW, IPT_UNKNOWN )                    // Button 3 in "test mode"
+    PORT_BIT( 0x0080, IP_ACTIVE_LOW, IPT_START2 )
+    PORT_BIT( 0x0100, IP_ACTIVE_LOW, IPT_COIN2 )
+    PORT_BIT( 0x0200, IP_ACTIVE_LOW, IPT_SERVICE1 )
+    PORT_BIT( 0xfc00, IP_ACTIVE_LOW, IPT_UNKNOWN )
+
+    PORT_START_TAG("DSW1")
+    PORT_DIPNAME( 0x03, 0x03, DEF_STR( Lives ) )
+    PORT_DIPSETTING(    0x02, "2" )
+    PORT_DIPSETTING(    0x03, "3" )
+    PORT_DIPSETTING(    0x01, "4" )
+    PORT_DIPSETTING(    0x00, "5" )
+    PORT_DIPNAME( 0x0c, 0x0c, DEF_STR( Difficulty ) )
+    PORT_DIPSETTING(    0x08, DEF_STR( Easy ) )
+    PORT_DIPSETTING(    0x0c, DEF_STR( Normal ) )
+    PORT_DIPSETTING(    0x04, DEF_STR( Hard ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( Hardest ) )
+    PORT_DIPNAME( 0x10, 0x10, DEF_STR( Flip_Screen ) )
+    PORT_DIPSETTING(    0x10, DEF_STR( Off ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+    PORT_DIPNAME( 0x20, 0x20, DEF_STR( Demo_Sounds ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( Off ) )
+    PORT_DIPSETTING(    0x20, DEF_STR( On ) )
+    PORT_DIPNAME( 0xc0, 0xc0, DEF_STR( Bonus_Life ) )
+    PORT_DIPSETTING(    0x80, "500k 1000k" )
+    PORT_DIPSETTING(    0xc0, "800k 1500k" )
+    PORT_DIPSETTING(    0x40, "1000k 2000k" )
+    PORT_DIPSETTING(    0x00, DEF_STR( None ) )
+
+    PORT_START_TAG("DSW2")
+    PORT_DIPNAME( 0x07, 0x07, DEF_STR( Coin_A ) )
+    PORT_DIPSETTING(    0x02, DEF_STR( 3C_1C ) )
+    PORT_DIPSETTING(    0x04, DEF_STR( 2C_1C ) )
+    PORT_DIPSETTING(    0x01, DEF_STR( 3C_2C ) )
+    PORT_DIPSETTING(    0x07, DEF_STR( 1C_1C ) )
+    PORT_DIPSETTING(    0x03, DEF_STR( 2C_3C ) )
+    PORT_DIPSETTING(    0x06, DEF_STR( 1C_2C ) )
+    PORT_DIPSETTING(    0x05, DEF_STR( 1C_3C ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( Free_Play ) )
+    PORT_DIPNAME( 0x38, 0x38, DEF_STR( Coin_B ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( 4C_1C ) )
+    PORT_DIPSETTING(    0x10, DEF_STR( 3C_1C ) )
+    PORT_DIPSETTING(    0x20, DEF_STR( 2C_1C ) )
+    PORT_DIPSETTING(    0x08, DEF_STR( 3C_2C ) )
+    PORT_DIPSETTING(    0x38, DEF_STR( 1C_1C ) )
+    PORT_DIPSETTING(    0x18, DEF_STR( 2C_3C ) )
+    PORT_DIPSETTING(    0x30, DEF_STR( 1C_2C ) )
+    PORT_DIPSETTING(    0x28, DEF_STR( 1C_3C ) )
+    PORT_DIPNAME( 0x40, 0x40, DEF_STR( Unused ) )
+    PORT_DIPSETTING(    0x40, DEF_STR( Off ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+    PORT_SERVICE( 0x80, IP_ACTIVE_LOW )
+INPUT_PORTS_END
+
+Resolution: 320 x 224 @ 60.000000 Hz
+
+Rules, points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=78789
+Rules, points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=78790
+
+ROMSet: Nost
+Lives: 3
+Difficulty: Normal
+Flip Screen: Off
+Bonus Life: 800k 1500k
+Unused: Off
+Service Mode: Off
+
+Sample correct TG:
+DSW1: offset 0x2B, repeat every 0x7C, typical value 0xFF
+- DSW1: 0x03 (Lives): 0x03 (3)
+- DSW1: 0x0c (Difficulty): 0x0c (Normal)
+- DSW1: 0x10 (Flip_Screen): 0x10 (Off)
+- DSW1: 0x20 (Demo_Sounds): [not relevant]
+- DSW1: 0xc0 (Bonus_Life): 0xc0 (800k 1500k)
+DSW2: offset 0x2F, repeat every 0x7C, typical value 0xFF
+- DSW2: 0x07 (Coin_A): [not relevant]
+- DSW2: 0x38 (Coin_B): [not relevant]
+- DSW2: 0x40 (Unused): 0x40 (Off)
+- DSW2: 0x80 (Service Mode): 0x80 (Off)
+
+    20: 00 00 F7 FF 00 00 FF FF  00 00 00 FF 00 00 00 FF
+    A0: 00 00 FF FF 00 00 00 FF  00 00 00 FF 00 00 00 00
+   120: 00 00 00 FF 00 00 00 FF  00 00 00 00 00 00 00 00

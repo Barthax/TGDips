@@ -1,0 +1,7 @@
+ROM set changed: no
+0.106-0.169: mia - "M.I.A. - Missing in Action (version T)"
+
+Resolution, 0.106-0.169: 304x224 @ 60.000000Hz
+
+Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=21333
+Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=21334

@@ -1,0 +1,36 @@
+ROM Changes: none
+0.106-0.163: calspeed - "California Speed (Version 2.1a, 4/17/98)"
+0.164-0.168: calspeed - "California Speed (Version 2.1a Apr 17 1998, GUTS 1.25 Apr 17 1998 / MAIN Apr 17 1998)" (description change only)
+
+Resolution, 0.106-0.168: 640x480 @ 57.000000Hz
+
+Note: service mode accessible with F2 (hold button).  Navigation is with Volume Up/Volume Down OR Road/Sky Cam, with Start as the select button.
+
+Rules, Central Valley [Fastest Race, Normal Course]: http://www.twingalaxies.com/scores.php?scores=55644
+Rules, Central Valley [Fastest Race, Reverse Course]: http://www.twingalaxies.com/scores.php?scores=55645
+Rules, Highway 1 [Fastest Race, Normal Course]: http://www.twingalaxies.com/scores.php?scores=55646
+Rules, Highway 1 [Fastest Race, Reverse Course]: http://www.twingalaxies.com/scores.php?scores=55647
+Rules, Laguna Seacaster [Fastest Race, Normal Course]: http://www.twingalaxies.com/scores.php?scores=55648
+Rules, Laguna Seacaster [Fastest Race, Reverse Course]: http://www.twingalaxies.com/scores.php?scores=55649
+Rules, Los Angeles [Fastest Race, Normal Course]: http://www.twingalaxies.com/scores.php?scores=55650
+Rules, Los Angeles [Fastest Race, Reverse Course]: http://www.twingalaxies.com/scores.php?scores=55651
+Rules, Mojave Desert [Fastest Race, Normal Course]: http://www.twingalaxies.com/scores.php?scores=55652
+Rules, Mojave Desert [Fastest Race, Reverse Course]: http://www.twingalaxies.com/scores.php?scores=55653
+Rules, Monterey Bay [Fastest Race, Normal Course]: http://www.twingalaxies.com/scores.php?scores=55654
+Rules, Monterey Bay [Fastest Race, Reverse Course]: http://www.twingalaxies.com/scores.php?scores=55655
+Rules, Mt Shasta [Fastest Race, Normal Course]: http://www.twingalaxies.com/scores.php?scores=55656
+Rules, Mt Shasta [Fastest Race, Reverse Course]: http://www.twingalaxies.com/scores.php?scores=55657
+Rules, San Diego [Fastest Race, Normal Course]: http://www.twingalaxies.com/scores.php?scores=55658
+Rules, San Diego [Fastest Race, Reverse Course]: http://www.twingalaxies.com/scores.php?scores=55659
+Rules, San Francisco [Fastest Race, Normal Course]: http://www.twingalaxies.com/scores.php?scores=55660
+Rules, San Francisco [Fastest Race, Reverse Course]: http://www.twingalaxies.com/scores.php?scores=55661
+Rules, Santa Cruz [Fastest Race, Normal Course]: http://www.twingalaxies.com/scores.php?scores=55662
+Rules, Santa Cruz [Fastest Race, Reverse Course]: http://www.twingalaxies.com/scores.php?scores=55663
+Rules, Sears Point [Fastest Race, Normal Course]: http://www.twingalaxies.com/scores.php?scores=55664
+Rules, Sears Point [Fastest Race, Reverse Course]: http://www.twingalaxies.com/scores.php?scores=55665
+Rules, Silicon Valley [Fastest Race, Normal Course]: http://www.twingalaxies.com/scores.php?scores=55666
+Rules, Silicon Valley [Fastest Race, Reverse Course]: http://www.twingalaxies.com/scores.php?scores=55667
+Rules, Willow Spring [Fastest Race, Normal Course]: http://www.twingalaxies.com/scores.php?scores=55668
+Rules, Willow Spring [Fastest Race, Reverse Course]: http://www.twingalaxies.com/scores.php?scores=55669
+Rules, Yosemite [Fastest Race, Normal Course]: http://www.twingalaxies.com/scores.php?scores=55670
+Rules, Yosemite [Fastest Race, Reverse Course]: http://www.twingalaxies.com/scores.php?scores=55671

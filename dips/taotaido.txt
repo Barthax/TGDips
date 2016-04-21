@@ -1,0 +1,5 @@
+ROM set changed: no
+0.106-0.153: taotaido - "Tao Taido (set 1)"
+0.154-0.170: taotaido - "Tao Taido (2 button version)"
+
+Resolution, 0.106-0.170: 320x224 @ 60.000000Hz

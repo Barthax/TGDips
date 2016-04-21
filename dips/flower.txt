@@ -1,0 +1,13 @@
+ROM set changed: no*
+0.106-0.125: flower - "Flower"
+0.126-0.138: flower - "Flower (Komax)"
+0.139-0.171: flower - "Flower (US)"
+
+* It only changed during 0.125 updates but the net result is it remained the same.  flower -> flowerk, flowerk -> flower.
+MAME History:
+- 0.125u9: Couriersud added state saving for Flower. Renamed (flower) to (flowers) and (flowerk) to (flower).
+- 0.125u8: Brian Troha fixed Flower dipswitches and added DIP locations. Changed 'Flower (bootleg)' to parent 'Flower (Sega/Alpha)' and 'Flower' to clone '(Komax)'. Renamed (flower) to (flowerk) and (flowerbl) to (flower). Added dipswitches 'Energy Decrease', 'Enemy Bullets', 'Demo Sounds' and 'Keep Weapon Items When Destroyed'.
+
+Resolution, 0.106-0.171: 272x224 @ 60.000000Hz
+
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=69917

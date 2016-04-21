@@ -1,0 +1,7 @@
+ROM set changed: yes
+0.106-0.130: photoy2k - "Photo Y2K"
+0.131-0.137: photoy2k - "Photo Y2K (ver. 104)"
+0.138-0.170: photoy2k104 - "Photo Y2K (ver. 104)"
+
+Resolution, 0.106-0.145: 448x224 @ 60.000000Hz
+Resolution, 0.146-0.170: 448x224 @ 59.170000Hz

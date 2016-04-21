@@ -1,0 +1,6 @@
+ROM set changed: no
+0.106-0.148: tfrceac - "ThunderForce AC"
+0.149-0.169: tfrceac - "Thunder Force AC"
+
+Resolution, 0.106-0.127: 320x224 @ 60.000000Hz
+Resolution, 0.128-0.169: 256x224 @ 60.000000Hz

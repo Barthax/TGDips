@@ -1,0 +1,5 @@
+ROM set changed: yes
+0.106-0.143: exvania - "Exvania (Japan)"
+0.143u6-0.169: exvaniaj - "Exvania (Japan)"
+
+Resolution, 0.106-0.169: 288x224 @ 60.000000Hz

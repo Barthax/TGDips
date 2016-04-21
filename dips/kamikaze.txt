@@ -1,0 +1,6 @@
+ROM Changes: none
+0.106-0.169: kamikaze - "Kamikaze"
+
+Resolution, 0.106-0.169: 256x224 @ 60.000000Hz
+
+Rules: http://www.twingalaxies.com/scores.php?scores=132409

@@ -1,0 +1,8 @@
+ROM Changes: no
+0.106-0.168: apb - "APB - All Points Bulletin (rev 7)"
+
+Resolution, 0.106-0.122: 512x384 @ 60.000000Hz
+Resolution, 0.123-0.168: 512x384 @ 60.096154Hz
+
+Rules: http://www.twingalaxies.com/scores.php?scores=196597
+Rules: http://www.twingalaxies.com/scores.php?scores=20941

@@ -1,0 +1,7 @@
+ROM set changed: yes
+0.106-0.127: tnzsj - "The NewZealand Story (Japan)"
+0.128: tnzsj - "The NewZealand Story (Japan) (older PCB)"
+0.129-0.170: tnzsjo - "The NewZealand Story (Japan, old version) (older PCB)"
+
+Resolution, 0.106-0.133: 256x224 @ 60.000000Hz
+Resolution, 0.134-0.170: 256x224 @ 59.150000Hz

@@ -1,0 +1,5 @@
+ROM set changed: no
+0.106-0.123: hanaawas - "Hana Awase (Flower Matching)"
+0.125-0.169: hanaawas - "Hana Awase"
+
+Resolution, 0.106-0.169: 256x256 @ 60.000000Hz

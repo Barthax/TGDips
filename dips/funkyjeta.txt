@@ -1,0 +1,6 @@
+ROM set changed: yes
+0.106-0.152: funkyjet - "Funky Jet (World)"
+0.153-0.170: funkyjeta - "Funky Jet (World)"
+
+Resolution, 0.106-0.170: 320x240 @ 58.000000Hz
+

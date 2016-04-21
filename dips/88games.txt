@@ -1,0 +1,14 @@
+ROM set changed: no
+0.106-0.168: 88games - "'88 Games"
+
+Resolution, 0.106-0.168: 320x224 @ 60.000000Hz
+
+Rules, 110m Hurdles: http://www.twingalaxies.com/scores.php?scores=21410
+Rules, 400m Relay: http://www.twingalaxies.com/scores.php?scores=21408
+Rules, Javelin Throw: http://www.twingalaxies.com/scores.php?scores=21412
+Rules, Long Jump: http://www.twingalaxies.com/scores.php?scores=21407
+Rules, Skeet Shooting: http://www.twingalaxies.com/scores.php?scores=21409
+Rules, 100m Dash: http://www.twingalaxies.com/scores.php?scores=21406
+Rules, Archery: http://www.twingalaxies.com/scores.php?scores=21411
+Rules, High Jump: http://www.twingalaxies.com/scores.php?scores=21413
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=21414

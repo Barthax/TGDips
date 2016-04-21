@@ -1,0 +1,28 @@
+INPUT_PORTS_START( depthch )
+	PORT_START	/* IN0 */
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_BUTTON2 )
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_BUTTON1 )
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_2WAY
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_2WAY
+	PORT_DIPNAME (0x30, 0x30, DEF_STR( Coinage ) )
+	PORT_DIPSETTING (   0x00, DEF_STR( 4C_1C ) )
+	PORT_DIPSETTING (   0x10, DEF_STR( 3C_1C ) )
+	PORT_DIPSETTING (   0x20, DEF_STR( 2C_1C ) )
+	PORT_DIPSETTING (   0x30, DEF_STR( 1C_1C ) )
+	PORT_BIT( 0xc0, IP_ACTIVE_LOW, IPT_UNKNOWN ) /* probably unused */
+
+	PORT_START	/* IN1 */
+	PORT_BIT( 0x01, IP_ACTIVE_HIGH, IPT_UNUSED )  /* 64V */
+	PORT_BIT( 0x7e, IP_ACTIVE_LOW, IPT_UNKNOWN ) /* probably unused */
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_COIN1 ) PORT_IMPULSE(30) /* PORT_RESETCPU */
+INPUT_PORTS_END
+
+Resolution: 256x224 @ 60Hz
+
+Rules: http://www.twingalaxies.com/scores.php?scores=7717
+ROMSet: DepthCh
+Starting Time: 90 seconds [non-adjustable]
+Extended play of 45 seconds at 500 or more points [non adjustable]
+Special Rules: None
+
+... nothing to check. :)

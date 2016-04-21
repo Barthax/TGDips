@@ -1,0 +1,21 @@
+# MAME 0.106 source snippet
+
+GAME( 1995, donpachj, donpachi, donpachi, cave,     donpachi, ROT270, "Atlus/Cave",                           "DonPachi (Japan)"                        , 0 )
+
+Resolution: 
+
+Rules, Points [1 Player Only]: http://www.twingalaxies.com/scores.php?scores=22928
+Rules, Points [2 Player Team]: http://www.twingalaxies.com/scores.php?scores=22929
+ROMSet: DonPachJ
+Internal Settings
+-----------------
+
+C Button: Not Use
+Normal Screen
+Game Difficulty: B [Normal]
+Extend: 2,000,000 Pts Only
+Hero Counts: 3
+Continue: Off
+
+NB1: all settings internal, so no hex dump comparison required.
+NB2: by default the Continue is ON.

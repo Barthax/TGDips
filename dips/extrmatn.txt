@@ -1,0 +1,14 @@
+ROM set changed: yes
+0.106-0.129: extrmatn - "Extermination (US)"
+0.129u4-0.133: extrmatu - "Extermination (US)"
+0.133u1-0.171: extrmatnu - "Extermination (US)"
+
+MAME HISTORY:
+- 0.143u8: Kanikani added DIP locations to Extermination.
+- 0.133u1: Renamed (extrmatu) to (extrmatnu) and (extrmatj) to (extrmatnj).
+- 0.129u4: Stefan Lindberg added Extermination (World). Renamed (extrmatn) to (extrmatu).
+
+Resolution, 0.106-0.171: 256x224 @ 60.000000Hz
+
+Rules, Points [1 Player Only]: http://www.twingalaxies.com/scores.php?scores=55972
+Rules, Points [2 Player Team]: http://www.twingalaxies.com/scores.php?scores=55973

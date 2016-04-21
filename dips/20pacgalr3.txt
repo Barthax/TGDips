@@ -1,0 +1,7 @@
+ROM set changed: no.  Added in 0.139u1.
+0.139u1-0.170: 20pacgalr3 - "Ms. Pac-Man/Galaga - 20th Anniversary Class of 1981 Reunion (V1.03)"
+
+MAME History:
+- 0.139u1: Sara S. added clone Ms. Pac-Man/Galaga - 20th Anniversary Class of 1981 Reunion (V1.00) and Mark F. added clone (V1.03). Atari Ace removed global variables from NAMCO sound core.
+
+Resolution, 0.140-0.170: 288x224 @ 60.000000Hz

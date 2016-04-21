@@ -1,0 +1,6 @@
+ROM set changed: yes
+0.106-0.148: karnov - "Karnov (US)"
+0.148u3-0.169: karnova - "Karnov (US, rev 5)"
+
+Resolution, 0.106-0.148: 256x240 @ 60.000000Hz
+Resolution, 0.149-0.169: 256x240 @ 60.000000Hz
