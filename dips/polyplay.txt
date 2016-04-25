@@ -1,4 +1,13 @@
 ROM set changed: no
-0.106-0.170: polyplay - "Poly-Play"
+0.106-0.172: polyplay - "Poly-Play"
 
-Resolution, 0.106-0.170: 512x256 @ 50.000000Hz
+Resolution, 0.106-0.172: 512x256 @ 50.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Poly-Play
+Rules, Abfahrtslauf [Downhill Skiing] [Punkte]: http://www.twingalaxies.com/scores.php?scores=78939
+Rules, Merkspiel [Memory Match] - [Punkte]: http://www.twingalaxies.com/scores.php?scores=78942
+Rules, Schmetterlinge [Butterflies] - [Punkte]: http://www.twingalaxies.com/scores.php?scores=78944
+Rules, Hase Und Wolf [Rabbit and Wolf] - [Punkte]: http://www.twingalaxies.com/scores.php?scores=78940
+Rules, Hirschjagd [Deer Hunting] - [Treffer]: http://www.twingalaxies.com/scores.php?scores=78941
+Rules, Schiessbude [Shooting] - [Punkte]: http://www.twingalaxies.com/scores.php?scores=78943
+Rules, Wasserrohrbruch [Water Pipe] - [Punkte]: http://www.twingalaxies.com/scores.php?scores=78945
