@@ -1,4 +1,7 @@
 ROM set changed: no
-0.106-0.169: mosaicf2 - "Mosaic (F2 System)"
+0.106-0.172: mosaicf2 - "Mosaic (F2 System)"
 
-Resolution, 0.106-0.169: 320x224 @ 60.000000Hz
+Resolution, 0.106-0.172: 320x224 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Mosaic%20[F2%20System]
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=75614
