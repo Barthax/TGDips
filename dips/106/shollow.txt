@@ -1,0 +1,72 @@
+# MAME 0.106 source snippet.
+
+GAME( 1981, shollow,  0,        mcr_90010,     shollow,  mcr_90010, ROT90, "Bally Midway", "Satan's Hollow (set 1)", GAME_SUPPORTS_SAVE )
+
+INPUT_PORTS_START( shollow )
+    PORT_START_TAG("SSIO.IP0")    /* J4 1-8 */
+    PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_COIN1 )
+    PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_COIN2 )
+    PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_START1 )
+    PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_START2 )
+    PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_UNUSED )
+    PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_TILT )
+    PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_SERVICE1 )
+    PORT_SERVICE( 0x80, IP_ACTIVE_LOW )
+
+    PORT_START_TAG("SSIO.IP1")    /* J4 10-13,15-18 */
+    PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_2WAY
+    PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_2WAY
+    PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_BUTTON2 )
+    PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_BUTTON1 )
+    PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_2WAY PORT_COCKTAIL
+    PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_2WAY PORT_COCKTAIL
+    PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_BUTTON2 ) PORT_COCKTAIL
+    PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_COCKTAIL
+
+    PORT_START_TAG("SSIO.IP2")    /* J5 1-8 */
+    PORT_BIT( 0xff, IP_ACTIVE_LOW, IPT_UNUSED )
+
+    PORT_START_TAG("SSIO.IP3")    /* DIPSW @ B3 */
+    PORT_DIPNAME( 0x01, 0x01, "Coin Meters" )
+    PORT_DIPSETTING(    0x01, "1" )
+    PORT_DIPSETTING(    0x00, "2" )
+    PORT_DIPNAME( 0x02, 0x00, DEF_STR( Cabinet ) )
+    PORT_DIPSETTING(    0x00, DEF_STR( Upright ) )
+    PORT_DIPSETTING(    0x02, DEF_STR( Cocktail ) )
+    PORT_BIT( 0xfc, IP_ACTIVE_LOW, IPT_UNKNOWN )
+
+    PORT_START_TAG("SSIO.IP4")    /* J6 1-8 */
+    PORT_BIT( 0xff, IP_ACTIVE_LOW, IPT_UNUSED )
+
+    PORT_START_TAG("SSIO.DIP")
+    PORT_BIT( 0xff, IP_ACTIVE_LOW, IPT_UNKNOWN )
+INPUT_PORTS_END
+
+Resolution: 512x480 @ 30.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Satan%27s%20Hollow%20%5Bset%201%5D
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=7806
+
+ROMSet: SHollow
+Service Mode: Off
+Coin Meters: 1
+Cabinet: Upright
+
+Internal Defaults
+-----------------
+1 Credit For 3 Bases
+Extra Base At 10000 Points
+Difficulty Level 4
+
+Sample correct TG:
+
+No need to check for Service Mode hex-value, it will be obvious on screen.
+If not shown during playback, press F2 to access & check internal settings afterwards.
+
+IP3: offset 0x2F, repeat every 0x7C, typical value 0xFD
+- IP3: 0x01 (Coin Meters): 0x01 (1)
+- IP3: 0x02 (Cabinet): 0x00 (Upright)
+
+    20: 00 00 00 FF 00 00 00 FF  00 00 00 FF 00 00 00 FD
+    A0: 00 00 00 FF 00 00 00 FF  00 00 00 FD 00 00 00 FF
+   120: 00 00 00 FF 00 00 00 FD  00 00 00 FF 00 00 00 FF
