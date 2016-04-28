@@ -12,6 +12,9 @@ SET INCLUDEMAMEINFODUMP=true
 SET FIRSTMAMEWITHCOMPRESSEDINP=129
 SET FIRSTWOLFMAMEWITHDIPSONSHOW=149
 SET RUNROMCHANGEDONMISSING=true
+SET FIRSTMAMEREQUIRINGINPEXTENSION=107
+SET DOSMAMECLI=-fs 0
+SET WINMAMECLI=-nomax -nothrottle
 
 REM Expectations:
 REM INP Decompressor
@@ -184,7 +187,7 @@ SET NVRAM=-nvram_directory NUL
 IF NOT EXIST "%INPLOCATION%\%2.inp" GOTO MISSINGINP
 
 REM Determine INP options
-IF %MVER% GTR 100 GOTO WITHINP
+IF %MVER% GTR %FIRSTMAMEREQUIRINGINPEXTENSION% GOTO WITHINP
 SET INPNAME=%2
 IF %MVER% GTR 30 GOTO NOINP
 REM MAME 0.30 requires INP folder prefix but no extension
@@ -256,7 +259,7 @@ ECHO DOS MAME Executable: %MAMEEXE%
 COPY %DOSBOXCONF% TEMP.CONF
 echo MOUNT C: %MAMELOCATION%>>TEMP.CONF
 echo C:>>TEMP.CONF
-echo %MAMEEXE% %GAME% -fs 0 -playback %GAME% -soundcard 1 %3 %4 %5 %6 %7 %8 %9>>TEMP.CONF
+echo %MAMEEXE% %GAME% %DOSMAMECLI% -playback %GAME% -soundcard 1 %3 %4 %5 %6 %7 %8 %9>>TEMP.CONF
 echo exit>>TEMP.CONF
 GOTO RUNDOSBOX
 
@@ -293,12 +296,12 @@ IF %MVER% GTR 84 GOTO WITHIV
 
 :PLIBDONE
 echo Starting MAME - you may need to press a key for older versions
-%MAMEEXE% -w %INIPATH% -nomax -nothrottle -playback %INPNAME% %GAME% %4 %5 %6 %7 %8 %9 %NVRAM%| find /v "INPVIEW" | find /v "OpenGL" | "%GNU%\tee.exe" -a %LOG%
+%MAMEEXE% -w %INIPATH% %WINMAMECLI% -playback %INPNAME% %GAME% %4 %5 %6 %7 %8 %9 %NVRAM%| find /v "INPVIEW" | find /v "OpenGL" | "%GNU%\tee.exe" -a %LOG%
 GOTO CLEANUPWIN
 
 :WITHIV
 echo Starting MAME - you may need to press a key for older versions like 0.106
-%MAMEEXE% -w %INIPATH% -nomax -nothrottle -iv 1 -playback %INPNAME% %GAME% %4 %5 %6 %7 %8 %9 %NVRAM%| find /v "INPVIEW" | find /v "OpenGL" | "%GNU%\tee.exe" -a %LOG%
+%MAMEEXE% -w %INIPATH% %WINMAMECLI% -iv 1 -playback %INPNAME% %GAME% %4 %5 %6 %7 %8 %9 %NVRAM%| find /v "INPVIEW" | find /v "OpenGL" | "%GNU%\tee.exe" -a %LOG%
 GOTO CLEANUPWIN
 
 :CLEANUPWIN
