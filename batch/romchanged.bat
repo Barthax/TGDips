@@ -1,7 +1,7 @@
 @ECHO OFF
 SET USEMAMEEXES=true
 SET USEPROGETTOSNAP=true
-SET USEPROGETTOEMMA=false
+SET USEPROGETTOEMMA=true
 SET USELISTFULL=false
 SET USEXML=true
 SET USENOTEPAD=true
@@ -12,8 +12,9 @@ SET LOG=ROMCHANGED-%1.TXT
 
 REM ProgettoSNAPs' RenameSet
 REM http://www.progettosnaps.net/renameset/
-REM only the one file required: allMAMErenames.txt
-SET PS_RENAMEALLMAME=allMAMErenames.txt
+REM only the two files required: allMAMErenamed.txt and allMAMEremoved.txt
+SET PS_RENAMEALLMAME=allMAMErenamed.txt
+SET PS_REMOVEALLMAME=allMAMEremoved.txt
 
 REM Addition URL option - assumes %1 can be appended
 SET ADDITURL=http://www.progettoemma.net/index.php?gioco=
@@ -50,6 +51,9 @@ IF NOT "%USEPROGETTOSNAP%" == "true" GOTO NOSNAP
 ECHO Checking %PS_RENAMEALLMAME% for %1>%LOG%
 "%GNU%\grep.exe" %1 %PS_RENAMEALLMAME% >>%LOG%
 "%GNU%\grep.exe" %1 %PS_RENAMEALLMAME%
+ECHO Checking %PS_REMOVEALLMAME% for removed %1>>%LOG%
+"%GNU%\grep.exe" %1 %PS_REMOVEALLMAME% >>%LOG%
+"%GNU%\grep.exe" %1 %PS_REMOVEALLMAME%
 
 :NOSNAP
 
