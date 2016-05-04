@@ -6,3 +6,4 @@ Resolution, 0.106-0.173: 320x224 @ 60.000000Hz
 TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Rock%27n%20Tread%202%20[Japan]
 Rules, Points [Live Mode]: http://www.twingalaxies.com/scores.php?scores=91256
 Rules, Points [Normal Mode]: http://www.twingalaxies.com/scores.php?scores=91257
+NB: if not shown during playback, use Service Mode (F2) to access soft dips.  Up/down to navigate and Player 1 Start to choose.
