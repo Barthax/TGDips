@@ -1,7 +1,7 @@
 ROM set changed: no
-0.106-0.172: cshift - "Chicken Shift"
+0.106-0.173: cshift - "Chicken Shift"
 
 Resolution, 0.106-0.113: 256x240 @ 60.000000Hz
-Resolution, 0.114-0.172: 256x240 @ 59.185606Hz
+Resolution, 0.114-0.173: 256x240 @ 59.185606Hz
 
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=9821
