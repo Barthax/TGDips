@@ -1,17 +1,17 @@
 ROM set changed: no
 0.106-0.113: captaven - "Captain America and The Avengers (Asia Rev 1.9)"
-0.114-0.172: captaven - "Captain America and The Avengers (Asia Rev 1.4)" (correction in the description)
+0.114-0.173: captaven - "Captain America and The Avengers (Asia Rev 1.4)" (correction in the description)
 
 MAME History:
 - 0.113u2: Chaneman added clone Captain America and The Avengers (US Rev 1.4). Changed parent description to 'Captain America and The Avengers (Asia Rev 1.9)'.
 
-Resolution, 0.106-0.172: 320x240 @ 60.000000Hz
+Resolution, 0.106-0.173: 320x240 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Captain%20America%20and%20The%20Avengers%20[Asia%20Rev%201.9]
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Captain+America+and+The+Avengers+%5BAsia+Rev+1.9%5D
 Rules, Points [1 Player Only]: http://www.twingalaxies.com/scores.php?scores=24442
-Rules, Points [2 Player Team]: http://www.twingalaxies.com/scores.php?scores=24442
-Rules, Points [3 Player Team]: http://www.twingalaxies.com/scores.php?scores=24442
-Rules, Points [4 Player Team]: http://www.twingalaxies.com/scores.php?scores=24442
+Rules, Points [2 Player Team]: http://www.twingalaxies.com/scores.php?scores=24443
+Rules, Points [3 Player Team]: http://www.twingalaxies.com/scores.php?scores=24444
+Rules, Points [4 Player Team]: http://www.twingalaxies.com/scores.php?scores=24445
 
 Additional confirmation that only the name changed from 0.113 to 0.114.
 C:\MAME>mame113.exe -listcrc captaven | find "Asia Rev 1.9"
