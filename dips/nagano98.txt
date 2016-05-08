@@ -1,8 +1,21 @@
 ROM set changed: no
-0.106-0.172: nagano98 - "Nagano Winter Olympics '98 (GX720 EAA)"
+0.106-0.173: nagano98 - "Nagano Winter Olympics '98 (GX720 EAA)"
 
-Resolution, 0.106-0.172: 640x480 @ 60.000000Hz
+Resolution, 0.106-0.173: 640x480 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Nagano%20Winter%20Olympics%20%2798%20[GX720%20EAA]
-Rules: http://www.twingalaxies.com/scores.php?scores=78590
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Nagano+Winter+Olympics+%2798+%5BGX720+EAA%5D
+Rules, Alpine Skiing Downhill [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=78583
+Rules, Alpine Skiing Giant Slalom [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=78585
+Rules, Luge [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=78590
+Rules, Ski Jumping Large Hill [Furthest Distance]: http://www.twingalaxies.com/scores.php?scores=78591
+Rules, Alpine Skiing Super-G [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=78586
+Rules, Bobsleigh [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=78587
+Rules, Freestyle Aerials [Best Score]: http://www.twingalaxies.com/scores.php?scores=78588
+Rules, Short Track 1000M [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=78594
+Rules, Short Track 500M [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=78593
+Rules, Snowboard Giant Slalom [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=78595
+Rules, Speedskating 1500M [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=78597
+Rules, Speedskating 500M [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=78596
+Rules, Curling: [no current track]
+
 Note: use Service Mode (F2) to enter internal settings after playback if not done so during.  Navigation is with the up/down input options and primary fire button to select.
