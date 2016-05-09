@@ -1,7 +1,13 @@
-ROM set changes: 
-0.106-0.169: zingzip - "Zing Zing Zip"
+ROM Set changes: No
+0.106-0.173: zingzip - "Zing Zing Zip"
 
 Resolution, 0.106-0.168: 384x240 @ 60.000000Hz
-Resolution, 0.169: 384x240 @ 57.420000Hz
+Resolution, 0.169-0.173: 384x240 @ 57.420000Hz
 
-Rules: http://www.twingalaxies.com/scores.php?scores=18684
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Zing+Zing+Zip
+Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=18684
+Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=18685
+
+NOTE: from MAMEINFO.DAT
+- 0.123u4: RasnAckeR improved dipswitch definitions, added DIP locations and simplified input ports in Seta driver.
+- 0.122u8: RansAckeR improved dipswitches according to manuals in Zing Zing Zip.
