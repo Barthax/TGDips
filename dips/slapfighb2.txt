@@ -1,5 +1,8 @@
 ROM set changed: yes
 0.106-0.138: slapbtuk - "Slap Fight (English bootleg)"
-0.138u3-0.170: slapfighb2 - "Slap Fight (bootleg set 2)"
+0.138u3-0.173: slapfighb2 - "Slap Fight (bootleg set 2)"
 
-Resolution, 0.139-0.170: 280x240 @ 60.000000Hz
+Resolution, 0.106-0.173: 280x240 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Slap+Fight+%5BEnglish+bootleg%5D
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=10025
