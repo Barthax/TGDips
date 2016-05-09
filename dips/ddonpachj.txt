@@ -1,10 +1,12 @@
-ROM set changed?: yes & minor description changes.
+ROM set changed: yes & minor description changes.
 0.37b5-0.121: ddonpchj - "DoDonPachi (Japan)"
 0.122-0.133: ddonpchj - "DoDonPachi (Japan, Master Ver. 97/02/05)"
-0.133u1-0.169: ddonpachj - "DoDonPachi (Japan, Master Ver. 97/02/05)"
+0.133u1-0.173: ddonpachj - "DoDonPachi (Japan, Master Ver. 97/02/05)"
 NB: 0.133u1 added one ROM to set, but no differences in emulation.
 
-Resolution, 0.169: 320x240 @ 57.550645 Hz
+Resolution, 0.106-0.113: 320x240 @ 57.550644Hz
+Resolution, 0.114-0.173: 320x240 @ 57.550645Hz
 
-Rules: http://www.twingalaxies.com/scores.php?scores=22925
-
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=DoDonPachi+%5BJapan%5D
+Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=22925
+Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=22926
