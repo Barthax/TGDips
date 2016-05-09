@@ -1,10 +1,15 @@
 ROM set changed: yes
 0.106-0.123: contra - "Contra (US)"
 0.123u1-0.161: contra1 - "Contra (US, set 2)"
-0.162-0.169: contra1 - "Contra (US / Asia, set 2)" (minor description change)
+0.162-0.173: contra1 - "Contra (US / Asia, set 2)" (minor description change)
 
 MAME History:
 - 0.123u1: Brian Troha added clone Contra (bootleg). Changed clone 'Contra (US bootleg)' to parent 'Contra (US, Set 1)' and 'Contra (US)' to clone 'Contra (US, Set 2)'. Renamed (contra) to (contra1) and (contrab) to (contra).
 
-Resolution, 0.106-0.169: 280x224 @ 60.000000Hz
+Resolution, 0.106-0.173: 280x224 @ 60.000000Hz
 
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Contra+%5BUS%5D
+Rules, Points [1 Player Only]: http://www.twingalaxies.com/scores.php?scores=40015
+Rules, Points [2 Player Team]: http://www.twingalaxies.com/scores.php?scores=40016
+Rules, 1 Player Only [Points]: http://www.twingalaxies.com/scores.php?scores=15634
+Rules, 2 Players Team [Points]: http://www.twingalaxies.com/scores.php?scores=15635
