@@ -1,4 +1,9 @@
 ROM set changed: no
-0.106-0.170: rockn4 - "Rock'n 4 (Japan, prototype)"
+0.106-0.173: rockn4 - "Rock'n 4 (Japan, prototype)"
 
-Resolution, 0.106-0.170: 320x224 @ 60.000000Hz
+Resolution, 0.106-0.173: 320x224 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Rock%27n+4+%5BJapan,+prototype%5D
+Rules, Points [Live Mode]: http://www.twingalaxies.com/scores.php?scores=91249
+Rules, Points [Normal Mode]: http://www.twingalaxies.com/scores.php?scores=91250
+NB: if not shown during playback, use Service Mode (F2) to access soft dips.  Up/down to navigate and Player 1 Start to choose.

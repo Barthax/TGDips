@@ -1,15 +1,14 @@
 ROM set changed: no
 0.106-0.118: earthjkr - "U.N. Defense Force: Earth Joker (Japan)"
 0.119-0.151: earthjkr - "U.N. Defense Force: Earth Joker"
-0.152-0.170: earthjkr - "U.N. Defense Force: Earth Joker (Japan)"
+0.152-0.173: earthjkr - "U.N. Defense Force: Earth Joker (Japan)"
 
-Resolution, 0.106-0.170: 320x240 @ 60.000000Hz
+Resolution, 0.106-0.173: 320x240 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=U.N.%20Defense%20Force:%20Earth%20Joker%20[Japan]
-Rules: http://www.twingalaxies.com/scores.php?scores=120503
-Rules: http://www.twingalaxies.com/scores.php?scores=120504
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=U.N.+Defense+Force:+Earth+Joker+%5BJapan%5D
+Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=120503
+Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=120504
 
 MAME History:
 - 0.106u3: Added 'Bonus Life' dipswitch and changed 'Unknown' to 'Unused' dips.
 Note: rules created for 0.106 indicate all Unknowns should be Off.  In 0.106u3, one of these DIPs was corrected to be the Bonus Life setting.  The equivalent Bonus Life setting in 0.107+ to 0.106's Unknown=Off is None (no bonus lives).
-
