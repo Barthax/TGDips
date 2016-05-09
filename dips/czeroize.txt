@@ -1,9 +1,10 @@
 ROM Changes: no
 0.106-0.145: czeroize - "Zeroize (Cassette)"
-0.146-0.170: czeroize - "Zeroize (DECO Cassette)" (minor description change only)
+0.146-0.173: czeroize - "Zeroize (DECO Cassette)" (minor description change only)
 
-Resolution, 0.106-0.128: 240x240 @ 57.000000Hz
-Resolution, 0.129-0.145: 240x240 @ 57.444853Hz
-Resolution, 0.146-0.170: 256x240 @ 57.444853Hz
+Resolution, 0.106-0.128: 248x240 @ 57.000000Hz
+Resolution, 0.129-0.145: 248x240 @ 57.444853Hz
+Resolution, 0.146-0.173: 256x240 @ 57.444853Hz
 
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Zeroize+%5BCassette%5D
 Rules: http://www.twingalaxies.com/scores.php?scores=18798
