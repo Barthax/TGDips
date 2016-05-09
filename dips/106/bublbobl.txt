@@ -1,0 +1,119 @@
+# MAME 0.106 source snippet
+
+GAME( 1986, bublbobl, 0,        bublbobl, bublbobl, bublbobl, ROT0,  "Taito Corporation", "Bubble Bobble", 0 )
+
+INPUT_PORTS_START( bublbobl )
+	PORT_START_TAG("IN0")
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_TILT )
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_SERVICE1 )
+	PORT_BIT( 0x04, IP_ACTIVE_HIGH, IPT_COIN1 ) PORT_IMPULSE(1)
+	PORT_BIT( 0x08, IP_ACTIVE_HIGH, IPT_COIN2 ) PORT_IMPULSE(1)
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_SPECIAL )	// output: coin lockout
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_SPECIAL )	// output: select 1-way or 2-way coin counter
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_SPECIAL )	// output: trigger IRQ on main CPU (jumper switchable to vblank)
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_SPECIAL )	// output: select read or write shared RAM
+
+	PORT_START_TAG("DSW0")
+	PORT_DIPNAME( 0x05, 0x04, "Mode" )
+	PORT_DIPSETTING(    0x04, "Game, English" )
+	PORT_DIPSETTING(    0x05, "Game, Japanese" )
+	PORT_DIPSETTING(    0x01, "Test (Grid and Inputs)" )
+	PORT_DIPSETTING(    0x00, "Test (RAM and Sound)" )
+	PORT_DIPNAME( 0x02, 0x02, DEF_STR( Flip_Screen ) )
+	PORT_DIPSETTING(    0x02, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x08, 0x08, DEF_STR( Demo_Sounds ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x08, DEF_STR( On ) )
+	PORT_DIPNAME( 0x30, 0x30, DEF_STR( Coin_A ) )
+	PORT_DIPSETTING(    0x10, DEF_STR( 2C_1C ) )
+	PORT_DIPSETTING(    0x30, DEF_STR( 1C_1C ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( 2C_3C ) )
+	PORT_DIPSETTING(    0x20, DEF_STR( 1C_2C ) )
+	PORT_DIPNAME( 0xc0, 0xc0, DEF_STR( Coin_B ) )
+	PORT_DIPSETTING(    0x40, DEF_STR( 2C_1C ) )
+	PORT_DIPSETTING(    0xc0, DEF_STR( 1C_1C ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( 2C_3C ) )
+	PORT_DIPSETTING(    0x80, DEF_STR( 1C_2C ) )
+
+	PORT_START_TAG("DSW1")
+	PORT_DIPNAME( 0x03, 0x03, DEF_STR( Difficulty ) )
+	PORT_DIPSETTING(    0x02, DEF_STR( Easy ) )
+	PORT_DIPSETTING(    0x03, DEF_STR( Normal ) )
+	PORT_DIPSETTING(    0x01, DEF_STR( Hard ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Very_Hard ) )
+	PORT_DIPNAME( 0x0c, 0x0c, DEF_STR( Bonus_Life ) )
+	PORT_DIPSETTING(    0x08, "20K 80K 300K" )
+	PORT_DIPSETTING(    0x0c, "30K 100K 400K" )
+	PORT_DIPSETTING(    0x04, "40K 200K 500K" )
+	PORT_DIPSETTING(    0x00, "50K 250K 500K" )
+	// then more bonus lives at 1M 2M 3M 4M 5M - for all dip switch settings
+	PORT_DIPNAME( 0x30, 0x30, DEF_STR( Lives ) )
+	PORT_DIPSETTING(    0x10, "1" )
+	PORT_DIPSETTING(    0x00, "2" )
+	PORT_DIPSETTING(    0x30, "3" )
+	PORT_DIPSETTING(    0x20, "5" )
+	PORT_DIPNAME( 0x40, 0x40, DEF_STR( Unknown ) )	// must be off (see notes)
+	PORT_DIPSETTING(    0x40, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x80, 0x80, "ROM Type" )	// will hang on startup if set to wrong type
+	PORT_DIPSETTING(    0x80, "IC52=512kb, IC53=none" )
+	PORT_DIPSETTING(    0x00, "IC52=256kb, IC53=256kb" )
+
+	PORT_START_TAG("IN1")
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT  ) PORT_2WAY
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_2WAY
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_BUTTON2 )
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_BUTTON1 )
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_START1 )
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_UNKNOWN )
+
+	PORT_START_TAG("IN2")
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT  ) PORT_2WAY PORT_PLAYER(2)
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_2WAY PORT_PLAYER(2)
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_BUTTON2 ) PORT_PLAYER(2)
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_PLAYER(2)
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_START2 )
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_UNKNOWN )
+INPUT_PORTS_END
+
+Resolution: 256x224 @ 59.000000Hz
+
+Rules, Points [1 Player Only]: http://www.twingalaxies.com/scores.php?scores=5156
+Rules, Points [2 Player Team]: http://www.twingalaxies.com/scores.php?scores=24432
+Rules, Points [2 Player Team] [Power Up Code Allowed]: http://www.twingalaxies.com/scores.php?scores=32335
+Rules, Points [Single Player Only] [Super Bubble Bobble Mode]: http://www.twingalaxies.com/scores.php?scores=7698
+Rules, Points [Tournament Settings - 5 Lives Only]: http://www.twingalaxies.com/scores.php?scores=7697
+Rules, Points [Two Player Team] [Super Bubble Bobble Mode]: http://www.twingalaxies.com/scores.php?scores=41815
+
+ROMSet: BublBobl
+Mode: English, Game Mode
+Flip Screen: Off
+Difficulty: Normal
+Bonus Life: 30K, 100K, 400K
+Lives: 3
+Unknown: Off
+Rom Type: IC52 = 512KB, IC53 = None
+
+Sample correct TG:
+DSW0: offset 0x27, repeat every 0x7C, typical value 0xFE
+- DSW0: 0x05 (Mode): 0x04 (Game, English)
+- DSW0: 0x02 (Flip_Screen): 0x02 (Off)
+- DSW0: 0x08 (Demo_Sounds): [not relevant]
+- DSW0: 0x30 (Coin_A): [not relevant]
+- DSW0: 0xc0 (Coin_B): [not relevant]
+DSW1: offset 0x2B, repeat every 0x7C, typical value 0xFF
+- DSW1: 0x03 (Difficulty): 0x03 (Normal)
+- DSW1: 0x0c (Bonus_Life): 0x0c (30K 100K 400K)
+- DSW1: 0x30 (Lives): 0x30 (3)
+- DSW1: 0x40 (Unknown): 0x40 (Off)
+- DSW1: 0x80 (ROM Type): 0x80 (IC52=512kb, IC53=none)
+
+    20: 00 00 00 F3 00 00 00 FE  00 00 00 FF 00 00 00 FF
+    A0: 00 00 00 FE 00 00 00 FF  00 00 00 FF 00 00 00 FF
+   110: 00 00 00 00 3E 82 43 E1  00 00 00 F3 00 00 00 FE
+   120: 00 00 00 FF 00 00 00 FF  00 00 00 FF 00 00 00 00

@@ -1,0 +1,85 @@
+# MAME 0.106 source snippet.
+
+GAME( 1984, cheyenne, 0,        exidy440, cheyenne, cheyenne, ROT0, "Exidy", "Cheyenne (version 1.0)", 0 )
+
+#define COINAGE \
+	PORT_DIPNAME( 0x0f, 0x0f, DEF_STR( Coinage ) ) \
+	PORT_DIPSETTING(    0x03, DEF_STR( 4C_1C ) ) \
+	PORT_DIPSETTING(    0x07, DEF_STR( 3C_1C ) ) \
+	PORT_DIPSETTING(    0x02, DEF_STR( 4C_2C ) ) \
+	PORT_DIPSETTING(    0x0b, DEF_STR( 2C_1C ) ) \
+	PORT_DIPSETTING(    0x06, DEF_STR( 3C_2C ) ) \
+	PORT_DIPSETTING(    0x01, DEF_STR( 4C_3C ) ) \
+	PORT_DIPSETTING(    0x00, DEF_STR( 4C_4C ) ) \
+	PORT_DIPSETTING(    0x05, DEF_STR( 3C_3C ) ) \
+	PORT_DIPSETTING(    0x0a, DEF_STR( 2C_2C ) ) \
+	PORT_DIPSETTING(    0x0f, DEF_STR( 1C_1C ) ) \
+	PORT_DIPSETTING(    0x04, DEF_STR( 3C_4C ) ) \
+	PORT_DIPSETTING(    0x09, DEF_STR( 2C_3C ) ) \
+	PORT_DIPSETTING(    0x08, DEF_STR( 2C_4C ) ) \
+	PORT_DIPSETTING(    0x0e, DEF_STR( 1C_2C ) ) \
+	PORT_DIPSETTING(    0x0d, DEF_STR( 1C_3C ) ) \
+	PORT_DIPSETTING(    0x0c, DEF_STR( 1C_4C ) )
+
+INPUT_PORTS_START( cheyenne )
+	PORT_START				/* player inputs and logic board dips */
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_BUTTON1 )
+	PORT_DIPNAME( 0x0c, 0x0c, DEF_STR( Lives ) )
+	PORT_DIPSETTING(    0x08, "2" )
+	PORT_DIPSETTING(    0x0c, "3" )
+	PORT_DIPSETTING(    0x04, "4" )
+	PORT_DIPSETTING(    0x00, "5" )
+	PORT_DIPNAME( 0x30, 0x30, DEF_STR( Difficulty ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Easy ) )
+	PORT_DIPSETTING(    0x30, DEF_STR( Normal ) )
+	PORT_DIPSETTING(    0x20, DEF_STR( Hard ) )
+	PORT_DIPSETTING(    0x10, DEF_STR( Hardest ) )
+	PORT_BIT( 0xc0, IP_ACTIVE_LOW, IPT_UNKNOWN )
+
+	PORT_START 				/* audio board dips */
+	COINAGE
+	PORT_BIT( 0x70, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_DIPNAME( 0x80, 0x80, DEF_STR( Free_Play ) )
+	PORT_DIPSETTING(    0x80, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+
+	PORT_START				/* start button */
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_START1 )
+	PORT_BIT( 0xfe, IP_ACTIVE_LOW, IPT_UNKNOWN )
+
+	PORT_START				/* coin counters */
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_COIN1 )
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_COIN2 )
+	PORT_BIT( 0xfc, IP_ACTIVE_LOW, IPT_UNKNOWN )
+
+	PORT_START				/* fake analog X */
+	PORT_BIT( 0xff, 0x80, IPT_LIGHTGUN_X ) PORT_MINMAX(0,255) PORT_SENSITIVITY(50) PORT_KEYDELTA(10)
+
+	PORT_START				/* fake analog Y */
+	PORT_BIT( 0xff, 0x80, IPT_LIGHTGUN_Y ) PORT_MINMAX(0,255) PORT_SENSITIVITY(70) PORT_KEYDELTA(10)
+INPUT_PORTS_END
+
+Resolution: 320x240 @ 60.000000Hz
+
+Rules, Points: 	http://www.twingalaxies.com/scores.php?scores=24469
+ROMSet: Cheyenne
+Lives: 3
+Difficulty: Normal
+Free Play: Off
+Note: Bonus Lives are awarded after the 2nd, 5th, 9th & 14th screen.
+Special Rules: Continues are NOT allowed!
+Please note that there are playback issues with this title at this time [Wolfmame 0.106] and that a score may not play back properly to completion.
+
+Sample correct TG:
+DIP1: offset 0x23, repeat every 0x7C initially but length varies due to analog input, typical value 0xFF, but will change when 1P button 1 is pressed
+- DIP1: 0x0c (Lives): 0x0c (3)
+- DIP1: 0x30 (Difficulty): 0x30 (Normal)
+DIP2: offset 0x27, repeat every 0x7C initially but length varies due to analog input, typical value 0xFF
+- DIP2: 0x0f (Coinage): [not relevant]
+- DIP2: 0x80 (Free_Play): 0x80 (Off)
+
+    20: 00 00 00 FF 00 00 00 FF  00 00 00 FF 00 00 00 FF
+    90: 00 00 00 00 00 00 00 00  3E 82 43 E1 00 00 00 FF
+    A0: 00 00 00 FF 00 00 00 FF  00 00 00 FF 00 00 00 80
+   110: 00 00 00 00 3E 82 43 E1  00 00 00 FF 00 00 00 FF
