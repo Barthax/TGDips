@@ -1,4 +1,8 @@
 ROM set changed: no
-0.106-0.169: tetrisp - "Tetris Plus"
+0.106-0.173: tetrisp - "Tetris Plus"
 
-Resolution, 0.106-0.169: 320x224 @ 60.000000Hz
+Resolution, 0.106-0.173: 320x224 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Tetris+Plus
+Rules, Points [Normal Mode]: http://www.twingalaxies.com/scores.php?scores=120364
+Rules, Points [Puzzle Mode]: http://www.twingalaxies.com/scores.php?scores=120365
