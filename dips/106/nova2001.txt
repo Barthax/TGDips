@@ -1,3 +1,7 @@
+# MAME 0.106 source snippet [nova2001.c]
+
+GAME( 1983, nova2001, 0,        nova2001, nova2001, 0, ROT0, "UPL", "Nova 2001 (Japan)", 0 )
+
 INPUT_PORTS_START( nova2001 )
     PORT_START
     PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_8WAY
@@ -64,9 +68,11 @@ INPUT_PORTS_START( nova2001 )
 	PORT_SERVICE( 0x80, IP_ACTIVE_LOW )
 INPUT_PORTS_END
 
-Resolution: 240x192 @60Hz
+Resolution: 256x192 @ 60.000000Hz
 
-Rules: http://www.twingalaxies.com/scores.php?scores=78791
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Nova+2001
+------------------------
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=78791
 ROMSet: Nova2001
 Cabinet: Upright
 Lives: 3
@@ -96,3 +102,34 @@ DSW1: offset 0x33, repeat every 0x7C, typical value 0xFB but upper nibble can be
     30: 00 00 00 FB 00 00 00 00  00 00 00 00 00 00 00 00 | ...v............
     A0: 00 00 00 FF 00 00 00 FF  00 00 00 FE 00 00 00 FB | ... ... ...¦...v
    120: 00 00 00 7F 00 00 00 FE  00 00 00 FB 00 00 00 00 | .......¦...v....
+------------------------
+Rules, Hardest Difficulty: http://www.twingalaxies.com/scores.php?scores=198125
+ROMSet: Nova2001
+Cabinet: Upright
+Lives: 3
+1st Bonus Life: 20K
+Extra Bonus Life: 60K
+Free Play: On or Off
+Difficulty: Hardest
+High Score Names: 8 Letters
+Service Mode: Off
+
+Sample correct TG:
+DSW0: offset 0x2f, repeat every 0x7C, typical value 0xFE
+- DSW0: 0x01 (Cabinet): 0x00 Upright)
+- DSW0: 0x02 (Lives): 0x02 (3)
+- DSW0: 0x04 (1st Bonus Life): 0x04 (20K)
+- DSW0: 0x18 (Extra Bonus Life): 0x18 (60K)
+- DSW0: 0x60 (Coinage): [not relevant]
+- DSW0: 0x80 (Free_Play): 0x80 (Off)
+DSW1: offset 0x33, repeat every 0x7C, typical value 0xFB but upper nibble can be ignored
+- DSW1: 0x03 (Difficulty): 0x01 (Hardest)
+- DSW1: 0x04 (Demo_Sounds): [not relevant]
+- DSW1: 0x08 (High Score Names): 0x08 (8 Letters)
+- DSW1: 0x70 (unused): [not relevant]
+- DSW1: 0x80 (unused): [not relevant]
+
+    20: 00 00 00 FF 00 00 00 FF  00 00 00 FF 00 00 00 FE | ... ... ... ...¦
+    30: 00 00 00 F9 00 00 00 00  00 00 00 00 00 00 00 00 | ...v............
+    A0: 00 00 00 FF 00 00 00 FF  00 00 00 FE 00 00 00 F9 | ... ... ...¦...v
+   120: 00 00 00 7F 00 00 00 FE  00 00 00 F9 00 00 00 00 | .......¦...v....
