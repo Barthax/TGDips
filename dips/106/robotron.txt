@@ -1,5 +1,58 @@
-There are no hardware DIP switches.  Use Service Mode (F2) to access the internal settings after playback if none is shown during playback.
+All configuration is done via soft-dips.  Use F2 repeatedly (cycles through settings) after the recording if they are not shown during the recording.
 
-Resolution: 292x240 @ 60Hz
+Resolution: 292x240 @ 60.000000Hz
 
-Rules: http://www.twingalaxies.com/scores.php?scores=7803
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Robotron+%5BSolid+Blue+label%5D
+-------------------------------------------------------
+Rules, Points [Marathon Settings]: http://www.twingalaxies.com/scores.php?scores=5218
+ROMSet: Robotron
+Internal Settings
+-----------------
+Extra Man: 0 No Extra Men
+Turns Per Player: 5
+Fancy Attract Mode: Yes
+Difficulty Of Play: 5 Recommended
+Special Rules: None
+
+-------------------------------------------------------
+Rules, Points [Tournament Settings]: http://www.twingalaxies.com/scores.php?scores=7803
+ROMSet: Robotron
+Internal Settings
+-----------------
+Extra Man: 0 No Extra Men
+Turns Per Player: 5
+Fancy Attract Mode: Yes
+Difficulty Of Play: 5 Recommended
+Special Rules: None
+
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+ROM Set Changes not applicable due to rules:
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Robotron+2084
+-------------------------------------------------------
+Rules: Robotron 2084 [ROBO-Novice Training Camp (NOOB)]: http://www.twingalaxies.com/scores.php?scores=132404
+Goal- Any score received from wave 1 up to the end of Wave 100. (Meaning- The challenge has a finite ending at the completion of wave 100, but reaching wave 100 is not a requirement for submission.)
+Lives setting- Any from 3 up to 20
+Difficulty setting- Any from 0 up to 5
+Bonus Lives- Any from 20K up to 25K
+Romsets- At time of writing this track wolfMAME only allows 1982 Blue. Future versions will also have 1987 patched blue and 2015 Tie-Die, which will be acceptable for this challenge.
+
+-------------------------------------------------------
+Rules: Robotron 2084 [VidKidz 40-Wave Challenge (VK40)]: http://www.twingalaxies.com/scores.php?scores=132291
+Goal: Score at very end of wave 40, which marks the successful completion of all 40 hard-coded waves designed in the game.
+
+Settings:
+--Extra Man Every- 25,000
+--Turns Per Player- 3
+--Difficulty of Play- 5 or higher
+
+Romsets Allowed:
+--Any official release from VidKidz (Larry DeMar/Eugene Jarvis)
+--2015 Tie-Die
+--1987 Patched Blue
+--1982 Blue (at time of writing wolfMAME only supports blue, but it will change in future)
+--1982 Yellow/Orange
+Note- The gameplay, enemy dynamics, and wave layouts are 100% identical across the romsets.
+
+Illegal:
+--Using any form of pause to halt the game code, either hardware or software. Game code must be actively running for the whole scoring session.
