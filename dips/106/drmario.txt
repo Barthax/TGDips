@@ -1,6 +1,9 @@
+# MAME 0.106 source snippet [vsnes.c]
+
+GAME( 1990,	drmario,  0,        vsnes,   drmario,  drmario,  ROT0, "Nintendo",  "Vs. Dr. Mario", 0 )
+
 INPUT_PORTS_START( drmario )
     VS_CONTROLS_REVERSE( IPT_START1, IPT_UNKNOWN, IPT_START2, IPT_UNKNOWN )
-
 
     PORT_START /* DSW0 - bit 0 and 1 read from bit 3 and 4 on $4016, rest of the bits read on $4017 */
     PORT_DIPNAME( 0x03, 0x00, "Drop Rate Increases After" )
@@ -26,16 +29,47 @@ INPUT_PORTS_START( drmario )
     PORT_DIPSETTING(    0x80, DEF_STR( On ) )
 INPUT_PORTS_END
 
-Resolution: 256x240 @ 60Hz
+#define VS_CONTROLS_REVERSE( SELECT_IN0, START_IN0, SELECT_IN1, START_IN1 ) \
+	PORT_START	/* IN0 */ \
+	PORT_BIT ( 0x01, IP_ACTIVE_HIGH, IPT_BUTTON2 ) PORT_PLAYER(2)	/* BUTTON A on a nes */ \
+	PORT_BIT ( 0x02, IP_ACTIVE_HIGH, IPT_BUTTON1 ) PORT_PLAYER(2)	/* BUTTON B on a nes */ \
+	PORT_BIT ( 0x04, IP_ACTIVE_HIGH, SELECT_IN0 )				/* SELECT on a nes */ \
+	PORT_BIT ( 0x08, IP_ACTIVE_HIGH, START_IN0 )				/* START on a nes */ \
+	PORT_BIT ( 0x10, IP_ACTIVE_HIGH, IPT_JOYSTICK_UP ) PORT_PLAYER(2) \
+	PORT_BIT ( 0x20, IP_ACTIVE_HIGH, IPT_JOYSTICK_DOWN ) PORT_PLAYER(2) \
+	PORT_BIT ( 0x40, IP_ACTIVE_HIGH, IPT_JOYSTICK_LEFT ) PORT_PLAYER(2) \
+	PORT_BIT ( 0x80, IP_ACTIVE_HIGH, IPT_JOYSTICK_RIGHT ) PORT_PLAYER(2) \
+ 	\
+	PORT_START	/* IN1 */ \
+	PORT_BIT ( 0x01, IP_ACTIVE_HIGH, IPT_BUTTON2 ) PORT_PLAYER(1)	/* BUTTON A on a nes */ \
+	PORT_BIT ( 0x02, IP_ACTIVE_HIGH, IPT_BUTTON1 ) PORT_PLAYER(1)	/* BUTTON B on a nes */ \
+	PORT_BIT ( 0x04, IP_ACTIVE_HIGH, SELECT_IN1 )				/* SELECT on a nes */ \
+	PORT_BIT ( 0x08, IP_ACTIVE_HIGH, START_IN1 )				/* START on a nes */ \
+	PORT_BIT ( 0x10, IP_ACTIVE_HIGH, IPT_JOYSTICK_UP ) PORT_PLAYER(1) \
+	PORT_BIT ( 0x20, IP_ACTIVE_HIGH, IPT_JOYSTICK_DOWN ) PORT_PLAYER(1) \
+	PORT_BIT ( 0x40, IP_ACTIVE_HIGH, IPT_JOYSTICK_LEFT ) PORT_PLAYER(1) \
+	PORT_BIT ( 0x80, IP_ACTIVE_HIGH, IPT_JOYSTICK_RIGHT ) PORT_PLAYER(1) \
+ 	\
+	PORT_START	/* IN2 */ \
+	PORT_BIT ( 0x01, IP_ACTIVE_HIGH, IPT_UNUSED ) /* serial pin from controller */ \
+	PORT_BIT ( 0x02, IP_ACTIVE_HIGH, IPT_UNKNOWN ) \
+	PORT_BIT ( 0x04, IP_ACTIVE_HIGH, IPT_SERVICE1 ) PORT_IMPULSE(1) /* service credit? */ \
+	PORT_BIT ( 0x08, IP_ACTIVE_HIGH, IPT_UNUSED )	/* bit 0 of dsw goes here */ \
+	PORT_BIT ( 0x10, IP_ACTIVE_HIGH, IPT_UNUSED )	/* bit 1 of dsw goes here */ \
+	PORT_BIT ( 0x20, IP_ACTIVE_HIGH, IPT_COIN1 ) PORT_IMPULSE(1) \
+	PORT_BIT ( 0x40, IP_ACTIVE_HIGH, IPT_COIN2 ) PORT_IMPULSE(1) \
+	PORT_BIT ( 0x80, IP_ACTIVE_HIGH, IPT_UNKNOWN ) \
 
-Rules: http://www.twingalaxies.com/scores.php?scores=10981
+Resolution: 256x240 @ 60.000000Hz
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Vs.+Dr.+Mario
+---------------------------------------
+Rules, Points [Marathon Settings]: http://www.twingalaxies.com/scores.php?scores=10981
 ROMSet: DrMario
 Drop Rate Increase After: 7 Pills
 Virus Level: 1
 Drop Speed Up: Medium
 Free Play: Off
 Special Rules: You may freely choose your Starting Level and Music.
-
 
 Sample correct TG:
 DSW0: offset 0x2F, repeat every 0x7C, typical value 0x90
@@ -45,7 +79,26 @@ DSW0: offset 0x2F, repeat every 0x7C, typical value 0x90
 -DSW0: 0x40 (Free Play): 0x00 (Off)
 -DSW0: 0x80 (Demo Sounds): [not relevant]
 
+ 20: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 90
+ A0: 00 00 00 00 00 00 00 00  00 00 00 90 00 00 00 00
+120: 00 00 00 00 00 00 00 90  00 00 00 00 00 00 00 00
+---------------------------------------
+Rules, Points [Tournament Settings]: http://www.twingalaxies.com/scores.php?scores=10982
+ROMSet: DrMario
+Drop Rate Increase After: 7 Pills
+Virus Level: 3
+Drop Speed Up: Fastest
+Free Play: Off
+Special Rules: You may freely choose your Starting Level and Music.
 
- 20: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 90 | ................
- A0: 00 00 00 00 00 00 00 00  00 00 00 90 00 00 00 00 ................
-120: 00 00 00 00 00 00 00 90  00 00 00 00 00 00 00 00 ................
+Sample correct TG:
+DSW0: offset 0x2F, repeat every 0x7C, typical value 0x90
+-DSW0: 0x03 (Drop Rate Increases After): 0x00 (7 Pills)
+-DSW0: 0x0c (Virus Level): 0x04 (3)
+-DSW0: 0x30 (Drop Speed Up): 0x30 (Fastest)
+-DSW0: 0x40 (Free Play): 0x00 (Off)
+-DSW0: 0x80 (Demo Sounds): [not relevant]
+
+ 20: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 B4
+ A0: 00 00 00 00 00 00 00 00  00 00 00 B4 00 00 00 00
+120: 00 00 00 00 00 00 00 B4  00 00 00 00 00 00 00 00
