@@ -1,4 +1,13 @@
-# MAME 0.106 source snippet
+# MAME 0.106 source snippet [balsente.c]
+
+GAME( 1984, cshift,   0,        balsente, cshift,   cshift,   ROT0, "Bally/Sente", "Chicken Shift", GAME_SUPPORTS_SAVE )
+
+#define UNUSED_ANALOG \
+	PORT_START\
+	PORT_BIT( 0xff, IP_ACTIVE_HIGH, IPT_UNUSED )
+#define UNUSED_ANALOG_X2 UNUSED_ANALOG UNUSED_ANALOG
+#define UNUSED_ANALOG_X3 UNUSED_ANALOG_X2 UNUSED_ANALOG
+#define UNUSED_ANALOG_X4 UNUSED_ANALOG_X2 UNUSED_ANALOG_X2
 
 INPUT_PORTS_START( cshift )
 	PORT_START	/* IN0 */
@@ -40,24 +49,18 @@ INPUT_PORTS_START( cshift )
 	UNUSED_ANALOG_X4
 INPUT_PORTS_END
 
-#define UNUSED_ANALOG \
-	PORT_START\
-	PORT_BIT( 0xff, IP_ACTIVE_HIGH, IPT_UNUSED )
-#define UNUSED_ANALOG_X2 UNUSED_ANALOG UNUSED_ANALOG
-#define UNUSED_ANALOG_X4 UNUSED_ANALOG_X2 UNUSED_ANALOG_X2
-
 Resolution: 256x240 @ 60.000000Hz
 
-Rules: http://www.twingalaxies.com/scores.php?scores=9821
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=9821
 ROMSet: CShift
 Lives: 3
+Special Rules: None
 
-Sample correct TG:
+Sample correct TG: the only setting currently relevant to this rule set is Lives, and that can be verified visually
 IN1: offset 0x27, repeat every 0x7C, typical value 0x77
-- IN1: 0x03 (unused): [not relevant]
 - IN1: 0x04 (Lives): 0x04 (3)
-- IN1: 0x70 (unused): [not relevant]
 - IN1: 0x80 (Demo_Sounds): [not relevant]
-    20: 00 00 00 FF 00 00 00 77  00 00 00 FF 00 00 00 7F | ... ...w... ....
-    A0: 00 00 00 77 00 00 00 FF  00 00 00 7F 00 00 00 00 | ...w... ........
-   110: 00 00 00 00 3E 82 43 E1  00 00 00 FF 00 00 00 77 | ....>.Cß... ...w
+
+    20: 00 00 00 FF 00 00 00 77  00 00 00 FF 00 00 00 7F
+    A0: 00 00 00 77 00 00 00 FF  00 00 00 7F 00 00 00 00
+   110: 00 00 00 00 3E 82 43 E1  00 00 00 FF 00 00 00 77
