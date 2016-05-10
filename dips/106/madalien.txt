@@ -1,4 +1,4 @@
-# MAME 0.106 source snippet
+# MAME 0.106 source snippet [madalien.c]
 
 GAME( 1980, madalien,  0,        madalien, madalien, madalien, ROT270, "Data East Corporation", "Mad Alien", 0 )
 
@@ -56,17 +56,6 @@ ROMSet: MadAlien
 Lives: 3
 Bonus_points: nil
 cabinet: Upright
-
-    PORT_DIPNAME( 0x30, 0x30, "Bonus_points" )
-    PORT_DIPSETTING(    0x00, "3000" )
-    PORT_DIPSETTING(    0x20, "5000" )
-    PORT_DIPSETTING(    0x10, "7000"  )
-    PORT_DIPSETTING(    0x30, "nil"  )
-    PORT_DIPNAME( 0x40, 0x00, DEF_STR( Cabinet ) )
-    PORT_DIPSETTING(    0x00, DEF_STR( Upright ) )
-    PORT_DIPSETTING(    0x40, DEF_STR( Cocktail ) )
-    PORT_BIT( 0x80, IP_ACTIVE_HIGH, IPT_VBLANK  )
-
 
 Sample correct TG:
 DIP: offset 0x27, repeat every 0x7C, typical value 0x3C at start, changes to BC
