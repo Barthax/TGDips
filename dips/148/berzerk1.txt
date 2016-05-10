@@ -1,0 +1,125 @@
+# MAME 0.148 source snippet
+
+GAME( 1980, berzerk1, berzerk, berzerk, berzerk, driver_device, 0, ROT0, "Stern Electronics", "Berzerk (set 2)", 0 )
+
+static INPUT_PORTS_START( berzerk )
+	PORT_INCLUDE( joystick )
+	PORT_INCLUDE( common )
+
+	PORT_START("F2")
+	PORT_DIPNAME( 0x03, 0x00, "Color Test" ) PORT_CODE(KEYCODE_F5) PORT_TOGGLE PORT_DIPLOCATION("F2:1,2")
+	PORT_DIPSETTING(    0x00, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x03, DEF_STR( On ) )
+	PORT_BIT( 0x3c, IP_ACTIVE_LOW,  IPT_UNUSED )
+	PORT_DIPNAME( 0xc0, 0xc0, DEF_STR( Bonus_Life ) ) PORT_DIPLOCATION("F2:7,8")
+	PORT_DIPSETTING(    0xc0, "5000 and 10000" )
+	PORT_DIPSETTING(    0x40, "5000" )
+	PORT_DIPSETTING(    0x80, "10000" )
+	PORT_DIPSETTING(    0x00, DEF_STR( None ) )
+
+	PORT_START("F3")
+	PORT_DIPNAME( 0x01, 0x00, "Input Test Mode" ) PORT_CODE(KEYCODE_F2) PORT_TOGGLE PORT_DIPLOCATION("F3:1")
+	PORT_DIPSETTING(    0x00, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x01, DEF_STR( On ) )
+	PORT_DIPNAME( 0x02, 0x00, "Crosshair Pattern" ) PORT_CODE(KEYCODE_F4) PORT_TOGGLE PORT_DIPLOCATION("F3:2")
+	PORT_DIPSETTING(    0x00, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x02, DEF_STR( On ) )
+	PORT_BIT( 0x3c, IP_ACTIVE_LOW,  IPT_UNUSED )
+	PORT_DIPNAME( 0xc0, 0x00, DEF_STR( Language ) ) PORT_DIPLOCATION("F3:7,8")
+	PORT_DIPSETTING(    0x00, DEF_STR( English ) )
+	PORT_DIPSETTING(    0x40, DEF_STR( German ) )
+	PORT_DIPSETTING(    0x80, DEF_STR( French ) )
+	PORT_DIPSETTING(    0xc0, DEF_STR( Spanish ) )
+
+	PORT_START("F4")
+	BERZERK_COINAGE(1, F4)
+	PORT_BIT( 0xf0, IP_ACTIVE_LOW,  IPT_UNUSED )
+
+	PORT_START("F5")
+	BERZERK_COINAGE(2, F5)
+	PORT_BIT( 0xf0, IP_ACTIVE_LOW,  IPT_UNUSED )
+
+	PORT_START("F6")
+	BERZERK_COINAGE(3, F6)
+	PORT_BIT( 0xf0, IP_ACTIVE_LOW,  IPT_UNUSED )
+INPUT_PORTS_END
+
+static INPUT_PORTS_START( joystick ) // used on all games except moonwarp
+	PORT_START("P1")
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_8WAY
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_8WAY
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_8WAY
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_8WAY
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_BUTTON1 )
+	PORT_BIT( 0xe0, IP_ACTIVE_LOW, IPT_UNUSED )
+
+	PORT_START("P2")
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_8WAY PORT_COCKTAIL
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_8WAY PORT_COCKTAIL
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_8WAY PORT_COCKTAIL
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_8WAY PORT_COCKTAIL
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_COCKTAIL
+	PORT_BIT( 0x60, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_DIPNAME( 0x80, 0x80, DEF_STR( Cabinet ) )
+	PORT_DIPSETTING(    0x80, DEF_STR( Upright ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Cocktail ) )
+INPUT_PORTS_END
+
+static INPUT_PORTS_START( common ) // used on all games
+	PORT_START("SYSTEM")
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_START1 )
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_START2 )
+	PORT_BIT( 0x1c, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_COIN3 )
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_COIN2 )
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_COIN1 )
+
+	/* fake port for monitor type */
+	PORT_START(MONITOR_TYPE_PORT_TAG)
+	PORT_CONFNAME( 0x01, 0x00, "Monitor Type" )
+	PORT_CONFSETTING(    0x00, "Wells-Gardner" )
+	PORT_CONFSETTING(    0x01, "Electrohome" )
+	PORT_BIT( 0xfe, IP_ACTIVE_HIGH, IPT_UNUSED )
+
+	PORT_START("SW2")
+	/* port for the 'bookkeeping reset' and 'bookkeeping' buttons;
+	 * The 'bookkeeping reset' button is an actual button on the zpu-1000 and
+	 * zpu-1001 pcbs, labeled 'S2' or 'SW2'. It is wired to bit 0.
+	 * * pressing it while high scores are displayed will give a free game
+	 *   without adding any coin info to the bookkeeping info in nvram.
+	 * The 'bookkeeping' button is wired to the control panel, usually hidden
+	 * underneath or only accessible through the coin door. Wired to bit 7.
+	 * * It displays various bookkeeping statistics when pressed sequentially.
+	 *   Pressing P1 fire (according to the manual) when stats are displayed
+	 *   will clear the stat shown on screen.
+	 */
+	PORT_BIT( 0x01, IP_ACTIVE_HIGH, IPT_SERVICE1 ) PORT_NAME("Free Game (not logged in bookkeeping)")
+	PORT_BIT( 0x7e, IP_ACTIVE_LOW,  IPT_UNUSED )
+	PORT_BIT( 0x80, IP_ACTIVE_HIGH, IPT_SERVICE2 ) PORT_NAME("Bookkeeping") PORT_CODE(KEYCODE_F1)
+INPUT_PORTS_END
+
+
+Resolution: 256x224 @ 59.637405Hz
+
+Rules, 1-life, Slow Bullets, Random Play: http://www.twingalaxies.com/scores.php?scores=131843
+Rules, 1-life, Fast Bullets, Random Play: http://www.twingalaxies.com/scores.php?scores=9867
+Rules, 1-life, Slow Bullets, Pattern Play: http://www.twingalaxies.com/scores.php?scores=131847
+Rules, 1-life, Fast Bullets, Pattern Play: http://www.twingalaxies.com/scores.php?scores=131846
+Rules, Slow Bullets, Random Play: http://www.twingalaxies.com/scores.php?scores=7685
+Rules, Fast Bullets, Random Play: http://www.twingalaxies.com/scores.php?scores=7686
+Rules, Slow Bullets, Pattern Play: http://www.twingalaxies.com/scores.php?scores=131844
+Rules, Fast Bullets, Pattern Play: http://www.twingalaxies.com/scores.php?scores=131845
+
+ROM Set = "BERZERK1" (for Slow Bullets, berzerk is for fast bullets)
+Starting lives = 3
+1st extra at 5K, 2nd at 10K
+
+Sample correct TG:
+F2: offset 0x78, repeat every 0x60, typical value 0xFC
+- F2: 0x03 (Color Test): [not relevant]
+- F2: 0x3c (unused): [not relevant]
+- F2: 0xc0 (Bonus_Life): 0xc0 (5000 and 10000)
+
+    70: 7E 00 00 00 00 00 00 00  FC 00 00 00 00 00 00 00
+    D0: 7E 00 00 00 00 00 00 00  FC 00 00 00 00 00 00 00
+   130: 7E 00 00 00 00 00 00 00  FC 00 00 00 00 00 00 00
