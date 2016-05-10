@@ -1,3 +1,7 @@
+# MAME 0.106 source snippet [m62.c]
+
+GAME( 1984, kungfum,  0,        kungfum,  kungfum,  0,        ROT0,   "Irem", "Kung-Fu Master", 0 )
+
 INPUT_PORTS_START( kungfum )
 	PORT_START_TAG("IN0")
 	IN0_PORT
@@ -97,7 +101,7 @@ INPUT_PORTS_END
 	/* setting 0x80 give 1 Coin/1 Credit */
 
 Resolution: 256x256 @ 55Hz
-
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Kung+Fu+Master
 ----
 Rules, Marathon: http://www.twingalaxies.com/scores.php?scores=7758
 ROMSet: KungFuM
@@ -135,8 +139,6 @@ DSW2: offset 0x33, repeats every 0x7C, value 0xFD typical but Coin Mode not spec
     A0: 00 00 00 FF 00 00 00 FF  00 00 00 FF 00 00 00 FD | ... ... ... ...²
    120: 00 00 00 FF 00 00 00 FF  00 00 00 FD 00 00 00 00 | ... ... ...²....
 ----
-
-----
 Rules, Tournament: http://www.twingalaxies.com/scores.php?scores=7759
 ROMSet: KungFuM
 Difficulty: Hard
@@ -149,7 +151,25 @@ Level Selection [Cheat]: Off
 Invulnerability [Cheat]: Off
 Service Mode: Off
 
-Sample correct TG:
-to do
-----
+Note: service mode is obvious on starting the game, no requirement to check in the INP.
 
+Sample correct TG:
+DSW1: offset 0x2F, repeats every 0x7C, value 0xFE typical but upper nibble not required.
+- DSW1: 0x01 (Difficulty): 0x00 (Hard)
+- DSW1: 0x02 (Energy Loss): 0x02 (Slow)
+- DSW1: 0x0c (Lives): [Not specified in the rules: 3 default at 0x0c]
+- DSW1: 0xf0 (Coinage): [Not relevant - ignore upper nibble]
+DSW2: offset 0x33, repeats every 0x7C, value 0xFD typical but Coin Mode not specified
+- DSW2: 0x01 (Flip_Screen): 0x01 (Off)
+- DSW2: 0x02 (Cabinet): 0x00 (Upright)
+- DSW2: 0x04 (Coin Mode): [Not relevant]
+- DSW2: 0x08 (Slow Motion Mode (Cheat)): 0x08 (Off)
+- DSW2: 0x10 (Freeze (Cheat)): 0x10 (Off)
+- DSW2: 0x20 (Level Selection Mode (Cheat)): 0x20 (Off)
+- DSW2: 0x40 (Invulnerability (Cheat)): 0x40 (Off)
+- DSW2: 0x80 (unused): 0x00 typical
+
+    20: 00 00 00 FF 00 00 00 FF  00 00 00 FF 00 00 00 FE
+    30: 00 00 00 FD 00 00 00 00  00 00 00 00 00 00 00 00
+    A0: 00 00 00 FF 00 00 00 FF  00 00 00 FE 00 00 00 FD
+   120: 00 00 00 FF 00 00 00 FE  00 00 00 FD 00 00 00 00
