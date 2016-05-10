@@ -1,4 +1,6 @@
-# MAME 0.106 source snippet
+# MAME 0.106 source snippet [raiders5.c, but later versions of MAME use nova2001.c]
+
+GAME( 1985, raiders5, 0,        raiders5, raiders5, 0, ROT0, "UPL", "Raiders5", 0 )
 
 INPUT_PORTS_START( raiders5 )
 	PORT_START
@@ -74,7 +76,7 @@ INPUT_PORTS_START( raiders5 )
 
 INPUT_PORTS_END
 
-Resolution: 256x192 @ 60Hz
+Resolution: 256x192 @ 60.000000Hz
 
 Rules: http://www.twingalaxies.com/scores.php?scores=91173
 ROMSet: Raiders5
