@@ -1,5 +1,15 @@
 # MAME 0.106 source snippet
 
+#include "driver.h"
+#include "balsente.h"
+#include "sound/cem3394.h"
+
+/*************************************
+ *
+ *  Port definitions
+ *
+ *************************************/
+
 #define UNUSED_ANALOG \
 	PORT_START\
 	PORT_BIT( 0xff, IP_ACTIVE_HIGH, IPT_UNUSED )
@@ -439,14 +449,6 @@ INPUT_PORTS_START( stocker )
 	PLAYER1_WHEEL
 INPUT_PORTS_END
 
-Sample correct for TG:
-Offset 0x27 (value 0x7F) then 0xA3, repeat every 0x80 thereafter
-- IN1: 0x3f - unused, always 0x3f (not relevant but is the reason for 0x7F value)
-- IN1: 0x40 (End of Game): 0x40 (Normal)
-    20: 00 00 00 01 00 00 00 7F  00 00 00 FF 00 00 00 7F | ........... ....
-    A0: 00 00 00 7F 00 00 00 FF  00 00 00 7F 00 00 00 00 | ....... ........
-   120: 00 00 00 7F 00 00 00 FF  00 00 00 FF 00 00 00 00 | ....... ... ....
-Note: Service Mode set to On is very obvious and is a test suite instead of the game.  Doesn't need checking for in the INP.
 
 INPUT_PORTS_START( triviag1 )
 	PORT_START	/* IN0 */
@@ -1409,3 +1411,36 @@ INPUT_PORTS_END
 	PORT_BIT( 0xff, 0x80, IPT_LIGHTGUN_Y ) PORT_MINMAX(0,255) PORT_SENSITIVITY(70) PORT_KEYDELTA(10)
 
 
+/*************************************
+ *
+ *  Game drivers
+ *
+ *************************************/
+
+GAME( 1984, sentetst, 0,        balsente, sentetst, sentetst, ROT0, "Bally/Sente", "Sente Diagnostic Cartridge", GAME_SUPPORTS_SAVE )
+GAME( 1984, cshift,   0,        balsente, cshift,   cshift,   ROT0, "Bally/Sente", "Chicken Shift", GAME_SUPPORTS_SAVE )
+GAME( 1984, gghost,   0,        balsente, gghost,   gghost,   ROT0, "Bally/Sente", "Goalie Ghost", GAME_SUPPORTS_SAVE )
+GAME( 1984, hattrick, 0,        balsente, hattrick, hattrick, ROT0, "Bally/Sente", "Hat Trick", GAME_SUPPORTS_SAVE )
+GAME( 1984, otwalls,  0,        balsente, otwalls,  otwalls,  ROT0, "Bally/Sente", "Off the Wall (Sente)", GAME_SUPPORTS_SAVE )
+GAME( 1984, snakepit, 0,        balsente, snakepit, snakepit, ROT0, "Bally/Sente", "Snake Pit", GAME_SUPPORTS_SAVE )
+GAME( 1984, snakjack, 0,        balsente, snakjack, snakjack, ROT0, "Bally/Sente", "Snacks'n Jaxson", GAME_SUPPORTS_SAVE )
+GAME( 1984, stocker,  0,        balsente, stocker,  stocker,  ROT0, "Bally/Sente", "Stocker", GAME_SUPPORTS_SAVE )
+GAME( 1984, triviag1, 0,        balsente, triviag1, triviag1, ROT0, "Bally/Sente", "Trivial Pursuit (Genus I)", GAME_SUPPORTS_SAVE )
+GAME( 1984, triviag2, 0,        balsente, triviag2, triviag2, ROT0, "Bally/Sente", "Trivial Pursuit (Genus II)", GAME_SUPPORTS_SAVE )
+GAME( 1984, triviasp, 0,        balsente, triviasp, triviag2, ROT0, "Bally/Sente", "Trivial Pursuit (All Star Sports Edition)", GAME_SUPPORTS_SAVE )
+GAME( 1984, triviayp, 0,        balsente, triviayp, triviag2, ROT0, "Bally/Sente", "Trivial Pursuit (Young Players Edition)", GAME_SUPPORTS_SAVE )
+GAME( 1984, triviabb, 0,        balsente, triviabb, triviag2, ROT0, "Bally/Sente", "Trivial Pursuit (Baby Boomer Edition)", GAME_SUPPORTS_SAVE )
+GAME( 1987, triviaes, 0,        balsente, triviaes, triviaes, ROT0, "Bally/Sente", "Trivial Pursuit (Spanish Edition)", GAME_SUPPORTS_SAVE )
+GAME( 1985, gimeabrk, 0,        balsente, gimeabrk, gimeabrk, ROT0, "Bally/Sente", "Gimme A Break", GAME_SUPPORTS_SAVE )
+GAME( 1985, minigolf, 0,        balsente, minigolf, minigolf, ROT0, "Bally/Sente", "Mini Golf (set 1)", GAME_SUPPORTS_SAVE )
+GAME( 1985, minigol2, minigolf, balsente, minigol2, minigol2, ROT0, "Bally/Sente", "Mini Golf (set 2)", GAME_SUPPORTS_SAVE )
+GAME( 1985, toggle,   0,        balsente, toggle,   toggle,   ROT0, "Bally/Sente", "Toggle (prototype)", GAME_SUPPORTS_SAVE )
+GAME( 1986, nametune, 0,        balsente, nametune, nametune, ROT0, "Bally/Sente", "Name That Tune", GAME_SUPPORTS_SAVE )
+GAME( 1986, nstocker, 0,        balsente, nstocker, nstocker, ROT0, "Bally/Sente", "Night Stocker", GAME_SUPPORTS_SAVE )
+GAME( 1986, sfootbal, 0,        balsente, sfootbal, sfootbal, ROT0, "Bally/Sente", "Street Football", GAME_SUPPORTS_SAVE )
+GAME( 1986, spiker,   0,        balsente, spiker,   spiker,   ROT0, "Bally/Sente", "Spiker", GAME_SUPPORTS_SAVE )
+GAME( 1986, stompin,  0,        balsente, stompin,  stompin,  ROT0, "Bally/Sente", "Stompin'", GAME_SUPPORTS_SAVE )
+GAME( 1987, rescraid, 0,        balsente, rescraid, rescraid, ROT0, "Bally/Midway", "Rescue Raider", GAME_SUPPORTS_SAVE )
+GAME( 1987, rescrdsa, rescraid, balsente, rescraid, rescraid, ROT0, "Bally/Midway", "Rescue Raider (Stand-Alone)", GAME_SUPPORTS_SAVE )
+GAME( 198?, grudge,   0,        balsente, grudge,   grudge,   ROT0, "Bally/Midway", "Grudge Match (prototype)", GAME_SUPPORTS_SAVE )
+GAME( 198?, shrike,   0,        shrike,   shrike,   shrike,   ROT0, "Bally/Sente", "Shrike Avenger (prototype)", GAME_SUPPORTS_SAVE )
