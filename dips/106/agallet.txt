@@ -54,7 +54,12 @@ INPUT_PORTS_END
 
 Resolution: 320x240 @ 57.550644 Hz
 
-Rules: http://www.twingalaxies.com/scores.php?scores=21428
+Note: Region set through dipswitch, all other settings edited through service mode, accessible with F2.
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Air+Gallet
+Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=21428
+Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=21429
+
 ROMSet: AGallet
 Region: USA
 Difficulty: Normal
@@ -66,6 +71,6 @@ Sample correct TG:
 Region: offset 0x2B, repeat every 0x7c, typical value 0x01
 - Region: 0xff (Region): 0x01 (USA)
 
-    20: 00 00 FF FF 00 00 F7 FF  00 00 00 01 00 00 00 00 | ..  ..˜ ........
-    A0: 00 00 F7 FF 00 00 00 01  00 00 00 00 00 00 00 00 | ..˜ ............
-   120: 00 00 00 01 00 00 00 00  00 00 00 00 00 00 00 00 | ................
+    20: 00 00 FF FF 00 00 F7 FF  00 00 00 01 00 00 00 00
+    A0: 00 00 F7 FF 00 00 00 01  00 00 00 00 00 00 00 00
+   120: 00 00 00 01 00 00 00 00  00 00 00 00 00 00 00 00
