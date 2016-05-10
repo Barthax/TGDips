@@ -1,0 +1,129 @@
+# MAME 0.106 source snippet
+
+GAME( 1993, finalttr, 0,        finalttr, finalttr, 0,        ROT0, "Jeil Computer System", "Final Tetris", 0 )
+
+INPUT_PORTS_START( finalttr )
+	PORT_START	/* 500001 */
+	PORT_DIPNAME( 0x0001, 0x0001, DEF_STR( Demo_Sounds ) )
+	PORT_DIPSETTING(      0x0000, DEF_STR( Off ) )
+	PORT_DIPSETTING(      0x0001, DEF_STR( On ) )
+	PORT_DIPNAME( 0x0002, 0x0002, DEF_STR( Unknown ) )
+	PORT_DIPSETTING(      0x0002, DEF_STR( Off ) )
+	PORT_DIPSETTING(      0x0000, DEF_STR( On ) )
+	PORT_DIPNAME( 0x0004, 0x0004, DEF_STR( Unknown ) )
+	PORT_DIPSETTING(      0x0004, DEF_STR( Off ) )
+	PORT_DIPSETTING(      0x0000, DEF_STR( On ) )
+	PORT_DIPNAME( 0x0038, 0x0038, DEF_STR( Coinage ) )
+	PORT_DIPSETTING(      0x0000, DEF_STR( 4C_1C ) )
+	PORT_DIPSETTING(      0x0010, DEF_STR( 3C_1C ) )
+	PORT_DIPSETTING(      0x0030, DEF_STR( 2C_1C ) )
+	PORT_DIPSETTING(      0x0038, DEF_STR( 1C_1C ) )
+/*  PORT_DIPSETTING(      0x0018, DEF_STR( 1C_1C ) ) Duplicate setting? */
+	PORT_DIPSETTING(      0x0020, DEF_STR( 2C_3C ) )
+	PORT_DIPSETTING(      0x0028, DEF_STR( 1C_2C ) )
+	PORT_DIPSETTING(      0x0008, DEF_STR( 1C_4C ) )
+	PORT_DIPNAME( 0x0040, 0x0040, DEF_STR( Unknown ) )
+	PORT_DIPSETTING(      0x0040, DEF_STR( Off ) )
+	PORT_DIPSETTING(      0x0000, DEF_STR( On ) )
+	PORT_DIPNAME( 0x0080, 0x0080, DEF_STR( Unknown ) )
+	PORT_DIPSETTING(      0x0080, DEF_STR( Off ) )
+	PORT_DIPSETTING(      0x0000, DEF_STR( On ) )
+	PORT_BIT( 0x0100, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_8WAY
+	PORT_BIT( 0x0200, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_8WAY
+	PORT_BIT( 0x0400, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_8WAY
+	PORT_BIT( 0x0800, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_8WAY
+	PORT_BIT( 0x1000, IP_ACTIVE_LOW, IPT_BUTTON1 )
+	PORT_BIT( 0x2000, IP_ACTIVE_LOW, IPT_BUTTON2 )
+	PORT_BIT( 0x4000, IP_ACTIVE_LOW, IPT_BUTTON3 )
+	PORT_BIT( 0x8000, IP_ACTIVE_HIGH, IPT_UNKNOWN )	/* Must be low or game stops! */
+													/* probably VBlank */
+	PORT_START	/* 500003 */
+	PORT_DIPNAME( 0x0001, 0x0001, DEF_STR( Unknown ) )
+	PORT_DIPSETTING(      0x0001, DEF_STR( Off ) )
+	PORT_DIPSETTING(      0x0000, DEF_STR( On ) )
+	PORT_DIPNAME( 0x0002, 0x0002, DEF_STR( Unknown ) )
+	PORT_DIPSETTING(      0x0002, DEF_STR( Off ) )
+	PORT_DIPSETTING(      0x0000, DEF_STR( On ) )
+	PORT_DIPNAME( 0x000c, 0x000c, "Time" )
+	PORT_DIPSETTING(      0x0000, "60 Seconds" )
+	PORT_DIPSETTING(      0x000c, "90 Seconds" )
+	PORT_DIPSETTING(      0x0008, "120 Seconds" )
+	PORT_DIPSETTING(      0x0004, "150 Seconds" )
+	PORT_DIPNAME( 0x0010, 0x0010, DEF_STR( Unknown ) )
+	PORT_DIPSETTING(      0x0010, DEF_STR( Off ) )
+	PORT_DIPSETTING(      0x0000, DEF_STR( On ) )
+	PORT_DIPNAME( 0x0020, 0x0020, DEF_STR( Unknown ) )
+	PORT_DIPSETTING(      0x0020, DEF_STR( Off ) )
+	PORT_DIPSETTING(      0x0000, DEF_STR( On ) )
+	PORT_DIPNAME( 0x0040, 0x0040, DEF_STR( Unknown ) )
+	PORT_DIPSETTING(      0x0040, DEF_STR( Off ) )
+	PORT_DIPSETTING(      0x0000, DEF_STR( On ) )
+	PORT_DIPNAME( 0x0080, 0x0080, DEF_STR( Unknown ) )
+	PORT_DIPSETTING(      0x0080, DEF_STR( Off ) )
+	PORT_DIPSETTING(      0x0000, DEF_STR( On ) )
+	PORT_BIT( 0x0100, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_8WAY PORT_PLAYER(2)
+	PORT_BIT( 0x0200, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_8WAY PORT_PLAYER(2)
+	PORT_BIT( 0x0400, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_8WAY PORT_PLAYER(2)
+	PORT_BIT( 0x0800, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_8WAY PORT_PLAYER(2)
+	PORT_BIT( 0x1000, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_PLAYER(2)
+	PORT_BIT( 0x2000, IP_ACTIVE_LOW, IPT_BUTTON2 ) PORT_PLAYER(2)
+	PORT_BIT( 0x4000, IP_ACTIVE_LOW, IPT_BUTTON3 ) PORT_PLAYER(2)
+	PORT_BIT( 0x8000, IP_ACTIVE_HIGH, IPT_UNKNOWN )
+
+	PORT_START	/* 500005 */
+	PORT_BIT( 0x0100, IP_ACTIVE_LOW, IPT_START1 )
+	PORT_BIT( 0x0200, IP_ACTIVE_LOW, IPT_START2 )
+	PORT_BIT( 0x0400, IP_ACTIVE_LOW, IPT_COIN1 )
+	PORT_BIT( 0x0800, IP_ACTIVE_LOW, IPT_COIN2 )
+	PORT_BIT( 0x1000, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_BIT( 0x2000, IP_ACTIVE_LOW, IPT_TILT )
+	PORT_BIT( 0x4000, IP_ACTIVE_LOW, IPT_COIN3 )
+	PORT_BIT( 0x8000, IP_ACTIVE_LOW, IPT_UNKNOWN )
+INPUT_PORTS_END
+
+
+Resolution: 256x224 @ 57.500000Hz
+
+Rules: http://www.twingalaxies.com/scores.php?scores=69904
+ROMSet: FinalTtr
+Unknown: Off [All]
+Time: 90 Seconds
+
+Sample correct TG:
+500001: offset 0x22, repeat every 0x7C, typical value 0x7FFF
+- 500001: 0x0001 (Demo_Sounds): [not relevant]
+- 500001: 0x0002 (Unknown): 0x0002 (Off)
+- 500001: 0x0004 (Unknown): 0x0004 (Off)
+- 500001: 0x0038 (Coinage): [not relevant]
+- 500001: 0x0040 (Unknown): 0x0040 (Off)
+- 500001: 0x0080 (Unknown): 0x0080 (Off)
+- 500001: 0x0100 (P1, 8-way joystick, up): [not relevant]
+- 500001: 0x0200 (P1, 8-way joystick, down): [not relevant]
+- 500001: 0x0400 (P1, 8-way joystick, left): [not relevant]
+- 500001: 0x0800 (P1, 8-way joystick, right): [not relevant]
+- 500001: 0x1000 (P1, button 1): [not relevant]
+- 500001: 0x2000 (P1, button 2): [not relevant]
+- 500001: 0x4000 (P1, button 3): [not relevant]
+- 500001: 0x8000 (unknown): [not relevant]
+
+500003: offset 0x26, repeat every 0x7C, typical value 0x7FFF
+- 500003: 0x0001 (Unknown): 0x0001 (Off)
+- 500003: 0x0002 (Unknown): 0x0002 (Off)
+- 500003: 0x000c (Time): 0x000c (90 Seconds)
+- 500003: 0x0010 (Unknown): 0x0010 (Off)
+- 500003: 0x0020 (Unknown): 0x0020 (Off)
+- 500003: 0x0040 (Unknown): 0x0040 (Off)
+- 500003: 0x0080 (Unknown): 0x0080 (Off)
+- 500003: 0x0100 (P2, 8-way joystick, up): [not relevant]
+- 500003: 0x0200 (P2, 8-way joystick, down): [not relevant]
+- 500003: 0x0400 (P2, 8-way joystick, left): [not relevant]
+- 500003: 0x0800 (P2, 8-way joystick, right): [not relevant]
+- 500003: 0x1000 (P2, button 1): [not relevant]
+- 500003: 0x2000 (P2, button 2): [not relevant]
+- 500003: 0x4000 (P2, button 3): [not relevant]
+- 500003: 0x8000 (unknown): [not relevant]
+
+    20: 00 00 7F FF 00 00 7F FF  00 00 FF 00 00 00 00 00 | ... ... .. .....
+    90: 00 00 00 00 00 00 00 00  3E 82 43 E1 00 00 7F FF | ........>.Cß... 
+    A0: 00 00 7F FF 00 00 FF 00  00 00 00 00 00 00 00 00 | ... .. .........
+   110: 00 00 00 00 3E 82 43 E1  00 00 7F FF 00 00 7F FF | ....>.Cß... ... 
