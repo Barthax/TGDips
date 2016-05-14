@@ -1,0 +1,18 @@
+ROM set changed: yes
+0.74u2-0.141: fixeight - "FixEight"
+0.142-0.173: fixeight - "FixEight (Europe)"
+
+MAME History:
+- 0.141u1: ... Changed parent description to 'FixEight (Europe)' and clone 'FixEight (bootleg)' to 'FixEight (Korea, bootleg)'. Renamed (fixeightb) to (fixeightbl).
+Added NVRAM fixeight.nv.
+
+Resolution, 0.106-0.113: 320x240 @ 59.410645Hz
+Resolution, 0.114-0.122: 320x240 @ 59.410646Hz
+Resolution, 0.123-0.151: 320x240 @ 59.000000Hz
+Resolution, 0.152-0.173: 320x240 @ 59.637405Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=FixEight+(Europe)
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=200222
+
+NOTE: There are no hardware DIP switches, none that work anyway! Use Service Mode (F2 to cycle through screens & eventually exit) to access the internal settings after playback if not shown during playback.
+      Prior to 0.141u1, game does not work properly.
