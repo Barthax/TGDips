@@ -1,0 +1,7 @@
+ROM set changes:
+0.35-0.173: starcas1 - "Star Castle (older)"
+
+Resolution, 0.106-0.173: vector @ 38.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Star+Castle+(older/easy+chip)
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=200572
