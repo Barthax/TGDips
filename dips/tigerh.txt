@@ -1,4 +1,8 @@
 ROM set changed: no
-0.106-0.170: tigerh - "Tiger Heli (US)"
+0.106-0.173: tigerh - "Tiger Heli (US)"
 
-Resolution, 0.106-0.170: 280x240 @ 60.000000Hz
+Resolution, 0.106-0.173: 280x240 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Tiger+Heli+%5BUS%5D
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=7880
+Rules, Points [TG Extreme Settings]: http://www.twingalaxies.com/scores.php?scores=21156
