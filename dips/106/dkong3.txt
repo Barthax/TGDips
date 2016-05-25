@@ -121,3 +121,29 @@ DSW1: offset 0x2F, repeat every 0x7C, typical value 0x7E
 - DSW1: 0x0c (Bonus_Life): 0x0c (None)
 - DSW1: 0x30 (Additional Bonus): 0x30 (None)
 - DSW1: 0xc0 (Difficulty): 0x40 (Medium)
+-------------------------------------------------
+Rules, Points [Donkey Kong 3 [US] Hardest (Marathon settings)]: http://www.twingalaxies.com/scores.php?scores=199619
+ROMSet: DKong3
+Unknown: Off [All]
+Cabinet: Upright
+Lives: 3
+Bonus Life: 30000
+Addtional Bonus: 30000
+Difficulty: Hardest
+
+Sample correct TG:
+DSW0: offset 0x2B, repeat every 0x7C, typical value 0x00
+- DSW0: 0x07 (Coinage): [not relevant]
+- DSW0: 0x08 (Unknown): 0x00 (Off)
+- DSW0: 0x10 (Unknown): 0x00 (Off)
+- DSW0: 0x20 (Unknown): 0x00 (Off)
+- DSW0: 0x80 (Cabinet): 0x00 (Upright)
+DSW1: offset 0x2F, repeat every 0x7C, typical value 0xC0
+- DSW1: 0x03 (Lives): 0x00 (3)
+- DSW1: 0x0c (Bonus_Life): 0x00 (30000)
+- DSW1: 0x30 (Additional Bonus): 0x00 (30000)
+- DSW1: 0xc0 (Difficulty): 0xc0 (Hardest)
+
+    20: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 C0
+    A0: 00 00 00 00 00 00 00 00  00 00 00 C0 00 00 00 00
+   120: 00 00 00 00 00 00 00 C0  00 00 00 00 00 00 00 00
