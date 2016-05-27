@@ -2,7 +2,10 @@ ROM set changed: no
 0.106-0.115: sidetrac - "Side Track"
 0.116-0.122: sidetrac - "Side Trak"
 0.123-0.149: sidetrac - "Side Track"
-0.150-0.170: sidetrac - "Side Trak"
+0.150-0.174: sidetrac - "Side Trak"
 
 Resolution, 0.106-0.113: 248x256 @ 57.000000Hz
-Resolution, 0.114-0.170: 256x256 @ 59.996811Hz
+Resolution, 0.114-0.174: 256x256 @ 59.996811Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Side%20Track
+Rules, TGTS: http://www.twingalaxies.com/scores.php?scores=10054
