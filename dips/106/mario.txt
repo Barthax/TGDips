@@ -60,10 +60,11 @@ Offset 0x2A (0x40 value), repeat every 0x7C
 - DSW0: 0x03 (Lives): 0x00 (3)
 - DSW0: 0x0c (Coinage): 0x00 typically but also 0x04/0x08/0x0c valid
 - DSW0: 0x30 (Bonus_Life): 0x00 (20000)
-- DSW0: 0xc0 (Difficulty): 0x40 (Medium)
-    20: 00 00 00 00 00 00 00 00  00 00 00 40 00 00 00 00 | ...........@....
-    A0: 00 00 00 00 00 00 00 40  00 00 00 00 00 00 00 00 | .......@........
-   120: 00 00 00 40 00 00 00 00  00 00 00 00 00 00 00 00 | ...@............
+- DSW0: 0xc0 (Difficulty): 0x80 (Hard) - Hard is actually Medium!!!
+
+    20: 00 00 00 00 00 00 00 00  00 00 00 80 00 00 00 00 | ...........@....
+    A0: 00 00 00 00 00 00 00 80  00 00 00 00 00 00 00 00 | .......@........
+   120: 00 00 00 80 00 00 00 00  00 00 00 00 00 00 00 00 | ...@............
 ----
 
 ----
@@ -77,6 +78,13 @@ Bonus Life: 20000
 Difficulty: Hard 
 
 Sample correct TG:
-to do
+Offset 0x2A (0x40 value), repeat every 0x7C
+- DSW0: 0x03 (Lives): 0x00 (3)
+- DSW0: 0x0c (Coinage): 0x00 typically but also 0x04/0x08/0x0c valid
+- DSW0: 0x30 (Bonus_Life): 0x00 (20000)
+- DSW0: 0xc0 (Difficulty): 0x40 (Medium)  - Medium is actually Hard!!!
+    20: 00 00 00 00 00 00 00 00  00 00 00 40 00 00 00 00 | ...........@....
+    A0: 00 00 00 00 00 00 00 40  00 00 00 00 00 00 00 00 | .......@........
+   120: 00 00 00 40 00 00 00 00  00 00 00 00 00 00 00 00 | ...@............
 ----
 
