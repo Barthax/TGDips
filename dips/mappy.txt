@@ -6,3 +6,6 @@ Resolution, 0.116-0.173: 288x224 @ 60.606061Hz
 
 TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Mappy%20[US]
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=7766
+Note 1: the DIPs are shown by the game (very briefly) during boot up.  Any changes to the DIP settings after this will not take effect.
+Note 2: the Bonus Life settings are slightly harder if starting lives = 5.
+Note 3: 0.173-0.174 WolfMAME will only report 5 lives values of Bonus Life settings, so check the boot-up dips.
