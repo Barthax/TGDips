@@ -1,0 +1,9 @@
+ROM set changed: no
+0.106-0.159: NOT SUPPORTED
+0.160-0.174: b2b - "Bang Bang Busters (2010 NCI release)"
+
+Resolution, 0.160-0.174: 320x224 @ 59.185606Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Bang%20Bang%20Busters%20(2010%20NCI%20Release)
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=200346
+Note: to check internal settings use Service Mode (F2) with up/down as navigation with first fire button as select.
