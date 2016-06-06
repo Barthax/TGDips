@@ -86,7 +86,7 @@ Dips1: offset 0x33, repeat every 0x7C, typical value 0xBF
 - Dips1: 0x20 (unknown): [not relevant]
 - Dips1: 0x40 (Unknown): 0x00 (Off)
 - Dips1: 0x80 (Unknown): [not relevant]
-Dips2: offset0x3F, repeat every 0x7C, typical value 0x1F
+Dips2: offset0x37, repeat every 0x7C, typical value 0x1F
 - Dips2: 0x01 (unused): [not relevant]
 - Dips2: 0x02 (unused): [not relevant]
 - Dips2: 0x04 (unused): [not relevant]
