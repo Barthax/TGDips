@@ -12,4 +12,5 @@ Rules, Points [Tournament]: http://www.twingalaxies.com/scores.php?scores=131651
 Rules, Points [Marathon / No Double Ship]: http://www.twingalaxies.com/scores.php?scores=131650
 Rules, Points [Tournament / No Double Ship]: http://www.twingalaxies.com/scores.php?scores=131652
 
-Note: the player can use Service Mode (F2) during recording to show the settings.  It is not possible to confirm the settings after playback has ended as MAME reverts to the localised configuration.
+Note 1: the dip switch settings are shown (very briefly) during boot up around frame 700.
+Note 2: the player can use Service Mode (F2) during recording to show the settings.  It is not possible to confirm the settings after playback has ended as MAME reverts to the localised configuration.
