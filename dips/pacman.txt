@@ -5,3 +5,4 @@ Resolution, 0.106-0.113: 288x224 @ 60.606060Hz
 Resolution, 0.114-0.169: 288x224 @ 60.606061Hz
 
 Rules: http://www.twingalaxies.com/scores.php?scores=197901
+Note: can use Service Mode (F2) to reboot and see the settings.
