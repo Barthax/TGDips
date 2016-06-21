@@ -1,3 +1,5 @@
+Note: two ROM sets have existed with this name.
+----
 ROM set changed: yes
 0.106-0.147: bnj - "Bump 'n' Jump"
 0.148-0.174: bnjm - "Bump 'n' Jump (Midway)"
@@ -10,3 +12,12 @@ Resolution, 0.129-0.174: 256x240 @ 57.444853Hz
 
 TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Bump%20%27n%27%20Jump
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=7700
+----
+
+NB: as yet this set is not tracked at Twin Galaxies.
+ROM set changed: no
+0.106-0.147: NOT SUPPORTED
+0.148-0.174: bnj - "Bump 'n' Jump"
+
+Resolution, 0.148-0.174: 256x240 @ 57.444853Hz
+----
