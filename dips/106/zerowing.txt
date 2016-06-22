@@ -1,0 +1,142 @@
+# MAME 0.106 source snippet [toaplan1.c]
+
+GAME( 1989, zerowing, 0,        zerowing, zerowing, toaplan1, ROT0,   "Toaplan", "Zero Wing", 0 )
+
+#define  TOAPLAN1_PLAYER_INPUT( player, button3, options )										\
+	PORT_START																	\
+	PORT_BIT( 0x01, IP_ACTIVE_HIGH, IPT_JOYSTICK_UP ) PORT_PLAYER(player) options PORT_8WAY	\
+	PORT_BIT( 0x02, IP_ACTIVE_HIGH, IPT_JOYSTICK_DOWN ) PORT_PLAYER(player) options PORT_8WAY	\
+	PORT_BIT( 0x04, IP_ACTIVE_HIGH, IPT_JOYSTICK_LEFT ) PORT_PLAYER(player) options PORT_8WAY	\
+	PORT_BIT( 0x08, IP_ACTIVE_HIGH, IPT_JOYSTICK_RIGHT ) PORT_PLAYER(player) options PORT_8WAY	\
+	PORT_BIT( 0x10, IP_ACTIVE_HIGH, IPT_BUTTON1 ) PORT_PLAYER(player) options 						\
+	PORT_BIT( 0x20, IP_ACTIVE_HIGH, IPT_BUTTON2 ) PORT_PLAYER(player) options 						\
+	PORT_BIT( 0x40, IP_ACTIVE_HIGH, button3 ) PORT_PLAYER(player) options 									\
+	PORT_BIT( 0x80, IP_ACTIVE_HIGH, IPT_UNKNOWN )
+
+#define  TOAPLAN1_SYSTEM_INPUTS						\
+	PORT_START										\
+	PORT_BIT( 0x01, IP_ACTIVE_HIGH, IPT_SERVICE1 ) 	\
+	PORT_BIT( 0x02, IP_ACTIVE_HIGH, IPT_TILT )		\
+	PORT_BIT( 0x04, IP_ACTIVE_HIGH, IPT_UNKNOWN )	\
+	PORT_BIT( 0x08, IP_ACTIVE_HIGH, IPT_COIN1 )		\
+	PORT_BIT( 0x10, IP_ACTIVE_HIGH, IPT_COIN2 )		\
+	PORT_BIT( 0x20, IP_ACTIVE_HIGH, IPT_START1 )	\
+	PORT_BIT( 0x40, IP_ACTIVE_HIGH, IPT_START2 )	\
+	PORT_BIT( 0x80, IP_ACTIVE_HIGH, IPT_VBLANK )
+
+#define  TOAPLAN1_VBLANK_INPUT						\
+	PORT_START										\
+	PORT_BIT( 0x0001, IP_ACTIVE_HIGH, IPT_VBLANK )	\
+	PORT_BIT( 0xfffe, IP_ACTIVE_HIGH, IPT_UNKNOWN )
+
+INPUT_PORTS_START( zerowing )
+	TOAPLAN1_VBLANK_INPUT
+
+	TOAPLAN1_PLAYER_INPUT( 1, IPT_UNKNOWN, )
+
+	TOAPLAN1_PLAYER_INPUT( 2, IPT_UNKNOWN, PORT_COCKTAIL )
+
+	PORT_START		/* DSW A */
+	PORT_DIPNAME( 0x01, 0x01, DEF_STR( Cabinet ) )
+	PORT_DIPSETTING(    0x01, DEF_STR( Upright ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Cocktail ) )
+	PORT_DIPNAME( 0x02, 0x00, DEF_STR( Flip_Screen ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x02, DEF_STR( On ) )
+	PORT_SERVICE( 0x04, IP_ACTIVE_HIGH )
+	PORT_DIPNAME( 0x08, 0x00, DEF_STR( Demo_Sounds ) )
+	PORT_DIPSETTING(    0x08, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x30, 0x00, DEF_STR( Coin_A ) )
+	PORT_DIPSETTING(    0x30, DEF_STR( 4C_1C ) )
+	PORT_DIPSETTING(    0x20, DEF_STR( 3C_1C ) )
+	PORT_DIPSETTING(    0x10, DEF_STR( 2C_1C ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( 1C_1C ) )
+	PORT_DIPNAME( 0xc0, 0x00, DEF_STR( Coin_B ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( 1C_2C ) )
+	PORT_DIPSETTING(    0x40, DEF_STR( 1C_3C ) )
+	PORT_DIPSETTING(    0x80, DEF_STR( 1C_4C ) )
+	PORT_DIPSETTING(    0xc0, DEF_STR( 1C_6C ) )
+
+	PORT_START		/* DSW B */
+	PORT_DIPNAME( 0x03, 0x00, DEF_STR( Difficulty ) )
+	PORT_DIPSETTING(    0x01, DEF_STR( Easy ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Medium ) )
+	PORT_DIPSETTING(    0x02, DEF_STR( Hard ) )
+	PORT_DIPSETTING(    0x03, DEF_STR( Hardest ) )
+	PORT_DIPNAME( 0x0c, 0x00, DEF_STR( Bonus_Life ) )
+	PORT_DIPSETTING(    0x00, "200K, every 500K" )
+	PORT_DIPSETTING(    0x04, "500K, every 1M" )
+	PORT_DIPSETTING(    0x08, "500K" )
+	PORT_DIPSETTING(    0x0c, DEF_STR( None ) )
+	PORT_DIPNAME( 0x30, 0x00, DEF_STR( Lives ) )
+	PORT_DIPSETTING(    0x30, "2" )
+	PORT_DIPSETTING(    0x00, "3" )
+	PORT_DIPSETTING(    0x20, "4" )
+	PORT_DIPSETTING(    0x10, "5" )
+	PORT_DIPNAME( 0x40, 0x00, "Invulnerability" )
+	PORT_DIPSETTING(    0x00, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x40, DEF_STR( On ) )
+	PORT_DIPNAME( 0x80, 0x00, DEF_STR( Allow_Continue ) )
+	PORT_DIPSETTING(    0x80, DEF_STR( No ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Yes ) )
+
+	TOAPLAN1_SYSTEM_INPUTS
+
+	PORT_START		/* Territory Jumper block */
+	PORT_DIPNAME( 0x03, 0x02, "Territory" )
+	PORT_DIPSETTING(    0x02, DEF_STR( Europe ) )
+//  PORT_DIPSETTING(    0x03, DEF_STR( Europe ) )
+	PORT_DIPSETTING(    0x01, "US" )
+	PORT_DIPSETTING(    0x00, DEF_STR( Japan ) )
+	PORT_DIPNAME( 0x04, 0x00, DEF_STR( Unused ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x04, DEF_STR( On ) )
+	PORT_DIPNAME( 0x08, 0x00, DEF_STR( Unused ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x08, DEF_STR( On ) )
+	PORT_BIT( 0xf0, IP_ACTIVE_HIGH, IPT_UNKNOWN )
+INPUT_PORTS_END
+
+Resolution: 320x240 @ 55.161545Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Zero+Wing
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=7902
+
+ROMSet: ZeroWing
+Cabinet: Upright
+Flip Screen: Off
+Service Mode: Off
+Difficulty: Medium
+Bonus Life: 500k
+Lives: 3
+Invulnerability: Off
+Allow cOntinue: No
+Territory: Europe
+Unused: Off [All]
+
+Sample correct TG:
+DSWA: offset 0x2F, repeat every 0x7C, typical value 0x01
+- DSWA: 0x01 (Cabinet): 0x01 (Upright)
+- DSWA: 0x02 (Flip_Screen): 0x00 (Off)
+- DSWA: 0x04 (Service Mode): 0x00 (Off)
+- DSWA: 0x08 (Demo_Sounds): [not relevant]
+- DSWA: 0x30 (Coin_A): [not relevant]
+- DSWA: 0xc0 (Coin_B): [not relevant]
+DSWB: offset 0x33, repeat every 0x7C, typical value 0x88
+- DSWB: 0x03 (Difficulty): 0x00 (Medium)
+- DSWB: 0x0c (Bonus_Life): 0x 08(500K)
+- DSWB: 0x30 (Lives): 0x00 (3)
+- DSWB: 0x40 (Invulnerability): 0x00 (Off)
+- DSWB: 0x80 (Allow_Continue): 0x80 (No)
+TJB: offset 0x3B, repeat every 0x7C, typical value 0x02
+- TJB: 0x03 (Territory): 0x02 (Europe)
+- TJB: 0x04 (Unused): 0x00 (Off)
+- TJB: 0x08 (Unused): 0x00 (Off)
+
+    20: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 01
+    30: 00 00 00 88 00 00 00 00  00 00 00 02 00 00 00 00
+    A0: 00 00 00 00 00 00 00 00  00 00 00 01 00 00 00 88
+    B0: 00 00 00 00 00 00 00 02  00 00 00 00 00 00 00 00
+   120: 00 00 00 00 00 00 00 01  00 00 00 88 00 00 00 80
+   130: 00 00 00 02 00 00 00 00  00 00 00 00 00 00 00 00
