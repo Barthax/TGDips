@@ -1,7 +1,11 @@
 ROM Changes: none
-0.106-0.169: trackfld - "Track & Field"
+0.106-0.174: trackfld - "Track & Field"
 
-Resolution, 0.106-0.169: 256 x 224 @ 60.000000 Hz
+Resolution, 0.106-0.174: 256x224 @ 60.000000Hz
 
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Track+&+Field
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=7884
 Rules, Points [ 1-Man / Extended Rounds ]: http://www.twingalaxies.com/scores.php?scores=131631
+Rules, Open Class Challenge! (Engineering): http://www.twingalaxies.com/scores.php?scores=198266
+Rules, Points (button input only): http://www.twingalaxies.com/scores.php?scores=198087
+Rules, Points (trackball and buttons): http://www.twingalaxies.com/scores.php?scores=198124
