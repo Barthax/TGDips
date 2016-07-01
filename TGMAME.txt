@@ -79,6 +79,7 @@ ambushj
 amerdart
 amidar
 amidar1
+amidaru
 amspdwy
 androdun
 angelkds
@@ -121,6 +122,7 @@ astdelux
 asterix
 asteroid
 asteroid2
+asteroids
 astinvad
 astorm3
 astrob
@@ -141,6 +143,7 @@ avsp
 avspirit
 aztarac
 azurian
+b2b
 backfire
 baddudes
 badlands
@@ -159,6 +162,8 @@ bangbead
 bankp
 baraduke
 barrier
+baryon
+baryona
 basebal2
 batcir
 batman
@@ -317,6 +322,7 @@ bzonea
 cabal
 cabalus
 cachat
+cadanglr
 cadash
 cairblad
 calibr50
@@ -337,6 +343,7 @@ carnival
 carpolo
 catnmous
 cavelon
+cavenger
 cawing
 cbaj
 cball
@@ -344,6 +351,7 @@ cbasebal
 cbuster
 ccastles
 cchasm
+cclimber
 cclimbr2
 centiped
 centiped3
@@ -522,6 +530,7 @@ dblaxleu
 dbreed
 dbreed72
 dbreedm72
+dbz2
 dcon
 dday
 ddcrew
@@ -615,6 +624,7 @@ dsaber
 dspirit
 dstlk
 duckhunt
+dungeonm
 eaglshot
 earthjkr
 ebases
@@ -644,6 +654,7 @@ enigma2
 eprom
 equites
 esb
+espgal
 espial
 esprade
 eswat
@@ -713,6 +724,7 @@ fireshrk
 firetrap
 firetrk
 fitegolf
+fixeight
 flashgal
 flicky
 flipshot
@@ -755,6 +767,7 @@ galaga3
 galaga3a
 galaga88
 galagads
+galagamf
 galap4
 galaxia
 galaxiaj
@@ -970,6 +983,8 @@ hyperath
 hyperpac
 hyperspt
 hyprduel
+ibara
+ibarablk
 iceclimb
 iceclimba
 ichir
@@ -1060,6 +1075,7 @@ kbash2
 kchamp
 kdynastg
 kengo
+ket
 kick
 kickboy
 kicker
@@ -1612,6 +1628,7 @@ puzlclub
 puzldama
 puzlstar
 puzzledp
+puzzlekg
 puzzli
 puzzloop
 puzzloope
@@ -1681,6 +1698,7 @@ redclash
 redlin2p
 redrobin
 redufo
+redufob
 regulus
 reikaids
 relief
@@ -2048,6 +2066,7 @@ stakwin2
 starblad
 starbladj
 starcas
+starcas1
 starfir2
 starfire
 starforc
@@ -2078,6 +2097,7 @@ stratab
 stratgyx
 stratof
 stratvox
+streakng
 strhoop
 strider
 strider2
@@ -2482,6 +2502,7 @@ yamagchi
 yamato
 yamyam
 yard
+yardj
 yiear
 yosakdon
 youjyudn
