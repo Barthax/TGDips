@@ -1,14 +1,14 @@
-ROM set changed: yes
-0.106-0.118: baraduke - "Baraduke (set 1)"
-0.119-0.169: aliensec - "Alien Sector"
+Note: two sets are represented here with the switchover at 0.118u5.
 
 MAME History:
 - 0.118u5: Changed description of 'Baraduke (set 1)' to 'Alien Sector' and clone 'Baraduke (set 2)' to 'Baraduke'. Renamed (baraduke) to (aliensec) and (baraduka) to (baraduke). Added new gfx2 roms ($0, 8000). Fixed rom names.
+----
+ROM set changed: yes
+0.106-0.118: baraduke - "Baraduke (set 1)"
+0.118u5-0.175: aliensec - "Alien Sector" (name correction only)
 
-Resolution, 0.106-0.118: 288x224 @ 60.606060Hz
-Resolution, 0.119-0.152: 288x224 @ 60.606060Hz
-Resolution, 0.153-0.169: 288x224 @ 60.606061Hz
-
+Resolution, 0.106-0.152: 288x224 @ 60.606060Hz
+Resolution, 0.153-0.175: 288x224 @ 60.606061Hz
 
 Because of the unusual nature of the ROM set change, here's added information to help understand the transition was minor:
 C:\MAME>mame118 -listcrc baraduke
@@ -44,3 +44,13 @@ f4c1df60 bd2_6.4m     Alien Sector
 8b4c09a3 bd1_12.8n    Alien Sector
 0d78ebc6 bd1-1.1n     Alien Sector
 03f7241f bd1-2.2m     Alien Sector
+----
+
+Note: this set not currently represented on TG.
+ROM set changed: no
+0.106-0.118: NOT SUPPORTED
+0.118u5-0.175: baraduke - "Baraduke"
+
+Resolution, 0.119-0.152: 288x224 @ 60.606060Hz
+Resolution, 0.153-0.175: 288x224 @ 60.606061Hz
+----
