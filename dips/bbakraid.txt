@@ -1,12 +1,36 @@
-ROM set changed: yes
-0.106-0.129: bbakraid - "Battle Bakraid (Japan) (Wed Apr 7 1999)"
-0.129u3-0.141: bkraidj - "Battle Bakraid (Japan) (Wed Apr 7 1999)"
-0.141u4-0.169: bbakraidja - "Battle Bakraid (Japan) (Wed Apr 7 1999)"
+Note 1: two ROM sets are represented here with the changeover at 0.141u4.
+Note 2: no bbakraid set existed in 0.130-0.141.
 
 MAME History:
 - 0.129u3: Josh W. added 'Battle Bakraid - Unlimited Version (U.S.A.) (Tue Jun 8 1999)'. Renamed (bbakraid) to (bkraidj) and (bbakradu) to (bkraiduj).
 - 0.141u4: Changed description to 'Battle Bakraid - Unlimited Version (USA) (Tue Jun 8 1999)'. Renamed (bkraidu) to (bbakraid), (bkraiduj) to (bbakraidj) and (bkraidj) to (bbakraidja). Loaded Battle Bakraid default EEPROM (eeprom-bbakraid-new.bin) as a ROM rather than hardcoding the contents into the driver [Alex Jackson].
 
-Resolution, 0.106-0.151: 320x240 @ 60.000000Hz
-Resolution, 0.152-0.169: 320x240 @ 59.637405Hz
 
+Battle Bakraid (Japan) (Wed Apr 7 1999)
+---------------------------------------
+ROM set changed: yes
+0.106-0.129: bbakraid - "Battle Bakraid (Japan) (Wed Apr 7 1999)"
+0.129u3-0.141: bkraidj - "Battle Bakraid (Japan) (Wed Apr 7 1999)"
+0.141u4-0.175: bbakraidja - "Battle Bakraid (Japan) (Wed Apr 7 1999)"
+
+Resolution, 0.106-0.151: 320x240 @ 60.000000Hz
+Resolution, 0.152-0.175: 320x240 @ 59.637405Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Battle%20Bakraid%20[Japan]%20[Wed%20Apr%207%201999]
+Rules, 1 Player Only [Advanced Mode]: http://www.twingalaxies.com/scores.php?scores=11918
+Rules, 1 Player Only [Normal Mode]: http://www.twingalaxies.com/scores.php?scores=11917
+Rules, 1 Player Only [Training Mode]: http://www.twingalaxies.com/scores.php?scores=11916
+Rules, 2 Players Team [Advanced Mode]: http://www.twingalaxies.com/scores.php?scores=11921
+Rules, 2 Players Team [Normal Mode]: http://www.twingalaxies.com/scores.php?scores=11920
+Rules, 2 Players Team [Training Mode]: http://www.twingalaxies.com/scores.php?scores=11919
+
+
+Battle Bakraid - Unlimited Version (U.S.A.) (Tue Jun 8 1999)
+------------------------------------------------------------
+Note: this set not represented on TG.
+ROM set changed: yes.  Added in 0.129u3.
+0.129u3-0.141: bkraidu - "Battle Bakraid - Unlimited Version (U.S.A.) (Tue Jun 8 1999)"
+0.141u4-0.175: bbakraid - "Battle Bakraid - Unlimited Version (USA) (Tue Jun 8 1999)"
+
+Resolution, 0.130-0.151: 320x240 @ 60.000000Hz
+Resolution, 0.152-0.175: 320x240 @ 59.637405Hz
