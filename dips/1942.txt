@@ -3,7 +3,9 @@ Note: two ROM sets are represented here with the changeover at 0.124u4.
 MAME History:
 - 0.124u4: Quarterarcade added clone '1942 (Williams Electronics license)'. Changed clone (set 3) to parent '1942 (Revision B)', '1942 (set 1)' to clone '1942 (Revision A)' and (set 2) to '1942 (First Version)'. Renamed (1942b) to (1942), (1942) to (1942a) and (1942a) to (1942b).
 
-----
+
+1942 (Revision A)
+-----------------
 ROM set changed: yes
 0.106-0.124: 1942 - "1942 (set 1)"
 0.124u4-0.175: 1942a - "1942 (Revision A)"
@@ -13,8 +15,10 @@ Resolution, 0.106-0.175: 256x224 @ 60.000000Hz
 TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=1942+%5BSet+1%5D
 Rules, 1 player: http://www.twingalaxies.com/scores.php?scores=5226
 Rules, 2 player: http://www.twingalaxies.com/scores.php?scores=40873
-----
 
+
+1942 (Revision B)
+-----------------
 Note: this set not represented on TG's scoreboard yet.
 ROM set changed: no
 0.106-0.124: NOT SUPPORTED

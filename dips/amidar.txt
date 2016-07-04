@@ -11,7 +11,10 @@ MAME History:
  - 0.14: Nicola Salmoria renamed (amidar) to (amidarjp) and (amidarus) to (amidar). Since the US version is better, Amidar (Japanese version) has a worse attract mode and does not display the number of jumps left.
  - 0.07: Added Amidar (US version). This version is quite different, it has a better attract mode and displayes the number of jumps left.
  - 0.06: Nicola Salmoria added Amidar (Japanese version) (Konami 1982). Game is playable with wrong colors and no sound. Control: Arrows = Move around and CTRL = Jump. Known issues: What do the dipswitches do?
-----
+
+
+Amidar (older)
+--------------
 ROM set changed: yes
 0.106-0.142: amidar - "Amidar"
 0.142u4-0.175: amidar1 - "Amidar (older)"
@@ -22,8 +25,10 @@ Resolution, 0.125-0.175: 768x224 @ 60.606061Hz
 
 TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Amidar [note that this link also covers the US/Stern set]
 Rules, Points [Konami ROMSet]: http://www.twingalaxies.com/scores.php?scores=41122
-----
 
+
+Amidar (newer)
+------
 Note: this set not currently represented on TG.
 ROM set changed: no
 0.106-0.142: NOT SUPPORTED
@@ -31,9 +36,9 @@ ROM set changed: no
 
 Resolution, 0.145-0.175: 768x224 @ 60.606061Hz
 
-----
 
-Historical, not relevant to current tracking but may provide clarity:
+Historical, not relevant to current tracking but may provide clarity
+----------
 * 0.006-0.013: amidar - "Amidar (Japanese version) (Konami 1982)"
 * 0.014-0.033: amidarjp - "Amidar (Japanese version) (Konami 1982)"
 * 0.033b7-0.035: amidarjp - "Amidar (Japan)"   (minor description change only)
