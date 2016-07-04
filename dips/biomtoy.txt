@@ -1,8 +1,8 @@
 ROM set changed: no
 0.106-0.143: biomtoy - "Biomechanical Toy (unprotected)"
-0.143u4-0.168: biomtoy - "Biomechanical Toy (Ver. 1.0.1885)"
+0.143u4-0.175: biomtoy - "Biomechanical Toy (Ver. 1.0.1885)"
 
 MAME History:
 - 0.143u4: Tirino73 added clone Biomechanical Toy (Ver. 1.0.1884). Changed parent description to 'Biomechanical Toy (Ver. 1.0.1885)'.
 
-Resolution, 0.106-0.168: 320x240 @ 60.000000Hz
+Resolution, 0.106-0.175: 320x240 @ 60.000000Hz

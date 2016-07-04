@@ -1,8 +1,8 @@
 ROM set changed: no
-0.106-0.171: blockhl - "Block Hole"
+0.106-0.175: blockhl - "Block Hole"
 
 Resolution, 0.106-0.164: 288x224 @ 60.000000Hz
-Resolution, 0.165-0.171: 288x224 @ 59.185606Hz
+Resolution, 0.165-0.175: 288x224 @ 59.185606Hz
 
 TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Block%20Hole
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=24360

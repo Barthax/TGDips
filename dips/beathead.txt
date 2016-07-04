@@ -1,4 +1,4 @@
 ROM set changed: no
-0.106-0.168: beathead - "BeatHead (prototype)"
+0.106-0.175: beathead - "BeatHead (prototype)"
 
-Resolution, 0.106-0.168: 336x240 @ 60.000000Hz
+Resolution, 0.106-0.175: 336x240 @ 60.000000Hz

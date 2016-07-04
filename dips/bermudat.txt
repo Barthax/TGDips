@@ -1,10 +1,10 @@
 ROM set changed: no
 0.106-0.127: bermudat - "Bermuda Triangle (Japan)"
-0.128-0.168: bermudat - "Bermuda Triangle (World?)" (minor description change)
+0.128-0.175: bermudat - "Bermuda Triangle (World?)" (minor description change)
 
 Resolution, 0.106-0.127: 384x224 @ 60.000000Hz
 Resolution, 0.128-0.129: 368x224 @ 60.000000Hz
-Resolution, 0.130-0.168: 400x224 @ 60.000000Hz
+Resolution, 0.130-0.175: 400x224 @ 60.000000Hz
 
 To aid confirming there is no change in ROM between 0.127 & 0.128:
 C:\MAME>mame127 -listcrc bermudat

@@ -1,8 +1,9 @@
 ROM set changed: no
 0.031-0.035b10: blockout - "Block Out"
-0.035b11-0.170: blockout - "Block Out (set 1)"
+0.035b11-0.175: blockout - "Block Out (set 1)"
 
-Resolution, 0.106-0.170: 320x240 @ 58.000000Hz
+Resolution, 0.106-0.175: 320x240 @ 58.000000Hz
 
-Rules: http://www.twingalaxies.com/scores.php?scores=7689
-
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Block%20Out%20[Set%201]
+Rules, Points [Normal]: http://www.twingalaxies.com/scores.php?scores=7689
+Rules, Points [Very Hard]: http://www.twingalaxies.com/scores.php?scores=7690

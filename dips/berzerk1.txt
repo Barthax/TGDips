@@ -1,10 +1,10 @@
 ROM Set Changed: no
-Berzerk: 0.106-0.171: berzerk - "Berzerk (Set 1)"
-Berzerk1: 0.106-0.171: berzerk1 - "Berzerk (Set 2)"
+Berzerk: 0.106-0.175: berzerk - "Berzerk (Set 1)"
+Berzerk1: 0.106-0.175: berzerk1 - "Berzerk (Set 2)"
 NB: berzerk is Fast Bullets, berzerk1 is Slow Bullets.
 
 Resolution, 0.106-0.115: 256x224 @ 60.000000Hz
-Resolution, 0.116-0.171: 256x224 @ 59.637405Hz
+Resolution, 0.116-0.175: 256x224 @ 59.637405Hz
 
 Rules, 1-life, Slow Bullets, Random Play: http://www.twingalaxies.com/scores.php?scores=131843
 Rules, 1-life, Fast Bullets, Random Play: http://www.twingalaxies.com/scores.php?scores=9867

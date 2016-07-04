@@ -1,9 +1,9 @@
 ROM set changed: yes
 0.106-0.132: bldyror2 - "Bloody Roar 2 (JAPAN)"
 0.133-0.138: bldyror2j - "Bloody Roar 2 (JAPAN)"
-0.139-0.169: bldyror2j - "Bloody Roar 2 (Japan)"
+0.139-0.175: bldyror2j - "Bloody Roar 2 (Japan)"
 
 MAME History:
 - 0.132u3: Brian Troha added Bloody Roar 2 (WORLD) and clones (ASIA) and (USA). Renamed (bldyror2) to (bldyror2j).
 
-Resolution, 0.106-0.169: 640x480 @ 60.000000Hz
+Resolution, 0.106-0.175: 640x480 @ 60.000000Hz

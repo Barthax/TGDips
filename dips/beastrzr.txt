@@ -1,4 +1,4 @@
 ROM set changed: no
-0.106-0.168: beastrzr - "Beastorizer (USA)"
+0.106-0.175: beastrzr - "Beastorizer (USA)"
 
-Resolution, 0.106-0.168: 640x480 @ 60.000000Hz
+Resolution, 0.106-0.175: 640x480 @ 60.000000Hz
