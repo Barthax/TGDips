@@ -1,4 +1,8 @@
 Note: two sets are represented by 1941, change over at 0.145u5.
+
+MAME History:
+- 0.145u5: Techmotour added 1941: Counter Attack (World 900227). Renamed (1941) to (1941r1).
+
 ----
 ROM Set changed: yes
 0.106-0.138: 1941 - "1941 - Counter Attack (World)"
@@ -7,7 +11,6 @@ ROM Set changed: yes
 
 MAME History:
 - 0.139: Changed description to '1941: Counter Attack'.
-- 0.145u5: Techmotour added 1941: Counter Attack (World 900227). Renamed (1941) to (1941r1).
 
 Resolution, 0.106-0.126: 384x224 @ 60.000000Hz
 Resolution, 0.127-0.147: 384x224 @ 59.610000Hz
@@ -25,6 +28,6 @@ ROM set changed: no. Added in 0.145u5.
 0.106-0.145: NOT SUPPORTED
 0.145u5-0.175: 1941 - "1941: Counter Attack (World 900227)"
 
-Resolution: 0.146-0.147: 384x224 @ 59.610000Hz
-Resolution: 0.148-0.153: 384x224 @ 59.637405Hz
-Resolution: 0.154-0.175: 384x224 @ 59.637405Hz
+Resolution, 0.146-0.147: 384x224 @ 59.610000Hz
+Resolution, 0.148-0.153: 384x224 @ 59.637405Hz
+Resolution, 0.154-0.175: 384x224 @ 59.637405Hz
