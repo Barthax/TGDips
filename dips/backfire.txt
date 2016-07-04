@@ -1,6 +1,6 @@
 ROM set changed: no
 0.106-0.122: backfire - "Backfire!"
-0.123-0.168: backfire - "Backfire! (set 1)" (minor description change)
+0.123-0.175: backfire - "Backfire! (set 1)" (minor description change)
 
 Resolution, 0.106: 320x240 @ 58.000000Hz
-Resolution, 0.107-0.168: 2 screens, both 320x240 @ 60.000000Hz
+Resolution, 0.107-0.175: 2 screens, both 320x240 @ 60.000000Hz
