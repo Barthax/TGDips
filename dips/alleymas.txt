@@ -1,4 +1,4 @@
 ROM set changed:
-0.106-0.168: alleymas - "Alley Master"
+0.106-0.175: alleymas - "Alley Master"
 
-Resolution: 0.106-0.168: 320x240 @ 60.000000Hz
+Resolution: 0.106-0.175: 320x240 @ 60.000000Hz

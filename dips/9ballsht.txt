@@ -1,7 +1,8 @@
 ROM set changed: no
-0.106-0.172: 9ballsht - "9-Ball Shootout (set 1)"
+0.106-0.175: 9ballsht - "9-Ball Shootout (set 1)"
 
 Resolution, 0.106-0.114: 320x240 @ 60.000000Hz
-Resolution: 0.115-0.172: 320x240 @ 60.012477Hz
+Resolution: 0.115-0.175: 320x240 @ 60.012477Hz
 
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=9-Ball%20Shootout%20[Set%201]
 Rules, Most Balls Pocketed: http://www.twingalaxies.com/scores.php?scores=41116

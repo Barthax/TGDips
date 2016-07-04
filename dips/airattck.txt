@@ -1,10 +1,11 @@
 ROM set changed:
 0.106-0.113: airattck - "Air Attack"
-0.114-0.168: airattck - "Air Attack (set 1)" (minor description change)
+0.114-0.175: airattck - "Air Attack (set 1)" (minor description change)
 
 Resolution, 0.106-0.122: 256x224 @ 60.000000Hz
 Resolution, 0.123-0.154: 256x224 @ 56.000000Hz
-Resolution, 0.155-0.168: 256x224 @ 56.180000Hz
+Resolution, 0.155-0.175: 256x224 @ 56.180000Hz
 
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Air%20Attack
 Rules, Single Player: http://www.twingalaxies.com/scores.php?scores=24419
 Rules, Two Player: http://www.twingalaxies.com/scores.php?scores=24420

@@ -1,5 +1,5 @@
 ROM set changed: no
-0.106-0.168: apache3 - "Apache 3"
+0.106-0.175: apache3 - "Apache 3"
 
 Resolution, 0.106-0.129: 320x240 @ 60.000000Hz
-Resolution, 0.130-0.168: 320x240 @ 55.803571Hz
+Resolution, 0.130-0.175: 320x240 @ 55.803571Hz

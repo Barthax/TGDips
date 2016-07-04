@@ -1,6 +1,6 @@
 ROM set changed: no
 0.106-0.113: 4dwarrio - "4-D Warriors"
-0.114-0.168: 4dwarrio - "4-D Warriors (315-5162)"
+0.114-0.175: 4dwarrio - "4-D Warriors (315-5162)"
 
 Resolution, 0.106-0.130: 256x224 @ 60.000000Hz
-Resolution, 0.131-0.168: 512x224 @ 60.096154Hz
+Resolution, 0.131-0.175: 512x224 @ 60.096154Hz

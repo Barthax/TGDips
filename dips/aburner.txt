@@ -1,6 +1,9 @@
 ROM set changed: no
 0.106-0.150: aburner - "After Burner (Japan)"
-0.151-0.168: aburner - "After Burner" (minor description change)
+0.151-0.175: aburner - "After Burner" (minor description change)
+
+MAME History:
+- 0.151: Andrew Welburn and The Dumping Union added clone After Burner II (German). Changed description of clone (Japan) to 'After Burner'.
 
 Resolution, 0.106-0.114: 320x224 @ 60.000000Hz
-Resolution, 0.115-0.168: 320x224 @ 59.637405Hz
+Resolution, 0.115-0.175: 320x224 @ 59.637405Hz

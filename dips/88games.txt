@@ -1,8 +1,9 @@
 ROM set changed: no
-0.106-0.168: 88games - "'88 Games"
+0.106-0.175: 88games - "'88 Games"
 
-Resolution, 0.106-0.168: 320x224 @ 60.000000Hz
+Resolution, 0.106-0.175: 320x224 @ 60.000000Hz
 
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=88%20Games
 Rules, 110m Hurdles: http://www.twingalaxies.com/scores.php?scores=21410
 Rules, 400m Relay: http://www.twingalaxies.com/scores.php?scores=21408
 Rules, Javelin Throw: http://www.twingalaxies.com/scores.php?scores=21412

@@ -1,5 +1,5 @@
 ROM set changed: no
-0.106-0.168: aof3 - "Art of Fighting 3 - The Path of the Warrior / Art of Fighting - Ryuuko no Ken Gaiden"
+0.106-0.175: aof3 - "Art of Fighting 3 - The Path of the Warrior / Art of Fighting - Ryuuko no Ken Gaiden"
 
 Resolution, 0.106-0.113: 320x224 @ 59.185608Hz
-Resolution, 0.114-0.168: 320x224 @ 59.185606Hz
+Resolution, 0.114-0.175: 320x224 @ 59.185606Hz

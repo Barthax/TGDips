@@ -1,7 +1,7 @@
 ROM set changed: no
-0.106-0.173: aafb - "All American Football (rev E)"
+0.106-0.175: aafb - "All American Football (rev E)"
 
-Resolution, 0.106-0.173: 320x240 @ 60.000000Hz
+Resolution, 0.106-0.175: 320x240 @ 60.000000Hz
 
 Note: This Game has no settings to be changed. Please enter your own initials and DOB for easier tracking.
 

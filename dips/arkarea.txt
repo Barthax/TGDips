@@ -1,5 +1,5 @@
 ROM set changed: no
-0.106-0.168: arkarea - "Ark Area"
+0.106-0.175: arkarea - "Ark Area"
 
 Resolution, 0.106-0.133: 256x192 @ 60.000000Hz
-Resolution, 0.134-0.168: 256x192 @ 59.610000Hz
+Resolution, 0.134-0.175: 256x192 @ 59.610000Hz

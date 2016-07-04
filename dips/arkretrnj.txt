@@ -1,7 +1,13 @@
 ROM set changed: yes
 0.106-0.148: arkretrn - "Arkanoid Returns (Ver 2.02J 1997/02/10)"
-0.148u4-0.169: arkretrnj - "Arkanoid Returns (Ver 2.02J 1997/02/10)"
+0.148u4-0.175: arkretrnj - "Arkanoid Returns (Ver 2.02J 1997/02/10)"
+
+MAME History:
+- 0.148u4: Sonic, Smitdogg and The Dumping Union added Arkanoid Returns (Ver 2.02O 1997/02/10). Renamed (arkretrn) to (arkretrnj).
 
 Resolution, 0.106-0.113: 320x232 @ 58.970001Hz
-Resolution, 0.114-0.169: 320x232 @ 58.970000Hz
+Resolution, 0.114-0.175: 320x232 @ 58.970000Hz
 
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Arkanoid%20Returns%20[Ver%202.02J%201997/02/10]
+Rules, Points [Normal Settings]: http://www.twingalaxies.com/scores.php?scores=21477
+Rules, Points [Tournament Settings]: http://www.twingalaxies.com/scores.php?scores=41135
