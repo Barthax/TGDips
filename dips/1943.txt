@@ -1,15 +1,30 @@
-ROM set changed: yes
-0.106-0.138: 1943 - "1943: The Battle of Midway (US)"
-0.138u1-0.143: 1943u - "1943: The Battle of Midway (US)"
-0.144-0.173: 1943u - "1943: The Battle of Midway (US, Rev C)" (description only changed)
+Note: two sets represented here with the changeover at 0.138u1
 
 MAME History:
 - 0.138u1: Stefan Lindberg added 1943: The Battle of Midway (Euro). Renamed (1943) to (1943u).
 
-Resolution, 0.106-0.173: 256x224 @ 60.000000Hz
+----
+ROM set changed: yes
+0.106-0.138: 1943 - "1943: The Battle of Midway (US)"
+0.138u1-0.143: 1943u - "1943: The Battle of Midway (US)"
+0.144-0.175: 1943u - "1943: The Battle of Midway (US, Rev C)" (description only changed)
+
+MAME History:
+- 0.143u5: Foul added clone 1943: Midway Kaisen (Japan, Rev B). Changed description of clone '1943: The Battle of Midway (US)' to '1943: The Battle of Midway (US, Rev C)'. Renamed (1943j) to (1943ja).
+
+Resolution, 0.106-0.175: 256x224 @ 60.000000Hz
 
 TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=1943:+The+Battle+of+Midway+%5BUS%5D
 Rules, Single Player Only: http://www.twingalaxies.com/scores.php?scores=5155
 Rules, Single Player max points NO Specials: http://www.twingalaxies.com/scores.php?scores=132363
 Rules, Two Player Team: http://www.twingalaxies.com/scores.php?scores=11970
 Rules, Single player - NO special codes allowed - First Level Only: http://www.twingalaxies.com/scores.php?scores=199814
+----
+
+Note: this set not represented on TG scoreboard yet
+ROM set changed: no.  Added in 0.138u1.
+0.106-0.138: NOT SUPPORTED
+0.138u1-0.175: 1943 - "1943: The Battle of Midway (Euro)"
+
+Resolution, 0.139-0.175: 256x224 @ 60.000000Hz
+
