@@ -1,9 +1,29 @@
+Note: two different ROM sets are represented here with the changeover at 0.129u3.
+
+MAME History:
+- 0.129u3: Josh W. added 'Armed Police Batrider (Europe) (Fri Feb 13 1998)' and clones '(U.S.A.) (Fri Feb 13 1998)' and '(China) (Fri Feb 13 1998)'. Renamed (batrider) to (batridj), (batridrk) to (batridk) and (batridra) to (batridja).
+- 0.141u4: Alex Jackson fixed inconsistent rom naming between some of the Armed Police Batrider clones. Changed description of clones 'Armed Police Batrider - B Version (Japan) (Fri Feb 13 1998)' to 'Armed Police Batrider (Japan, B version) (Fri Feb 13 1998)', 'Armed Police Batrider - A Version (Japan) (Mon Dec 22 1997)' to 'Armed Police Batrider (Japan, older version) (Mon Dec 22 1997)', 'Armed Police Batrider - A Version (Taiwan) (Mon Dec 22 1997)' to 'Armed Police Batrider (Taiwan) (Mon Dec 22 1997)' and 'Armed Police Batrider (U.S.A.) (Fri Feb 13 1998)' to 'Armed Police Batrider (USA) (Fri Feb 13 1998)'. Renamed (batrid) to (batrider), (batridc) to (batriderc), (batridj) to (batriderj), (batridja) to (batriderja), (batridk) to (batriderk), (batridta) to (batridert) and (batridu) to (batrideru).
+
+
+Armed Police Batrider (Japan, version B) /  (Fri Feb 13 1998)
+-------------------------------------------------------------
 ROM set changed: yes
 0.106-0.117: batrider - "Armed Police Batrider (Japan, version B)"
 0.118-0.129: batrider - "Armed Police Batrider - B Version (Japan) (Fri Feb 13 1998)" (minor description change)
-0.130-0.141: batridj - "Armed Police Batrider - B Version (Japan) (Fri Feb 13 1998)"
-0.142-0.169: batriderj - "Armed Police Batrider (Japan, B version) (Fri Feb 13 1998)"
+0.129u3-0.141: batridj - "Armed Police Batrider - B Version (Japan) (Fri Feb 13 1998)"
+0.142-0.175: batriderj - "Armed Police Batrider (Japan, B version) (Fri Feb 13 1998)"
 
 Resolution, 0.106-0.151: 320x240 @ 60.000000Hz
-Resolution, 0.152-0.169: 320x240 @ 59.637405Hz
+Resolution, 0.152-0.175: 320x240 @ 59.637405Hz
 
+
+Armed Police Batrider (Europe) (Fri Feb 13 1998)
+------------------------------------------------
+Note: this set not represented on TG
+ROM set changed: yes
+0.106-0.129: NOT SUPPORTED
+0.130-0.141: batrid - "Armed Police Batrider (Europe) (Fri Feb 13 1998)"
+0.142-0.175: batrider - "Armed Police Batrider (Europe) (Fri Feb 13 1998)"
+
+Resolution, 0.130-0.151: 320x240 @ 60.000000Hz
+Resolution, 0.152-0.175: 320x240 @ 59.637405Hz
