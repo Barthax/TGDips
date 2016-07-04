@@ -1,5 +1,5 @@
 ROM set changed: no
 0.106-0.146: battlnts - "Battlantis"
-0.147-0.168: battlnts - "Battlantis (program code G)" (minor description change)
+0.147-0.175: battlnts - "Battlantis (program code G)" (minor description change)
 
-Resolution, 0.106-0.168: 256x224 @ 60.000000Hz
+Resolution, 0.106-0.175: 256x224 @ 60.000000Hz

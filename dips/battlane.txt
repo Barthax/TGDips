@@ -1,4 +1,4 @@
 ROM set change: no
-0.106-0.168: battlane - "Battle Lane! Vol. 5 (set 1)"
+0.106-0.175: battlane - "Battle Lane! Vol. 5 (set 1)"
 
-Resolution, 0.106-0.168: 240x256 @ 60.000000Hz
+Resolution, 0.106-0.175: 240x256 @ 60.000000Hz

@@ -1,5 +1,5 @@
 ROM set changed: no
-0.106-0.168: bang - "Bang!"
+0.106-0.175: bang - "Bang!"
 
 Resolution, 0.106-0.113: 320x240 @ 59.099998Hz
-Resolution, 0.114-0.168: 320x240 @ 59.100000Hz
+Resolution, 0.114-0.175: 320x240 @ 59.100000Hz
