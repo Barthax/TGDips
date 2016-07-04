@@ -1,0 +1,11 @@
+Note: this set not represented on TG.
+ROM set changed: yes.  Added in 0.129u3.
+0.129u3-0.141: bkraidu - "Battle Bakraid - Unlimited Version (U.S.A.) (Tue Jun 8 1999)"
+0.141u4-0.175: bbakraid - "Battle Bakraid - Unlimited Version (USA) (Tue Jun 8 1999)"
+
+MAME History:
+- 0.129u3: Josh W. added 'Battle Bakraid - Unlimited Version (U.S.A.) (Tue Jun 8 1999)'. Renamed (bbakraid) to (bkraidj) and (bbakradu) to (bkraiduj).
+- 0.141u4: Changed description to 'Battle Bakraid - Unlimited Version (USA) (Tue Jun 8 1999)'. Renamed (bkraidu) to (bbakraid), (bkraiduj) to (bbakraidj) and (bkraidj) to (bbakraidja). Loaded Battle Bakraid default EEPROM (eeprom-bbakraid-new.bin) as a ROM rather than hardcoding the contents into the driver [Alex Jackson].
+
+Resolution, 0.130-0.151: 320x240 @ 60.000000Hz
+Resolution, 0.152-0.175: 320x240 @ 59.637405Hz
