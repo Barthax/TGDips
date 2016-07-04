@@ -1,11 +1,23 @@
-ROM Set changes: YES
-0.106-0.130: ashura - "Ashura Blaster (Japan)"
-0.131-0.168: ashuraj - "Ashura Blaster (Japan)"
+Note: two ROM sets are represented by ashura with the changeover at 0.131.
 
 MAME History:
 - 0.131: Tirino73 added Ashura Blaster (World). Renamed (ashura) to (ashuraj).
 
-Resolution, 0.106-0.168: 320 x 224 @ 60.000000 Hz
+----
+ROM Set changes: YES
+0.106-0.130: ashura - "Ashura Blaster (Japan)"
+0.131-0.175: ashuraj - "Ashura Blaster (Japan)"
 
+Resolution, 0.106-0.175: 320x224 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Ashura%20Blaster%20[Japan]
 Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=10689
 Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=10690
+----
+
+Note: this set not represented on TG yet.
+ROM set changed: no
+0.106-0.130: NOT SUPPORTED
+0.131-0.175: ashura - "Ashura Blaster (World)"
+
+Resolution, 0.131-0.175: 320x224 @ 60.000000Hz
