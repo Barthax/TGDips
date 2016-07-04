@@ -1,4 +1,10 @@
 ROM set changed: no
-0.106-0.169: hook - "Hook (World)"
+0.106-0.175: hook - "Hook (World)"
 
-Resolution, 0.106-0.169: 320x240 @ 60.000000Hz
+Resolution, 0.106-0.175: 320x240 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Hook+%5BWorld%5D
+Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=10973
+Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=10974
+Rules, Points [Three Player Team]: http://www.twingalaxies.com/scores.php?scores=10975
+Rules, Points [Four Player Team]: http://www.twingalaxies.com/scores.php?scores=10976
