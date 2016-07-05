@@ -1,7 +1,32 @@
+Note: two ROM sets are represented here, with the switchover at 0.156.
+
+MAME History:
+- 0.156: Ricky2001 added Botanic (English / Spanish). Renamed (botanic) to (botanicf).
+
+
+Botanic / Botanic (French)
+--------------------------
 ROM set changed: yes
 0.106-0.148: botanic - "Botanic"
-0.149-0.155: botanic - "Botanic (French)"
-0.156-0.169: botanicf - "Botanic (French)"
+0.148u5-0.155: botanic - "Botanic (French)"
+0.156-0.175: botanicf - "Botanic (French)"
+
+MAME History:
+- 0.148u5: AUMAP changed description to 'Botanic (French)'. Note: The game was made by Itisa, there is a Spanish original (not yet dumped).
 
 Resolution, 0.106-0.138: 256x224 @ 60.000000Hz
-Resolution, 0.139-0.169: 256x224 @ 60.606061Hz
+Resolution, 0.139-0.175: 256x224 @ 60.606061Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Botanic
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=24378
+
+
+Botanic (English / Spanish)
+---------------------------
+Note 1: not represented on TG.
+ROM set changed: no. Added in 0.156.
+0.106-0.155: NOT SUPPORTED
+0.156-0.175: botanic - "Botanic (English / Spanish)"
+
+Resolution: 0.156-0.175: 256x224 @ 60.606061Hz
+
