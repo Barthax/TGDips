@@ -1,11 +1,27 @@
-ROM set changed: yes
-0.106-0.138: boggy84 - "Boggy '84"
-0.139-0.175: boggy84b - "Boggy '84 (bootleg)"
+Note: two ROM sets are represented here with the changeover at 0.138u3.
 
 MAME History:
 - 0.138u3: Klaus Sommer, Team Europe and The Dumping Union added Boggy '84, original Kaneko. Changed 'Boggy '84' to clone 'Boggy '84 (bootleg)'. Renamed (boggy84) to (boggy84b).
+
+
+Boggy '84 / Boggy '84 (bootleg)
+-------------------------------
+ROM set changed: yes
+0.106-0.138: boggy84 - "Boggy '84"
+0.139-0.175: boggy84b - "Boggy '84 (bootleg)"
 
 Resolution, 0.106-0.175: 256x224 @ 60.000000Hz
 
 TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Boggy%20%2784
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=24363
+
+
+Boggy '84 (original)
+---------
+Note 1: not currently tracked at TG.
+Note 2: added in 0.138u3
+0.106-0.138: NOT SUPPORTED
+0.138u3-0.175: boggy84 - "Boggy '84"
+
+Resolution, 0.139-0.175: 256x224 @ 60.000000Hz
+
