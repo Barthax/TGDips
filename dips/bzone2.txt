@@ -1,0 +1,10 @@
+Note: not currently represented on TG.
+ROM set changed: yes
+0.106-0.146: bzone2 - "Battle Zone (set 2)"
+0.146u1-0.175: bzone - "Battle Zone (rev 2)"
+
+MAME History:
+- 0.146u1: Changed clone (set 2) to parent 'Battle Zone (rev 2)' and (set 1) to clone 'Battle Zone (rev 1)'. Renamed (bzone) to (bzonea) and (bzone2) to (bzone).
+
+Resolution, 0.147-0.152: vector @ 40.000000Hz
+Resolution, 0.153-0.175: vector @ 41.015625Hz

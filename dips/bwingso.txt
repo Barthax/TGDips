@@ -1,6 +1,9 @@
 ROM set changed: yes
 0.106-0.111: bwing - "B-Wings (Japan)"
-0.112-0.169: bwingso - "B-Wings (Japan old Ver.)"
+0.111u6-0.175: bwingso - "B-Wings (Japan old Ver.)"
 
-Resolution, 0.106-0.169: 256x240 @ 60.000000Hz
+MAME History:
+- 0.111u6: Changed 'B-Wings (Japan)' to clone 'B-Wings (Japan old Ver.)' and clones (alt) to parent 'B-Wings (Japan new Ver.)' and 'Battle Wings' to 'B-Wings (Alt Ver.?)'. Renamed (bwing) to (bwingso), (bwings) to (bwingsa) and (batwings) to (bwings).
+
+Resolution, 0.106-0.175: 256x240 @ 60.000000Hz
 

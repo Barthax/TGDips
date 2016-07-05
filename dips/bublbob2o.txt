@@ -1,8 +1,12 @@
 ROM set changed: no
 0.106-0.163: bublbob2 - "Bubble Bobble II (Ver 2.5O 1994/10/05)"
-0.164-0.169: bublbob2o - "Bubble Bobble II (Ver 2.5O 1994/10/05)"
+0.164-0.175: bublbob2o - "Bubble Bobble II (Ver 2.5O 1994/10/05)"
+
+MAME History:
+- 0.164: rtw added Bubble Bobble II (Ver 2.6O 1994/12/16). Renamed (bublbob2) to (bublbob2o).
 
 Resolution, 0.106-0.113: 320x224 @ 58.970001Hz
-Resolution, 0.114-0.169: 320x224 @ 58.970000Hz
+Resolution, 0.114-0.175: 320x224 @ 58.970000Hz
 
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Bubble%20Bobble%202%20[Ver%202.5O%201994/10/05)
 Rules: http://www.twingalaxies.com/scores.php?scores=10979

@@ -1,7 +1,7 @@
 ROM set changed: no
-0.106-0.168: buckrog - "Buck Rogers: Planet of Zoom"
+0.106-0.175: buckrog - "Buck Rogers: Planet of Zoom"
 
 Resolution, 0.106-0.108: 256x224 @ 60.000000Hz
 Resolution, 0.109: 512x224 @ 59.185608Hz
 Resolution, 0.110-0.113: 512x224 @ 59.090908Hz
-Resolution, 0.114-0.168: 512x224 @ 59.090909Hz
+Resolution, 0.114-0.175: 512x224 @ 59.090909Hz
