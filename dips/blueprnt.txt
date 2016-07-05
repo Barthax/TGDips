@@ -1,7 +1,7 @@
 ROM set changed: 
-0.106-0.174: blueprnt - "Blue Print (Midway)"
+0.106-0.175: blueprnt - "Blue Print (Midway)"
 
-Resolution, 0.106-0.174: 256x224 @ 60.000000Hz
+Resolution, 0.106-0.175: 256x224 @ 60.000000Hz
 
 TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Blue%20Print%20[Midway]
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=10100

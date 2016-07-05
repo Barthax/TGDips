@@ -1,6 +1,6 @@
 ROM set changed: no
-0.106-0.168: blzntrnd - "Blazing Tornado"
+0.106-0.175: blzntrnd - "Blazing Tornado"
 
 Resolution, 0.106-0.144: 304x224 @ 58.000000Hz
 Resolution, 0.145-0.146: 320x224 @ 59.922743Hz
-Resolution, 0.147-0.168: 304x224 @ 58.000000Hz
+Resolution, 0.147-0.175: 304x224 @ 58.000000Hz
