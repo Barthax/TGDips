@@ -1,9 +1,9 @@
 ROM set changed: yes
 0.053-0.143: bshark - "Battle Shark (US)"
-0.143u9-0.169: bsharku - "Battle Shark (US)"
+0.143u9-0.175: bsharku - "Battle Shark (US)"
 
 MAME History:
 - 0.143u9: Added Battle Shark (World). ShouTime added clone Battle Shark (Japan, Joystick). Renamed (bshark) to (bsharku).
 
-Resolution, 0.106-0.169: 320x240 @ 60.000000Hz
+Resolution, 0.106-0.175: 320x240 @ 60.000000Hz
 

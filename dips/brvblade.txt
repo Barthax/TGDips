@@ -1,8 +1,8 @@
 ROM set changed: no
 0.106-0.138: brvblade - "Brave Blade (JAPAN)"
-0.138u2-0.168: brvblade - "Brave Blade (World)" (minor description change)
+0.138u2-0.175: brvblade - "Brave Blade (World)" (minor description change)
 
 MAME History:
 - 0.138u2: Added clones Brave Blade (USA), (Japan) and (Asia). David Haywood added default EEPROMs for each Brave Blade region. Changed parent description to 'Brave Blade (World)'.
 
-Resolution, 0.106-0.168: 640x480 @ 60.000000Hz
+Resolution, 0.106-0.175: 640x480 @ 60.000000Hz

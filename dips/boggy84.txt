@@ -19,7 +19,7 @@ Rules, Points: http://www.twingalaxies.com/scores.php?scores=24363
 Boggy '84 (original)
 ---------
 Note 1: not currently tracked at TG.
-Note 2: added in 0.138u3
+ROM set changed: no. Added in 0.138u3
 0.106-0.138: NOT SUPPORTED
 0.138u3-0.175: boggy84 - "Boggy '84"
 

@@ -1,7 +1,11 @@
 ROM set changed: yes
 0.106-0.148: botanic - "Botanic"
-0.149-0.155: botanic - "Botanic (French)"
-0.156-0.169: botanicf - "Botanic (French)"
+0.148u5-0.155: botanic - "Botanic (French)"
+0.156-0.175: botanicf - "Botanic (French)"
+
+MAME History:
+- 0.148u5: AUMAP changed description to 'Botanic (French)'. Note: The game was made by Itisa, there is a Spanish original (not yet dumped).
+- 0.156: Ricky2001 added Botanic (English / Spanish). Renamed (botanic) to (botanicf).
 
 Resolution, 0.106-0.138: 256x224 @ 60.000000Hz
-Resolution, 0.139-0.169: 256x224 @ 60.606061Hz
+Resolution, 0.139-0.175: 256x224 @ 60.606061Hz
