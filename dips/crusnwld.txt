@@ -1,14 +1,22 @@
-ROM set changed: yes
-0.106: crusnwld - "Cruis'n World (rev L2.3)"
-0.107-0.133: crusnw23 - "Cruis'n World (rev L2.3)"
-0.134-0.171: crusnwld23 - "Cruis'n World (rev L2.3)"
+NOTE: three ROM sets represented here with changeovers at 0.106u10 and 0.146u3.
 
 MAME History:
 - 0.106u10: Aaron Giles added Cruis'n World (rev L2.4). Renamed (crusnwld) to (crusnw23).
+- 0.146u3: Brian Troha and The Dumping Union added Cruis'n World (rev L2.5) and clone (rev L1.9). Renamed (crusnwld) to (crusnwld24).
+
+
+Cruis'n World (rev L2.3)
+------------------------
+ROM set changed: yes
+0.106: crusnwld - "Cruis'n World (rev L2.3)"
+0.106u10-0.133: crusnw23 - "Cruis'n World (rev L2.3)"
+0.133u1-0.175: crusnwld23 - "Cruis'n World (rev L2.3)"
+
+MAME History:
 - 0.133u1: Renamed (crusnu40) to (crusnusa40), (crusnu21) to (crusnusa21), (crusnw23) to (crusnwld23), (crusnw20) to (crusnwld20), (crusnw17) to (crusnwld17) and (crusnw13) to (crusnwld13).
 
 Resolution, 0.106-0.113: 512x400 @ 57.000000Hz
-Resolution, 0.114-0.171: 512x400 @ 57.349016Hz
+Resolution, 0.114-0.175: 512x400 @ 57.349016Hz
 
 Rules, The World [Fastest Completion]: http://www.twingalaxies.com/scores.php?scores=55739
 Rules, Africa [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=55725
@@ -25,3 +33,23 @@ Rules, Japan [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=55735
 Rules, Mexico [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=55736
 Rules, Moscow [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=55737
 Rules, New York [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=55738
+
+
+Cruis'n World (rev L2.4)
+------------------------
+Note: not currently represented on TG.
+ROM set changed: yes.  Added in 0.106u10.
+0.106u10-0.146: crusnwld - "Cruis'n World (rev L2.4)"
+0.146u3-0.175: crusnwld24 - "Cruis'n World (rev L2.4)"
+
+Resolution, 0.107-0.113: 512x400 @ 57.000000Hz
+Resolution, 0.114-0.175: 512x400 @ 57.349016Hz
+
+
+Cruis'n World (rev L2.5)
+------------------------
+Note: not currently represented on TG.
+ROM set changed: no.  Added in 0.146u3.
+0.146u3-0.175: crusnwld - "Cruis'n World (rev L2.5)"
+
+Resolution, 0.147-0.175: 512x400 @ 57.349016Hz
