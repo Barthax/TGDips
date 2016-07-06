@@ -1,10 +1,30 @@
-ROM set changed: yes
-0.106-0.128: carnevil - "CarnEvil"
-0.129-0.133: carnevi1 - "CarnEvil (v1.0.1)"
-0.134-0.169: carnevil1 - "CarnEvil (v1.0.1)"
+Note: two ROM sets represented here with the changeover at 0.128u6.
 
 MAME History:
 - 0.128u6: Brian Troha added CarnEvil (v1.0.3). Changed 'CarnEvil' to clone '(v1.0.1)'. Renamed (carnevil) to (carnevi1).
+
+
+CarnEvil (v1.0.1)
+-----------------
+ROM set changed: yes
+0.106-0.128: carnevil - "CarnEvil"
+0.129-0.133: carnevi1 - "CarnEvil (v1.0.1)"
+0.134-0.175: carnevil1 - "CarnEvil (v1.0.1)"
+
+MAME History:
 - 0.133u1: Renamed (carnevi1) to (carnevil1).
 
-Resolution, 0.106-0.169: 640x480 @ 57.000000Hz
+Resolution, 0.106-0.175: 640x480 @ 57.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Carnevil
+Rules, 1 Player Only: http://www.twingalaxies.com/scores.php?scores=55685
+Rules, 2 Player Team: http://www.twingalaxies.com/scores.php?scores=55686
+
+
+CarnEvil (v1.0.3)
+-----------------
+Note: not currently represented on TG
+ROM set changed: no.  Added in 0.128u6.
+0.128u6-0.175: carnevil - "CarnEvil (v1.0.3)"
+
+Resolution, 0.129-0.175: 640x480 @ 57.000000Hz
