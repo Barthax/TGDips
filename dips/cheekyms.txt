@@ -1,4 +1,4 @@
 ROM set changed: no
-0.106-0.168: cheekyms - "Cheeky Mouse"
+0.106-0.175: cheekyms - "Cheeky Mouse"
 
-Resolution, 0.106-0.168: 256x192 @ 60.000000Hz
+Resolution, 0.106-0.175: 256x192 @ 60.000000Hz

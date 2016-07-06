@@ -1,8 +1,8 @@
 ROM set changed: no
 0.106-0.117: cgraplop - "Graplop (aka Cluster Buster) (Cassette, set 1)"
-0.118-0.145: cgraplop - "Cluster Buster / Graplop (Cassette, set 1)"
-0.146-0.147: cgraplop - "Cluster Buster / Graplop (DECO Cassette, set 1)"
-0.148-0.169: cgraplop - "Cluster Buster (DECO Cassette)"
+0.117u1-0.145: cgraplop - "Cluster Buster / Graplop (Cassette, set 1)"
+0.145u1-0.147: cgraplop - "Cluster Buster / Graplop (DECO Cassette, set 1)"
+0.148-0.175: cgraplop - "Cluster Buster (DECO Cassette)"
 
 MAME History:
 - 0.117u1: Changed description to 'Cluster Buster / Graplop (Cassette, set 1)' and clone to 'Cluster Buster / Graplop (Cassette, set 2)'.
@@ -11,4 +11,4 @@ MAME History:
 
 Resolution, 0.106-0.128: 240x240 @ 57.000000Hz
 Resolution, 0.129-0.145: 240x240 @ 57.444853Hz
-Resolution, 0.146-0.169: 256x240 @ 57.444853Hz
+Resolution, 0.146-0.175: 256x240 @ 57.444853Hz

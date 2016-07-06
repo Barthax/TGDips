@@ -1,7 +1,7 @@
 ROM set changed: no
 0.106-0.145: cflyball - "Flying Ball (Cassette)"
-0.146-0.169: cflyball - "Flying Ball (DECO Cassette)"
+0.146-0.175: cflyball - "Flying Ball (DECO Cassette)"
 
 Resolution, 0.106-0.128: 240x240 @ 57.000000Hz
 Resolution, 0.129-0.145: 240x240 @ 57.444853Hz
-Resolution, 0.146-0.169: 256x240 @ 57.444853Hz
+Resolution, 0.146-0.175: 256x240 @ 57.444853Hz

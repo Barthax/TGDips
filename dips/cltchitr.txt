@@ -1,7 +1,7 @@
 ROM set changed: no
 0.106-0.137: cltchitr - "Clutch Hitter (set 2, US, FD1094 317-0176)"
 0.138-0.165: cltchitr - "Clutch Hitter (US, FD1094 317-0176)" (minor description change)
-0.166-0.168: cltchitr - "Clutch Hitter (US) (FD1094 317-0176)" (very minor description change)
+0.166-0.175: cltchitr - "Clutch Hitter (US) (FD1094 317-0176)" (very minor description change)
 
 Resolution, 0.106-0.133: 320x224 @ 60.000000Hz
-Resolution, 0.134-0.168: 320x224 @ 57.230000Hz
+Resolution, 0.134-0.175: 320x224 @ 57.230000Hz

@@ -1,7 +1,8 @@
 ROM Changes: none
 0.106-0.122: champbas - "Champion Baseball"
-0.123-0.168: champbas - "Champion Base Ball" (very minor description change)
+0.123-0.175: champbas - "Champion Base Ball" (very minor description change)
 
-Resolution, 0.106-0.168: 256x224 @ 60.000000Hz
+Resolution, 0.106-0.175: 256x224 @ 60.000000Hz
 
-Rules: http://www.twingalaxies.com/scores.php?scores=24458
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Champion%20Baseball
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=24458

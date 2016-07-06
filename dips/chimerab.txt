@@ -1,4 +1,5 @@
 ROM set changed: no
-0.106-0.168: chimerab - "Chimera Beast (prototype)"
+0.106-0.175: chimerab - "Chimera Beast (prototype)"
 
 Resolution, 0.106-0.168: 256x224 @ 60.000000Hz
+Resolution, 0.169-0.175: 256x224 @ 56.191350Hz

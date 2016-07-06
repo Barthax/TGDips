@@ -1,5 +1,5 @@
 ROM set changed: no
 0.73-0.114: cameltry - "Cameltry (US)"
-0.115-0.168: cameltry - "Cameltry (US, YM2610)"
+0.115-0.175: cameltry - "Cameltry (US, YM2610)"
 
-Resolution, 0.73-0.168: 320x224 @ 60.000000Hz
+Resolution, 0.73-0.175: 320x224 @ 60.000000Hz

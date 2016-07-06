@@ -1,4 +1,4 @@
 ROM set changed: no
-0.106-0.168: clshroad - "Clash-Road"
+0.106-0.175: clshroad - "Clash-Road"
 
-Resolution, 0.106-0.168: 288x224 @ 60.000000Hz
+Resolution, 0.106-0.175: 288x224 @ 60.000000Hz
