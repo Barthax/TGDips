@@ -1,15 +1,32 @@
-ROM set changed: yes
-0.106-0.123: contra - "Contra (US)"
-0.123u1-0.161: contra1 - "Contra (US, set 2)"
-0.162-0.173: contra1 - "Contra (US / Asia, set 2)" (minor description change)
+Note: two ROM sets are represented here with changeover at 0.123u1.
 
 MAME History:
 - 0.123u1: Brian Troha added clone Contra (bootleg). Changed clone 'Contra (US bootleg)' to parent 'Contra (US, Set 1)' and 'Contra (US)' to clone 'Contra (US, Set 2)'. Renamed (contra) to (contra1) and (contrab) to (contra).
+- 0.162: System11 added clone Contra (US / Asia, set 3). Made cocktail dipswitch apply to clones Gryzor (set 1/2) only, it has no function in the others [David Haywood]. Changed parent description to 'Contra (US / Asia, set 1)' and clone (US, set 2) to 'Contra (US / Asia, set 2)'.
 
-Resolution, 0.106-0.173: 280x224 @ 60.000000Hz
+
+Contra (US / Asia, set 2)
+-------------------------
+ROM set changed: yes
+0.106-0.123: contra - "Contra (US)"
+0.123u1-0.161: contra1 - "Contra (US, set 2)"
+0.162-0.175: contra1 - "Contra (US / Asia, set 2)" (minor description change)
+
+Resolution, 0.106-0.175: 280x224 @ 60.000000Hz
 
 TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Contra+%5BUS%5D
 Rules, Points [1 Player Only]: http://www.twingalaxies.com/scores.php?scores=40015
 Rules, Points [2 Player Team]: http://www.twingalaxies.com/scores.php?scores=40016
 Rules, 1 Player Only [Points]: http://www.twingalaxies.com/scores.php?scores=15634
 Rules, 2 Players Team [Points]: http://www.twingalaxies.com/scores.php?scores=15635
+
+
+Contra (US / Asia, set 1)
+-------------------------
+Note: not currently represented on TG.
+ROM set changed: no. Added in 0.123u1.
+0.123u1-0.161: contra - "Contra (US, set 1)"
+0.162-0.175: contra - "Contra (US / Asia, set 1)"
+
+Resolution, 0.125-0.175: 280x224 @ 60.000000Hz
+
