@@ -1,0 +1,10 @@
+ROM set changed: yes
+0.106-0.171: crimfght - "Crime Fighters (US 4 players)"
+0.172-0.175: crimfghtu - "Crime Fighters (US 4 Players)"
+
+MAME History:
+- 0.172: World rev of Crime Fighters now default, 4P version was made purely for the US market [System11]. Changed clone (World 2 Players) to parent 'Crime Fighters (World 2 players)' and (US 4 players) to clone 'Crime Fighters (US 4 Players)'. Renamed (crimfght) to (crimfghtu) and (crimfght2) to (crimfght).
+
+Resolution, 0.106-0.145: 304x224 @ 54.000000Hz
+Resolution, 0.146-0.164: 320x224 @ 59.170000Hz
+Resolution, 0.165-0.175: 320x224 @ 59.185606Hz

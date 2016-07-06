@@ -1,8 +1,8 @@
 ROM set changed: no
 0.106-0.135: cosmica - "Cosmic Alien"
-0.136-0.168: cosmica - "Cosmic Alien (version II)"
+0.135u1-0.175: cosmica - "Cosmic Alien (version II)"
 
 MAME History:
 - 0.135u1: Andrew Welburn and Lord Nightmare added clone Cosmic Alien (first version). Changed description to 'Cosmic Alien (version II)'. Fixed rom names. Lord Nightmare marked Cosmic Alien colors as wrong, added TODO to the driver for fixing colors. Added new XTAL value and switched driver to use it.
 
-Resolution, 0.106-0.168: 256x192 @ 60.000000Hz
+Resolution, 0.106-0.175: 256x192 @ 60.000000Hz

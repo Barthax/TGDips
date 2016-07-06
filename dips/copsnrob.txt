@@ -1,4 +1,4 @@
 ROM set changed: no
-0.106-0.168: copsnrob - "Cops'n Robbers"
+0.106-0.175: copsnrob - "Cops'n Robbers"
 
-Resolution, 0.106-0.168: 256x208 @ 60.000000Hz
+Resolution, 0.106-0.175: 256x208 @ 60.000000Hz

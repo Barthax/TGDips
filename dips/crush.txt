@@ -1,11 +1,12 @@
 ROM Changes: minor name change only
 0.35b13-0.146: crush - "Crush Roller (Kural Samno)"
-0.146-0.168: crush - "Crush Roller (set 1)"
+0.146-0.175: crush - "Crush Roller (set 1)"
 
 MAME History:
 - 0.147: Cleanup Crush Roller sets descriptions, after feedback from yasu [hap]. Changed description to 'Crush Roller (set 1)' and clones 'Crush Roller (bootleg)' to 'Crush Roller (bootleg set 1)', 'Crush Roller (bootleg?)' to 'Crush Roller (bootleg set 2)', 'Crush Roller (Kural - bootleg?)' to 'Crush Roller (set 3)', 'Crush Roller (Kural Esco - bootleg?)' to 'Crush Roller (set 2)', 'Crush Roller (Kural TWT)' to 'Crush Roller (set 4)', 'Crush Roller (Sidam bootleg)' to 'Crush Roller (bootleg set 3)', 'Korosuke Roller' to 'Korosuke Roller (Japan)', 'Magic Brush' to 'Magic Brush (bootleg of Crush Roller)', 'Make Trax (set 1)' to 'Make Trax (US set 1)', 'Make Trax (set 2)' to 'Make Trax (US set 2)' and 'Paint Roller' to 'Paint Roller (bootleg of Crush Roller)'.
 
 Resolution, 0.106-0.113: 288x224 @ 60.606060Hz
-Resolution, 0.114-0.168: 288x224 @ 60.606061Hz
+Resolution, 0.114-0.175: 288x224 @ 60.606061Hz
 
-Rules: http://www.twingalaxies.com/scores.php?scores=7714
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Crush%20Roller%20[Kural%20Samno]
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=7714
