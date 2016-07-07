@@ -1,9 +1,29 @@
-ROm set changed: yes
-0.106-0.148: demoderb - "Demolition Derby"
-0.149-0.169: demoderbc - "Demolition Derby (cocktail)"
+Note: two ROM sets are represented here with changeover at 0.148u2.
 
 MAME History:
 - 0.148u2: Brian Troha and The Dumping Union added Demolition Derby. Added the "full" version of Demolition Derby that is dipswitch selectable between Upright and Cocktail mode. The other version was a only supported Cocktail mode. Also added proper dipswitch settings for the Cocktail mode only version [Brian Troha]. Changed 'Demolition Derby' to clone 'Demolition Derby (cocktail)' and clone '(2-Player Mono Board Version)' to 'Demolition Derby (MCR-3 Mono Board Version)'. Renamed (demoderb) to (demoderbc). Replaced M6809 CPU3 with M6809E.
 
-Resolution, 0.106-0.169: 512x480 @ 30.000000Hz
+
+Demolition Derby (cocktail)
+---------------------------
+ROM set changed: yes
+0.106-0.148: demoderb - "Demolition Derby"
+0.148u2-0.175: demoderbc - "Demolition Derby (cocktail)"
+
+Resolution, 0.106-0.175: 512x480 @ 30.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Demolition%20Derby
+Rules, 1 Player Only: http://www.twingalaxies.com/scores.php?scores=7716
+Rules, 2 Player Team: http://www.twingalaxies.com/scores.php?scores=9945
+Rules, 3 Player Team: http://www.twingalaxies.com/scores.php?scores=131862
+Rules, 4 Player Team: http://www.twingalaxies.com/scores.php?scores=131863
+
+
+Demolition Derby (newer)
+----------------
+Note: not currently represented on TG.
+ROM set changed: no.  Added in 0.148u2.
+0.148u2-0.175: demoderb - "Demolition Derby"
+
+Resolution, 0.149-0.175: 512x480 @ 30.000000Hz
 
