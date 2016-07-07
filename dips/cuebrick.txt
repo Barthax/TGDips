@@ -1,12 +1,32 @@
-ROM set changed: yes
-0.106-0.122: cuebrick - "Cue Brick (Japan)"
-0.122u5-0.133: cuebrckj - "Cue Brick (Japan)"
-0.133u2-0.169: cuebrickj - "Cue Brick (Japan)"
+NOTE: two ROM sets represented here with changeover at 0.122u5.
 
 MAME History:
 - 0.122u5: Zsolt Vasvari reversed ROM set names of Cue Brick (World version D) and (Japan). Changed some function names to reflect parent set. Changed clone Cue Brick (World version D) to parent. Renamed (cuebrick) to (cuebrckj) and (cuebrckj) to (cuebrick).
+
+
+Cue Brick (Japan)
+-----------------
+ROM set changed: yes
+0.106-0.122: cuebrick - "Cue Brick (Japan)"
+0.122u5-0.133: cuebrckj - "Cue Brick (Japan)"
+0.133u2-0.175: cuebrickj - "Cue Brick (Japan)"
+
+MAME History:
 - 0.133u2: Renamed (cuebrckj) to (cuebrickj).
 
 0.106-0.123: 304x224 @ 60.000000Hz
-0.125-0.169: 304x224 @ 60.606061Hz
+0.125-0.175: 304x224 @ 60.606061Hz
+
+
+Cue Brick (World, version D)
+----------------------------
+Note: not currently represented on TG.
+ROM set changed: no. Added in 0.122u5.
+0.122u5-0.162: cuebrick - "Cue Brick (World version D)"
+0.163-0.175: cuebrick - "Cue Brick (World, version D)"
+
+MAME History:
+- 0.163: Changed description to 'Cue Brick (World, version D)'.
+
+Resolution, 0.123-0.175: 304x224 @ 60.000000Hz
 
