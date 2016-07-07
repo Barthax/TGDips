@@ -1,12 +1,28 @@
-ROM set changed: yes
-0.106-0.129: ddungeon - "Dangerous Dungeons"
-0.129u5-0.133: ddungene - "Dangerous Dungeons (East Coast Coin Company)"
-0.134-0.141: ddungeone - "Dangerous Dungeons (East Coast Coin Company)"
-0.141u4-0.169: ddungeone - "Dangerous Dungeons (set 2)" (minor description change)
+Note: two ROM sets represented here with changeover at 0.129u5.
 
 MAME History:
 - 0.129u5: Smitdogg added Dangerous Dungeons (Game Room 1992). Changed description of clone 'Dangerous Dungeons' to 'Dangerous Dungeons (East Coast Coin Company)'. Renamed (ddungeon) to (ddungene).
 - 0.141u4: Changed parent description to 'Dangerous Dungeons (set 1)' and clones 'Dangerous Dungeons (East Coast Coin Company)' to 'Dangerous Dungeons (set 2)' and 'Dangerous Dungeons (East Coast Coin Company)' to 'Dangerous Dungeons (set 2)'.
 
+
+Dangerous Dungeons (East Coast Coin Company) / (set 2)
+------------------------------------------------------
+ROM set changed: yes
+0.106-0.129: ddungeon - "Dangerous Dungeons"
+0.129u5-0.133: ddungene - "Dangerous Dungeons (East Coast Coin Company)"
+0.134-0.141: ddungeone - "Dangerous Dungeons (East Coast Coin Company)"
+0.141u4-0.175: ddungeone - "Dangerous Dungeons (set 2)" (minor description change)
+
 Resolution, 0.106-0.113: 256x240 @ 57.444855Hz
-Resolution, 0.114-0.169: 256x240 @ 57.444853Hz
+Resolution, 0.114-0.175: 256x240 @ 57.444853Hz
+
+
+Dangerous Dungeons (set 1)
+--------------------------
+Note: not currently tracked at TG.
+ROM set changed: no.  Added in 0.129u5.
+0.129u5-0.141: ddungeon - "Dangerous Dungeons"
+0.142-0.175: ddungeon - "Dangerous Dungeons (set 1)"
+
+Resolution, 0.130-0.175: 256x240 @ 57.444853Hz
+
