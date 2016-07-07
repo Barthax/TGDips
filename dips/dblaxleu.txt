@@ -1,9 +1,17 @@
 ROM set changed: yes
 0.106-0.147: dblaxle - "Double Axle (US)"
-0.148-0.169: dblaxleu - "Double Axle (US, earlier)"
+0.147u2-0.175: dblaxleu - "Double Axle (US, earlier)"
 
 MAME History:
 - 0.147u2: ShouTime and The Dumping Union added Double Axle (US). Changed 'Double Axle (US)' to clone '(US, earlier)'. Renamed (dblaxle) to (dblaxleu).
 
 Resolution, 0.106-0.147: 320x240 @ 60.000000Hz
-Resolution, 0.148-0.169: 320x240 @ 60.000000Hz
+Resolution, 0.148-0.175: 320x240 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Double%20Axle
+Rules, Beginner [Cross Country Race - Fastest Lap]: http://www.twingalaxies.com/scores.php?scores=55857
+Rules, Beginner [Cross Country Race - Fastest Race]: http://www.twingalaxies.com/scores.php?scores=55858
+Rules, Expert [Icy Road - Fastest Lap]: http://www.twingalaxies.com/scores.php?scores=55859
+Rules, Expert [Icy Road - Fastest Race]: http://www.twingalaxies.com/scores.php?scores=55860
+Rules, Standard [Mud Bog Race - Fastest Lap]: http://www.twingalaxies.com/scores.php?scores=55861
+Rules, Standard [Mud Bog Race - Fastest Race]: http://www.twingalaxies.com/scores.php?scores=55862
