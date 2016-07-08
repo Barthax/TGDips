@@ -1,9 +1,32 @@
-ROM set changed: yes
-0.106-0.143: fightfev - "Fight Fever (set 1)"
-0.143u4-0.169: fightfeva - "Fight Fever (set 2)"
+Note: two ROM sets represented here with changeover at 0.143u4.
 
 MAME History:
+- 0.74u2: Added clone Fight Fever (set 2). Changed parent description to 'Fight Fever (set 1)'.
+- 0.129u4: Renamed (fightfva) to (fightfeva).
 - 0.143u4: Cleaned up Fight Fever [Jackc, Johnboy]: Removed duplicate p2 and marked p1 bad dump. Changed 'Fight Fever (set 1)' to clone '(set 2)' and '(set 2)' to parent 'Fight Fever (set 1)'. Renamed (fightfev) to (fightfeva) and (fightfeva) to (fightfev).
 
+
+Fight Fever (set 1) / (set 2)
+-----------------------------
+ROM set changed: yes
+0.74u2-0.143: fightfev - "Fight Fever (set 1)"
+0.143u4-0.175: fightfeva - "Fight Fever (set 2)"
+
 Resolution, 0.106-0.113: 320x224 @ 59.185608Hz
-Resolution, 0.114-0.169: 320x224 @ 59.185606Hz
+Resolution, 0.114-0.175: 320x224 @ 59.185606Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Fight%20Fever%20[Set%201]
+Rules, Points [Tournament Settings]: http://www.twingalaxies.com/scores.php?scores=69892
+
+
+Fight Fever (set 2) / (set 1)
+-----------------------------
+Note: not currently represented on TG.
+ROM set changed: yes
+0.74u2-0.129: fightfva - "Fight Fever (set 2)"
+0.129u4-0.143: fightfeva - "Fight Fever (set 2)"
+0.143u4-0.175: fightfev - "Fight Fever (set 1)"
+
+Resolution, 0.106-0.113: 320x224 @ 59.185608Hz
+Resolution, 0.114-0.175: 320x224 @ 59.185606Hz
+
