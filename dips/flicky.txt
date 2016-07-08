@@ -1,7 +1,11 @@
 ROM set changed: no
 0.106-0.113: flicky - "Flicky (128k Ver.)"
 0.114-0.115: flicky - "Flicky (315-5051, 128k Ver.)"
-0.116-0.169: flicky - "Flicky (128k Version, System 2, 315-5051)"
+0.116-0.175: flicky - "Flicky (128k Version, System 2, 315-5051)"
+
+MAME History:
+- 0.113u3: Changed description to 'Flicky (315-5051, 128k Ver.)' and clone (64k Ver.) to 'Flicky (315-5051, 64k Ver.)'.
+- 0.115u3: Corrado Tomaselli added clones Flicky (64k Version, System 1, 315-5051, set 2) and (128k Version, System 2, not encrypted). Changed parent description to 'Flicky (128k Version, System 2, 315-5051)' and clone (315-5051, 64k Ver.) to 'Flicky (64k Version, System 1, 315-5051, set 1)'.
 
 Resolution, 0.106-0.130: 256x224 @ 60.000000Hz
-Resolution, 0.131-0.169: 512x224 @ 60.096154Hz
+Resolution, 0.131-0.175: 512x224 @ 60.096154Hz

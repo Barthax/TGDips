@@ -1,5 +1,5 @@
 ROM set changed: no.  Added in 0.121u1.
-0.122-0.169: fsoccer - "Fighting Soccer (version 4)"
+0.122-0.175: fsoccer - "Fighting Soccer (version 4)"
 
 Resolution, 0.122-0.127: 384x224 @ 60.000000Hz
-Resolution, 0.128-0.169: 400x224 @ 60.000000Hz
+Resolution, 0.128-0.175: 400x224 @ 60.000000Hz

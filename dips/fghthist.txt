@@ -1,7 +1,29 @@
+Note: two ROM sets represented here with changeover at 0.168.
+
+MAME History:
+- 0.149u1: Smitdogg and The Dumping Union added clone Fighter's History (Japan ver 42-03, DE-0395-1 PCB). Start hooking Fighter's History up to use DECO 146 protection. Removed the 'UNEMULATED PROTECTION' flag from Fighters History, for the first time ever you can actually play it until the end (previously the last 2 bosses would glitch because the protection results were missing; need to look at the video mixing bug causing bad BG colour in test mode still). Try a different bg pen in fghthist [David Haywood]. Changed parent description to 'Fighter's History (World ver 43-07, DE-0380-2 PCB)' and clones (US ver 42-03) to 'Fighter's History (US ver 42-03, DE-0380-2 PCB)', (US ver 42-05, alternate hardware) to 'Fighter's History (US ver 42-05, DE-0395-1 PCB)' and (Japan ver 42-03) to 'Fighter's History (Japan ver 42-03, DE-0380-2 PCB)'. Renamed (fghthista) to (fghthistua).
+- 0.168: Coolmod, rtw and The Dumping Union added Fighter's History (World ver 43-09, DE-0395-1 PCB). Renamed (fghthista) to (fghthistb) and (fghthist) to (fghthista).
+
+
+Fighter's History (World ver 43-07, DE-0380-2 PCB)
+--------------------------------------------------
 ROM set changed: yes
 0.106-0.149: fghthist - "Fighter's History (World ver 43-07)"
 0.150-0.167: fghthist - "Fighter's History (World ver 43-07, DE-0380-2 PCB)"
-0.168-0.169: fghthista - "Fighter's History (World ver 43-07, DE-0380-2 PCB)"
+0.168-0.175: fghthista - "Fighter's History (World ver 43-07, DE-0380-2 PCB)"
 
-Resolution, 0.106-0.169: 320x240 @ 60.000000Hz
+Resolution, 0.106-0.175: 320x240 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Fighter%27s%20History%20[World%20ver%2043-07]
+Rules, Points [Tournament Settings]: http://www.twingalaxies.com/scores.php?scores=69895
+
+
+Fighter's History (World ver 43-09, DE-0395-1 PCB)
+--------------------------------------------------
+Note: not currently represented on TG.
+ROM set changed: no.  Added in 0.168.
+0.106-0.167: NOT SUPPORTED
+0.168-0.175: fghthist - "Fighter's History (World ver 43-09, DE-0395-1 PCB)"
+
+Resolution, 0.168-0.175: 320x240 @ 60.000000Hz
 

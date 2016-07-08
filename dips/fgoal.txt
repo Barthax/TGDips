@@ -1,5 +1,8 @@
 ROM set changed: no
 0.106-0.148: fgoal - "Field Goal"
-0.149-0.169: fgoal - "Field Goal (set 1)"
+0.148u4-0.175: fgoal - "Field Goal (set 1)"
 
-Resolution, 0.106-0.169: 256x240 @ 60.000000Hz
+MAME History:
+- 0.148u4: hap changed description to 'Field Goal (set 1)' and clone (different) to 'Field Goal (set 2)'.
+
+Resolution, 0.106-0.175: 256x240 @ 60.000000Hz

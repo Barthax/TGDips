@@ -1,4 +1,4 @@
 ROM set changed: no
-0.106-0.169: firebarr - "Fire Barrel (Japan)"
+0.106-0.175: firebarr - "Fire Barrel (Japan)"
 
-Resolution, 0.106-0.169: 320x240 @ 60.000000Hz
+Resolution, 0.106-0.175: 320x240 @ 60.000000Hz

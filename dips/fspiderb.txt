@@ -1,9 +1,9 @@
 ROM set changed: no.  Added in 0.137u4
-0.137u4-0.169: fspiderb - "Frog & Spiders (bootleg?)"
+0.137u4-0.175: fspiderb - "Frog & Spiders (bootleg?)"
 
 MAME History:
 - 1st May 2010: Smitdogg - Siftware dumped a bootleg of Frog & Spiders (might use all original unhacked Taito data though?).
 - 0.137u4: Siftware added Frog & Spiders (bootleg) (Taito Corporation 1981).
 
 Resolution, 
-0.138-0.169: 256x224 @ 60.000000Hz
+0.138-0.175: 256x224 @ 60.000000Hz

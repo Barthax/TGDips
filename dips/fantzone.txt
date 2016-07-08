@@ -1,5 +1,8 @@
 ROM set changed: no
 0.106-0.138: fantzone - "Fantasy Zone (set 2, unprotected)"
-0.139-0.169: fantzone - "Fantasy Zone (Rev A, unprotected)"
+0.138u1-0.175: fantzone - "Fantasy Zone (Rev A, unprotected)"
 
-Resolution, 0.106-0.169: 320x224 @ 60.000000Hz
+MAME History:
+- 0.138u1: Cools, Andrew Welburn and The Dumping Union added clone Fantasy Zone (317-5000). Changed parent description to 'Fantasy Zone (Rev A, unprotected)' and clone (set 1, unprotected) to 'Fantasy Zone (unprotected)'.
+
+Resolution, 0.106-0.175: 320x224 @ 60.000000Hz

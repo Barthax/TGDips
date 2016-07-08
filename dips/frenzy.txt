@@ -1,5 +1,5 @@
 ROM set changed: no
-0.106-0.169: frenzy - "Frenzy"
+0.106-0.175: frenzy - "Frenzy"
 
 Resolution, 0.106-0.115: 256x224 @ 60.000000Hz
-Resolution, 0.116-0.169: 256x224 @ 59.637405Hz
+Resolution, 0.116-0.175: 256x224 @ 59.637405Hz

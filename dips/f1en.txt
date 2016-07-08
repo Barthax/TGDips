@@ -1,6 +1,9 @@
 ROM set changed: no
 0.106-0.154: f1en - "F1 Exhaust Note"
-0.155-0.169: f1en - "F1 Exhaust Note (World)"
+0.155-0.175: f1en - "F1 Exhaust Note (World)"
+
+MAME History:
+- 0.155: Fabrice Arzeno added clone F1 Exhaust Note (US). Changed parent description to 'F1 Exhaust Note (World)'.
 
 Resolution, 0.106-0.162: 416x224 @ 60.000000Hz
-Resolution, 0.163-0.169: 2 screens, both 416x224 @ 60.000000Hz
+Resolution, 0.163-0.175: 2 screens, both 416x224 @ 60.000000Hz

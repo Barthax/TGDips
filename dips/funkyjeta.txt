@@ -1,6 +1,9 @@
 ROM set changed: yes
 0.106-0.152: funkyjet - "Funky Jet (World)"
-0.153-0.170: funkyjeta - "Funky Jet (World)"
+0.153-0.175: funkyjeta - "Funky Jet (World)"
 
-Resolution, 0.106-0.170: 320x240 @ 58.000000Hz
+MAME History:
+- 0.153: Arzeno Fabrice and The Dumping Union added Funky Jet (World, rev 1). Changed description of clone (Japan) to 'Funky Jet (Japan, rev 2)'. Renamed (funkyjet) to (funkyjeta).
+
+Resolution, 0.106-0.175: 320x240 @ 58.000000Hz
 
