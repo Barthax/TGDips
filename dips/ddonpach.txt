@@ -1,6 +1,6 @@
 ROM set changed: no
 0.106-0.121: ddonpach - "DoDonPachi (International)"
-0.122-0.169: ddonpach - "DoDonPachi (International, Master Ver. 97/02/05)" (minor description change)
+0.122-0.175: ddonpach - "DoDonPachi (International, Master Ver. 97/02/05)" (minor description change)
 
 Resolution, 0.106-0.113: 320x240 @ 57.550644Hz
-Resolution, 0.114-0.169: 320x240 @ 57.550645Hz
+Resolution, 0.114-0.175: 320x240 @ 57.550645Hz

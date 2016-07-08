@@ -1,10 +1,16 @@
 ROM set changed: yes
 0.106-0.109: donpachj - "DonPachi (Japan)"
-0.110-0.133: donpacjp - "DonPachi (Japan)"
-0.134-0.169: donpachij - "DonPachi (Japan)"
+0.109u2-0.133: donpacjp - "DonPachi (Japan)"
+0.133u1-0.175: donpachij - "DonPachi (Japan)"
 
 MAME History:
+- 0.133u1: Renamed (donpacjp) to (donpachij), (donpackr) to (donpachikr) and (donpachk) to (donpachihk).
 - Jul 24, 2009: get rid of 8 character limitation for many clones
+- 0.109u2: Arenzo Fabrice added DonPachi (Hong Kong). Renamed (donpachj) to (donpacjp) and (donpachk) to (donpackr).
 
 Resolution, 0.106-0.113: 320x240 @ 57.550644Hz
-Resolution, 0.114-0.169: 320x240 @ 57.550645Hz
+Resolution, 0.114-0.175: 320x240 @ 57.550645Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=DonPachi%20[Japan]
+Rules, Points [1 Player Only]: http://www.twingalaxies.com/scores.php?scores=22928
+Rules, Points [2 Player Team]: http://www.twingalaxies.com/scores.php?scores=22929

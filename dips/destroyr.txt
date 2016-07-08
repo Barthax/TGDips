@@ -1,7 +1,10 @@
 ROM set changed: no
 0.106-0.141: destroyr - "Destroyer"
-0.142-0.168: destroyr - "Destroyer (version O2)"
+0.142-0.175: destroyr - "Destroyer (version O2)"
+
+MAME History:
+- 0.141u3: Siftware added clone Destroyer (version O1). Minor Destroyer improvements [hap]: Proper addressmap masks. Added 30132-01.k4 rom, duplicate of 30132-01.f4. Added version O1 romset, dumped by Siftware. Changed VSync to 60.114504 Hz. Changed parent description to 'Destroyer (version O2)'.
 
 Resolution, 0.106-0.141: 256x240 @ 60.000000Hz
 Resolution, 0.142-0.143: 256x240 @ 60.114504Hz
-Resolution, 0.144-0.168: 256x240 @ 60.000000Hz
+Resolution, 0.144-0.175: 256x240 @ 60.000000Hz

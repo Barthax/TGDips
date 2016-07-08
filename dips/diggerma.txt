@@ -1,12 +1,12 @@
 ROM set changed: no
 0.106: diggerma - "Digger Man"
-0.107-0.168: diggerma - "Digger Man (prototype)"
+0.107-0.175: diggerma - "Digger Man (prototype)"
 
 MAME History:
 - 0.106u13: MAME32Plus added 'Digger Man (prototype)' (Kyle Hodgetts 2000). Unlicensed prototype, no official game ID.
 
 Resolution, 0.106-0.113: 320x224 @ 59.185608Hz
-Resolution, 0.114-0.168: 320x224 @ 59.185606Hz
+Resolution, 0.114-0.175: 320x224 @ 59.185606Hz
 
 Additional information confirming ROM set not changed betwen 0.106 and 0.107 (differences are in the NeoGeo BIOS only):
 C:\MAME>mame106 -listcrc diggerma | find "Digger Man"

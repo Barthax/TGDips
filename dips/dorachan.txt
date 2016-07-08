@@ -1,6 +1,6 @@
 ROM set changed: no
 0.106-0.167: dorachan - "Dorachan"
-0.168: dorachan - "Dora-chan (Japan)" (description change only)
+0.168-0.175: dorachan - "Dora-chan (Japan)" (description change only)
 
 Resolution, 0.106-0.167: 240x240 @ 60.000000Hz
-Resolution, 0.168: 256x240 @ 60.000000Hz
+Resolution, 0.168-0.175: 256x240 @ 60.000000Hz

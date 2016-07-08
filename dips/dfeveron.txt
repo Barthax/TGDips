@@ -1,6 +1,6 @@
 ROM set changed: no
 0.106-0.121: dfeveron - "Dangun Feveron (Japan)"
-0.122-0.168: dfeveron - "Dangun Feveron (Japan, Ver. 98/09/17)"
+0.122-0.175: dfeveron - "Dangun Feveron (Japan, Ver. 98/09/17)"
 
 Resolution, 0.106-0.113: 320x240 @ 57.550644Hz
-Resolution, 0.114-0.168: 320x240 @ 57.550645Hz
+Resolution, 0.114-0.175: 320x240 @ 57.550645Hz

@@ -1,6 +1,6 @@
-ROM Changes: no
-0.106-0.135: dbreed - "Dragon Breed (M81 pcb version)"
-0.136-0.168: dbreed - "Dragon Breed (M81 PCB version)" (very minor description change)
+ROM Changes: no.  Added in 0.104u5.
+0.104u5-0.135: dbreed - "Dragon Breed (M81 pcb version)"
+0.136-0.175: dbreed - "Dragon Breed (M81 PCB version)" (very minor description change)
 
 Resolution, 0.106-0.122: 384x256 @ 55.000000Hz
-Resolution, 0.123-0.168: 384x256 @ 55.017606Hz
+Resolution, 0.123-0.175: 384x256 @ 55.017606Hz

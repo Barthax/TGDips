@@ -1,9 +1,9 @@
 ROM set changed: no
 0.106-0.126: demonwld - "Demon's World / Horror Story"
-0.127-0.168: demonwld - "Demon's World / Horror Story (set 1)"
+0.127-0.175: demonwld - "Demon's World / Horror Story (set 1)"
 
 Resolution, 0.106-0.113: 320x240 @ 55.161545Hz
 Resolution, 0.114-0.133: 320x240 @ 60.000000Hz
 Resolution, 0.134-0.144: 320x240 @ 55.140000Hz
 Resolution, 0.145-0.152: 320x240 @ 57.584258Hz
-Resolution, 0.153-0.168: 320x240 @ 55.161545Hz
+Resolution, 0.153-0.175: 320x240 @ 55.161545Hz
