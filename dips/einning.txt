@@ -1,10 +1,10 @@
 ROM set changed: yes
 0.106-0.111: einnings - "Extra Inning"
-0.112-0.147: einning - "Extra Inning"
-0.148-0.169: einning - "Extra Inning / Ball Park II"
+0.111u4-0.147: einning - "Extra Inning"
+0.148-0.175: einning - "Extra Inning / Ball Park II"
 
 MAME History:
 - 0.111u4: Renamed (einnings) to (einning). Changed 8080 CPU1 clock speed to 1996800 Hz. Replaced Samples/2xSN76477 sound with Discrete. Added dipswitches 'Wall Knock Out Behavior', 'Double Score when Special Lit', 'Cabinet' and 'Unused'.
 
 Resolution, 0.106-0.111: 256x224 @ 60.000000Hz
-Resolution, 0.112-0.169: 260x224 @ 59.541985Hz
+Resolution, 0.112-0.175: 260x224 @ 59.541985Hz

@@ -1,6 +1,6 @@
 ROM set changed: no
 0.106-0.114: enigma2 - "Enigma 2"
-0.115-0.169: enigma2 - "Enigma II"
+0.115-0.175: enigma2 - "Enigma II"
 
 Resolution, 0.106-0.114: 240x224 @ 60.000000Hz
-Resolution, 0.115-0.169: 256x224 @ 52.787162Hz
+Resolution, 0.115-0.175: 256x224 @ 52.787162Hz
