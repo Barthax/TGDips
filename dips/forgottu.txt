@@ -19,3 +19,8 @@ Resolution, 0.106-0.126: 384x224 @ 60.000000Hz
 Resolution, 0.127-0.147: 384x224 @ 59.610000Hz
 Resolution, 0.148-0.152: 384x224 @ 59.629403Hz
 Resolution, 0.153-0.169: 384x224 @ 59.637405Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Forgotten%20Worlds%20[US]
+Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=14433
+Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=14434
+

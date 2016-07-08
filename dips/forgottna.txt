@@ -1,0 +1,13 @@
+Note: not currently represented on TG.
+ROM set changed: yes.  Added in 0.131u3.
+0.131u3-0.167: forgottn - "Forgotten Worlds (World)"
+0.168-0.175: forgottna - "Forgotten Worlds (World)"
+
+MAME History:
+- 0.131u3: Corrado Tomaselli added Forgotten Worlds (World). Renamed (forgottn) to (forgottu). Removed Forgotten Worlds (World?).
+- 0.168: Bill D. and The Dumping Union added Forgotten Worlds (World, newer). Renamed (forgottn) to (forgottna).
+
+Resolution, 0.131-0.147: 384x224 @ 59.610000Hz
+Resolution, 0.148-0.152: 384x224 @ 59.629403Hz
+Resolution, 0.153-0.175: 384x224 @ 59.637405Hz
+
