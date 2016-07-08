@@ -1,14 +1,33 @@
+Note: two ROM sets represented here with changeover at 0.129u4.
+
+MAME HISTORY:
+- 0.129u4: Stefan Lindberg added Extermination (World). Renamed (extrmatn) to (extrmatu).
+- 0.133u1: Renamed (extrmatu) to (extrmatnu) and (extrmatj) to (extrmatnj).
+- 0.143u8: Kanikani added DIP locations to Extermination.
+- 0.174: Farzeno added clone Extermination (US, Romstar). Changed description of clone (US) to 'Extermination (US, World Games)'.
+
+
+Extermination (US, World Games)
+-------------------------------
 ROM set changed: yes
 0.106-0.129: extrmatn - "Extermination (US)"
 0.129u4-0.133: extrmatu - "Extermination (US)"
-0.133u1-0.171: extrmatnu - "Extermination (US)"
+0.133u1-0.173: extrmatnu - "Extermination (US)"
+0.174-0.175: extrmatnu - "Extermination (US, World Games)"
 
-MAME HISTORY:
-- 0.143u8: Kanikani added DIP locations to Extermination.
-- 0.133u1: Renamed (extrmatu) to (extrmatnu) and (extrmatj) to (extrmatnj).
-- 0.129u4: Stefan Lindberg added Extermination (World). Renamed (extrmatn) to (extrmatu).
+Resolution, 0.106-0.175: 256x224 @ 60.000000Hz
 
-Resolution, 0.106-0.171: 256x224 @ 60.000000Hz
-
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Extermination%20[US]
 Rules, Points [1 Player Only]: http://www.twingalaxies.com/scores.php?scores=55972
 Rules, Points [2 Player Team]: http://www.twingalaxies.com/scores.php?scores=55973
+
+
+Extermination (World)
+---------------------
+Note: not currently represented on TG.
+ROM set changed: no. Added in 0.129u4.
+0.106-0.129: NOT SUPPORTED
+0.129u4-0.175: extrmatn - "Extermination (World)"
+
+Resolution, 0.130-0.175: 256x224 @ 60.000000Hz
+
