@@ -1,5 +1,12 @@
 ROM set changed: no
 0.106-0.122: tetrisp2 - "Tetris Plus 2 (World?)"
-0.123-0.170: tetrisp2 - "Tetris Plus 2 (World)"
+0.123-0.175: tetrisp2 - "Tetris Plus 2 (World)"
 
-Resolution, 0.106-0.170: 320x224 @ 60.000000Hz
+Resolution, 0.106-0.175: 320x224 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Tetris+Plus+2+%5BWorld?%5D
+Rules, Points [Endless Mode]: http://www.twingalaxies.com/scores.php?scores=120366
+Rules, Points [Puzzle Mode]: http://www.twingalaxies.com/scores.php?scores=120367
+Rules, Puzzle Mode - Stage A-1 [Completion Time]: http://www.twingalaxies.com/scores.php?scores=194832
+Rules, Puzzle Mode - Stage A-1 [Completion Time, No Bombs]: http://www.twingalaxies.com/scores.php?scores=194834
+Rules, Puzzle Mode - Stage A-2 [Completion Time, No Bombs]: http://www.twingalaxies.com/scores.php?scores=194922
