@@ -1,5 +1,26 @@
+Note: two ROM sets represented here with changeover at 0.131u2.
+
+MAME History:
+- 0.131u2: Andrew Welburn added Hatris (US). Replaced dipswitches 'Difficulty 1/2' with 'Hat Fall Velocity' and 'End Line Position'. Renamed (hatris) to (hatrisj).
+
+
+Hatris (Japan)
+--------------
 ROM set changed: yes
 0.106-0.131: hatris - "Hatris (Japan)"
-0.131u2-0.169: hatrisj - "Hatris (Japan)"
+0.131u2-0.175: hatrisj - "Hatris (Japan)"
 
-Resolution, 0.106-0.169: 352x240 @ 60.000000Hz
+Resolution, 0.106-0.175: 352x240 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Hatris%20[Japan]
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=75042
+
+
+Hatris (US)
+-----------
+Note: not currently represented on TG.
+ROM set changed: no. Added in 0.131u2.
+0.131u2-0.175: hatris - "Hatris (US)"
+
+Resolution, 0.132-0.175: 352x240 @ 60.000000Hz
+
