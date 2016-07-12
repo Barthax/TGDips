@@ -1,5 +1,5 @@
 ROM set changed: no
-0.106-0.169: harddriv - "Hard Drivin' (cockpit, rev 7)"
+0.106-0.175: harddriv - "Hard Drivin' (cockpit, rev 7)"
 
 Resolution, 0.106-0.114: 508x384 @ 60.000000Hz
-Resolution, 0.115-0.169: 508x384 @ 59.952038Hz
+Resolution, 0.115-0.175: 508x384 @ 59.952038Hz

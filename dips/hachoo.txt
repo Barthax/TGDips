@@ -1,5 +1,5 @@
 ROM set changed: no
-0.106-0.169: hachoo - "Hachoo!"
+0.106-0.175: hachoo - "Hachoo!"
 
 Resolution, 0.106-0.168: 256x224 @ 60.000000Hz
-Resolution, 0.169: 256x224 @ 56.191350Hz
+Resolution, 0.169-0.175: 256x224 @ 56.191350Hz

@@ -1,6 +1,6 @@
 ROM set changed: no
 0.106-0.121: hangon - "Hang-On"
-0.122-0.169: hangon - "Hang-On (Rev A)"
+0.122-0.175: hangon - "Hang-On (Rev A)"
 
 Resolution, 0.106-0.114: 320x224 @ 60.000000Hz
-Resolution, 0.115-0.169: 320x224 @ 60.054389Hz
+Resolution, 0.115-0.175: 320x224 @ 60.054389Hz

@@ -1,0 +1,12 @@
+Note: not currently represented on TG.
+ROM set changed: yes
+0.106-0.133: grdius3e - "Gradius III (World ?)"
+0.133u1-0.146: gradius3e - "Gradius III (World ?)"
+0.147-0.175: gradius3 - "Gradius III (World, program code R)"
+
+MAME History:
+- 0.133u1: Renamed (grdius3a) to (gradius3a) and (grdius3e) to (gradius3e).
+- 0.147: Make the "World" set the parent, minor whitespace clean up [Brian Troha]. Changed clone (World ?) to parent 'Gradius III (World, program code R)' and (Japan) to clone 'Gradius III (Japan, program code S)'. Renamed (gradius3) to (gradius3j) and (gradius3e) to (gradius3).
+
+Resolution, 0.134-0.175: 320x224 @ 60.000000Hz
+

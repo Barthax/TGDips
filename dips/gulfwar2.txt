@@ -1,8 +1,8 @@
 ROM set changed: no
 0.106-0.152: gulfwar2 - "Gulf War II"
-0.153-0.169: gulfwar2 - "Gulf War II (set 1)"
+0.153-0.175: gulfwar2 - "Gulf War II (set 1)"
 
 Resolution, 0.106-0.113: 320x240 @ 54.877857Hz
 Resolution, 0.114-0.137: 320x240 @ 54.877858Hz
 Resolution, 0.138-0.141: 320x240 @ 54.000000Hz
-Resolution, 0.142-0.169: 320x240 @ 54.877858Hz
+Resolution, 0.142-0.175: 320x240 @ 54.877858Hz

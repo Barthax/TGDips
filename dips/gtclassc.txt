@@ -1,10 +1,10 @@
 ROM Set changes: No
-0.106-0.169: gtclassc - "Golden Tee Classic (v1.00)"
+0.106-0.175: gtclassc - "Golden Tee Classic (v1.00)"
 
 Resolution, 0.106-0.113: 384 x 240 @ 60.000000 Hz
 Resolution, 0.114-0.122: 200 x 200 @ 60.000000 Hz
 Resolution, 0.123-0.153: 384 x 256 @ 60.106990 Hz
-Resolution, 0.154-0.169: 384 x 240 @ 60.106990 Hz
+Resolution, 0.154-0.175: 384 x 240 @ 60.106990 Hz
 
 Rules, Anchor Cove [Least Amount Of Strokes]: http://www.twingalaxies.com/scores.php?scores=70241
 Rules, Anchor Cove [Longest Drive]: http://www.twingalaxies.com/scores.php?scores=70245

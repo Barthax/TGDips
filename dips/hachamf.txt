@@ -1,7 +1,11 @@
 ROM set changed: no
 0.106-0.123: hachamf - "Hacha Mecha Fighter"
 0.125-0.154: hachamf - "Hacha Mecha Fighter (19th Sep. 1991)"
-0.155-0.169: hachamf - "Hacha Mecha Fighter (19th Sep. 1991, protected)"
+0.155-0.175: hachamf - "Hacha Mecha Fighter (19th Sep. 1991, protected)"
+
+MAME History:
+- 0.123u6: Changed description to 'Hacha Mecha Fighter (19th Sep. 1991)'.
+- 0.155: Angelo Salese fixed Hacha Mecha Fighter - Game now playable. Moved protection vectors from hachamfb to hachamf, making the latter to work properly too [Angelo Salese]. trap15 added clone Hacha Mecha Fighter (19th Sep. 1991, unprotected, bootleg Thunder Dragon conversion). Added proper NMK004 internal rom [trap15]. Added TMP90840 (8MHz) CPU2. Changed parent description to 'Hacha Mecha Fighter (19th Sep. 1991, protected)'.
 
 Resolution, 0.106-0.154: 256x224 @ 56.000000Hz
-Resolution, 0.155-0.169: 256x224 @ 56.180000Hz
+Resolution, 0.155-0.175: 256x224 @ 56.180000Hz

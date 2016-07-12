@@ -1,7 +1,7 @@
 ROM set changed: no
-0.106-0.168: gtmr - "1000 Miglia: Great 1000 Miles Rally (94/07/18)"
+0.106-0.175: gtmr - "1000 Miglia: Great 1000 Miles Rally (94/07/18)"
 
-Resolution, 0.106-0.168: 320x240 @ 60.000000Hz
+Resolution, 0.106-0.175: 320x240 @ 60.000000Hz
 
 Rules, Fastest Completion: http://www.twingalaxies.com/scores.php?scores=23258
 Rules, Stage 01: http://www.twingalaxies.com/scores.php?scores=11869
