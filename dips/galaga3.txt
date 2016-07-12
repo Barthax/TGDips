@@ -1,5 +1,27 @@
+Note: two ROM sets represented here with changeover at 0.148u3.
+
+MAME History:
+- 0.148u3: ANY and The Dumping Union added clone Gaplus (GP2). System11 added clone Galaga 3 (GP3). Corrected some issues between Galaga 3 & Gaplus sets [Brian Troha]. Changed clone (rev. B) to parent 'Gaplus (GP2 rev. B)', (rev. D) to clone 'Galaga 3 (GP3 rev. D)' and clones (alternate hardware) to 'Gaplus (GP2 rev D, alternate hardware)', (rev. C) to 'Galaga 3 (GP3 rev. C)', (set 2) to 'Galaga 3 (set 4)' and (set 3) to 'Galaga 3 (set 5)'. Renamed (galaga3a) to (galaga3c), (galaga3) to (galaga3a), (gaplus) to (galaga3), (gapluso) to (gaplus) and (gaplusa) to (gaplusd).
+
+
+Galaga 3 (GP3 rev. C)
+---------------------
 ROM set changed: yes
 0.106-0.148: galaga3 - "Galaga 3 (rev. C)"
-0.149-0.169: galaga3a - "Galaga 3 (GP3 rev. C)"
+0.148u3-0.169: galaga3a - "Galaga 3 (GP3 rev. C)"
 
 Resolution, 0.106-0.169: 288x224 @ 60.606060Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Galaga%203%20[rev.C]
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=7735
+
+
+Gaplus (rev. D) / Galaga 3 (GP3 rev. D)
+---------------------------------------
+Note: not currently represented on TG.
+ROM set changed: yes.  Added in 0.62.
+0.106-0.148: gaplus - "Gaplus (rev. D)"
+0.148u3-0.175: galaga3 - "Galaga 3 (GP3 rev. D)"
+
+Resolution, 0.149-0.175: 288x224 @ 60.606060Hz
+
