@@ -1,7 +1,30 @@
+Note: two ROM sets represented here with changeover at 0.137u1.
+
+MAME History:
+- 0.137u1: Changed 'Grand Striker 2 (Europe and Oceania)' to parent. Renamed (gstrik2) to (gstrik2j) and (gstrik2e) to (gstrik2).
+
+
+Grand Striker 2 (Japan)
+-----------------------
 ROM set changed: yes
 0.106-0.137: gstrik2 - "Grand Striker 2 (Japan)"
-0.137u1-0.169: gstrik2j - "Grand Striker 2 (Japan)"
+0.137u1-0.175: gstrik2j - "Grand Striker 2 (Japan)"
 
 Resolution, 0.106-0.144: 304x224 @ 58.000000Hz
 Resolution, 0.145-0.146: 320x224 @ 59.922743Hz
-Resolution, 0.147-0.169: 304x224 @ 58.000000Hz
+Resolution, 0.147-0.175: 304x224 @ 58.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Grand%20Striker%202%20[Japan]
+Rules, Biggest Blowout: http://www.twingalaxies.com/scores.php?scores=70548
+
+
+Grand Striker 2 (Europe and Oceania)
+------------------------------------
+Note: not currently represented on TG.
+ROM set changed: no.  Added in 0.137u1.
+0.137u1-0.175: gstrik2 - "Grand Striker 2 (Europe and Oceania)"
+
+Resolution, 0.138-0.144: 304x224 @ 58.000000Hz
+Resolution, 0.145-0.146: 320x224 @ 59.922743Hz
+Resolution, 0.147-0.175: 304x224 @ 58.000000Hz
+
