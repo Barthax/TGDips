@@ -1,0 +1,129 @@
+# MAME 0.106 source snippet [atarisy2.c]
+
+GAME( 1984, paperboy, 0,        atarisy2, paperboy, paperboy, ROT0,   "Atari Games", "Paperboy (rev 3)", 0 )
+
+INPUT_PORTS_START( paperboy )
+	PORT_START_TAG("1840")	/*(sound) */
+	PORT_BIT( 0x01, IP_ACTIVE_HIGH, IPT_SPECIAL )
+	PORT_BIT( 0x02, IP_ACTIVE_HIGH, IPT_SPECIAL )
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_SPECIAL )
+	PORT_BIT( 0x08, IP_ACTIVE_HIGH, IPT_UNUSED )
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_SPECIAL )
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_COIN3 )
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_COIN1 )
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_COIN2 )
+
+	PORT_START_TAG("1800")
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_BIT( 0x10, IP_ACTIVE_HIGH, IPT_SPECIAL )
+	PORT_BIT( 0x20, IP_ACTIVE_HIGH, IPT_SPECIAL )
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_BUTTON2 )
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_START2 )
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_BUTTON1 )
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_START1 )
+
+	PORT_START_TAG("1801")
+	PORT_BIT( 0x7f, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_SERVICE( 0x80, IP_ACTIVE_LOW )
+
+	PORT_START_TAG("ADC0")
+	PORT_BIT( 0xff, 0x80, IPT_AD_STICK_X ) PORT_MINMAX(0x10,0xf0) PORT_SENSITIVITY(100) PORT_KEYDELTA(10) PORT_PLAYER(1)
+
+	PORT_START_TAG("ADC1")
+	PORT_BIT( 0xff, 0x80, IPT_AD_STICK_Y ) PORT_MINMAX(0x10,0xf0) PORT_SENSITIVITY(100) PORT_KEYDELTA(10) PORT_PLAYER(1)
+
+	PORT_START_TAG("ADC2")
+	PORT_BIT( 0xff, IP_ACTIVE_LOW, IPT_UNUSED )
+
+	PORT_START_TAG("ADC3")
+	PORT_BIT( 0xff, IP_ACTIVE_LOW, IPT_UNUSED )
+
+	PORT_START_TAG("LETA0")
+	PORT_BIT( 0xff, IP_ACTIVE_LOW, IPT_UNUSED )
+
+	PORT_START_TAG("LETA1")
+	PORT_BIT( 0xff, IP_ACTIVE_LOW, IPT_UNUSED )
+
+	PORT_START_TAG("LETA2")
+	PORT_BIT( 0xff, IP_ACTIVE_LOW, IPT_UNUSED )
+
+	PORT_START_TAG("LETA3")
+	PORT_BIT( 0xff, IP_ACTIVE_LOW, IPT_UNUSED )
+
+	PORT_START_TAG("DSW0")
+	PORT_DIPNAME( 0x03, 0x00, DEF_STR( Coinage ) )
+	PORT_DIPSETTING(    0x03, DEF_STR( 4C_1C ) )
+	PORT_DIPSETTING(    0x02, DEF_STR( 3C_1C ) )
+	PORT_DIPSETTING(    0x01, DEF_STR( 2C_1C ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( 1C_1C ) )
+	PORT_DIPNAME( 0x0c, 0x00, "Right Coin" )
+	PORT_DIPSETTING(    0x00, "*1" )
+	PORT_DIPSETTING(    0x04, "*4" )
+	PORT_DIPSETTING(    0x08, "*5" )
+	PORT_DIPSETTING(    0x0c, "*6" )
+	PORT_DIPNAME( 0x10, 0x00, "Left Coin" )
+	PORT_DIPSETTING(    0x00, "*1" )
+	PORT_DIPSETTING(    0x10, "*2" )
+	PORT_DIPNAME( 0xe0, 0x00, "Bonus Coins" )
+	PORT_DIPSETTING(    0x00, DEF_STR( None ) )
+	PORT_DIPSETTING(    0x80, "1 each 5" )
+	PORT_DIPSETTING(    0x40, "1 each 4" )
+	PORT_DIPSETTING(    0xa0, "1 each 3" )
+	PORT_DIPSETTING(    0x60, "2 each 4" )
+	PORT_DIPSETTING(    0x20, "1 each 2" )
+	PORT_DIPSETTING(    0xc0, "1 each ?" )
+	PORT_DIPSETTING(    0xe0, DEF_STR( Free_Play ) )
+
+	PORT_START_TAG("DSW1")
+	PORT_DIPNAME( 0x03, 0x01, DEF_STR( Difficulty ) )
+	PORT_DIPSETTING(    0x01, DEF_STR( Easy ) )
+	PORT_DIPSETTING(    0x02, DEF_STR( Medium ) )
+	PORT_DIPSETTING(    0x00, "Med. Hard" )
+	PORT_DIPSETTING(    0x03, DEF_STR( Hard ) )
+	PORT_DIPNAME( 0x0c, 0x08, DEF_STR( Bonus_Life ) )
+	PORT_DIPSETTING(    0x08, "10000" )
+	PORT_DIPSETTING(    0x00, "15000" )
+	PORT_DIPSETTING(    0x0c, "20000" )
+	PORT_DIPSETTING(    0x04, DEF_STR( None ) )
+	PORT_DIPNAME( 0x30, 0x20, DEF_STR( Lives ) )
+	PORT_DIPSETTING(    0x20, "3" )
+	PORT_DIPSETTING(    0x00, "4" )
+	PORT_DIPSETTING(    0x30, "5" )
+	PORT_DIPSETTING(    0x10, "Infinite (Cheat)")
+	PORT_DIPNAME( 0x40, 0x00, DEF_STR( Unknown ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x40, DEF_STR( On ) )
+	PORT_DIPNAME( 0x80, 0x00, DEF_STR( Unknown ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x80, DEF_STR( On ) )
+INPUT_PORTS_END
+
+Resolution: 512x384 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Paperboy+%5BRev+3%5D
+Rules, Points [Easy Street]: http://www.twingalaxies.com/scores.php?scores=78880
+Rules, Points [Grand Slam Score]: http://www.twingalaxies.com/scores.php?scores=78881
+Rules, Points [Hard Way]: http://www.twingalaxies.com/scores.php?scores=78882
+Rules, Points [Middle Road]: http://www.twingalaxies.com/scores.php?scores=78883
+
+ROMSet: PaperBoy
+Service Mode: Off
+Difficulty: Med. Hard
+Bonus Life: 15000
+Lives: 3
+Unknown: Off [Both]
+
+Sample correct TG:
+DSW1: offset 0x53, repeat every 0x7C but varies due to analog input, exact value 0x20
+- DSW1: 0x03 (Difficulty): 0x00 (Med. Hard)
+- DSW1: 0x0c (Bonus_Life): 0x00 (15000)
+- DSW1: 0x30 (Lives): 0x20 (3)
+- DSW1: 0x40 (Unknown): 0x00 (Off)
+- DSW1: 0x80 (Unknown): 0x00 (Off)
+
+    50: 00 00 00 20 00 00 00 00  00 00 00 00 00 00 00 00
+    C0: 00 00 00 FF 00 00 00 FF  00 00 00 00 00 00 00 20
+   140: 00 00 00 FF 00 00 00 00  00 00 00 20 00 00 00 00
