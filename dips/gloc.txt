@@ -1,6 +1,29 @@
+Note: two ROM sets represented here with changeover at 0.163.
+
+MAME History:
+- 0.163: Arzeno Fabrice and The Dumping Union added G-LOC Air Battle (World). Renamed (gloc) to (glocu).
+
+
+G-LOC Air Battle (US)
+---------------------
 ROM set changed: yes
 0.106-0.162: gloc - "G-LOC Air Battle (US)"
 0.163-0.169: glocu - "G-LOC Air Battle (US)"
 
 Resolution, 0.106-0.169: 320x224 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=G-Loc%20Air%20Battle
+Rules, Beginner Course [Fastest Completion]: http://www.twingalaxies.com/scores.php?scores=69936
+Rules, Expert Course [Fastest Completion]: http://www.twingalaxies.com/scores.php?scores=69937
+Rules, Medium Course [Fastest Completion]: http://www.twingalaxies.com/scores.php?scores=69938
+
+
+G-LOC Air Battle (World)
+------------------------
+Note: not currently represented on TG.
+ROM set changed: no.  Added in 0.163.
+0.106-0.162: NOT SUPPORTED
+0.163-0.175: gloc - "G-LOC Air Battle (World)"
+
+Resolution, 0.163-0.175: 320x224 @ 60.000000Hz
 
