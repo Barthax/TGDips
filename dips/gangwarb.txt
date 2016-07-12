@@ -1,0 +1,13 @@
+Note: not currently represented on TG.
+ROM set changed: yes.
+0.106-0.133: gangwarb - "Gang Wars (bootleg)"
+0.133u1-0.139: gangwarsb - "Gang Wars (bootleg)"
+0.139u2-0.175: gangwars - "Gang Wars"
+
+MAME History:
+- 0.133u1: Renamed (gangwarb) to (gangwarsb).
+- 0.139u2: David Raingeard added correct GFX roms for Gang Wars, renamed bootleg set as Euro set (and new parent), made note about bootleg GFX roms. Changed description of clone 'Gang Wars (bootleg)' to 'Gang Wars'. Renamed (gangwars) to (gangwarsu) and (gangwarsb) to (gangwars).
+
+Resolution, 0.106-0.155: 256x224 @ 60.000000Hz
+Resolution, 0.156-0.175: 256x224 @ 60.191409Hz
+
