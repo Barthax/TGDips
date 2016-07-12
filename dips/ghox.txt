@@ -1,8 +1,13 @@
 ROM set changed: no
 0.106-0.125: ghox - "Ghox"
-0.126-0.128: ghox - "Ghox (set 1)"
-0.129-0.141: ghox - "Ghox (Spinner with Up/Down Axis)"
-0.142-0.169: ghox - "Ghox (spinner)"
+0.125u1-0.128: ghox - "Ghox (set 1)"
+0.128u2-0.141: ghox - "Ghox (Spinner with Up/Down Axis)"
+0.141u4-0.175: ghox - "Ghox (spinner)"
+
+MAME History:
+- 0.125u1: Tormod Tjaberg added clone Ghox (set 2). Changed parent description to 'Ghox (set 1)'.
+- 0.128u2: Changed description to 'Ghox (Spinner with Up/Down Axis)' and clone (set 2) to 'Ghox (8-Way Joystick)'. Renamed (ghoxa) to (ghoxj).
+- 0.141u4: Changed description to 'Ghox (spinner)' and clone (8-Way Joystick) to 'Ghox (joystick)'.
 
 Resolution, 0.106-0.151: 320x240 @ 60.000000Hz
-Resolution, 0.152-0.169: 320x240 @ 59.637405Hz
+Resolution, 0.152-0.175: 320x240 @ 59.637405Hz

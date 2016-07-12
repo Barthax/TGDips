@@ -5,4 +5,5 @@ Resolution, 0.74-0.78: 224x288 @ 60.606060Hz
 
 NB: Last appeared in 0.78.  Was a cheat option thereafter.
 
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Galaga%20[Fast%20Shot%20Speed]
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=7734

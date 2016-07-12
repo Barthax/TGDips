@@ -1,6 +1,9 @@
 ROM set changed: no
 0.106-0.141: geebee - "Gee Bee"
-0.142-0.169: geebee - "Gee Bee (Japan)"
+0.142-0.175: geebee - "Gee Bee (Japan)"
+
+MAME History:
+- 0.141u3: Changed description to 'Gee Bee (Japan)' and clones (F.lli Bertolino license) to 'Gee Bee (Europe)' and (Gremlin) to 'Gee Bee (US)'.
 
 Resolution, 0.106-0.128: 272x224 @ 60.000000Hz
-Resolution, 0.129-0.169: 272x224 @ 60.606061Hz
+Resolution, 0.129-0.175: 272x224 @ 60.606061Hz

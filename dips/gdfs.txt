@@ -1,5 +1,5 @@
 ROM set changed: no
-0.106-0.169: gdfs - "Mobil Suit Gundam Final Shooting (Japan)"
+0.106-0.175: gdfs - "Mobil Suit Gundam Final Shooting (Japan)"
 
 Resolution, 0.106-0.148: 338x240 @ 60.000000Hz
-Resolution, 0.149-0.169: 338x240 @ 60.186720Hz
+Resolution, 0.149-0.175: 338x240 @ 60.186720Hz

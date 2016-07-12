@@ -1,6 +1,6 @@
 ROM set changed: no
 0.106-0.113: gardia - "Gardia"
-0.114-0.169: gardia - "Gardia (317-0006)"
+0.114-0.175: gardia - "Gardia (317-0006)"
 
 Resolution, 0.106-0.130: 256x224 @ 60.000000Hz
-Resolution, 0.131-0.169: 512x224 @ 60.096154Hz
+Resolution, 0.131-0.175: 512x224 @ 60.096154Hz
