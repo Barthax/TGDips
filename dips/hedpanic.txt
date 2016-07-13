@@ -1,10 +1,29 @@
-ROM set changed: yes
-0.106-0.125: hedpanic - "Head Panic (ver. 0315, 15/03/2000)"
-0.125u5-0.133: hedpanif - "Head Panic (ver. 0315, 15/03/2000)"
-0.133u1-0.169: hedpanicf - "Head Panic (ver. 0315, 15/03/2000)"
+Note: two ROM sets represented here with changeover at 0.125u5.
 
 MAME History:
 - 0.125u5: Brian Troha added Head Panic (ver. 0117, 17/01/2000). Renamed (hedpanic) to (hedpanif).
 - 0.133u1: Brian Troha added PCB location to 4 roms in a Head Panic clone. Renamed (hedpanif) to (hedpanicf) and (hedpanio) to (hedpanico).
 
-Resolution, 0.106-0.169: 320x240 @ 60.000000Hz
+
+Head Panic (ver. 0315, 15/03/2000)
+----------------------------------
+ROM set changed: yes
+0.106-0.125: hedpanic - "Head Panic (ver. 0315, 15/03/2000)"
+0.125u5-0.133: hedpanif - "Head Panic (ver. 0315, 15/03/2000)"
+0.133u1-0.175: hedpanicf - "Head Panic (ver. 0315, 15/03/2000)"
+
+Resolution, 0.106-0.175: 320x240 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Head%20Panic%20[ver.%200315,%2015/03/2000]
+Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=75044
+Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=75045
+
+
+Head Panic (ver. 0117, 17/01/2000)
+----------------------------------
+Note: not currently represented at TG.
+ROM set changed: no.  Added in 0.125u5.
+0.125u5-0.175: hedpanic - "Head Panic (ver. 0117, 17/01/2000)"
+
+Resolution, 0.126-0.175: 320x240 @ 60.000000Hz
+
