@@ -1,6 +1,9 @@
 ROM set changed: no
 0.106-0.138: idsoccer - "Indoor Soccer"
-0.139-0.169: idsoccer - "Indoor Soccer (set 1)"
+0.138u1-0.175: idsoccer - "Indoor Soccer (set 1)"
+
+MAME History:
+- 0.138u1: Siftware added clone Indoor Soccer (set 2). Changed parent description to 'Indoor Soccer (set 1)'.
 
 Resolution, 0.106-0.152: 240x192 @ 59.600000Hz
-Resolution, 0.153-0.169: 240x192 @ 59.659091Hz
+Resolution, 0.153-0.175: 240x192 @ 59.659091Hz

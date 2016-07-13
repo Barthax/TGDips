@@ -1,7 +1,8 @@
 ROM Set changes: No
-0.106-0.169: hyperath - "Hyper Athlete (GV021 JAPAN 1.00)"
+0.106-0.138: hyperath - "Hyper Athlete (GV021 JAPAN 1.00)"
+0.139-0.175: hyperath - "Hyper Athlete (GV021 Japan 1.00)"
 
-Resolution, 0.106-0.169: 640x480 @ 60.000000Hz
+Resolution, 0.106-0.175: 640x480 @ 60.000000Hz
 
 Rules, Fastest Race [100m Dash]: http://www.twingalaxies.com/scores.php?scores=75089
 Rules, Fastest Race [100m Freestyle]: http://www.twingalaxies.com/scores.php?scores=75090

@@ -1,8 +1,15 @@
 ROM set changes: no
-0.106-0.169: indytemp - "Indiana Jones and the Temple of Doom (set 1)"
+0.106-0.175: indytemp - "Indiana Jones and the Temple of Doom (set 1)"
 
 Resolution, 0.106-0.114: 336x240 @ 60.000000Hz
-Resolution, 0.115-0.169: 336x240 @ 59.922743Hz
+Resolution, 0.115-0.175: 336x240 @ 59.922743Hz
 
-All settings (except Service Mode - which is obvious on boot) available via Service Mode (F2).  Navigation done with up/down movement and default/start button (CTRL/1) to change screens.  Settings altered with left/right movement.
-Rules: http://www.twingalaxies.com/scores.php?scores=20666
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Indiana%20Jones%20and%20the%20Temple%20of%20Doom%20[Set%201]
+Rules, Points [Easy Path, 3 Lives]: http://www.twingalaxies.com/scores.php?scores=20665
+Rules, Points [Easy Path, 7 Lives]: http://www.twingalaxies.com/scores.php?scores=20666
+Rules, Points [Hard Path, 3 Lives]: http://www.twingalaxies.com/scores.php?scores=9825
+Rules, Points [Hard Path, 7 Lives]: http://www.twingalaxies.com/scores.php?scores=9826
+Rules, Points [Medium Path, 3 Lives]: http://www.twingalaxies.com/scores.php?scores=20663
+Rules, Points [Medium Path, 7 Lives]: http://www.twingalaxies.com/scores.php?scores=20664
+Note: All settings (except Service Mode - which is obvious on boot) available via Service Mode (F2).  Navigation done with up/down movement and default/start button (CTRL/1) to change screens.  Settings altered with left/right movement.
+

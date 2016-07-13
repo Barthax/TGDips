@@ -1,6 +1,28 @@
+Note: two ROM sets represented here with changeover at 0.143u6.
+
+MAME History:
+- 0.143u6: ShouTime added clone Ikari Three (Japan, Rotary Joystick). Changed clone (8-Way Joystick) to parent 'Ikari III - The Rescue (World, 8-Way Joystick)' and (Rotary Joystick) to clone 'Ikari III - The Rescue (US, Rotary Joystick)'. Renamed (ikari3) to (ikari3u) and (ikari3nr) to (ikari3).
+
+
+Ikari III - The Rescue (US, Rotary Joystick)
+--------------------------------------------
 ROM set changed: yes
 0.106-0.143: ikari3 - "Ikari III - The Rescue (Rotary Joystick)"
-0.143u6-0.169: ikari3u - "Ikari III - The Rescue (US, Rotary Joystick)"
+0.143u6-0.175: ikari3u - "Ikari III - The Rescue (US, Rotary Joystick)"
 
 Resolution, 0.106-0.126: 256x224 @ 60.000000Hz
-Resolution, 0.127-0.169: 256x224 @ 59.185606Hz
+Resolution, 0.127-0.175: 256x224 @ 59.185606Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Ikari%20III%20-%20The%20Rescue%20[Rotary%20Joystick]
+Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=75110
+Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=75111
+
+
+Ikari III - The Rescue (World, 8-Way Joystick)
+----------------------------------------------
+Note: not currently represented on TG.
+ROM set changed: no.  Added in 0.143u6.
+0.143u6-0.175: ikari3 - "Ikari III - The Rescue (World, 8-Way Joystick)"
+
+Resolution, 0.144-0.175: 256x224 @ 59.185606Hz
+

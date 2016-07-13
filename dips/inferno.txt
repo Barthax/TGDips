@@ -1,9 +1,9 @@
 ROM set changed: no
 0.106-0.141: inferno - "Inferno"
-0.142-0.169: inferno - "Inferno (Williams)"   (minor description change only)
+0.142-0.175: inferno - "Inferno (Williams)"   (minor description change only)
 
 Resolution, 0.106-0.115: 276x240 @ 60.000000Hz
-Resolution, 0.116-0.169: 276x240 @ 60.096154Hz
+Resolution, 0.116-0.175: 276x240 @ 60.096154Hz
 
 Note: can use Service Mode (F2) to cycle through to internal settings after gameplay ends.
 Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=7747
