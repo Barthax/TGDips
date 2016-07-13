@@ -1,8 +1,31 @@
+Note: two ROM sets represented here with changeover at 0.137u1.
+
+MAME History:
+- 0.137u1: The Dumping Union added 'Hot Shocker' (E.G. Felaco (Domino license)). Changed 'Hot Shocker' to clone 'Hot Shocker (bootleg)'. Renamed (hotshock) to (hotshockb).
+
+
+Hot Shocker (early revision?)
+-----------------------------
 ROM set changed: yes
 0.106-0.137: hotshock - "Hot Shocker"
 0.137u1-0.141: hotshockb - "Hot Shocker (bootleg)"
-0.142-0.169: hotshockb - "Hot Shocker (early revision?)"
+0.142-0.175: hotshockb - "Hot Shocker (early revision?)"
+
+MAME History:
+- 0.141u4: Changed description of clone (bootleg) to 'Hot Shocker (early revision?)'.
 
 Resolution, 0.106-0.113: 256x224 @ 60.606060Hz
-Resolution, 0.114-0.169: 256x224 @ 60.606061Hz
+Resolution, 0.114-0.175: 256x224 @ 60.606061Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Hot%20Shocker
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=10830
+
+
+Hot Shocker
+-----------
+Note: not currently represented on TG.
+ROM set changed: no.  Added in 0.137u1.
+0.137u1-0.175: hotshock - "Hot Shocker"
+
+Resolution, 0.138-0.175: 256x224 @ 60.606061Hz
 
