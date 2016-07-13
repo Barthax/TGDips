@@ -1,6 +1,6 @@
 ROM set changed: no
-0.106-0.169: hippodrm - "Hippodrome (US)"
+0.106-0.175: hippodrm - "Hippodrome (US)"
 
 Resolution, 0.106-0.142: 256x240 @ 57.410000Hz
 Resolution, 0.143-0.155: 256x240 @ 57.392103Hz
-Resolution, 0.156-0.169: 256x240 @ 57.444853Hz
+Resolution, 0.156-0.175: 256x240 @ 57.444853Hz

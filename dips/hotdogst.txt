@@ -1,6 +1,9 @@
 ROM set changed: no
 0.106-0.121: hotdogst - "Hotdog Storm"
-0.122-0.169: hotdogst - "Hotdog Storm (International)"
+0.122-0.175: hotdogst - "Hotdog Storm (International)"
+
+MAME History:
+- 0.122: Changed description to 'Hotdog Storm (International)'.
 
 Resolution, 0.106-0.113: 384x240 @ 57.550644Hz
-Resolution, 0.114-0.169: 384x240 @ 57.550645Hz
+Resolution, 0.114-0.175: 384x240 @ 57.550645Hz

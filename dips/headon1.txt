@@ -1,5 +1,11 @@
 ROM set changed: yes
 0.106-0.147: headonb - "Head On (1 player)"
-0.147u4-0.169: headon1 - "Head On (1 player)"
+0.147u4-0.175: headon1 - "Head On (1 player)"
 
-Resolution, 0.106-0.169: 256x224 @ 60.000000Hz
+MAME History:
+- 0.147u4: ANY, hap and The Dumping Union added 'Head On (bootleg on dedicated hardware)'. Added some notes (sound and other ports) [Robbbert]. Note: Italian bootleg of Head On, by EFG Sanremo (late 70s to early 80s). The game title is unknown. Someone wrote FOOL RACE on a piece of tape on the PCB, but that's not really credible. It's on much cheaper hardware than the original: 8080 instead of Z80, and less RAM needed with the gfx tiles being on ROM. Renamed (headonb) to (headon1).
+
+Resolution, 0.106-0.175: 256x224 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Head%20On%20[1%20Player]
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=75043

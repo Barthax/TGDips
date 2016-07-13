@@ -1,6 +1,9 @@
 ROM set changed: no
 0.106-0.121: hotrod - "Hot Rod (World, 3 Players, Turbo set 1)"
-0.122-0.169: hotrod - "Hot Rod (World, 3 Players, Turbo set 1, Floppy Based)"
+0.121u2-0.175: hotrod - "Hot Rod (World, 3 Players, Turbo set 1, Floppy Based)"
+
+MAME History:
+- 0.121u2: Added 4th Player and coin slots 7 and 8. Changed description to 'Hot Rod (World, 3 Players, Turbo set 1, Floppy Based)' and clones (World, 3 Players, Turbo set 2) to 'Hot Rod (World, 3 Players, Turbo set 2, Floppy Based)' and (Japan, 4 Players) to 'Hot Rod (Japan, 4 Players, Floppy Based)'.
 
 Resolution, 0.106-0.127: 496x384 @ 58.000000Hz
-Resolution, 0.128-0.169: 496x384 @ 57.524160Hz
+Resolution, 0.128-0.175: 496x384 @ 57.524160Hz

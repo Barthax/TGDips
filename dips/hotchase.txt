@@ -1,5 +1,8 @@
 ROm set changed: no
 0.106-0.163: hotchase - "Hot Chase"
-0.164-0.169: hotchase - "Hot Chase (set 1)"
+0.164-0.175: hotchase - "Hot Chase (set 1)"
 
-Resolution, 0.106-0.169: 320x224 @ 60.000000Hz
+MAME History:
+- 0.164: David Haywood added clone Hot Chase (set 2). Changed parent description to 'Hot Chase (set 1)'.
+
+Resolution, 0.106-0.175: 320x224 @ 60.000000Hz

@@ -1,4 +1,4 @@
 ROM set changed: no
-0.106-0.169: hidnctch - "Hidden Catch (World) / Tul Lin Gu Lim Chat Ki '98 (Korea) (pcb ver 3.03)"
+0.106-0.175: hidnctch - "Hidden Catch (World) / Tul Lin Gu Lim Chat Ki '98 (Korea) (pcb ver 3.03)"
 
-Resolution, 0.106-0.169: 320x240 @ 60.000000Hz
+Resolution, 0.106-0.175: 320x240 @ 60.000000Hz

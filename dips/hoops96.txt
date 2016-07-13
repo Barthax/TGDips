@@ -1,4 +1,4 @@
 ROM set changed: no
-0.106-0.169: hoops96 - "Hoops '96 (Europe/Asia 2.0)"
+0.106-0.175: hoops96 - "Hoops '96 (Europe/Asia 2.0)"
 
-Resolution, 0.106-0.169: 320x240 @ 58.000000Hz
+Resolution, 0.106-0.175: 320x240 @ 58.000000Hz
