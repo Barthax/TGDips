@@ -1,4 +1,4 @@
 ROM set changed: no
-0.106-0.169: kncljoe - "Knuckle Joe (set 1)"
+0.106-0.175: kncljoe - "Knuckle Joe (set 1)"
 
-Resolution, 0.106-0.169: 240x256 @ 60.000000Hz
+Resolution, 0.106-0.175: 240x256 @ 60.000000Hz

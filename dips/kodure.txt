@@ -1,5 +1,8 @@
 ROM set changed: yes
 0.106-0.142: kodure - "Kodure Ookami (Japan)"
-0.142u2-0.169: kozure - "Kozure Ookami (Japan)"
+0.142u2-0.175: kozure - "Kozure Ookami (Japan)"
 
-Resolution, 0.106-0.169: 320x240 @ 60.000000Hz
+MAME History:
+- 0.142u2: Angelo Salese hooked up text protection simulation to Kozure Ookami, allowing it to display scoring during gameplay and copyright screens. Implemented proper FG scroll latching, fixing an offsetted layer at the gameplay intro screen. Changed visible area to 320x240. Added 'Unused' dipswitch. Changed description to 'Kozure Ookami (Japan)'. Renamed (kodure) to (kozure).
+
+Resolution, 0.106-0.175: 320x240 @ 60.000000Hz

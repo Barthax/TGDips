@@ -1,4 +1,4 @@
 ROM Changes: none
-0.106-0.169: ladybug - "Lady Bug"
+0.106-0.175: ladybug - "Lady Bug"
 
-Resolution, 0.106-0.169: 240x192 @ 60.000000Hz
+Resolution, 0.106-0.175: 240x192 @ 60.000000Hz
