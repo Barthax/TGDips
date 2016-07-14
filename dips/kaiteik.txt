@@ -1,0 +1,11 @@
+Note: not currently represented on TG.
+ROM set changed: yes.
+0.106-0.138: kaiteik - "Kaitei Takara Sagashi (K'K-Tokki)"
+0.138u1-0.175: kaitei - "Kaitei Takara Sagashi"
+
+MAME History:
+- 0.138u1: Changed 'Kaitei Takara Sagashi (K'K-Tokki)' to parent set 'Kaitei Takara Sagashi'. Renamed (kaitei) to (kaitein) and (kaiteik) to (kaitei).
+
+Resolution, 0.106-0.128: 272x224 @ 60.000000Hz
+Resolution, 0.129-0.175: 272x224 @ 60.606061Hz
+

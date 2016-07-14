@@ -1,8 +1,8 @@
 ROM set changed: no
-0.106-0.169: jdreddp - "Judge Dredd (rev LA1, prototype)"
+0.106-0.175: jdreddp - "Judge Dredd (rev LA1, prototype)"
 
 Resolution, 0.106-0.113: 400x254 @ 53.204948Hz
 Resolution, 0.114: 400x254 @ 53.204950Hz
 Resolution, 0.115-0.137: 399x253 @ 27.407585Hz
 Resolution, 0.138-0.154: 399x253 @ 54.815170Hz
-Resolution, 0.155-0.169: 400x254 @ 54.706840Hz
+Resolution, 0.155-0.175: 400x254 @ 54.706840Hz

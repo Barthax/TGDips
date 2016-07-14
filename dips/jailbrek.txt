@@ -1,8 +1,9 @@
 ROM Set changes: None
-0.106-0.169: jailbrek - "Jail Break"
+0.106-0.175: jailbrek - "Jail Break"
 
-Resolution, 0.106-0.122: 240 x 224 @ 60.000000 Hz
-Resolution, 0.123-0.169: 240 x 224 @ 60.606061 Hz
+Resolution, 0.106-0.122: 240x224 @ 60.000000 Hz
+Resolution, 0.123-0.175: 240x224 @ 60.606061Hz
 
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Jail%20Break
 Rules, Points [Tournament Settings]: http://www.twingalaxies.com/scores.php?scores=10029
 Rules, Points [Marathon Settings]: http://www.twingalaxies.com/scores.php?scores=22150
