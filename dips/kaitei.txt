@@ -1,10 +1,30 @@
-ROM set changed: yes
-0.106-0.133: kaitei - "Kaitei Takara Sagashi"
-0.134-0.138: kaitei - "Kaitei Takara Sagashi (Namco license)"
-0.138u1-0.169: kaitein - "Kaitei Takara Sagashi (Namco license)"
+Note: two ROM sets represented here with changeover at 0.138u1.
 
 MAME History:
 - 0.138u1: Changed 'Kaitei Takara Sagashi (K'K-Tokki)' to parent set 'Kaitei Takara Sagashi'. Renamed (kaitei) to (kaitein) and (kaiteik) to (kaitei).
 
+
+Kaitei Takara Sagashi (Namco license)
+-------------------------------------
+ROM set changed: yes
+0.106-0.133: kaitei - "Kaitei Takara Sagashi"
+0.134-0.138: kaitei - "Kaitei Takara Sagashi (Namco license)"
+0.138u1-0.175: kaitein - "Kaitei Takara Sagashi (Namco license)"
+
 Resolution, 0.106-0.128: 272x224 @ 60.000000Hz
-Resolution, 0.129-0.169: 272x224 @ 60.606061Hz
+Resolution, 0.129-0.175: 272x224 @ 60.606061Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Kaitei%20Takara%20Sagashi
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=75177
+
+
+Kaitei Takara Sagashi (K'K-Tokki)
+---------------------
+Note: not currently represented on TG.
+ROM set changed: yes.
+0.106-0.138: kaiteik - "Kaitei Takara Sagashi (K'K-Tokki)"
+0.138u1-0.175: kaitei - "Kaitei Takara Sagashi"
+
+Resolution, 0.106-0.128: 272x224 @ 60.000000Hz
+Resolution, 0.129-0.175: 272x224 @ 60.606061Hz
+
