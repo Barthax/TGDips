@@ -1,9 +1,27 @@
-ROM set changed: yes
-0.106-0.132: lastduel - "Last Duel (US set 1)"
-0.132u4-0.169: lastduelo - "Last Duel (US Old Ver.)"
+Note: two ROM sets represented here with changeover at 0.132u4.
 
 MAME History:
 - 0.132u4: Team Japump confirmed Last Duel sets and changed to use genuine GFX roms. David Haywood added better rom load / decode for Last Duel sets. Brian Troha added DIP locations to Last Duel sets. Changed 'Last Duel (US set 1)' to clone 'Last Duel (US Old Ver.)' and clone 'Last Duel (US set 2)' to parent 'Last Duel (US New Ver.)'. Renamed (lastduel) to (lastduelo), (lstduela) to (lastduel) and (lstduelb) to (lastduelb).
 
-Resolution, 0.106-0.170: 384x240 @ 60.000000Hz
+
+Last Duel (US Old Ver.)
+-----------------------
+ROM set changed: yes
+0.106-0.132: lastduel - "Last Duel (US set 1)"
+0.132u4-0.175: lastduelo - "Last Duel (US Old Ver.)"
+
+Resolution, 0.106-0.175: 384x240 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Last%20Duel%20[US%20set%201]
+Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=21035
+Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=75336
+
+
+Last Duel (US New Ver.)
+-----------------------
+Note: not currently represented on TG.
+ROM set changed: no.  Added in 0.132u4.
+0.132u4-0.175: lastduel - "Last Duel (US New Ver.)"
+
+Resolution, 0.133-0.175: 384x240 @ 60.000000Hz
 
