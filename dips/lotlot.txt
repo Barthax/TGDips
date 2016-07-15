@@ -1,4 +1,4 @@
 ROM set changed: no
-0.106-0.169: lotlot - "Lot Lot"
+0.106-0.175: lotlot - "Lot Lot"
 
-Resolution, 0.106-0.169: 384x256 @ 55.000000Hz
+Resolution, 0.106-0.175: 384x256 @ 55.000000Hz
