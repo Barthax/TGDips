@@ -1,4 +1,4 @@
-ROM Changes: none - minor description change
+ROM set changed: no
 0.106-0.113: imsorry - "I'm Sorry (US)"
 0.114-0.175: imsorry - "I'm Sorry (315-5110, US)"
 

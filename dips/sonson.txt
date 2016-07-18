@@ -1,4 +1,4 @@
-ROM Changes: none
+ROM set changed: no
 0.106-0.169: sonson - "Son Son"
 
 Resolution, 0.106-0.155: 240x240 @ 60.000000Hz

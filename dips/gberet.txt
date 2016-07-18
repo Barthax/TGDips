@@ -1,4 +1,4 @@
-ROM Changes: 
+ROM set changed: no
 0.106-0.175: gberet - "Green Beret"
 
 Resolution, 0.106-0.144: 240x224 @ 30.000000Hz

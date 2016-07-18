@@ -1,4 +1,4 @@
-ROM Changes: none
+ROM set changed: no
 0.106-0.175: klax - "Klax (set 1)"
 
 Resolution, 0.106-0.114: 336x240 @ 60.000000Hz

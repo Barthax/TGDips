@@ -1,4 +1,4 @@
-ROM Changes: 
+ROM set changed: no
 0.106-0.169: raccoon - "Raccoon World"
 
 Resolution, 0.106-0.169: 320x240 @ 60.000000Hz

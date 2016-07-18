@@ -1,4 +1,4 @@
-ROM Changes: no
+ROM set changed: no
 0.106-0.169: screwloo - "Screw Loose (prototype)"
 
 Resolution, 0.106-0.126: 256x240 @ 61.000000Hz

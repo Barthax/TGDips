@@ -1,4 +1,4 @@
-ROM Changes: minor description change only.
+ROM set changed: no
 0.106-0.146: maketrax - "Make Trax (set 1)"
 0.147-0.175: maketrax - "Make Trax (US set 1)"
 

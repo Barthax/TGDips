@@ -1,4 +1,4 @@
-ROM Changes: no
+ROM set changed: no
 0.106-0.175: abscam - "Abscam"
 
 Resolution, 0.106-0.113: 288 x 224 @ 60.606060 Hz

@@ -1,4 +1,4 @@
-ROM Changes: none
+ROM set changed: no
 0.106-0.163: calspeed - "California Speed (Version 2.1a, 4/17/98)"
 0.164-0.175: calspeed - "California Speed (Version 2.1a Apr 17 1998, GUTS 1.25 Apr 17 1998 / MAIN Apr 17 1998)" (description change only)
 

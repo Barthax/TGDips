@@ -1,4 +1,4 @@
-ROM Changes: no
+ROM set changed: no
 0.106-0.170: dbz2 - "Dragonball Z 2 - Super Battle"
 
 Resolution, 0.106-0.170: 384x256 @ 55.000000Hz

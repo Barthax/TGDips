@@ -1,4 +1,4 @@
-ROM Changes: none
+ROM set changed: no
 0.106-0.175: ladybug - "Lady Bug"
 
 Resolution, 0.106-0.175: 240x192 @ 60.000000Hz

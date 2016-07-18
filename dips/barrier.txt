@@ -1,4 +1,4 @@
-ROM Changes: none
+ROM set changed: no
 0.106-0.168: barrier - "Barrier"
 
 Resolution, 0.106-0.168: vector @ 38.000000Hz

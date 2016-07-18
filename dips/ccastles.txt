@@ -1,4 +1,4 @@
-ROM Changes: none
+ROM set changed: no
 0.60-0.175: ccastles - "Crystal Castles (version 4)"
 
 Resolution: 0.106: 256x232 @ 60.000000Hz

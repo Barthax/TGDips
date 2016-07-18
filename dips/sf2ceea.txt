@@ -1,4 +1,4 @@
-ROM Changes: YES
+ROM set changed: yes
 0.106-0.138: sf2ce - "Street Fighter II' - Champion Edition (World 920313)"
 0.139-0.139: sf2ce - "Street Fighter II': Champion Edition (World 920313)" (very minor description change only)
 0.140-0.172: sf2ceea - "Street Fighter II': Champion Edition (World 920313)" (ROM set rename!)

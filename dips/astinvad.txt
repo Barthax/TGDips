@@ -1,4 +1,4 @@
-ROM Changes: None
+ROM set changed: no
 0.106-0.175: astinvad - "Astro Invader"
 
 Resolution, 0.106-0.175: 256x224 @ 60.000000Hz

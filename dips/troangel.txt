@@ -1,4 +1,4 @@
-ROM Changes:
+ROM set changed: no
 0.106-0.169: troangel - "Tropical Angel"
 
 Resolution, 0.106-0.169: 240x240 @ 57.000000Hz

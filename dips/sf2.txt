@@ -1,4 +1,4 @@
-ROM Changes: No
+ROM set changed: no
 0.106-0.138: sf2 - "Street Fighter II - The World Warrior (World 910522)"
 0.139-0.170: sf2 - "Street Fighter II: The World Warrior (World 910522)"   (minor description change only)
 

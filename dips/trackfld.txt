@@ -1,4 +1,4 @@
-ROM Changes: none
+ROM set changed: no
 0.106-0.174: trackfld - "Track & Field"
 
 Resolution, 0.106-0.174: 256x224 @ 60.000000Hz

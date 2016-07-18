@@ -1,4 +1,4 @@
-ROM Changes: none
+ROM set changed: no
 0.106-0.175: invaddlx - "Space Invaders Deluxe"
 
 Resolution, 0.106-0.111: 240x224 @ 60.000000Hz

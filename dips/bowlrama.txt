@@ -1,4 +1,4 @@
-ROM Changes: no
+ROM set changed: no
 0.106-0.164: bowlrama - "Bowl-O-Rama"
 0.165-0.175: bowlrama - "Bowl-O-Rama Rev 1.0" (minor description change)
 

@@ -1,4 +1,4 @@
-ROM Changes: no.  Added in 0.109.
+ROM set changed: no.  Added in 0.109.
 0.108u5-0.137: 10yard - "10-Yard Fight (World)"
 0.138-0.169: 10yard - "10-Yard Fight (World, set 1)"   (minor description change only)
 

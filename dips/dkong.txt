@@ -1,4 +1,4 @@
-ROM Changes: none
+ROM set changed: no
 0.106-0.175: dkong - "Donkey Kong (US set 1)"
 
 Resolution, 0.106-0.115: 256x224 @ 60.000000Hz

@@ -1,4 +1,4 @@
-ROM Changes: no
+ROM set changed: no
 0.106-0.173: nova2001 - "Nova 2001 (Japan)"
 
 Resolution, 0.106-0.173: 256x192 @ 60.000000Hz

@@ -1,4 +1,4 @@
-ROM Changes: minor name change only
+ROM set changed: no
 0.35b13-0.146: crush - "Crush Roller (Kural Samno)"
 0.146-0.175: crush - "Crush Roller (set 1)"
 

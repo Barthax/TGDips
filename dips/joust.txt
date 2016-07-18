@@ -1,4 +1,4 @@
-ROM Changes: none
+ROM set changed: no
 0.30-0.175: joust - "Joust (White/Green label)"
 
 Resolution, 0.106-0.115: 292x240 @ 60.000000Hz

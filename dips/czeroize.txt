@@ -1,4 +1,4 @@
-ROM Changes: no
+ROM set changed: no
 0.106-0.145: czeroize - "Zeroize (Cassette)"
 0.146-0.175: czeroize - "Zeroize (DECO Cassette)" (minor description change only)
 

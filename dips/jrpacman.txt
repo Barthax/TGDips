@@ -1,4 +1,4 @@
-ROM Changes: none
+ROM set changed: no
 0.106-0.147: jrpacman - "Jr. Pac-Man"
 0.148-0.175: jrpacman - "Jr. Pac-Man (11/9/83)" (description change only)
 

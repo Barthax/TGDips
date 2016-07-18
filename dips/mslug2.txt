@@ -1,4 +1,4 @@
-ROM Changes: none but description has changed:
+ROM set changed: no
 0.106-0.145: mslug2 - "Metal Slug 2 - Super Vehicle-001/II"
 0.146-0.169: mslug2 - "Metal Slug 2 - Super Vehicle-001/II (NGM-2410)(NGH-2410)"
 

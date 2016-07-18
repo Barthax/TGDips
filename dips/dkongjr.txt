@@ -1,4 +1,4 @@
-ROM Changes: none
+ROM set changed: no
 0.106-0.152: dkongjr - "Donkey Kong Junior (US)"
 0.153-0.175: dkongjr - "Donkey Kong Junior (US set F-2)" (description change only)
 

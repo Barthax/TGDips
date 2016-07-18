@@ -1,4 +1,4 @@
-ROM Changes: no
+ROM set changed: no
 0.106-0.167: twinqix - "Twin Qix (Ver 1.0A 1995/01/17) (Prototype)"
 0.168-0.173: twinqix - "Twin Qix (Ver 1.0A 1995/01/17, prototype)"   (minor description change only)
 

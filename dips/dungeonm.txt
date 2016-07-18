@@ -1,4 +1,4 @@
-ROM Changes: no
+ROM set changed: no
 0.106-0.173: dungeonm - "Dungeon Magic (Ver 2.1O 1994/02/18)"
 
 Resolution, 0.106-0.113: 320x224 @ 58.970001Hz
