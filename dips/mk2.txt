@@ -1,7 +1,7 @@
 ROM set changed: no
-0.106-0.169: mk2 - "Mortal Kombat II (rev L3.1)"
+0.106-0.175: mk2 - "Mortal Kombat II (rev L3.1)"
 
 Resolution, 0.106-0.114: 400x254 @ 53.204950Hz
 Resolution, 0.115-0.137: 399x253 @ 27.407585Hz
 Resolution, 0.138-0.154: 399x253 @ 54.815170Hz
-Resolution, 0.155-0.169: 400x254 @ 54.706840Hz
+Resolution, 0.155-0.175: 400x254 @ 54.706840Hz

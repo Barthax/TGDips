@@ -1,5 +1,5 @@
 ROM set changed: no
-0.106-0.169: mikie - "Mikie"
+0.106-0.175: mikie - "Mikie"
 
 Resolution, 0.106-0.134: 256x224 @ 60.000000Hz
-Resolution, 0.135-0.169: 256x224 @ 60.590000Hz
+Resolution, 0.135-0.175: 256x224 @ 60.590000Hz

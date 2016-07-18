@@ -1,4 +1,4 @@
 ROM set changed: no
-0.106-0.169: mf_flip - "Flip & Flop (Max-A-Flex)"
+0.106-0.175: mf_flip - "Flip & Flop (Max-A-Flex)"
 
-Resolution, 0.106-0.169: 336x225 @ 59.923329Hz
+Resolution, 0.106-0.175: 336x225 @ 59.923329Hz

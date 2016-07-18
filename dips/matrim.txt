@@ -1,6 +1,7 @@
 ROM set changed: no
 0.106-0.143: matrim - "Matrimelee / Shin Gouketsuji Ichizoku Toukon"
-0.144-0.169: matrim - "Matrimelee / Shin Gouketsuji Ichizoku Toukon (NGM-2660) (NGH-2660)"
+0.144-0.173: matrim - "Matrimelee / Shin Gouketsuji Ichizoku Toukon (NGM-2660) (NGH-2660)"
+0.174-0.175: matrim - "Matrimelee / Shin Gouketsuji Ichizoku Toukon (NGM-2660 ~ NGH-2660)"
 
 Resolution, 0.106-0.113: 320x224 @ 59.185608Hz
-Resolution, 0.114-0.169: 320x224 @ 59.185606Hz
+Resolution, 0.114-0.175: 320x224 @ 59.185606Hz

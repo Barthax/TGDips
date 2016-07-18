@@ -1,5 +1,8 @@
 ROM set changed:
-0.106-0.169: mf_brist - "Bristles (Max-A-Flex)"
+0.106-0.175: mf_brist - "Bristles (Max-A-Flex)"
 
 Resolution, 0.106-0.113: 336x225 @ 59.923328Hz
-Resolution, 0.114-0.169: 336x225 @ 59.923329Hz
+Resolution, 0.114-0.175: 336x225 @ 59.923329Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Bristles%20[Max-A-Flex]
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=41814

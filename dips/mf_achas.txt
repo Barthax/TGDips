@@ -1,5 +1,5 @@
 ROM set changed:
-0.106-0.169: mf_achas - "Astro Chase (Max-A-Flex)"
+0.106-0.175: mf_achas - "Astro Chase (Max-A-Flex)"
 
 Resolution, 0.106-0.113: 336x225 @ 59.923328Hz
-Resolution, 0.114-0.169: 336x225 @ 59.923329Hz
+Resolution, 0.114-0.175: 336x225 @ 59.923329Hz
