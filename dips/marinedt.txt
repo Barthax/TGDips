@@ -1,4 +1,5 @@
 ROM set changed: no
-0.106-0.169: marinedt - "Marine Date"
+0.106-0.175: marinedt - "Marine Date"
 
-Resolution, 0.106-0.169: 256x224 @ 60.000000Hz
+Resolution, 0.106-0.171: 256x224 @ 60.000000Hz
+Resolution, 0.172-0.175: "No screens attached to this system"

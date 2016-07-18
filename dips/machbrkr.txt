@@ -1,6 +1,6 @@
 ROM set changed: no
 0.106-0.113: machbrkr - "Mach Breakers (Japan)"
-0.114-0.169: machbrkr - "Mach Breakers - Numan Athletics 2 (Japan)"
+0.114-0.175: machbrkr - "Mach Breakers - Numan Athletics 2 (Japan)"
 
 Resolution, 0.106-0.113: 288x224 @ 59.700001Hz
-Resolution, 0.114-0.169: 288x224 @ 59.700000Hz
+Resolution, 0.114-0.175: 288x224 @ 59.700000Hz

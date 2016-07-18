@@ -1,8 +1,9 @@
 ROM set changed: No
 0.106-0.159: madalien - "Mad Alien"
-0.160-0.169: madalien - "Mad Alien (set 1)"   (minor description change only)
+0.160-0.175: madalien - "Mad Alien (set 1)"   (minor description change only)
 
 Resolution, 0.106-0.120: 256 x 256 @ 60.000000 Hz
-Resolution, 0.121-0.169: 256 x 256 @ 54.744337 Hz
+Resolution, 0.121-0.175: 256 x 256 @ 54.744337 Hz
 
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Mad%20Alien
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=75493

@@ -1,7 +1,11 @@
 ROM set changed: yes
 0.106-0.126: majtitle - "Major Title (Japan)"
 0.126u2-0.133: majtitlj - "Major Title (Japan)"
-0.133u1-0.170: majtitlej - "Major Title (Japan)"
+0.133u1-0.175: majtitlej - "Major Title (Japan)"
+
+MAME History:
+- 0.133u1: Renamed (majtitlj) to (majtitlej).
+- 0.126u2: Tirino73 and MAME Italia added Major Title (World). Renamed (majtitle) to (majtitlj).
 
 Resolution, 0.106-0.122: 384x256 @ 55.000000Hz
-Resolution, 0.123-0.170: 384x256 @ 55.017606Hz
+Resolution, 0.123-0.175: 384x256 @ 55.017606Hz

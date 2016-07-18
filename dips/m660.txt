@@ -1,4 +1,4 @@
 ROM set changed: no
-0.106-0.169: m660 - "Mission 660 (US)"
+0.106-0.175: m660 - "Mission 660 (US)"
 
-Resolution, 0.106-0.169: 256x240 @ 60.000000Hz
+Resolution, 0.106-0.175: 256x240 @ 60.000000Hz

@@ -1,6 +1,6 @@
 ROM set changed: yes
 0.106-0.119: mariojp - "Mario Bros. (Japan)"
-0.120-0.170: marioj - "Mario Bros. (Japan)"
+0.120-0.175: marioj - "Mario Bros. (Japan)"
 
 Resolution, 0.106-0.122: 256x224 @ 60.000000Hz
-Resolution, 0.123-0.170: 256x224 @ 59.185606Hz
+Resolution, 0.123-0.175: 256x224 @ 59.185606Hz
