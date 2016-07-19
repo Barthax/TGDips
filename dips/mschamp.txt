@@ -1,6 +1,27 @@
+Note: two ROM sets represented here with changeover at 0.138u1.
+
+MAME History:
+- 0.138u1: Andrew Welburn and The Dumping Union added clone 'Ms. Pacman Champion Edition / Zola-Puc Gal'. Changed description of clone 'Ms. Pacman Champion Edition / Super Zola Pac Gal' to 'Ms. Pacman Champion Edition / Super Zola-Puc Gal'. Renamed (mschamp) to (mschamps).
+
+
+Ms. Pacman Champion Edition / Super Zola-Puc Gal
+------------------------------------------------
 ROM set changed: yes
 0.106-0.138: mschamp - "Ms. Pacman Champion Edition / Super Zola Pac Gal"
-0.138u1-0.170: mschamps - "Ms. Pacman Champion Edition / Super Zola-Puc Gal"
+0.138u1-0.175: mschamps - "Ms. Pacman Champion Edition / Super Zola-Puc Gal"
 
 Resolution, 0.106-0.113: 288x224 @ 60.606060Hz
-Resolution, 0.114-0.170: 288x224 @ 60.606061Hz
+Resolution, 0.114-0.175: 288x224 @ 60.606061Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Ms.%20Pacman%20Champion%20Edition%20/%20Super%20Zola%20Pac%20Gal
+Rules, Points [Champion Edition Mode]: http://www.twingalaxies.com/scores.php?scores=38386
+
+
+Ms. Pacman Champion Edition / Zola-Puc Gal
+------------------------------------------
+Note: not currently represented on TG.
+ROM set changed: no.  Added in 0.138u1.
+0.138u1-0.175: mschamp - "Ms. Pacman Champion Edition / Zola-Puc Gal"
+
+Resolution, 0.139-0.175: 288x224 @ 60.606061Hz
+

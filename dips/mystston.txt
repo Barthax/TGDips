@@ -1,7 +1,7 @@
 ROM set changed: no
-0.106-0.169: mystston - "Mysterious Stones - Dr. John's Adventure"
+0.106-0.175: mystston - "Mysterious Stones - Dr. John's Adventure"
 
 Resolution, 0.106-0.113: 256x240 @ 57.444855Hz
 Resolution, 0.114-0.123: 256x240 @ 57.444853Hz
 Resolution, 0.125-0.135: 256x240 @ 68.933824Hz
-Resolution, 0.136-0.169: 256x240 @ 57.444853Hz
+Resolution, 0.136-0.175: 256x240 @ 57.444853Hz

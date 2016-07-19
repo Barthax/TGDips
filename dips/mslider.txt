@@ -1,5 +1,5 @@
 ROM set changed: no
-0.106-0.169: mslider - "Monster Slider (Japan)"
+0.106-0.175: mslider - "Monster Slider (Japan)"
 
 Resolution, 0.106-0.148: 352x240 @ 60.000000Hz
-Resolution, 0.149-0.169: 352x240 @ 60.186720Hz
+Resolution, 0.149-0.175: 352x240 @ 60.186720Hz
