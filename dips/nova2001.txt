@@ -1,7 +1,7 @@
 ROM set changed: no
-0.106-0.173: nova2001 - "Nova 2001 (Japan)"
+0.106-0.175: nova2001 - "Nova 2001 (Japan)"
 
-Resolution, 0.106-0.173: 256x192 @ 60.000000Hz
+Resolution, 0.106-0.175: 256x192 @ 60.000000Hz
 
 TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Nova+2001
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=78791

@@ -1,8 +1,11 @@
 ROM Set changes: No
 0.106-0.122: offroad - "Ironman Stewart's Super Off-Road"
-0.123-0.169: offroad - "Ironman Ivan Stewart's Super Off-Road"   (minor description change only)
+0.123-0.175: offroad - "Ironman Ivan Stewart's Super Off-Road"   (minor description change only)
 
-Resolution, 0.106-0.169: 320x240 @ 60.000000 Hz
+MAME History:
+- 0.122u8: Changed description to 'Ironman Ivan Stewart's Super Off-Road' and clone Track Pack to 'Ironman Ivan Stewart's Super Off-Road Track-Pak'.
+
+Resolution, 0.106-0.175: 320x240 @ 60.000000 Hz
 
 Rules, Most Money Earned: http://www.twingalaxies.com/scores.php?scores=75134
 

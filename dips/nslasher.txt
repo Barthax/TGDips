@@ -1,8 +1,8 @@
 ROM set changes: no
 0.106-0.165: nslasher - "Night Slashers (Korea Rev 1.3)"
-0.166-0.173: nslasher - "Night Slashers (Korea Rev 1.3, DE-0397-0 PCB)"
+0.166-0.175: nslasher - "Night Slashers (Korea Rev 1.3, DE-0397-0 PCB)"
 
-Resolution, 0.106-0.173: 320x240 @ 60.000000Hz
+Resolution, 0.106-0.175: 320x240 @ 60.000000Hz
 
 There are no hardware DIP switches.  Use Service Mode (F2) to access the internal settings after playback if none is shown during playback.
 

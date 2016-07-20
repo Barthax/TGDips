@@ -1,9 +1,13 @@
 ROM set change: YES
 0.106-0.146u3: nbbatman - "Ninja Baseball Bat Man (US)"
-0.146u4-0.169: nbbatmanu - "Ninja Baseball Bat Man (US)"
+0.146u4-0.175: nbbatmanu - "Ninja Baseball Bat Man (US)"
 
-Resolution, 0.106-0.169: 320x240 @ 60.000000Hz
+MAME History:
+- 0.146u4: Arzeno Fabrice added Ninja Baseball Bat Man (World). Renamed (nbbatman) to (nbbatmanu).
 
+Resolution, 0.106-0.175: 320x240 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Ninja%20Baseball%20Batman%20[US]
 Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=55088
 Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=78641
 Rules, Points [Three Player Team]: http://www.twingalaxies.com/scores.php?scores=78642
