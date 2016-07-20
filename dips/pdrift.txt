@@ -1,9 +1,9 @@
 ROM set changed: no
 0.88u3-0.107: pdrift - "Power Drift (World Set 1)"
 0.108: pdrift - "Power Drift (World)"
-0.109-0.169: pdrift - "Power Drift (World, Rev A)"
+0.109-0.175: pdrift - "Power Drift (World, Rev A)"
 
-Resolution, 0.106-0.169: 320x224 @ 60.000000Hz
+Resolution, 0.106-0.175: 320x224 @ 60.000000Hz
 
 Rules: http://www.twingalaxies.com/scores.php?scores=78957
 

@@ -1,12 +1,12 @@
 ROM set changed: yes
 0.106-0.149: polepos - "Pole Position"
-0.150-0.173: poleposj - "Pole Position (Japan)"
+0.150-0.175: poleposj - "Pole Position (Japan)"
 
 MAME History:
 - 0.150: Andrew Welburn, The Dumping Union added Pole Position (World). Verified the PP2-10.2H and some minor rom name corrections. Added DIP locations to the Pole Position sets [Brian Trona]. Changed 'Pole Position' to clone 'Pole Position (Japan)'. Renamed (polepos) to (poleposj), (polepos1) to (poleposa1) and (poleposa) to (poleposa2). Fixed rom names.
 
 Resolution, 0.106-0.138: 256x224 @ 60.606060Hz
-Resolution, 0.139-0.173: 256x224 @ 60.606061Hz
+Resolution, 0.139-0.175: 256x224 @ 60.606061Hz
 
 TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Pole+Position
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=78931
