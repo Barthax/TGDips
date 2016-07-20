@@ -1,0 +1,100 @@
+# MAME 0.106 source snippet [gottlieb.c]
+
+GAME( 1982, qbert,    0,        qbert,    qbert,    0,        ROT270, "Gottlieb", "Q*bert (US set 1)", 0 )
+
+INPUT_PORTS_START( qbert )
+	PORT_START_TAG("DSW")
+	PORT_DIPNAME( 0x01, 0x00, DEF_STR( Demo_Sounds ) )
+	PORT_DIPSETTING(    0x01, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x02, 0x02, "Kicker" )
+	PORT_DIPSETTING(    0x00, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x02, DEF_STR( On ) )
+	PORT_DIPNAME( 0x04, 0x00, DEF_STR( Cabinet ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Upright ) )
+	PORT_DIPSETTING(    0x04, DEF_STR( Cocktail ) )
+	PORT_DIPNAME( 0x08, 0x00, "Auto Round Advance (Cheat)")
+	PORT_DIPSETTING(    0x00, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x08, DEF_STR( On ) )
+	PORT_DIPNAME( 0x10, 0x00, DEF_STR( Free_Play ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x10, DEF_STR( On ) )
+	PORT_DIPNAME( 0x20, 0x00, "SW5" )
+	PORT_DIPSETTING(    0x00, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x20, DEF_STR( On ) )
+	PORT_DIPNAME( 0x40, 0x00, "SW7" )
+	PORT_DIPSETTING(    0x00, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x40, DEF_STR( On ) )
+	PORT_DIPNAME( 0x80, 0x00, "SW8" )
+	PORT_DIPSETTING(    0x00, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x80, DEF_STR( On ) )
+	PORT_BIT( 0xe0, IP_ACTIVE_LOW, IPT_UNUSED )
+/* 0x40 must be connected to the IP16 line */
+
+	PORT_START_TAG("IN1")
+	PORT_BIT( 0x01, IP_ACTIVE_HIGH, IPT_START1 )
+	PORT_BIT( 0x02, IP_ACTIVE_HIGH, IPT_START2 )
+	PORT_BIT( 0x04, IP_ACTIVE_HIGH, IPT_COIN1 )
+	PORT_BIT( 0x08, IP_ACTIVE_HIGH, IPT_COIN2 )
+	PORT_BIT( 0x10, IP_ACTIVE_HIGH, IPT_UNKNOWN )
+	PORT_BIT( 0x20, IP_ACTIVE_HIGH, IPT_UNKNOWN )
+	PORT_SERVICE( 0x40, IP_ACTIVE_LOW )
+	PORT_BIT(0x80, IP_ACTIVE_HIGH, IPT_SERVICE ) PORT_NAME("Select in Service Mode") PORT_CODE(KEYCODE_F1)
+
+	PORT_START_TAG("IN2")	/* trackball H not used */
+	PORT_BIT( 0xff, IP_ACTIVE_LOW, IPT_UNUSED )
+
+	PORT_START_TAG("IN3")	/* trackball V not used */
+	PORT_BIT( 0xff, IP_ACTIVE_LOW, IPT_UNUSED )
+
+	PORT_START_TAG("IN4")      /* joystick */
+	PORT_BIT( 0x01, IP_ACTIVE_HIGH, IPT_JOYSTICK_RIGHT ) PORT_4WAY
+	PORT_BIT( 0x02, IP_ACTIVE_HIGH, IPT_JOYSTICK_LEFT ) PORT_4WAY
+	PORT_BIT( 0x04, IP_ACTIVE_HIGH, IPT_JOYSTICK_UP ) PORT_4WAY
+	PORT_BIT( 0x08, IP_ACTIVE_HIGH, IPT_JOYSTICK_DOWN ) PORT_4WAY
+	PORT_BIT( 0x10, IP_ACTIVE_HIGH, IPT_JOYSTICK_RIGHT ) PORT_4WAY PORT_COCKTAIL
+	PORT_BIT( 0x20, IP_ACTIVE_HIGH, IPT_JOYSTICK_LEFT ) PORT_4WAY PORT_COCKTAIL
+	PORT_BIT( 0x40, IP_ACTIVE_HIGH, IPT_JOYSTICK_UP ) PORT_4WAY PORT_COCKTAIL
+	PORT_BIT( 0x80, IP_ACTIVE_HIGH, IPT_JOYSTICK_DOWN ) PORT_4WAY PORT_COCKTAIL
+INPUT_PORTS_END
+
+Resolution: 256x240 @ 61.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Q*Bert%20[US%20set%201]
+Rules, [Marathon Settings]: http://www.twingalaxies.com/scores.php?scores=7795
+Rules, [Tournament Settings]: http://www.twingalaxies.com/scores.php?scores=5163
+
+ROMSet: QBert
+Kicker: On
+Cabinet: Upright
+Auto Round Advance [Cheat]: Off
+Free Play: Off
+SW5: Off
+SW7: Off
+SW8: Off
+Service Mode: Off
+Internal Defaults
+-----------------
+3 Lives Per Game
+Difficulty: Normal
+First Extra Life: 8000
+Extra Life Each Additional: 14000
+
+Sample correct TG:
+DSW: offset 0x23, repeat every 0x7C, typical value 0xE2
+- DSW: 0x01 (Demo_Sounds): [not relevant]
+- DSW: 0x02 (Kicker): 0x02 (On)
+- DSW: 0x04 (Cabinet): 0x00 (Upright)
+- DSW: 0x08 (Auto Round Advance (Cheat)): 0x00 (Off)
+- DSW: 0x10 (Free_Play): 0x00 (Off)
+- DSW: 0x20 (SW5): 0x00 (Off)
+- DSW: 0x40 (SW7): 0x00 (Off)
+- DSW: 0x80 (SW8): 0x00 (Off)
+
+NOTE: If Service Mode is on, this will be obvious on screen - no need to check hexdump.
+NOTE: Use Service Mode (F2) to check settings after playback.  Use Select (F1) briefly to navigate and hold Select (F1) to choose an option.  This also enables checking the hardware dip switches via DIP switches option.
+NOTE: Altering SW5, SW7 & SW8 has no effect on INP - this also follows through when checking via Service Mode.
+
+    20: 00 00 00 E2 00 00 00 40  00 00 00 FF 00 00 00 FF
+    90: 00 00 00 00 00 00 00 00  3E 82 43 E1 00 00 00 E2
+   110: 00 00 00 00 3E 82 43 E1  00 00 00 E2 00 00 00 40
