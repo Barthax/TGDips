@@ -1,7 +1,7 @@
 ROM set changed: no
-0.106-0.171: snapper - "Snapper (Korea)"
+0.106-0.175: snapper - "Snapper (Korea)"
 
 Resolution, 0.106-0.114: 320x224 @ 60.000000Hz
-Resolution, 0.115-0.171: 320x224 @ 60.054389Hz
+Resolution, 0.115-0.175: 320x224 @ 60.054389Hz
 
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=110689

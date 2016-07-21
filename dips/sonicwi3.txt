@@ -1,5 +1,5 @@
 ROM set changed:
-0.106-0.169: sonicwi3 - "Aero Fighters 3 / Sonic Wings 3"
+0.106-0.175: sonicwi3 - "Aero Fighters 3 / Sonic Wings 3"
 
 Resolution, 0.106-0.113: 320x224 @ 59.185608Hz
-Resolution, 0.114-0.169: 320x224 @ 59.185606Hz
+Resolution, 0.114-0.175: 320x224 @ 59.185606Hz

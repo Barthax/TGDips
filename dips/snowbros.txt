@@ -1,7 +1,7 @@
 ROM set changed: no
-0.106-0.170: snowbros - "Snow Bros. - Nick & Tom (set 1)"
+0.106-0.175: snowbros - "Snow Bros. - Nick & Tom (set 1)"
 
-Resolution, 0.106-0.170: 256x224 @ 57.500000Hz
+Resolution, 0.106-0.175: 256x224 @ 57.500000Hz
 
 Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=21083
 Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=110690

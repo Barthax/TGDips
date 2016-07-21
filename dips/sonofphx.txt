@@ -1,5 +1,5 @@
 ROM set changed: no
 0.106-0.147: sonofphx - "Son of Phoenix"
-0.148-0.169: sonofphx - "Son of Phoenix (bootleg of Repulse)"
+0.148-0.175: sonofphx - "Son of Phoenix (bootleg of Repulse)"
 
-Resolution, 0.106-0.169: 288x224 @ 60.000000Hz
+Resolution, 0.106-0.175: 288x224 @ 60.000000Hz
