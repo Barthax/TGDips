@@ -1,5 +1,9 @@
-ROM set changed:
-0.106-0.169: robokid - "Atomic Robo-kid"
+ROM set changed: no
+0.106-0.172: robokid - "Atomic Robo-kid"
+0.173-0.175: robokid - "Atomic Robo-kid (World, Type-2)"
+
+MAME History:
+- 0.173: Alex Cmaylo added clone Atomic Robo-kid (Japan). Changed parent description to 'Atomic Robo-kid (World, Type-2)' and clones (Japan, set 1) to 'Atomic Robo-kid (Japan, Type-2, set 1)' and (Japan, set 2) to 'Atomic Robo-kid (Japan, Type-2, set 2)'.
 
 Resolution, 0.106-0.133: 256x192 @ 60.000000Hz
-Resolution, 0.134-0.169: 256x192 @ 59.610000Hz
+Resolution, 0.134-0.175: 256x192 @ 59.610000Hz

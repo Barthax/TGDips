@@ -1,12 +1,16 @@
 ROM set changed: yes
 0.106-0.138: sf2ce - "Street Fighter II' - Champion Edition (World 920313)"
 0.139-0.139: sf2ce - "Street Fighter II': Champion Edition (World 920313)" (very minor description change only)
-0.140-0.172: sf2ceea - "Street Fighter II': Champion Edition (World 920313)" (ROM set rename!)
+0.139u2-0.175: sf2ceea - "Street Fighter II': Champion Edition (World 920313)" (ROM set rename!)
+
+MAME History:
+- 0.139u2: john666, Smitdogg and The Dumping Union added Street Fighter II': Champion Edition (World 920513). Renamed (sf2ce) to (sf2ceea).
 
 Resolution, 0.106-0.126: 384 x 224 @ 60.000000 Hz
 Resolution, 0.127-0.147: 384 x 224 @ 59.610000 Hz
 Resolution, 0.148-0.152: 384 x 224 @ 59.629403 Hz
-Resolution, 0.153-0.172: 384 x 224 @ 59.637405 Hz
+Resolution, 0.153-0.175: 384 x 224 @ 59.637405 Hz
 
 Note: do not check DIP switches via Service Mode (F2) after playback ends: the settings will revert to your local copy.
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Street%20Fighter%20II%27:%20Champion%20Edition%20[World%20920313]
 Rules, Points [Tournament Settings]: http://www.twingalaxies.com/scores.php?scores=11186

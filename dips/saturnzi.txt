@@ -1,7 +1,7 @@
 ROM set changed: yes
 0.106-0.141: saturn - "Saturn"
-0.141u1-0.169: saturnzi - "Saturn"
+0.141u1-0.175: saturnzi - "Saturn"
 
-Resolution, 0.106-0.169: 256x224 @ 60.000000Hz
+Resolution, 0.106-0.175: 256x224 @ 60.000000Hz
 
 Rules: http://www.twingalaxies.com/scores.php?scores=10152

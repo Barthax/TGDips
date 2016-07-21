@@ -1,6 +1,6 @@
 ROM set changed: no
-0.106-0.169: raccoon - "Raccoon World"
+0.106-0.175: raccoon - "Raccoon World"
 
-Resolution, 0.106-0.169: 320x240 @ 60.000000Hz
+Resolution, 0.106-0.175: 320x240 @ 60.000000Hz
 
 Rules: http://www.twingalaxies.com/scores.php?scores=91147

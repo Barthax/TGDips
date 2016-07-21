@@ -1,8 +1,8 @@
 ROM set change:
-0.106-0.169: sgladiat - "Gladiator 1984"
+0.106-0.175: sgladiat - "Gladiator 1984"
 
 Resolution, 0.106-0.127: 256x216 @ 60.606060Hz
-Resolution, 0.128-0.169: 288x216 @ 60.000000Hz
+Resolution, 0.128-0.175: 288x216 @ 60.000000Hz
 
 Note:
 TG rules state "Allow Continue: No". For version 0.128 and beyond the equivalent is "No Opponents (Cheat)" set to On: http://forums.marpirc.net/viewtopic.php?f=9&t=15663

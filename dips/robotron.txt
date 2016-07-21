@@ -1,9 +1,9 @@
 ROM set changed: no
 0.106-0.143: robotron - "Robotron (Solid Blue label)"
-0.144-0.173: robotron - "Robotron: 2084 (Solid Blue label)"   (minor description change only)
+0.144-0.175: robotron - "Robotron: 2084 (Solid Blue label)"   (minor description change only)
 
 Resolution, 0.106-0.115: 292x240 @ 60.000000Hz
-Resolution, 0.116-0.173: 292x240 @ 60.096154Hz
+Resolution, 0.116-0.175: 292x240 @ 60.096154Hz
 
 All configuration is done via soft-dips.  Use F2 repeatedly (cycles through settings) after the recording if they are not shown during the recording.
 
