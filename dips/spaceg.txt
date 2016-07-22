@@ -1,12 +1,12 @@
 ROM set change: no
 0.106-0.118: spaceg - "Space Guerilla"
-0.119-0.169: spaceg - "Space Guerrilla"
+0.119-0.175: spaceg - "Space Guerrilla"
 
 Resolution, 0.106-0.123: 256x232 @ 60.000000Hz
-Resolution, 0.125-0.169: 256x224 @ 60.000000Hz
+Resolution, 0.125-0.175: 256x224 @ 60.000000Hz
 
 Twin Galaxies' rules from 0.106 have no DIPs mentioned but there are now known dips.
-Default dips up to 0.160:
+Default dips up to 0.175:
 - Unused: Off
 - Unknown: Off
 - Lives: 3
