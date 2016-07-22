@@ -1,5 +1,0 @@
-ROM set changed: no
-0.106-0.169: exctscc2 - "Exciting Soccer II"
-
-Resolution, 0.106-0.136: 256x224 @ 60.000000Hz
-Resolution, 0.137-0.169: 256x224 @ 60.540000Hz
