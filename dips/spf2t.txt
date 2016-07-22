@@ -1,12 +1,31 @@
+Note: two ROM sets represented here with changeover at 0.161.
+
+MAME History:
+- 0.161: Fluxcore and IDC/Team Avalaunch added Super Puzzle Fighter II Turbo (Euro 960529). David Haywood added CPS2 spf2t key. Renamed (spf2t) to (spf2tu).
+
+
+Super Puzzle Fighter II Turbo (USA 960620)
+------------------------------------------
 ROM set changes: yes
 0.106-0.111: spf2t - "Super Puzzle Fighter II Turbo (US 960620)"
 0.112-0.160: spf2t - "Super Puzzle Fighter II Turbo (USA 960620)"
-0.161-0.169: spf2tu - "Super Puzzle Fighter II Turbo (USA 960620)"
+0.161-0.175: spf2tu - "Super Puzzle Fighter II Turbo (USA 960620)"
 
 Resolution, 0.106-0.113: 384x224 @ 59.633331Hz
 Resolution, 0.114-0.127: 384x224 @ 59.633333Hz
 Resolution, 0.128-0.152: 384x224 @ 59.629403Hz
-Resolution, 0.153-0.169: 384x224 @ 59.637405Hz
+Resolution, 0.153-0.175: 384x224 @ 59.637405Hz
 
 Note: all settings are internal.  Use Service Mode (F2) to access and confirm after playback if not shown during playback.
-Rules: http://www.twingalaxies.com/scores.php?scores=30449
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Super%20Puzzle%20Fighter%202%20Turbo
+Rules, Points [Tournament Settings]: http://www.twingalaxies.com/scores.php?scores=30449
+
+
+Super Puzzle Fighter II Turbo (Euro 960529)
+-------------------------------------------
+Note: not currently represented on TG.
+ROM set changed: no.  Added in 0.161.
+0.161-0.175: spf2t - "Super Puzzle Fighter II Turbo (Euro 960529)"
+
+Resolution, 0.161-0.175: 384x224 @ 59.637405Hz
+
