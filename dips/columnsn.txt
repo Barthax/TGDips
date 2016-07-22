@@ -1,0 +1,27 @@
+ROM set changed: undetermined.  Seems to have been dropped at 0.106.
+0.87-0.106: columnsn - "Columns (Neo-Geo)"
+
+Resolution, 0.87-0.90: 304x224 @ 60.000000Hz
+Resolution, 0.92-0.106: 320x224 @ 59.185608Hz
+
+0.106 CRCs:
+c6c9888d 2000-p1.bin  Columns (Neo-Geo)
+089a28a8 2000-s1.bin  Columns (Neo-Geo)
+354029fc sfix.sfx     Columns (Neo-Geo)
+9036d879 sp-s2.sp1    Columns (Neo-Geo)
+c7f2fa45 sp-s.sp1     Columns (Neo-Geo)
+e72943de usa_2slt.bin Columns (Neo-Geo)
+2723a5b5 sp-e.sp1     Columns (Neo-Geo)
+91b64be3 asia-s3.rom  Columns (Neo-Geo)
+f0e8f27d vs-bios.rom  Columns (Neo-Geo)
+acede59c sp-j2.rom    Columns (Neo-Geo)
+9fb0abe4 sp1.jipan.1024 Columns (Neo-Geo)
+2d50996a uni-bios.22  Columns (Neo-Geo)
+698ebb7d neodebug.rom Columns (Neo-Geo)
+d27a71f1 aes-bios.bin Columns (Neo-Geo)
+97cf998b sm1.sm1      Columns (Neo-Geo)
+7669de64 nnp-m1.rom   Columns (Neo-Geo)
+e09e253c 000-lo.lo    Columns (Neo-Geo)
+504bf849 nnp-v1.rom   Columns (Neo-Geo)
+9a579cab 2000-c1.bin  Columns (Neo-Geo)
+91d14043 2000-c2.bin  Columns (Neo-Geo)

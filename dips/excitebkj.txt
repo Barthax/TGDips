@@ -1,0 +1,11 @@
+Note: not currently represented on TG.
+ROM set changed: yes.  Added in 0.146u1.
+0.146u1-0.172: excitebk - "Vs. Excitebike (set EB4-4 A)"
+0.173-0.175: excitebkj - "Vs. Excitebike (set EB4-4 A)"
+
+MAME History:
+- 0.146u1: Changed clone '(Japan)' to parent 'Vs. Excitebike (set EB4-4 A)' and 'Vs. Excitebike' to clone '(set EB4-3 ?)'. Renamed (excitebk) to (excitebka) and (excitebkj) to (excitebk).
+- 0.173: Matt Osborn added Vs. Excitebike (set EB4-3 E). Renamed (excitebk) to (excitebkj) and (excitebka) to (excitebko).
+
+Resolution, 0.147-0.175: 256x240 @ 60.000000Hz
+

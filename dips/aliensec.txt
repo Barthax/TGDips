@@ -2,6 +2,9 @@ ROM set changed: yes
 0.106-0.118: baraduke - "Baraduke (set 1)"
 0.118u5-0.175: aliensec - "Alien Sector" (name correction only)
 
+MAME History:
+- 0.118u5: Changed description of 'Baraduke (set 1)' to 'Alien Sector' and clone (set 2) to 'Baraduke'. Added new gfx2 roms ($0, 8000). Fixed rom names. Renamed (baraduke) to (aliensec) and (baraduka) to (baraduke).
+
 Resolution, 0.106-0.152: 288x224 @ 60.606060Hz
 Resolution, 0.153-0.175: 288x224 @ 60.606061Hz
 

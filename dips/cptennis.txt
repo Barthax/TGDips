@@ -1,7 +1,7 @@
 ROM set changed: no
 0.106-0.145: cptennis - "Pro Tennis (Cassette)"
-0.146-0.170: cptennis - "Pro Tennis (DECO Cassette)"
+0.146-0.175: cptennis - "Pro Tennis (DECO Cassette)"
 
 Resolution, 0.106-0.128: 240x240 @ 57.000000Hz
 Resolution, 0.129-0.145: 240x240 @ 57.444853Hz
-Resolution, 0.146-0.170: 256x240 @ 57.444853Hz
+Resolution, 0.146-0.175: 256x240 @ 57.444853Hz

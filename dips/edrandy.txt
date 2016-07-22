@@ -1,8 +1,8 @@
 ROM set changed: no
 0.106-0.122: edrandy - "The Cliffhanger - Edward Randy (World revision 2)"
-0.122u3-0.170: edrandy - "The Cliffhanger - Edward Randy (World ver 3)"
+0.122u3-0.175: edrandy - "The Cliffhanger - Edward Randy (World ver 3)"
 
 MAME History:
 - 0.122u3: Brian Troha added 'Two coins to start?' dipswitch. Changed description to 'The Cliffhanger - Edward Randy (World ver 3)' and clone '(World revision 1)' to '(World ver 2)', '(World)' to '(World ver 1)' and '(Japan revision 2)' to '(Japan ver 3)'. Renamed (edrandy1) to (edrandy2) and (edrandy0) to (edrandy1).
 
-Resolution, 0.106-0.170: 256x240 @ 58.000000Hz
+Resolution, 0.106-0.175: 256x240 @ 58.000000Hz

@@ -1,0 +1,8 @@
+ROM set changed: yes
+0.106-0.144: cprosocc - "Pro Soccer (Cassette)"
+0.144u1-0.145: cpsoccer - "Pro Soccer (Cassette)"
+0.146-0.175: cpsoccer - "Pro Soccer (DECO Cassette)"
+
+Resolution, 0.106-0.128: 240x240 @ 57.000000Hz
+Resolution, 0.129-0.145: 240x240 @ 57.444853Hz
+Resolution, 0.146-0.175: 256x240 @ 57.444853Hz

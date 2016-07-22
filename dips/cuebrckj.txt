@@ -7,6 +7,6 @@ MAME History:
 - 0.122u5: Zsolt Vasvari reversed ROM set names of Cue Brick (World version D) and (Japan). Changed some function names to reflect parent set. Changed clone Cue Brick (World version D) to parent. Renamed (cuebrick) to (cuebrckj) and (cuebrckj) to (cuebrick).
 - 0.133u2: Renamed (cuebrckj) to (cuebrickj).
 
-0.106-0.123: 304x224 @ 60.000000Hz
-0.125-0.175: 304x224 @ 60.606061Hz
+Resolution, 0.106-0.123: 304x224 @ 60.000000Hz
+Resolution, 0.125-0.175: 304x224 @ 60.606061Hz
 

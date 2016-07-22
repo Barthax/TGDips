@@ -14,8 +14,8 @@ ROM set changed: yes
 MAME History:
 - 0.133u2: Renamed (cuebrckj) to (cuebrickj).
 
-0.106-0.123: 304x224 @ 60.000000Hz
-0.125-0.175: 304x224 @ 60.606061Hz
+Resolution, 0.106-0.123: 304x224 @ 60.000000Hz
+Resolution, 0.125-0.175: 304x224 @ 60.606061Hz
 
 
 Cue Brick (World, version D)

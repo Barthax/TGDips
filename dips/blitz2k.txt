@@ -1,5 +1,5 @@
 ROM set changed: no
 0.106-0.163: blitz2k - "NFL Blitz 2000 Gold Edition"
-0.164-0.170: blitz2k - "NFL Blitz 2000 Gold Edition (ver 1.2, Sep 22 1999)"
+0.164-0.175: blitz2k - "NFL Blitz 2000 Gold Edition (ver 1.2, Sep 22 1999)"
 
-Resolution, 0.106-0.170: 640x480 @ 57.000000Hz
+Resolution, 0.106-0.175: 640x480 @ 57.000000Hz
