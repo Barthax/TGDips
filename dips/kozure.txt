@@ -1,5 +1,5 @@
 ROM set changed: yes
 0.106-0.142: kodure - "Kodure Ookami (Japan)"
-0.142u2-0.169: kozure - "Kozure Ookami (Japan)"
+0.142u2-0.175: kozure - "Kozure Ookami (Japan)"
 
-Resolution, 0.106-0.169: 320x240 @ 60.000000Hz
+Resolution, 0.106-0.175: 320x240 @ 60.000000Hz

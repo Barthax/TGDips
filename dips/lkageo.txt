@@ -1,8 +1,8 @@
 ROM set changed: yes
 0.106-0.125: lkage - "The Legend of Kage"
-0.125u1-0.170: lkageo - "The Legend of Kage (older)"
+0.125u1-0.175: lkageo - "The Legend of Kage (older)"
 
 MAME History:
 - 0.125u1: Stefan Lindberg added 'The Legend of Kage' (Taito 1984). Changed 'The Legend of Kage' to clone 'The Legend of Kage (older)'. Renamed (lkage) to (lkageo).
 
-Resolution, 0.106-0.170: 240x224 @ 60.000000Hz
+Resolution, 0.106-0.175: 240x224 @ 60.000000Hz

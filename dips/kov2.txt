@@ -1,3 +1,12 @@
+Note: two ROM sets represented here with changeover at 0.137u1.
+
+MAME History:
+- 0.130u3: Changed description to 'Knights of Valour 2 / Sangoku Senki 2 (ver. 100)' and clones (ver. 106) to 'Knights of Valour 2 / Sangoku Senki 2 (ver. 106)', (ver. M204XX) to 'Knights of Valour 2 Plus - Nine Dragons / Sangoku Senki 2 Plus - Nine Dragons (ver. M204XX)' and (ver. M205XX) to 'Knights of Valour 2 Plus - Nine Dragons / Sangoku Senki 2 Plus - Nine Dragons (ver. M205XX)'.
+- 0.137u1: XingXing added 'Knights of Valour 2 / Sangoku Senki 2 (ver. 107)' and clones (ver. 102) and (ver. 103). Renamed (kov2) to (kov2100).
+
+
+Knights of Valour 2 / Sangoku Senki 2 (ver. 100, 100, 100HK)
+------------------------------------------------------------
 ROM set changed: yes
 0.106-0.130: kov2 - "Knights of Valour 2"
 0.131-0.137: kov2 - "Knights of Valour 2 / Sangoku Senki 2 (ver. 100)"
@@ -5,3 +14,13 @@ ROM set changed: yes
 
 Resolution, 0.106-0.137: 448x224 @ 60.000000Hz
 Resolution, 0.138-0.175: 448x224 @ 60.000000Hz
+
+
+Knights of Valour 2 / Sangoku Senki 2 (ver. 107, 102, 100HK)
+------------------------------------------------------------
+Note: not currently represented on TG.
+ROM set changed: no.  Added in 0.137u1.
+0.137u1-0.175: kov2 - "Knights of Valour 2 / Sangoku Senki 2 (ver. 107, 102, 100HK)"
+
+Resolution, 0.138-0.175: 448x224 @ 60.000000Hz
+

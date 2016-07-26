@@ -1,4 +1,4 @@
-ROM set changed?: Added in 0.119u2.
+ROM set changed: no. Added in 0.119u2.
 0.120-0.175: loverboy - "Lover Boy"
 
 Resolution, 0.120-0.175: 256x224 @ 60.000000Hz
