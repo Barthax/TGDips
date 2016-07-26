@@ -1,4 +1,4 @@
 ROM set changed: no
-0.106-0.170: ripoff - "Rip Off"
+0.106-0.175: ripoff - "Rip Off"
 
-Resolution, 0.106-0.170: vector @ 38.000000Hz
+Resolution, 0.106-0.175: vector @ 38.000000Hz
