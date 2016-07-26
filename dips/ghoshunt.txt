@@ -1,5 +1,5 @@
 ROM set changed: no
-0.106-0.169: ghoshunt - "Ghost Hunter"
+0.106-0.175: ghoshunt - "Ghost Hunter"
 
 Resolution, 0.106-0.114: 320x200 @ 69.000000Hz
-Resolution, 0.115-0.169: 320x200 @ 69.202045Hz
+Resolution, 0.115-0.175: 320x200 @ 69.202045Hz

@@ -1,0 +1,9 @@
+ROM changed: yes
+0.106-0.121: ftsoccer - "Fighting Soccer"
+0.121u1-0.175: fsoccerb - "Fighting Soccer (Joystick hack bootleg)"
+
+MAME History:
+- 0.121u1: Corrado Tomaselli added Fighting Soccer (version 4). Changed 'Fighting Soccer' to clone 'Fighting Soccer (joystick hack bootleg)'. Renamed (ftsoccer) to (fsoccerb).
+
+Resolution, 0.106-0.175: 400x224 @ 60.000000Hz
+

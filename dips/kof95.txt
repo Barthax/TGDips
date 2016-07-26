@@ -1,10 +1,27 @@
-ROM set changed: yes
-0.106-0.127: kof95 - "The King of Fighters '95 (set 1)"
-0.127u6-0.143: kof95h - "The King of Fighters '95 (set 2)"
-0.144-0.170: kof95h - "The King of Fighters '95 (NGH-084)"
+Note: two ROM sets represented here with changeover at 0.127u6.
 
 MAME History:
 - 0.127u6: Johnboy renamed (kof95) to (kof95h) and (kof95a) to (kof95). Renamed p1 to correct chip label and added note.
+- 0.143u4: Changed description to 'The King of Fighters '95 (NGM-084)' and clone (set 2) to 'The King of Fighters '95 (NGH-084)'.
+
+
+The King of Fighters '95 (set 1) / (set 2) / (NGH-084)
+------------------------------------------------------
+ROM set changed: yes
+0.106-0.127: kof95 - "The King of Fighters '95 (set 1)"
+0.127u6-0.143: kof95h - "The King of Fighters '95 (set 2)"
+0.143u4-0.175: kof95h - "The King of Fighters '95 (NGH-084)"
 
 Resolution, 0.106-0.113: 320x224 @ 59.185608Hz
-Resolution, 0.114-0.127: 320x224 @ 59.185606Hz
+Resolution, 0.114-0.175: 320x224 @ 59.185606Hz
+
+
+The King of Fighters '95 (set 1) / (NGM-084)
+--------------------------------------------
+Note: not currently represented on TG.
+ROM set changed: no.  Added in 0.127u6.
+0.127u6-0.143: kof95 - "The King of Fighters '95 (set 1)"
+0.144-0.175: kof95 - "The King of Fighters '95 (NGM-084)"
+
+Resolution, 0.128--0.175: 320x224 @ 59.185606Hz
+

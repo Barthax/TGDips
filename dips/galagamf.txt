@@ -1,8 +1,8 @@
 ROM Set changes: No
-0.108-0.173: galagamf - "Galaga (Midway set 1 with fast shoot hack)"
+0.108-0.175: galagamf - "Galaga (Midway set 1 with fast shoot hack)"
 
 Resolution, 0.108-0.131: 288x224 @ 60.606060Hz
-Resolution, 0.132-0.173: 288x224 @ 60.606061Hz
+Resolution, 0.132-0.175: 288x224 @ 60.606061Hz
 
 *** There are no current tracks, but I suspect that may change soon!
 TG Game Entry:

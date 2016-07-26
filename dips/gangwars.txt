@@ -8,10 +8,10 @@ Gang Wars (US)
 --------------
 ROM set changed: yes
 0.106-0.139: gangwars - "Gang Wars (US)"
-0.139u2-0.169: gangwarsu - "Gang Wars (US)"
+0.139u2-0.175: gangwarsu - "Gang Wars (US)"
 
 Resolution, 0.106-0.155: 256x224 @ 60.000000Hz
-Resolution, 0.156-0.169: 256x224 @ 60.191409Hz
+Resolution, 0.156-0.175: 256x224 @ 60.191409Hz
 
 MAME History:
 - 0.154: Jets and Layer added clone Gang Wars (Japan). David Haywood added Gang Wars (bootleg). Reinstated the bootleg, these 68705 instead of alpha MCU bootlegs might be interesting later down the line even if the main code is the same. Also one of our mask roms was bad, and the gangwarsu set should definitely have been using different roms for the gfx [David Haywood]. Added gfx2 rom ($200000) from clone (Japan) to Gang Wars. Added new gfx2 roms to clone (US).

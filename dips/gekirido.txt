@@ -1,6 +1,9 @@
 ROM set changed: yes
 0.106-0.141: gekirido - "Gekirindan (Ver 2.3J 1995/09/21)"
-0.141u1-0.169: gekiridnj - "Gekirindan (Ver 2.3J 1995/09/21)"
+0.141u1-0.175: gekiridnj - "Gekirindan (Ver 2.3J 1995/09/21)"
+
+MAME History:
+- 0.141u1: Corrado Tomaselli, J. Bijl and The Dumping Union added Gekirindan (Ver 2.3O 1995/09/21) (Taito Corporation 1995) and clone (Ver 2.3J 1995/09/21). Renamed (gekirido) to (gekiridnj).
 
 Resolution, 0.106-0.113: 320x232 @ 58.970001Hz
-Resolution, 0.114-0.169: 320x232 @ 58.970000Hz
+Resolution, 0.114-0.175: 320x232 @ 58.970000Hz

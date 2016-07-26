@@ -1,10 +1,10 @@
 ROM set changed: yes
 0.106-0.133: galaxiaj - "Galaxian (Namco set 2)"
-0.133u1-0.169: galaxiana - "Galaxian (Namco set 2)"
+0.133u1-0.175: galaxiana - "Galaxian (Namco set 2)"
 
 MAME History:
 - 0.133u1: Darran added clone Kamakazi III. hap switched Galaxian LFO sound to use the long-disabled NEW_LFO. It's not entirely fixed, but it's closer. Renamed (galaxiaj) to (galaxiana), (galmidw) to (galaxianm), (galmidwo) to (galaxianmo) and (galtaito) to (galaxiant).
 
 0.106-0.113: 256x224 @ 60.606060Hz
 0.114-0.123: 256x224 @ 60.606061Hz
-0.125-0.169: 768x224 @ 60.606061Hz
+0.125-0.175: 768x224 @ 60.606061Hz

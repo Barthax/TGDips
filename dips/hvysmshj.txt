@@ -1,5 +1,8 @@
 ROM set changed: yes
 0.106-0.129: hvysmsh - "Heavy Smash (Japan version -2)"
-0.129u4-0.169: hvysmshj - "Heavy Smash (Japan version -2)"
+0.129u4-0.175: hvysmshj - "Heavy Smash (Japan version -2)"
 
-Resolution, 0.106-0.169: 320x240 @ 58.000000Hz
+MAME History:
+- 0.129u4: Mexa added 'Heavy Smash (Europe version -2)'. Renamed (hvysmsh) to (hvysmshj).
+
+Resolution, 0.106-0.175: 320x240 @ 58.000000Hz

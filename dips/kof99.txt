@@ -1,10 +1,27 @@
-ROM set changed: no
-0.106-0.139: kof99 - "The King of Fighters '99 - Millennium Battle (set 1)"
-0.139u2-0.145: kof99h - "The King of Fighters '99 - Millennium Battle (set 2)"
-0.146-0.170: kof99h - "The King of Fighters '99 - Millennium Battle (NGH-2510)"
+Note: two ROM sets represented here with changeover to 0.139u2.
 
 MAME History:
 - 0.139u2: Johnboy renamed (kof99) to (kof99h) and (kof99a) to (kof99).
+- 0.145u6: Changed description to 'The King of Fighters '99 - Millennium Battle (NGM-2510)' and clone (set 2) to 'The King of Fighters '99 - Millennium Battle (NGH-2510)'.
+
+
+The King of Fighters '99 - Millennium Battle (set 1) / (set 2) / (NGH-2510)
+---------------------------------------------------------------------------
+ROM set changed: yes
+0.106-0.139: kof99 - "The King of Fighters '99 - Millennium Battle (set 1)"
+0.139u2-0.145: kof99h - "The King of Fighters '99 - Millennium Battle (set 2)"
+0.146-0.175: kof99h - "The King of Fighters '99 - Millennium Battle (NGH-2510)"
 
 Resolution, 0.106-0.113: 320x224 @ 59.185608Hz
-Resolution, 0.114-0.170: 320x224 @ 59.185606Hz
+Resolution, 0.114-0.175: 320x224 @ 59.185606Hz
+
+
+The King of Fighters '99 - Millennium Battle (set 1) / (NGM-2510)
+-----------------------------------------------------------------
+Note: not currently represented on TG.
+ROM set changed: no.  Added in 0.139u2.
+0.139u2-0.145: kof99 - "The King of Fighters '99 - Millennium Battle (set 1)"
+0.146-0.175: kof99 - "The King of Fighters '99 - Millennium Battle (NGM-2510)"
+
+Resolution, 0.146-0.175: 320x224 @ 59.185606Hz
+
