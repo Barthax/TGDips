@@ -1,7 +1,7 @@
 ROM set changed: no
-0.106-0.170: narc - "Narc (rev 7.00)"
+0.106-0.175: narc - "Narc (rev 7.00)"
 
 Resolution, 0.106-0.114: 512x400 @ 57.000000Hz
 Resolution, 0.115-0.122: 511x399 @ 27.452824Hz
 Resolution, 0.123-0.154: 511x399 @ 54.905648Hz
-Resolution, 0.155-0.170: 512x400 @ 54.824186Hz
+Resolution, 0.155-0.175: 512x400 @ 54.824186Hz

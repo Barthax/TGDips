@@ -1,4 +1,4 @@
 ROM set changed: no
-0.106-0.170: naname - "Naname de Magic! (Japan)"
+0.106-0.175: naname - "Naname de Magic! (Japan)"
 
-Resolution, 0.106-0.170: 320x240 @ 60.000000Hz
+Resolution, 0.106-0.175: 320x240 @ 60.000000Hz

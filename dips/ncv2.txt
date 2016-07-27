@@ -1,6 +1,6 @@
 ROM set changed: no
 0.106-0.136: ncv2 - "Namco Classics Collection Vol.2"
-0.137-0.175: ncv2 - "Namco Classic Collection Vol.2"
+0.136u4-0.175: ncv2 - "Namco Classic Collection Vol.2"
 
 MAME History:
 - 0.136u4: Heihachi_73 changed description to 'Namco Classic Collection Vol.2'.

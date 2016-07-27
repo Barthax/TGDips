@@ -1,10 +1,8 @@
 ROM set changed: yes
 0.106-0.136: megab - "Mega Blast (World)"
-0.136u1-0.170: megablst - "Mega Blast (World)"
+0.136u1-0.175: megablst - "Mega Blast (World)"
 
 MAME History:
 - 0.136u1: D. Beneke, hap, Smitdogg and Dumping Union added clone Mega Blast (US). Renamed (megab) to (megablst) and (megabj) to (megablstj).
 
-Resolution, 0.106-0.170: 320x224 @ 60.000000Hz
-
-
+0.106-0.175: 320x224 @ 60.000000Hz

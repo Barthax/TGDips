@@ -1,12 +1,32 @@
+Note: two ROM sets represented here with swaps at 0.130u1 and back at 0.140u1.
+
+MAME History:
+- 0.130u1: NeoGeo update [Johnboy]: Changed Magician Lord (set 1) to clone (set 2) and (set 2) to parent (set 1). Corrected chip label of maincpu rom to 005-pg1.bin (MichaelNet) in Magician Lord (set 1). Renamed (maglord) to (maglordh) and (maglordh) to (maglord).
+- 0.140u1: Johnboy fixed/mixed up crc's in Magician Lord and clone. Renamed (maglord) to (maglordh) and (maglordh) to (maglord).
+- 0.142u5: Fixed rom names. Changed description to 'Magician Lord (NGM-005)' and clone (set 2) to 'Magician Lord (NGH-005)'.
+
+
+Magician Lord (NGM-005) / (set 1, 2, 1)
+-----------------------
 ROM set changed: yes
 0.106-0.130: maglord - "Magician Lord (set 1)"
 0.130u1-0.140: maglordh - "Magician Lord (set 2)"
 0.140u1-0.142: maglord - "Magician Lord (set 1)"
 0.143-0.175: maglord - "Magician Lord (NGM-005)"
 
-MAME History:
-- 0.130u1: NeoGeo update [Johnboy]: Changed Magician Lord (set 1) to clone (set 2) and (set 2) to parent (set 1). Corrected chip label of maincpu rom to 005-pg1.bin (MichaelNet) in Magician Lord (set 1). Renamed (maglord) to (maglordh) and (maglordh) to (maglord).
-- 0.140u1: Johnboy fixed/mixed up crc's in Magician Lord and clone. Renamed (maglord) to (maglordh) and (maglordh) to (maglord).
+Resolution, 0.106-0.113: 320x224 @ 59.185608Hz
+Resolution, 0.114-0.175: 320x224 @ 59.185606Hz
+
+
+Magician Lord (NGH-005) / (set 2, 1, 2)
+-----------------------
+Note: not currently represented on TG.
+ROM set changed: yes
+0.106-0.130: maglordh - "Magician Lord (set 2)"
+0.130u1-0.140: maglord - "Magician Lord (set 1)"
+0.140u1-0.142: maglordh - "Magician Lord (set 2)"
+0.143-0.175: maglordh - "Magician Lord (NGH-005)"
 
 Resolution, 0.106-0.113: 320x224 @ 59.185608Hz
 Resolution, 0.114-0.175: 320x224 @ 59.185606Hz
+

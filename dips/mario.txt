@@ -31,7 +31,7 @@ ROM set changed: yes.  Added in 0.119u1.
 0.132u3-0.175: marioe - "Mario Bros. (US, Revision E)"
 
 Resolution, 0.120-0.122: 256x224 @ 60.000000Hz
-Resolution, 0.123-0.174: 256x224 @ 59.185606Hz
+Resolution, 0.123-0.175: 256x224 @ 59.185606Hz
 
 
 Mario Bros. (US, Revision F)

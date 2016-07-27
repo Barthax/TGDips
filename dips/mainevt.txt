@@ -1,4 +1,4 @@
 ROM set changed: no
-0.106-0.170: mainevt - "The Main Event (4 Players ver. Y)"
+0.106-0.175: mainevt - "The Main Event (4 Players ver. Y)"
 
-Resolution, 0.106-0.170: 288x224 @ 60.000000Hz
+Resolution, 0.106-0.175: 288x224 @ 60.000000Hz

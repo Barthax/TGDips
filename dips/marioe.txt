@@ -8,5 +8,5 @@ MAME History:
 - 0.132u3: Mr Goodwraith, Smitdogg and Dumping Union added Mario Bros. (US, Revision F). Fixed rom names. Changed (US, set 1) to clone 'Mario Bros. (US, Revision E)' and clone (US, set 2) to clone 'Mario Bros. (US, Unknown Rev)'. Renamed (mario) to (marioe).
 
 Resolution, 0.120-0.122: 256x224 @ 60.000000Hz
-Resolution, 0.123-0.174: 256x224 @ 59.185606Hz
+Resolution, 0.123-0.175: 256x224 @ 59.185606Hz
 

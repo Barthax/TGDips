@@ -1,6 +1,9 @@
 ROM set changed: yes
 0.106-0.119: mariojp - "Mario Bros. (Japan)"
-0.120-0.175: marioj - "Mario Bros. (Japan)"
+0.119u1-0.175: marioj - "Mario Bros. (Japan)"
+
+MAME History:
+- 0.119u1: Stephane Humbert added Mario Bros. (US, set 1). Fixed dipswitches. Changed (US) to clone 'Mario Bros. (US, set 2)'. Renamed (mario) to (marioo) and (mariojp) to (marioj).
 
 Resolution, 0.106-0.122: 256x224 @ 60.000000Hz
 Resolution, 0.123-0.175: 256x224 @ 59.185606Hz
