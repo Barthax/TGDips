@@ -1,7 +1,7 @@
 ROM set changed: no
 0.106-0.122: pipibibs - "Pipi &amp; Bibis / Whoopee!!"
 0.123-0.135: pipibibs - "Pipi &amp; Bibis / Whoopee!! (Z80 sound cpu)"
-0.136-0.170: pipibibs - "Pipi &amp; Bibis / Whoopee!! (Z80 sound cpu, set 1)"
+0.136-0.175: pipibibs - "Pipi &amp; Bibis / Whoopee!! (Z80 sound cpu, set 1)"
 
 Resolution, 0.106-0.151: 320x240 @ 60.000000Hz
-Resolution, 0.152-0.170: 320x240 @ 59.637405Hz
+Resolution, 0.152-0.175: 320x240 @ 59.637405Hz

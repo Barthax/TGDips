@@ -1,0 +1,11 @@
+Note: not currently represented on TG.
+ROM set changed: yes.  Added in 0.130u3.
+0.130u3-0.136: pitfight - "Pit Fighter (rev 7)"
+0.136u4-0.176: pitfight7 - "Pit Fighter (rev 7)"
+
+MAME History:
+- 0.130u3: Smitdogg added Pit Fighter (rev 7). Changed 'Pit Fighter (rev 5)' to clone '(rev 6)'. Renamed (pitfight) to (pitfigh6).
+- 0.136u4: B. Sparks, Smitdogg and The Dumping Union added Pit Fighter (rev 9). Renamed (pitfight) to (pitfight7).
+
+Resolution, 0.131-0.176: 336x240 @ 59.922743Hz
+

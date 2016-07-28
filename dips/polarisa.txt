@@ -1,6 +1,9 @@
 ROM set changed: yes
 0.106-0.137: polaris - "Polaris (set 1)"
-0.137u4-0.170: polarisa - "Polaris (First revision)"
+0.137u4-0.175: polarisa - "Polaris (First revision)"
+
+MAME History:
+- 0.137u4: Siftware added clone Polaris (Original version). Changed clone (set 2) to parent 'Polaris (Latest version)' and (set 1) to clone 'Polaris (First revision)'. Renamed (polaris) to (polarisa) and (polarisa) to (polaris).
 
 Resolution, 0.106-0.113: 240x224 @ 60.000000Hz
-Resolution, 0.114-0.170: 260x224 @ 59.541985Hz
+Resolution, 0.114-0.175: 260x224 @ 59.541985Hz

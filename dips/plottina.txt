@@ -1,10 +1,10 @@
 ROM set changed: yes
 0.106-0.112: plotting - "Plotting (World set 1)"
 0.113-0.130: plottina - "Plotting (World set 2, Protected)"
-0.130u4-0.170: plottinga - "Plotting (World set 2, protected)"
+0.130u4-0.175: plottinga - "Plotting (World set 2, protected)"
 
 MAME History:
 - 0.113: Stefan Lindberg added clones Plotting (World set 3, Earliest Version) and Flipull (Japan). Changed 'Plotting (World set 1)' to clone '(World set 2, Protected)' and '(World set 2)' to parent 'Plotting (World set 1)'. Renamed (plotting) to (plottina) and (plottina) to (plotting).
 - 0.130u4: Renamed (plottina) to (plottinga), (plottinb) to (plottingb) and (plottinu) to (plottingu).
 
-Resolution, 0.106-0.170: 320x224 @ 60.000000Hz
+Resolution, 0.106-0.175: 320x224 @ 60.000000Hz

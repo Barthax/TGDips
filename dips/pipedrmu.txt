@@ -1,5 +1,9 @@
 ROM set changed: yes
 0.106-0.129: pipedrm - "Pipe Dream (US)"
-0.129u5-0.170: pipedrmu - "Pipe Dream (US)"
+0.129u5-0.175: pipedrmu - "Pipe Dream (US)"
 
-Resolution, 0.106-0.170: 352x240 @ 60.000000Hz
+MAME History:
+- 0.129u5: Corrado Tomaselli added Pipe Dream (World). Renamed (pipedrm) to (pipedrmu).
+
+Resolution, 0.106-0.175: 352x240 @ 60.000000Hz
+

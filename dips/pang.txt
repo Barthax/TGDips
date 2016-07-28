@@ -1,5 +1,5 @@
 ROM set changed: no
-0.106-0.170: pang - "Pang (World)"
+0.106-0.175: pang - "Pang (World)"
 
 Resolution, 0.106-0.133: 384x240 @ 60.000000Hz
-Resolution, 0.134-0.170: 384x240 @ 57.420000Hz
+Resolution, 0.134-0.175: 384x240 @ 57.420000Hz

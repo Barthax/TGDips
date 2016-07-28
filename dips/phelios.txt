@@ -1,6 +1,24 @@
+Note: two ROM sets represented here with changeover at 0.161.
+
+MAME History:
+- 0.161: Stefano Rolleri added Phelios. Note: New World set, story line in English. Renamed (phelios) to (pheliosj).
+
+
+Phelios (Japan)
+---------------
 ROM set changed: yes
 0.106-0.160: phelios - "Phelios (Japan)"
-0.161-0.170: pheliosj - "Phelios (Japan)"
+0.161-0.175: pheliosj - "Phelios (Japan)"
 
 Resolution, 0.106-0.113: 288x224 @ 60.606060Hz
-Resolution, 0.114-0.170: 288x224 @ 60.606061Hz
+Resolution, 0.114-0.175: 288x224 @ 60.606061Hz
+
+
+Phelios
+-------
+Note: not currently represented at TG.
+ROM set changed: no.  Added in 0.161.
+0.161-0.176: phelios - "Phelios"
+
+Resolution, 0.161-0.176: 288x224 @ 60.606061Hz
+

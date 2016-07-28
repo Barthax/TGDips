@@ -1,11 +1,11 @@
 ROM set changed: yes
 0.106-0.130: pitfight - "Pit Fighter (rev 5)"
 0.130u3-0.133: pitfigh6 - "Pit Fighter (rev 6)"
-0.133u1-0.170: pitfight6 - "Pit Fighter (rev 6)"
+0.133u1-0.175: pitfight6 - "Pit Fighter (rev 6)"
 
 MAME History:
 - 0.130u3: Smitdogg added Pit Fighter (rev 7). Changed 'Pit Fighter (rev 5)' to clone '(rev 6)'. Renamed (pitfight) to (pitfigh6).
 - 0.133u1: Renamed (pitfigh6) to (pitfight6), (pitfigh5) to (pitfight5), (pitfigh4) to (pitfight4), (pitfigh3) to (pitfight3), (pitfighj) to (pitfightj) and (pitfighb) to (pitfightb).
 
 Resolution, 0.106-0.114: 336x240 @ 60.000000Hz
-Resolution, 0.115-0.170: 336x240 @ 59.922743Hz
+Resolution, 0.115-0.175: 336x240 @ 59.922743Hz
