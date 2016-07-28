@@ -1,5 +1,25 @@
+Note: two ROM sets represented here with changeover at 0.158.
+
+MAME History:
+- 0.158: ShouTime and The Dumping Union added Over Drive (set 1) and clone (set 3). Changed 'Over Drive' to clone 'Over Drive (set 2)'. Renamed (overdriv) to (overdriva).
+
+
+Over Drive (set 2)
+------------------
 ROM set changed: yes
 0.106-0.157: overdriv - "Over Drive"
-0.158-0.170: overdriva - "Over Drive (set 2)"
+0.158-0.176: overdriva - "Over Drive (set 2)"
 
 Resolution, 0.106-0.170: 304x256 @ 59.000000Hz
+Resolution, 0.171-0.176: 305x224 @ 59.185606Hz
+
+
+Over Drive (set 1)
+------------------
+Note: not currently represented on TG.
+ROM set changed: no.  Added in 0.158.
+0.158-0.176: overdriv - "Over Drive (set 1)"
+
+Resolution, 0.158-0.170: 304x256 @ 59.000000Hz
+Resolution, 0.171-0.176: 305x224 @ 59.185606Hz
+
