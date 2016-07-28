@@ -1,7 +1,7 @@
 ROM set changed: yes
 0.106-0.136: pang3 - "Pang! 3 (Euro 950511)"
 0.136u3-0.144: pang3n - "Pang! 3 (Euro 950511, not encrypted)"
-0.144u2-0.170: pang3b - "Pang! 3 (bootleg)"
+0.144u2-0.176: pang3b - "Pang! 3 (bootleg)"
 
 MAME History:
 - 0.136u3: Gerald (COY), B. Sparks, Smitdogg and The Dumping Union added Pang! 3 (Euro 950601). Changed description of clone 'Pang! 3 (Euro 950511)' to 'Pang! 3 (Euro 950511, not encrypted)'. Renamed (pang3) to (pang3n).
@@ -10,5 +10,5 @@ MAME History:
 Resolution, 0.106-0.126: 384x224 @ 60.000000Hz
 Resolution, 0.127-0.147: 384x224 @ 59.610000Hz
 Resolution, 0.148-0.152: 384x224 @ 59.629403Hz
-Resolution, 0.153-0.170: 384x224 @ 59.637405Hz
+Resolution, 0.153-0.176: 384x224 @ 59.637405Hz
 

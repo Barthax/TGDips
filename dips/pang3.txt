@@ -1,14 +1,30 @@
-ROM set changed: yes
-0.106-0.136: pang3 - "Pang! 3 (Euro 950511)"
-0.136u3-0.144: pang3n - "Pang! 3 (Euro 950511, not encrypted)"
-0.144u2-0.170: pang3b - "Pang! 3 (bootleg)"
+Note: two ROM sets represented here with changeover at 0.136u3.
 
 MAME History:
 - 0.136u3: Gerald (COY), B. Sparks, Smitdogg and The Dumping Union added Pang! 3 (Euro 950601). Changed description of clone 'Pang! 3 (Euro 950511)' to 'Pang! 3 (Euro 950511, not encrypted)'. Renamed (pang3) to (pang3n).
 - 0.144u2: CPS-1 update [Team CPS-1]: Kold666 dumped and added PALs (2 of 3) to Pang! 3 and clones. Fixed pang3, pang3j to use proper 128KB EPROM PA3_11.11F instead of the one resized used by pang3b. Identified and documented Pang! 3 (bootleg) as a bootleg, added a note. Changed description of clone 'Pang! 3 (Euro 950511, not encrypted)' to 'Pang! 3 (bootleg)'. Renamed (pang3n) to (pang3b).
 
+
+Pang! 3 (bootleg) (of Euro 950511)
+-----------------
+ROM set changed: yes
+0.106-0.136: pang3 - "Pang! 3 (Euro 950511)"
+0.136u3-0.144: pang3n - "Pang! 3 (Euro 950511, not encrypted)"
+0.144u2-0.176: pang3b - "Pang! 3 (bootleg)"
+
 Resolution, 0.106-0.126: 384x224 @ 60.000000Hz
 Resolution, 0.127-0.147: 384x224 @ 59.610000Hz
 Resolution, 0.148-0.152: 384x224 @ 59.629403Hz
-Resolution, 0.153-0.170: 384x224 @ 59.637405Hz
+Resolution, 0.153-0.176pa: 384x224 @ 59.637405Hz
+
+
+Pang! 3 (Euro 950601)
+---------------------
+Not: not currently represented on TG.
+ROM set changed: no.  Added in 0.136u3.
+0.136u3-0.176: pang3 - "Pang! 3 (Euro 950601)"
+
+Resolution, 0.136-0.147: 384x224 @ 59.610000Hz
+Resolution, 0.148-0.152: 384x224 @ 59.629403Hz
+Resolution, 0.153-0.176: 384x224 @ 59.637405Hz
 
