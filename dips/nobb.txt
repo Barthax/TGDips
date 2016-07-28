@@ -1,7 +1,10 @@
 ROM set changed: yes
 0.106-0.129: noboranb - "Noboranka (Japan)"
-0.130-0.170: nobb - "Noboranka (Japan, bootleg)"
+0.129u3-0.175: nobb - "Noboranka (Japan, bootleg)"
+
+MAME History:
+- 0.129u3: Guru added clone Noboranka (Japan). Not working (undumped 8751 MCU). Changed Z80 CPU1 clock speed to 4MHz. Changed parent description to 'Noboranka (Japan, bootleg)'. Renamed (noboranb) to (nobb).
 
 Resolution, 0.106-0.130: 240x224 @ 60.000000Hz
 Resolution, 0.131-0.144: 256x224 @ 60.096154Hz
-Resolution, 0.145-0.170: 512x224 @ 60.096154Hz
+Resolution, 0.145-0.175: 512x224 @ 60.096154Hz

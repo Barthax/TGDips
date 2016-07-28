@@ -1,6 +1,25 @@
+Note: two ROM sets represented here with changeover at 0.125u9.
+
+MAME History:
+- 0.125u9: Kanikani added Night Striker (World) and clone (Japan). Removed unnecessary analog input remapping. Added analog stick adjusting port. Added dipswitches 'Adjust Stick H (VARIABLE REGISTER)' and 'Adjust Stick V (VARIABLE REGISTER)'. Renamed (nightstr) to (nghtstru).
+- 0.133u1: Angelo Salese documented lamps/motor usage for Night Striker. Renamed (nghtstrj) to (nightstrj) and (nghtstru) to (nightstru).
+
+
+Night Striker (US)
+------------------
 ROM set changed: yes
 0.106-0.125: nightstr - "Night Striker (US)"
 0.125u9-0.133: nghtstru - "Night Striker (US)"
-0.133u1-0.170: nightstru - "Night Striker (US)"
+0.133u1-0.175: nightstru - "Night Striker (US)"
 
-Resolution, 0.106-0.170: 320x240 @ 60.000000Hz
+Resolution, 0.106-0.175: 320x240 @ 60.000000Hz
+
+
+Night Striker (World)
+---------------------
+Note: not currently represented on TG.
+ROM set changed: no
+0.125u9-0.175: nightstr - "Night Striker (World)"
+
+Resolution, 0.126-0.175: 320x240 @ 60.000000Hz
+

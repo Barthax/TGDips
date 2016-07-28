@@ -1,8 +1,8 @@
 ROM set changed: no
 0.106-0.159: nitrobal - "Nitro Ball (US)"
-0.160-0.170: nitrobal - "Nitro Ball (World, set 1)"
+0.160-0.175: nitrobal - "Nitro Ball (World, set 1)"
 
-Resolution, 0.106-0.170: 320x240 @ 58.000000Hz
+Resolution, 0.106-0.175: 320x240 @ 58.000000Hz
 
 Additional information to confirm no change in ROM set between 0.159 and 0.160:
 C:\MAME>mame159.exe -listcrc nitrobal

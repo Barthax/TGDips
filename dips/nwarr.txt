@@ -1,12 +1,29 @@
-ROM set changed: yes
-0.106-0.111: nwarr - "Night Warriors: Darkstalkers' Revenge (US 950406)"
-0.112-0.114: nwarr - "Night Warriors: Darkstalkers' Revenge (USA 950406)"
-0.115-0.170: nwarru - "Night Warriors: Darkstalkers' Revenge (USA 950406)"
+Note: two ROM sets represented here with changeover at 114u3.
 
 MAME History:
 - 0.114u3: Johan Samuelsson and Nicola Salmoria added Night Warriors: Darkstalkers' Revenge (Euro 950316). Renamed (nwarr) to (nwarru).
 
+
+Night Warriors: Darkstalkers' Revenge (USA 950406)
+--------------------------------------------------
+ROM set changed: yes
+0.106-0.111: nwarr - "Night Warriors: Darkstalkers' Revenge (US 950406)"
+0.112-0.114: nwarr - "Night Warriors: Darkstalkers' Revenge (USA 950406)"
+0.114u3-0.175: nwarru - "Night Warriors: Darkstalkers' Revenge (USA 950406)"
+
 Resolution, 0.106-0.113: 384x224 @ 59.633331Hz
 Resolution, 0.114-0.127: 384x224 @ 59.633333Hz
 Resolution, 0.128-0.152: 384x224 @ 59.629403Hz
-Resolution, 0.153-0.170: 384x224 @ 59.637405Hz
+Resolution, 0.153-0.175: 384x224 @ 59.637405Hz
+
+
+Night Warriors: Darkstalkers' Revenge (Euro 950316)
+---------------------------------------------------
+Note: not currently represented on TG.
+ROM set changed: no. Added in 0.114u3.
+0.114u3-0.176: nwarr - "Night Warriors: Darkstalkers' Revenge (Euro 950316)"
+
+Resolution, 0.115-0.127: 384x224 @ 59.633333Hz
+Resolution, 0.128-0.152: 384x224 @ 59.629403Hz
+Resolution, 0.153-0.176: 384x224 @ 59.637405Hz
+

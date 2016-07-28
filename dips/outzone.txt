@@ -1,9 +1,27 @@
+Note: two ROM sets represented here with changeover at 0.149u1.
+
+MAME History:
+- 0.149u1: Alex Jackson reorganized Outzone sets and improved descriptions. Fixed dipswitches and inputs (after verification of the M68000 and Z80 code) in outzone and clones. Tagged Out Zone (oldest set) Z80 ROM as BAD_DUMP and the set itself as GAME_IMPERFECT_SOUND after discovering that this clone's M68000 and Z80 ROMs are almost certainly mismatched, causing wrong sound effects. Added 'Test Switch' dipswitch. Changed clone (set 4) to parent 'Out Zone' and (set 1) to clone 'Out Zone (harder)', (set 2) to 'Out Zone (old set)', (set 5) to 'Out Zone (older set)', (set 3, prototype?) to 'Out Zone (oldest set)'. Renamed (outzone) to (outzoneh), (outzonec) to (outzone), (outzoneb) to (outzonec) and (outzoned) to (outzoneb).
+
+
+Out Zone (harder)
+-----------------
 ROM set changed: yes
 0.106-0.149: outzone - "Out Zone (set 1)"
-0.149u1-0.170: outzoneh - "Out Zone (harder)"
+0.149u1-0.175: outzoneh - "Out Zone (harder)"
 
 Resolution, 0.106-0.113: 320x240 @ 55.161545Hz
 Resolution, 0.114-0.144: 320x240 @ 60.000000Hz
 Resolution, 0.145-0.152: 320x240 @ 57.584258Hz
-Resolution, 0.153-0.170: 320x240 @ 55.161545Hz
+Resolution, 0.153-0.175: 320x240 @ 55.161545Hz
+
+
+Out Zone
+--------
+Note: not currently represented on TG.
+ROM set changed: no.  Added in 0.149u1.
+0.149u1-0.176: outzone - "Out Zone"
+
+Resolution, 0.150-0.152: 320x240 @ 57.584258Hz
+Resolution, 0.153-0.176: 320x240 @ 55.161545Hz
 
