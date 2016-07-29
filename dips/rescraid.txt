@@ -1,6 +1,6 @@
 ROM set changed: no
 0.106-0.143: rescraid - "Rescue Raider"
-0.144-0.170: rescraid - "Rescue Raider (5/11/87) (non-cartridge)"
+0.144-0.175: rescraid - "Rescue Raider (5/11/87) (non-cartridge)"
 
 Resolution, 0.106-0.113: 256x240 @ 60.000000Hz
-Resolution, 0.114-0.170: 256x240 @ 59.185606Hz
+Resolution, 0.114-0.175: 256x240 @ 59.185606Hz

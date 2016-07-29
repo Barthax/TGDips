@@ -1,7 +1,7 @@
 ROM set changed: no
-0.106-0.170: puzzlekg - "Puzzle King (Dance & Puzzle)"
+0.106-0.175: puzzlekg - "Puzzle King (Dance & Puzzle)"
 
-Resolution, 0.106-0.170: 320x240 @ 60.000000Hz
+Resolution, 0.106-0.175: 320x240 @ 60.000000Hz
 
 Rules: http://www.twingalaxies.com/scores.php?scores=79019
 If not shown during gameplay, can access Service Mode (F2) to show Level (no navigation required).

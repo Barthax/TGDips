@@ -1,5 +1,9 @@
 ROM set changed: no
 0.106-0.170: potopoto - "Poto Poto (Japan)"
+0.171-0.175: potopoto - "Poto Poto (Japan, Rev A)"
+
+MAME History:
+- 0.171: Confirmed on a PCB that Poto Poto is rev A [David Haywood]. Changed description to 'Poto Poto (Japan, Rev A)'.
 
 Resolution, 0.106-0.127: 320x224 @ 60.000000Hz
-Resolution, 0.128-0.170: 256x224 @ 60.000000Hz
+Resolution, 0.128-0.175: 256x224 @ 60.000000Hz

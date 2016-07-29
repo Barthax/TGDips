@@ -1,8 +1,27 @@
+Note: two ROM sets represented here with changeover at 0.158.
+
+MAME History:
+- 0.158: Idenfitied 'psychic5a' as the World / Overseas version, and the current parent as the Japan version, swapped them and named them as such (see http://tcrf.net/Psychic_5) [The Cutting Room Floor]. Changed (set 1) to clone 'Psychic 5 (Japan)' and (set 2) to parent 'Psychic 5 (World)'. Renamed (psychic5) to (psychic5j) and (psychic5a) to (psychic5).
+
+
+Psychic 5 (Japan)
+-----------------
 ROM set changed: yes
 0.106-0.129: psychic5 - "Psychic 5"
 0.130-0.157: psychic5 - "Psychic 5 (set 1)"
-0.158-0.170: psychic5j - "Psychic 5 (Japan)"
+0.158-0.175: psychic5j - "Psychic 5 (Japan)"
 
 Resolution, 0.106-0.113: 256x224 @ 53.799999Hz
 Resolution, 0.114-0.169: 256x224 @ 53.800000Hz
-Resolution, 0.170: 256x224 @ 54.001512Hz
+Resolution, 0.170-0.175: 256x224 @ 54.001512Hz
+
+
+Psychic 5 (World)
+-----------------
+Note: not currently represented at TG.
+ROM set changed: no.  Added in 0.158.
+0.158-0.176: psychic5 - "Psychic 5 (World)"
+
+Resolution, 0.158-0.169: 256x224 @ 53.800000Hz
+Resolution, 0.170-0.176: 256x224 @ 54.001512Hz
+

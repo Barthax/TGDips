@@ -1,5 +1,5 @@
 ROM set changed: no
-0.106-0.170: ringrage - "Ring Rage (Ver 2.3O 1992/08/09)"
+0.106-0.175: ringrage - "Ring Rage (Ver 2.3O 1992/08/09)"
 
 Resolution, 0.106-0.113: 320x224 @ 58.970001Hz
-Resolution, 0.114-0.170: 320x224 @ 58.970000Hz
+Resolution, 0.114-0.175: 320x224 @ 58.970000Hz

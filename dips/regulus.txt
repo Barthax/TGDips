@@ -1,8 +1,8 @@
 ROM set changed: no
 0.106-0.113: regulus - "Regulus (New Ver.)"
 0.114-0.121: regulus - "Regulus (315-5033, New Ver.)"
-0.122-0.170: regulus - "Regulus (315-5033, Rev A.)"
+0.122-0.175: regulus - "Regulus (315-5033, Rev A.)"
 
 Resolution, 0.106-0.130: 240x224 @ 60.000000Hz
 Resolution, 0.131-0.144: 256x224 @ 60.096154Hz
-Resolution, 0.145-0.170: 512x224 @ 60.096154Hz
+Resolution, 0.145-0.175: 512x224 @ 60.096154Hz

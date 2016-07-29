@@ -1,5 +1,8 @@
 ROM set changed: yes
 0.106-0.144: rainbow - "Rainbow Islands (new version)"
-0.144u5-0.170: rbisland - "Rainbow Islands (new version)"
+0.144u5-0.175: rbisland - "Rainbow Islands (new version)"
 
-Resolution, 0.106-0.170: 320x224 @ 60.000000Hz
+MAME History:
+- 0.144u5: Rainbow Islands driver cleanups and rename to avoid MESS conflict [David Haywood]. Renamed (rainbow) to (rbisland), (rainbowe) to (rbislande) and (rainbowo) to (rbislando).
+
+Resolution, 0.106-0.175: 320x224 @ 60.000000Hz

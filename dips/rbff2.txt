@@ -1,10 +1,31 @@
+Note: two ROM sets represented here with changeover at 0.112u3.
+
+MAME History:
+- 0.112u3: Renamed (rbff2) to (rbff2h) and (rbff2a) to (rbff2).
+- 0.143u6: Changed description to 'Real Bout Fatal Fury 2 - The Newcomers / Real Bout Garou Densetsu 2 - the newcomers (NGM-2400)' and clone (set 2) to 'Real Bout Fatal Fury 2 - The Newcomers / Real Bout Garou Densetsu 2 - the newcomers (NGH-2400)'.
+
+
+Real Bout Fatal Fury 2 - The Newcomers / Real Bout Garou Densetsu 2 - the newcomers (NGH-2400) / (set 1) / (set 2)
+----------------------------------------------------------------------------------------------
 ROM set changed: yes
 0.106-0.112: rbff2 - "Real Bout Fatal Fury 2 - The Newcomers / Real Bout Garou Densetsu 2 - the newcomers (set 1)"
-0.113-0.143: rbff2h - "Real Bout Fatal Fury 2 - The Newcomers / Real Bout Garou Densetsu 2 - the newcomers (set 2)"
-0.144-0.170: rbff2h - "Real Bout Fatal Fury 2 - The Newcomers / Real Bout Garou Densetsu 2 - the newcomers (NGH-2400)"
+0.112u3-0.143: rbff2h - "Real Bout Fatal Fury 2 - The Newcomers / Real Bout Garou Densetsu 2 - the newcomers (set 2)"
+0.143u6-0.175: rbff2h - "Real Bout Fatal Fury 2 - The Newcomers / Real Bout Garou Densetsu 2 - the newcomers (NGH-2400)"
 
 MAME History:
 - 0.112u3: Renamed (rbff2) to (rbff2h) and (rbff2a) to (rbff2).
 
 Resolution, 0.106-0.113: 320x224 @ 59.185608Hz
-Resolution, 0.114-0.170: 320x224 @ 59.185606Hz
+Resolution, 0.114-0.175: 320x224 @ 59.185606Hz
+
+
+Real Bout Fatal Fury 2 - The Newcomers / Real Bout Garou Densetsu 2 - The Newcomers (NGM-2400) / (set 1)
+----------------------------------------------------------------------------------------------
+Note: not currently represented on TG.
+ROM set changed: no.  Added in 0.112u3.
+0.112u3-0.143: rbff2 - "Real Bout Fatal Fury 2 - The Newcomers / Real Bout Garou Densetsu 2 - the newcomers (set 1)"
+0.143u6-0.176: rbff2 - "Real Bout Fatal Fury 2 - The Newcomers / Real Bout Garou Densetsu 2 - The Newcomers (NGM-2400)"
+
+Resolution, 0.113: 320x224 @ 59.185608Hz
+Resolution, 0.114-0.176: 320x224 @ 59.185606Hz
+

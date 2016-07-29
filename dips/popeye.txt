@@ -1,4 +1,4 @@
-ROM set changed?:
+ROM set changed: no
 0.33b1-0.175: popeye - "Popeye (revision D)"
 
 Resolution, 0.106-0.175: 512x448 @ 60.000000Hz

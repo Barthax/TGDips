@@ -3,5 +3,9 @@ ROM set changed: no
 0.134-0.165: ptblank - "Point Blank (World, GN2 Rev B)"
 0.166-0.170: ptblank - "Point Blank (World, GN2 Rev B, set 1)"
 
+MAME History:
+- 0.133u2: Brian Troha and Dumping Union added clone Gun Bullet (World, GN3 Rev B). Changed parent description to 'Point Blank (World, GN2 Rev B)' and clone 'Gun Bullet (Japan)' to 'Gun Bullet (Japan, GN1)'. Renamed (gunbulet) to (gunbuletj).
+- 0.166: Caius, Smitdogg and The Dumping Union added clone 'Point Blank (World, GN2 Rev B, set 2)' (Namco 1994). Changed parent description to 'Point Blank (World, GN2 Rev B, set 1)'.
+
 Resolution, 0.106-0.113: 288x224 @ 59.700001Hz
 Resolution, 0.114-0.170: 288x224 @ 59.700000Hz

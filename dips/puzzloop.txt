@@ -1,6 +1,24 @@
+Note: two ROM sets represented here with changeover at 
+
+MAME History:
+- 0.143u4: Joerg Hartenberger added Puzz Loop (Europe, v0.94). Changed 'Puzz Loop (Europe)' to clone 'Puzz Loop (Europe, v0.93)'. Renamed (puzzloop) to (puzzloope).
+
+
+Puzz Loop (Europe, v0.93)
+-------------------------
 ROM set changed: yes
 0.106-0.143: puzzloop - "Puzz Loop (Europe)"
-0.143u4-0.170: puzzloope - "Puzz Loop (Europe, v0.93)"
+0.143u4-0.175: puzzloope - "Puzz Loop (Europe, v0.93)"
 
 Resolution, 0.106-0.125: 320x240 @ 60.000000Hz
-Resolution, 0.126-0.170: 320x240 @ 59.597100Hz
+Resolution, 0.126-0.175: 320x240 @ 59.597100Hz
+
+
+Puzz Loop (Europe, v0.94)
+-------------------------
+Note: not currently represented on TG.
+ROM set changed: no.  Added in 0.144.
+0.144-0.176: puzzloop - "Puzz Loop (Europe, v0.94)"
+
+Resolution, 0.144-0.176: 320x240 @ 59.597100Hz
+

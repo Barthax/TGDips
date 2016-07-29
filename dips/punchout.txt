@@ -1,6 +1,24 @@
+Note: two ROM sets represented here with changeover at 0.155.
+
+MAME History:
+- 0.155: [2600] added Punch-Out!! (Rev B). Added missing RGB PROMs from the bottom and top monitor. Changed 'Punch-Out!!' to clone 'Punch-Out!! (Rev A)'. Renamed (punchout) to (punchouta).
+
+
+Punch-Out!! (Rev A)
+-------------------
 ROM set changed: yes
 0.106-0.154: punchout - "Punch-Out!!"
-0.155-0.170: punchouta - "Punch-Out!! (Rev A)"
+0.155-0.175: punchouta - "Punch-Out!! (Rev A)"
 
 Resolution, 0.106: 256x448 @ 60.000000Hz
-Resolution, 0.107-0.170: 2 screens, both 256x224 @ 60.000000Hz
+Resolution, 0.107-0.175: 2 screens, both 256x224 @ 60.000000Hz
+
+
+Punch-Out!! (Rev B)
+-------------------
+Note: not currently represented on TG.
+ROM set changed: no.  Added in 0.155.
+0.155-0.176: punchout - "Punch-Out!! (Rev B)"
+
+Resolution, 0.155-0.176: 2 screens, both 256x224 @ 60.000000Hz
+

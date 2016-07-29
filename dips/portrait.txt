@@ -1,4 +1,4 @@
 ROM set changed: no
-0.106-0.170: portrait - "Portraits (set 1)"
+0.106-0.175: portrait - "Portraits (set 1)"
 
-Resolution, 0.106-0.170: 432x320 @ 50.000000Hz
+Resolution, 0.106-0.175: 432x320 @ 50.000000Hz

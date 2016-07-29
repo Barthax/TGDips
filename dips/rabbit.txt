@@ -1,9 +1,13 @@
 ROM set changed: no
 0.106-0.136: rabbit - "Rabbit"
 0.137-0.161: rabbit - "Rabbit (Japan)"
-0.162-0.170: rabbit - "Rabbit (Asia 3/6)"
+0.162-0.175: rabbit - "Rabbit (Asia 3/6)"
 
-Resolution, 0.106-0.170: 320x224 @ 60.000000Hz
+MAME History:
+- 0.137: David Haywood implemented default EEPROMs to Rabbit. Changed description to 'Rabbit (Japan)'.
+- 0.162: ShouTime changed parent description to 'Rabbit (Asia 3/6)'.
+
+Resolution, 0.106-0.175: 320x224 @ 60.000000Hz
 
 Additional information confirming no change between 0.161 and 0.162:
 C:\MAME>mame161.exe -listcrc rabbit

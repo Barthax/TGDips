@@ -1,6 +1,10 @@
 ROM set changed: no
 0.106-0.141: rampage - "Rampage (revision 3)"
 0.142-0.147: rampage - "Rampage (ver 3 8-27-86)"
-0.148-0.170: rampage - "Rampage (Rev 3, 8/27/86)"
+0.148-0.175: rampage - "Rampage (Rev 3, 8/27/86)"
 
-Resolution, 0.106-0.170: 512x480 @ 30.000000Hz
+MAEM History:
+- 0.141u2: Changed description to 'Rampage (ver 3 8-27-86)' and clone (revision 2) to 'Rampage (ver 2 8-4-86)'.
+- 0.147u4: Kevin Echbach fixed rom names and locations in Rampage according to PCB marking. Changed description to 'Rampage (Rev 3, 8/27/86)' and clone (ver 2 8-4-86) to 'Rampage (Rev 2, 8/4/86)'.
+
+Resolution, 0.106-0.175: 512x480 @ 30.000000Hz

@@ -1,4 +1,4 @@
 ROM set changed: no
-0.106-0.170: rimrockn - "Rim Rockin' Basketball (V2.2)"
+0.106-0.175: rimrockn - "Rim Rockin' Basketball (V2.2)"
 
-Resolution, 0.106-0.170: 352x240 @ 60.000000Hz
+Resolution, 0.106-0.175: 352x240 @ 60.000000Hz

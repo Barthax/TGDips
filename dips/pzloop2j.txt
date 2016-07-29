@@ -1,8 +1,27 @@
+Note: two ROM sets currently represented here with changeover at 0.145u2.
+
+MAME History:
+- 0.145u2: idc/Team Avalaunch added clone Puzz Loop 2 (Japan 010226). Renamed (pzloop2j) to (pzloop2jr1).
+
+
+Puzz Loop 2 (Japan 010205)
+--------------------------
 ROM set changed: yes
 0.106-0.145: pzloop2j - "Puzz Loop 2 (Japan 010205)"
-0.145u2-0.170: pzloop2jr1 - "Puzz Loop 2 (Japan 010205)"
+0.145u2-0.175: pzloop2jr1 - "Puzz Loop 2 (Japan 010205)"
 
 Resolution, 0.106-0.113: 384x224 @ 59.633331Hz
 Resolution, 0.114-0.127: 384x224 @ 59.633333Hz
 Resolution, 0.128-0.152: 384x224 @ 59.629403Hz
-Resolution, 0.153-0.170: 384x224 @ 59.637405Hz
+Resolution, 0.153-0.175: 384x224 @ 59.637405Hz
+
+
+Puzz Loop 2 (Japan 010226)
+--------------------------
+Note: not currently represented on TG.
+ROM set changed: no.  Added in 0.145u2.
+0.145u2-0.176: pzloop2j - "Puzz Loop 2 (Japan 010226)"
+
+Resolution, 0.146-0.152: 384x224 @ 59.629403Hz
+Resolution, 0.153-0.176: 384x224 @ 59.637405Hz
+

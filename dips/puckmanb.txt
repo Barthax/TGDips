@@ -1,4 +1,4 @@
-ROM set changes: yes:
+ROM set changes: yes
 0.53-0.131: puckman - "PuckMan (Japan set 1, Probably Bootleg)"
 0.132-0.147: puckman - "PuckMan (Japan set 1)"
 0.148: puckman - "Puck Man (Japan set 1)"   (minor description change only)

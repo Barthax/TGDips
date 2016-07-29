@@ -1,6 +1,9 @@
 ROM set changed: no
 0.106-0.130: puzlstar - "Puzzle Star"
-0.131-0.170: puzlstar - "Puzzle Star (ver. 100MG)"
+0.130u3-0.175: puzlstar - "Puzzle Star (ver. 100MG)"
+
+MAME History:
+- 0.130u3: Changed description to 'Puzzle Star (ver. 100MG)'.
 
 Resolution, 0.106-0.145: 448x224 @ 60.000000Hz
-Resolution, 0.146-0.170: 448x224 @ 59.170000Hz
+Resolution, 0.146-0.175: 448x224 @ 59.170000Hz

@@ -1,5 +1,9 @@
 ROM set changed: yes
 0.106-0.145: rastan - "Rastan (World)"
-0.145u6-0.170: rastana - "Rastan (World)"
+0.145u6-0.175: rastana - "Rastan (World)"
 
-Resolution, 0.106-0.170: 320x240 @ 60.000000Hz
+MAME History:
+- 0.145u5: ANY and The Dumping Union added clone Rastan (World, set 2). Changed parent description to 'Rastan (World, set 1)'.
+- 0.145u6: Stefan Lindberg added clone Rastan (US). Brian Troha cleaned up parent/child order. Added DIP locations. Corrected ROM names and added additional information / notes. Changed clone (World, set 2) to parent 'Rastan (World Rev 1)', (World, set 1) to clone 'Rastan (World)', (US, set 1) to 'Rastan (US Rev 1)' and (US, set 2) to 'Rastan (US, Earlier code base)'. Renamed (rastan) to (rastana), (rastan2) to (rastan), (rastanu2) to (rastanub), (rastsaga) to (rastsagaa) and (rastsaga1) to (rastsaga).
+
+Resolution, 0.106-0.175: 320x240 @ 60.000000Hz
