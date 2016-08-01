@@ -1,5 +1,5 @@
 ROM set changd: no
-0.106-0.170: sharrier - "Space Harrier (Rev A, 8751 315-5163A)"
+0.106-0.175: sharrier - "Space Harrier (Rev A, 8751 315-5163A)"
 
 Resolution, 0.106-0.114: 320x224 @ 60.000000Hz
-Resolution, 0.115-0.170: 320x224 @ 60.054389Hz
+Resolution, 0.115-0.175: 320x224 @ 60.054389Hz

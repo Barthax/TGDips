@@ -1,8 +1,11 @@
 ROM set changed: yes
 0.106-0.154: searchey - "Search Eye"
-0.155-0.173: searcheya - "Search Eye (English / Korean)"
+0.155-0.175: searcheya - "Search Eye (English / Korean)"
 
-Resolution, 0.106-0.173: 320x240 @ 60.000000Hz
+MAME History:
+- 0.155: System11 and The Dumping Union added Search Eye (English / Korean / Japanese / Italian). Changed 'Search Eye' to clone 'Search Eye (English / Korean)'. Renamed (searchey) to (searcheya).
+
+Resolution, 0.106-0.175: 320x240 @ 60.000000Hz
 
 TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Search+Eye
 Rules, Most Objects Found: http://www.twingalaxies.com/scores.php?scores=110609

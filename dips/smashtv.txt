@@ -1,11 +1,11 @@
 ROM set changed: no
-0.106-0.173: smashtv - "Smash T.V. (rev 8.00)"
+0.106-0.175: smashtv - "Smash T.V. (rev 8.00)"
 
 Resolution, 0.106-0.113: 410x256 @ 53.204948Hz
 Resolution, 0.114:       410x256 @ 53.204950Hz
 Resolution, 0.115-0.122: 399x253 @ 27.407585Hz
 Resolution, 0.123-0.154: 399x253 @ 54.815170Hz
-Resolution, 0.155-0.173: 410x256 @ 54.706840Hz
+Resolution, 0.155-0.175: 410x256 @ 54.706840Hz
 
 TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Smash+T.V.+%5Brev+8.00%5D
 Rules, ADeca 2005 ONLY Variation!: http://www.twingalaxies.com/scores.php?scores=9870

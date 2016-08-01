@@ -1,6 +1,36 @@
+Note: three ROM sets represented here with changeovers at 0.149u1 and 0.153.
+
+MAME History:
+- 0.149u1: Brian Troha and The Dumping Union added Shanghai III (US). Renamed (shangha3) to (shangha3j).
+- 0.153: Brian Troha and The Dumping Union added Shanghai III (World). Added Korean (?) tile rom to newly dumped Shanghai3 set. Was present on the board, but unused in our sets. Probably for use with undumped Korean program roms and leftover from conversion [Brian Troha]. Renamed (shangha3) to (shangha3u).
+
+
+Shanghai III (Japan)
+--------------------
 ROM set changed: yes
 0.106-0.149: shangha3 - "Shanghai III (Japan)"
-0.149u1-0.170: shangha3j - "Shanghai III (Japan)"
+0.149u1-0.175: shangha3j - "Shanghai III (Japan)"
 
 Resolution, 0.106-0.148: 384x224 @ 60.000000Hz
-Resolution, 0.149-0.170: 384x224 @ 59.410646Hz
+Resolution, 0.149-0.175: 384x224 @ 59.410646Hz
+
+
+Shanghai III (US)
+-----------------
+Note: not currently represented on TG.
+ROM set changed: yes.  Added in 0.149u1.
+0.149u1-0.152: shangha3 - "Shanghai III (US)"
+0.153-0.176: shangha3u - "Shanghai III (US)"
+
+Resolution, 0.149u1-0.176: 384x224 @ 59.410646Hz
+
+
+Shanghai III (World)
+--------------------
+Note: not currently represented on TG.
+ROM set changed: no.  Added in 0.153.
+0.153-0.176: shangha3 - "Shanghai III (World)"
+
+Resolution, 0.153-0.176: 384x224 @ 59.410646Hz
+
+

@@ -1,5 +1,6 @@
 ROM set changed: no
 0.106-0.148: shangha2 - "Shanghai II (Japan)"
-0.149-0.170: shangha2 - "Shanghai II (Japan, set 1)"
+0.149-0.175: shangha2 - "Shanghai II (Japan, set 1)"
 
-Resolution, 0.106-0.170: 384x280 @ 30.000000Hz
+Resolution, 0.106-0.171: 384x280 @ 30.000000Hz
+Resolution, 0.172-0.175: 384x280 @ 57.000000Hz

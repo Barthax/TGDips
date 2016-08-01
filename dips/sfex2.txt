@@ -1,5 +1,5 @@
 ROM set changed: no
 0.106-0.144: sfex2 - "Street Fighter EX 2 (USA 980526)"
-0.145-0.170: sfex2 - "Street Fighter EX2 (USA 980526)"
+0.145-0.175: sfex2 - "Street Fighter EX2 (USA 980526)"
 
-Resolution, 0.106-0.170: 640x480 @ 60.000000Hz
+Resolution, 0.106-0.175: 640x480 @ 60.000000Hz

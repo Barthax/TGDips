@@ -1,7 +1,7 @@
 ROM set changed: no
-0.106-0.170: slither - "Slither (set 1)"
+0.106-0.175: slither - "Slither (set 1)"
 
 Resolution, 0.106-0.114: 256x256 @ 60.000000Hz
 Resolution, 0.115: 256x256 @ 55.838470Hz
 Resolution, 0.116-0.146: 256x256 @ 76.293945Hz
-Resolution, 0.147-0.170: 256x256 @ 55.838470Hz
+Resolution, 0.147-0.175: 256x256 @ 55.838470Hz

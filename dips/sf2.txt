@@ -1,6 +1,6 @@
 ROM set changed: no
 0.106-0.138: sf2 - "Street Fighter II - The World Warrior (World 910522)"
-0.139-0.170: sf2 - "Street Fighter II: The World Warrior (World 910522)"   (minor description change only)
+0.139-0.175: sf2 - "Street Fighter II: The World Warrior (World 910522)"   (minor description change only)
 
 MAME History:
 - 0.139: Changed description to 'Street Fighter II: The World Warrior (World 910522)' and clones (World 910214) to 'Street Fighter II: The World Warrior (World 910214)', (World 910214, TAB Austria bootleg) to 'Street Fighter II: The World Warrior (TAB Austria, bootleg)', (US 910206) to 'Street Fighter II: The World Warrior (USA 910206)', (US 910214) to 'Street Fighter II: The World Warrior (USA 910214)', (US 910318) to 'Street Fighter II: The World Warrior (USA 910318)', (US 910228) to 'Street Fighter II: The World Warrior (USA 910228)', (US 910411) to 'Street Fighter II: The World Warrior (USA 910411)', (US 910522) to 'Street Fighter II: The World Warrior (USA 910522)', (US 911101) to 'Street Fighter II: The World Warrior (USA 911101)', (Japan 911210) to 'Street Fighter II: The World Warrior (Japan 911210)', (Japan 910214) to 'Street Fighter II: The World Warrior (Japan 910214)', (Japan 910306) to 'Street Fighter II: The World Warrior (Japan 910306)', (Quicken Pt-I, bootleg) to 'Street Fighter II: The World Warrior (Quicken Pt-I, bootleg)' and (Thunder Edition) to 'Street Fighter II: The World Warrior (Thunder Edition, bootleg)'.
@@ -9,7 +9,7 @@ MAME History:
 Resolution, 0.106-0.126: 384 x 224 @ 60.000000 Hz
 Resolution, 0.127-0.147: 384 x 224 @ 59.610000 Hz
 Resolution, 0.148-0.152: 384 x 224 @ 59.629403 Hz
-Resolution, 0.153-0.170: 384 x 224 @ 59.637405 Hz
+Resolution, 0.153-0.175: 384 x 224 @ 59.637405 Hz
 
 Rules, Points [Tournament Settings]: http://www.twingalaxies.com/scores.php?scores=7862
 

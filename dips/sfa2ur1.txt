@@ -2,12 +2,16 @@ ROM set changed: yes
 0.106-0.111: sfa2 - "Street Fighter Alpha 2 (US 960306)"
 0.112-0.124: sfa2 - "Street Fighter Alpha 2 (USA 960306)"
 0.124u5-0.141: sfa2u - "Street Fighter Alpha 2 (USA 960306)"
-0.141u1-0.173: sfa2ur1 - "Street Fighter Alpha 2 (USA 960306)"
+0.141u1-0.175: sfa2ur1 - "Street Fighter Alpha 2 (USA 960306)"
+
+MAME History:
+- 0.124u5: Razoola added Street Fighter Alpha 2 (Euro 960229). Renamed (sfa2) to (sfa2u).
+- 0.141u1: Ricky74, Layne, Smitdogg and The Dumping Union added clone Street Fighter Alpha 2 (USA 960430). Renamed (sfa2u) to (sfa2ur1).
 
 Resolution, 0.106-0.113: 384x224 @ 59.633331Hz
 Resolution, 0.114-0.127: 384x224 @ 59.633333Hz
 Resolution, 0.128-0.152: 384x224 @ 59.629403Hz
-Resolution, 0.153-0.173: 384x224 @ 59.637405Hz
+Resolution, 0.153-0.175: 384x224 @ 59.637405Hz
 
 TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Street+Fighter+Alpha+2+%5BUS+960306%5D
 Rules, Points [Tournament Settings]: http://www.twingalaxies.com/scores.php?scores=110780

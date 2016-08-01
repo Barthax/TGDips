@@ -1,5 +1,24 @@
+Note: two ROM sets represented here with changover at 0.114u2.
+
+MAME History:
+- 0.114u2: Guru added 'Street Fighter EX' (EURO 961219). Renamed (sfex) to (sfexu).
+
+
+Street Fighter EX (USA 961219)
+------------------------------
 ROM set changed: yes
 0.106-0.114: sfex - "Street Fighter EX (USA 961219)"
-0.114u2-0.170: sfexu - "Street Fighter EX (USA 961219)"
+0.114u2-0.175: sfexu - "Street Fighter EX (USA 961219)"
 
-Resolution, 0.106-0.170: 640x480 @ 60.000000Hz
+Resolution, 0.106-0.175: 640x480 @ 60.000000Hz
+
+
+Street Fighter EX (Euro 961219)
+-------------------------------
+Note: not currently represented at TG.
+ROM set changed: no.  Added in 0.114u2.
+0.114u2-0.138: sfex - "Street Fighter EX (EURO 961219)"
+0.139-0.176: sfex - "Street Fighter EX (Euro 961219)"
+
+Resolution, 0.115-0.176: 640x480 @ 60.000000Hz
+

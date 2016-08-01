@@ -2,7 +2,7 @@ ROM set changed: no
 0.106-0.143: smgp - "Super Monaco GP (set 9, World, Rev B, 'Twin', FD1094 317-0126a)"
 0.144-0.146: smgp - "Super Monaco GP (World, Rev B, 'Twin', FD1094 317-0126a)"
 0.147-0.165: smgp - "Super Monaco GP (World, Rev B, FD1094 317-0126a)"
-0.166-0.170: smgp - "Super Monaco GP (World, Rev B) (FD1094 317-0126a)"
+0.166-0.175: smgp - "Super Monaco GP (World, Rev B) (FD1094 317-0126a)"
 
 Resolution, 0.106-0.114: 320x224 @ 60.000000Hz
-Resolution, 0.115-0.170: 320x224 @ 59.637405Hz
+Resolution, 0.115-0.175: 320x224 @ 59.637405Hz

@@ -1,4 +1,4 @@
 ROM set changed: no
-0.106-0.170: shtrider - "Shot Rider"
+0.106-0.175: shtrider - "Shot Rider"
 
-Resolution, 0.106-0.170: 240x256 @ 56.750000Hz
+Resolution, 0.106-0.175: 240x256 @ 56.750000Hz

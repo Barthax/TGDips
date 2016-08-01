@@ -6,3 +6,4 @@ Resolution: 0.115-0.175: 320x240 @ 60.012477Hz
 
 TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=9-Ball%20Shootout%20[Set%201]
 Rules, Most Balls Pocketed: http://www.twingalaxies.com/scores.php?scores=41116
+Note: settings can only be confirmed by visual confirmation during game play.  This is caused by the Service Mode not showing any current values (only selections).

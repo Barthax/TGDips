@@ -1,11 +1,14 @@
 ROM set changed: yes
 0.106-0.138: sf2t - "Street Fighter II' - Hyper Fighting (US 921209)"
-0.138u2-0.173: sf2hfu - "Street Fighter II': Hyper Fighting (USA 921209)"
+0.138u2-0.175: sf2hfu - "Street Fighter II': Hyper Fighting (USA 921209)"
+
+MAME History:
+- 0.138u2: Changed 'Street Fighter II' - Hyper Fighting (World 921209)' from a clone of Street Fighter II' - Champion Edition (World 920313) to parent and 'Street Fighter II' - Hyper Fighting (US 921209)' and 'Street Fighter II' Turbo - Hyper Fighting (Japan 921209)' to the clones. Renamed (sf2t) to (sf2hfu).
 
 Resolution, 0.106-0.126: 384x224 @ 60.000000Hz
 Resolution, 0.127-0.147: 384x224 @ 59.610000Hz
 Resolution, 0.148-0.152: 384x224 @ 59.629403Hz
-Resolution, 0.153-0.173: 384x224 @ 59.637405Hz
+Resolution, 0.153-0.175: 384x224 @ 59.637405Hz
 
 TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Street+Fighter+II':+Hyper+Fighting+%5BUS+921209%5D
 Rules, Points [Tournament Settings]: http://www.twingalaxies.com/scores.php?scores=11187

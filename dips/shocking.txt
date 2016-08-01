@@ -1,5 +1,5 @@
 ROM set changed: no
-0.106-0.170: shocking - "Shocking"
+0.106-0.175: shocking - "Shocking"
 
 Resolution, 0.106-0.150: 380x224 @ 60.000000Hz
-Resolution, 0.151-0.170: 380x224 @ 60.096154Hz
+Resolution, 0.151-0.175: 380x224 @ 60.096154Hz

@@ -1,11 +1,25 @@
-ROM set changed: yes
-0.106-0.129: skullfng - "Skull Fang (Japan)"
-0.129u4-0.133: skullfnj - "Skull Fang (Japan)"
-0.133u1-0.170: skullfngj - "Skull Fang (Japan)"
+Note: two ROM sets represented here with changeover at 0.129u4.
 
 MAME History:
 - 0.129u4: Mexa added Skull Fang (World). Renamed (skullfng) to (skullfnj).
 - 0.133u1: Renamed (skullfnj) to (skullfngj).
 
-Resolution, 0.106-0.170: 320x240 @ 58.000000Hz
+
+Skull Fang (Japan)
+------------------
+ROM set changed: yes
+0.106-0.129: skullfng - "Skull Fang (Japan)"
+0.129u4-0.133: skullfnj - "Skull Fang (Japan)"
+0.133u1-0.175: skullfngj - "Skull Fang (Japan)"
+
+Resolution, 0.106-0.175: 320x240 @ 58.000000Hz
+
+
+Skull Fang (World)
+------------------
+Note: not currently represented on TG.
+ROM set changed: no.  Added in 0.129u4.
+0.129u4-0.176: skullfng - "Skull Fang (World)"
+
+Resolution, 0.130-0.176: 320x240 @ 58.000000Hz
 

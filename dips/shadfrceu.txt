@@ -1,7 +1,10 @@
 ROM set changed: yes
 0.106-0.167: shadfrce - "Shadow Force (US Version 2)"
-0.168-0.170: shadfrceu - "Shadow Force (US, Version 2)"
+0.168-0.175: shadfrceu - "Shadow Force (US, Version 2)"
+
+MAME History:
+- 0.168: David Haywood reverted a MAME 0.164 video change. Changed clone (Japan Version 3) to parent 'Shadow Force (World, Version 3)', (US Version 2) to clone 'Shadow Force (US, Version 2)' and (Japan Version 2) to 'Shadow Force (Japan, Version 2)'. Renamed (shadfrce) to (shadfrceu), (shadfrcej) to (shadfrce) and (shadfrcejv2) to (shadfrcej).
 
 Resolution, 0.106-0.128: 320x240 @ 60.000000Hz
 Resolution, 0.129-0.163: 320x240 @ 59.572440Hz
-Resolution, 0.164-0.170: 320x240 @ 57.444853Hz
+Resolution, 0.164-0.175: 320x240 @ 57.444853Hz
