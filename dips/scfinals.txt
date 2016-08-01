@@ -1,9 +1,24 @@
-ROM set changed: yes
-0.106-0.147: scfinals - "Super Cup Finals (Ver 2.1O 1993/11/19)"
-0.148-0.170: scfinalso - "Super Cup Finals (Ver 2.1O 1993/11/19)"
+Note: two ROM sets represented here with changeover at 0.148.
 
 MAME History:
 - 0.148: dlfrsilver and The Dumping Union added Super Cup Finals (Ver 2.2O 1994/01/13). Renamed (scfinals) to (scfinalso).
 
+
+Super Cup Finals (Ver 2.1O 1993/11/19)
+--------------------------------------
+ROM set changed: yes
+0.106-0.147: scfinals - "Super Cup Finals (Ver 2.1O 1993/11/19)"
+0.148-0.175: scfinalso - "Super Cup Finals (Ver 2.1O 1993/11/19)"
+
 Resolution, 0.106-0.113: 320x224 @ 58.970001Hz
-Resolution, 0.114-0.170: 320x224 @ 58.970000Hz
+Resolution, 0.114-0.175scfin: 320x224 @ 58.970000Hz
+
+
+Super Cup Finals (Ver 2.2O 1994/01/13)
+--------------------------------------
+Note: not currently represented on TG.
+ROM set changed: no.  Added in 0.148.
+0.148-0.176: scfinals - "Super Cup Finals (Ver 2.2O 1994/01/13)"
+
+Resolution, 0.148-0.176: 320x224 @ 58.970000Hz
+

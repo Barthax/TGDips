@@ -1,6 +1,25 @@
+Note: two ROM sets represented here with changeover at 0.111u1.
+
+MAME History:
+- 0.111u1: Stefan Lindberg added R-Type (World). Fixed rom names. Renamed (rtypepj) to (rtypejp) and (rtype) to (rtypej).
+
+
+R-Type (Japan)
+--------------
 ROM set changed: yes
 0.106-0.111: rtype - "R-Type (Japan)"
-0.111u1-0.170: rtypej - "R-Type (Japan)"
+0.111u1-0.175: rtypej - "R-Type (Japan)"
 
 Resolution, 0.106-0.122: 384x256 @ 55.000000Hz
-Resolution, 0.123-0.170: 384x256 @ 55.017606Hz
+Resolution, 0.123-0.175: 384x256 @ 55.017606Hz
+
+
+R-Type (World)
+--------------
+Note: not currently represented on TG.
+ROM set change: no.  Added in 0.111u1.
+0.111u1-0.176: rtype - "R-Type (World)"
+
+Resolution, 0.112-0.122: 384x256 @ 55.000000Hz
+Resolution, 0.123-0.176: 384x256 @ 55.017606Hz
+

@@ -1,8 +1,8 @@
 ROM set changed: no
-0.106-0.173: rocknms - "Rock'n MegaSession (Japan)"
+0.106-0.175: rocknms - "Rock'n MegaSession (Japan)"
 
 Resolution, 0.106: 320x544 @ 60.000000Hz
-Resolution, 0.107-0.173: 2 screens, 320x224 @ 60.000000Hz
+Resolution, 0.107-0.175: 2 screens, 320x224 @ 60.000000Hz
 
 TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Rock%27n+MegaSession+%5BJapan%5D
 Rules, Points [Live Mode, Single Player Only]: http://www.twingalaxies.com/scores.php?scores=91251

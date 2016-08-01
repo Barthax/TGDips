@@ -1,6 +1,6 @@
 ROM set changed: no
 0.106-0.147: robby - "Robby Roto"
-0.148-0.170: robby - "The Adventures of Robby Roto!"
+0.148-0.175: robby - "The Adventures of Robby Roto!"
 
 Resolution, 0.106-0.115: 320x204 @ 60.000000Hz
-Resolution, 0.116-0.170: 352x240 @ 60.054442Hz
+Resolution, 0.116-0.175: 352x240 @ 60.054442Hz

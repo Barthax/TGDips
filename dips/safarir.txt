@@ -1,6 +1,24 @@
+Note: two ROM sets represented here with changeover at 0.151.
+
+MAME History:
+- 0.151: Andrew Welburn added Safari Rally (World). Renamed (safarir) to (safarirj).
+
+
+Safari Rally (Japan)
+--------------------
 ROM set changed: yes
 0.106-0.150: safarir - "Safari Rally (Japan)"
-0.151-0.170: safarirj - "Safari Rally (Japan)"
+0.151-0.175: safarirj - "Safari Rally (Japan)"
 
 Resolution, 0.106-0.150: 256x208 @ 60.000000Hz
-Resolution, 0.151-0.170: 256x208 @ 60.000000Hz
+Resolution, 0.151-0.175: 256x208 @ 60.000000Hz
+
+
+Safari Rally (World)
+--------------------
+Note: not currently represented on TG.
+ROM set changed: no.  Added in 0.151.
+0.151-0.176: safarir - "Safari Rally (World)"
+
+Resolution, 0.151-0.176: 256x208 @ 60.000000Hz
+

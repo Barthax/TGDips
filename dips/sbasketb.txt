@@ -1,8 +1,34 @@
-ROM set changed: yes
-0.106-0.127: sbasketb - "Super Basketball (version G)"
-0.127u3-0.170: sbasketg - "Super Basketball (version G, encrypted)"
+Note: three ROM sets represented here with changeover at 0.127u3 and 0.132u3.
 
 MAME History:
 - 0.127u3: Super Basketball changes [Kevin Eshbach]: Corrected the Super Basketball Revision H rom dump. Updated driver with the DIP locations. Corrected the VLM XTAL. Corrected parent/child relationships by making the Revision H the parent. Turned on save state support. Changed clone 'Super Basketball (not encrypted)' to parent 'Super Basketball (version H, unprotected)', '(version G)' to clone '(version G, encrypted)' and '(version E)' to '(version E, encrypted)'. Renamed (sbasketb) to (sbasketg), (sbasketu) to (sbasketb) and (sbasketo) to (sbaskete).
+- 0.132u3: Mr Goodwraith, Smitdogg and Dumping Union added Super Basketball (version I, encrypted). Renamed (sbasketb) to (sbasketh).
 
-Resolution, 0.106-0.170: 256x224 @ 60.000000Hz
+
+Super Basketball (version G, encrypted)
+---------------------------------------
+ROM set changed: yes
+0.106-0.127: sbasketb - "Super Basketball (version G)"
+0.127u3-0.175: sbasketg - "Super Basketball (version G, encrypted)"
+
+Resolution, 0.106-0.175: 256x224 @ 60.000000Hz
+
+
+Super Basketball (version H, unprotected)
+-----------------------------------------
+Note: not currently represented on TG.
+ROM set changed: yes.  Added in 0.127u3.
+0.127u3-0.132: sbasketb - "Super Basketball (version H, unprotected)"
+0.132u3-0.176: sbasketh - "Super Basketball (version H, unprotected)"
+
+Resolution, 0.128-0.175: 256x224 @ 60.000000Hz
+
+
+Super Basketball (version I, encrypted)
+---------------------------------------
+Note: not currently represented on TG.
+ROM set changed: yes.  Added in 0.132u3.
+0.132u3-0.176: sbasketb - "Super Basketball (version I, encrypted)"
+
+Resolution, 0.133-0.175: 256x224 @ 60.000000Hz
+

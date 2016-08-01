@@ -1,6 +1,9 @@
 ROM set changed: no
 0.106-0.147: rthunder - "Rolling Thunder (new version)"
-0.148-0.170: rthunder - "Rolling Thunder (rev 3)"
+0.148-0.175: rthunder - "Rolling Thunder (rev 3)"
+
+MAME History:
+- 0.147u4: Andy Welburn added clone Rolling Thunder (rev 2). Changed parent description to 'Rolling Thunder (rev 3)' and clone (old version) to 'Rolling Thunder (rev 1)'. Renamed (rthundero) to (rthunder1).
 
 Resolution, 0.106-0.152: 288x224 @ 60.606060Hz
-Resolution, 0.153-0.170: 288x224 @ 60.606061Hz
+Resolution, 0.153-0.175: 288x224 @ 60.606061Hz

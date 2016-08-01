@@ -1,9 +1,24 @@
-ROM set changed: yes
-0.106-0.122: route16 - "Route 16"
-0.123-0.165: route16 - "Route 16 (set 1)"
-0.166-0.170: route16c - "Route 16 (set 3, bootleg?)"
+Note: two ROM sets represented here with changeover at 0.166.
 
 MAME History:
 - 0.166: Siftware and MASH added Route 16 (set 1). Changed 'Route 16 (set 1)' to clone 'Route 16 (set 3, bootleg?)'. Renamed (route16) to (route16c) and (route16b) to (route16bl).
 
-Resolution, 0.106-0.170: 256x256 @ 57.000000Hz
+
+Route 16 (set 1) / (set 3, bootleg?)
+------------------------------------
+ROM set changed: yes
+0.106-0.122: route16 - "Route 16"
+0.123-0.165: route16 - "Route 16 (set 1)"
+0.166-0.175: route16c - "Route 16 (set 3, bootleg?)"
+
+Resolution, 0.106-0.175: 256x256 @ 57.000000Hz
+
+
+Route 16 (set 1)
+----------------
+Note: not currently represented at TG.
+ROM set changed: no.  Added in 0.166.
+0.166-0.176: route16 - "Route 16 (set 1)"
+
+Resolution, 0.166-0.176: 256x256 @ 57.000000Hz
+

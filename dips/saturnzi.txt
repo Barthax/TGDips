@@ -2,6 +2,9 @@ ROM set changed: yes
 0.106-0.141: saturn - "Saturn"
 0.141u1-0.175: saturnzi - "Saturn"
 
+MAME History:
+- 0.141u1: Renamed (saturn) to (saturnzi).
+
 Resolution, 0.106-0.175: 256x224 @ 60.000000Hz
 
 Rules: http://www.twingalaxies.com/scores.php?scores=10152
