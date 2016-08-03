@@ -122,7 +122,6 @@ astdelux
 asterix
 asteroid
 asteroid2
-asteroids
 astinvad
 astorm3
 astrob
@@ -1018,7 +1017,6 @@ invinco
 invrvnge
 invrvngeb
 iqblock
-iremipt.h
 irobot
 ironhors
 irrmaze
@@ -1361,7 +1359,6 @@ mslug3
 mslug4
 mslugx
 mspacman
-mspacmanf
 mspacmat
 mspacmnf
 mstworld
@@ -2023,7 +2020,6 @@ sprint1
 sprint2
 sprint4
 sprint8
-spuhunt2
 spy
 spyhunt
 spyhunt2
