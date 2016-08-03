@@ -2,7 +2,12 @@ ROM set changed: yes
 0.106-0.129: splatter - "Splatter House (World)"
 0.129u6-0.133: splatteo - "Splatter House (World old version)"
 0.133u1-0.152: splattero - "Splatter House (World old version)"
-0.153-0.170: splatter2 - "Splatter House (World, old version (SH2))"
+0.153-0.175: splatter2 - "Splatter House (World, old version (SH2))"
+
+MAME History:
+- 0.129u6: Andy Henderson added Splatter House (World new version). Changed 'Splatter House (World)' to clone 'Splatter House (World old version)'. Renamed (splatter) to (splatteo).
+- 0.133u1: Renamed (splatteo) to (splattero) and (splattej) to (splatterj).
+- 0.153: Changed description to 'Splatter House (World, new version (SH3))' and clones (World old version) to 'Splatter House (World, old version (SH2))' and (Japan) to 'Splatter House (Japan, SH1)'. Renamed (splattero) to (splatter2).
 
 Resolution, 0.106-0.152: 288x224 @ 60.606060Hz
-Resolution, 0.153-0.170: 288x224 @ 60.606061Hz
+Resolution, 0.153-0.175: 288x224 @ 60.606061Hz

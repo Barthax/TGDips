@@ -1,9 +1,10 @@
 ROM set changed: yes
 0.106-0.108: solomon - "Solomon's Key (Japan)"
 0.108u3-0.141: solomonj - "Solomon's Key (Japan)"
-0.142-0.170: solomonj - "Solomon no Kagi (Japan)"
+0.141u4-0.175: solomonj - "Solomon no Kagi (Japan)"
 
 MAME History:
 - 0.108u3: Bobby Conover added Solomon's Key (US). Renamed (solomon) to (solomonj). Aaron Giles added new ROM loading option ROM_IGNORE() for the rom 8.3jk. This is a 32k rom and only 4k are needed.
+- 0.141u4: Changed description of clone (Japan) to 'Solomon no Kagi (Japan)'.
 
-Resolution, 0.106-0.170: 256x224 @ 60.000000Hz
+Resolution, 0.106-0.175: 256x224 @ 60.000000Hz

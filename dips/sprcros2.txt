@@ -1,5 +1,6 @@
 ROM set changed: no
 0.106-0.123: sprcros2 - "Super Cross 2 (Japan set 1)"
-0.125-0.170: sprcros2 - "Super Cross II (Japan, set 1)"
+0.125-0.175: sprcros2 - "Super Cross II (Japan, set 1)"
 
-Resolution, 0.106-0.170: 240x224 @ 60.000000Hz
+Resolution, 0.106-0.171: 240x224 @ 60.000000Hz
+Resolution, 0.172-0.175: 240x224 @ 55.638395Hz

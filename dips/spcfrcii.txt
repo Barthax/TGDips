@@ -1,5 +1,5 @@
 ROM set changed: no
-0.106-0.170: spcfrcii - "Special Forces II"
+0.106-0.175: spcfrcii - "Special Forces II"
 
 Resolution, 0.106-0.116: 256x224 @ 60.000000Hz
-Resolution, 0.117-0.170: 256x224 @ 60.606061Hz
+Resolution, 0.117-0.175: 256x224 @ 60.606061Hz

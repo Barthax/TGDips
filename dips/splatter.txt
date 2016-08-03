@@ -1,8 +1,30 @@
+Note: two ROM sets represented here with changeover at 0.129u6.
+
+MAME History:
+- 0.129u6: Andy Henderson added Splatter House (World new version). Changed 'Splatter House (World)' to clone 'Splatter House (World old version)'. Renamed (splatter) to (splatteo).
+- 0.133u1: Renamed (splatteo) to (splattero) and (splattej) to (splatterj).
+- 0.153: Changed description to 'Splatter House (World, new version (SH3))' and clones (World old version) to 'Splatter House (World, old version (SH2))' and (Japan) to 'Splatter House (Japan, SH1)'. Renamed (splattero) to (splatter2).
+
+
+Splatter House (World, old version (SH2))
+-----------------------------------------
 ROM set changed: yes
 0.106-0.129: splatter - "Splatter House (World)"
 0.129u6-0.133: splatteo - "Splatter House (World old version)"
 0.133u1-0.152: splattero - "Splatter House (World old version)"
-0.153-0.170: splatter2 - "Splatter House (World, old version (SH2))"
+0.153-0.175: splatter2 - "Splatter House (World, old version (SH2))"
 
 Resolution, 0.106-0.152: 288x224 @ 60.606060Hz
-Resolution, 0.153-0.170: 288x224 @ 60.606061Hz
+Resolution, 0.153-0.175: 288x224 @ 60.606061Hz
+
+
+Splatter House (World, new version (SH3))
+-----------------------------------------
+Note: not currently represented on TG.
+ROM set changed: no.  Added in 0.129u6.
+0.129u6-0.152: splatter - "Splatter House (World new version)"
+0.153-0.176: splatter - "Splatter House (World, new version (SH3))"
+
+Resolution, 0.130-0.152: 288x224 @ 60.606060Hz
+Resolution, 0.153-0.176: 288x224 @ 60.606061Hz
+

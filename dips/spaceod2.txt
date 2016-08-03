@@ -1,7 +1,10 @@
 ROM set changed: yes
 0.106-0.107: spaceod - "Space Odyssey"
-0.107u3-0.170: spaceod2 - "Space Odyssey (version 1)"
+0.107u3-0.175: spaceod2 - "Space Odyssey (version 1)"
+
+MAME History:
+- 0.107u3: Added Space Odyssey (version 2). Aaron Giles reimplemented Space Odyssey background including collision detect. Changed Z80 CPU1 clock speed to 3867000 Hz, VSync to 59.998135 Hz and palettesize from 129 to 128 colors. Changed region user1 to gfx2. Fixed rom names. Changed 'Space Odyssey' to clone 'Space Odyssey (version 1)'. Renamed (spaceod) to (spaceod2).
 
 Resolution, 0.106-0.107: 256x224 @ 60.000000Hz
 Resolution, 0.108-0.113: 256x224 @ 59.998135Hz
-Resolution, 0.114-0.170: 256x224 @ 59.998138Hz
+Resolution, 0.114-0.175: 256x224 @ 59.998138Hz

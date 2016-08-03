@@ -1,5 +1,46 @@
+Note: two ROM sets represented here with changeover at 0.133u2.
+
+MAME History:
+- 0.133u2: Team Japump added clone Space Fever (Old Ver.). Added new maincpu rom ($1800) to parent. Fixed rom names. Changed parent description to 'Space Fever (New Ver.)'. Renamed (spacefeva) to (spacefevo2).
+
+
+Space Fever (Old Ver.)
+----------------------
 ROM set changed: yes
 0.106-0.133: spacefev - "Space Fever (set 1)"
-0.133u2-0.170: spacefevo - "Space Fever (Old Ver.)"
+0.133u2-0.175: spacefevo - "Space Fever (Old Ver.)"
 
-Resolution, 0.106-0.170: 256x224 @ 60.000000Hz
+Resolution, 0.106-0.175: 256x224 @ 60.000000Hz
+
+Additional confirmation that spacefev became spacefevo:
+C:\MAME>mame133 -listcrc spacefev
+35f295bd sf.f1        Space Fever (set 1)
+0c633f4c sf.f2        Space Fever (set 1)
+f3d851cb sf.g1        Space Fever (set 1)
+1faef63a sf.g2        Space Fever (set 1)
+b365389d sf.h1        Space Fever (set 1)
+a163e800 sf.h2        Space Fever (set 1)
+00027be2 sf.i1        Space Fever (set 1)
+95c2c1ee sf.snd       Space Fever (set 1)
+c5914ec1 sf.prm       Space Fever (set 1)
+
+C:\MAME>mame134 -listcrc spacefevo
+35f295bd f1-ro-.bin   Space Fever (Old Ver.)
+0c633f4c f2-ro-.bin   Space Fever (Old Ver.)
+f3d851cb g1-ro-.bin   Space Fever (Old Ver.)
+1faef63a g2-ro-.bin   Space Fever (Old Ver.)
+b365389d h1-ro-.bin   Space Fever (Old Ver.)
+a163e800 h2-ro-.bin   Space Fever (Old Ver.)
+00027be2 i1-ro-.bin   Space Fever (Old Ver.)
+95c2c1ee ss3.ic2      Space Fever (Old Ver.)
+c5914ec1 f5-i-.bin    Space Fever (Old Ver.)
+
+
+Space Fever (New Ver.)
+----------------------
+Note: not currently represented on TG.
+ROM set changed: no.  Added in 0.133u2.
+0.133u2-0.176: spacefev - "Space Fever (New Ver.)"
+
+Resolution, 0.134-0.176: 256x224 @ 60.000000Hz
+
