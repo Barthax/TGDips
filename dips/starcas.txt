@@ -1,6 +1,6 @@
 ROM set changes:
-0.35-0.173: starcas - "Star Castle (version 3)"
+0.35-0.175: starcas - "Star Castle (version 3)"
 
-Resolution, 0.106-0.173: vector @ 38.000000Hz
+Resolution, 0.106-0.175: vector @ 38.000000Hz
 
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=110754

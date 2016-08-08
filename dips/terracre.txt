@@ -1,5 +1,23 @@
+Note: two ROM sets represented here with changeover at 0.141u4.
+
+MAME History:
+- 0.141u4: Siftware added Terra Cresta (YM3526 set 1). Changed description of clones (YM3526 set 2) to 'Terra Cresta (YM3526 set 3)' and (YM3526 set 1) to 'Terra Cresta (YM3526 set 2)'. Renamed (terracre) to (terracreo).
+
+
+Terra Cresta (YM3526 set 1) / (YM3526 set 2)
+--------------------------------------------
 ROM set changed: yes
 0.106-0.141: terracre - "Terra Cresta (YM3526 set 1)"
-0.141u4-0.170: terracreo - "Terra Cresta (YM3526 set 2)"
+0.141u4-0.175: terracreo - "Terra Cresta (YM3526 set 2)"
 
-Resolution, 0.106-0.170: 256x224 @ 60.000000Hz
+Resolution, 0.106-0.175: 256x224 @ 60.000000Hz
+
+
+Terra Cresta (YM3526 set 1)
+---------------------------
+Note: not currently represented on TG.
+ROM set changed: no.  Added in 0.141u4.
+0.141u4-0.176: terracre - "Terra Cresta (YM3526 set 1)"
+
+Resolution, 0.142-0.176: 256x224 @ 60.000000Hz
+

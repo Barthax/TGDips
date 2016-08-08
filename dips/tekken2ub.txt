@@ -1,9 +1,9 @@
 ROM set changed: yes
 0.106-0.142: tekken2 - "Tekken 2 Ver.B (TES3/VER.B)"
-0.143-0.170: tekken2ub - "Tekken 2 Ver.B (US, TES3/VER.B)"
+0.143-0.175: tekken2ub - "Tekken 2 Ver.B (US, TES3/VER.B)"
 
 MAME History:
 - 0.142u2: Atchoo, Smitdogg, The Dumping Union and smf added Tekken 2 Ver.B (US, TES3/VER.D). Changed 'Tekken 2 Ver.B (TES3/VER.B)' to clone 'Tekken 2 Ver.B (US, TES3/VER.B)' and clones 'Tekken 2 Ver.B (TES2/VER.B)' to 'Tekken 2 Ver.B (Asia, TES2/VER.B)' and 'Tekken 2 (TES2/VER.A)' to 'Tekken 2 (Asia, TES2/VER.A)'. Renamed (tekken2) to (tekken2ub), (tekken2a) to (tekken2ab) and (tekken2b) to (tekken2aa).
 
 Resolution, 0.106-0.142: 640x480 @ 60.000000Hz
-Resolution, 0.143-0.170: 640x480 @ 60.000000Hz
+Resolution, 0.143-0.175: 640x480 @ 60.000000Hz

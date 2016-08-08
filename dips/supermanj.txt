@@ -1,0 +1,10 @@
+Note: not currently represened on TG.
+ROM set changed: yes
+0.106-0.130: suprmanj - "Superman (Japan)"
+0.130u4-0.176: supermanj - "Superman (Japan)"
+
+MAME History:
+- 0.130u4: Renamed (suprmanj) to (supermanj).
+
+0.106-0.176: 384x240 @ 57.430000Hz
+

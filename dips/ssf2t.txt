@@ -1,7 +1,7 @@
 ROM set changed: no
-0.106-0.169: ssf2t - "Super Street Fighter II Turbo (World 940223)"
+0.106-0.175: ssf2t - "Super Street Fighter II Turbo (World 940223)"
 
 Resolution, 0.106-0.113: 384x224 @ 59.633331Hz
 Resolution, 0.114-0.127: 384x224 @ 59.633333Hz
 Resolution, 0.128-0.152: 384x224 @ 59.629403Hz
-Resolution, 0.153-0.169: 384x224 @ 59.637405Hz
+Resolution, 0.153-0.175: 384x224 @ 59.637405Hz

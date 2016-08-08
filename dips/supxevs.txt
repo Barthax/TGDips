@@ -1,4 +1,4 @@
 ROM set changed: no
-0.106-0.170: supxevs - "Vs. Super Xevious"
+0.106-0.175: supxevs - "Vs. Super Xevious"
 
-Resolution, 0.106-0.170: 256x240 @ 60.000000Hz
+Resolution, 0.106-0.175: 256x240 @ 60.000000Hz

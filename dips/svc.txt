@@ -1,9 +1,17 @@
 ROM set changed: no
 0.106-0.116: svc - "SvC Chaos - SNK vs Capcom (MVS)"
-0.117-0.119: svc - "SNK vs. CAPCOM SVC CHAOS (MVS)"
+0.116u2-0.119: svc - "SNK vs. CAPCOM SVC CHAOS (MVS)"
 0.120-0.138: svc - "SNK vs. CAPCOM SVC CHAOS"
-0.139-0.143: svc - "SNK vs. Capcom - SVC Chaos"
-0.144-0.170: svc - "SNK vs. Capcom - SVC Chaos (NGM-2690)(NGH-2690)"
+0.138u3-0.143: svc - "SNK vs. Capcom - SVC Chaos"
+0.143u6-0.173: svc - "SNK vs. Capcom - SVC Chaos (NGM-2690)(NGH-2690)"
+0.174-0.175: svc - "SNK vs. Capcom - SVC Chaos (NGM-2690 ~ NGH-2690)"
+
+MAME History:
+- 0.116u2: Added new cpu2 and user3 roms. Changed description to 'SNK vs. CAPCOM SVC CHAOS'.
+- 0.120: Johnboy removed MVS tag, only one version exists (AES/MVS/PCB). Changed description to 'SNK vs. CAPCOM SVC CHAOS' and clone (MVS) (bootleg) to 'SNK vs. CAPCOM SVC CHAOS (bootleg)'.
+- 0.138u3: Changed description to 'SNK vs. Capcom - SVC Chaos'.
+- 0.143u6: Changed description to 'SNK vs. Capcom - SVC Chaos (NGM-2690)(NGH-2690)'.
+- 0.174: Changed description to 'SNK vs. Capcom - SVC Chaos (NGM-2690 ~ NGH-2690)'.
 
 Resolution, 0.106-0.113: 320x224 @ 59.185608Hz
 Resolution, 0.114-0.170: 320x224 @ 59.185606Hz

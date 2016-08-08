@@ -1,7 +1,24 @@
+Note: two ROM sets represented here with changeover at 0.148u2.
+
+MAME History:
+- 0.148u2: ShouTime and The Dumping Union added Starblade (World). Renamed (starblad) to (starbladj).
+
+
+Starblade (Japan)
+-----------------
 ROM set changed: yes
 0.106-0.130: starblad - "Starblade"
 0.131-0.148: starblad - "Starblade (Japan)"
-0.148u2-0.170: starbladj - "Starblade (Japan)"
+0.148u2-0.175: starbladj - "Starblade (Japan)"
 
-Resolution, 0.106-0.170: 496x480 @ 60.000000Hz
+Resolution, 0.106-0.175: 496x480 @ 60.000000Hz
+
+
+Starblade (World)
+-----------------
+Note: not currently represented on TG.
+ROM set changed: no.  Added in 0.148u2.
+0.148u2-0.176: starblad - "Starblade (World)"
+
+Resolution, 0.149-0.176: 496x480 @ 60.000000Hz
 

@@ -1,6 +1,6 @@
 ROM set changed: no
-0.106-0.170: subroc3d - "Subroc-3D"
+0.106-0.175: subroc3d - "Subroc-3D"
 
 Resolution, 0.106-0.108: 240x224 @ 60.000000Hz
 Resolution, 0.109-0.113: 512x224 @ 59.090908Hz
-Resolution, 0.114-0.170: 512x224 @ 59.090909Hz
+Resolution, 0.114-0.175: 512x224 @ 59.090909Hz

@@ -1,5 +1,8 @@
 ROM set changed: no
 0.106-0.130: tekken3 - "Tekken 3 (TET1/VER.E1)"
-0.131-0.170: tekken3 - "Tekken 3 (Japan, TET1/VER.E1)"
+0.131-0.175: tekken3 - "Tekken 3 (Japan, TET1/VER.E1)"
 
-Resolution, 0.106-0.170: 640x480 @ 60.000000Hz
+MAME History:
+- 0.130u1: Changed description to 'Tekken 3 (Japan, TET1/VER.E1)'.
+
+Resolution, 0.106-0.175: 640x480 @ 60.000000Hz

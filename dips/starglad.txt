@@ -1,5 +1,8 @@
 ROM set changed: no
 0.106-0.144: starglad - "Star Gladiator (USA 960627)"
-0.145-0.170: starglad - "Star Gladiator Episode I: Final Crusade (USA 960627)"
+0.144u4-0.175: starglad - "Star Gladiator Episode I: Final Crusade (USA 960627)"
 
-Resolution, 0.106-0.170: 640x480 @ 60.000000Hz
+MAME History:
+- 0.144u4: Changed parent and clone descriptions to 'Star Gladiator Episode I: Final Crusade'.
+
+Resolution, 0.106-0.175: 640x480 @ 60.000000Hz

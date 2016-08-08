@@ -1,5 +1,8 @@
 ROM set changed: yes
 0.106-0.141: terracre - "Terra Cresta (YM3526 set 1)"
-0.141u4-0.170: terracreo - "Terra Cresta (YM3526 set 2)"
+0.141u4-0.175: terracreo - "Terra Cresta (YM3526 set 2)"
 
-Resolution, 0.106-0.170: 256x224 @ 60.000000Hz
+MAME History:
+- 0.141u4: Siftware added Terra Cresta (YM3526 set 1). Changed description of clones (YM3526 set 2) to 'Terra Cresta (YM3526 set 3)' and (YM3526 set 1) to 'Terra Cresta (YM3526 set 2)'. Renamed (terracre) to (terracreo).
+
+Resolution, 0.106-0.175: 256x224 @ 60.000000Hz

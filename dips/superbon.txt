@@ -1,7 +1,11 @@
 ROM set changed: no
 0.106-0.125: superbon - "Super Bond"
-0.126-0.146: superbon - "Agent Super Bond (Scobra Hardware)"
-0.147-0.170: superbon - "Agent Super Bond (Super Cobra conversion)"
+0.125u5-0.146: superbon - "Agent Super Bond (Scobra Hardware)"
+0.146u3-0.170: superbon - "Agent Super Bond (Super Cobra conversion)"
+
+MAME History:
+- 0.125u5: Couriersud moved Super Bond to the Galaxian driver. Changed year to 1985 following information on arcadeflyers.com. Added Discrete sound. Changed visible area to 224x768 and palettesize to 32 colors. Changed description to 'Agent Super Bond (Scobra Hardware)' and Manufacturer to 'Signatron USA'.
+- 0.146u3: Make it clearer that Super Bond is a conversion kit. Added color prom from Super Cobra instead of no dump [hap]. Changed description to 'Agent Super Bond (Super Cobra conversion)'.
 
 Resolution, 0.106-0.113: 256x224 @ 60.606060Hz
 Resolution, 0.114-0.125: 256x224 @ 60.606061Hz

@@ -1,12 +1,29 @@
-ROM set changed: yes
-0.106-0.123: tdragon - "Thunder Dragon"
-0.123u6-0.154: tdragon1 - "Thunder Dragon (4th Jun. 1991)"
-0.155-0.170: tdragon1 - "Thunder Dragon (4th Jun. 1991, protected)"
+Note: two ROM sets represented here with changeover at 0.123u6.
 
 MAME History:
 - 0.123u6: Corrado Tomaselli added Thunder Dragon (9th Jan. 1992). Renamed (tdragon) to (tdragon1). Changed 'Thunder Dragon' to clone 'Thunder Dragon (4th Jun. 1991)'. Changed 68000 CPU1 clock speed to 8MHz.
+- 0.155: Added proper NMK004 internal rom [trap15]. Thunder Dragon parent was not protected, I've marked it as such and removed the protection sim from it [David Haywood]. Added TMP90840 (8MHz) CPU2. Changed parent description to 'Thunder Dragon (8th Jan. 1992, unprotected)' and clone (4th Jun. 1991) to 'Thunder Dragon (4th Jun. 1991, protected)'.
+
+
+Thunder Dragon (4th Jun. 1991, protected)
+-----------------------------------------
+ROM set changed: yes
+0.106-0.123: tdragon - "Thunder Dragon"
+0.123u6-0.154: tdragon1 - "Thunder Dragon (4th Jun. 1991)"
+0.155-0.175: tdragon1 - "Thunder Dragon (4th Jun. 1991, protected)"
 
 Resolution, 0.106-0.122: 256x224 @ 60.000000Hz
 Resolution, 0.123-0.154: 256x224 @ 56.000000Hz
-Resolution, 0.155-0.170: 256x224 @ 56.180000Hz
+Resolution, 0.155-0.175: 256x224 @ 56.180000Hz
+
+
+Thunder Dragon (9th Jan. 1992) / (8th Jan. 1992, unprotected)
+-------------------------------------------------------------
+Note: not currently represented on TG.
+ROM set changed: no.  Added in 0.123u6.
+0.123u6-0.154: tdragon - "Thunder Dragon (9th Jan. 1992)"
+0.155-0.176: tdragon - "Thunder Dragon (8th Jan. 1992, unprotected)"
+
+Resolution, 0.125-0.154: 256x224 @ 56.000000Hz
+Resolution, 0.155-0.176: 256x224 @ 56.180000Hz
 

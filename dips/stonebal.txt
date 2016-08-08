@@ -1,5 +1,5 @@
 ROM set changed: no
-0.106-0.170: stonebal - "Stone Ball (4 Players)"
+0.106-0.175: stonebal - "Stone Ball (4 Players)"
 
 Resolution, 0.106-0.114: 320x256 @ 50.270000Hz
-Resolution, 0.115-0.170: 320x256 @ 49.764608Hz
+Resolution, 0.115-0.175: 320x256 @ 49.764608Hz

@@ -1,5 +1,5 @@
 ROM set changed: no
-0.106-0.170: stratof - "Raiga - Strato Fighter (US)"
+0.106-0.175: stratof - "Raiga - Strato Fighter (US)"
 
 Resolution, 0.106-0.133: 256x224 @ 60.000000Hz
-Resolution, 0.134-0.170: 256x224 @ 59.170000Hz
+Resolution, 0.134-0.175: 256x224 @ 59.170000Hz

@@ -1,4 +1,4 @@
 ROM set changed: no
-0.106-0.170: starhawk - "Star Hawk"
+0.106-0.175: starhawk - "Star Hawk"
 
-Resolution, 0.106-0.170: vector @ 38.000000Hz
+Resolution, 0.106-0.175: vector @ 38.000000Hz

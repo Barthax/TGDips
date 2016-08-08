@@ -1,4 +1,4 @@
 ROM set changed: no
-0.106-0.169: sraider - "Space Raider"
+0.106-0.175: sraider - "Space Raider"
 
-Resolution, 0.106-0.169: 240x192 @ 60.000000Hz
+Resolution, 0.106-0.175: 240x192 @ 60.000000Hz

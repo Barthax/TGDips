@@ -3,6 +3,9 @@ ROM set changed: yes
 0.123-0.142: terraf - "Terra Force (set 1)"
 0.143-0.148: terrafb - "Terra Force (bootleg)"
 0.149-0.159: terrafb - "Terra Force (Japan bootleg set 2)"
-0.160-0.170: terrafb - "Terra Force (Japan, bootleg set 2)"
+0.160-0.175: terrafb - "Terra Force (Japan, bootleg set 2)"
 
-Resolution, 0.106-0.170: 320x240 @ 57.000000Hz
+MAME History:
+- 0.143: ShouTime added Terra Force (Japan). Changed clone (US set 2) to parent 'Terra Force' and clone (US set 1) to 'Terra Force (US)'. Renamed (terraf) to (terrafb), (terrafa) to (terraf) and (terrafb) to (terrafjb).
+
+Resolution, 0.106-0.175: 320x240 @ 57.000000Hz

@@ -1,5 +1,5 @@
 ROM set changed: no
 0.106-0.140: ssi - "Super Space Invaders '91 (World)"
-0.141-0.170: ssi - "Super Space Invaders '91 (World, Rev 1)"
+0.141-0.175: ssi - "Super Space Invaders '91 (World, Rev 1)"
 
-Resolution, 0.106-0.170: 320x224 @ 60.000000Hz
+Resolution, 0.106-0.175: 320x224 @ 60.000000Hz

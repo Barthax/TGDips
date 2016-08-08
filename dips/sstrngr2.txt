@@ -1,7 +1,10 @@
 ROM set changed: yes
 0.106-0.133: sstrngr2 - "Space Stranger 2"
-0.133u1-0.170: sstrangr2 - "Space Stranger 2"
+0.133u1-0.175: sstrangr2 - "Space Stranger 2"
+
+MAME History:
+- 0.133u1: Renamed (sstrngr2) to (sstrangr2).
 
 Resolution, 0.106-0.113: 240x224 @ 60.000000Hz
 Resolution, 0.114: 260x224 @ 59.541985Hz
-Resolution, 0.115-0.170: 256x224 @ 60.000000Hz
+Resolution, 0.115-0.175: 256x224 @ 60.000000Hz

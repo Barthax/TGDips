@@ -1,9 +1,28 @@
+Note: two ROM sets represented here with changeover at 0.138u4.
+
+MAME History:
+- 0.138u4: Gor, Smitdogg and The Dumping Union added Terminator 2 - Judgment Day (rev LA4 08/03/92). Renamed (term2) to (term2la3).
+
+
+Terminator 2 - Judgment Day (rev LA3 03/27/92)
+----------------------------------------------
 ROM set changed: yes
 0.106-0.138: term2 - "Terminator 2 - Judgment Day (rev LA3 03/27/92)"
-0.138u4-0.170: term2la3 - "Terminator 2 - Judgment Day (rev LA3 03/27/92)"
+0.138u4-0.175: term2la3 - "Terminator 2 - Judgment Day (rev LA3 03/27/92)"
 
 Resolution, 0.106-0.113: 400x256 @ 53.204948Hz
 Resolution, 0.114: 400x256 @ 53.204950Hz
 Resolution, 0.115-0.122: 399x253 @ 27.407585Hz
 Resolution, 0.123-0.154: 399x253 @ 54.815170Hz
-Resolution, 0.155-0.170: 410x256 @ 54.706840Hz
+Resolution, 0.155-0.175: 410x256 @ 54.706840Hz
+
+
+Terminator 2 - Judgment Day (rev LA4 08/03/92)
+----------------------------------------------
+Note: not currently represented on TG.
+ROM set changed: no.  Added in 0.138u4.
+0.138u4-0.176: term2 - "Terminator 2 - Judgment Day (rev LA4 08/03/92)"
+
+Resolution, 0.139-0.154: 399x253 @ 54.815170Hz
+Resolution, 0.155-0.176: 410x256 @ 54.706840Hz
+

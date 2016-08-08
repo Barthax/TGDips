@@ -1,7 +1,7 @@
 ROM set changed: no
 0.106-0.132: szaxxon - "Super Zaxxon"
-0.133-0.170: szaxxon - "Super Zaxxon (315-5013)"
+0.133-0.175: szaxxon - "Super Zaxxon (315-5013)"
 
 Resolution, 0.106-0.107: 256x224 @ 60.000000Hz
 Resolution, 0.108-0.113: 256x224 @ 59.999409Hz
-Resolution, 0.114-0.170: 256x224 @ 59.999408Hz
+Resolution, 0.114-0.175: 256x224 @ 59.999408Hz

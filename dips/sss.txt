@@ -1,7 +1,7 @@
 ROM set changed: no
-0.106-0.170: sss - "Steep Slope Sliders (JUET 981110 V1.000)"
+0.106-0.175: sss - "Steep Slope Sliders (JUET 981110 V1.000)"
 
 Resolution, 0.106-0.128: 704x513 @ 60.000000Hz
 Resolution, 0.129-0.133: 704x512 @ 60.000000Hz
 Resolution, 0.134-0.142: 320x224 @ 59.828244Hz
-Resolution, 0.143-0.170: 320x224 @ 59.764793Hz
+Resolution, 0.143-0.175: 320x224 @ 59.764793Hz

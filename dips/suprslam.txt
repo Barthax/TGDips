@@ -1,5 +1,8 @@
 ROM set change: no
 0.106-0.149: suprslam - "Super Slams"
-0.150-0.170: suprslam - "From TV Animation Slam Dunk - Super Slams"
+0.150-0.175: suprslam - "From TV Animation Slam Dunk - Super Slams"
 
-Resolution, 0.106-0.170: 320x224 @ 60.000000Hz
+MAME History:
+- 0.150: Changed description to 'From TV Animation Slam Dunk - Super Slams'.
+
+Resolution, 0.106-0.175: 320x224 @ 60.000000Hz

@@ -1,6 +1,23 @@
+Note: two ROM sets represented here with changeover at 0.146u5.
+
+MAME History:
+- 0.146u5: Stefan Lindberg added 'Thunder Zone (Rev 1, World)'. ShouTime added clone Thunder Zone (Japan). Added PCB locations to all the Thunder Zone / Desert Assault sets [Brian Troha, ShouTime]. Better documented the PCB stack and changed clocks to be derived by on board OSC [Brian Troha, Stefan Lindberg]. Changed clock speeds of the 2x OKI6295 to 1006875 Hz and 2013750 Hz. Added proms (Unknown - $1000, 1800). Renamed (thndzone) to (thndzonea).
+
+
+Thunder Zone (World)
+--------------------
 ROM set changed: yes
 0.106-0.146: thndzone - "Thunder Zone (World)"
-0.146u5-0.170: thndzonea - "Thunder Zone (World)"
+0.146u5-0.175: thndzonea - "Thunder Zone (World)"
 
-Resolution, 0.106-0.170: 320x240 @ 60.000000Hz
+Resolution, 0.106-0.175: 320x240 @ 60.000000Hz
+
+
+Thunder Zone (World, Rev 1)
+---------------------------
+Note: not currently represented on TG.
+ROM set changed: no.  Added in 0.146u5.
+0.146u5-0.176: thndzone - "Thunder Zone (World, Rev 1)"
+
+Resolution, 0.147-0.176: 320x240 @ 60.000000Hz
 

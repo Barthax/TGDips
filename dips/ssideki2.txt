@@ -1,6 +1,7 @@
 ROM set changed: no
 0.106-0.143: ssideki2 - "Super Sidekicks 2 - The World Championship / Tokuten Ou 2 - real fight football"
-0.144-0.170: ssideki2 - "Super Sidekicks 2 - The World Championship / Tokuten Ou 2 - real fight football (NGM-061)(NGH-061)"
+0.144-0.173: ssideki2 - "Super Sidekicks 2 - The World Championship / Tokuten Ou 2 - real fight football (NGM-061)(NGH-061)"
+0.174-0.175: ssideki2 - "Super Sidekicks 2 - The World Championship / Tokuten Ou 2 - Real Fight Football (NGM-061 ~ NGH-061)"
 
 Resolution, 0.106-0.113: 320x224 @ 59.185608Hz
-Resolution, 0.114-0.170: 320x224 @ 59.185606Hz
+Resolution, 0.114-0.175: 320x224 @ 59.185606Hz

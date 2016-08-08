@@ -1,7 +1,10 @@
 ROM set changed: no
 0.106-0.113: teddybb - "TeddyBoy Blues (New Ver.)"
-0.114-0.170: teddybb - "TeddyBoy Blues (315-5115, New Ver.)"
+0.113u3-0.175: teddybb - "TeddyBoy Blues (315-5115, New Ver.)"
+
+MAME History:
+- 0.113u3: Changed description to 'TeddyBoy Blues (315-5115, New Ver.)' and clone (Old Ver.) to (315-5115, Old Ver.).
 
 Resolution, 0.106-0.130: 256x224 @ 60.000000Hz
 Resolution, 0.131-0.144: 256x224 @ 60.096154Hz
-Resolution, 0.145-0.170: 512x224 @ 60.096154Hz
+Resolution, 0.145-0.175: 512x224 @ 60.096154Hz

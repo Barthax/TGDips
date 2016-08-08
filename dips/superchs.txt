@@ -1,8 +1,23 @@
-ROM set changed: yes
-0.106-0.148: superchs - "Super Chase - Criminal Termination (US)"
-0.148u4-0.170: superchsu - "Super Chase - Criminal Termination (US)"
+Note: two ROM sets represented here with changeover at 0.148u4.
 
 MAME History:
 - 0.148u4: Porchy and The Dumping Union added Super Chase - Criminal Termination (World). Corrected main CPU clock, corrected some rom labels. Added PLDs to the sets [Porchy, Brian Troha, The Dumping Union]. Changed 68EC020 CPU1 clock speed to 20MHz. Renamed (superchs) to (superchsu).
 
-Resolution, 0.106-0.170: 320x240 @ 60.000000Hz
+
+Super Chase - Criminal Termination (US)
+---------------------------------------
+ROM set changed: yes
+0.106-0.148: superchs - "Super Chase - Criminal Termination (US)"
+0.148u4-0.175: superchsu - "Super Chase - Criminal Termination (US)"
+
+Resolution, 0.106-0.175: 320x240 @ 60.000000Hz
+
+
+Super Chase - Criminal Termination (World)
+------------------------------------------
+Note: not represented at TG.
+ROM set changed: no.  Added in 0.148u4.
+0.148u4-0.176: superchs - "Super Chase - Criminal Termination (World)"
+
+Resolution, 0.149-0.176: 320x240 @ 60.000000Hz
+

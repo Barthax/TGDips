@@ -1,6 +1,24 @@
+Note: two ROM sets represented here with changeover at 0.141u3.
+
+MAME History:
+- 0.141u3: hap fixed parent/clone relationship in ThePit driver. Changed 'The Pit' to clone 'The Pit (Japan)', clone (bootleg) to parent 'The Pit' and (Centuri) to 'The Pit (US)'. Renamed (thepit) to (thepitj), (thepitb) to (thepit) and (thepitc) to (thepitu).
+
+
+The Pit (Japan)
+---------------
 ROM set changed: yes
 0.106-0.141: thepit - "The Pit"
-0.141u3-0.170: thepitj - "The Pit (Japan)"
+0.141u3-0.175: thepitj - "The Pit (Japan)"
 
 Resolution, 0.106-0.118: 256x224 @ 60.000000Hz
-Resolution, 0.119-0.170: 256x224 @ 60.606061Hz
+Resolution, 0.119-0.175: 256x224 @ 60.606061Hz
+
+
+The Pit
+-------
+Note: not currently represented on TG.
+ROM set changed: no.  Added in 0.141u3.
+0.141u3-0.176: thepit - "The Pit"
+
+Resolution, 0.142-0.176: 256x224 @ 60.606061Hz
+

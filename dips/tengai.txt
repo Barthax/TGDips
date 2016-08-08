@@ -1,7 +1,26 @@
+Note: two ROM sets represented here with changeover at 0.127u4.
+
+MAME History:
+- 0.127u4: Jet Black and Tormod added 'Tengai (World)' (Psikyo 1996). Changed 'Tengai / Sengoku Blade: Sengoku Ace Episode II' to clone 'Sengoku Blade: Sengoku Ace Episode II / Tengai'. Renamed (tengai) to (tengaij).
+
+
+Sengoku Blade: Sengoku Ace Episode II / Tengai
+----------------------------------------------
 ROM set changed: yes
 0.106-0.127: tengai - "Tengai / Sengoku Blade: Sengoku Ace Episode II"
-0.127u4-0.170: tengaij - "Sengoku Blade: Sengoku Ace Episode II / Tengai"
+0.127u4-0.175: tengaij - "Sengoku Blade: Sengoku Ace Episode II / Tengai"
 
 Resolution, 0.106-0.113: 320x224 @ 59.299999Hz
 Resolution, 0.114-0.133: 320x224 @ 59.300000Hz
-Resolution, 0.134-0.170: 320x224 @ 59.900000Hz
+Resolution, 0.134-0.175: 320x224 @ 59.900000Hz
+
+
+Tengai (World)
+--------------
+Note: not currently represented on TG.
+ROM set changed: no.  Added in 0.127u4.
+0.127u4-0.176: tengai - "Tengai (World)"
+
+Resolution, 0.128-0.133: 320x224 @ 59.300000Hz
+Resolution, 0.134-0.176: 320x224 @ 59.900000Hz
+

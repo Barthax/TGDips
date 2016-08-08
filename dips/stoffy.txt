@@ -1,9 +1,16 @@
+Note: two ROM sets represented here with changeover at 0.153.
+
+- 0.153: System11 and The Dumping Union added Super Toffy. This is the original non Unico version by Midas. Changed 'Super Toffy' to clone 'Super Toffy (Unico license)'. Renamed (stoffy) to (stoffyu).
+
+
+Super Toffy (Unico license)
+---------------------------
 ROM set changed: yes
 0.106-0.152: stoffy - "Super Toffy"
-0.153-0.170: stoffyu - "Super Toffy (Unico license)"
+0.153-0.175: stoffyu - "Super Toffy (Unico license)"
 
 Resolution, 0.106-0.122: 240x224 @ 57.444853Hz
-Resolution, 0.123-0.0.170: 256x240 @ 57.444853Hz
+Resolution, 0.123-0.0.175: 256x240 @ 57.444853Hz
 
 Additional information confirming the transition from 0.152 to 0.153:
 C:\MAME>mame152 -listcrc stoffy
@@ -23,3 +30,13 @@ C:\MAME>mame153 -listcrc stoffyu
 f267109a u77.3                   stoffyu         Super Toffy (Unico license)
 ff190865 6.u80                   stoffyu         Super Toffy (Unico license)
 333d5b8a 5.u79                   stoffyu         Super Toffy (Unico license)
+
+
+Super Toffy
+-----------
+Note: not currently represented on TG.
+ROM set changed: no
+0.153-0.176: stoffy - "Super Toffy"
+
+Resolution, 0.153-0.176: 256x240 @ 57.444853Hz
+

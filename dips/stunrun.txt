@@ -1,5 +1,5 @@
 ROM set changed: no
-0.106-0.170: stunrun - "S.T.U.N. Runner (rev 6)"
+0.106-0.175: stunrun - "S.T.U.N. Runner (rev 6)"
 
 Resolution, 0.106-0.114: 512x240 @ 60.000000Hz
-Resolution, 0.115-0.170: 512x228 @ 60.201796Hz
+Resolution, 0.115-0.175: 512x228 @ 60.201796Hz

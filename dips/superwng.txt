@@ -1,11 +1,11 @@
 ROM set changed: no. Added in 0.142u3.
 0.106-0.142: NOT SUPPORTED
-0.142u3-0.169: superwng - "Super Wing"
+0.142u3-0.175: superwng - "Super Wing"
 
 MAME History:
 - 0.142u3: Tomasz Slanina and Wulfman added Super Wing (Wing 1985).
 
-Resolution, 0.143-0.169: 256x224 @ 60.000000Hz
+Resolution, 0.143-0.175: 256x224 @ 60.000000Hz
 
 Rules: http://www.twingalaxies.com/scores.php?scores=172374
 

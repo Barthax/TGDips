@@ -1,5 +1,23 @@
+Note: two ROM sets represented here with changeover at 0.143u5.
+
+MAME History:
+- 0.143u5: Added clone Tempest (rev 1, Revised Hardware). Corrected the rom labels, description and documentation for the revised hardware rev 3 of Tempest. Added DIP locations for the Tempest sets [Brian Troha]. Changed clone (rev 2, Revised Hardware) to parent 'Tempest (rev 3, Revised Hardware)'. Renamed (tempest) to (tempest3) and (tempest3) to (tempest).
+
+
+Tempest (rev 3)
+---------------
 ROM set changed: yes
 0.106-0.143: tempest - "Tempest (rev 3)"
-0.143u5-0.170: tempest3 - "Tempest (rev 3)"
+0.143u5-0.175: tempest3 - "Tempest (rev 3)"
 
-Resolution, 0.106-0.170: vector @ 60.000000Hz
+Resolution, 0.106-0.175: vector @ 60.000000Hz
+
+
+Tempest (rev 3, Revised Hardware)
+---------------------------------
+Note: not currently represented on TG.
+ROM set changed: no.  Added in 0.143u5.
+0.143u5-0.176: tempest - "Tempest (rev 3, Revised Hardware)"
+
+Resolution, 0.144-0.176: vector @ 60.000000Hz
+

@@ -1,9 +1,12 @@
 ROM set changed: no
 0.106-0.148: tfrceac - "ThunderForce AC"
-0.149-0.173: tfrceac - "Thunder Force AC" (minor description change only)
+0.149-0.175: tfrceac - "Thunder Force AC"
+
+MAME History:
+- 0.148u5: hap changed parent and clone descriptions to 'Thunder Force AC'.
 
 Resolution, 0.106-0.127: 320x224 @ 60.000000Hz
-Resolution, 0.128-0.173: 256x224 @ 60.000000Hz
+Resolution, 0.128-0.175: 256x224 @ 60.000000Hz
 
 TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=ThunderForce+AC
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=39333
