@@ -1,8 +1,13 @@
 ROM set changed: yes
 0.106-0.115: tomahawk - "Tomahawk 777 (Revision 1)"
 0.115u4-0.122: tomahaw1 - "Tomahawk 777 (Revision 1)"
-0.123-0.133: tomahaw1 - "Tomahawk 777 (rev 1)"
-0.133u1-0.170: tomahawk1 - "Tomahawk 777 (rev 1)"
+0.122u6-0.133: tomahaw1 - "Tomahawk 777 (rev 1)"
+0.133u1-0.175: tomahawk1 - "Tomahawk 777 (rev 1)"
+
+MAME History:
+- 0.115u4: Astro Fighter driver update [Zsolt Vasvari]: Added memory map/interrupt/video timings from schematics. Hooked up SN76477 to Tomahawk 777. Switched the two Tomahawk 777 sets. The newer version is now the main set and the older has been renamed to tomahaw1. General driver clean-up. Replaced Samples sound with SN76477. Changed visible area to 256x256 and VSync to 56.308461 Hz. Renamed (tomahawk) to (tomahaw1) and (tomahaw5) to (tomahawk).
+- 0.122u6: Changed description to 'Tomahawk 777 (rev 5)' and clone (Revision 1) to 'Tomahawk 777 (rev 1)'.
+- 0.133u1: Renamed (tomahaw1) to (tomahawk1).
 
 Resolution, 0.106-0.115: 240x240 @ 60.000000Hz
-Resolution, 0.116-0.170: 256x256 @ 56.308461Hz
+Resolution, 0.116-0.175: 256x256 @ 56.308461Hz

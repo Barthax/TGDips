@@ -1,6 +1,6 @@
 ROM set changed: no
-0.106-0.170: tokkae - "Taisen Tokkae-dama (ver JAA)"
+0.106-0.175: tokkae - "Taisen Tokkae-dama (ver JAA)"
 
 Resolution, 0.106: 288x224 @ 58.000000Hz
 Resolution, 0.107-0.125: 288x224 @ 60.000000Hz
-Resolution, 0.126-0.170: 288x224 @ 59.185606Hz
+Resolution, 0.126-0.175: 288x224 @ 59.185606Hz

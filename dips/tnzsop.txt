@@ -1,7 +1,11 @@
 ROM set changed: yes
 0.106-0.127: tnzso - "The NewZealand Story (World, older)"
 0.128: tnzso - "The NewZealand Story (World, older) (older PCB)"
-0.129u5-0.170: tnzsop - "The NewZealand Story (World, prototype?) (older PCB)"
+0.129u5-0.175: tnzsop - "The NewZealand Story (World, prototype?) (older PCB)"
+
+MAME History:
+- 0.128u4: Nicola Salmoria and David Haywood removed ROM banking kludges from NewZealand Story. Replaced I8X41 CPU3 with I8742 in clones 'The NewZealand Story (Japan, old version) (older PCB)' and '(World, prototype?) (older PCB)'.
+- 0.129u5: Corrado Tomaselli added clone The NewZealand Story (World, old version) (older PCB). Brian Troha corrected rom names for older TNZS sets. Renamed (tnzso) to (tnzsop).
 
 Resolution, 0.106-0.133: 256x224 @ 60.000000Hz
-Resolution, 0.134-0.170: 256x224 @ 59.150000Hz
+Resolution, 0.134-0.175: 256x224 @ 59.150000Hz
