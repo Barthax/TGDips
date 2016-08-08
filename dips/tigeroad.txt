@@ -1,6 +1,24 @@
+Note: two ROM sets represented here with changeover at 0.154.
+
+MAME History:
+- 0.154: Bonky0013 and The Dumping Union added Tiger Road (US). Bonky0013 and Brian Troha added PCB locations to the Tiger Road sets. Brian Troha corrected name for BPROM and document type for the Tiger Road sets. Changed 'Tiger Road (US)' to clone 'Tiger Road (US, Romstar license)'. Renamed (tigeroad) to (tigeroadu).
+
+
+Tiger Road (US, Romstar license)
+--------------------------------
 ROM set changed: yes
 0.106-0.153: tigeroad - "Tiger Road (US)"
-0.154-0.170: tigeroadu - "Tiger Road (US, Romstar license)"
+0.154-0.175: tigeroadu - "Tiger Road (US, Romstar license)"
 
 Resolution, 0.106-0.133: 256x224 @ 60.000000Hz
-Resolution, 0.134-0.170: 256x224 @ 60.080000Hz
+Resolution, 0.134-0.175: 256x224 @ 60.080000Hz
+
+
+Tiger Road (US)
+---------------
+Note: not currently represented on TG.
+ROM set changed: no.  Added in 0.154.
+0.154-0.176: tigeroad - "Tiger Road (US)"
+
+Resolution, 0.154-0.176: 256x224 @ 60.080000Hz
+

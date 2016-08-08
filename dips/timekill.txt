@@ -1,7 +1,7 @@
 ROM set changed: no
-0.106-0.170: timekill - "Time Killers (v1.32)"
+0.106-0.175: timekill - "Time Killers (v1.32)"
 
 Resolution, 0.106-0.113: 384x240 @ 60.000000Hz
 Resolution, 0.114-0.122: 200x200 @ 60.000000Hz
 Resolution, 0.123-0.153: 384x256 @ 60.106990Hz
-Resolution, 0.154-0.170: 384x240 @ 60.106990Hz
+Resolution, 0.154-0.175: 384x240 @ 60.106990Hz
