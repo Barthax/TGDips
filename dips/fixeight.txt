@@ -1,10 +1,10 @@
-ROM set changed: yes
+ROM set changed: no
 0.74u2-0.141: fixeight - "FixEight"
 0.142-0.175: fixeight - "FixEight (Europe)"
 
 MAME History:
-- 0.141u1: ... Changed parent description to 'FixEight (Europe)' and clone 'FixEight (bootleg)' to 'FixEight (Korea, bootleg)'. Renamed (fixeightb) to (fixeightbl).
-Added NVRAM fixeight.nv.
+- 0.141u1: Added clones FixEight (Europe, Taito license), (Hong Kong), (Hong Kong, Taito license), (Japan), (Japan, Taito license), (Korea), (Korea, Taito license), (Southeast Asia), (Southeast Asia, Taito license), (Taiwan), (Taiwan, Taito license), (USA) and (USA, Taito license). Roberto Zandona added several opcodes to FixEight (Europe). Alex Jackson found a few more FixEight (Europe) opcodes, by matching code in the interrupt routines with Batsugun. Alex Jackson corrected FixEight V25 address map (the YM2151 and OKI6295 are at a different location than the other games). Decrypted all used opcodes and added EEPROMS for all countries; now the sound works [Andrew Jackson, David Haywood, Roberto Zandona]. David Haywood hooked up EEPROM and cleaned up the inputport for FixEight (no dips). Added NVRAM fixeight.nv. Changed parent description to 'FixEight (Europe)' and clone (bootleg) to 'FixEight (Korea, bootleg)'. Renamed (fixeightb) to (fixeightbl).
+
 
 Resolution, 0.106-0.113: 320x240 @ 59.410645Hz
 Resolution, 0.114-0.122: 320x240 @ 59.410646Hz
