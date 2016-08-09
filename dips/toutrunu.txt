@@ -1,13 +1,19 @@
 ROM set changed: yes
 0.106-0.107: toutrun - "Turbo Out Run (set 3, upgrade kit, FD1094 317-0118)"
-0.108-0.125u5: toutrun - "Turbo Out Run (Out Run upgrade, FD1094 317-0118)"    (minor description change only)
+0.107u2-0.125u5: toutrun - "Turbo Out Run (Out Run upgrade, FD1094 317-0118)"    (minor description change only)
 0.125u6-0.137u3: toutrunu - "Turbo Out Run (Out Run upgrade, FD1094 317-0118)"
 0.137u4-0.165: toutrun - "Turbo Out Run (Out Run upgrade, FD1094 317-0118)"
-0.166-0.169: toutrun - "Turbo Out Run (Out Run upgrade) (FD1094 317-0118)"    (minor description change only)
+0.166-0.175: toutrun - "Turbo Out Run (Out Run upgrade) (FD1094 317-0118)"    (minor description change only)
+
+MAME History:
+- 0.107u2: Changed description to 'Turbo Out Run (Out Run upgrade, FD1094 317-0118)' and clones (set 1, FD1094 317-unknown) to 'Turbo Out Run (FD1094 317-unknown)' and (set 2, upright, FD1094 317-unknown) to 'Turbo Out Run (upright, FD1094 317-unknown)'.
+- 0.125u6: Frans van Egmond added Turbo Out Run (cockpit, FD1094 317-0109). Renamed (toutrun) to (toutrunu).
+- 0.137u4: Andrew Jackson corrected dipswitches in the most recently added Turbo Out Run set, and reorganized the sets so that the parent is the FD1094 317-0118 set, the "newest" set based on both EPROM and security chip part numbers. Changed clone (Out Run upgrade, FD1094 317-0118) to parent and (cockpit, FD1094 317-0109) to clone 'Turbo Out Run (deluxe cockpit, FD1094 317-0109)'. Renamed (toutrun2) to (toutrun3), (toutrun1) to (toutrun2), (toutrun) to (toutrun1) and (toutrunu) to (toutrun).
+- 0.166: David Haywood added clones 'Turbo Out Run (cockpit) (bootleg of FD1094 317-0107 set)', 'Turbo Out Run (Japan, cockpit) (bootleg of FD1094 317-0101 set)', 'Turbo Out Run (Japan, Out Run upgrade) (bootleg of FD1094 317-0117 set)' and 'Turbo Out Run (Out Run upgrade) (bootleg of FD1094 317-0118 set)'.
 
 Resolution, 0.106-0.114: 320x224 @ 60.000000Hz
 Resolution, 0.115-0.116: 321x224 @ 59.637405Hz
 Resolution, 0.117-0.135: 320x224 @ 59.637405Hz
-Resolution, 0.136-0.169: 320x224 @ 60.054389Hz
+Resolution, 0.136-0.175: 320x224 @ 60.054389Hz
 
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=120481

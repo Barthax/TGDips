@@ -1,0 +1,30 @@
+Note: not currently represented on TG.
+ROM set changed: yes.  Added in 0.74u2.
+0.74u2-0.82: toutruna - "Turbo Outrun (set 2)"
+0.82u2-0.88: toutruna - "Turbo Out Run (set 2)"
+0.88u5-0.91: toutruna - "Turbo Out Run (set 2, upright, 317-unknown)"
+0.92-0.107: toutrun2 - "Turbo Out Run (set 2, upright, FD1094 317-unknown)"
+0.107u2-0.137: toutrun2 - "Turbo Out Run (upright, FD1094 317-unknown)"
+0.137u4-0.144: toutrun3 - "Turbo Out Run (upright, FD1094 317-unknown)"
+0.144u7-0.165: toutrun3 - "Turbo Out Run (cockpit, FD1094 317-0107)"
+0.166-0.176: toutrun3 - "Turbo Out Run (cockpit) (FD1094 317-0107)"
+
+MAME History:
+- 0.74u2: Added 'Turbo Outrun (set 1)' (Sega 1989) and clone (set 2).
+- 0.82u2: Changed parent and clone descriptions to 'Turbo Out Run'.
+- 0.88u5: Added clone Turbo Out Run (set3, upgrade kit, 317-0118). Fixed gfx2/sound1 rom loading. Added 317-unknown.key. Changed description of clone (set 2) to 'Turbo Out Run (set 2, upright, 317-unknown)'.
+- 0.90u3: Changed description to 'Turbo Out Run (set 1, FD1094 317-unknown)' and clones (set 2, upright, 317-unknown) to 'Turbo Out Run (set 2, upright, FD1094 317-unknown)' and (set 3, upgrade kit, 317-0118) to 'Turbo Out Run (set 3, upgrade kit, FD1094 317-0118)'.
+- 0.92: Renamed (toutrun) to (toutrun1), (toutrunk) to (toutrun) and (toutruna) to (toutrun2).
+- 0.107u2: Changed description to 'Turbo Out Run (Out Run upgrade, FD1094 317-0118)' and clones (set 1, FD1094 317-unknown) to 'Turbo Out Run (FD1094 317-unknown)' and (set 2, upright, FD1094 317-unknown) to 'Turbo Out Run (upright, FD1094 317-unknown)'.
+- 0.111u6: Changed description of clone (FD1094 317-unknown) to 'Turbo Out Run (cockpit, FD1094 317-unknown)'.
+- 0.125u6: Frans van Egmond added Turbo Out Run (cockpit, FD1094 317-0109). Renamed (toutrun) to (toutrunu).
+- 0.137u4: Andrew Jackson corrected dipswitches in the most recently added Turbo Out Run set, and reorganized the sets so that the parent is the FD1094 317-0118 set, the "newest" set based on both EPROM and security chip part numbers. Changed clone (Out Run upgrade, FD1094 317-0118) to parent and (cockpit, FD1094 317-0109) to clone 'Turbo Out Run (deluxe cockpit, FD1094 317-0109)'. Renamed (toutrun2) to (toutrun3), (toutrun1) to (toutrun2), (toutrun) to (toutrun1) and (toutrunu) to (toutrun).
+- 0.144u7: Verified and corrected the Sega Security CPU number (317-xxxx) for one of the two unknown Turbo Out Run sets [Brian Troha]. Changed description of clone (upright, FD1094 317-unknown) to 'Turbo Out Run (upright, FD1094 317-0107)'.
+- 0.147: Identified clone Turbo Outrun "FD1094 317-unknown" set as 317-0106 and provided a working decryption key [Chris Hardy, The Dumping Union]. Changed description of clones (upright, FD1094 317-0107) to 'Turbo Out Run (cockpit, FD1094 317-0107)' and (cockpit, FD1094 317-unknown) to 'Turbo Out Run (cockpit, FD1094 317-0106)'.
+- 0.166: David Haywood added clones 'Turbo Out Run (cockpit) (bootleg of FD1094 317-0107 set)', 'Turbo Out Run (Japan, cockpit) (bootleg of FD1094 317-0101 set)', 'Turbo Out Run (Japan, Out Run upgrade) (bootleg of FD1094 317-0117 set)' and 'Turbo Out Run (Out Run upgrade) (bootleg of FD1094 317-0118 set)'.
+
+Resolution, 0.74u2-0.114: 320x224 @ 60.000000Hz
+Resolution, 0.115-0.116: 321x224 @ 59.637405Hz
+Resolution, 0.117-0.135: 320x224 @ 59.637405Hz
+Resolution, 0.136-0.176: 320x224 @ 60.054389Hz
+

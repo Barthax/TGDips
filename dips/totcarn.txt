@@ -1,7 +1,7 @@
 ROM set changed: no
-0.106-0.170: totcarn - "Total Carnage (rev LA1 03/10/92)"
+0.106-0.175: totcarn - "Total Carnage (rev LA1 03/10/92)"
 
 Resolution, 0.106-0.114: 400x256 @ 53.204950Hz
 Resolution, 0.115-0.122: 399x253 @ 27.407585Hz
 Resolution, 0.123-0.154: 399x253 @ 54.815170Hz
-Resolution, 0.155-0.170: 410x256 @ 54.706840Hz
+Resolution, 0.155-0.175: 410x256 @ 54.706840Hz
