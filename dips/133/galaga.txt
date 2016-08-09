@@ -1,0 +1,173 @@
+# MAME 0.133 source snippet [galaga.c]
+
+GAME( 1981, galaga,   0,       galaga,  galaga,   galaga,  ROT90, "Namco", "Galaga (Namco rev. B)", GAME_SUPPORTS_SAVE | GAME_IMPERFECT_GRAPHICS )
+
+static INPUT_PORTS_START( galaga )
+	PORT_START("IN0L")
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_BUTTON1 )
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_COCKTAIL
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_START1 )
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_START2 )
+
+	PORT_START("IN0H")
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_COIN1 )
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_COIN2 )
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_SERVICE1 )
+	PORT_SERVICE( 0x08, IP_ACTIVE_LOW )
+
+	PORT_START("IN1L")
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_2WAY
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_2WAY
+
+	PORT_START("IN1H")
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_2WAY PORT_COCKTAIL
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_2WAY PORT_COCKTAIL
+
+	PORT_START("DSWA")
+	PORT_DIPNAME( 0x03, 0x03, DEF_STR( Difficulty ) )
+	PORT_DIPSETTING(    0x03, DEF_STR( Easy ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Medium ) )
+	PORT_DIPSETTING(    0x01, DEF_STR( Hard ) )
+	PORT_DIPSETTING(    0x02, DEF_STR( Hardest ) )
+	PORT_DIPNAME( 0x04, 0x04, DEF_STR( Unknown ) )
+	PORT_DIPSETTING(    0x04, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x08, 0x00, DEF_STR( Demo_Sounds ) )
+	PORT_DIPSETTING(    0x08, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x10, 0x10, "Freeze" )
+	PORT_DIPSETTING(    0x10, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x20, 0x20, "Rack Test" )
+	PORT_DIPSETTING(    0x20, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x40, 0x40, DEF_STR( Unknown ) )
+	PORT_DIPSETTING(    0x40, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x80, 0x80, DEF_STR( Cabinet ) )
+	PORT_DIPSETTING(    0x80, DEF_STR( Upright ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Cocktail ) )
+
+	PORT_START("DSWB")
+	PORT_DIPNAME( 0x07, 0x07, DEF_STR( Coinage ) )
+	PORT_DIPSETTING(    0x04, DEF_STR( 4C_1C ) )
+	PORT_DIPSETTING(    0x02, DEF_STR( 3C_1C ) )
+	PORT_DIPSETTING(    0x06, DEF_STR( 2C_1C ) )
+	PORT_DIPSETTING(    0x07, DEF_STR( 1C_1C ) )
+	PORT_DIPSETTING(    0x01, DEF_STR( 2C_3C ) )
+	PORT_DIPSETTING(    0x03, DEF_STR( 1C_2C ) )
+	PORT_DIPSETTING(    0x05, DEF_STR( 1C_3C ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Free_Play ) )
+	/* TODO: bonus scores are different for 5 lives */
+	PORT_DIPNAME( 0x38, 0x10, DEF_STR( Bonus_Life ) )
+	PORT_DIPSETTING(    0x20, "20K 60K 60K" )
+	PORT_DIPSETTING(    0x18, "20K 60K" )
+	PORT_DIPSETTING(    0x10, "20K 70K 70K" )
+	PORT_DIPSETTING(    0x30, "20K 80K 80K" )
+	PORT_DIPSETTING(    0x38, "30K 80K" )
+	PORT_DIPSETTING(    0x08, "30K 100K 100K" )
+	PORT_DIPSETTING(    0x28, "30K 120K 120K" )
+	PORT_DIPSETTING(    0x00, DEF_STR( None ) )
+	PORT_DIPNAME( 0xc0, 0x80, DEF_STR( Lives ) )
+	PORT_DIPSETTING(    0x00, "2" )
+	PORT_DIPSETTING(    0x80, "3" )
+	PORT_DIPSETTING(    0x40, "4" )
+	PORT_DIPSETTING(    0xc0, "5" )
+INPUT_PORTS_END
+
+Resolution: 288x224 @ 60.606061Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Galaga+%5BNamco+rev.B%5D
+Note 1: the dip switch settings are shown (very briefly) during boot up around frame 700.
+Note 2: the player can use Service Mode (F2) during recording to show the settings.  It is not possible to confirm the settings after playback has ended as MAME reverts to the localised configuration.
+
+****************************************
+Rules, Points [Marathon]: http://www.twingalaxies.com/scores.php?scores=5223
+Rules, Points [Marathon / No Double Ship]: http://www.twingalaxies.com/scores.php?scores=131650
+
+ROMSet: Galaga
+Service Mode: Off
+Difficulty: Rank D [Hardest]
+Unknown: Off
+Freeze: Off
+Rack Test: Off
+Unknown: Off
+Cabinet: Upright
+Bonus Life: 20k, 70k and every 70k thereafter.
+Lives: 3
+
+Sample correct TG:
+DSWA: offset 0x70, repeat every 0x40, value 0xF6 or 0xFE
+- DSWA: 0x03 (Difficulty): 0x02 (Hardest)
+- DSWA: 0x04 (Unknown): 0x04 (Off)
+- DSWA: 0x08 (Demo_Sounds): [not relevant]
+- DSWA: 0x10 (Freeze): 0x10 (Off)
+- DSWA: 0x20 (Rack Test): 0x20 (Off)
+- DSWA: 0x40 (Unknown): 0x40 (Off)
+- DSWA: 0x80 (Cabinet): 0x80 (Upright)
+DSWB: offset 0x78, repeat every 0x40, value 0x97 typical but upper nibble being 0x9 and lower nibble being 0x7 or less is key.
+- DSWB: 0x07 (Coinage): [not relevant]
+- DSWB: 0x38 (Bonus_Life): 0x10 (20K 70K 70K)
+- DSWB: 0xc0 (Lives): 0x80 (3)
+    70: F6 00 00 00 00 00 00 00  97 00 00 00 00 00 00 00
+    B0: F6 00 00 00 00 00 00 00  97 00 00 00 00 00 00 00
+    F0: F6 00 00 00 00 00 00 00  97 00 00 00 00 00 00 00
+   130: F6 00 00 00 00 00 00 00  97 00 00 00 00 00 00 00
+****************************************
+Rules, Points [Tournament]: http://www.twingalaxies.com/scores.php?scores=131651
+Rules, Points [Tournament / No Double Ship]: http://www.twingalaxies.com/scores.php?scores=131652
+
+ROMSet: Galaga
+Service Mode: Off
+Difficulty: Rank D [Hardest]
+Unknown: Off
+Freeze: Off
+Rack Test: Off
+Unknown: Off
+Cabinet: Upright
+Bonus Life: None
+Lives: 5
+
+Sample correct TG: Points [Tournament]
+DSW A: offset 0x70, repeat every 0x40, value 0xF6 or 0xFE
+- DSW A: 0x03 (Difficulty): 0x02 (Hardest)
+- DSW A: 0x04 (Unknown): 0x04 (Off)
+- DSW A: 0x08 (Demo_Sounds): [not relevant]
+- DSW A: 0x10 (Freeze): 0x10 (Off)
+- DSW A: 0x20 (Rack Test): 0x20 (Off)
+- DSW A: 0x40 (Unknown): 0x40 (Off)
+- DSW A: 0x80 (Cabinet): 0x80 (Upright)
+DSW B: offset 0x78, repeat every 0x40, value 0xC7 typical but upper nibble being 0xc and lower nibble being 0x7 or less is key.
+- DSW B: 0x07 (Coinage): [not relevant]
+- DSW B: 0x38 (Bonus_Life): 0x00 (None)
+- DSW B: 0xc0 (Lives): 0xc0 (5)
+
+    70: F6 00 00 00 00 00 00 00  C7 00 00 00 00 00 00 00
+    B0: F6 00 00 00 00 00 00 00  C7 00 00 00 00 00 00 00
+    F0: F6 00 00 00 00 00 00 00  C7 00 00 00 00 00 00 00
+   130: F6 00 00 00 00 00 00 00  C7 00 00 00 00 00 00 00
+****************************************
+Rules, Points [Marathon / Kill-Screen]: http://www.twingalaxies.com/scores.php?scores=201864
+
+Sample correct TG:
+DSW A: offset 0x70, repeat every 0x40, value 0xF5 or 0xFD
+- DSW A: 0x03 (Difficulty): 0x01 (Hard)
+- DSW A: 0x04 (Unknown): 0x04 (Off)
+- DSW A: 0x08 (Demo_Sounds): [not relevant]
+- DSW A: 0x10 (Freeze): 0x10 (Off)
+- DSW A: 0x20 (Rack Test): 0x20 (Off)
+- DSW A: 0x40 (Unknown): 0x40 (Off)
+- DSW A: 0x80 (Cabinet): 0x80 (Upright)
+DSW B: offset 0x78, repeat every 0x40, value 0x97 typical but upper nibble being 0x9 and lower nibble being 0x7 or less is key.
+- DSW B: 0x07 (Coinage): [not relevant]
+- DSW B: 0x38 (Bonus_Life): 0x10 (20K 70K 70K)
+- DSW B: 0xc0 (Lives): 0x80 (3)
+
+    70: F5 00 00 00 00 00 00 00  97 00 00 00 00 00 00 00
+    B0: F5 00 00 00 00 00 00 00  97 00 00 00 00 00 00 00
+    F0: F5 00 00 00 00 00 00 00  97 00 00 00 00 00 00 00
+   130: F5 00 00 00 00 00 00 00  97 00 00 00 00 00 00 00
