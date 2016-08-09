@@ -140,3 +140,31 @@ DSW B: offset 0x2F, repeat every 0x7C, value 0x97 typical but upper nibble being
    120: 00 00 00 F6 00 00 00 97  00 00 00 00 00 00 00 00 | ...÷............
 ----
 
+Rules, Points [Marathon / Kill-Screen]: http://www.twingalaxies.com/scores.php?scores=201864
+ROM Set: galaga
+Service Mode: Off
+Difficulty: Rank C [Hard]
+Unknown: Off
+Freeze: Off
+Rack Test: Off
+Unknown: Off
+Cabinet: Upright
+Bonus Life: 20k, 70k and every 70k thereafter
+Lives: 3
+
+Sample correct TG:
+DSW A: offset 0x2B, repeat every 0x7C, value 0xF5 or 0xFD
+- DSW A: 0x03 (Difficulty): 0x01 (Hard)
+- DSW A: 0x04 (Unknown): 0x04 (Off)
+- DSW A: 0x08 (Demo_Sounds): [not relevant]
+- DSW A: 0x10 (Freeze): 0x10 (Off)
+- DSW A: 0x20 (Rack Test): 0x20 (Off)
+- DSW A: 0x40 (Unknown): 0x40 (Off)
+- DSW A: 0x80 (Cabinet): 0x80 (Upright)
+DSW B: offset 0x2F, repeat every 0x7C, value 0x97 typical but upper nibble being 0x9 and lower nibble being 0x7 or less is key.
+- DSW B: 0x07 (Coinage): [not relevant]
+- DSW B: 0x38 (Bonus_Life): 0x10 (20K 70K 70K)
+- DSW B: 0xc0 (Lives): 0x80 (3)
+    20: 00 00 00 FF 00 00 00 FF  00 00 00 F5 00 00 00 97 | ... ... ...÷....
+    A0: 00 00 00 FF 00 00 00 F5  00 00 00 97 00 00 00 00 | ... ...÷........
+   120: 00 00 00 F5 00 00 00 97  00 00 00 00 00 00 00 00 | ...÷............
