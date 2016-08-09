@@ -1,0 +1,102 @@
+# MAME 0.106 source snippet [cclimber.c]
+
+GAME( 1982, swimmer,  0,        swimmer,  swimmer,  0,        ROT0,   "Tehkan", "Swimmer (set 1)", 0 )
+
+#define SWIMIN0\
+	PORT_START_TAG("IN0")\
+	PORT_BIT( 0x01, IP_ACTIVE_HIGH, IPT_JOYSTICK_RIGHT ) PORT_8WAY PORT_COCKTAIL\
+	PORT_BIT( 0x02, IP_ACTIVE_HIGH, IPT_JOYSTICK_LEFT ) PORT_8WAY PORT_COCKTAIL\
+	PORT_BIT( 0x04, IP_ACTIVE_HIGH, IPT_JOYSTICK_UP ) PORT_8WAY PORT_COCKTAIL\
+	PORT_BIT( 0x08, IP_ACTIVE_HIGH, IPT_JOYSTICK_DOWN ) PORT_8WAY PORT_COCKTAIL\
+	PORT_BIT( 0x10, IP_ACTIVE_HIGH, IPT_BUTTON1 ) PORT_COCKTAIL\
+  	PORT_BIT( 0xe0, IP_ACTIVE_HIGH, IPT_UNUSED )
+
+#define SWIMIN1\
+	PORT_START_TAG("IN1")\
+	PORT_BIT( 0x01, IP_ACTIVE_HIGH, IPT_JOYSTICK_RIGHT ) PORT_8WAY\
+	PORT_BIT( 0x02, IP_ACTIVE_HIGH, IPT_JOYSTICK_LEFT ) PORT_8WAY\
+	PORT_BIT( 0x04, IP_ACTIVE_HIGH, IPT_JOYSTICK_UP ) PORT_8WAY\
+	PORT_BIT( 0x08, IP_ACTIVE_HIGH, IPT_JOYSTICK_DOWN ) PORT_8WAY\
+	PORT_BIT( 0x10, IP_ACTIVE_HIGH, IPT_BUTTON1 )\
+  	PORT_BIT( 0xe0, IP_ACTIVE_HIGH, IPT_UNUSED )
+
+#define SWIMDSW1\
+	PORT_START_TAG("DSW1")\
+	PORT_DIPNAME( 0x03, 0x00, DEF_STR( Lives ) )\
+	PORT_DIPSETTING(    0x00, "3" )\
+	PORT_DIPSETTING(    0x01, "4" )\
+	PORT_DIPSETTING(    0x02, "5" )\
+	PORT_DIPSETTING(    0x03, "Infinite (Cheat)")\
+	PORT_DIPNAME( 0x0c, 0x00, DEF_STR( Bonus_Life ) )\
+	PORT_DIPSETTING(    0x00, "10000" )\
+	PORT_DIPSETTING(    0x04, "20000" )\
+	PORT_DIPSETTING(    0x08, "30000" )\
+	PORT_DIPSETTING(    0x0c, DEF_STR( None ) )\
+	PORT_DIPNAME( 0x30, 0x00, DEF_STR( Coin_A ) )\
+	PORT_DIPSETTING(    0x10, DEF_STR( 2C_1C ) )\
+	PORT_DIPSETTING(    0x00, DEF_STR( 1C_1C ) )\
+	PORT_DIPSETTING(    0x20, DEF_STR( 1C_2C ) )\
+	PORT_DIPSETTING(    0x30, DEF_STR( 1C_3C ) )\
+	PORT_DIPNAME( 0xc0, 0x00, DEF_STR( Coin_B ) )\
+	PORT_DIPSETTING(    0x00, DEF_STR( 1C_1C ) )\
+	PORT_DIPSETTING(    0x40, DEF_STR( 1C_2C ) )\
+	PORT_DIPSETTING(    0x80, DEF_STR( 1C_3C ) )\
+  	PORT_DIPSETTING(    0xc0, DEF_STR( 1C_6C ) )
+
+#define SWIMIN4\
+	PORT_START_TAG("IN4")\
+	PORT_BIT( 0x01, IP_ACTIVE_HIGH, IPT_COIN1 )\
+	PORT_BIT( 0x02, IP_ACTIVE_HIGH, IPT_COIN2 )\
+	PORT_BIT( 0xfc, IP_ACTIVE_HIGH, IPT_UNUSED )
+
+
+INPUT_PORTS_START( swimmer )
+SWIMIN0
+SWIMIN1
+SWIMDSW1
+
+	PORT_START_TAG("IN3")      /* DSW2 */
+	PORT_BIT( 0x03, IP_ACTIVE_HIGH, IPT_UNUSED )
+	PORT_BIT( 0x04, IP_ACTIVE_HIGH, IPT_START1 )
+	PORT_BIT( 0x08, IP_ACTIVE_HIGH, IPT_START2 )
+	PORT_DIPNAME( 0x10, 0x10, DEF_STR( Cabinet ) )
+	PORT_DIPSETTING(    0x10, DEF_STR( Upright ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Cocktail ) )
+	PORT_DIPNAME( 0x20, 0x20, DEF_STR( Demo_Sounds ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x20, DEF_STR( On ) )
+	PORT_DIPNAME( 0xc0, 0x00, DEF_STR( Difficulty ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Easy ) )		// labeled this way for similarities with 'swimmerb'
+	PORT_DIPSETTING(    0x40, DEF_STR( Hard ) )		// labeled this way for similarities with 'swimmerb'
+	PORT_DIPSETTING(    0x80, DEF_STR( Harder ) )
+	PORT_DIPSETTING(    0xc0, DEF_STR( Hardest ) )
+
+SWIMIN4
+INPUT_PORTS_END
+
+Resolution: 256x224 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Swimmer+[set+1]
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=19520
+
+ROMSet: Swimmer
+Lives: 3
+Bonus Life: 10000
+Cabinet: Upright
+Difficulty: Easy
+Special Rules: At the end of the game you're permitted to use the Extra Life if you win it in the Bonus Game.
+
+Sample correct TG:
+SWIMDSW1: offset 0x2B, repeat every 0x7C, typical value 0x00
+- SWIMDSW1: 0x03 (Lives): 0x00 (3)
+- SWIMDSW1: 0x0c (Bonus_Life): 0x00 (10000)
+- SWIMDSW1: 0x30 (Coin_A): [not relevant]
+- SWIMDSW1: 0xc0 (Coin_B): [not relevant]
+IN3: offset 0x2F, repeat every 0x7C, typical value 0x30
+- IN3: 0x10 (Cabinet): 0x10 (Upright)
+- IN3: 0x20 (Demo_Sounds): [not relevant]
+- IN3: 0xc0 (Difficulty): 0x00 (Easy)
+
+    20: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 30
+    A0: 00 00 00 00 00 00 00 00  00 00 00 30 00 00 00 00
+   120: 00 00 00 00 00 00 00 30  00 00 00 00 00 00 00 00
