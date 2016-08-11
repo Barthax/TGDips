@@ -1,8 +1,11 @@
 ROM set changed: no
 0.106-0.134: vulcan - "Vulcan Venture"
-0.135-0.170: vulcan - "Vulcan Venture (New)"
+0.134u2-0.175: vulcan - "Vulcan Venture (New)"
+
+MAME History:
+- 0.134u2: Irongiant added clone Vulcan Venture (Old). Changed parent description to 'Vulcan Venture (New)' and clone (Older Ver.) to 'Vulcan Venture (Oldest)'. Renamed (vulcana) to (vulcanb).
 
 Resolution, 0.106-0.123: 320x224 @ 60.000000Hz
-Resolution, 0.125-0.170: 320x224 @ 60.606061Hz
+Resolution, 0.125-0.175: 320x224 @ 60.606061Hz
 
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=120623

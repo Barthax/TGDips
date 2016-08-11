@@ -1,7 +1,30 @@
-ROM set changed: yes
+Note: two ROM sets represented here with changeover at 0.129u1.
+
+MAME History:
+- 0.36RC1: Luca Elia added 'Takeda Shingen (Japan)' (Jaleco 1988).
+- 0.37b15: David Haywood added clone 'Shingen Samurai-Fighter (Japan, English)'. Changed parent description to 'Takeda Shingen (Japan, Japanese)'. Split sound2 rom to ($0, 20000 - 2x 128kb).
+- 0.129u1: Renamed (tshingen) to (tshingna) and (tshingna) to (tshingen).
+- 0.133u1: Renamed (tshingna) to (tshingena).
+
+
+Takeda Shingen (Japan, Japanese)
+--------------------------------
+ROM set changed: yes.  Added in 0.36RC1.
 0.106-0.129: tshingen - "Takeda Shingen (Japan, Japanese)"
 0.129u1-0.133: tshingna - "Takeda Shingen (Japan, Japanese)"
-0.133u1-0.170: tshingena - "Takeda Shingen (Japan, Japanese)"
+0.133u1-0.175: tshingena - "Takeda Shingen (Japan, Japanese)"
 
 Resolution, 0.106-0.168: 256x224 @ 60.000000Hz
-Resolution, 0.169-0.170: 256x224 @ 56.191350Hz
+Resolution, 0.169-0.175: 256x224 @ 56.191350Hz
+
+
+Shingen Samurai-Fighter (Japan, English)
+----------------------------------------
+Note: not currently represented at TG.
+ROM set changed: yes.  Added in 0.37b15.
+0.106-0.129: tshingna - "Shingen Samurai-Fighter (Japan, English)"
+0.129u1-0.176: tshingen - "Shingen Samurai-Fighter (Japan, English)"
+
+Resolution, 0.130-0.168: 256x224 @ 60.000000Hz
+Resolution, 0.169-0.176: 256x224 @ 56.191350Hz
+

@@ -1,7 +1,7 @@
 ROM set changed: no
-0.106-0.170: umk3 - "Ultimate Mortal Kombat 3 (rev 1.2)"
+0.106-0.175: umk3 - "Ultimate Mortal Kombat 3 (rev 1.2)"
 
 Resolution, 0.106-0.113: 400x254 @ 53.204948Hz
 Resolution, 0.114: 400x254 @ 53.204950Hz
 Resolution, 0.115-0.154: 399x253 @ 54.815170Hz
-Resolution, 0.155-0.170: 400x254 @ 54.706840Hz
+Resolution, 0.155-0.175: 400x254 @ 54.706840Hz

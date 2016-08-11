@@ -1,7 +1,12 @@
-ROM set changed: yes
+ROM set changed: yes.  Added in 0.36RC1.
 0.106-0.129: tshingen - "Takeda Shingen (Japan, Japanese)"
 0.129u1-0.133: tshingna - "Takeda Shingen (Japan, Japanese)"
-0.133u1-0.170: tshingena - "Takeda Shingen (Japan, Japanese)"
+0.133u1-0.175: tshingena - "Takeda Shingen (Japan, Japanese)"
+
+MAME History:
+- 0.36RC1: Luca Elia added 'Takeda Shingen (Japan)' (Jaleco 1988).
+- 0.129u1: Renamed (tshingen) to (tshingna) and (tshingna) to (tshingen).
+- 0.133u1: Renamed (tshingna) to (tshingena).
 
 Resolution, 0.106-0.168: 256x224 @ 60.000000Hz
-Resolution, 0.169-0.170: 256x224 @ 56.191350Hz
+Resolution, 0.169-0.175: 256x224 @ 56.191350Hz

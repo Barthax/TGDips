@@ -1,7 +1,7 @@
 ROM set changed: no
-0.106-0.169: troangel - "Tropical Angel"
+0.106-0.175: troangel - "Tropical Angel"
 
-Resolution, 0.106-0.169: 240x240 @ 57.000000Hz
+Resolution, 0.106-0.175: 240x240 @ 57.000000Hz
 
 Rules: http://www.twingalaxies.com/scores.php?scores=9808
 

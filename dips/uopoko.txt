@@ -1,5 +1,5 @@
 ROM set changed: no
-0.106-0.170: uopoko - "Puzzle Uo Poko (International)"
+0.106-0.175: uopoko - "Puzzle Uo Poko (International)"
 
 Resolution, 0.106-0.113: 320x240 @ 57.550644Hz
-Resolution, 0.114-0.170: 320x240 @ 57.550645Hz
+Resolution, 0.114-0.175: 320x240 @ 57.550645Hz

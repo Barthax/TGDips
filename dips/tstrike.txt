@@ -1,6 +1,6 @@
 ROM set changed: no
 0.106-0.141: tstrike - "Thunder Strike (Newer)"
-0.142-0.170: tstrike - "Thunder Strike (set 1)"
+0.142-0.175: tstrike - "Thunder Strike (set 1)"
 
 Resolution, 0.106-0.113: 256x240 @ 57.444855Hz
-Resolution, 0.114-0.170: 256x240 @ 57.444853Hz
+Resolution, 0.114-0.175: 256x240 @ 57.444853Hz

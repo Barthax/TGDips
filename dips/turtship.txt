@@ -1,6 +1,25 @@
+Note: two ROM sets represented here with changeover at 0.106u3.
+
+MAME History:
+- 0.106u3: Brian Troha added Turtle Ship (North America). Renamed (turtship) to (turtshij).
+- 0.133u1: Renamed (turtshij) to (turtshipj) and (turtshik) to (turtshipk).
+
+
+Turtle Ship (Japan)
+-------------------
 ROM set changed: yes
 0.106: turtship - "Turtle Ship (Japan)"
 0.106u3-0.133: turtshij - "Turtle Ship (Japan)"
-0.133u1-0.170: turtshipj - "Turtle Ship (Japan)"
+0.133u1-0.175: turtshipj - "Turtle Ship (Japan)"
 
-Resolution, 0.106-0.170: 384x224 @ 60.000000Hz
+Resolution, 0.106-0.175: 384x224 @ 60.000000Hz
+
+
+Turtle Ship (North America)
+---------------------------
+Note: not currently represented on TG.
+ROM set changed: no.  Added in 0.106u3.
+0.106u3-0.176: turtship - "Turtle Ship (North America)"
+
+Resolution, 0.107-0.176: 384x224 @ 60.000000Hz
+

@@ -1,11 +1,11 @@
 ROM Set changes: no
 0.106-0.138: varth - "Varth - Operation Thunderstorm (World 920714)"
-0.139-0.169: varth - "Varth: Operation Thunderstorm (World 920714)"   (minor description change only)
+0.139-0.175: varth - "Varth: Operation Thunderstorm (World 920714)"   (minor description change only)
 
 Resolution, 0.106-0.126: 384 x 224 @ 60.000000 Hz
 Resolution, 0.127-0.147: 384 x 224 @ 59.610000 Hz
 Resolution, 0.148-0.152: 384 x 224 @ 59.629403 Hz
-Resolution, 0.153-0.169: 384 x 224 @ 59.637405 Hz
+Resolution, 0.153-0.175: 384 x 224 @ 59.637405 Hz
 
 Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=14473
 Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=14474

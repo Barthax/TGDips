@@ -1,4 +1,4 @@
 ROM set changed: no
-0.106-0.170: umanclub - "Ultraman Club - Tatakae! Ultraman Kyoudai!!"
+0.106-0.175: umanclub - "Ultraman Club - Tatakae! Ultraman Kyoudai!!"
 
-Resolution, 0.106-0.170: 384x240 @ 60.000000Hz
+Resolution, 0.106-0.175: 384x240 @ 60.000000Hz

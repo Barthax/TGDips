@@ -1,7 +1,10 @@
 ROM set changed: yes
 0.106-0.149: viostorm - "Violent Storm (ver EAB)"
-0.150-0.170: viostormeb - "Violent Storm (ver EAB)"
+0.150-0.175: viostormeb - "Violent Storm (ver EAB)"
+
+MAME History:
+- 0.150: RanaElia added Violent Storm (ver EAC). Renamed (viostorm) to (viostormeb).
 
 Resolution, 0.106-0.125: 384x224 @ 60.000000Hz
-Resolution, 0.126-0.170: 384x224 @ 59.185606Hz
+Resolution, 0.126-0.175: 384x224 @ 59.185606Hz
 

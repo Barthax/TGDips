@@ -1,6 +1,9 @@
 ROM set changed: no
 0.106-0.113: upndown - "Up'n Down"
-0.114-0.169: upndown - "Up'n Down (315-5030)"
+0.114-0.175: upndown - "Up'n Down (315-5030)"
+
+MAME History:
+- 0.113u3: Changed description to 'Up'n Down (315-5030)'.
 
 Resolution, 0.106-0.130: 256x224 @ 60.000000Hz
-Resolution, 0.131-0.169: 512x224 @ 60.096154Hz
+Resolution, 0.131-0.175: 512x224 @ 60.096154Hz

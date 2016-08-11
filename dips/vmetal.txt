@@ -1,5 +1,5 @@
 ROM set changed: no
-0.106-0.170: vmetal - "Varia Metal"
+0.106-0.175: vmetal - "Varia Metal"
 
 Resolution, 0.106-0.147: 320x224 @ 60.000000Hz
-Resolution, 0.148-0.170: 320x224 @ 58.232800Hz
+Resolution, 0.148-0.175: 320x224 @ 58.232800Hz

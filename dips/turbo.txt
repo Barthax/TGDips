@@ -1,6 +1,9 @@
 ROM set changed: no
 0.106-0.163: turbo - "Turbo"
-0.164-0.169: turbo - "Turbo (program 1513-1515)"
+0.164-0.175: turbo - "Turbo (program 1513-1515)"
+
+MAME History:
+- 0.164: Andrew Welburn added clones Turbo (encrypted, program 1363-1365) and Turbo (encrypted, program 1363-1365 rev B). f205v added clone Indianapolis (bootleg of Turbo). Based on this new information the existing 1363-1365 set is an 'A' revision even if it was missing from the labels in MAME. Name roms as per photo + additional info [Brian Troha]. Removed 'needs confirming' comment from clone Turbo (encrypted, program 1363-1365 rev A), confirmed checksums against T5A set [System11]. Changed parent description to 'Turbo (program 1513-1515)' and clones (encrypted set 1) to 'Turbo (encrypted, program 1262-1264)' and (encrypted set 2) to 'Turbo (encrypted, program 1363-1365 rev A)'. Renamed (turbob) to (turboc).
 
 Resolution, 0.106-0.113: 512x224 @ 59.090908Hz
-Resolution, 0.114-0.169: 512x224 @ 59.090909Hz
+Resolution, 0.114-0.175: 512x224 @ 59.090909Hz

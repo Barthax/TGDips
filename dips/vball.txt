@@ -1,7 +1,26 @@
+Note: two ROM sets represented here with changeover at 0.129u5.
+
+MAME History:
+- 0.129u5: Smitdogg added U.S. Championship V'ball (US). Changed 'U.S. Championship V'ball (set 1)' to clone 'U.S. Championship V'ball (bootleg)'. Renamed (vball) to (vballb).
+- 0.146u2: Smitdogg and The Dumping Union added clone U.S. Championship V'ball (bootleg of Japan set). Changed description of clone (bootleg) to 'U.S. Championship V'ball (bootleg of US set)'.
+
+
+U.S. Championship V'ball (bootleg of US set) / (set 1)
+--------------------------------------------
 ROM set changed: yes
 0.106-0.129: vball - "U.S. Championship V'ball (set 1)"
 0.129u5-0.146: vballb - "U.S. Championship V'ball (bootleg)"
-0.147-0.170: vballb - "U.S. Championship V'ball (bootleg of US set)"
+0.147-0.175: vballb - "U.S. Championship V'ball (bootleg of US set)"
 
 Resolution, 0.106-0.128: 240x240 @ 60.000000Hz
-Resolution, 0.129-0.170: 256x240 @ 57.444853Hz
+Resolution, 0.129-0.175: 256x240 @ 57.444853Hz
+
+
+U.S. Championship V'ball (US)
+-----------------------------
+Note: not currently represented on TG.
+ROM set changed: no.  Added in 0.129u5.
+0.129u5-0.176: vball - "U.S. Championship V'ball (US)"
+
+Resolution, 0.130-0.176: 256x240 @ 57.444853Hz
+

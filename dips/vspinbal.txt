@@ -1,6 +1,10 @@
 ROM set changed: no
 0.106-0.146: vspinbal - "Vs. Pinball"
-0.147-0.151: vspinbal - "Vs. Pinball (set ?)"
+0.146u1-0.151: vspinbal - "Vs. Pinball (set ?)"
 0.152-0.170: vspinbal - "Vs. Pinball (US, set PN4 E-1)"
+
+MAME History:
+- 0.146u1: Changed description to 'Vs. Pinball (set ?)' and clone (Japan) to 'Vs. Pinball (Japan, set PN3 B)'.
+- 0.152: Dead_Body corrected rom labels in Vs. Pinball. Changed description to 'Vs. Pinball (US, set PN4 E-1)'.
 
 Resolution, 0.106-0.170: 256x240 @ 60.000000Hz

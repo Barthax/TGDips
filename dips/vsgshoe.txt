@@ -1,5 +1,8 @@
 ROM set changed: no
 0.106-0.146: vsgshoe - "Vs. Gumshoe"
-0.147-0.170: vsgshoe - "Vs. Gumshoe (set GM5)"
+0.147-0.175: vsgshoe - "Vs. Gumshoe (set GM5)"
 
-Resolution, 0.106-0.170: 256x240 @ 60.000000Hz
+MAME History:
+- 0.146u1: Changed description to 'Vs. Gumshoe (set GM5)'.
+
+Resolution, 0.106-0.175: 256x240 @ 60.000000Hz

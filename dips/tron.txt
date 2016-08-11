@@ -1,8 +1,27 @@
+Note: two ROM sets represented here with changeover at 0.128u4.
+
+MAME History:
+- 0.128u4: Tim Lindquist added dates to Tron revisions. Swapped tron/tron2 now that we know tron2 is the later version. Changed clone (set 2) to parent 'Tron (8/9)', 'Tron (set 1)' to clone 'Tron (6/25)', 'Tron (set 3)' to 'Tron (6/17)' and 'Tron (set 4)' to 'Tron (6/15)'. Renamed (tron) to (tron2) and (tron2) to (tron).
+
+
+Tron (6/25)
+-----------
 ROM set changed: yes
 0.106-0.128: tron - "Tron (set 1)"
-0.128u4-0.174: tron2 - "Tron (6/25)"
+0.128u4-0.175: tron2 - "Tron (6/25)"
 
-Resolution, 0.106-0.174: 512x480 @ 30.000000Hz
+Resolution, 0.106-0.175: 512x480 @ 30.000000Hz
 
 TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Tron+%5Bset+1%5D
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=7885
+
+
+Tron (8/9)
+----------
+Note: not currently represented on TG.
+ROM set changed: yes.
+0.106-0.128: tron2 - "Tron (set 2)"
+0.128u4-0.176: tron - "Tron (8/9)"
+
+Resolution, 0.129-0.176: 512x480 @ 30.000000Hz
+

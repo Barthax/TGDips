@@ -1,8 +1,12 @@
 ROM set changed: yes
 0.106-0.128: vamphalf - "Vamp 1/2 (Korea version)"
 0.129-0.133: vamphafk - "Vamp x1/2 (Korea)"
-0.133u1-0.170: vamphalfk - "Vamp x1/2 (Korea)"
+0.133u1-0.175: vamphalfk - "Vamp x1/2 (Korea)"
+
+MAME History:
+- 0.129: Smitdogg added Vamf x1/2 (Europe). Pierpaolo Prazzoli fixed speed-up for Vamf x1/2 (Europe). Changed 'Vamp 1/2 (Korea version)' to clone 'Vamp x1/2 (Korea)'. Renamed (vamphalf) to (vamphafk).
+- 0.133u1: Renamed (vamphafk) to (vamphalfk).
 
 Resolution, 0.106-0.146: 320x240 @ 60.000000Hz
-Resolution, 0.147-0.170: 320x236 @ 60.000000Hz
+Resolution, 0.147-0.175: 320x236 @ 60.000000Hz
 
