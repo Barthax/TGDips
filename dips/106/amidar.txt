@@ -126,7 +126,7 @@ IN1: Offset 0x27, repeat every 0x7C, typical value 0xFF but will change briefly 
 -IN1: 0x03 (Lives): 0x03 (3)
 
 
-IN2: Offset 0x27, repeat every 0x7C, typical value will alternate between 0x11, 0x41 and 0x51. Bonus settings are easily determined visually (first at 30000, 2nd at 80000 [30000+50000]).
+IN2: Offset 0x2B, repeat every 0x7C, typical value will alternate between 0x11, 0x41 and 0x51. Bonus settings are easily determined visually (first at 30000, 2nd at 80000 [30000+50000]).
 -IN2: 0x02 (Demo Sounds): [not relevant, typical value 0x00 (On)]
 -IN2: 0x04 (Bonus Life): 0x00 (30000 50000)
 -IN2: 0x08 (Cabinet): [not relevant, typical value 0x00 (Upright)]
@@ -137,5 +137,7 @@ IN2: Offset 0x27, repeat every 0x7C, typical value will alternate between 0x11, 
 DSW: Not relevant [offset 0x2F, repeat every 0x7C, typical value 0xFF]
 
 
-90: 00 00 00 00 00 00 00 00  3E 82 43 E1 00 00 00 FF | ........>‚Cá...ÿ 
-A0: 00 00 00 FF 00 00 00 51  00 00 00 FF 00 00 00 00 | ...ÿ...Q...ÿ....
+    20: 00 00 00 FF 00 00 00 FF  00 00 00 51 00 00 00 FF
+    A0: 00 00 00 FF 00 00 00 51  00 00 00 FF 00 00 00 00
+   110: 00 00 00 00 3E 82 43 E1  00 00 00 FF 00 00 00 FF
+   120: 00 00 00 51 00 00 00 FF  00 00 00 00 00 00 00 00
