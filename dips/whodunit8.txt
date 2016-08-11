@@ -1,6 +1,9 @@
 ROM set changed: yes
 0.106-0.151: whodunit - "Who Dunit (version 8.0)"
-0.152-0.170: whodunit8 - "Who Dunit (version 8.0)"
+0.152-0.175: whodunit8 - "Who Dunit (version 8.0)"
 
-Resolution, 0.106-0.170: 320x240 @ 60.000000Hz
+MAME History:
+- 0.152: Joe Magiera added Who Dunit (version 9.0). Added additional rom dump from Who Dunit (version 9.0) boardset which as of yet does not have a known use. Renamed (whodunit) to (whodunit8).
+
+Resolution, 0.106-0.175: 320x240 @ 60.000000Hz
 

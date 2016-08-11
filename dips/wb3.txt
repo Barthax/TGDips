@@ -1,7 +1,10 @@
 ROM set changed: no
 0.106-0.165: wb3 - "Wonder Boy III - Monster Lair (set 6, World, System 16B, 8751 317-0098)"
-0.166-0.170: wb3 - "Wonder Boy III - Monster Lair (set 6, World, System 16B) (8751 317-0098)"
+0.166-0.175: wb3 - "Wonder Boy III - Monster Lair (set 6, World, System 16B) (8751 317-0098)"
+
+MAME History:
+- 0.166: David Haywood added clones 'Wonder Boy III - Monster Lair (set 1, Japan, System 16A) (bootleg of FD1094 317-0084 set)', 'Wonder Boy III - Monster Lair (set 2, Japan, System 16B) (bootleg of FD1094 317-0085 set)', 'Wonder Boy III - Monster Lair (set 3, World, System 16B) (bootleg of FD1094 317-0089 set)', 'Wonder Boy III - Monster Lair (set 4, Japan, System 16B) (bootleg of FD1094 317-0087 set)' and 'Wonder Boy III - Monster Lair (set 5, Japan, System 16A) (bootleg of FD1089A 317-0086 set)'.
 
 Resolution, 0.106-0.114: 320x224 @ 60.000000Hz
 Resolution, 0.115-0.116: 321x224 @ 60.054389Hz
-Resolution, 0.117-0.170: 320x224 @ 60.054389Hz
+Resolution, 0.117-0.175: 320x224 @ 60.054389Hz

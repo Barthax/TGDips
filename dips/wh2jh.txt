@@ -2,7 +2,13 @@ ROM set changed: yes
 0.106-0.119: wh2j - "World Heroes 2 Jet"
 0.120-0.139: wh2jh - "World Heroes 2 Jet (set 2)"
 0.139u2-0.143: wh2j - "World Heroes 2 Jet"
-0.144-0.170: wh2j - "World Heroes 2 Jet (ADM-007)(ADH-007)"
+0.144-0.173: wh2j - "World Heroes 2 Jet (ADM-007)(ADH-007)"
+0.174-0.175: wh2j - "World Heroes 2 Jet (ADM-007 ~ ADH-007)"
+
+MAME History:
+- 0.120: Johnboy added World Heroes 2 Jet (set 1). This is the MVS version (verified). Partially redumped World Heroes 2 Jet (set 2), is verified AES version. Changed 'World Heroes 2 Jet' to clone 'World Heroes 2 Jet (set 2)'. Renamed (wh2j) to (wh2jh).
+- 0.139u2: Johnboy removed 'World Heroes 2 Jet (set 1)' (only diff. C-ROM arrangement; same data). Changed (set 2) to parent 'World Heroes 2 Jet'. Renamed (wh2jh) to (wh2j).
+- 0.174: Changed description to 'World Heroes 2 Jet (ADM-007 ~ ADH-007)'.
 
 Resolution, 0.106-0.113: 320x224 @ 59.185608Hz
 Resolution, 0.114-0.170: 320x224 @ 59.185606Hz

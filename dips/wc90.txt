@@ -1,6 +1,9 @@
 ROM set changed: no
 0.106-0.129: wc90 - "Tecmo World Cup '90 (set 1)"
-0.130-0.170: wc90 - "Tecmo World Cup '90 (World)"
+0.130-0.175: wc90 - "Tecmo World Cup '90 (World)"
+
+MAME History:
+- 0.129u4: Tomasz Slanina added clone Tecmo World Cup '90 (Euro set 2). Changed parent description to 'Tecmo World Cup '90 (World)' and clones (set 2) to 'Tecmo World Cup '90 (Euro set 1)' and (trackball) to 'Tecmo World Cup '90 (trackball set 1)'.
 
 Resolution, 0.106-0.136: 256x224 @ 60.000000Hz
-Resolution, 0.137-0.170: 256x224 @ 59.170000Hz
+Resolution, 0.137-0.175: 256x224 @ 59.170000Hz
