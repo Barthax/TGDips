@@ -1,0 +1,64 @@
+# MAME 0.106 source snippet [scobra.c]   NOTE: moved to galaxian.c at 0.125u5
+
+GAME( 1984, spdcoin,  0,        type1,    spdcoin,  scramble_ppi, ROT90,  "Stern", "Speed Coin (prototype)", GAME_SUPPORTS_SAVE )
+
+INPUT_PORTS_START( spdcoin )
+	PORT_START_TAG("IN0")
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_START1 )
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_START2 )
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT )
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT )
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_COIN2 )
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_COIN1 )
+
+	PORT_START_TAG("IN1")
+	PORT_DIPNAME( 0x01, 0x00, "Freeze" )			/* Dip Sw #2 */
+	PORT_DIPSETTING(    0x00, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x01, DEF_STR( On ) )
+	PORT_DIPNAME( 0x02, 0x00, DEF_STR( Free_Play ) )	/* Dip Sw #1 */
+	PORT_DIPSETTING(    0x00, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x02, DEF_STR( On ) )
+	PORT_BIT( 0xfc, IP_ACTIVE_LOW, IPT_UNUSED )
+
+	PORT_START_TAG("IN2")
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_DIPNAME( 0x02, 0x00, DEF_STR( Unknown ) )		/* Dip Sw #5 - Check code at 0x0569 */
+	PORT_DIPSETTING(    0x02, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x04, 0x00, DEF_STR( Difficulty ) )	/* Dip Sw #4 */
+	PORT_DIPSETTING(    0x00, DEF_STR( Easy ) )
+	PORT_DIPSETTING(    0x04, DEF_STR( Hard ) )
+	PORT_DIPNAME( 0x08, 0x08, DEF_STR( Lives ) )		/* Dip Sw #3 */
+	PORT_DIPSETTING(    0x08, "3" )
+	PORT_DIPSETTING(    0x00, "5" )
+	PORT_BIT( 0xf0, IP_ACTIVE_LOW, IPT_UNUSED )
+INPUT_PORTS_END
+
+Resolution: 256x224 @ 60.606060Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Speed+Coin+[prototype]
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=10036
+
+ROMSet: SpdCoin
+Freeze: Off
+Free Play: Off
+Unknown: On
+Difficulty: Easy
+Lives: 3
+Special Rules: This is a Single Credit ONLY variation, regardless of a bonus credit awareded for gaining one in the Bonus Rounds.
+
+Sample correct TG:
+IN1: offset 0x27, repeat every 0x7C, typical value 0xFC
+- IN1: 0x01 (Freeze): 0x00 (Off)
+- IN1: 0x02 (Free_Play): 0x00 (Off)
+IN2: offset 0x2B, repeat every 0x7C, typical value 0xF9
+- IN2: 0x02 (Unknown): 0x00 (On)
+- IN2: 0x04 (Difficulty): 0x00 (Easy)
+- IN2: 0x08 (Lives): 0x08 (3)
+
+    20: 00 00 00 FF 00 00 00 FC  00 00 00 F9 00 00 00 00
+    A0: 00 00 00 FC 00 00 00 F9  00 00 00 00 00 00 00 00
+   110: 00 00 00 00 3E 82 43 E1  00 00 00 FF 00 00 00 FC
+   120: 00 00 00 F9 00 00 00 00  00 00 00 00 00 00 00 00
