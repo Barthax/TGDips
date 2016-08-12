@@ -2029,7 +2029,6 @@ sqixr1
 squash
 sraider
 srdarwin
-srdmissin
 srdmissn
 srumbler
 ssf2
@@ -2201,7 +2200,6 @@ terracre
 terracreo
 terraf
 terrafb
-tetrip2
 tetrisp
 tetrisp2
 tetrsark
@@ -2267,7 +2265,6 @@ tophuntr
 toppyrap
 toprollr
 topsecex
-topsecx
 topspeed
 toride2g
 toryumon
@@ -2283,7 +2280,6 @@ tranqgun
 transfrm
 trckydoc
 tricktrp
-trickydoc
 triothep
 triplep
 triplhnt
@@ -2443,7 +2439,6 @@ whodunit8
 whp
 wildfang
 wildplt
-wilfplt
 willow
 willowu
 wilytowr
