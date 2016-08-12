@@ -1,10 +1,10 @@
 ROMs changed: no
-0.106-0.169: zookeep = "Zoo Keeper (Set 1)"
+0.106-0.175: zookeep = "Zoo Keeper (Set 1)"
 
 Resolution, 0.106-0.114: 256x240 @ 60.000000Hz
 Resolution, 0.115: 256x256 @ 55.838470Hz
 Resolution, 0.116-0.146: 256x256 @ 76.293945Hz
-Resolution, 0.147-0.169: 256x256 @ 55.838470Hz
+Resolution, 0.147-0.175: 256x256 @ 55.838470Hz
 
 All dips are software-based: use F1 to access.
 Rules, Set 1 Points: http://www.twingalaxies.com/scores.php?scores=5217

@@ -1,13 +1,34 @@
+Note: two ROM sets represented here with changeover at 0.102u3.
+
+MAME History:
+- 0.102u3: Added 'X-Men Vs. Street Fighter (Euro 961004)'. Renamed (xmvsf) to (xmvsfr1).
+
+
+X-Men Vs. Street Fighter (Euro 960910)
+--------------------------------------
 ROM Set changes: no
-* 0.056-0.102u3 xmvsf   (FYI, ROMset rename prior to 0.106)
-0.106-0.169: xmvsfr1 - "X-Men Vs. Street Fighter (Euro 960910)"
+0.056-0.102u3 xmvsf   (FYI, ROMset rename prior to 0.106)
+0.106-0.175: xmvsfr1 - "X-Men Vs. Street Fighter (Euro 960910)"
 
 Resolution, 0.106-0.113: 384 x 224 @ 59.633331 Hz
 Resolution, 0.114-0.127: 384 x 224 @ 59.633333 Hz
 Resolution, 0.128-0.152: 384 x 224 @ 59.629403 Hz
-Resolution, 0.153-0.169: 384 x 224 @ 59.637405 Hz
+Resolution, 0.153-0.175: 384 x 224 @ 59.637405 Hz
 
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=18974
 
 ALL INTERNAL SETTINGS
 Note: if settings not shown by the player, use F2 after playback to enter the internal settings.
+
+
+X-Men Vs. Street Fighter (Euro 961004)
+--------------------------------------
+Note: not currently represented on TG.
+ROM set changed: no.  Added in 0.102u3.
+0.102u3-0.176: xmvsf - "X-Men Vs. Street Fighter (Euro 961004)"
+
+Resolution, 0.103-0.113: 384x224 @ 59.633331Hz
+Resolution, 0.114-0.127: 384x224 @ 59.633333Hz
+Resolution, 0.128-0.152: 384x224 @ 59.629403Hz
+Resolution, 0.153-0.176: 384x224 @ 59.637405Hz
+

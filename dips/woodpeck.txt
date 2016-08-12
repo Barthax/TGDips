@@ -1,7 +1,10 @@
 ROM set changed: yes
 0.106-0.132: woodpek - "Woodpecker (set 1)"
-0.132u4-0.170: woodpeck - "Woodpecker (set 1)"
+0.132u4-0.175: woodpeck - "Woodpecker (set 1)"
+
+MAME History:
+- 0.132u4: Guru redumped clone Woodpecker (set 2). Added missing maincpu rom ($8000) - Game now playable. Renamed (woodpek) to (woodpeck) and (woodpeka) to (woodpeca).
 
 Resolution, 0.106-0.113: 288x224 @ 60.606060Hz
-Resolution, 0.114-0.170: 288x224 @ 60.606061Hz
+Resolution, 0.114-0.175: 288x224 @ 60.606061Hz
 

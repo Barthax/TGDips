@@ -1,7 +1,10 @@
 ROM set changed: yes
 0.106-0.166: zigzag - "Zig Zag (Galaxian hardware, set 1)"
-0.167-0.170: zigzagb - "Zig Zag (Dig Dug conversion on Galaxian hardware, bootleg set 1)"
+0.167-0.175: zigzagb - "Zig Zag (Dig Dug conversion on Galaxian hardware, bootleg set 1)"
+
+MAME History:
+- 0.167: kazblox changed parent description to 'Zig Zag (Dig Dug conversion on Galaxian hardware, bootleg set 1)' and clone (Galaxian hardware, set 2) to 'Zig Zag (Dig Dug conversion on Galaxian hardware, bootleg set 2)'. Renamed (zigzag) to (zigzagb) and (zigzag2) to (zigzagb2).
 
 Resolution, 0.106-0.113: 256x224 @ 60.606060Hz
 Resolution, 0.114-0.123: 256x224 @ 60.606061Hz
-Resolution, 0.125-0.170: 768x224 @ 60.606061Hz
+Resolution, 0.125-0.175: 768x224 @ 60.606061Hz

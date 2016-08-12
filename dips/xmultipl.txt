@@ -1,6 +1,25 @@
+Note: two ROM sets represented here with changeover at 0.138u1.
+
+MAME History:
+- 0.138u1: hap and Porchy added 'X Multiply (Japan, M81)'. Changed 'X Multiply (Japan)' to clone 'X Multiply (Japan, M72)'. Renamed (xmultipl) to (xmultiplm72).
+- 0.138u2: Changed description to 'X Multiply (World, M81)'.
+
+
+X Multiply (Japan, M72)
+-----------------------
 ROM set changed: yes
 0.106-0.138: xmultipl - "X Multiply (Japan)"
-0.138u1-0.169: xmultiplm72 - "X Multiply (Japan, M72)"
+0.138u1-0.175: xmultiplm72 - "X Multiply (Japan, M72)"
 
 Resolution, 0.106-0.122: 384x256 @ 55.000000Hz
-Resolution, 0.123-0.169: 384x256 @ 55.017606Hz
+Resolution, 0.123-0.175: 384x256 @ 55.017606Hz
+
+
+X Multiply (World, M81)
+-----------------------
+Note: not currently represented on TG.
+ROM set changed: no.  Added in 0.138u1.
+0.138u1-0.176: xmultipl - "X Multiply (World, M81)"
+
+Resolution, 0.139-0.176: 384x256 @ 55.017606Hz
+

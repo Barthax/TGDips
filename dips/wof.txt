@@ -1,8 +1,28 @@
+Note: two ROM sets represented here with changeover at 0.144u3.
+
+MAME History:
+- 0.144u3: boredstu added Warriors of Fate (World 921031). Team CPS-1 fixed wofch to use proper EPROM TK2(CH)_07.9A since the previous dump was found to be bad. Kold666 fixed wof, wofa, wofj and wofch ROMs labels and locations, added Q-Sound PALs and PCB infos. Renamed (wof) to (wofr1).
+
+
+Warriors of Fate (World 921002)
+-------------------------------
 ROM set changed: yes
 0.106-0.144: wof - "Warriors of Fate (World 921002)"
-0.144u3-0.170: wofr1 - "Warriors of Fate (World 921002)"
+0.144u3-0.175: wofr1 - "Warriors of Fate (World 921002)"
 
 Resolution, 0.106-0.126: 384x224 @ 60.000000Hz
 Resolution, 0.127-0.147: 384x224 @ 59.610000Hz
 Resolution, 0.148-0.152: 384x224 @ 59.629403Hz
-Resolution, 0.153-0.170: 384x224 @ 59.637405Hz
+Resolution, 0.153-0.175: 384x224 @ 59.637405Hz
+
+
+Warriors of Fate (World 921031)
+-------------------------------
+Note: not currently represented on TG.
+ROM set changed: no.  Added in 0.144u3.
+0.144u3-0.176: wof - "Warriors of Fate (World 921031)"
+
+Resolution, 0.145-0.147: 384x224 @ 59.610000Hz
+Resolution, 0.148-0.152: 384x224 @ 59.629403Hz
+Resolution, 0.153-0.176: 384x224 @ 59.637405Hz
+

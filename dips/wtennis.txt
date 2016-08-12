@@ -1,5 +1,5 @@
 ROM set changed: no
-0.106-0.169: wtennis - "World Tennis"
+0.106-0.175: wtennis - "World Tennis"
 
 Resolution, 0.106-0.128: 256x240 @ 57.000000Hz
-Resolution, 0.129-0.169: 240x240 @ 57.444853Hz
+Resolution, 0.129-0.175: 240x240 @ 57.444853Hz

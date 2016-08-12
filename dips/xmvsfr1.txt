@@ -1,11 +1,14 @@
 ROM Set changes: no
 * 0.056-0.102u3 xmvsf   (FYI, ROMset rename prior to 0.106)
-0.106-0.168: xmvsfr1 - "X-Men Vs. Street Fighter (Euro 960910)"
+0.106-0.175: xmvsfr1 - "X-Men Vs. Street Fighter (Euro 960910)"
+
+MAME History:
+- 0.102u3: Added 'X-Men Vs. Street Fighter (Euro 961004)'. Renamed (xmvsf) to (xmvsfr1).
 
 Resolution, 0.106-0.113: 384 x 224 @ 59.633331 Hz
 Resolution, 0.114-0.127: 384 x 224 @ 59.633333 Hz
 Resolution, 0.128-0.152: 384 x 224 @ 59.629403 Hz
-Resolution, 0.153-0.168: 384 x 224 @ 59.637405 Hz
+Resolution, 0.153-0.175: 384 x 224 @ 59.637405 Hz
 
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=18974
 

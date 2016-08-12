@@ -1,7 +1,7 @@
 ROM set changed: no
 0.106-0.165: wrestwar - "Wrestle War (set 3, World, 8751 317-0103)"
-0.166-0.170: wrestwar - "Wrestle War (set 3, World) (8751 317-0103)"
+0.166-0.175: wrestwar - "Wrestle War (set 3, World) (8751 317-0103)"
 
 Resolution, 0.106-0.114: 320x224 @ 60.000000Hz
 Resolution, 0.115-0.116: 321x224 @ 60.054389Hz
-Resolution, 0.117-0.170: 320x224 @ 60.054389Hz
+Resolution, 0.117-0.175: 320x224 @ 60.054389Hz

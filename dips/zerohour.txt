@@ -1,7 +1,10 @@
 ROM set changed: no
 0.106-0.141: zerohour - "Zero Hour"
-0.142-0.171: zerohour - "Zero Hour (set 1)"
+0.141u2-0.175: zerohour - "Zero Hour (set 1)"
 
-Resolution, 0.106-0.171: 240x192 @ 60.000000Hz
+MAME History:
+- 0.141u2: Andrew Welburn and The Dumping Union added clone Zero Hour (set 2). Fixed rom names. Changed parent description to 'Zero Hour (set 1)'.
+
+Resolution, 0.106-0.175: 240x192 @ 60.000000Hz
 
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=10041
