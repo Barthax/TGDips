@@ -92,6 +92,7 @@ apb
 appoooh
 aquajack
 aquarium
+aquariumj
 arabfgt
 arabian
 arabianm
@@ -122,6 +123,7 @@ astdelux
 asterix
 asteroid
 asteroid2
+asteroids
 astinvad
 astorm3
 astrob
@@ -167,9 +169,11 @@ basebal2
 batcir
 batman
 batmanfr
+batrid
 batrider
 batriderj
 batridj
+batsugna
 batsugun
 batsuguna
 battlane
@@ -217,6 +221,7 @@ bking
 bking2
 bking3
 bkraidj
+bkraidu
 blandia
 blasted
 blaster
@@ -240,6 +245,7 @@ blockcar
 blocken
 blockhl
 blockout
+blockr2
 bloodbro
 bloodstm
 bloxeedc
@@ -317,6 +323,7 @@ bwidow
 bwing
 bwingso
 bzone
+bzone2
 bzonea
 cabal
 cabalus
@@ -340,6 +347,7 @@ carnevil
 carnevil1
 carnival
 carpolo
+castfant
 catnmous
 cavelon
 cavenger
@@ -459,6 +467,7 @@ crgolfa
 crgolfhi
 crimec
 crimfght
+crimfghtu
 crkdown
 crkdownu
 crospang
@@ -470,6 +479,7 @@ crusnusa
 crusnw23
 crusnwld
 crusnwld23
+crusnwld24
 cryptklr
 crysking
 crzrally
@@ -509,6 +519,8 @@ daioha
 daiskiss
 daitorid
 dangar
+dangarb
+dangarbt
 dangerz
 dangseed
 daraku
@@ -620,6 +632,7 @@ drmario
 drmicro
 drtoppel
 dsaber
+dsabera
 dspirit
 dstlk
 duckhunt
@@ -662,9 +675,10 @@ evilston
 evosocc
 excitebk
 excitebka
+excitebkj
+excitebko
 exctscc2
 exctsccr
-exctsocc2
 exedexes
 exerion
 explbrkr
@@ -711,6 +725,7 @@ fieldday
 fightfev
 fightfeva 
 fightfeva
+fightfva
 fightrol
 finalb
 finalizr
@@ -735,6 +750,7 @@ fnkyfish
 foodf
 footchmp
 forgottn
+forgottna
 forgottnu
 forgottnua
 forgottu
@@ -779,9 +795,13 @@ galivan2
 galmedes
 galxwars
 gametngk
+gangwarb
 gangwars
+gangwarsb
 gangwarsu
 ganryu
+gaplus
+gapluso
 gardia
 garou
 garyoret
@@ -812,6 +832,8 @@ ghouls
 ghox
 gigandes
 gigandesa
+gigandesj
+gigandsj
 gigasb
 gigasm2b
 gigawing
@@ -842,12 +864,14 @@ gowcaizr
 gpgolf
 gpilots
 gradius3
+gradius3e
 gradius3j
 gratia
 gravitar
 grchamp
 grdforce
 grdians
+grdius3e
 greatgun
 gridiron
 gridlee
@@ -896,7 +920,9 @@ guzzler
 gwar
 gwarrior
 gypsyjug
+gyrodinc
 gyrodine
+gyrodinec
 gyrodinet
 gyruss
 hachamf
@@ -914,6 +940,7 @@ hardhat
 hardhea2
 hardhead
 hardheadb
+hardhedb
 hardyard
 hasamu
 hatris
@@ -1055,6 +1082,7 @@ kabukikl
 kageki
 kaiserkn
 kaitei
+kaiteik
 kaitein
 kamenrid
 kamikaze
@@ -1200,7 +1228,6 @@ m79amb
 mace
 machbrkr
 machomou
-machrid3
 machridj
 machridr
 machridra
@@ -1238,6 +1265,7 @@ marineb
 marinedt
 mariner
 mario
+marioe
 marioj
 mariojp
 marioo
@@ -1543,6 +1571,7 @@ pitfall2
 pitfigh6
 pitfight
 pitfight6
+pitfight7
 pitnrun
 pkunwar
 platoon
@@ -1799,6 +1828,7 @@ sbagman
 sbasebal
 sbasketb
 sbasketg
+sbasketh
 sbishi
 sbomber
 sbomberb
@@ -2270,6 +2300,10 @@ toride2g
 toryumon
 totcarn
 toutrun
+toutrun1
+toutrun2
+toutrun3
+toutruna
 toutrunu
 toypop
 tp84
@@ -2403,6 +2437,7 @@ vsskykid
 vsslalom
 vulcan
 vulgus
+vulgus2
 vulgusa
 wacko
 wakuwak7
