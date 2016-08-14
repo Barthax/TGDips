@@ -3,8 +3,10 @@ ROM set changed: yes
 0.123u1-0.161: contra1 - "Contra (US, set 2)"
 0.162-0.175: contra1 - "Contra (US / Asia, set 2)" (minor description change)
 
-MAME History:
+MAME History: (re: renames)
 - 0.123u1: Brian Troha added clone Contra (bootleg). Changed clone 'Contra (US bootleg)' to parent 'Contra (US, Set 1)' and 'Contra (US)' to clone 'Contra (US, Set 2)'. Renamed (contra) to (contra1) and (contrab) to (contra).
+MAME History: (re: rules)
+- 0.111u5: Canim fixed flip screen switch and changed COIN3 to SERVICE1 in the Contra driver.
 
 Resolution, 0.106-0.175: 280x224 @ 60.000000Hz
 
