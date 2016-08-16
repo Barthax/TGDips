@@ -1,0 +1,66 @@
+# MAME 0.106 source snippet [exidy.c]
+
+GAME( 1980, targ,     0,       targ,    targ,     targ,     ROT0, "Exidy", "Targ", 0 )
+
+INPUT_PORTS_START( targ )
+	PORT_START_TAG("DSW")
+	PORT_BIT ( 0x01, IP_ACTIVE_LOW, IPT_COIN2 ) /* upright/cocktail switch? */
+	PORT_DIPNAME( 0x02, 0x00, "Pence Coinage" )
+	PORT_DIPSETTING(    0x00, "10P/1P, 50P Coin/6P" )
+	PORT_DIPSETTING(    0x02, "2x10P/1P, 50P Coin/3P" )
+	PORT_DIPNAME( 0x04, 0x00, "Top Score Award" )
+	PORT_DIPSETTING(    0x00, "Credit" )
+	PORT_DIPSETTING(    0x04, "Extended Play" )
+	PORT_DIPNAME( 0x18, 0x08, "Quarter Coinage" )
+	PORT_DIPSETTING(    0x10, DEF_STR( 2C_1C ) )
+	PORT_DIPSETTING(    0x08, DEF_STR( 1C_1C ) )
+	PORT_DIPSETTING(    0x00, "1C/1C (no display)" )
+	PORT_DIPSETTING(    0x18, DEF_STR( 1C_2C ) )
+	PORT_DIPNAME( 0x60, 0x40, DEF_STR( Lives ) )
+	PORT_DIPSETTING(    0x60, "2" )
+	PORT_DIPSETTING(    0x40, "3" )
+	PORT_DIPSETTING(    0x20, "4" )
+	PORT_DIPSETTING(    0x00, "5" )
+	PORT_DIPNAME( 0x80, 0x80, "Currency" )
+	PORT_DIPSETTING(    0x80, "Quarters" )
+	PORT_DIPSETTING(    0x00, "Pence" )
+
+	PORT_START_TAG("IN0")
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_START1 )
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_START2 )
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_4WAY
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_4WAY
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_BUTTON1 )
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_4WAY
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_4WAY
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_COIN1 )
+
+	PORT_START_TAG("INTSOURCE")
+	PORT_BIT( 0x1f, IP_ACTIVE_HIGH, IPT_SPECIAL )
+	PORT_BIT( 0x20, IP_ACTIVE_HIGH, IPT_COIN2 )
+	PORT_BIT( 0x40, IP_ACTIVE_HIGH, IPT_COIN1 )
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_VBLANK )
+
+	PORT_START_TAG("IN2")
+	PORT_BIT( 0xff, IP_ACTIVE_LOW, IPT_UNKNOWN )
+INPUT_PORTS_END
+
+Resolution: 248x256 @ 57.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Targ
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=7876
+
+ROMSet: Targ
+Lives: 3
+
+Sample correct TG:
+DSW: offset 0x23, repeat every 0x7C, typical value 0xC9, much easier to check # lives visually
+- DSW: 0x02 (Pence Coinage): [not relevant]
+- DSW: 0x04 (Top Score Award): [not relevant]
+- DSW: 0x18 (Quarter Coinage): [not relevant]
+- DSW: 0x60 (Lives): 0x40 (3)
+- DSW: 0x80 (Currency): [not relevant]
+
+    20: 00 00 00 C9 00 00 00 FF  00 00 00 80 00 00 00 FF
+    90: 00 00 00 00 00 00 00 00  3E 82 43 E1 00 00 00 C9
+   110: 00 00 00 00 3E 82 43 E1  00 00 00 C9 00 00 00 FF
