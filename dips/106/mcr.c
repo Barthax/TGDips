@@ -1,3 +1,5 @@
+# MAME 0.106 source snippet.
+
 /* verified from wiring diagram, plus DIP switches from manual */
 INPUT_PORTS_START( solarfox )
 	PORT_START_TAG("SSIO.IP0")	/* J4 1-8 */

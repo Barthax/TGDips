@@ -2,3 +2,7 @@ ROM set changed: no
 0.106-0.175: domino - "Domino Man"
 
 Resolution, 0.106-0.175: 512x480 @ 30.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Domino%20Man
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=7720
+Note: press Service Mode (F2) before initial screen to enter configuration during recording.  Internal settings can be reviewed after playback with a reset.
