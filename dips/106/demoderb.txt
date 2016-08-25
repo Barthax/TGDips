@@ -1,0 +1,97 @@
+# MAME 0.106 source snippet.
+
+/* 91490 CPU board + 91464 video gen + 90913 sound I/O + Turbo Chip Squeak */
+GAME( 1984, demoderb, 0,        mcr_91490_tcs, demoderb, demoderb,  ROT0,  "Bally Midway", "Demolition Derby", GAME_SUPPORTS_SAVE )
+
+/* "wiring diagram was not available at time of publication" according to the manual */
+/* DIPs verified from the manual */
+INPUT_PORTS_START( demoderb )
+	PORT_START_TAG("SSIO.IP0")	/* J4 1-8 */
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_COIN1 )
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_COIN2 )
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_START1 )
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_START2 )
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_SERVICE( 0x20, IP_ACTIVE_LOW )
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_TILT )
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_UNUSED )
+
+	PORT_START_TAG("SSIO.IP1")	/* J4 10-13,15-18 */	/* The high 6 bits contain the steering wheel value */
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_PLAYER(1)
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_BUTTON2 ) PORT_PLAYER(1)
+	PORT_BIT( 0xfc, 0x00, IPT_DIAL ) PORT_SENSITIVITY(50) PORT_KEYDELTA(10) PORT_REVERSE PORT_PLAYER(1)
+
+	PORT_START_TAG("SSIO.IP2")	/* J5 1-8 */	/* The high 6 bits contain the steering wheel value */
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_PLAYER(2)
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_BUTTON2 ) PORT_PLAYER(2)
+	PORT_BIT( 0xfc, 0x00, IPT_DIAL ) PORT_SENSITIVITY(50) PORT_KEYDELTA(10) PORT_REVERSE PORT_PLAYER(2)
+
+	PORT_START_TAG("SSIO.IP3")	/* DIPSW @ B3 */
+	PORT_DIPNAME( 0x01, 0x01, DEF_STR( Cabinet ) )
+	PORT_DIPSETTING(    0x01, "2P Upright" )
+	PORT_DIPSETTING(    0x00, "4P Cocktail" )
+	PORT_DIPNAME( 0x02, 0x02, DEF_STR( Difficulty ) )
+	PORT_DIPSETTING(    0x02, DEF_STR( Normal ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Harder ) )
+	PORT_DIPNAME( 0x04, 0x04, DEF_STR( Free_Play ) )
+	PORT_DIPSETTING(    0x04, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x08, 0x08, "Reward Screen" )
+	PORT_DIPSETTING(    0x08, "Expanded" )
+	PORT_DIPSETTING(    0x00, "Limited" )
+	PORT_DIPNAME( 0x30, 0x30, DEF_STR( Coinage ) )
+	PORT_DIPSETTING(    0x20, DEF_STR( 2C_1C ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( 2C_2C ) )
+	PORT_DIPSETTING(    0x30, DEF_STR( 1C_1C ) )
+	PORT_DIPSETTING(    0x10, DEF_STR( 1C_2C ) )
+	PORT_BIT( 0xc0, IP_ACTIVE_LOW, IPT_UNKNOWN )
+
+	PORT_START_TAG("SSIO.IP4")	/* J6 1-8 */
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_COIN3 )
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_COIN4 )
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_START3 )
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_START4 )
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_PLAYER(3)
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_BUTTON2 ) PORT_PLAYER(3)
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_PLAYER(4)
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_BUTTON2 ) PORT_PLAYER(4)
+
+	PORT_START_TAG("SSIO.DIP")
+	PORT_BIT( 0xff, IP_ACTIVE_LOW, IPT_UNKNOWN )
+
+	PORT_START_TAG("SSIO.IP1.ALT")	/* IN1 (muxed) -- the high 6 bits contain the steering wheel value */
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_PLAYER(1)
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_BUTTON2 ) PORT_PLAYER(1)
+	PORT_BIT( 0xfc, 0x00, IPT_DIAL ) PORT_SENSITIVITY(50) PORT_KEYDELTA(10) PORT_REVERSE PORT_PLAYER(3)
+
+	PORT_START_TAG("SSIO.IP2.ALT")	/* IN2 (muxed) -- the high 6 bits contain the steering wheel value */
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_PLAYER(2)
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_BUTTON2 ) PORT_PLAYER(2)
+	PORT_BIT( 0xfc, 0x00, IPT_DIAL ) PORT_SENSITIVITY(50) PORT_KEYDELTA(10) PORT_REVERSE PORT_PLAYER(4)
+INPUT_PORTS_END
+
+Resolution: 512x480 @ 30.000000Hz
+
+Rules, 1 Player Only: http://www.twingalaxies.com/scores.php?scores=7716
+Rules, 2 Player Team: http://www.twingalaxies.com/scores.php?scores=9945
+Rules, 3 Player Team: http://www.twingalaxies.com/scores.php?scores=131862
+Rules, 4 Player Team: http://www.twingalaxies.com/scores.php?scores=131863
+ROMSet: DemoDerb
+Service Mode: Off
+Cabinet: 2P Upright
+Difficulty: Normal
+Reward screen: Expanded
+Free Play: Off
+
+Sample correct TG:
+SSIO.IP3: offset 0xFF, repeat every 0x7C, typical value 0xFF
+- SSIO.IP3: 0x01 (Cabinet): 0x01 (2P Upright)
+- SSIO.IP3: 0x02 (Difficulty): 0x02 (Normal)
+- SSIO.IP3: 0x04 (Free_Play): 0x04 (Off)
+- SSIO.IP3: 0x08 (Reward Screen): 0x08 (Expanded)
+- SSIO.IP3: 0x30 (Coinage): [not relevant]
+- SSIO.IP3: 0xc0 (unknown): [not relevant]
+
+    20: 00 00 00 FF 00 00 00 03  00 00 00 03 00 00 00 FF | ... ........... 
+    A0: 00 00 00 03 00 00 00 03  00 00 00 FF 00 00 00 FF | ........... ... 
+   120: 00 00 00 03 00 00 00 FF  00 00 00 FF 00 00 00 FF | ....... ... ... 
