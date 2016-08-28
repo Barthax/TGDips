@@ -7,3 +7,8 @@ Resolution, 0.126-0.128: 320x240 @ 57.000000Hz
 Resolution, 0.129-0.149: 320x240 @ 57.444853Hz
 Resolution, 0.150: 320x240 @ 49.238445Hz
 Resolution, 0.151-0.175: 320x240 @ 57.444853Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=The+Combatribes+%5BUS%5D
+Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=120375
+Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=120376
+Rules, Points [Three Player Team]: http://www.twingalaxies.com/scores.php?scores=120377
