@@ -1,5 +1,9 @@
 ROM set changed: no
-0.106-0.175: rollingc - "Rolling Crash / Moon Base"
+0.106-0.177: rollingc - "Rolling Crash / Moon Base"
 
 Resolution, 0.106-0.113: 256x224 @ 60.000000Hz
-Resolution, 0.114-0.175: 260x224 @ 59.541985Hz
+Resolution, 0.114-0.177: 260x224 @ 59.541985Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Rolling+Crash+/+Moon+Base
+Rules, Points [Rolling Crash]: http://www.twingalaxies.com/scores.php?scores=10443
+Rules, Points [Moon Base]: http://www.twingalaxies.com/scores.php?scores=10443
