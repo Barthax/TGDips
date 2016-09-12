@@ -1,9 +1,15 @@
 ROM set changed: no
 0.106-0.152: rompers - "Rompers (Japan)"
-0.153-0.175: - "Rompers (Japan, new version (Rev B))"
+0.153-0.177: - "Rompers (Japan, new version (Rev B))"
 
 MAME History:
 - 0.153: Changed description to 'Rompers (Japan, new version (Rev B))' and clone (Japan old version) to 'Rompers (Japan, old version)'.
 
 Resolution, 0.106-0.152: 288x224 @ 60.606060Hz
-Resolution, 0.153-0.175: 288x224 @ 60.606061Hz
+Resolution, 0.153-0.177: 288x224 @ 60.606061Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Rompers+%5BJapan%5D
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=32355
+
+NOTES: Use Service Mode (F2) to check internal settings if not shown during playback.
+       Popup messages (possibly debugs?) appear at the bottom of the screen every so often - known issue, seemingly benign http://mametesters.org/view.php?id=5394
