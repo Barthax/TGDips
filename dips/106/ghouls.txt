@@ -115,6 +115,7 @@ INPUT_PORTS_END
 
 Resolution: 384x224 @ 60.000000Hz
 
+----
 Rules, Points [Marathon Settings]: http://www.twingalaxies.com/scores.php?scores=7741
 ROMSet: Ghouls
 Service Mode: Off
@@ -126,7 +127,6 @@ Lives: 3
 Flip Screen: Off
 Allow Continue: No
 Game Mode: Game
-
 
 Sample correct TG:
 DSWA: offset 0x27, repeat every 0x7C, typical value 0xFF
@@ -154,3 +154,44 @@ DSWC: offset 0x2F, repeat every 0x7C, typical value 0xBF
     A0: 00 00 00 FF 00 00 00 FF  00 00 00 BF 00 00 FF FF | ... ... ...+..  
    110: 00 00 00 00 3E 82 43 E1  00 00 00 FF 00 00 00 FF | ....>.Cß... ... 
    120: 00 00 00 FF 00 00 00 BF  00 00 FF FF 00 00 00 00 | ... ...+..  ....
+----
+
+Rules, Points [Tournament Settings]: http://www.twingalaxies.com/scores.php?scores=10820
+ROMSet: Ghouls
+Service Mode: Off
+Cabinet: Upright 1 Player
+Difficulty: 4 [Normal]
+Unused: Off [All]
+Bonus Life: 30K, 60K and every 70K
+Lives: 5
+Flip Screen: Off
+Allow Continue: No
+Game Mode: Game
+
+Sample correct TG:
+DSWA: offset 0x27, repeat every 0x7C, typical value 0xFF
+- DSWA: 0x07 (Coin_A): [not relevant]
+- DSWA: 0x38 (Coin_B): [not relevant]
+- DSWA: 0xc0 (Cabinet): 0xc0 (Upright 1 Player)
+
+DSWB: offset 0x2B, repeat every 0x7C, typical value 0xFF
+- DSWB: 0x07 (Difficulty) : 0x07 (4 (Normal))
+- DSWB: 0x08 (Unused): 0x08 (Off)
+- DSWB: 0x30 (Bonus_Life): 0x30 (30K, 60K and every 70K)
+- DSWB: 0x40 (Unused): 0x40 (Off)
+- DSWB: 0x80 (Unused): 0x80 (Off)
+
+DSWC: offset 0x2F, repeat every 0x7C, typical value 0xBD
+- DSWC: 0x03 (Lives): 0x01 (5)
+- DSWC: 0x04 (Unused): 0x04 (Off)
+- DSWC: 0x08 (Unused): 0x08 (Off)
+- DSWC: 0x10 (Flip_Screen): 0x10 (Off)
+- DSWC: 0x20 (Unused): 0x20 (Off)
+- DSWC: 0x40 (Allow_Continue): 0x00 (No)
+- DSWC: 0x80 (Game Mode): 0x80 (Game)
+
+    20: 00 00 00 FF 00 00 00 FF  00 00 00 FF 00 00 00 BD | ... ... ... ...+
+    A0: 00 00 00 FF 00 00 00 FF  00 00 00 BD 00 00 FF FF | ... ... ...+..  
+   110: 00 00 00 00 3E 82 43 E1  00 00 00 FF 00 00 00 FF | ....>.Cß... ... 
+   120: 00 00 00 FF 00 00 00 BD  00 00 FF FF 00 00 00 00 | ... ...+..  ....
+----
