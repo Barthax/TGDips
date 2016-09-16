@@ -1,0 +1,97 @@
+# MAME 0.106 source snippet [bzone.c]
+
+GAME( 1980, redbaron, 0,     redbaron, redbaron, redbaron, ROT0, "Atari", "Red Baron", 0 )
+
+#define BZONEIN0\
+	PORT_START_TAG("IN0")\
+	PORT_BIT ( 0x01, IP_ACTIVE_LOW, IPT_COIN1 )\
+	PORT_BIT ( 0x02, IP_ACTIVE_LOW, IPT_COIN2 )\
+	PORT_BIT ( 0x0c, IP_ACTIVE_LOW, IPT_UNUSED )\
+	PORT_SERVICE( 0x10, IP_ACTIVE_LOW )\
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_SERVICE ) PORT_NAME("Diagnostic Step") PORT_CODE(KEYCODE_F1)\
+ 	/* bit 6 is the VG HALT bit. We set it to "low" */\
+	/* per default (busy vector processor). */\
+ 	/* handled by bzone_IN0_r() */\
+	PORT_BIT ( 0x40, IP_ACTIVE_HIGH, IPT_SPECIAL )\
+	/* bit 7 is tied to a 3kHz clock */\
+ 	/* handled by bzone_IN0_r() */\
+  	PORT_BIT ( 0x80, IP_ACTIVE_HIGH, IPT_SPECIAL )
+
+
+	INPUT_PORTS_START( redbaron )
+BZONEIN0
+	PORT_START_TAG("DSW0")
+	/* See the table above if you are really interested */
+	PORT_DIPNAME(0xff, 0xfd, DEF_STR( Coinage ) )
+	PORT_DIPSETTING (  0xfd, DEF_STR( Normal ) )
+
+	PORT_START_TAG("DSW1")
+	PORT_DIPNAME(0x03, 0x03, DEF_STR( Language ) )
+	PORT_DIPSETTING (  0x00, DEF_STR( German ) )
+	PORT_DIPSETTING (  0x01, DEF_STR( French ) )
+	PORT_DIPSETTING (  0x02, DEF_STR( Spanish ) )
+	PORT_DIPSETTING (  0x03, DEF_STR( English ) )
+	PORT_DIPNAME(0x0c, 0x04, DEF_STR( Bonus_Life ) )
+	PORT_DIPSETTING (  0x0c, "2k 10k 30k" )
+	PORT_DIPSETTING (  0x08, "4k 15k 40k" )
+	PORT_DIPSETTING (  0x04, "6k 20k 50k" )
+	PORT_DIPSETTING (  0x00, DEF_STR( None ) )
+	PORT_DIPNAME(0x30, 0x20, DEF_STR( Lives ) )
+	PORT_DIPSETTING (  0x30, "2" )
+	PORT_DIPSETTING (  0x20, "3" )
+	PORT_DIPSETTING (  0x10, "4" )
+	PORT_DIPSETTING (  0x00, "5" )
+	PORT_DIPNAME(0x40, 0x40, "One Play Minimum" )
+	PORT_DIPSETTING (  0x40, DEF_STR( Off ) )
+	PORT_DIPSETTING (  0x00, DEF_STR( On ) )
+	PORT_DIPNAME(0x80, 0x80, "Self Adjust Diff" )
+	PORT_DIPSETTING (  0x80, DEF_STR( Off ) )
+	PORT_DIPSETTING (  0x00, DEF_STR( On ) )
+
+	/* IN3 - the real machine reads either the X or Y axis from this port */
+	/* Instead, we use the two fake 5 & 6 ports and bank-switch the proper */
+	/* value based on the lsb of the byte written to the sound port */
+	PORT_START_TAG("IN3")
+	PORT_BIT( 0x01, IP_ACTIVE_HIGH, IPT_JOYSTICK_LEFT ) PORT_4WAY
+	PORT_BIT( 0x02, IP_ACTIVE_HIGH, IPT_JOYSTICK_RIGHT ) PORT_4WAY
+	PORT_BIT( 0x04, IP_ACTIVE_HIGH, IPT_JOYSTICK_UP ) PORT_4WAY
+	PORT_BIT( 0x08, IP_ACTIVE_HIGH, IPT_JOYSTICK_DOWN ) PORT_4WAY
+
+	PORT_START_TAG("IN4")	/* Misc controls */
+	PORT_BIT( 0x3f, IP_ACTIVE_HIGH, IPT_UNKNOWN )
+	PORT_BIT( 0x40, IP_ACTIVE_HIGH, IPT_START1 )
+	PORT_BIT( 0x80, IP_ACTIVE_HIGH, IPT_BUTTON1 )
+
+	/* These 2 are fake - they are bank-switched from reads to IN3 */
+	/* Red Baron doesn't seem to use the full 0-255 range. */
+	PORT_START_TAG("FAKE1")	/* IN5 */
+	PORT_BIT( 0xff, 0x80, IPT_AD_STICK_X ) PORT_MINMAX(64,192) PORT_SENSITIVITY(25) PORT_KEYDELTA(10)
+
+	PORT_START_TAG("FAKE2")	/* IN6 */
+	PORT_BIT( 0xff, 0x80, IPT_AD_STICK_Y ) PORT_MINMAX(64,192) PORT_SENSITIVITY(25) PORT_KEYDELTA(10)
+INPUT_PORTS_END
+
+Resolution: vector @ 45.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Red+Baron
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=23046
+
+ROMSet: RedBaron
+Service Mode: Off
+Language: English
+Bonus Life: 4k, 15k, 40k
+Lives: 3
+One Play Minimum: Off
+Self Adjust Diff: On
+
+Sample correct TG: (note no need to check hexdump for service mode setting, it will be obvious if it's on)
+DSW1: offset 0x2B, repeat every 0x7C but length will vary due to analog input, typical value 0x6B
+- DSW1: 0x03 (Language): 0x03 (English)
+- DSW1: 0x0c (Bonus_Life): 0x08 (4k 15k 40k)
+- DSW1: 0x30 (Lives): 0x20 (3)
+- DSW1: 0x40 (One Play Minimum): 0x40 (Off)
+- DSW1: 0x80 (Self Adjust Diff): 0x00 (On)
+
+    20: 00 00 00 3F 00 00 00 FD  00 00 00 6B 00 00 00 00
+    A0: 00 00 00 FD 00 00 00 6B  00 00 00 00 00 00 00 00
+   120: 00 00 00 6B 00 00 00 00  00 00 00 00 00 00 00 80
