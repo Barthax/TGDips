@@ -1,5 +1,8 @@
 ROM set changed: no
-0.106-0.175: galaxyfg - "Galaxy Fight - Universal Warriors"
+0.106-0.177: galaxyfg - "Galaxy Fight - Universal Warriors"
 
 Resolution, 0.106-0.113: 320x224 @ 59.185608Hz
-Resolution, 0.114-0.175: 320x224 @ 59.185606Hz
+Resolution, 0.114-0.177: 320x224 @ 59.185606Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Galaxy+Fight+-+Universal+Warriors
+Rules, Points [Tournament Settings]: http://www.twingalaxies.com/scores.php?scores=14687
