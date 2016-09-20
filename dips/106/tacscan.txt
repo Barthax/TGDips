@@ -150,7 +150,7 @@ D3: offset 0x33, repeat every 0x7C, typical value 0x0D (no upper-nibble values)
 - D3: 0x02 (Demo_Sounds): [not relevant]
 - D3: 0x0c (Number of Ships): 0x0c (8)
 
-D2: offset 0x37, repeat every 0x7C, typical value 0x09
+D2: offset 0x37, repeat every 0x7C, typical value 0x09 (no upper-nibble values)
 - D2: 0x03 (Difficulty): 0x01 (Normal)
 - D2: 0x0c (Bonus_Life): [not relevant]
 
