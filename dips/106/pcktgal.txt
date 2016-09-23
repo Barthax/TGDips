@@ -1,0 +1,76 @@
+# MAME 0.106 source snippet.
+
+GAME( 1987, pcktgal,  0,       pcktgal, pcktgal, pcktgal,  ROT0, "Data East Corporation", "Pocket Gal (Japan)", 0 )
+
+INPUT_PORTS_START( pcktgal )
+	PORT_START
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_8WAY
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_8WAY
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_8WAY
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_8WAY
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_START1 )
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_START2 )
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_BUTTON2 )
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_BUTTON1 )
+
+	PORT_START
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_8WAY PORT_PLAYER(2)
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_8WAY PORT_PLAYER(2)
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_8WAY PORT_PLAYER(2)
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_8WAY PORT_PLAYER(2)
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_COIN1 )
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_COIN2 )
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_BUTTON2 ) PORT_PLAYER(2)
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_PLAYER(2)
+
+	PORT_START	/* Dip switch */
+	PORT_DIPNAME( 0x03, 0x03, DEF_STR( Coinage ) )
+	PORT_DIPSETTING(	0x00, DEF_STR( 2C_1C ) )
+	PORT_DIPSETTING(	0x03, DEF_STR( 1C_1C ) )
+	PORT_DIPSETTING(	0x02, DEF_STR( 1C_2C ) )
+	PORT_DIPSETTING(	0x01, DEF_STR( 1C_3C ) )
+ 	PORT_DIPNAME( 0x04, 0x04, DEF_STR( Flip_Screen ) )
+	PORT_DIPSETTING(	0x04, DEF_STR( Off ) )
+	PORT_DIPSETTING(	0x00, DEF_STR( On ) )
+ 	PORT_DIPNAME( 0x08, 0x08, "Allow 2 Players Game" )
+	PORT_DIPSETTING(	0x00, DEF_STR( No ) )
+	PORT_DIPSETTING(	0x08, DEF_STR( Yes ) )
+ 	PORT_DIPNAME( 0x10, 0x10, DEF_STR( Demo_Sounds ) )
+	PORT_DIPSETTING(	0x00, DEF_STR( Off ) )
+	PORT_DIPSETTING(	0x10, DEF_STR( On ) )
+ 	PORT_DIPNAME( 0x20, 0x20, "Time" )
+	PORT_DIPSETTING(	0x00, "100" )
+	PORT_DIPSETTING(	0x20, "120" )
+	PORT_DIPNAME( 0x40, 0x00, DEF_STR( Lives ) )
+	PORT_DIPSETTING(	0x00, "3" )
+	PORT_DIPSETTING(	0x40, "4" )
+	PORT_DIPNAME( 0x80, 0x80, DEF_STR( Unknown ) )
+	PORT_DIPSETTING(	0x80, DEF_STR( Off ) )
+	PORT_DIPSETTING(	0x00, DEF_STR( On ) )
+INPUT_PORTS_END
+
+Resolution: 256x224 @ 60.000000Hz
+
+Rules, Four different levels are available to increase the score.: http://www.twingalaxies.com/scores.php?scores=204710
+Dip-Switches
+Coinage: 1 Coin/1 Credit
+Flip Screen: Off
+Allow 2 Players Game: No
+Demo Sounds: On
+Time: 100
+Lives: 3
+Unkwnown: Off
+
+Sample correct TG:
+DIPs: offset 0x2B, repeat every 0x7C, typical value 0x97
+- DIPs: 0x03 (Coinage): [not relevant]
+- DIPs: 0x04 (Flip_Screen): 0x04 (Off)
+- DIPs: 0x08 (Allow 2 Players Game): 0x00 (No)
+- DIPs: 0x10 (Demo_Sounds): 0x10 (On)
+- DIPs: 0x20 (Time): 0x00 (100)
+- DIPs: 0x40 (Lives): 0x00 (3)
+- DIPs: 0x80 (Unknown): 0x80 (Off)
+
+    20: 00 00 00 FF 00 00 00 FF  00 00 00 97 00 00 00 00 | ... ... ........
+    A0: 00 00 00 FF 00 00 00 97  00 00 00 00 00 00 00 00 | ... ............
+   120: 00 00 00 97 00 00 00 00  00 00 00 00 00 00 00 00 | ................
