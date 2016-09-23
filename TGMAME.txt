@@ -1538,6 +1538,7 @@ pbobble3
 pbobble4
 pbobblen
 pdrift
+pcktgal
 peggle
 penbros
 pengo
