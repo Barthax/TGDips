@@ -84,7 +84,7 @@ Reward screen: Expanded
 Free Play: Off
 
 Sample correct TG:
-SSIO.IP3: offset 0xFF, repeat every 0x7C, typical value 0xFF
+SSIO.IP3: offset 0x2F, repeat every 0x7C but length may vary due to analog input, typical value 0xFF
 - SSIO.IP3: 0x01 (Cabinet): 0x01 (2P Upright)
 - SSIO.IP3: 0x02 (Difficulty): 0x02 (Normal)
 - SSIO.IP3: 0x04 (Free_Play): 0x04 (Off)
