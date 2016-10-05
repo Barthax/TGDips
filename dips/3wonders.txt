@@ -5,3 +5,11 @@ Resolution, 0.106-0.126: 384x224 @ 60.000000Hz
 Resolution, 0.127-0.147: 384x224 @ 59.610000Hz
 Resolution, 0.148-0.152: 384x224 @ 59.629403Hz
 Resolution, 0.153-0.175: 384x224 @ 59.637405Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Three%20Wonders%20[World%20910520]
+Rules, Chariot: Adventure Through The Sky [Points, Single Player Only]: http://www.twingalaxies.com/scores.php?scores=14468
+Rules, Chariot: Adventure Through The Sky [Points, Two Player Team]: http://www.twingalaxies.com/scores.php?scores=14469
+Rules, Don't Pull [Points, Single Player Only]: http://www.twingalaxies.com/scores.php?scores=14470
+Rules, Don't Pull [Points, Two Player Team]: http://www.twingalaxies.com/scores.php?scores=14471
+Rules, Midnight Wanderers, Quest For The Chariot [Points, Single Player Only]: http://www.twingalaxies.com/scores.php?scores=14466
+Rules, Midnight Wanderers, Quest For The Chariot [Points, Two Player Team]: http://www.twingalaxies.com/scores.php?scores=14467

@@ -3,3 +3,9 @@ ROM set changed: no
 
 Resolution, 0.106-0.113: 256x224 @ 60.606060Hz
 Resolution, 0.114-0.175: 256x224 @ 60.606061Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=4%20in%201%20Fun
+Rules, Game 1: Galactic Convoy [Points]: http://www.twingalaxies.com/scores.php?scores=21418
+Rules, Game 2: Scramble PT2 [Points]: http://www.twingalaxies.com/scores.php?scores=21419
+Rules, Game 3: Galaxian PT5 [Points]: http://www.twingalaxies.com/scores.php?scores=21420
+Rules, Game 4: The Ghost Muncher PT3 [Points]: http://www.twingalaxies.com/scores.php?scores=21421

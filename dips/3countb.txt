@@ -5,3 +5,7 @@ ROM set changed: no
 
 Resolution, 0.106-0.113: 320x224 @ 59.185608Hz
 Resolution, 0.114-0.175: 320x224 @ 59.185606Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=3%20Count%20Bout%20/%20Fire%20Suplex
+Rules, Most Money Earned [Singles Mode]: http://www.twingalaxies.com/scores.php?scores=14652
+Rules, Most Money Earned [Tag Match Mode]: http://www.twingalaxies.com/scores.php?scores=14653

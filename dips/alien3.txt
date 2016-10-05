@@ -2,3 +2,7 @@ ROM set changed: no
 0.106-0.175: alien3 - "Alien3: The Gun (World)"
 
 Resolution, 0.106-0.175: 416x224 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Alien3:%20The%20Gun%20[World]
+Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=21431
+Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=21432

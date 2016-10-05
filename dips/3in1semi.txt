@@ -6,3 +6,9 @@ MAME History:
 - 0.164: Changed description to 'New HyperMan (3-in-1 with Cookie & Bibi & HyperMan)'. Note: Previously we thought that 'XESS - The New Revolution' was the title of the 3-in-1 game, but infact it's just another team name, Gaia shows it too. The actual game doesn't seem to have a proper title indicating there are 3 games within it, only the New HyperMan title screen [David Haywood].
 
 Resolution, 0.106-0.175: 256x224 @ 57.500000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=XESS%20-%20The%20New%20Revolution%20[Semi-Com%203-in-1]
+Rules, Points [Cookie & Bibi, 1 Player Puzzle Game]: http://www.twingalaxies.com/scores.php?scores=120667
+Rules, Points [Cookie & Bibi, 1 Player vs Com]: http://www.twingalaxies.com/scores.php?scores=120668
+Rules, Points [Hyper Pac-Man]: http://www.twingalaxies.com/scores.php?scores=120669
+Rules, Points [NEW Hyper Pac-Man]: http://www.twingalaxies.com/scores.php?scores=120670
