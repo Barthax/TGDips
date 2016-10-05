@@ -6,4 +6,4 @@ Resolution, 0.115-0.175: 336x240 @ 59.922743Hz
 
 TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Tetris%20[Set%201]
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=7878
-Note: to check the difficulty, enable Service Mode dip switch and wait for it to become available.  Change screens using the Player 1 Button 1.  Navigate with Player 1 Left/Right/Down (not Up).  Toggle settings with Player 1 Left/Right.
+Note: to check the difficulty, enable Service Mode dip switch or press Service Mode button (F2) and wait for it to become available.  Change screens using the Player 1 Button 1.  Navigate with Player 1 Left/Right/Down (not Up).  Toggle settings with Player 1 Left/Right.
