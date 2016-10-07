@@ -11,4 +11,5 @@ Resolution, 0.106-0.113: 320x224 @ 59.185608Hz
 Resolution, 0.114-0.175: 320x224 @ 59.185606Hz
 
 TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Alpha%20Mission%20II%20/%20ASO%20II%20-%20Last%20Guardian
-
+Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=14659
+Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=24402
