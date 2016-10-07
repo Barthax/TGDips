@@ -6,7 +6,7 @@ MAME History:
 - 0.136u4: B. Sparks, Smitdogg and The Dumping Union added Pit Fighter (rev 9). Renamed (pitfight) to (pitfight7).
 
 
-Pit Fighter (rev 6)
+Pit Fighter (rev 6) (was 5!)
 -------------------
 ROM set changed: yes
 0.106-0.130: pitfight - "Pit Fighter (rev 5)"
@@ -16,6 +16,10 @@ ROM set changed: yes
 Resolution, 0.106-0.114: 336x240 @ 60.000000Hz
 Resolution, 0.115-0.175: 336x240 @ 59.922743Hz
 
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Pit%20Fighter%20[rev%205]
+Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=78910
+Rules, Points [Three Player Team]: http://www.twingalaxies.com/scores.php?scores=78912
+Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=78911
 
 Pit Fighter (rev 7)
 -------------------
@@ -26,12 +30,14 @@ ROM set changed: yes.  Added in 0.130u3.
 
 Resolution, 0.131-0.176: 336x240 @ 59.922743Hz
 
+Rules: [not currently tracked]
 
 Pit Fighter (rev 9)
 -------------------
 Note: not currently represented on TG.
 ROM set changed: no.  Added in 0.136u4.
-0.136u4-0.176: pitfight - "Pit Fighter (rev 9)"
+0.136u4-0.178: pitfight - "Pit Fighter (rev 9)"
 
-Resolution, 0.137-0.176: 336x240 @ 59.922743Hz
+Resolution, 0.137-0.178: 336x240 @ 59.922743Hz
 
+Rules: [not currently tracked]
