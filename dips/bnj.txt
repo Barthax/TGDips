@@ -28,3 +28,5 @@ ROM set changed: no
 0.148-0.175: bnj - "Bump 'n' Jump"
 
 Resolution, 0.148-0.175: 256x240 @ 57.444853Hz
+
+Rules: [no current tracks]

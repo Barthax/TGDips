@@ -24,3 +24,5 @@ ROM set changed: no
 0.169-0.175: aquarium - "Aquarium (US)"
 
 Resolution, 0.169-0.175: 320x256 @ 60.000000Hz
+
+Rules: [no current tracks]

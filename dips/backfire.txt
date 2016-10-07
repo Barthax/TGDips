@@ -4,3 +4,17 @@ ROM set changed: no
 
 Resolution, 0.106: 320x240 @ 58.000000Hz
 Resolution, 0.107-0.175: 2 screens, both 320x240 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Backfire!
+Rules, Stage 01 - Big Valley [Fastest Lap]: http://www.twingalaxies.com/scores.php?scores=41677
+Rules, Stage 01 - Big Valley [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=24423
+Rules, Stage 02 - Palm Island [Fastest Lap]: http://www.twingalaxies.com/scores.php?scores=41678
+Rules, Stage 02 - Palm Island [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=24424
+Rules, Stage 03 - Meadow Heights [Fastest Lap]: http://www.twingalaxies.com/scores.php?scores=41679
+Rules, Stage 03 - Meadow Heights [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=24425
+Rules, Stage 04 - White Hat Hill [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=41680
+Rules, Stage 05 - Stadium Gymkhana [Fastest Lap]: http://www.twingalaxies.com/scores.php?scores=24427
+Rules, Stage 05 - Stadium Gymkhana [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=41681
+Rules, Stage 06 - Pale Lake [Fastest Lap]: http://www.twingalaxies.com/scores.php?scores=24428
+Rules, Stage 06 - Pale Lake [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=41682
+

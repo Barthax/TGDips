@@ -10,3 +10,7 @@ MAME History:
 Resolution, 0.106-0.151: 320x240 @ 60.000000Hz
 Resolution, 0.152-0.175: 320x240 @ 59.637405Hz
 
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Battle%20Garegga%20-%20Type%202%20[Denmark/China]%20[Tues%20Apr%202%201996]
+Rules, Points [1 Player Only]: http://www.twingalaxies.com/scores.php?scores=11922
+Rules, Points [2 Player Team]: http://www.twingalaxies.com/scores.php?scores=11923
+

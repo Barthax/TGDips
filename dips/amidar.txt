@@ -36,6 +36,8 @@ ROM set changed: no
 
 Resolution, 0.145-0.175: 768x224 @ 60.606061Hz
 
+Rules: [no current tracks]
+
 
 Historical, not relevant to current tracking but may provide clarity
 ----------

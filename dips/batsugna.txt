@@ -1,4 +1,5 @@
 Note: this set not represented on TG.
+ROM set changed: yes
 0.106-0.133: batsugna - "Batsugun (set 2)"
 0.133u1-0.141: batsuguna - "Batsugun (set 2)"
 0.142-0.175: batsugun - "Batsugun"
@@ -10,3 +11,4 @@ MAME History:
 Resolution, 0.106-0.151: 320x240 @ 60.000000Hz
 Resolution, 0.152-0.175: 320x240 @ 59.637405Hz
 
+Rules: [not currently tracked]

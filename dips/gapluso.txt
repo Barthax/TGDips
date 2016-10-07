@@ -9,3 +9,4 @@ MAME History:
 
 Resolution, 0.149-0.175: 288x224 @ 60.606060Hz
 
+Rules: [no current tracks]

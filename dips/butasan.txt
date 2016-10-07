@@ -32,3 +32,5 @@ ROM set changed: no.  Added in 0.143u7.
 0.143u7-0.175: butasan - "Butasan - Pig's & Bomber's (Japan, English)"
 
 Resolution, 0.144-0.175: 256x240 @ 54.000000Hz
+
+Rules: [no current tracks]

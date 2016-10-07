@@ -2,3 +2,6 @@ ROM set change: no
 0.106-0.175: battlane - "Battle Lane! Vol. 5 (set 1)"
 
 Resolution, 0.106-0.175: 240x256 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Battle%20Lane%20Vol.%205%20[Set%201]
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=10060

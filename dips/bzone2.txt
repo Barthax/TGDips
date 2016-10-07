@@ -8,3 +8,5 @@ MAME History:
 
 Resolution, 0.147-0.152: vector @ 40.000000Hz
 Resolution, 0.153-0.175: vector @ 41.015625Hz
+
+Rules: [no current tracks]

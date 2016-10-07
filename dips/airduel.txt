@@ -26,3 +26,5 @@ ROM set changed: no
 0.167-0.175: airduel - "Air Duel (World, M82-A-A + M82-B-A)"
 
 Resolution, 0.167-0.175: 384x256 @ 55.017606Hz
+
+Rules: [no current tracks]

@@ -2,3 +2,6 @@ ROM set changed: no
 0.106-0.175: battlcry - "Battlecry"
 
 Resolution, 0.106-0.175: 256x224 @ 59.000000Hz
+
+TG Game Entry: www.twingalaxies.com/scores.php?platformid=46&gamename=Battlecry
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=24322

@@ -28,7 +28,8 @@ Note: not currently tracked at TG.
 ROM set changed: no.  Added in 0.124u5.
 0.124u5-0.176: sfa2 - "Street Fighter Alpha 2 (Euro 960229)"
 
-0.125-0.127: 384x224 @ 59.633333Hz
-0.128-0.152: 384x224 @ 59.629403Hz
-0.153-0.176: 384x224 @ 59.637405Hz
+Resolution, 0.125-0.127: 384x224 @ 59.633333Hz
+Resolution, 0.128-0.152: 384x224 @ 59.629403Hz
+Resolution, 0.153-0.176: 384x224 @ 59.637405Hz
 
+Rules: [no current tracks]

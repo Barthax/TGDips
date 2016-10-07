@@ -25,3 +25,4 @@ Note: this set is not represented on TG.
 
 Resolution, 0.133-0.175: 640x480 @ 60.000000Hz
 
+Rules: [no current tracks]
