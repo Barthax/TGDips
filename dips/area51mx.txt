@@ -3,3 +3,9 @@ ROM set changed: no
 
 Resolution, 0.106-0.122: 320x240 @ 60.000000Hz
 Resolution, 0.123-0.175: 360x240 @ 59.922743Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Area%2051%20/%20Maximum%20Force%20Duo%20v2.0
+Rules, Points [Area 51, Single Player]: http://www.twingalaxies.com/scores.php?scores=41131
+Rules, Points [Area 51, Two Player Team]: http://www.twingalaxies.com/scores.php?scores=41132
+Rules, Points [Maximum Force Duo, Single Player]: http://www.twingalaxies.com/scores.php?scores=41133
+Rules, Points [Maximum Force Duo, Two Player Team]: http://www.twingalaxies.com/scores.php?scores=41134

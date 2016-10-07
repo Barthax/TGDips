@@ -3,6 +3,12 @@ ROM set changed: no
 0.139-0.165: altbeast - "Altered Beast (set 8, 8751 317-0078)" (minor description change)
 0.166-0.175: altbeast - "Altered Beast (set 8) (8751 317-0078)" (very minor description change)
 
+MAME History:
+- 0.138u4: Stefan Lindberg and The Dumping Union added clone Juuouki (set 5, Japan, FD1094 317-0069). Changed description of clones (set 5, 8751 317-0076) to 'Altered Beast (set 6, 8751 317-0076)', (set 7, 8751 317-0078) to 'Altered Beast (set 8, 8751 317-0078)' and 'Juuouki (set 6, Japan, 8751 317-0077)' to 'Juuouki (set 7, Japan, 8751 317-0077)'.
+
 Resolution, 0.106-0.114: 320x224 @ 60.000000Hz
 Resolution, 0.115-0.175: 320x224 @ 60.054389Hz
 
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Altered%20Beast%20[Set%207,%208751%20317-0078]
+Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=21437
+Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=24609
