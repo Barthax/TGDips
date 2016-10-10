@@ -9,3 +9,6 @@ Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?score
 Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=75563
 Rules, Points [Three Player Team]: http://www.twingalaxies.com/scores.php?scores=75564
 Rules, Points [Four Player Team]: http://www.twingalaxies.com/scores.php?scores=75565
+
+NOTE: Use Service Mode (F2) to access the INTERNAL settings (under Game Settings) after playback if not shown during playback.
+N.B.: While DIPs are also displayed via Service Mode, unlike Game Settings, viewing these after playback has ended will only show local settings, not those used during the recording! These should still be checked via hexdump or INPVIEW as usual.
