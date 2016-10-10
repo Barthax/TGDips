@@ -2,3 +2,6 @@ ROM set changed: no
 0.106-0.175: bottom9 - "Bottom of the Ninth (version T)"
 
 Resolution, 0.106-0.175: 288x224 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Bottom%20of%20the%20Ninth%20[Version%20T]
+Rules, Biggest Blowout]: http://www.twingalaxies.com/scores.php?scores=24398
