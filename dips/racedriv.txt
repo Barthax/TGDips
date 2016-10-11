@@ -1,5 +1,13 @@
 ROM set changed: no
-0.106-0.175: racedriv - "Race Drivin' (cockpit, rev 5)"
+0.106-0.178: racedriv - "Race Drivin' (cockpit, rev 5)"
 
 Resolution, 0.106-0.114: 500x384 @ 60.000000Hz
-Resolution, 0.115-0.175: 508x384 @ 59.952038Hz
+Resolution, 0.115-0.178: 508x384 @ 59.952038Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Race+Drivin%27+%5Bcockpit,+rev+5%5D
+Rules, Points [Autocross Track]: http://www.twingalaxies.com/scores.php?scores=91149
+Rules, Points [Original Track]: http://www.twingalaxies.com/scores.php?scores=91150
+Rules, Points [Super Stunt Track]: http://www.twingalaxies.com/scores.php?scores=91152
+
+NOTE: Use Service Mode (F2) to access the INTERNAL settings after playback if not shown during playback. 1P to cycle through screens, Coin_A/Coin_B to cycle through options, 2P + Coin_A/Coin_B to change values.
+N.B.: Rule sets claim to be at Internal Default settings, but this may not be true ("Champ Lap Qualification" & "Steering Wheel Force" settings in particular).
