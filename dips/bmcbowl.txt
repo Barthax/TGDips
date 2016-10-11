@@ -6,3 +6,6 @@ MAME History:
 - 0.142u3: Changed description to 'Konkyuu no Hoshi'. Angelo Salese removed deprecat.h dependancy and updated irqs accordingly for BMC Bowling driver.
 
 Resolution, 0.106-0.175: 280x232 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=BMC%20Bowling
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=55748

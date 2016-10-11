@@ -3,3 +3,7 @@ ROM set changed: no
 
 Resolution, 0.106-0.133: 256x224 @ 60.000000Hz
 Resolution, 0.134-0.175: 256x224 @ 59.390000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Blood%20Bros.%20[Set%201]
+Rules, Points [1 Player Only]: http://www.twingalaxies.com/scores.php?scores=7691
+Rules, Points [2 Player Team]: http://www.twingalaxies.com/scores.php?scores=10802

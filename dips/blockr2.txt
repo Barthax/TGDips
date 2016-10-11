@@ -8,6 +8,7 @@ MAME History:
 Resolution, 0.106-0.133: 384x240 @ 60.000000Hz
 Resolution, 0.134-0.175: 384x240 @ 57.420000Hz
 
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Block%20Block%20[World%20910910]
 Rules, 1 Player Only [Points - Beginner Course]: http://www.twingalaxies.com/scores.php?scores=24354
 Rules, 1 Player Only [Points - Normal Course]: http://www.twingalaxies.com/scores.php?scores=24355
 Rules, 2 Player Only [Points - Beginner Course]: http://www.twingalaxies.com/scores.php?scores=24356
