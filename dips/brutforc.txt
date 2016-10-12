@@ -2,3 +2,8 @@ ROM set changed: no
 0.106-0.175: brutforc - "Brute Force"
 
 Resolution, 0.106-0.175: 320x240 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Brute%20Force
+Rules, Points [1 Player Only]: http://www.twingalaxies.com/scores.php?scores=24381
+Rules, Points [2 Player Team]: http://www.twingalaxies.com/scores.php?scores=24382
+Rules, Points [3 Player Team]: http://www.twingalaxies.com/scores.php?scores=24383
