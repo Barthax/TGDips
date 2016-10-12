@@ -2,3 +2,15 @@ ROM set changed: no
 0.106-0.175: bcstry - "B.C. Story (set 1)"
 
 Resolution, 0.106-0.175: 320x240 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=B.C.%20Story%20[Set%201]
+Rules, Cable Man [Highest Height]: http://www.twingalaxies.com/scores.php?scores=24326
+Rules, Hatch Baby [Most Hatched Babies]: http://www.twingalaxies.com/scores.php?scores=24328
+Rules, Heavy Toss [Highest Height]: http://www.twingalaxies.com/scores.php?scores=24325
+Rules, Human Pump [Furthest Distance]: http://www.twingalaxies.com/scores.php?scores=24327
+Rules, Jump Go Go [Fastest Completion]: http://www.twingalaxies.com/scores.php?scores=24332
+Rules, Mega Hunter [Highest Score]: http://www.twingalaxies.com/scores.php?scores=24331
+Rules, Power Spring [Closest Distance]: http://www.twingalaxies.com/scores.php?scores=24333
+Rules, Speed Up [Fastest Time]: http://www.twingalaxies.com/scores.php?scores=24324
+Rules, Valley Surfing [Shortest Distance Required]: http://www.twingalaxies.com/scores.php?scores=24330
+Rules, Woodcutter [Fastest Completion]: http://www.twingalaxies.com/scores.php?scores=24329

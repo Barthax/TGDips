@@ -2,3 +2,6 @@ ROM set changed: no
 0.106-0.175: beastrzr - "Beastorizer (USA)"
 
 Resolution, 0.106-0.175: 640x480 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Beastorizer%20[USA]
+Rules, Fastest Completion [Tournament Settings]: http://www.twingalaxies.com/scores.php?scores=41803

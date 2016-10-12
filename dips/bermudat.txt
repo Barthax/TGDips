@@ -6,6 +6,10 @@ Resolution, 0.106-0.127: 384x224 @ 60.000000Hz
 Resolution, 0.128-0.129: 368x224 @ 60.000000Hz
 Resolution, 0.130-0.175: 400x224 @ 60.000000Hz
 
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Bermuda%20Triangle%20[Japan]
+Rules, Points [1 Player Only]: http://www.twingalaxies.com/scores.php?scores=10169
+Rules, Points [2 Player Team]: http://www.twingalaxies.com/scores.php?scores=24431
+
 To aid confirming there is no change in ROM between 0.127 & 0.128:
 C:\MAME>mame127 -listcrc bermudat
 43dec5e9 bt_p1.rom    Bermuda Triangle (Japan)
@@ -64,3 +68,4 @@ b5462139 bt_p17.rom   Bermuda Triangle (World?)
 cb416227 bt_p18.rom   Bermuda Triangle (World?)
 4bc83229 bt_p4.rom    Bermuda Triangle (World?)
 817bd62c bt_p5.rom    Bermuda Triangle (World?)
+
