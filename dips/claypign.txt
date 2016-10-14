@@ -3,4 +3,6 @@ ROM set changed: no
 
 Resolution, 0.106-0.175: 320x240 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Clay Pigeon [Version 2.0]
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Clay%20Pigeon%20[Version%202.0]
+Rules, Points [Skeet Shoot]: http://www.twingalaxies.com/scores.php?scores=24480
+Rules, Points [Trap Shoot]: http://www.twingalaxies.com/scores.php?scores=24481

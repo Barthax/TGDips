@@ -5,4 +5,6 @@ Resolution, 0.106-0.127: 384x224 @ 60.000000Hz
 Resolution, 0.128-0.163: 392x224 @ 60.000000Hz
 Resolution, 0.164-0.175: 400x224 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Chopper I [US Set 1]
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Chopper%20I%20[US%20Set%201]
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=24476
+
