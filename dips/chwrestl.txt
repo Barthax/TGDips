@@ -4,3 +4,5 @@ ROM set changed: no
 Resolution, 0.106-0.127: 280x210 @ 60.000000Hz
 Resolution, 0.128-0.143: 280x210 @ 59.922747Hz
 Resolution, 0.144-0.175: 280x216 @ 59.922738Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Champion Pro Wrestling

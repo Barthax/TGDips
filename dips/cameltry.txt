@@ -3,3 +3,14 @@ ROM set changed: no
 0.115-0.175: cameltry - "Cameltry (US, YM2610)"
 
 Resolution, 0.73-0.175: 320x224 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Cameltry%20[US]
+Rules, Beginner Course [Fastest Completion]: http://www.twingalaxies.com/scores.php?scores=55672
+Rules, Beginner Course [Points]: http://www.twingalaxies.com/scores.php?scores=55676
+Rules, Beginner Course [Points] [ADeca 2004 Contest Only]: http://www.twingalaxies.com/scores.php?scores=9849
+Rules, Expert Course [Fastest Completion]: http://www.twingalaxies.com/scores.php?scores=55673
+Rules, Expert Course [Points]: http://www.twingalaxies.com/scores.php?scores=55677
+Rules, Special Course [Fastest Completion]: http://www.twingalaxies.com/scores.php?scores=55674
+Rules, Special Course [Points]: http://www.twingalaxies.com/scores.php?scores=55678
+Rules, Training Course [Fastest Completion]: http://www.twingalaxies.com/scores.php?scores=55675
+Rules, Training Course [Points]: http://www.twingalaxies.com/scores.php?scores=55679

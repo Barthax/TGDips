@@ -5,3 +5,5 @@ Resolution, 0.106: 1344x240 @ 60.000000Hz
 Resolution, 0.107-0.114: 2 screens, both 672x240 @ 60.000000Hz
 Resolution, 0.115-0.143: 2 screens, both 672x240 @ 59.922743Hz
 Resolution, 0.144-0.175: 2 screens, both 672x240 @ 59.922748Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Cyberball [Rev 4]

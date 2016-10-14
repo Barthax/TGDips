@@ -2,3 +2,7 @@ ROM set changed: no
 0.106-0.175: cclimbr2 - "Crazy Climber 2 (Japan)"
 
 Resolution, 0.106-0.175: 288x224 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Crude%20Buster%20[World%20FX%20Version]
+Rules, Points [1 Player Only]: http://www.twingalaxies.com/scores.php?scores=24517
+Rules, Points [2 Player Team]: http://www.twingalaxies.com/scores.php?scores=24518

@@ -2,3 +2,13 @@ ROM set changed: no
 0.106-0.175: cbaj - "Cool Boarders Arcade Jam"
 
 Resolution, 0.106-0.175: 640x480 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Cool%20Boarders%20Arcade%20Jam
+Rules, Fastest Time [Novice - Level 1, White Resort]: http://www.twingalaxies.com/scores.php?scores=55700
+Rules, Fastest Time [Novice - Level 2, Final - Sunset Hill]: http://www.twingalaxies.com/scores.php?scores=55701
+Rules, Fastest Time [Expert - Level 1, Railroad Trip]: http://www.twingalaxies.com/scores.php?scores=55694
+Rules, Fastest Time [Expert - Level 2, Take It Easy]: http://www.twingalaxies.com/scores.php?scores=55695
+Rules, Fastest Time [Expert - Level 3, Bear In The Forest]: http://www.twingalaxies.com/scores.php?scores=55696
+Rules, Fastest Time [Expert - Level 4, Pipeline Canyon]: http://www.twingalaxies.com/scores.php?scores=55697
+Rules, Fastest Time [Expert - Level 5, Freezing Point]: http://www.twingalaxies.com/scores.php?scores=55698
+Rules, Fastest Time [Expert - Level 6, Final - ?]: http://www.twingalaxies.com/scores.php?scores=55699

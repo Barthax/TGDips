@@ -1,6 +1,13 @@
 ROM set changed: no
-0.106-0.165: cotton - "Cotton (set 4, World, FD1094 317-0181a)"
+0.92-0.149: cotton - "Cotton (set 3, World, FD1094 317-0181a)"
+0.150-0.165: cotton - "Cotton (set 4, World, FD1094 317-0181a)"
 0.166-0.175: cotton - "Cotton (set 4, World) (FD1094 317-0181a)"
+
+MAME History:
+- 0.92: Changed description to 'Cotton (set 3, World, FD1094 317-0181a)' and clones (US, FD1094 317-0180) to 'Cotton (set 2, US, FD1094 317-0180)' and (Japan, FD1094 317-0179a) to 'Cotton (set 1, Japan, FD1094 317-0179a)'. Renamed (cottona) to (cottonu).
+- 0.150: Charles MacDonald, ShouTime and The Dumping Union added clone Cotton (set 2, Japan, Rev B, FD1094 317-0179b). Changed description of clones (set 1, Japan, FD1094 317-0179a) to 'Cotton (set 1, Japan, Rev A, FD1094 317-0179a)', (set 2, US, FD1094 317-0180) to 'Cotton (set 3, US, FD1094 317-0180)' and (set 3, World, FD1094 317-0181a) to 'Cotton (set 4, World, FD1094 317-0181a)'. Renamed (cottonj) to (cottonja).
 
 Resolution, 0.106-0.114: 320x224 @ 60.000000Hz
 Resolution, 0.115-0.175: 320x224 @ 60.054389Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Cotton [set 3, World, FD1094 317-0181a]

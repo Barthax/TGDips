@@ -4,6 +4,8 @@ ROM set changed: undetermined.  Seems to have been dropped at 0.106.
 Resolution, 0.87-0.90: 304x224 @ 60.000000Hz
 Resolution, 0.92-0.106: 320x224 @ 59.185608Hz
 
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Columns [Neo Geo]
+
 0.106 CRCs:
 c6c9888d 2000-p1.bin  Columns (Neo-Geo)
 089a28a8 2000-s1.bin  Columns (Neo-Geo)
@@ -25,3 +27,4 @@ e09e253c 000-lo.lo    Columns (Neo-Geo)
 504bf849 nnp-v1.rom   Columns (Neo-Geo)
 9a579cab 2000-c1.bin  Columns (Neo-Geo)
 91d14043 2000-c2.bin  Columns (Neo-Geo)
+

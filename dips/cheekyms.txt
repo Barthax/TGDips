@@ -2,3 +2,6 @@ ROM set changed: no
 0.106-0.175: cheekyms - "Cheeky Mouse"
 
 Resolution, 0.106-0.175: 256x192 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Cheeky%20Mouse
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=10459

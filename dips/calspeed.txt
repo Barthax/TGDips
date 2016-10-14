@@ -6,6 +6,7 @@ Resolution, 0.106-0.175: 640x480 @ 57.000000Hz
 
 Note: service mode accessible with F2 (hold button).  Navigation is with Volume Up/Volume Down OR Road/Sky Cam, with Start as the select button.
 
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=California%20Speed
 Rules, Central Valley [Fastest Race, Normal Course]: http://www.twingalaxies.com/scores.php?scores=55644
 Rules, Central Valley [Fastest Race, Reverse Course]: http://www.twingalaxies.com/scores.php?scores=55645
 Rules, Highway 1 [Fastest Race, Normal Course]: http://www.twingalaxies.com/scores.php?scores=55646
@@ -34,3 +35,5 @@ Rules, Willow Spring [Fastest Race, Normal Course]: http://www.twingalaxies.com/
 Rules, Willow Spring [Fastest Race, Reverse Course]: http://www.twingalaxies.com/scores.php?scores=55669
 Rules, Yosemite [Fastest Race, Normal Course]: http://www.twingalaxies.com/scores.php?scores=55670
 Rules, Yosemite [Fastest Race, Reverse Course]: http://www.twingalaxies.com/scores.php?scores=55671
+
+

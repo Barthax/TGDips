@@ -14,6 +14,8 @@ Resolution, 0.106-0.145: 304x224 @ 54.000000Hz
 Resolution, 0.146-0.164: 320x224 @ 59.170000Hz
 Resolution, 0.165-0.175: 320x224 @ 59.185606Hz
 
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Crime Fighters [US, 4 Players]
+
 
 Crime Fighters (World 2 players)
 --------------------------------
@@ -22,3 +24,5 @@ ROM set changed: no
 0.172-0.175: crimfght - "Crime Fighters (World 2 players)"
 
 Resolution, 0.172-0.175: 320x224 @ 59.185606Hz
+
+Rules: [no current tracks]

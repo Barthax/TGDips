@@ -18,6 +18,7 @@ MAME History:
 Resolution, 0.106-0.113: 512x400 @ 57.000000Hz
 Resolution, 0.114-0.175: 512x400 @ 57.349016Hz
 
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Cruis%27n%20World%20[Rev%20L2.3]
 Rules, The World [Fastest Completion]: http://www.twingalaxies.com/scores.php?scores=55739
 Rules, Africa [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=55725
 Rules, Australia [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=55726
@@ -45,6 +46,8 @@ ROM set changed: yes.  Added in 0.106u10.
 Resolution, 0.107-0.113: 512x400 @ 57.000000Hz
 Resolution, 0.114-0.175: 512x400 @ 57.349016Hz
 
+Rules: [no current tracks]
+
 
 Cruis'n World (rev L2.5)
 ------------------------
@@ -53,3 +56,6 @@ ROM set changed: no.  Added in 0.146u3.
 0.146u3-0.175: crusnwld - "Cruis'n World (rev L2.5)"
 
 Resolution, 0.147-0.175: 512x400 @ 57.349016Hz
+
+Rules: [no current tracks]
+
