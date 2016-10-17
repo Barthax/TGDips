@@ -3,4 +3,5 @@ ROM set changed: no
 
 Resolution, 0.106-0.175: 256x224 @ 57.500000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Cookie & Bibi 2
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Cookie%20&%20Bibi%202
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=24492

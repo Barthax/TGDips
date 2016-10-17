@@ -4,4 +4,5 @@ ROM set changed: no
 Resolution, 0.106-0.115: 294x239 @ 60.000000Hz
 Resolution, 0.116-0.175: 292x240 @ 60.096154Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Colony 7 [Set 1]
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Colony%207%20[Set%201]
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=10104

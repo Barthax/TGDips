@@ -9,4 +9,7 @@ Resolution, 0.106-0.114: 672x240 @ 60.000000Hz
 Resolution, 0.115-0.143: 672x240 @ 59.922743Hz
 Resolution, 0.144-0.175: 672x240 @ 59.922748Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Cyberball 2072
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Cyberball%202072
+Rules, Biggest Blowout: http://www.twingalaxies.com/scores.php?scores=27187
+Rules, Most Money Earned [Game Breakers Mode]: http://www.twingalaxies.com/scores.php?scores=27189
+Rules, Most Money Earned [Regulation Play]: http://www.twingalaxies.com/scores.php?scores=27188

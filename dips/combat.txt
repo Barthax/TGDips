@@ -3,4 +3,5 @@ ROM set changed: no
 
 Resolution, 0.106-0.175: 320x240 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Combat [Version 3.0]
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Combat%20[Version%203.0]
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=24488
