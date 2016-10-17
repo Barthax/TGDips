@@ -1,0 +1,122 @@
+# MAME 0.106 source snippet
+
+GAME( 1984, grobda,   0,        grobda,   grobda,   grobda,   ROT90, "Namco", "Grobda (New Ver.)", 0 )
+
+INPUT_PORTS_START( grobda )
+NAMCO_5XIN0
+NAMCO_56IN1
+
+	PORT_START_TAG("DSW0")	/* 56XX #1 pins 30-33 */
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_BUTTON2 )
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_BUTTON2 ) PORT_COCKTAIL
+	PORT_DIPNAME( 0x04, 0x04, DEF_STR( Cabinet ) )
+	PORT_DIPSETTING(    0x04, DEF_STR( Upright ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Cocktail ) )
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_SERVICE )	// service mode again
+
+	PORT_START_TAG("DSW1")	/* 56XX #1 pins 22-29 */
+	PORT_SERVICE( 0x01, IP_ACTIVE_LOW )
+	PORT_DIPNAME( 0x0e, 0x08, DEF_STR( Coin_A ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( 4C_1C ) )
+	PORT_DIPSETTING(    0x02, DEF_STR( 3C_1C ) )
+	PORT_DIPSETTING(    0x06, DEF_STR( 2C_1C ) )
+	PORT_DIPSETTING(    0x08, DEF_STR( 1C_1C ) )
+	PORT_DIPSETTING(    0x04, DEF_STR( 2C_3C ) )
+	PORT_DIPSETTING(    0x0a, DEF_STR( 1C_2C ) )
+	PORT_DIPSETTING(    0x0e, DEF_STR( 1C_3C ) )
+	PORT_DIPSETTING(    0x0c, DEF_STR( 1C_4C ) )
+	PORT_DIPNAME( 0x70, 0x40, DEF_STR( Coin_B ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( 4C_1C ) )
+	PORT_DIPSETTING(    0x10, DEF_STR( 3C_1C ) )
+	PORT_DIPSETTING(    0x30, DEF_STR( 2C_1C ) )
+	PORT_DIPSETTING(    0x40, DEF_STR( 1C_1C ) )
+	PORT_DIPSETTING(    0x20, DEF_STR( 2C_3C ) )
+	PORT_DIPSETTING(    0x50, DEF_STR( 1C_2C ) )
+	PORT_DIPSETTING(    0x70, DEF_STR( 1C_3C ) )
+	PORT_DIPSETTING(    0x60, DEF_STR( 1C_4C ) )
+	PORT_DIPNAME( 0x80, 0x80, "Freeze" )
+	PORT_DIPSETTING(    0x80, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+
+	PORT_START_TAG("DSW2")	/* 56XX #1 pins 38-41 multiplexed */
+	PORT_DIPNAME( 0x03, 0x03, DEF_STR( Lives ) )
+	PORT_DIPSETTING(    0x02, "1" )
+	PORT_DIPSETTING(    0x01, "2" )
+	PORT_DIPSETTING(    0x03, "3" )
+	PORT_DIPSETTING(    0x00, "5" )
+	PORT_DIPNAME( 0x0c, 0x0c, DEF_STR( Difficulty ) )
+	PORT_DIPSETTING(    0x0c, "Rank A" )
+	PORT_DIPSETTING(    0x08, "Rank B" )
+	PORT_DIPSETTING(    0x04, "Rank C" )
+	PORT_DIPSETTING(    0x00, "Rank D" )
+	PORT_DIPNAME( 0x10, 0x10, DEF_STR( Demo_Sounds ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x10, DEF_STR( On ) )
+	PORT_DIPNAME( 0x20, 0x20, DEF_STR( Level_Select ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x20, DEF_STR( On ) )
+	PORT_DIPNAME( 0xc0, 0x00, DEF_STR( Bonus_Life ) )
+	PORT_DIPSETTING(    0x00, "10k 50k and every 50k" )
+	PORT_DIPSETTING(    0x40, "10k 30k" )
+	PORT_DIPSETTING(    0xc0, "10k" )
+	PORT_DIPSETTING(    0x80, DEF_STR( None ) )
+INPUT_PORTS_END
+
+#define NAMCO_5XIN0\
+	PORT_START_TAG("IN0") /* 56XX #0 pins 22-29 */\
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_8WAY\
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_8WAY\
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_8WAY\
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_8WAY\
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_8WAY PORT_COCKTAIL\
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_8WAY PORT_COCKTAIL\
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_8WAY PORT_COCKTAIL\
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_8WAY PORT_COCKTAIL
+
+#define NAMCO_56IN1\
+	PORT_START_TAG("IN1")	/* 56XX #0 pins 30-33 and 38-41 */\
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_BUTTON1 )\
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_COCKTAIL\
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_START1 )\
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_START2 )\
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_COIN1 )\
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_COIN2 )\
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_UNUSED )\
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_SERVICE1 )
+
+Resolution: 288x224 @ 60.606060Hz
+
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=38235
+ROMSet: Grobda
+Cabinet: Upright
+Service Mode: Off
+Freeze: Off
+Lives: 3
+Difficulty: Rank A
+Level Select: Off
+Bonus Life: 10K, 50K & Every 50K
+
+Sample correct TG:
+DSW0: offset 0x2B, repeat every 0x7C, typical value 0x0F - only bit 0x04 relevant
+- DSW0: 0x01 (player 1 button 2): [not relevant]
+- DSW0: 0x02 (player 1 button 2, cocktail): [not relevant]
+- DSW0: 0x04 (Cabinet): 0x04 (Upright)
+- DSW0: 0x08 (service mode active): [not relveant]
+
+DSW1: offset 0x2F, repeat every 0x7C, typical value 0xC9 - only 0x80 bit relevant
+- DSW1: 0x01 (unused): [not relevant]
+- DSW1: 0x0e (Coin_A): [not relevant]
+- DSW1: 0x70 (Coin_B): [not relevant]
+- DSW1: 0x80 (Freeze): 0x80 (Off)
+
+DSW2: offset 0x33, repeat every 0x7C, typical value 0x1F
+- DSW2: 0x03 (Lives): 0x03 (3)
+- DSW2: 0x0c (Difficulty): 0x0c (Rank A)
+- DSW2: 0x10 (Demo_Sounds): [not relevant]
+- DSW2: 0x20 (Level_Select): 0x00 (Off)
+- DSW2: 0xc0 (Bonus_Life): 0x00 (10k 50k and every 50k)
+
+    20: 00 00 00 FF 00 00 00 FF  00 00 00 0F 00 00 00 C9 | ... ... .......+
+    30: 00 00 00 1F 00 00 00 00  00 00 00 00 00 00 00 00 | ................
+    A0: 00 00 00 FF 00 00 00 0F  00 00 00 C9 00 00 00 1F | ... .......+....
+   120: 00 00 00 0F 00 00 00 C9  00 00 00 1F 00 00 00 00 | .......+........
