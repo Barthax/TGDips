@@ -28,3 +28,6 @@ ROM set changed: no.  Added in 0.128u6.
 0.128u6-0.175: carnevil - "CarnEvil (v1.0.3)"
 
 Resolution, 0.129-0.175: 640x480 @ 57.000000Hz
+
+Rules: [no current tracks]
+

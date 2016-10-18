@@ -27,3 +27,6 @@ ROM set changed: no. Added in 0.138u3.
 0.138u3-0.175: ckong - "Crazy Kong"
 
 Resolution, 0.139-0.175: 256x224 @ 60.000000Hz
+
+Rules: [no current tracks]
+

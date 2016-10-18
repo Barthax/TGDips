@@ -26,3 +26,5 @@ Note: this set is not currently represented on TG
 
 Resolution, 0.149-0.175: 320x232 @ 58.970000Hz
 
+Rules: [no current tracks]
+

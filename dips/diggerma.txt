@@ -8,6 +8,8 @@ MAME History:
 Resolution, 0.106-0.113: 320x224 @ 59.185608Hz
 Resolution, 0.114-0.175: 320x224 @ 59.185606Hz
 
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Digger Man
+
 Additional information confirming ROM set not changed betwen 0.106 and 0.107 (differences are in the NeoGeo BIOS only):
 C:\MAME>mame106 -listcrc diggerma | find "Digger Man"
 eda433d7 dig_p1.rom   Digger Man

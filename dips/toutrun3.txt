@@ -29,3 +29,4 @@ Resolution, 0.117-0.135: 320x224 @ 59.637405Hz
 Resolution, 0.136-0.176: 320x224 @ 60.054389Hz
 
 Rules: [no current tracks]
+

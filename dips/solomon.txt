@@ -26,3 +26,6 @@ ROM set changed: no.  Added in 0.108u3.
 0.108u3-0.178: solomon - "Solomon's Key (US)"
 
 Resolution, 0.109-0.178: 256x224 @ 60.000000Hz
+
+Rules: [no current tracks]
+

@@ -3,3 +3,12 @@ ROM set changed: no
 
 Resolution, 0.106-0.122: 200x200 @ 60.000000Hz
 Resolution, 0.123-0.175: 384x240 @ 60.106990Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Driver%27s%20Edge
+Rules, Advanced Track [Fastest Lap]: http://www.twingalaxies.com/scores.php?scores=55869
+Rules, Easy Track [Fastest Lap]: http://www.twingalaxies.com/scores.php?scores=55870
+Rules, Pro Track [Fastest Lap]: http://www.twingalaxies.com/scores.php?scores=55871
+Rules, Points [Advanced Track]: http://www.twingalaxies.com/scores.php?scores=55872
+Rules, Points [Easy Track]: http://www.twingalaxies.com/scores.php?scores=55873
+Rules, Points [Pro Track]: http://www.twingalaxies.com/scores.php?scores=55874
+

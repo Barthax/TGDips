@@ -31,3 +31,4 @@ ROM set changed: no.  Added in 0.153.
 
 Resolution, 0.153-0.176: 320x240 @ 57.613169Hz
 
+Rules: [no current tracks]

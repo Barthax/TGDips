@@ -23,6 +23,7 @@ NOTE: All settings are internal. Enter Service Mode [F2] at the end of recording
 
 Super Street Fighter II: The New Challengers (World 931005)
 -----------------------------------------------------------
+Note: not currently tracked on TG.
 0.155-0.176: ssf2 - "Super Street Fighter II: The New Challengers (World 931005)"
 
 Resolution, 0.155-0.176: 384x224 @ 59.637405Hz

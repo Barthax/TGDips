@@ -2,3 +2,5 @@ ROM set changed: no
 0.106-0.175: dietgo - "Diet Go Go (Euro v1.1 1992.09.26)"
 
 Resolution, 0.106-0.175: 320x240 @ 58.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Diet Go Go (Euro v1.1 1992.09.26)

@@ -2,3 +2,6 @@ ROM set changed: no
 0.106-0.175: drgnbstr - "Dragon Buster"
 
 Resolution, 0.106-0.175: 288x224 @ 60.606060Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Dragon%20Buster
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=26130
