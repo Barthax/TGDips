@@ -15,6 +15,10 @@ ROM set changed: yes
 Resolution, 0.106-0.146: 320x240 @ 60.000000Hz
 Resolution, 0.147-0.175: 320x236 @ 60.000000Hz
 
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Vamp%201/2%20[Korea%20version]
+Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=120532
+Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=120533
+
 
 Vamf x1/2 (Europe)
 ------------------
@@ -24,4 +28,6 @@ ROM set changed: no.  Added in 0.129.
 
 Resolution, 0.129-0.146: 320x240 @ 60.000000Hz
 Resolution, 0.147-0.176: 320x236 @ 60.000000Hz
+
+Rules: [no current tracks]
 

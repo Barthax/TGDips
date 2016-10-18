@@ -18,6 +18,9 @@ ROM set changed: yes
 Resolution, 0.106-0.113: 320x224 @ 59.185608Hz
 Resolution, 0.114-0.170: 320x224 @ 59.185606Hz
 
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=World%20Heroes%202%20Jet
+Rules, Points [Tournament Settings]: http://www.twingalaxies.com/scores.php?scores=15450
+
 
 World Heroes 2 Jet (set 1)
 --------------------------
@@ -27,4 +30,6 @@ ROM set changed: no.  Only existed in 0.120-0.139u2.
 0.140+: NOT SUPPORTED
 
 Resolution, 0.120-0.139: 320x224 @ 59.185606Hz
+
+Rules: [no current tracks]
 
