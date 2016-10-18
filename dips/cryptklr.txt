@@ -3,4 +3,11 @@ ROM set changed: no
 
 Resolution, 0.106-0.175: 640x480 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Crypt Killer [GQ420 UAA]
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Crypt%20Killer%20[GQ420%20UAA]
+Rules, Points [1 Player Only, Multiple Credit]: http://www.twingalaxies.com/scores.php?scores=55740
+Rules, Points [1 Player Only, Single Credit]: http://www.twingalaxies.com/scores.php?scores=55743
+Rules, Points [2 Player Team, Multiple Credit]: http://www.twingalaxies.com/scores.php?scores=55741
+Rules, Points [2 Player Team, Single Credit]: http://www.twingalaxies.com/scores.php?scores=55744
+Rules, Points [3 Player Team, Multiple Credit]: http://www.twingalaxies.com/scores.php?scores=55742
+Rules, Points [3 Player Team, Single Credit]: http://www.twingalaxies.com/scores.php?scores=55745
+
