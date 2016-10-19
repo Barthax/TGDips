@@ -1,7 +1,11 @@
 ROM set changed: no
-0.106-0.175: prikura - "Princess Clara Daisakusen (J 960910 V1.000)"
+0.106-0.178: prikura - "Princess Clara Daisakusen (J 960910 V1.000)"
 
 Resolution, 0.106-0.128: 704x513 @ 60.000000Hz
 Resolution, 0.129-0.133: 704x512 @ 60.000000Hz
 Resolution, 0.134-0.142: 320x224 @ 59.828244Hz
-Resolution, 0.143-0.175: 320x224 @ 59.764793Hz
+Resolution, 0.143-0.178: 320x224 @ 59.764793Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Princess+Clara+Daisakusen+%5BJ+960910+V1.000%5D
+Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=78975
+Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=78976
