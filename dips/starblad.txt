@@ -13,6 +13,9 @@ ROM set changed: yes
 
 Resolution, 0.106-0.175: 496x480 @ 60.000000Hz
 
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Starblade
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=110763
+
 
 Starblade (World)
 -----------------
@@ -21,4 +24,6 @@ ROM set changed: no.  Added in 0.148u2.
 0.148u2-0.176: starblad - "Starblade (World)"
 
 Resolution, 0.149-0.176: 496x480 @ 60.000000Hz
+
+Rules: [no current tracks]
 

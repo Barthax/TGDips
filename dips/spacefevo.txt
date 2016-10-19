@@ -7,6 +7,11 @@ MAME History:
 
 Resolution, 0.106-0.175: 256x224 @ 60.000000Hz
 
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Space%20Fever%20[set%201]
+Rules, Points [Game A]: http://www.twingalaxies.com/scores.php?scores=110709
+Rules, Points [Game B]: http://www.twingalaxies.com/scores.php?scores=110710
+Rules, Points [Game C]: http://www.twingalaxies.com/scores.php?scores=110711
+
 Additional confirmation that spacefev became spacefevo:
 C:\MAME>mame133 -listcrc spacefev
 35f295bd sf.f1        Space Fever (set 1)
@@ -29,3 +34,4 @@ a163e800 h2-ro-.bin   Space Fever (Old Ver.)
 00027be2 i1-ro-.bin   Space Fever (Old Ver.)
 95c2c1ee ss3.ic2      Space Fever (Old Ver.)
 c5914ec1 f5-i-.bin    Space Fever (Old Ver.)
+

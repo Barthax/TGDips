@@ -11,3 +11,6 @@ MAME History:
 
 Resolution, 0.106-0.152: 288x224 @ 60.606060Hz
 Resolution, 0.153-0.175: 288x224 @ 60.606061Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Splatterhouse%20[World]
+Rules, TGTS: http://www.twingalaxies.com/scores.php?scores=9955
