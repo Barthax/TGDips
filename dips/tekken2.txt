@@ -13,6 +13,9 @@ ROM set changed: yes
 Resolution, 0.106-0.142: 640x480 @ 60.000000Hz
 Resolution, 0.143-0.175: 640x480 @ 60.000000Hz
 
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Tekken%202%20Ver.B%20[TES3/VER.B]
+Rules, Fastest Completion [Tournament Settings]: http://www.twingalaxies.com/scores.php?scores=120355
+
 
 Tekken 2 Ver.B (US, TES3/VER.D)
 -------------------------------
@@ -21,4 +24,6 @@ ROM set changed: no.  Added in 0.142u2.
 0.142u2-0.176: tekken2 - "Tekken 2 Ver.B (US, TES3/VER.D)"
 
 Resolution, 0.143-0.176: 640x480 @ 60.000000Hz
+
+Rules: [no current tracks]
 

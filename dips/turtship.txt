@@ -14,6 +14,10 @@ ROM set changed: yes
 
 Resolution, 0.106-0.175: 384x224 @ 60.000000Hz
 
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Turtle%20Ship%20[Japan]
+Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=120484
+Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=120485
+
 
 Turtle Ship (North America)
 ---------------------------
@@ -22,4 +26,6 @@ ROM set changed: no.  Added in 0.106u3.
 0.106u3-0.176: turtship - "Turtle Ship (North America)"
 
 Resolution, 0.107-0.176: 384x224 @ 60.000000Hz
+
+Rules: [no current tracks]
 

@@ -11,3 +11,6 @@ MAME History:
 
 Resolution, 0.106-0.115: 240x240 @ 60.000000Hz
 Resolution, 0.116-0.175: 256x256 @ 56.308461Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Tomahawk%20777%20[rev%201]
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=10457

@@ -8,3 +8,7 @@ MAME History:
 - 0.133u1: Renamed (turtshij) to (turtshipj) and (turtshik) to (turtshipk).
 
 Resolution, 0.106-0.175: 384x224 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Turtle%20Ship%20[Japan]
+Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=120484
+Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=120485

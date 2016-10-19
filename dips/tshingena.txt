@@ -10,3 +10,6 @@ MAME History:
 
 Resolution, 0.106-0.168: 256x224 @ 60.000000Hz
 Resolution, 0.169-0.175: 256x224 @ 56.191350Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Takeda%20Shingen%20[Japan,%20Japanese]
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=120336
