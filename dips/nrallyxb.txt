@@ -9,4 +9,6 @@ MAME History:
 
 Resolution, 0.106-0.175: 288x224 @ 60.606060Hz
 
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=New%20Rally-X
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=7776
+

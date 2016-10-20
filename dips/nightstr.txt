@@ -14,6 +14,9 @@ ROM set changed: yes
 
 Resolution, 0.106-0.175: 320x240 @ 60.000000Hz
 
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Night%20Striker%20[US]
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=18991
+
 
 Night Striker (World)
 ---------------------
@@ -22,4 +25,6 @@ ROM set changed: no
 0.125u9-0.175: nightstr - "Night Striker (World)"
 
 Resolution, 0.126-0.175: 320x240 @ 60.000000Hz
+
+Rules: [no current tracks]
 

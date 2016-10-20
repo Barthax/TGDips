@@ -33,6 +33,8 @@ ROM set changed: yes.  Added in 0.119u1.
 Resolution, 0.120-0.122: 256x224 @ 60.000000Hz
 Resolution, 0.123-0.175: 256x224 @ 59.185606Hz
 
+Rules: [no current tracks]
+
 
 Mario Bros. (US, Revision F)
 ----------------------------
@@ -40,5 +42,6 @@ Note: not currently represented on TG.
 ROM set changed: no.  Added in 0.132.u2
 0.132u5-0.175: mario - "Mario Bros. (US, Revision F)"
 
-0.133-0.175: 256x224 @ 59.185606Hz
+Resolution, 0.133-0.175: 256x224 @ 59.185606Hz
 
+Rules: [no current tracks]

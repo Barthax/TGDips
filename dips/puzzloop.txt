@@ -13,6 +13,10 @@ ROM set changed: yes
 Resolution, 0.106-0.125: 320x240 @ 60.000000Hz
 Resolution, 0.126-0.175: 320x240 @ 59.597100Hz
 
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Puzz%20Loop%20[Europe]
+Rules, Points [Panic Mode]: http://www.twingalaxies.com/scores.php?scores=32343
+Rules, Points [Stage Mode]: http://www.twingalaxies.com/scores.php?scores=32344
+
 
 Puzz Loop (Europe, v0.94)
 -------------------------
@@ -21,4 +25,6 @@ ROM set changed: no.  Added in 0.144.
 0.144-0.176: puzzloop - "Puzz Loop (Europe, v0.94)"
 
 Resolution, 0.144-0.176: 320x240 @ 59.597100Hz
+
+Rules: [no current tracks]
 
