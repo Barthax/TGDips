@@ -1,4 +1,30 @@
 ROM set changed: no
-0.106-0.175: vsslalom - "Vs. Slalom"
+0.106-0.178: vsslalom - "Vs. Slalom"
 
-Resolution, 0.106-0.175: 256x240 @ 60.000000Hz
+Resolution, 0.106-0.178: 256x240 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Vs.+Slalom
+Rules, Mt. Nasty - 1. Qualifying Run [Fastest Time]: http://www.twingalaxies.com/scores.php?scores=120608
+Rules, Mt. Nasty - 2. In The Trees [Fastest Time]: http://www.twingalaxies.com/scores.php?scores=120609
+Rules, Mt. Nasty - 3. Cut Loose [Fastest Time]: http://www.twingalaxies.com/scores.php?scores=120610
+Rules, Mt. Nasty - 4. Hot Dog Heaven [Fastest Time]: http://www.twingalaxies.com/scores.php?scores=120611
+Rules, Mt. Nasty - 5. Rad Run [Fastest Time]: http://www.twingalaxies.com/scores.php?scores=120612
+Rules, Mt. Nasty - 6. Paradise [Fastest Time]: http://www.twingalaxies.com/scores.php?scores=120613
+Rules, Mt. Nasty - 7. Exterminator [Fastest Time]: http://www.twingalaxies.com/scores.php?scores=120614
+Rules, Mt. Nasty - 8. Freestyler [Fastest Time]: http://www.twingalaxies.com/scores.php?scores=120615
+Rules, Snowy Hill - 1. Qualifying Run [Fastest Time]: http://www.twingalaxies.com/scores.php?scores=120592
+Rules, Snowy Hill - 2. Cotton Candy [Fastest Time]: http://www.twingalaxies.com/scores.php?scores=120593
+Rules, Snowy Hill - 3. Skid Row [Fastest Time]: http://www.twingalaxies.com/scores.php?scores=120594
+Rules, Snowy Hill - 4. Snowy Slide [Fastest Time]: http://www.twingalaxies.com/scores.php?scores=120595
+Rules, Snowy Hill - 5. Crystal Cruise [Fastest Time]: http://www.twingalaxies.com/scores.php?scores=120596
+Rules, Snowy Hill - 6. Overun [Fastest Time]: http://www.twingalaxies.com/scores.php?scores=120597
+Rules, Snowy Hill - 7. Big Dipper [Fastest Time]: http://www.twingalaxies.com/scores.php?scores=120598
+Rules, Snowy Hill - 8. Blue Mongoose [Fastest Time]: http://www.twingalaxies.com/scores.php?scores=120599
+Rules, Steep Peak - 1. Qualifying Run [Fastest Time]: http://www.twingalaxies.com/scores.php?scores=120600
+Rules, Steep Peak - 2. Teaser [Fastest Time]: http://www.twingalaxies.com/scores.php?scores=120601
+Rules, Steep Peak - 3. Blue Max [Fastest Time]: http://www.twingalaxies.com/scores.php?scores=120602
+Rules, Steep Peak - 4. The Whoosh [Fastest Time]: http://www.twingalaxies.com/scores.php?scores=120603
+Rules, Steep Peak - 5. High Octane [Fastest Time]: http://www.twingalaxies.com/scores.php?scores=120604
+Rules, Steep Peak - 6. Rock N Roll [Fastest Time]: http://www.twingalaxies.com/scores.php?scores=120605
+Rules, Steep Peak - 7. Monster Run [Fastest Time]: http://www.twingalaxies.com/scores.php?scores=120606
+Rules, Steep Peak - 8. Super Downhill [Fastest Time]: http://www.twingalaxies.com/scores.php?scores=120607
