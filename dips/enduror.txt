@@ -5,3 +5,6 @@ ROM set changed: no
 Resolution, 0.106-0.107: 304x224 @ 60.000000Hz
 Resolution, 0.108-0.114: 320x224 @ 60.000000Hz
 Resolution, 0.115-0.175: 320x224 @ 60.054389Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Enduro%20Racer
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=55958

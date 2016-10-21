@@ -2,3 +2,13 @@ ROM set changed: no
 0.106-0.175: extdwnhl - "Extreme Downhill (v1.5)"
 
 Resolution, 0.106-0.175: 320x240 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Extreme%20Downhill%20[v1.5]
+Rules, Time Attack Mode - Course 1 [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=55978
+Rules, Time Attack Mode - Course 2 [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=55979
+Rules, Time Attack Mode - Course 3 [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=55980
+Rules, Time Attack Mode - Course 4 [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=55981
+Rules, Time Attack Mode - Course 5 [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=55982
+Rules, Time Attack Mode - Course 6 [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=55983
+Rules, Time Attack Mode - Course 7 [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=55984
+Rules, Time Attack Mode - Course 8 [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=55985
