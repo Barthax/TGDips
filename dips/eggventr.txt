@@ -4,3 +4,6 @@ ROM set changed: no
 Resolution, 0.106-0.114: 512x236 @ 60.000000Hz
 Resolution, 0.115-0.122: 512x236 @ 61.235714Hz
 Resolution, 0.123-0.175: 512x236 @ 61.232460Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Egg%20Venture%20[Release%2010]
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=38638
