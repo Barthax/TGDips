@@ -17,6 +17,7 @@ Rules, Beginner Course [Fastest Completion]: http://www.twingalaxies.com/scores.
 Rules, Expert Course [Fastest Completion]: http://www.twingalaxies.com/scores.php?scores=69937
 Rules, Medium Course [Fastest Completion]: http://www.twingalaxies.com/scores.php?scores=69938
 
+NOTE: rule set has "Allow Continue: No", which must be in error as Special Rules section states "You MAY use continues at the cost of additional time being tacked on..."
 
 G-LOC Air Battle (World)
 ------------------------
