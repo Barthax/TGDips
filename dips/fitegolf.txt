@@ -2,3 +2,6 @@ ROM set changed: no
 0.106-0.175: fitegolf - "Fighting Golf (World?)"
 
 Resolution, 0.106-0.175: 288x216 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Fighting%20Golf
+Rules, Least Amount Of Strokes: http://www.twingalaxies.com/scores.php?scores=69897
