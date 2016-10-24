@@ -6,6 +6,9 @@ ROM set changed: YES
 0.106-0.175: othunder - "Operation Thunderbolt (World)"
 0.176-0.178: othundero - "Operation Thunderbolt (World)"
 
+MAME History:
+- 0.176: Muddymusic and The Dumping Union added Operation Thunderbolt (World, rev 1). Changed description of clones (US) to 'Operation Thunderbolt (US, rev 1)' and (US, older) to 'Operation Thunderbolt (US)'. Renamed (othunder) to (othundero).
+
 Resolution, 0.106-0.178: 320x240 @ 60.000000Hz
 
 TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Operation+Thunderbolt+%5BWorld%5D
