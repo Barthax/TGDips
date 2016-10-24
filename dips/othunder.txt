@@ -1,4 +1,23 @@
-ROM set changed: no
-0.106-0.175: othunder - "Operation Thunderbolt (World)"
+Note: two ROM sets represented here with changeover at 0.176
 
-Resolution, 0.106-0.175: 320x240 @ 60.000000Hz
+Operation Thunderbolt (World)
+-----------------------------
+ROM set changed: YES
+0.106-0.175: othunder - "Operation Thunderbolt (World)"
+0.176-0.178: othundero - "Operation Thunderbolt (World)"
+
+Resolution, 0.106-0.178: 320x240 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Operation+Thunderbolt+%5BWorld%5D
+Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=78838
+Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=78839
+
+
+Operation Thunderbolt (World, rev 1)
+------------------------------------
+Note: not currently represented on TG.
+
+ROM set changed: no. Added in 0.176
+0.176-0.178: othunder - "Operation Thunderbolt (World, rev 1)"
+
+Resolution, 0.176-0.178: 320x240 @ 60.000000Hz
