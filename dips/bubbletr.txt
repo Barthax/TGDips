@@ -1,0 +1,28 @@
+Note: two ROM sets represented here with changeover at 0.176
+
+Bubble Trouble (Japan, Rev C)
+-----------------------------
+Note: not currently represented on TG.
+
+ROM set changed: YES
+0.106-0.130: bubbletr - "Bubble Trouble"
+0.131-0.152: bubbletr - "Bubble Trouble (Japan)"
+0.153-0.175: bubbletr - "Bubble Trouble (Japan, Rev C)"
+0.176-0.178: bubbletrj - "Bubble Trouble (Japan, Rev C)"
+
+Resolution, 0.106-0.113: 288x224 @ 60.606060Hz
+Resolution, 0.114-0.178: 288x224 @ 60.606061Hz
+
+Rules: [no current tracks]
+
+
+Bubble Trouble (World, Rev B)
+-----------------------------
+Note: not currently represented on TG.
+
+ROM set changed: no. Added in 0.176.
+0.176-0.178: bubbletr - "Bubble Trouble (World, Rev B)"
+
+Resolution, 0.176-0.178: 288x224 @ 60.606061Hz
+
+Rules: [no current tracks]
