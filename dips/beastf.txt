@@ -6,6 +6,9 @@ ROM set changed: YES
 0.106-0.175: beastf - "Beastie Feastie"
 0.176-0.178: beastfp - "Beastie Feastie (conversion kit)"
 
+MAME history:
+- 0.176: The Iron Goat added clone 'Beaste Feastie' (Epos Corporation 1984). Needs 2p inputs. PROM seems good, but should be checked if possible. Changed description of clone 'Beastie Feastie' to 'Beastie Feastie (conversion kit)'. Renamed (beastf) to (beastfp).
+
 Resolution, 0.106-0.113: 288x224 @ 60.606060Hz
 Resolution, 0.114-0.175: 288x224 @ 60.606061Hz
 
