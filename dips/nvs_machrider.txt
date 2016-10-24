@@ -1,0 +1,8 @@
+ROM set changed: YES
+0.106-0.177: machridr - "Vs. Mach Rider (Endurance Course Version)"
+0.178-:      nvs_machrider - "Vs. Mach Rider (Endurance Course Version)"
+
+Resolution, 0.106-0.178: 256x240 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Vs.+Mach+Rider+%5BEndurance+Course+Version%5D
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=120585
