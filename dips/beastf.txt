@@ -1,8 +1,25 @@
-ROM set changed: no
+Note: two ROM sets represented here with changeover at 0.176
+
+Beastie Feastie (conversion kit)
+--------------------------------
+ROM set changed: YES
 0.106-0.175: beastf - "Beastie Feastie"
+0.176-0.178: beastfp - "Beastie Feastie (conversion kit)"
 
 Resolution, 0.106-0.113: 288x224 @ 60.606060Hz
 Resolution, 0.114-0.175: 288x224 @ 60.606061Hz
 
 TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Beastie%20Feastie
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=7684
+
+
+Beaste Feastie
+--------------
+Note: not currently represented on TG.
+
+ROM set changed: no. Added in 0.176.
+0.176-0.178: beastf - "Beaste Feastie"
+
+Resolution, 0.176-0.178: 272x236 @ 60.000000Hz
+
+Rules: [no current tracks]
