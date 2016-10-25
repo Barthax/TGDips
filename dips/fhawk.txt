@@ -4,3 +4,5 @@ NB: 0.77 and prior used the Japan set for fhawk (which became fhawkj in 0.78).
 
 Resolution, 0.83: 320x224 @ 60 Hz
 Resolution, 0.106-0.175: 320x224 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Fighting%20Hawk%20[World]
