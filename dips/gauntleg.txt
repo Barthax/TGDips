@@ -4,3 +4,5 @@ ROM set changed: no
 Resolution, 0.106-0.175: 640x480 @ 57.000000Hz
 
 NB: rules incorrectly indicate gauntdl: Gauntlet Dark Legacy.
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Gauntlet%20Legends%20[version%201.6]

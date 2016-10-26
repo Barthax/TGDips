@@ -3,3 +3,5 @@ ROM set changed: no
 
 Resolution, 0.106-0.147: 256x224 @ 60.000000Hz
 Resolution, 0.148-0.175: 256x224 @ 59.410646Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Gigas%20Mark%20II%20[Bootleg]
