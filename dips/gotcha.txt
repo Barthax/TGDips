@@ -2,3 +2,5 @@ ROM set changed: no
 0.106-0.175: gotcha - "Got-cha Mini Game Festival"
 
 Resolution, 0.106-0.175: 320x240 @ 55.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Got-cha%20Mini%20Game%20Festival

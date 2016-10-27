@@ -15,3 +15,5 @@ Rules, Mt. Springs [Longest Putt]: http://www.twingalaxies.com/scores.php?scores
 Rules, Scorpion Bend [Least Amount Of Strokes]: http://www.twingalaxies.com/scores.php?scores=70243
 Rules, Scorpion Bend [Longest Drive]: http://www.twingalaxies.com/scores.php?scores=70247
 Rules, Scorpion Bend [Longest Putt]: http://www.twingalaxies.com/scores.php?scores=70250
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Golden%20Tee%20Classic%20[v1.00]

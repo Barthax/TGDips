@@ -12,3 +12,4 @@ Resolution, 0.106-0.155: 256x224 @ 60.000000Hz
 Resolution, 0.156-0.175: 256x224 @ 60.191409Hz
 
 Rules: [no current tracks]
+
