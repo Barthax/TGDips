@@ -2,3 +2,5 @@ ROM set changed: no
 0.106-0.175: invho2 - "Invinco / Head On 2"
 
 Resolution, 0.106-0.175: 256x224 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Invinco%20/%20Head%20On%202

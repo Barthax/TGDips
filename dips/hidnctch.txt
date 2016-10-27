@@ -2,3 +2,5 @@ ROM set changed: no
 0.106-0.175: hidnctch - "Hidden Catch (World) / Tul Lin Gu Lim Chat Ki '98 (Korea) (pcb ver 3.03)"
 
 Resolution, 0.106-0.175: 320x240 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Hidden%20Catch%20[World]%20/%20Tul%20Lin%20Gu%20Lim%20Chat%20Ki%20%2798%20[Korea]%20[pcb%20ver%203.03]

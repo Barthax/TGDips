@@ -2,3 +2,5 @@ ROM set changed: no
 0.106-0.175: hoops96 - "Hoops '96 (Europe/Asia 2.0)"
 
 Resolution, 0.106-0.175: 320x240 @ 58.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Hoops%20%2796%20[Europe/Asia%202.0]
