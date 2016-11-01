@@ -16,8 +16,9 @@ TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=G-L
 Rules, Beginner Course [Fastest Completion]: http://www.twingalaxies.com/scores.php?scores=69936
 Rules, Expert Course [Fastest Completion]: http://www.twingalaxies.com/scores.php?scores=69937
 Rules, Medium Course [Fastest Completion]: http://www.twingalaxies.com/scores.php?scores=69938
+Note 1: Service Mode (F2) can be accessed after playback has completed to confirm DIP switches.  Navigation is performed with the Service Button (9) and selection is performed with Service Mode (F2).
+Note 2: rule set has "Allow Continue: No", which must be in error as Special Rules section states "You MAY use continues at the cost of additional time being tacked on..."
 
-NOTE: rule set has "Allow Continue: No", which must be in error as Special Rules section states "You MAY use continues at the cost of additional time being tacked on..."
 
 G-LOC Air Battle (World)
 ------------------------
