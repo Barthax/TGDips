@@ -1,0 +1,124 @@
+# MAME 0.106 source snippet [mappy.c]
+
+GAME( 1984, todruaga, 0,        todruaga, todruaga, 58_56,    ROT90, "Namco", "Tower of Druaga (New Ver.)", 0 )
+
+#define NAMCO_56IN0\
+	PORT_START_TAG("IN0")	/* 56XX #0 pins 22-29 */\
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_4WAY\
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_4WAY\
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_4WAY\
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_4WAY\
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_4WAY PORT_COCKTAIL\
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_4WAY PORT_COCKTAIL\
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_4WAY PORT_COCKTAIL\
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_4WAY PORT_COCKTAIL
+
+#define NAMCO_56IN1\
+	PORT_START_TAG("IN1")	/* 56XX #0 pins 30-33 and 38-41 */\
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_BUTTON1 )\
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_COCKTAIL\
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_START1 )\
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_START2 )\
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_COIN1 )\
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_COIN2 )\
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_UNUSED )\
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_SERVICE1 )
+
+INPUT_PORTS_START( todruaga )
+NAMCO_56IN0
+NAMCO_56IN1
+
+	PORT_START_TAG("DSW0")	/* 56XX #1 pins 30-33 */
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_DIPNAME( 0x04, 0x04, DEF_STR( Cabinet ) )
+	PORT_DIPSETTING(    0x04, DEF_STR( Upright ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Cocktail ) )
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_SERVICE )	// service mode again
+
+	PORT_START_TAG("DSW1")	/* 56XX #1 pins 22-29 */
+	PORT_DIPNAME( 0x03, 0x03, DEF_STR( Lives ) )
+	PORT_DIPSETTING(    0x01, "1" )
+	PORT_DIPSETTING(    0x02, "2" )
+	PORT_DIPSETTING(    0x03, "3" )
+	PORT_DIPSETTING(    0x00, "5" )
+	PORT_DIPNAME( 0x0c, 0x0c, DEF_STR( Coin_A ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( 3C_1C ) )
+	PORT_DIPSETTING(    0x08, DEF_STR( 2C_1C ) )
+	PORT_DIPSETTING(    0x0c, DEF_STR( 1C_1C ) )
+	PORT_DIPSETTING(    0x04, DEF_STR( 1C_2C ) )
+	PORT_DIPNAME( 0x10, 0x10, "Freeze" )
+	PORT_DIPSETTING(    0x10, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_SERVICE( 0x20, IP_ACTIVE_LOW )
+	PORT_DIPNAME( 0xc0, 0xc0, DEF_STR( Coin_B ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( 3C_1C ) )
+	PORT_DIPSETTING(    0x80, DEF_STR( 2C_1C ) )
+	PORT_DIPSETTING(    0xc0, DEF_STR( 1C_1C ) )
+	PORT_DIPSETTING(    0x40, DEF_STR( 1C_2C ) )
+
+	PORT_START_TAG("DSW2")	/* 56XX #1 pins 38-41 multiplexed */
+	PORT_DIPNAME( 0x01, 0x01, DEF_STR( Unused ) )
+	PORT_DIPSETTING(    0x01, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x02, 0x02, DEF_STR( Unused ) )
+	PORT_DIPSETTING(    0x02, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x04, 0x04, DEF_STR( Unused ) )
+	PORT_DIPSETTING(    0x04, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x08, 0x08, DEF_STR( Unused ) )
+	PORT_DIPSETTING(    0x08, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x10, 0x10, DEF_STR( Unused ) )
+	PORT_DIPSETTING(    0x10, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x20, 0x20, DEF_STR( Unused ) )
+	PORT_DIPSETTING(    0x20, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x40, 0x40, DEF_STR( Unused ) )
+	PORT_DIPSETTING(    0x40, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x80, 0x80, DEF_STR( Unused ) )
+	PORT_DIPSETTING(    0x80, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+INPUT_PORTS_END
+
+Resolution: 288x224 @ 60.606060Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Tower+of+Druaga+%5BNew+Ver.%5D
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=9222
+
+ROMSet: TODruaga
+Cabinet: Upright
+Lives: 3
+Freeze: Off
+Service Mode: Off
+Unused: Off [All]
+Internal Defaults
+-----------------
+Extend: Only 50000 Points
+
+Sample correct TG:
+DSW0: offset 0x2B, repeat every 0x7C, typical value 0x0F
+- DSW0: 0x04 (Cabinet): 0x04 (Upright)
+DSW1: offset 0x2F, repeat every 0x7C, typical value 0xFF
+- DSW1: 0x03 (Lives): 0x03 (3)
+- DSW1: 0x0c (Coin_A): [not relevant]
+- DSW1: 0x10 (Freeze): 0x10 (Off)
+- DSW1: 0x20 (Service Mode): 0x20 (Off)
+- DSW1: 0xc0 (Coin_B): [not relevant]
+DSW2: offset 0x33, repeat every 0x7C, typical value 0xFF
+- DSW2: 0x01 (Unused): 0x01 (Off)
+- DSW2: 0x02 (Unused): 0x02 (Off)
+- DSW2: 0x04 (Unused): 0x04 (Off)
+- DSW2: 0x08 (Unused): 0x08 (Off)
+- DSW2: 0x10 (Unused): 0x10 (Off)
+- DSW2: 0x20 (Unused): 0x20 (Off)
+- DSW2: 0x40 (Unused): 0x40 (Off)
+- DSW2: 0x80 (Unused): 0x80 (Off)
+
+    20: 00 00 00 FF 00 00 00 FF  00 00 00 0F 00 00 00 FF
+    30: 00 00 00 FF 00 00 00 00  00 00 00 00 00 00 00 00
+    A0: 00 00 00 FF 00 00 00 0F  00 00 00 FF 00 00 00 FF
+   120: 00 00 00 0F 00 00 00 FF  00 00 00 FF 00 00 00 00
