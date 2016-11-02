@@ -1,5 +1,28 @@
-ROM set changed: no
-0.106-0.175: mnight - "Mutant Night"
+Note: two ROM sets represented here with changeover at 0.179
+
+Mutant Night (Japan)
+--------------------
+ROM set change: YES
+0.106-0.178: mnight - "Mutant Night"
+0.179-     : mnightj - "Mutant Night (Japan)"
+
+MAME history:
+- 0.179: System11 added Mutant Night. Changed 'Mutant Night' to clone 'Mutant Night (Japan)'. Renamed (mnight) to (mnightj).
 
 Resolution, 0.106-0.133: 256x192 @ 60.000000Hz
-Resolution, 0.134-0.175: 256x192 @ 59.610000Hz
+Resolution, 0.134-0.179: 256x192 @ 59.610000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Mutant+Night
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=75620
+
+
+Mutant Night
+------------
+Note: not currently represented on TG.
+
+ROM set changed: no. Added in 0.179
+0.179-     : mnight - "Mutant night"
+
+Resolution, 0.179-     : 256x192 @ 59.610000Hz
+
+Rules: [no current tracks]
