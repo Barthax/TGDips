@@ -4,4 +4,6 @@ ROM set changed: no
 Resolution, 0.106-0.167: 320x240 @ 60.000000Hz
 Resolution, 0.168-0.175: 640x480 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=The Crystal of Kings
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=The%20Crystal%20of%20Kings
+Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=38795
+Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=120378

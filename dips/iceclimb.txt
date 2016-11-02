@@ -16,7 +16,12 @@ Resolution, 0.147-0.175: 256x240 @ 60.000000Hz
 
 Vs. Ice Climber (set IC4-4 B-1)
 -------------------------------
+Note: not currently represented on TG.
 0.146u1-0.175: iceclimb - "Vs. Ice Climber (set IC4-4 B-1)"
 
 Resolution, 0.147-0.175: 256x240 @ 60.000000Hz
 
+Rules: [no current tracks]
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Vs.%20Ice%20Climber
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=120584
