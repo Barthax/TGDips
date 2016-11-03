@@ -7,5 +7,6 @@ MAME History:
 
 Resolution, 0.143-0.175: 256x224 @ 60.000000Hz
 
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Super%20Wing
 Rules: http://www.twingalaxies.com/scores.php?scores=172374
 

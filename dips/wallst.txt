@@ -3,4 +3,5 @@ ROM set changed: no
 
 Resolution, 0.106-0.175: 240x248 @ 60.000000Hz
 
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Wall%20Street
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=120625

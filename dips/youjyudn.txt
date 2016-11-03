@@ -3,4 +3,6 @@ ROM set changed: no
 
 Resolution, 0.106-0.175: 256x256 @ 55.000000Hz
 
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Youiyuden%20%5BJapan%5D
 Rules: http://www.twingalaxies.com/scores.php?scores=18802
+
