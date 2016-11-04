@@ -10,4 +10,4 @@ Resolution, 0.106-0.152: vector @ 60.000000Hz
 Resolution, 0.153-0.175: vector @ 61.523438Hz
 
 TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Asteroids%20Deluxe%20[Rev%202]
-Rules: http://www.twingalaxies.com/scores.php?scores=7676
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=7676
