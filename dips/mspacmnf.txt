@@ -1,9 +1,9 @@
 ROM set changed: no
 0.106-0.147: mspacmnf - "Ms. Pac-Man (with speedup hack)"
-0.148-0.175: mspacmnf - "Ms. Pac-Man (speedup hack)"
+0.148-0.179: mspacmnf - "Ms. Pac-Man (speedup hack)"
 
 Resolution, 0.106-0.113: 288x224 @ 60.606060Hz
-Resolution, 0.114-0.175: 288x224 @ 60.606061Hz
+Resolution, 0.114-0.179: 288x224 @ 60.606061Hz
 
 TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Ms.%20Pac-Man%20[With%20Speedup%20Hack]
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=7775
