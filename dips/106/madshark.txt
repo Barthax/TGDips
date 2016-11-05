@@ -1,0 +1,127 @@
+# MAME 0.106 source snippet.
+
+GAME( 1993, madshark, 0,        madshark, madshark, 0,        ROT270, "Allumer",                "Mad Shark", 0 )
+
+INPUT_PORTS_START( madshark )
+	PORT_START_TAG("IN0") //Player 1
+	JOY_TYPE1_2BUTTONS(1)
+
+	PORT_START_TAG("IN1") //Player 2
+	JOY_TYPE1_2BUTTONS(2)
+
+	PORT_START_TAG("IN2") //Coins
+	PORT_BIT( 0x0001, IP_ACTIVE_LOW, IPT_COIN1 ) PORT_IMPULSE(5)
+	PORT_BIT( 0x0002, IP_ACTIVE_LOW, IPT_COIN2 ) PORT_IMPULSE(5)
+	PORT_BIT(  0x0004, IP_ACTIVE_LOW, IPT_SERVICE1 )
+	PORT_BIT(  0x0008, IP_ACTIVE_LOW, IPT_TILT     )
+	/* These are NOT Dip Switches but jumpers */
+	PORT_DIPNAME( 0x0010, 0x0010, DEF_STR( Unused ) )
+	PORT_DIPSETTING(      0x0010, DEF_STR( Off ) )
+	PORT_DIPSETTING(      0x0000, DEF_STR( On ) )
+	PORT_DIPNAME( 0x0020, 0x0020, DEF_STR( Unused ) )
+	PORT_DIPSETTING(      0x0020, DEF_STR( Off ) )
+	PORT_DIPSETTING(      0x0000, DEF_STR( On ) )
+	PORT_DIPNAME( 0x0040, 0x0040, DEF_STR( Unused ) )
+	PORT_DIPSETTING(      0x0040, DEF_STR( Off ) )
+	PORT_DIPSETTING(      0x0000, DEF_STR( On ) )
+	PORT_DIPNAME( 0x0080, 0x0000, "Country" )
+	PORT_DIPSETTING(      0x0080, DEF_STR( Japan ) )
+	PORT_DIPSETTING(      0x0000, DEF_STR( World ) )
+
+	PORT_START_TAG("IN3") //2 DSWs
+	PORT_DIPNAME( 0x0001, 0x0001, DEF_STR( Flip_Screen ) )
+	PORT_DIPSETTING(      0x0001, DEF_STR( Off ) )
+	PORT_DIPSETTING(      0x0000, DEF_STR( On ) )
+	PORT_DIPNAME( 0x0002, 0x0002, DEF_STR( Demo_Sounds ) )
+	PORT_DIPSETTING(      0x0000, DEF_STR( Off ) )
+	PORT_DIPSETTING(      0x0002, DEF_STR( On ) )
+	PORT_DIPNAME( 0x0004, 0x0004, DEF_STR( Unknown ) )
+	PORT_DIPSETTING(      0x0004, DEF_STR( Off ) )
+	PORT_DIPSETTING(      0x0000, DEF_STR( On ) )
+	PORT_DIPNAME( 0x0018, 0x0018, DEF_STR( Bonus_Life ) )
+	PORT_DIPSETTING(      0x0018, "1000k" )
+	PORT_DIPSETTING(      0x0008, "1000k 2000k" )
+	PORT_DIPSETTING(      0x0010, "1500k 3000k" )
+	PORT_DIPSETTING(      0x0000, DEF_STR( No ) )
+	PORT_DIPNAME( 0x0060, 0x0060, DEF_STR( Difficulty ) )
+	PORT_DIPSETTING(      0x0040, DEF_STR( Easy ) )
+	PORT_DIPSETTING(      0x0060, DEF_STR( Normal ) )
+	PORT_DIPSETTING(      0x0020, DEF_STR( Hard ) )
+	PORT_DIPSETTING(      0x0000, DEF_STR( Hardest ) )
+	PORT_SERVICE( 0x0080, IP_ACTIVE_LOW )
+
+	PORT_DIPNAME( 0x0300, 0x0300, DEF_STR( Lives ) )
+	PORT_DIPSETTING(      0x0200, "2" )
+	PORT_DIPSETTING(      0x0300, "3" )
+	PORT_DIPSETTING(      0x0100, "4" )
+	PORT_DIPSETTING(      0x0000, "5" )
+	PORT_DIPNAME( 0x1c00, 0x1c00, DEF_STR( Coin_A ) )
+	PORT_DIPSETTING(      0x0400, DEF_STR( 4C_1C ) )
+	PORT_DIPSETTING(      0x0800, DEF_STR( 3C_1C ) )
+	PORT_DIPSETTING(      0x1000, DEF_STR( 2C_1C ) )
+	PORT_DIPSETTING(      0x1c00, DEF_STR( 1C_1C ) )
+	PORT_DIPSETTING(      0x0c00, DEF_STR( 2C_3C ) )
+	PORT_DIPSETTING(      0x1800, DEF_STR( 1C_2C ) )
+	PORT_DIPSETTING(      0x1400, DEF_STR( 1C_3C ) )
+	PORT_DIPSETTING(      0x0000, DEF_STR( 1C_4C ) )
+	PORT_DIPNAME( 0xe000, 0xe000, DEF_STR( Coin_A ) )
+	PORT_DIPSETTING(      0x2000, DEF_STR( 4C_1C ) )
+	PORT_DIPSETTING(      0x4000, DEF_STR( 3C_1C ) )
+	PORT_DIPSETTING(      0x8000, DEF_STR( 2C_1C ) )
+	PORT_DIPSETTING(      0xe000, DEF_STR( 1C_1C ) )
+	PORT_DIPSETTING(      0x6000, DEF_STR( 2C_3C ) )
+	PORT_DIPSETTING(      0xc000, DEF_STR( 1C_2C ) )
+	PORT_DIPSETTING(      0xa000, DEF_STR( 1C_3C ) )
+	PORT_DIPSETTING(      0x0000, DEF_STR( 1C_4C ) )
+INPUT_PORTS_END
+
+#define	JOY_TYPE1_2BUTTONS(_n_) \
+	PORT_BIT(  0x0001, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT	) PORT_PLAYER(_n_) \
+	PORT_BIT(  0x0002, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT) PORT_PLAYER(_n_) \
+	PORT_BIT(  0x0004, IP_ACTIVE_LOW, IPT_JOYSTICK_UP	) PORT_PLAYER(_n_) \
+	PORT_BIT(  0x0008, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN	) PORT_PLAYER(_n_) \
+	PORT_BIT(  0x0010, IP_ACTIVE_LOW, IPT_BUTTON1		) PORT_PLAYER(_n_) \
+	PORT_BIT(  0x0020, IP_ACTIVE_LOW, IPT_BUTTON2		) PORT_PLAYER(_n_) \
+	PORT_BIT(  0x0040, IP_ACTIVE_LOW, IPT_UNKNOWN						) \
+	PORT_BIT(  0x0080, IP_ACTIVE_LOW, IPT_START##_n_					)
+
+
+Resolution: 384x224 @ 60.000000Hz
+
+Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=23023
+Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=23024
+
+ROMSet: MadShark
+Unused: Off [All]
+Country: World
+Flip Screen: Off
+Unknown: Off
+Bonus Life: 1000K
+Difficulty: Normal
+
+Sample correct TG:
+IN2: offset 0x2B, repeat every 0x7C, typical value 0x7F
+- IN2: 0x0001, IP_ACTIVE_LOW, IPT_COIN1 ) PORT_IMPULSE(5)
+- IN2: 0x0002, IP_ACTIVE_LOW, IPT_COIN2 ) PORT_IMPULSE(5)
+- IN2: 0x0004, IP_ACTIVE_LOW, IPT_SERVICE1 )
+- IN2: 0x0008, IP_ACTIVE_LOW, IPT_TILT     )
+- IN2: 0x0010 (Unused): 0x0010 (Off)
+- IN2: 0x0020 (Unused): 0x0020 (Off)
+- IN2: 0x0040 (Unused): 0x0040 (Off)
+- IN2: 0x0080 (Country): 0x0000 (World)
+
+IN3: offset 0x2E, repeat every 0x7C, typical value 0xFFFF
+- IN3: 0x0001 (Flip_Screen): 0x0001 (Off)
+- IN3: 0x0002 (Demo_Sounds): [not relevant]
+- IN3: 0x0004 (Unknown): 0x0004 (Off)
+- IN3: 0x0018 (Bonus_Life): 0x0018 (1000k)
+- IN3: 0x0060 (Difficulty): 0x0060 (Normal)
+- IN3: 0x0080 (unused): [not relevant]
+- IN3: 0x0300 (Lives): 0x0300 (3)
+- IN3: 0x1c00 (Coin_A): [not relevant]
+- IN3: 0xe000 (Coin_A): [not relevant]
+NB: Lives is not determined in the rules but 3 is the default value.
+
+    20: 00 00 00 FF 00 00 00 FF  00 00 00 7F 00 00 FF FF | ... ... ......  
+    A0: 00 00 00 FF 00 00 00 7F  00 00 FF FF 00 00 00 00 | ... ......  ....
+   120: 00 00 00 7F 00 00 FF FF  00 00 00 00 00 00 00 00 | ......  ........
