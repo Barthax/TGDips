@@ -98,13 +98,15 @@ Flip Screen: Off
 Unknown: Off
 Bonus Life: 1000K
 Difficulty: Normal
+Service Mode: Off
+Lives: 3
 
 Sample correct TG:
 IN2: offset 0x2B, repeat every 0x7C, typical value 0x7F
-- IN2: 0x0001, IP_ACTIVE_LOW, IPT_COIN1 ) PORT_IMPULSE(5)
-- IN2: 0x0002, IP_ACTIVE_LOW, IPT_COIN2 ) PORT_IMPULSE(5)
-- IN2: 0x0004, IP_ACTIVE_LOW, IPT_SERVICE1 )
-- IN2: 0x0008, IP_ACTIVE_LOW, IPT_TILT     )
+- IN2: 0x0001 (coin 1): [not relevant]
+- IN2: 0x0002 (coin 2): [not relevant]
+- IN2: 0x0004 (service): [not relevant]
+- IN2: 0x0008 (tilt): [not relevant]
 - IN2: 0x0010 (Unused): 0x0010 (Off)
 - IN2: 0x0020 (Unused): 0x0020 (Off)
 - IN2: 0x0040 (Unused): 0x0040 (Off)
@@ -120,7 +122,6 @@ IN3: offset 0x2E, repeat every 0x7C, typical value 0xFFFF
 - IN3: 0x0300 (Lives): 0x0300 (3)
 - IN3: 0x1c00 (Coin_A): [not relevant]
 - IN3: 0xe000 (Coin_A): [not relevant]
-NB: Lives is not determined in the rules but 3 is the default value.
 
     20: 00 00 00 FF 00 00 00 FF  00 00 00 7F 00 00 FF FF | ... ... ......  
     A0: 00 00 00 FF 00 00 00 7F  00 00 FF FF 00 00 00 00 | ... ......  ....
