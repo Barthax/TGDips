@@ -1,8 +1,10 @@
 ROM set changed: no
-0.106-0.175: gmgalax - "Ghostmuncher Galaxian (bootleg)"
+0.106-0.179: gmgalax - "Ghostmuncher Galaxian (bootleg)"
 
 Resolution, 0.106-0.113: 256x224 @ 60.606060Hz
 Resolution, 0.114-0.123: 256x224 @ 60.606061Hz
-Resolution, 0.125-0.175: 768x224 @ 60.606061Hz
+Resolution, 0.125-0.179: 768x224 @ 60.606061Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Ghostmuncher Galaxian [Bootleg]
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Ghostmuncher%20Galaxian%20[Bootleg]
+Rules, Points [Galaxian Mode]: http://www.twingalaxies.com/scores.php?scores=69975
+Rules, Points [Ghostmuncher Mode]: http://www.twingalaxies.com/scores.php?scores=69974
