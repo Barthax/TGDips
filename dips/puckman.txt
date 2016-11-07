@@ -23,6 +23,7 @@ Rules, Points [TG settings]: http://www.twingalaxies.com/scores.php?scores=11853
 Note 1: Between 2005 and 2016 the Pac-Man "Points [TG settings]" rules only permitted the puckman ROM set.  Prior to 2005, only the pacman ROM set was permitted.  2016 has muddied the waters.
 Note 2: do not use Service Mode (F2) to check after playback as it will have reverted to localised settings.
 
+
 Puck Man (Japan set 1)
 ----------------------
 ROM set changed: yes, but currently moot as only relevant track allows many ROM sets

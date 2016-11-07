@@ -9,5 +9,5 @@ Resolution, 0.106-0.128: 256x224 @ 57.000000Hz
 Resolution, 0.129-0.175: 256x240 @ 57.444853Hz
 
 TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Xain%27d%20Sleena
-Rules, Points: http://www.twingalaxies.com/scores.php?scores=18816&ref=fbshare
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=18816
 

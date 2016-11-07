@@ -4,7 +4,9 @@ ROM set changed: no
 Resolution, 0.106-0.115: 320x204 @ 60.000000Hz
 Resolution, 0.116-0.175: 352x240 @ 60.054442Hz
 
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Wizard%20of%20Wor
 Rules, Points [Single Player Only, 3 Lives]: http://www.twingalaxies.com/scores.php?scores=7895
 Rules, Points [Single Player Only, 7 Lives]: http://www.twingalaxies.com/scores.php?scores=7896
 Rules, Points [Two Player Team, 3 Lives Each]: http://www.twingalaxies.com/scores.php?scores=7897
 Rules, Points [Two Player Team, 7 Lives Each]: http://www.twingalaxies.com/scores.php?scores=7898
+
