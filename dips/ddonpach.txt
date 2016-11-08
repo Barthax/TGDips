@@ -1,3 +1,4 @@
+Note: not currently represented on TG.
 ROM set changed: no
 0.106-0.121: ddonpach - "DoDonPachi (International)"
 0.122-0.175: ddonpach - "DoDonPachi (International, Master Ver. 97/02/05)" (minor description change)
@@ -5,4 +6,4 @@ ROM set changed: no
 Resolution, 0.106-0.113: 320x240 @ 57.550644Hz
 Resolution, 0.114-0.175: 320x240 @ 57.550645Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=DoDonPachi (International)
+Rules: [no current tracks]

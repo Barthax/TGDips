@@ -4,3 +4,6 @@ ROM set changed: no
 Resolution, 0.106-0.115: 316x239 @ 60.000000Hz
 Resolution, 0.116-0.153: 316x239 @ 60.096154Hz
 Resolution, 0.154-0.175: 316x240 @ 60.096154Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Jin
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=75146

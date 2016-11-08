@@ -3,3 +3,6 @@ ROM set changed: no
 
 Resolution, 0.106-0.113: 320x224 @ 58.970001Hz
 Resolution, 0.114-0.175: 320x224 @ 58.970000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=International%20Cup%20%2794%20[VER%202.2O%201994/05/26]
+Rules, Biggest Blowout: http://www.twingalaxies.com/scores.php?scores=75126

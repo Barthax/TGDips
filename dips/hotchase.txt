@@ -6,3 +6,6 @@ MAME History:
 - 0.164: David Haywood added clone Hot Chase (set 2). Changed parent description to 'Hot Chase (set 1)'.
 
 Resolution, 0.106-0.175: 320x224 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Hot%20Chase
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=75081
