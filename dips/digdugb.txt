@@ -8,4 +8,7 @@ MAME History:
 Resolution, 0.106-0.131: 288x224 @ 60.606060Hz
 Resolution, 0.132-0.175: 288x224 @ 60.606061Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Dig Dug (rev 1)
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Dig%20Dug%20[Rev%201]
+Rules, Points [Marathon Settings]: http://www.twingalaxies.com/scores.php?scores=5191
+Rules, Points [Tournament Settings]: http://www.twingalaxies.com/scores.php?scores=9850
+Rules, Points [ADeca 2004 Only Variation]: http://www.twingalaxies.com/scores.php?scores=9851

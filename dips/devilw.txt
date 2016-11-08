@@ -5,4 +5,6 @@ Resolution, 0.106: 320x224 @ 60.606060Hz
 Resolution, 0.107-0.123: 320x224 @ 60.000000Hz
 Resolution, 0.125-0.175: 320x224 @ 60.606061Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Devil World
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Devil%20World
+Rules, Points [1 Player Only]: http://www.twingalaxies.com/scores.php?scores=30455
+Rules, Points [2 Platyer Team]: http://www.twingalaxies.com/scores.php?scores=55851
