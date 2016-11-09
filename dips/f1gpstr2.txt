@@ -4,3 +4,11 @@ ROM set changed: no
 Resolution, 0.106-0.175: 256x224 @ 30.000000Hz
 
 TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=F-1%20Grand%20Prix%20Star%20II
+Rules, Australia, Original [Fastest Lap]: http://www.twingalaxies.com/scores.php?scores=69863
+Rules, Australia, Original [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=69868
+Rules, Great Britain, Silverstone [Fastest Lap]: http://www.twingalaxies.com/scores.php?scores=69864
+Rules, Great Britain, Silverstone [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=69869
+Rules, S.Africa, Kyarami [Fastest Lap]: http://www.twingalaxies.com/scores.php?scores=69865
+Rules, S.Africa, Kyarami [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=69870
+Rules, Switzerland, Original [Fastest Lap]: http://www.twingalaxies.com/scores.php?scores=69866
+Rules, Switzerland, Original [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=69871

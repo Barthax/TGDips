@@ -5,4 +5,6 @@ ROM set changed: no
 Resolution, 0.106-0.133: 384x240 @ 60.000000Hz
 Resolution, 0.134-0.175: 384x240 @ 57.420000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=DownTown (Set 1)
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=DownTown%20[Set%201]
+Rules, Points [1 Player Only]: http://www.twingalaxies.com/scores.php?scores=26124
+Rules, Points [2 Player Team]: http://www.twingalaxies.com/scores.php?scores=26125
