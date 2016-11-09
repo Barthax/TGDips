@@ -4,3 +4,9 @@ ROM set changed: no
 0.168-0.175: karatblz - "Karate Blazers (World, set 1)"
 
 Resolution, 0.106-0.175: 352x240 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Karate%20Blazers%20[World?]
+Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=75179
+Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=75180
+Rules, Points [Three Player Team]: http://www.twingalaxies.com/scores.php?scores=75181
+Rules, Points [Four Player Team]: http://www.twingalaxies.com/scores.php?scores=75182

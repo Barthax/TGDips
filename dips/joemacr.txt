@@ -2,3 +2,7 @@ ROM set changed: no
 0.106-0.175: joemacr - "Joe & Mac Returns (World, Version 1.1, 1994.05.27)"
 
 Resolution, 0.106-0.175: 320x240 @ 58.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Joe%20%26%20Mac%20Returns%20[World,%20Version%201.1,%201994.05.27]
+Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=75149
+Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=75149
