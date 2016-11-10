@@ -147,6 +147,7 @@ INPUT_PORTS_END
 
 Resolution: 256x224 @ 60.000000Hz
 
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Elevator+Action
 ----------
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=5158
 ROMSet: Elevator
@@ -223,3 +224,33 @@ DSW3: offset 0x3F, repeat every 0x7C, typical value 0xFC
     B0: 00 00 00 7F 00 00 00 00  00 00 00 FC 00 00 00 00
    120: 00 00 00 FF 00 00 00 EF  00 00 00 0F 00 00 00 7F
    130: 00 00 00 00 00 00 00 FC  00 00 00 00 00 00 00 00
+----------
+Rules, Highest Score: http://www.twingalaxies.com/scores.php?scores=205743 
+
+ROMSet: Elevator
+Bonus Life: 10000 (recommended but not mandatory)
+Lives: 3
+Difficulty: Easiest
+Invulnerability [Cheat]: Off
+
+Sample correct TG:
+DSW1: offset 0x37, repeat every 0x7C, exact value 0x7F
+- DSW1: 0x03 (Bonus_Life): 0x03 (10000) * [not mandatory]
+- DSW1: 0x04 (Free_Play): [not relevant]
+- DSW1: 0x18 (Lives): 0x18 (3)
+- DSW1: 0x20 (Unknown): [not relevant]
+- DSW1: 0x40 (Flip_Screen): [not relevant]
+- DSW1: 0x80 (Cabinet): [not relevant]
+DSW3: offset 0x3F, repeat every 0x7C, typical value 0xFF
+- DSW3: 0x03 (Difficulty): 0x03 (Easiest)
+- DSW3: 0x04 (Unknown): [not relevant]
+- DSW3: 0x08 (Unknown): [not relevant]
+- DSW3: 0x10 (Coinage Display): [not relevant]
+- DSW3: 0x20 (Year Display): [not relevant]
+- DSW3: 0x40 (Invulnerability (Cheat)): 0x40 (Off)
+- DSW3: 0x80 (Coinage): [not relevant]
+
+    30: 00 00 00 0F 00 00 00 7F  00 00 00 00 00 00 00 FF
+    B0: 00 00 00 7F 00 00 00 00  00 00 00 FF 00 00 00 00
+   120: 00 00 00 FF 00 00 00 EF  00 00 00 0F 00 00 00 7F
+   130: 00 00 00 00 00 00 00 FF  00 00 00 00 00 00 00 00
