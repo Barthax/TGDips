@@ -4,3 +4,8 @@ ROM set changed: no
 Resolution, 0.106-0.175: 320x224 @ 60.000000Hz
 
 TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=The%20Game%20Paradise%20-%20Master%20of%20Shooting!%20/%20Game%20Tengoku%20-%20The%20Game%20Paradise
+Rules, Points [Single Player Only, Normal Mode]: http://www.twingalaxies.com/scores.php?scores=120381
+Rules, Points [Single Player Only, Time Attack Mode]: http://www.twingalaxies.com/scores.php?scores=120383
+Rules, Points [Two Player Team, Normal Mode]: http://www.twingalaxies.com/scores.php?scores=120382
+Rules, Points [Two Player Team, Time Attack Mode]: http://www.twingalaxies.com/scores.php?scores=120384
+

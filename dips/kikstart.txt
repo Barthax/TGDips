@@ -3,3 +3,6 @@ ROM set changed: no
 0.148-0.175: kikstart - "Kick Start - Wheelie King"
 
 Resolution, 0.106-0.175: 256x224 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Kick%20Start%20Wheelie%20King
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=75192

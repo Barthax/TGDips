@@ -4,3 +4,7 @@ ROM set changed: no
 Resolution, 0.106-0.175: 640x480 @ 57.000000Hz
 
 TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Gauntlet%20Dark%20Legacy%20[Version%20DL%202.52]
+Rules, Most Experience Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=69959
+Rules, Most Experience Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=69960
+Rules, Most Experience Points [Three Player Team]: http://www.twingalaxies.com/scores.php?scores=69961
+Rules, Most Experience Points [Four Player Team]: http://www.twingalaxies.com/scores.php?scores=69962

@@ -5,3 +5,6 @@ Resolution, 0.106-0.114: 256x240 @ 60.000000Hz
 Resolution, 0.115: 256x256 @ 55.838470Hz
 Resolution, 0.116-0.146: 256x256 @ 76.293945Hz
 Resolution, 0.147-0.175: 256x256 @ 55.838470Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Kram%20[Set%201]
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=10831

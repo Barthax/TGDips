@@ -2,3 +2,6 @@ ROM set changed: no
 0.106-0.175: ksayakyu - "Kusayakyuu"
 
 Resolution, 0.106-0.175: 256x224 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Kusayakyuu
+Rules, Biggest Blowout: http://www.twingalaxies.com/scores.php?scores=75225
