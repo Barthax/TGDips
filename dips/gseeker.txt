@@ -6,3 +6,5 @@ Resolution, 0.136-0.153: 320x232 @ 58.970000Hz
 Resolution, 0.154-0.175: 320x224 @ 58.970000Hz
 
 TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Grid%20Seeker:%20Project%20Storm%20Hammer%20[Ver%201.3O]
+Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=70559
+Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=70560

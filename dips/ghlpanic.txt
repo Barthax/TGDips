@@ -5,3 +5,9 @@ ROM set changed: no
 Resolution, 0.106-0.175: 640x480 @ 60.000000Hz
 
 TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Ghoul%20Panic%20[OB2/VER.A]
+Rules, Points [Advanced Mode, Single Player Only]: http://www.twingalaxies.com/scores.php?scores=69977
+Rules, Points [Advanced Mode, Two Player Team]: http://www.twingalaxies.com/scores.php?scores=69978
+Rules, Points [Medium Mode, Single Player Only]: http://www.twingalaxies.com/scores.php?scores=69979
+Rules, Points [Medium Mode, Two Player Team]: http://www.twingalaxies.com/scores.php?scores=69980
+Rules, Points [Practice Mode, Single Player Only]: http://www.twingalaxies.com/scores.php?scores=69982
+Rules, Points [Practice Mode, Two Player Team]: http://www.twingalaxies.com/scores.php?scores=69983

@@ -6,3 +6,13 @@ Resolution, 0.106-0.155: 256x224 @ 60.000000Hz
 Resolution, 0.156-0.175: 256x224 @ 60.191409Hz
 
 TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Gold%20Medalist
+Rules, Best Score [Horizontal.B]: http://www.twingalaxies.com/scores.php?scores=70017
+Rules, Farthest Distance [Discus Throw]: http://www.twingalaxies.com/scores.php?scores=70014
+Rules, Fastest Race [100m Dash]: http://www.twingalaxies.com/scores.php?scores=70007
+Rules, Fastest Race [110m Hurdles]: http://www.twingalaxies.com/scores.php?scores=70009
+Rules, Fastest Race [400m Relay]: http://www.twingalaxies.com/scores.php?scores=70010
+Rules, Fastest Race [Freestyle]: http://www.twingalaxies.com/scores.php?scores=70012
+Rules, Furthest Distance [Long Jump]: http://www.twingalaxies.com/scores.php?scores=70020
+Rules, Highest Height [High Jump]: http://www.twingalaxies.com/scores.php?scores=70016
+Rules, Most Points [Boxing]: http://www.twingalaxies.com/scores.php?scores=70013
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=71641

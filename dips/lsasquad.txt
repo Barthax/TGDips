@@ -2,3 +2,6 @@ ROM set changed: no
 0.106-0.175: lsasquad - "Land Sea Air Squad / Riku Kai Kuu Saizensen"
 
 Resolution, 0.106-0.175: 256x224 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Land,%20Sea,%20Air%20Squad%20/%20Riki%20Kai%20Kuu%20Saizensen
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=9687

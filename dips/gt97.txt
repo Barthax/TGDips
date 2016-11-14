@@ -6,3 +6,13 @@ Resolution, 0.114-0.122: 200x200 @ 60.000000Hz
 Resolution, 0.123-0.175: 384x240 @ 60.106990Hz
 
 TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Golden%20Tee%20%2797%20[v1.30]
+Rules, Coral Ridge [Least Amount of Strokes]: http://www.twingalaxies.com/scores.php?scores=70031
+Rules, Coral Ridge [Longest Drive]: http://www.twingalaxies.com/scores.php?scores=70035
+Rules, Coral Ridge [Longest Putt]: http://www.twingalaxies.com/scores.php?scores=70038
+Rules, Pine Creek [Least Amount of Strokes]: http://www.twingalaxies.com/scores.php?scores=70032
+Rules, Pine Creek [Longest Drive]: http://www.twingalaxies.com/scores.php?scores=70036
+Rules, Pine Creek [Longest Putt]: http://www.twingalaxies.com/scores.php?scores=70039
+Rules, Red Sands [Least Amount of Strokes]: http://www.twingalaxies.com/scores.php?scores=70033
+Rules, Red Sands [Longest Drive]: http://www.twingalaxies.com/scores.php?scores=70037
+Rules, Red Sands [Longest Putt]: http://www.twingalaxies.com/scores.php?scores=70040
+

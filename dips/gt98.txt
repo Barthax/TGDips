@@ -6,3 +6,13 @@ Resolution, 0.114-0.122: 200x200 @ 60.000000Hz
 Resolution, 0.123-0.175: 384x240 @ 60.106990Hz
 
 TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Golden%20Tee%20%2798%20[v1.10]
+Rules, Arbor Hill [Least Amount of Strokes]: http://www.twingalaxies.com/scores.php?scores=70044
+Rules, Arbor Hill [Longest Drive]: http://www.twingalaxies.com/scores.php?scores=70048
+Rules, Arbor Hill [Longest Putt]: http://www.twingalaxies.com/scores.php?scores=70051
+Rules, Bayou Bend [Least Amount of Strokes]: http://www.twingalaxies.com/scores.php?scores=70045
+Rules, Bayou Bend [Longest Drive]: http://www.twingalaxies.com/scores.php?scores=70049
+Rules, Bayou Bend [Longest Putt]: http://www.twingalaxies.com/scores.php?scores=70053
+Rules, Palm Grove [Least Amount of Strokes]: http://www.twingalaxies.com/scores.php?scores=70046
+Rules, Palm Grove [Longest Drive]: http://www.twingalaxies.com/scores.php?scores=70050
+Rules, Palm Grove [Longest Putt]: http://www.twingalaxies.com/scores.php?scores=70054
+
