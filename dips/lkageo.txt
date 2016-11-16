@@ -6,3 +6,6 @@ MAME History:
 - 0.125u1: Stefan Lindberg added 'The Legend of Kage' (Taito 1984). Changed 'The Legend of Kage' to clone 'The Legend of Kage (older)'. Renamed (lkage) to (lkageo).
 
 Resolution, 0.106-0.175: 240x224 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=The%20Legend%20of%20Kage
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=120395

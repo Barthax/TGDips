@@ -5,3 +5,7 @@ ROM set changed: no
 Resolution, 0.106-0.114: 320x224 @ 60.000000Hz
 Resolution, 0.115-0.116: 321x224 @ 59.637405Hz
 Resolution, 0.117-0.175: 320x224 @ 59.637405Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Line%20of%20Fire%20/%20Bakudan%20Yarou%20[World,%20FD1094%20317-0136]
+Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=75366
+Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=75365
