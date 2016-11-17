@@ -148,7 +148,7 @@ SW1: offset 0x27, repeat every 0x7C, typical value 0x40
 - SW1: 0x40 (Demo_Sounds): 0x40 (On)
 - SW1: 0x80 (unused): [not releveant]
 
-SW2: offset 0x2F, repeat every 0x7C, typical value 0x3F
+SW2: offset 0x2B, repeat every 0x7C, typical value 0x3F
 - SW2: 0x40 (Coin Mode): [not relevant]
 - SW2: 0xbf (Timer speed): 0x3f (1 unit per second)
 
