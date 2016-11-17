@@ -5,3 +5,6 @@ Resolution, 0.106: 416x224 @ 60.000000Hz
 Resolution, 0.107-0.175: 2 screens, both 416x224 @ 60.000000Hz
 
 TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Hard%20Dunk%20[World]
+Rules, Biggest Blowout [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=75029
+Rules, Biggest Blowout [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=75030
+Rules, Biggest Blowout [Three Player Team]: http://www.twingalaxies.com/scores.php?scores=75032

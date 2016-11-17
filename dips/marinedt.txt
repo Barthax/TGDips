@@ -3,3 +3,6 @@ ROM set changed: no
 
 Resolution, 0.106-0.171: 256x224 @ 60.000000Hz
 Resolution, 0.172-0.175: "No screens attached to this system"
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Marine%20Date
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=75516
