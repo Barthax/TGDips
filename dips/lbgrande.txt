@@ -3,3 +3,5 @@ ROM set changed: no
 0.143-0.175: lbgrande - "Libero Grande (Asia, LG2/VER.A)"
 
 Resolution, 0.106-0.175: 640x480 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Libero Grande [LG2/VER.A]

@@ -2,3 +2,5 @@ ROM set changed: no
 0.106-0.175: msgundam - "Mobile Suit Gundam"
 
 Resolution, 106-0.175: 384x240 @ 56.660000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Mobile Suit Gundam

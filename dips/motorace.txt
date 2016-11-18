@@ -2,3 +2,5 @@ ROM set changed: no
 0.106-0.175: motorace - "MotoRace USA"
 
 Resolution, 0.106-0.175: 240x256 @ 56.750000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Motorace USA

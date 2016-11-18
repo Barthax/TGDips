@@ -3,3 +3,5 @@ ROM set changed: no
 
 Resolution, 0.106-0.133: 256x192 @ 60.000000Hz
 Resolution, 0.134-0.175: 256x192 @ 59.610000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Omega Fighter

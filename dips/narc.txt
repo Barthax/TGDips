@@ -5,3 +5,5 @@ Resolution, 0.106-0.114: 512x400 @ 57.000000Hz
 Resolution, 0.115-0.122: 511x399 @ 27.452824Hz
 Resolution, 0.123-0.154: 511x399 @ 54.905648Hz
 Resolution, 0.155-0.175: 512x400 @ 54.824186Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Narc [rev 7.00]
