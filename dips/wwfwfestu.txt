@@ -1,0 +1,13 @@
+ROM set changed: YES
+0.106-0.179: wwfwfest - "WWF WrestleFest (US set 1)"
+0.180-     : wwfwfestu - "WWF WrestleFest (US)"
+
+MAME History:
+- 0.180: Correct rom labels as per recent redump. Reorder parent / clone for WWF Wrestlefest [Brian Troha]. Changed clone (US Tecmo) to parent 'WWF WrestleFest (World)' and (US set 1) to clone 'WWF WrestleFest (US)'. Renamed (wwfwfest) to (wwfwfestu) and (wwfwfesta) to (wwfwfest).
+
+Resolution, 0.106-0.128: 320x240 @ 60.000000Hz
+Resolution, 0.129-0.180: 320x240 @ 57.444853Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=WWF+Wrestlefest+%5BUS+Set+1%5D
+Rules, Royal Rumble [Most Opponents Beaten]: http://www.twingalaxies.com/scores.php?scores=87361
+Rules, Saturday Night's Main Event [Stage Reached]: http://www.twingalaxies.com/scores.php?scores=87359

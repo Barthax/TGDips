@@ -1,5 +1,12 @@
 ROM set changed: no
-0.106-0.175: stonebal - "Stone Ball (4 Players)"
+0.106-0.179: stonebal - "Stone Ball (4 Players)"
+0.180-     : stonebal - "Stone Ball (4 Players, v1-20 13/12/1994)"     (description change only)
+
+MAME History:
+- 0.180: Nomax and The Dumping Union added clone Stone Ball (2 Players, v1-20 21/10/1994). Changed parent description to 'Stone Ball (4 Players, v1-20 13/12/1994)' and clone (2 Players) to 'Stone Ball (2 Players, v1-20 7/11/1994)'.
 
 Resolution, 0.106-0.114: 320x256 @ 50.270000Hz
-Resolution, 0.115-0.175: 320x256 @ 49.764608Hz
+Resolution, 0.115-0.180: 320x256 @ 49.764608Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Stone+Ball+%5B4+Players%5D
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=110774

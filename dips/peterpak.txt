@@ -1,5 +1,12 @@
 ROM set changed: no
 0.106-0.175: peterpak - "Peter Pack-Rat"
+0.180-     : peterpak - "Peter Pack Rat"     (description change only)
+
+MAME History:
+- 0.180: AntoPISA changed description to 'Peter Pack Rat'.
 
 Resolution, 0.106-0.114: 336x240 @ 60.000000Hz
-Resolution, 0.115-0.175: 336x240 @ 59.922743Hz
+Resolution, 0.115-0.180: 336x240 @ 59.922743Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Peter+Packrat
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=30865

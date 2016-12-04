@@ -1,4 +1,11 @@
 ROM set changed: no
-0.106-0.175: svf - "Super Visual Football: European Sega Cup"
+0.106-0.180: svf - "Super Visual Football: European Sega Cup"
+[note: description change noted in MAMEINFO.DAT is not being reported by MAME at 0.180]
 
-Resolution, 0.106-0.175: 416x224 @ 60.000000Hz
+MAME History:
+- 0.180: Gerald Coy added clone Super Visual Football: European Sega Cup. Changed parent description to 'Super Visual Football: European Sega Cup (Rev A)'.
+
+Resolution, 0.106-0.180: 416x224 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Super+Visual+Football:+European+Sega+Cup
+Rules, Biggest Blowout: http://www.twingalaxies.com/scores.php?scores=110843
