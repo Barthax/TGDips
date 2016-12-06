@@ -1,6 +1,8 @@
 All relevant rules are covered by software-dips.  If not shown during playback, use F2 to access after playback completed.
 
-Rules: http://www.twingalaxies.com/scores.php?scores=7794
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Puzzle+Bobble+/+Bust-A-Move+%5BNeo-Geo%5D+%5Bset+1%5D
+Rules, Points [Tournament Settings]: http://www.twingalaxies.com/scores.php?scores=7794
+
 ROMSet: PBobbleN
 Difficulty: LEVEL 6
 Level: WITH
