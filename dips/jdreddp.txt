@@ -8,4 +8,6 @@ Resolution, 0.138-0.154: 399x253 @ 54.815170Hz
 Resolution, 0.155-0.175: 400x254 @ 54.706840Hz
 
 TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Judge%20Dredd%20[rev%20LA1,%20prototype]
-
+Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=75161
+Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=75162
+Rules, Points [Three Player Team]: http://www.twingalaxies.com/scores.php?scores=75163

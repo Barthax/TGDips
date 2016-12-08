@@ -4,4 +4,5 @@ ROM set changed: no
 
 Resolution, 0.106-0.175: 640x480 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Libero Grande [LG2/VER.A]
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Libero%20Grande%20[LG2/VER.A]
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=75364

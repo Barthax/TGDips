@@ -5,3 +5,7 @@ Resolution, 0.106-0.113: 320x224 @ 59.185608Hz
 Resolution, 0.114-0.175: 320x224 @ 59.185606Hz
 
 TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=The%20Irritating%20Maze%20/%20Ultra%20Denryu%20Iraira%20Bou
+Rules, Fastest Completion [Expert Course]: http://www.twingalaxies.com/scores.php?scores=120385
+Rules, Fastest Completion [Full Course]: http://www.twingalaxies.com/scores.php?scores=120386
+Rules, Fastest Completion [Novice Course]: http://www.twingalaxies.com/scores.php?scores=120387
+Rules, Fastest Completion [Professional Course]: http://www.twingalaxies.com/scores.php?scores=120388
