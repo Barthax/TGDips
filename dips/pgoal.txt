@@ -4,3 +4,6 @@ ROM set changed: no
 
 Resolution, 0.106-0.113: 320x224 @ 59.185608Hz
 Resolution, 0.114-0.175: 320x224 @ 59.185606Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Pleasure%20Goal%20/%20Futsal%20-%205%20on%205%20Mini%20Soccer
+Rules, Biggest Blowout: http://www.twingalaxies.com/scores.php?scores=78915
