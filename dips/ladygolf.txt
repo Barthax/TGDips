@@ -3,4 +3,11 @@ ROM set changed: no
 0.141-0.146: ladygolf - "Vs. Stroke & Match Golf (Ladies Version, set ?)"
 0.147-0.175: ladygolf - "Vs. Stroke & Match Golf (Ladies Version, set LG4 ?)"
 
+MAME History:
+- 0.146u1: Changed clone (Men Version, set 2) to parent 'Vs. Stroke & Match Golf (Men Version, set GF4-2 F)', (Men Version, set 1) to clone 'Vs. Stroke & Match Golf (Men Version, set GF4-2 ?)', (Men Version) (Japan) to 'Vs. Stroke & Match Golf (Men Version) (Japan, set GF3 B)', (Ladies Version, set ?) to 'Vs. Stroke & Match Golf (Ladies Version, set LG4 ?)' and (Ladies Version, set E) to 'Vs. Stroke & Match Golf (Ladies Version, set LG4 E)'. Renamed (smgolf) to (smgolfb) and (smgolfb) to (smgolf).
+
 Resolution, 0.106-0.175: 256x240 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Vs. Stroke & Match Golf
+(Note: shared with smgolf set.)
+Rules, Ladies Version [Lowest Possible Score]: http://www.twingalaxies.com/scores.php?scores=30810

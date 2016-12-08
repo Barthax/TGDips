@@ -1,0 +1,31 @@
+Note: two ROM sets represented here with swap over at 0.146u1.
+
+MAME History:
+- 0.122u8: Changed description to 'Vs. Stroke & Match Golf (Men Version, set 1)' and clone (Men set 2) to 'Vs. Stroke & Match Golf (Men Version, set 2)'.
+- 0.146u1: Changed clone (Men Version, set 2) to parent 'Vs. Stroke & Match Golf (Men Version, set GF4-2 F)', (Men Version, set 1) to clone 'Vs. Stroke & Match Golf (Men Version, set GF4-2 ?)', (Men Version) (Japan) to 'Vs. Stroke & Match Golf (Men Version) (Japan, set GF3 B)', (Ladies Version, set ?) to 'Vs. Stroke & Match Golf (Ladies Version, set LG4 ?)' and (Ladies Version, set E) to 'Vs. Stroke & Match Golf (Ladies Version, set LG4 E)'. Renamed (smgolf) to (smgolfb) and (smgolfb) to (smgolf).
+
+
+Vs. Stroke & Match Golf (Men Version, set 1)
+------------------------------------------------
+ROM set changed: yes
+0.106-0.122: smgolf - "Vs. Stroke & Match Golf (Men Version)"
+0.122u8-0.146: smgolf - "Vs. Stroke & Match Golf (Men Version, set 1)"
+0.146u1-0.180: smgolfb - "Vs. Stroke & Match Golf (Men Version, set GF4-2 ?)"
+
+Resolution, 0.106-0.180: 256x240 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Vs. Stroke & Match Golf
+(Note: shared with ladygolf set.)
+Rules, Men Version [Lowest Possible Score]: http://www.twingalaxies.com/scores.php?scores=30809
+
+
+Vs. Stroke & Match Golf (Men Version, set GF4-2 F)
+------------------------------------------------------
+Note: not currently represented on TG.
+0.106-0.122: smgolfb - "Vs. Stroke & Match Golf (Men set 2)"
+0.122u8-0.146: smgolfb - "Vs. Stroke & Match Golf (Men Version, set 2)"
+0.146u1-0.180: smgolf - "Vs. Stroke & Match Golf (Men Version, set GF4-2 F)"
+
+Resolution, 0.106-0.180: 256x240 @ 60.000000Hz
+
+Rules: no current tracks.
