@@ -1,5 +1,8 @@
 ROM set changed: no
-0.106-0.175: victory - "Victory"
+0.106-0.180: victory - "Victory"
 
 Resolution, 0.106-0.113: 256x256 @ 60.000000Hz
-Resolution, 0.114-0.175: 256x256 @ 59.996811Hz
+Resolution, 0.114-0.180: 256x256 @ 59.996811Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Victory
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=120552
