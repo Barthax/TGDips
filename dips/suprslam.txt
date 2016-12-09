@@ -6,3 +6,6 @@ MAME History:
 - 0.150: Changed description to 'From TV Animation Slam Dunk - Super Slams'.
 
 Resolution, 0.106-0.175: 320x224 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Super%20Slams
+Rules, Biggest Blowout: http://www.twingalaxies.com/scores.php?scores=110827

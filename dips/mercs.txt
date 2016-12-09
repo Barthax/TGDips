@@ -6,4 +6,8 @@ Resolution, 0.127-0.147: 384x224 @ 59.610000Hz
 Resolution, 0.148-0.152: 384x224 @ 59.629403Hz
 Resolution, 0.153-0.175: 384x224 @ 59.637405Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Mercs [World 900302]
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Mercs%20[World%20900302]
+Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=38234
+Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=75555
+Rules, Points [Three Player Team]: http://www.twingalaxies.com/scores.php?scores=75556
+

@@ -8,3 +8,5 @@ Note:
 TG rules state "Allow Continue: No". For version 0.128 and beyond the equivalent is "No Opponents (Cheat)" set to On: http://forums.marpirc.net/viewtopic.php?f=9&t=15663
 "With v0.127u1, it was found to be a dipswitch issue; the "No Continues" dipswitch in older versions is actually a debug dip that disables the opponents, and the game doesn't have continues at all."
 
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Gladiator 1984

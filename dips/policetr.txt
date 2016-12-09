@@ -2,3 +2,5 @@ ROM set changed: no
 0.106-0.175: policetr - "Police Trainer (Rev 1.3)"
 
 Resolution, 0.106-0.175: 394x240 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Police Trainer [Rev 1.3]

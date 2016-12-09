@@ -4,4 +4,8 @@ ROM set changed: no
 
 Resolution, 0.106-0.175: 640x480 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Monster Farm Jump [Japan]
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Monster%20Farm%20Jump%20[Japan]
+Rules, Points [Easy Mode]: http://www.twingalaxies.com/scores.php?scores=75599
+Rules, Points [Hard Mode]: http://www.twingalaxies.com/scores.php?scores=75600
+Rules, Points [Normal Mode]: http://www.twingalaxies.com/scores.php?scores=75601
+Rules, Points [Very Hard Mode]: http://www.twingalaxies.com/scores.php?scores=75602
