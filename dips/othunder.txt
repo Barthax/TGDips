@@ -19,8 +19,10 @@ Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=7
 Operation Thunderbolt (World, rev 1)
 ------------------------------------
 Note: not currently represented on TG.
-
 ROM set changed: no. Added in 0.176
 0.176-0.178: othunder - "Operation Thunderbolt (World, rev 1)"
 
 Resolution, 0.176-0.178: 320x240 @ 60.000000Hz
+
+Rules: [no current tracks]
+

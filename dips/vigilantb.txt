@@ -28,3 +28,6 @@ ROM set changed: no.  Added in 0.162.
 0.162-0.176: vigilantb - "Vigilante (US, Rev B)"
 
 Resolution, 0.162-0.176: 256x256 @ 55.000000Hz
+
+Rules: [no current tracks]
+

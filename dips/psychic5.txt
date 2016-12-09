@@ -30,5 +30,3 @@ Resolution, 0.170-0.176: 256x224 @ 54.001512Hz
 
 Rules: [no current tracks]
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Psychic%205
-Rules, Points: http://www.twingalaxies.com/scores.php?scores=17220

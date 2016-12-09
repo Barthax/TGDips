@@ -16,6 +16,11 @@ Resolution, 0.106-0.122: 256x224 @ 60.000000Hz
 Resolution, 0.123-0.154: 256x224 @ 56.000000Hz
 Resolution, 0.155-0.175: 256x224 @ 56.180000Hz
 
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Thunder Dragon
+(Note: matches multiple tracks.)
+Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=120419
+Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=120420
+
 
 Thunder Dragon (9th Jan. 1992) / (8th Jan. 1992, unprotected)
 -------------------------------------------------------------
@@ -26,4 +31,6 @@ ROM set changed: no.  Added in 0.123u6.
 
 Resolution, 0.125-0.154: 256x224 @ 56.000000Hz
 Resolution, 0.155-0.176: 256x224 @ 56.180000Hz
+
+Rules: [no current tracks]
 

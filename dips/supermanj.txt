@@ -8,3 +8,5 @@ MAME History:
 
 0.106-0.176: 384x240 @ 57.430000Hz
 
+Rules: [no current tracks]
+

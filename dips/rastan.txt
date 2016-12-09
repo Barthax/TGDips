@@ -13,6 +13,9 @@ ROM set changed: yes
 
 Resolution, 0.106-0.175: 320x240 @ 60.000000Hz
 
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Rastan%20[World]
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=7799
+
 
 Rastan (World Rev 1)
 --------------------
@@ -21,4 +24,6 @@ ROM set changed: no.  Added in 0.145u6.
 0.145u6-0.176: rastan - "Rastan (World Rev 1)"
 
 Resolution, 0.146-0.176: 320x240 @ 60.000000Hz
+
+Rules: [no current tracks]
 

@@ -24,3 +24,6 @@ ROM set change: no.  Added in 0.175.
 0.175: dangar - "Ufo Robo Dangar (4/07/1987)"
 
 Resolution, 0.175: 256x224 @ 60.000000Hz
+
+Rules: [no current tracks]
+

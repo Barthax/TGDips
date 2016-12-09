@@ -42,3 +42,5 @@ Resolution, 0.141-0.147: 384x224 @ 59.610000Hz
 Resolution, 0.148-0.152: 384x224 @ 59.629403Hz
 Resolution, 0.153-0.175: 384x224 @ 59.637405Hz
 
+Rules: [no current tracks]
+

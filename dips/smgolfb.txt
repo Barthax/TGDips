@@ -28,4 +28,5 @@ Note: not currently represented on TG.
 
 Resolution, 0.106-0.180: 256x240 @ 60.000000Hz
 
-Rules: no current tracks.
+Rules: [no current tracks]
+

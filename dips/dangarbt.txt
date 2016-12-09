@@ -9,5 +9,4 @@ MAME History:
 
 Resolution, 0.106-0.175: 256x224 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Dangar%20-%20Ufo%20Robo%20(bootleg)
 Rules: [no current tracks]
