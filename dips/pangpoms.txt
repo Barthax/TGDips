@@ -5,3 +5,7 @@ ROM set changed: no
 Resolution, 0.106-0.144: 360x224 @ 60.000000Hz
 Resolution, 0.145-0.146: 360x240 @ 59.922743Hz
 Resolution, 0.147-0.175: 360x224 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Pang%20Poms
+Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=78871
+Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=78872
