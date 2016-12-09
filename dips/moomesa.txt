@@ -8,3 +8,9 @@ MAME History:
 - 0.145u4: Fixed Moo Mesa ROMs labels, added PCB locations and a better documentation about sub-revisions. Renamed some romsets to use revision codes [Team CPS-1]. Repair rom labels [Guru]. Changed description to 'Wild West C.O.W.-Boys of Moo Mesa (ver EAB)' and clones (ver UA, set 1) to 'Wild West C.O.W.-Boys of Moo Mesa (ver UAC)', (ver UA, set 2) to 'Wild West C.O.W.-Boys of Moo Mesa (ver UAB)', (ver AA) to 'Wild West C.O.W.-Boys of Moo Mesa (ver AAB)' and (bootleg ver AA) to 'Wild West C.O.W.-Boys of Moo Mesa (bootleg)'. Renamed (moomesau) to (moomesauac), (moomesaua) to (moomesauab) and (moomesaa) to (moomesaaab).
 
 Resolution, 0.106-0.175: 384x224 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Wild%20West%20C.O.W.%20-%20Boys%20of%20Moo%20Mesa%20[World%20Version%20EA]
+Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=15639
+Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=15640
+Rules, Points [Three Player Team]: http://www.twingalaxies.com/scores.php?scores=15641
+Rules, Points [Four Player Team]: http://www.twingalaxies.com/scores.php?scores=15642

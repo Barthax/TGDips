@@ -2,3 +2,9 @@ ROM set changed: no
 0.106-0.175: ninjak - "The Ninja Kids (World)"
 
 Resolution, 0.106-0.175: 320x224 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=The%20Ninja%20Kids
+Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=41676
+Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=42395
+Rules, Points [Three Player Team]: http://www.twingalaxies.com/scores.php?scores=120404
+Rules, Points [Four Player Team]: http://www.twingalaxies.com/scores.php?scores=120405
