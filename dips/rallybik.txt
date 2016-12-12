@@ -5,3 +5,5 @@ Resolution, 0.106-0.133: 320x240 @ 60.000000Hz
 Resolution, 0.134-0.144: 320x240 @ 55.140000Hz
 Resolution, 0.145-0.152: 320x240 @ 57.584258Hz
 Resolution, 0.153-0.175: 320x240 @ 55.161545Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Rally Bike / Dash Yarou

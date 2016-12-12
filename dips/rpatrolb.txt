@@ -6,3 +6,5 @@ MAME History:
 - 0.175: ShouTime added River Patrol (Japan). Comes from an original PCB. Changed 'River Patrol (Orca)' to clone 'River Patrol (bootleg set 1)' and clone (bootleg) to 'River Patrol (bootleg set 2)'. Renamed (rpatrol) to (rpatrola).
 
 Resolution, 0.106-0.175: 256x224 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=River Patrol [bootleg]

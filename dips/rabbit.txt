@@ -9,6 +9,8 @@ MAME History:
 
 Resolution, 0.106-0.175: 320x224 @ 60.000000Hz
 
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Rabbit
+
 Additional information confirming no change between 0.161 and 0.162:
 C:\MAME>mame161.exe -listcrc rabbit
 52bb18c0 jpr0.0                  rabbit          Rabbit (Japan)
