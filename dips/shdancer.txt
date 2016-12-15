@@ -2,7 +2,45 @@ ROM set changed: no
 0.106-0.137: shdancer - "Shadow Dancer (set 3, US)"
 0.138-0.175: shdancer - "Shadow Dancer (World)"
 
+MAME History:
+- 0.138: Changed description to 'Shadow Dancer (World)' and clones 'Shadow Dancer (set 2, Japan)' to 'Shadow Dancer (Japan)' and 'Shadow Dancer (set 1)' to 'Shadow Dancer (US)'.
+
 Resolution, 0.106-0.133: 320x224 @ 60.000000Hz
 Resolution, 0.134-0.175: 320x224 @ 57.230000Hz
 
 TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Shadow Dancer [set 3, US]
+
+Additional information to confirm no change in ROM set:
+T:\LocalMAME\combined>mame137 -listcrc shdancer
+3d5b3fa9 shdancer.a6  Shadow Dancer (set 3, US)
+2596004e shdancer.a5  Shadow Dancer (set 3, US)
+9bdabe3d mpr12712.b1  Shadow Dancer (set 3, US)
+852d2b1c mpr12713.b2  Shadow Dancer (set 3, US)
+448226ce mpr12714.b3  Shadow Dancer (set 3, US)
+d6888534 mpr12719.b11 Shadow Dancer (set 3, US)
+ff344945 mpr12726.a11 Shadow Dancer (set 3, US)
+ba2efc0c mpr12718.b10 Shadow Dancer (set 3, US)
+268a0c17 mpr12725.a10 Shadow Dancer (set 3, US)
+c81cc4f8 mpr12717.b9  Shadow Dancer (set 3, US)
+0f4903dc mpr12724.a9  Shadow Dancer (set 3, US)
+a870e629 epr12716.b8  Shadow Dancer (set 3, US)
+c606cf90 epr12723.a8  Shadow Dancer (set 3, US)
+7a0d8de1 epr12720.a4  Shadow Dancer (set 3, US)
+07051a52 mpr12715.b4  Shadow Dancer (set 3, US)
+
+T:\LocalMAME\combined>mame138 -listcrc shdancer
+3d5b3fa9 shdancer.a6  Shadow Dancer (World)
+2596004e shdancer.a5  Shadow Dancer (World)
+9bdabe3d mpr-12712.b1 Shadow Dancer (World)
+852d2b1c mpr-12713.b2 Shadow Dancer (World)
+448226ce mpr-12714.b3 Shadow Dancer (World)
+d6888534 mpr-12719.b11 Shadow Dancer (World)
+ff344945 mpr-12726.a11 Shadow Dancer (World)
+ba2efc0c mpr-12718.b10 Shadow Dancer (World)
+268a0c17 mpr-12725.a10 Shadow Dancer (World)
+c81cc4f8 mpr-12717.b9 Shadow Dancer (World)
+0f4903dc mpr-12724.a9 Shadow Dancer (World)
+a870e629 epr-12716.b8 Shadow Dancer (World)
+c606cf90 epr-12723.a8 Shadow Dancer (World)
+7a0d8de1 epr-12720.a4 Shadow Dancer (World)
+07051a52 mpr-12715.b4 Shadow Dancer (World)
