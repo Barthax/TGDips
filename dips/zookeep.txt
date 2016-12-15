@@ -7,7 +7,9 @@ Resolution, 0.116-0.146: 256x256 @ 76.293945Hz
 Resolution, 0.147-0.175: 256x256 @ 55.838470Hz
 
 All dips are software-based: use F1 to access.
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Zoo%20Keeper%20[Set%201]
 Rules, Set 1 Points: http://www.twingalaxies.com/scores.php?scores=5217
 Rules, set 1 Coconut Challenge: http://www.twingalaxies.com/scores.php?scores=131624
 Rules, Zoo Keeper Extreme! (ZEKE-99): http://www.twingalaxies.com/scores.php?scores=132438 
+
 
