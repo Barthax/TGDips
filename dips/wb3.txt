@@ -1,10 +1,13 @@
 ROM set changed: no
-0.106-0.165: wb3 - "Wonder Boy III - Monster Lair (set 6, World, System 16B, 8751 317-0098)"
-0.166-0.175: wb3 - "Wonder Boy III - Monster Lair (set 6, World, System 16B) (8751 317-0098)"
+0.106-0.149: wb3 - "Wonder Boy III - Monster Lair (set 5, World, System 16B, 8751 317-0098)"
+0.149u1-0.175: wb3 - "Wonder Boy III - Monster Lair (set 6, World, System 16B) (8751 317-0098)"
 
 MAME History:
-- 0.166: David Haywood added clones 'Wonder Boy III - Monster Lair (set 1, Japan, System 16A) (bootleg of FD1094 317-0084 set)', 'Wonder Boy III - Monster Lair (set 2, Japan, System 16B) (bootleg of FD1094 317-0085 set)', 'Wonder Boy III - Monster Lair (set 3, World, System 16B) (bootleg of FD1094 317-0089 set)', 'Wonder Boy III - Monster Lair (set 4, Japan, System 16B) (bootleg of FD1094 317-0087 set)' and 'Wonder Boy III - Monster Lair (set 5, Japan, System 16A) (bootleg of FD1089A 317-0086 set)'.
+- 0.94u4: Chack'n added clone Wonder Boy III - Monster Lair (set 4, Japan, System 16B, FD1094 317-0087). Changed parent description to 'Wonder Boy III - Monster Lair (set 5, World, System 16B, 8751 317-0098)'.
+- 0.149u1: New decrypt key (software derived) for clone (set 5, Japan, System 16A, FD1089A 317-0086) which gets it working [Chris Hardy, Charles MacDonald]. Removed wb35a clone set and merged correct rom dumps for the wb35 set by using correct dumps for program roms, tiles and sprites [Brian Troha]. Changed parent description to 'Wonder Boy III - Monster Lair (set 6, World, System 16B, 8751 317-0098)' and clone (set 1, System 16A, FD1094 317-0084) to 'Wonder Boy III - Monster Lair (set 1, Japan, System 16A, FD1094 317-0084)'. Merged clones (set 5, System 16A, FD1089A 317-xxxx, bad dump?) and (set 6, System 16A, FD1089A 317-xxxx) to 'Wonder Boy III - Monster Lair (set 5, Japan, System 16A, FD1089A 317-0086)'.
 
 Resolution, 0.106-0.114: 320x224 @ 60.000000Hz
 Resolution, 0.115-0.116: 321x224 @ 60.054389Hz
 Resolution, 0.117-0.175: 320x224 @ 60.054389Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Wonder Boy III - Monster Lair [set 5, World, System 16B, 8751 317-0098]
