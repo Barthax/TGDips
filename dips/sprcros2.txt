@@ -4,3 +4,5 @@ ROM set changed: no
 
 Resolution, 0.106-0.171: 240x224 @ 60.000000Hz
 Resolution, 0.172-0.175: 240x224 @ 55.638395Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Super Cross 2 [Japan set 1]

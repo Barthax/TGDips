@@ -4,3 +4,10 @@ ROM set changed: no
 Resolution, 0.106-0.137: 320x240 @ 56.000000Hz
 Resolution, 0.138-0.141: 320x240 @ 54.000000Hz
 Resolution, 0.142-0.175: 320x240 @ 54.877858Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Wardner
+Rules, TGES [One Life Only]: http://www.twingalaxies.com/scores.php?scores=131797
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Wardner [World]
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=29921
+Rules, TGES [One Life Only]: http://www.twingalaxies.com/scores.php?scores=131798
+

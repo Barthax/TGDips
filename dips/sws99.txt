@@ -3,3 +3,5 @@ ROM set changed: no
 0.131-0.175: sws99 - "Super World Stadium '99 (Japan, SS91/VER.A3)"
 
 Resolution, 0.106-0.175: 640x480 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Super World Stadium '99 [SS91/VER.A3]

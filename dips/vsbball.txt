@@ -7,3 +7,5 @@ MAME History:
 
 Resolution, 0.106: 512x240 @ 60.000000Hz
 Resolution, 0.107-0.175: 2 screens, each 256x240 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Vs. BaseBall

@@ -6,3 +6,5 @@ MAME History:
 - 0.108: Patrik Styrnell added clone 'Teenage Mutant Hero Turtles - Turtles in Time (2 Players ver EBA)'. Renamed (tmnt22p) to (tmnt22pu). Fixed rom names in parent set.
 
 Resolution, 0.106-0.175: 304x224 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Teenage Mutant Ninja Turtles: Turtles in Time [4 Players ver UAA]

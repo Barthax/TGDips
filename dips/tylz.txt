@@ -3,3 +3,5 @@ ROM set changed: no
 
 Resolution, 0.106-0.126: 256x240 @ 61.000000Hz
 Resolution, 0.127-0.175: 256x240 @ 61.419025Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Tylz [Prototype]

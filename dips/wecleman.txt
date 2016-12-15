@@ -8,3 +8,5 @@ MAME History:
 - 0.167: ANY and The Dumping Union added clone WEC Le Mans 24 (v1.26). Changed parent description to 'WEC Le Mans 24 (v2.00, set 1)' and clone (set 2) to 'WEC Le Mans 24 (v2.00, set 2)'. Renamed (wecleman2) to (weclemana).
 
 Resolution, 0.106-0.175: 320x224 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=WEC Le Mans 24

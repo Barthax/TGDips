@@ -5,3 +5,5 @@ ROM set changed: no
 
 Resolution, 0.106-0.114: 320x224 @ 60.000000Hz
 Resolution, 0.115-0.175: 321x224 @ 60.054389Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Super Hang-On [set 4, 68000]

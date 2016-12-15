@@ -31,6 +31,8 @@ Resolution, 0.115-0.116: 321x224 @ 59.637405Hz
 Resolution, 0.117-0.135: 320x224 @ 59.637405Hz
 Resolution, 0.136-0.175: 320x224 @ 60.054389Hz
 
+Rules: [no current tracks]
+
 
 Turbo Out Run (deluxe cockpit) (FD1094 317-0109)
 ------------------------------------------------
@@ -43,3 +45,4 @@ ROM set changed: yes.  Added in 0.125u6.
 Resolution, 0.126-0.135: 320x224 @ 59.637405Hz
 Resolution, 0.136-0.175: 320x224 @ 60.054389Hz
 
+Rules: [no current tracks]

@@ -2,3 +2,5 @@ ROM set changed: no
 0.106-0.175: welltris - "Welltris (World?, 2 players)"
 
 Resolution, 0.106-0.175: 352x240 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Welltris [World?, 2 players]

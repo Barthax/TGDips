@@ -3,3 +3,5 @@ ROM set changed: no
 0.132-0.175: sbishi - "Super Bishi Bashi Championship (ver JAA, 2 Players)"
 
 Resolution, 0.106-0.175: 288x224 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Super Bishi Bashi Championship [ver JAA]

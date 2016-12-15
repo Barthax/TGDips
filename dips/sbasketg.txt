@@ -6,3 +6,6 @@ MAME History:
 - 0.127u3: Super Basketball changes [Kevin Eshbach]: Corrected the Super Basketball Revision H rom dump. Updated driver with the DIP locations. Corrected the VLM XTAL. Corrected parent/child relationships by making the Revision H the parent. Turned on save state support. Changed clone 'Super Basketball (not encrypted)' to parent 'Super Basketball (version H, unprotected)', '(version G)' to clone '(version G, encrypted)' and '(version E)' to '(version E, encrypted)'. Renamed (sbasketb) to (sbasketg), (sbasketu) to (sbasketb) and (sbasketo) to (sbaskete).
 
 Resolution, 0.106-0.175: 256x224 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Super Basketball [version G]
+

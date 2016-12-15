@@ -14,6 +14,9 @@ ROM set changed: yes
 Resolution, 0.106-0.148: 384x224 @ 60.000000Hz
 Resolution, 0.149-0.175: 384x224 @ 59.410646Hz
 
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Shanghai%20III%20[Japan]
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=23017
+
 
 Shanghai III (US)
 -----------------
@@ -24,6 +27,8 @@ ROM set changed: yes.  Added in 0.149u1.
 
 Resolution, 0.149u1-0.176: 384x224 @ 59.410646Hz
 
+Rules: [no current tracks]
+
 
 Shanghai III (World)
 --------------------
@@ -33,4 +38,5 @@ ROM set changed: no.  Added in 0.153.
 
 Resolution, 0.153-0.176: 384x224 @ 59.410646Hz
 
+Rules: [no current tracks]
 

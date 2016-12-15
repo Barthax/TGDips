@@ -33,6 +33,8 @@ Resolution, 0.115-0.116: 321x224 @ 59.637405Hz
 Resolution, 0.117-0.135: 320x224 @ 59.637405Hz
 Resolution, 0.136-0.176: 320x224 @ 60.054389Hz
 
+Rules: [no current tracks]
+
 
 Turbo Out Run (cockpit) (FD1094 317-0106) / (set 1, FD1094 317-unknown)
 -----------------------------------------------------------------------
@@ -53,5 +55,4 @@ Resolution, 0.115-0.116: 321x224 @ 59.637405Hz
 Resolution, 0.117-0.135: 320x224 @ 59.637405Hz
 Resolution, 0.136-0.176: 320x224 @ 60.054389Hz
 
-
-
+Rules: [no current tracks]

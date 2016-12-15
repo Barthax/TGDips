@@ -6,3 +6,6 @@ MAME History:
 - 0.148u4: Porchy and The Dumping Union added Super Chase - Criminal Termination (World). Corrected main CPU clock, corrected some rom labels. Added PLDs to the sets [Porchy, Brian Troha, The Dumping Union]. Changed 68EC020 CPU1 clock speed to 20MHz. Renamed (superchs) to (superchsu).
 
 Resolution, 0.106-0.175: 320x240 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Super%20Chase%20-%20Criminal%20Termination%20[US]
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=10828
