@@ -98,7 +98,9 @@ INPUT_PORTS_END
 
 Resolution: 256x224 @60Hz
 
-Rules: http://www.twingalaxies.com/scores.php?scores=9812
+----
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Up%20%27N%20Down
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=9812
 ROMSet: UpNDown
 Cabinet: Upright
 Lives: 3
@@ -107,10 +109,31 @@ Difficulty: Easy
 
 Sample correct TG:
 DSW0 offset 0x33 and every 0x7C: value FE
-- DSW0 0x01 (Cabinet): 0x00 (Upgright)
+- DSW0 0x01 (Cabinet): 0x00 (Upright)
 - DSW0 0x06 (Lives): 0x06 (3)
 - DSW0 0x38 (Bonus Life): 0x38 (10000)
 - DSW0 0xc0 (Difficulty): 0xc0 (Easy)
     30: 00 00 00 FE 00 00 00 00  00 00 00 00 00 00 00 00 | ...¦............
     A0: 00 00 00 FF 00 00 00 FF  00 00 00 FF 00 00 00 FE | ... ... ... ...¦
    120: 00 00 00 FF 00 00 00 FF  00 00 00 FE 00 00 00 00 | ... ... ...¦....
+----
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Up%27n%20Down
+Rules, Very Hard Settings: http://www.twingalaxies.com/scores.php?scores=206850
+ROMSet: UpNDown
+Cabinet: Upright
+Lives: 3
+Bonus Life: 10000
+Difficulty: Very Hard (maximum difficulty)
+(Note: difficulty is correctly labeled "Hardest".)
+
+Sample correct TG:
+DSW0 offset 0x33 and every 0x7C: value FE
+- DSW0 0x01 (Cabinet): 0x00 (Upright)
+- DSW0 0x06 (Lives): 0x06 (3)
+- DSW0 0x38 (Bonus Life): 0x38 (10000)
+- DSW0 0xc0 (Difficulty): 0x00 (Hardest)
+    30: 00 00 00 3E 00 00 00 00  00 00 00 00 00 00 00 00 | ...>............
+    A0: 00 00 00 FF 00 00 00 FF  00 00 00 FF 00 00 00 3E | ... ... ... ...>
+   120: 00 00 00 FF 00 00 00 FF  00 00 00 3E 00 00 00 00 | ... ... ...>....
+----
