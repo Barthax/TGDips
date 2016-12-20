@@ -7,5 +7,5 @@ Resolution, 0.114-0.175: 288x224 @ 60.606061Hz
 TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Pac-Man
 Rules, High Score Challenge: http://www.twingalaxies.com/scores.php?scores=197901
 Rules, Points [TG Settings]: http://www.twingalaxies.com/scores.php?scores=11853
-Note 1: Between 2005 and 2016 the Pac-Man "Points [TG settings]" rules only permitted the puckman ROM set.  Prior to 2005, only the pacman ROM set was permitted.  2016 has muddied the waters.
+Note 1: Between 2005 and 2016 the Pac-Man "Points [TG settings]" rules only permitted the puckman ROM set.  Prior to 2005, only the pacman ROM set was permitted.  2016 has muddied the waters specifying "typically pacman".
 Note 2: do not use Service Mode (F2) to check after playback as it will have reverted to localised settings.
