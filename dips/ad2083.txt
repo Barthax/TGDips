@@ -1,8 +1,8 @@
 ROM set changed:
-0.106-0.179: ad2083 - "A. D. 2083"
+0.106-0.180: ad2083 - "A. D. 2083"
 
 Resolution, 0.106-0.113: 256x224 @ 60.606060Hz
-Resolution, 0.114-0.179: 256x224 @ 60.606061Hz
+Resolution, 0.114-0.180: 256x224 @ 60.606061Hz
 
 TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=A.D.%202083
 Rules, http://www.twingalaxies.com/scores.php?scores=23238
