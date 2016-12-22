@@ -7,3 +7,10 @@ Resolution, 0.129-0.180: 256x224 @ 61.000000Hz
 
 TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Sasuke+vs.+Commander
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=10122
+
+NOTES:
+* Default starting lives seems to have been changed from 3 to 4 at 0.122u8. Rules still require 3.
+* Bonus life was undefined at 0.106, and seems to be awarded at 10k. It is therefore not in the current rule set. However, from 0.122u8 onwards, Bonus Life became controllable by DIP, but default setting is 5k! Recommend using 10k.
+
+MAME History:
+- 0.122u8: Fixed dipswitches and added 'Bonus Life' dipswitch.
