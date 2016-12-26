@@ -1,7 +1,15 @@
 ROM set changed: no
-0.106-0.175: spacbeam - "Space Beam"
+0.106-0.180: spacbeam - "Space Beam"
 
 Resolution, 0.106-0.122: 256x224 @ 60.000000Hz
-Resolution, 0.123-0.175: 256x224 @ 60.176065Hz
+Resolution, 0.123-0.180: 256x224 @ 60.176065Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Space Beam
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Space+Beam
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=10056
+
+MAME History:
+- 0.108: wolf676 improved dipswitches for Space Beam. Added 'Replay' dipswitch.
+
+NOTES:
+- the "?: Off" in the rule set translates as "Replay: 30000" from 0.108 onwards (you can see this in effect in attract mode, the text "Replay for 30000" flashes at the bottom of the screen when "?: Off")
+- extra life is awarded at 5000, contrary to note in Special Rules (see http://flyers.arcade-museum.com/?page=flyer&db=videodb&id=1422&image=2 for confirmation)
