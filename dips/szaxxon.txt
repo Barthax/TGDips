@@ -1,9 +1,11 @@
 ROM set changed: no
 0.106-0.132: szaxxon - "Super Zaxxon"
-0.133-0.175: szaxxon - "Super Zaxxon (315-5013)"
+0.133-0.181: szaxxon - "Super Zaxxon (315-5013)"
 
 Resolution, 0.106-0.107: 256x224 @ 60.000000Hz
 Resolution, 0.108-0.113: 256x224 @ 59.999409Hz
-Resolution, 0.114-0.175: 256x224 @ 59.999408Hz
+Resolution, 0.114-0.181: 256x224 @ 59.999408Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Super Zaxxon
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Super+Zaxxon
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=7871
+Rules, ADeca 2004 ONLY Variation [1 Life Only]: http://www.twingalaxies.com/scores.php?scores=9871     [This variation is closed for submissions!]
