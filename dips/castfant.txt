@@ -1,19 +1,19 @@
 ROM set changed: no
 0.106-0.145: castfant - "Astro Fantasia (Cassette)"
 0.146-0.178: castfant - "Astro Fantasia (DECO Cassette)"
-0.179-0.180: castfant - "Astro Fantasia (DECO Cassette) (US)"
+0.179-0.181: castfant - "Astro Fantasia (DECO Cassette) (US)"
 
 Resolution, 0.106-0.128: 240x240 @ 57.000000Hz
 Resolution, 0.129-0.145: 240x240 @ 57.444853Hz
-Resolution, 0.146-0.180: 256x240 @ 57.444853Hz
+Resolution, 0.146-0.181: 256x240 @ 57.444853Hz
 
 TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Astro+Fantasia+(Cassette)
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=200891
 Note: newer MAMEs have DIP switch names present and old rules may not make immediate sense.  Check http://www.twingalaxies.com/showthread.php/165533-MAME-Decocass-games for better explanation.
 
-NOTE: DIP labels & values changed at 0.134, while track rules were written at 0.169. Equivalent/accepted DIPs are...
+NOTE: DIP labels & values changed at 0.133u1, while track rules were written at 0.169. Equivalent DIPs are...
 
 0.106-0.133:    Board type: new
                 Unknown [All]: Off
-0.134-0.180*:   Type Of Tape: MD (Small)
+0.134-0.181*:   Type Of Tape: MD (Small)
                 Country Code: A
