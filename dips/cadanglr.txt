@@ -7,15 +7,5 @@ Resolution, 0.147u2-0.181: 256x240 @ 57.444853Hz
 
 TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Angler+Dangler+(Cassette)
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=200892
-Note: newer MAMEs have DIP switch names present and old rules may not make immediate sense.  Check http://www.twingalaxies.com/showthread.php/165533-MAME-Decocass-games for better explanation.
 
-NOTE: DIP labels & values changed at 0.133u1, while track rules were written at 0.169. Equivalent DIPs are...
-
-0.106-0.133:    Board type: new
-                Unknown [All]: Off
-0.134-0.181*:   Type Of Tape: MD (Small)
-                Lives: 3
-                Bonus Life: 10000
-                Difficulty: Easy
-                Unknown: Off
-                Country Code: A
+NOTE: added in 0.147u2, so DECOCASS DIP labels & values changes at 0.133u1 do not affect this title.
