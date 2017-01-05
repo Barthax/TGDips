@@ -1,0 +1,10 @@
+ROM set changed: no. Added in 0.148.
+0.148-0.178: cmanhat - "Manhattan (DECO Cassette)"
+0.179-0.181: cmanhat - "Manhattan (DECO Cassette) (Japan)"
+
+Resolution, 0.148-0.181: 256x240 @ 57.444853Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Manhattan+(Cassette)
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=207072
+
+NOTE: added in 0.148, so DECOCASS DIP labels & values changes at 0.133u1 do not affect this title.
