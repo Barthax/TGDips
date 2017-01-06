@@ -1,6 +1,6 @@
 ROM set changed: no
 0.106-0.146: qix - "Qix (set 1)"
-0.146u2-0.175: qix - "Qix (Rev 2)"
+0.146u2-0.181: qix - "Qix (Rev 2)"
 
 MAME History:
 - 0.146u2: Identified Qix (set 1) as Rev 2 and corrected the rom names [Smitdogg, The Dumping Union]. Changed parent description to 'Qix (Rev 2)'.
@@ -8,7 +8,7 @@ MAME History:
 Resolution, 0.106-0.114: 256x240 @ 60.000000Hz
 Resolution, 0.115:       256x256 @ 55.838470Hz
 Resolution, 0.116-0.146: 256x256 @ 76.293945Hz
-Resolution, 0.147-0.175: 256x256 @ 55.838470Hz
+Resolution, 0.147-0.181: 256x256 @ 55.838470Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Qix%20%5Bset%201%5D
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Qix+[set+1]
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=5221
