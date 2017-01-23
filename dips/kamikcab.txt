@@ -1,7 +1,7 @@
 ROM set changed: no
-0.106-0.175: kamikcab - "Kamikaze Cabbie"
+0.106-0.181: kamikcab - "Kamikaze Cabbie"
 
-Resolution, 0.106-0.175: 256x240 @ 60.000000Hz
+Resolution, 0.106-0.181: 256x240 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Kamikaze%20Cabbie
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Kamikaze+Cabbie
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=75178
