@@ -1,15 +1,15 @@
 ROM set changed: yes
 0.106-0.143: nibbler - "Nibbler (set 1)"
-0.143u6-0.175: nibbler6 - "Nibbler (rev 6)"
+0.143u6-0.181: nibbler6 - "Nibbler (rev 6)"
 
 MAME History:
 - 0.143u6: Various Nibbler clean-ups [Tafoid]: Set up Nibbler and clones to allow the Pioneer Balloon sound rom as OPTIONAL as some board configurations has this rom on board. If it is missing from your romset, the game will be allowed to play without the music is desired. Nibbler and clones have been reordered and renamed based on version information. Added notes to the driver. Changed 'Nibbler (set 1)' to clone '(rev 6)', '(set 2)' to parent 'Nibbler (rev 9)', '(set 3)' to '(rev 8)' and '(Olympia)' to '(Olympia - rev 8)'. Renamed (nibbler) to (nibbler6), (nibblera) to (nibbler) and (nibblerb) to (nibbler8). Note: Version Number => Hold DOWN on controller after crosshatch appears. A number will show up to the right of the primary game creator's initials "JU". The music that has been in MAME for this game since it was first added is not from Nibbler! IC51 is a leftover from the game board to which the conversion kit for Nibbler was applied, a Pioneer Balloon, and is where MAME's original rom dump came from. Both the dedicated cabinet boards and the conversion kit boards for Nibbler never came with nor do the manuals for them list a "iC51" in the parts list breakdown. In fact, sound roms between different games using the snk6502 custom sound can largely be interchanged with another using the same. Currently in MAME, this IC51 from Pioneer Balloon is set as as OPTIONAL rom, allowing you to still play Nibbler (with/without music if you wish) without needing to adjust the source and recompile.
 
 Resolution, 0.106-0.113: 256x224 @ 61.246746Hz
 Resolution, 0.114-0.128: 256x224 @ 61.246745Hz
-Resolution, 0.129-0.175: 256x224 @ 61.000000Hz
+Resolution, 0.129-0.181: 256x224 @ 61.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Nibbler%20[set%201]
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Nibbler+[set+1]
 Rules, Points [Tournament Settings]: http://www.twingalaxies.com/scores.php?scores=57234
 Rules, Points [Marathon Settings]: http://www.twingalaxies.com/scores.php?scores=7777
 Rules, Billionaire's Club Training Camp: http://www.twingalaxies.com/scores.php?scores=197849

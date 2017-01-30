@@ -1,12 +1,12 @@
 Note: not currently represented on TG.
 ROM set changed: yes.
 0.106-0.148: gapluso - "Gaplus (rev. B)"
-0.148u3-0.175: gaplus - "Gaplus (GP2 rev. B)"
+0.148u3-0.181: gaplus - "Gaplus (GP2 rev. B)"
 
 MAME History:
 - 0.62: Added Gaplus (rev. D). Changed 'Gaplus (set 1)' to clone 'Gaplus (alternate hardware)' and clones 'Gaplus (set 2)' to 'Gaplus (rev. B)', 'Galaga 3 (set 1)' to 'Galaga 3 (rev. C)', 'Galaga 3 (set 2)' to 'Galaga 3 (Midway)' and 'Galaga 3 (set 3)' to 'Galaga 3 (alternate set)'. Renamed (gaplusa) to (gapluso), (gaplus) to (gaplusa), (galaga3a) to (galaga3m) and (galaga3b) to (galaga3a).
 - 0.148u3: ANY and The Dumping Union added clone Gaplus (GP2). System11 added clone Galaga 3 (GP3). Corrected some issues between Galaga 3 & Gaplus sets [Brian Troha]. Changed clone (rev. B) to parent 'Gaplus (GP2 rev. B)', (rev. D) to clone 'Galaga 3 (GP3 rev. D)' and clones (alternate hardware) to 'Gaplus (GP2 rev D, alternate hardware)', (rev. C) to 'Galaga 3 (GP3 rev. C)', (set 2) to 'Galaga 3 (set 4)' and (set 3) to 'Galaga 3 (set 5)'. Renamed (galaga3a) to (galaga3c), (galaga3) to (galaga3a), (gaplus) to (galaga3), (gapluso) to (gaplus) and (gaplusa) to (gaplusd).
 
-Resolution, 0.149-0.175: 288x224 @ 60.606060Hz
+Resolution, 0.149-0.181: 288x224 @ 60.606060Hz
 
 Rules: [no current tracks]
