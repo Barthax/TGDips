@@ -10,9 +10,9 @@ Raiden (set 3)
 ROM set changed: yes
 0.36b1-0.146u1: raiden - "Raiden"
 0.146u2-0.149: raidenb - "Raiden (set 3, Alternate hardware)"
-0.150-0.175: raidenb - "Raiden (set 3)"   (minor description change only)
+0.150-0.181: raidenb - "Raiden (set 3)"   (minor description change only)
 
-Resolution, 0.106-0.175: 256x224 @ 59.600000Hz
+Resolution, 0.106-0.181: 256x224 @ 59.600000Hz
 
 TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Raiden
 Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=10030
@@ -23,9 +23,9 @@ Raiden (set 1)
 --------------
 Note: not currently represented on TG.
 ROM set changed: no.  Added in 0.146u1.
-0.146u1-0.175: raiden - "Raiden (set 1)"
+0.146u1-0.181: raiden - "Raiden (set 1)"
 
-Resolution, 0.147-0.175: 256x224 @ 59.600000Hz
+Resolution, 0.147-0.181: 256x224 @ 59.600000Hz
 
 Rules: [no current tracks]
 

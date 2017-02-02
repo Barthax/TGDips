@@ -6,5 +6,15 @@ Resolution, 0.112-0.153: 304x224 @ 58.000000Hz
 Resolution, 0.154-0.163: 304x224 @ 57.793000Hz
 Resolution, 0.164-0.181: 308x224 @ 57.793000Hz
 
+MAME History:
+- 0.128u2: Stephane Humbert fixed dipswitches and inputs for Dream World. Added 'Lives' dipswitch'. Changed 'Unknown' dipswitches to 'Unused'.
+- 0.111u6: David Haywood and Guru fixed clocks and other details in Dream World based on new measurements. Changed VSync to 58Hz.
+- 0.111u5: Added 2x OKI6295 (1MHz) stereo sound. Added Philips 8752 MCU protection data rom. Added Player 2, 8-way Joystick, 3x buttons and 2x coin slots. Added dipswitches 'Not Dips?', 'Lives', 'Ticket Payout', 'Free Play', 'Demo Sounds', 'Coinage', 'Difficulty' and 'Service Mode'.
+- 24th December 2006: David Haywood - Dream World by Semicom is now working... The hardware is rather different to that used by most Semicom games. It uses a 68020 instead of a 68000 and has different video hardware too.
+
 TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Dream+World
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=207201
+
+NOTES:
+- Game is playable from 0.112 onwards only
+- Ongoing development had DIPs added, then later removed (0.128u2) to be controlled by internal settings. If using 0.112 to 0.128, leave all DIPs as default!!!

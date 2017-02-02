@@ -1,10 +1,17 @@
 ROM set changed: no
 0.106-0.121: hangon - "Hang-On"
-0.122-0.175: hangon - "Hang-On (Rev A)"
+0.122-0.181: hangon - "Hang-On (Rev A)"
 
 Resolution, 0.106-0.114: 320x224 @ 60.000000Hz
-Resolution, 0.115-0.175: 320x224 @ 60.054389Hz
+Resolution, 0.115-0.181: 320x224 @ 60.054389Hz
 
 TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Hang-On
 (Note: matches multiple games.)
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=56714
+
+MAME History:
+- 0.107u2: Massive cleanup/fixing of 16-bit Sega drivers [Alex Jackson]: Many corrections to descriptive set names, adding revision letters, cabinet types, etc. Fixed visible area in Hang-On hardware. Fixed many dipswitches and added PORT_DIPLOCATION support. Adjusted min/max values for analog controls to improve response. Cleaned up a number of ROM names and fixed some incorrect guesses. Actually disabling 8751 in games that have a fake replacement. Hooked up 8255 PPI correctly now that it has mode 2 support. Fixed behavior of NMI line in later sega sound boards. Fixed addressing in the SegaPCM sound system. Some hardware/documentation cleanup.
+
+NOTE: at 0.107u2, difficulty labels were renamed ever-so-slightly... (*=default)
+0.106-107:   Easy / *Normal / Hard / Hardest
+0.107u2-181: Easy / *Medium / Hard / Hardest
