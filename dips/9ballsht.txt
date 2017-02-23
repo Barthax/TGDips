@@ -1,9 +1,11 @@
 ROM set changed: no
-0.106-0.175: 9ballsht - "9-Ball Shootout (set 1)"
+0.106-0.182: 9ballsht - "9-Ball Shootout (set 1)"
 
 Resolution, 0.106-0.114: 320x240 @ 60.000000Hz
-Resolution: 0.115-0.175: 320x240 @ 60.012477Hz
+Resolution: 0.115-0.182: 320x240 @ 60.012477Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=9-Ball%20Shootout%20[Set%201]
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=9-Ball+Shootout+[Set+1]
 Rules, Most Balls Pocketed: http://www.twingalaxies.com/scores.php?scores=41116
-Note: settings can only be confirmed by visual confirmation during game play.  This is caused by the Service Mode not showing any current values (only selections).
+NOTES:
+Settings can only be confirmed by visual confirmation during game play.  This is caused by the Service Mode not showing any current values (only selections).
+Game doesn't seem to play properly from 0.181... further testing required.

@@ -1,14 +1,13 @@
 ROM set changed: no
 0.106-0.136: ncv2 - "Namco Classics Collection Vol.2"
-0.136u4-0.175: ncv2 - "Namco Classic Collection Vol.2"
+0.136u4-0.182: ncv2 - "Namco Classic Collection Vol.2"
 
 MAME History:
 - 0.136u4: Heihachi_73 changed description to 'Namco Classic Collection Vol.2'.
 
-Resolution, 0.106: 224x288 @ 60.000000Hz
-Resolution, 0.106-0.175: 288x224 @ 60.000000Hz
+Resolution, 0.106-0.182: 288x224 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Namco%20Classics%20Collection%20Vol.%202
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Namco+Classics+Collection+Vol.+2
 Rules, Points [Dig Dug - Original]: http://www.twingalaxies.com/scores.php?scores=21459
 Rules, Points [Dig Dug Arrangement] [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=21460
 Rules, Points [Dig Dug Arrangement] [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=78604

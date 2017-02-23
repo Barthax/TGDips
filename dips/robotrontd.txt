@@ -1,0 +1,11 @@
+ROM set changed: no. Added in 0.172
+0.172-0.182: robotrontd - "Robotron: 2084 (2015 'tie-die V2' hack)"
+
+Resolution, 0.172-0.182: 292x240 @ 60.096154Hz
+
+All configuration is done via soft-dips.  Use F2 repeatedly (cycles through settings) after the recording if they are not shown during the recording.
+
+ROM Set Changes not applicable due to rules:
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Robotron+2084
+Rules: Robotron 2084 [ROBO-Novice Training Camp (NOOB)]: http://www.twingalaxies.com/scores.php?scores=132404
+Rules: Robotron 2084 [VidKidz 40-Wave Challenge (VK40)]: http://www.twingalaxies.com/scores.php?scores=132291

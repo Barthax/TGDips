@@ -13,11 +13,12 @@ ROM set changed: yes
 0.139u3-0.155: vigilant - "Vigilante (World, set 1)"
 0.156-0.161: vigilantb - "Vigilante (bootleg)"
 0.162: vigilanbl - "Vigilante (bootleg)"
-0.163-0.175: vigilantbl - "Vigilante (bootleg)"
+0.163-0.182: vigilantbl - "Vigilante (bootleg)"
 
-Resolution, 0.106-0.175: 256x256 @ 55.000000Hz
+Resolution, 0.106-0.179: 256x256 @ 55.000000Hz
+Resolution, 0.180-0.182: 254x256 @ 55.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Vigilante+%5BWorld%5D
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Vigilante+[World]
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=120557
 
 
@@ -25,9 +26,9 @@ Vigilante (US, Rev B)
 ---------------------
 Note: not currently represented on TG.
 ROM set changed: no.  Added in 0.162.
-0.162-0.176: vigilantb - "Vigilante (US, Rev B)"
+0.162-0.182: vigilantb - "Vigilante (US, Rev B)"
 
-Resolution, 0.162-0.176: 256x256 @ 55.000000Hz
+Resolution, 0.162-0.179: 256x256 @ 55.000000Hz
+Resolution, 0.180-0.182: 254x256 @ 55.000000Hz
 
 Rules: [no current tracks]
-

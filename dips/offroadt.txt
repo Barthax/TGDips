@@ -1,15 +1,14 @@
 ROM set changed: no
 0.106-0.122: offroadt - "Ironman Stewart's Super Off-Road Track Pack"
-0.123-0.175: offroadt - "Ironman Ivan Stewart's Super Off-Road Track-Pak"
+0.123-0.182: offroadt - "Ironman Ivan Stewart's Super Off-Road Track-Pak"
 
 MAME History:
 - 0.122u8: Changed description to 'Ironman Ivan Stewart's Super Off-Road Track-Pak'.
 
-Resolution, 0.106-0.175: 320x240 @ 60.000000Hz
+Resolution, 0.106-0.182: 320x240 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Ironman%20Stewart%27s%20Super%20Off-Road%20Track%20Pack
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Ironman+Stewart%27s+Super+Off-Road+Track+Pack
 Rules, Most Money Earned: http://www.twingalaxies.com/scores.php?scores=75135
 
 NOTE: from MAMEINFO.DAT
 - To enter service mode, press the blue nitro button (3P button 1) and then press the service switch (F2).
-

@@ -1,9 +1,13 @@
 ROM set changed: no
-0.106-0.175: metafox - "Meta Fox"
+0.106-0.182: metafox - "Meta Fox"
 
-Resolution, 0.106-0.175: 384x224 @ 60.000000Hz
+Resolution, 0.106-0.182: 384x224 @ 60.000000Hz
 
 TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Meta+Fox
 Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=10120
 Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=75557
-Note, 0.106-0.175: the Bonus Lives setting cannot be changed in 0.106 on all versions including 0.175 (fixed in 0.176).  The Bonus Life will have to be checked visually.  Possible score boundaries for receipt of extra men are 600K and 900K (fixed in 0.176).
+
+MAME History:
+- 0.176: Tafoid fixed Meta Fox bonus life settings and mask.
+
+Note: for 0.106-0.175, the Bonus Lives DIP has no effect, lives awarded at 600k & 900k. For track compatibility in 0.176 or later, set Bonus Life to "600k & 900k".
