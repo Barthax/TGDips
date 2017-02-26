@@ -1,0 +1,12 @@
+MAME History:
+- 0.183: rtw and The Dumping Union added VS Block Breaker (Europe). Renamed (vblokbrk) to (vblokbrka).
+
+ROM set changed: yes.
+0.106-0.182: vblokbrk - "VS Block Breaker (Asia)"
+0.183-0.183: vblokbrka - "VS Block Breaker (Asia)"
+
+Resolution, 0.106-0.125: 320x240 @ 60.000000Hz
+Resolution, 0.126-0.183: 320x240 @ 59.597100Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=VS+Block+Breaker+[Asia]
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=120572
