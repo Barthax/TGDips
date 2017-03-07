@@ -1,8 +1,8 @@
 ROM Set changes: No
-0.108-0.176: galagamf - "Galaga (Midway set 1 with fast shoot hack)"
+0.108-0.183: galagamf - "Galaga (Midway set 1 with fast shoot hack)"
 
 Resolution, 0.108-0.131: 288x224 @ 60.606060Hz
-Resolution, 0.132-0.176: 288x224 @ 60.606061Hz
+Resolution, 0.132-0.183: 288x224 @ 60.606061Hz
 
 TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Galaga+[Fast+Shot+Speed]
 (NOTE that this will also display the track for the galagads set)
@@ -10,8 +10,10 @@ Rules, Tournament / No Double Ship: http://www.twingalaxies.com/scores.php?score
 Rules, Points [Marathon / No Double Ship]: http://www.twingalaxies.com/scores.php?scores=201863
 Rules, Points [Tournament]: http://www.twingalaxies.com/scores.php?scores=201865
 
-NOTE!!! DIPs are askew in this ROM set.
+NOTE!!! DIPs are askew in this ROM set. Settings are shown (very briefly) during boot up around frame 700.
 Difficulty Easy ----> Rank A, 2 credit/2P start yields 2 player game
 Difficulty Medium --> Rank D, 2 credit/2P start yields 1 player game with double + 1 starting lives
 Difficulty Hard ----> Rank D, 2 credit/2P start yields 2 player game
 Difficulty Hardest -> Rank A, 2 credit/2P start yields 1 player game with double + 1 starting lives
+
+NOTE: The player can use Service Mode (F2) DURING RECORDING to show the settings.  It is not possible to confirm the settings AFTER PLAYBACK has ended as MAME reverts to the localised configuration.
