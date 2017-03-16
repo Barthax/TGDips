@@ -1,0 +1,161 @@
+# MAME 0.106 source snippet [cps1.c]
+
+GAME( 1990, msword,   0,        cps1,     msword,   cps1,     ROT0,   "Capcom", "Magic Sword - Heroic Fantasy (World 900725)" , 0)		// 25.07.1990  "Other Country"
+
+#define CPS1_COINAGE_1 \
+	PORT_DIPNAME( 0x07, 0x07, DEF_STR( Coin_A ) ) \
+	PORT_DIPSETTING(    0x00, DEF_STR( 4C_1C ) ) \
+	PORT_DIPSETTING(    0x01, DEF_STR( 3C_1C ) ) \
+	PORT_DIPSETTING(    0x02, DEF_STR( 2C_1C ) ) \
+	PORT_DIPSETTING(    0x07, DEF_STR( 1C_1C ) ) \
+	PORT_DIPSETTING(    0x06, DEF_STR( 1C_2C ) ) \
+	PORT_DIPSETTING(    0x05, DEF_STR( 1C_3C ) ) \
+	PORT_DIPSETTING(    0x04, DEF_STR( 1C_4C ) ) \
+	PORT_DIPSETTING(    0x03, DEF_STR( 1C_6C ) ) \
+	PORT_DIPNAME( 0x38, 0x38, DEF_STR( Coin_B ) ) \
+	PORT_DIPSETTING(    0x00, DEF_STR( 4C_1C ) ) \
+	PORT_DIPSETTING(    0x08, DEF_STR( 3C_1C ) ) \
+	PORT_DIPSETTING(    0x10, DEF_STR( 2C_1C ) ) \
+	PORT_DIPSETTING(    0x38, DEF_STR( 1C_1C ) ) \
+	PORT_DIPSETTING(    0x30, DEF_STR( 1C_2C ) ) \
+	PORT_DIPSETTING(    0x28, DEF_STR( 1C_3C ) ) \
+	PORT_DIPSETTING(    0x20, DEF_STR( 1C_4C ) ) \
+	PORT_DIPSETTING(    0x18, DEF_STR( 1C_6C ) )
+
+/* I guess that bit 7 of DSWB was used for debug purpose :
+     - code at 0x001094 : move players during "attract mode"
+     - code at 0x019b62 ('msword' and 'mswordr1'), 0x019bde ('mswordu') or 0x019c26 ('mswordj') : unknown effect
+     - code at 0x01c322 ('msword' and 'mswordr1'), 0x01c39e ('mswordu') or 0x01c3e0 ('mswordj') : unknown effect
+   These features are not available because of the 'bra' instruction after the test of bit 7. */
+INPUT_PORTS_START( msword )
+	PORT_START_TAG("IN0")
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_COIN1 )
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_COIN2 )
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_SERVICE1 )
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_START1 )
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_START2 )
+	PORT_SERVICE_NO_TOGGLE( 0x40, IP_ACTIVE_LOW )
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_UNKNOWN )
+
+	PORT_START_TAG("DSWA")
+	CPS1_COINAGE_1
+	PORT_DIPNAME( 0x40, 0x40, "2 Coins to Start, 1 to Continue" )
+	PORT_DIPSETTING(    0x40, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x80, 0x80, DEF_STR( Unused ) )
+	PORT_DIPSETTING(    0x80, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+
+	PORT_START_TAG("DSWB")
+	PORT_DIPNAME( 0x07, 0x04, "Player's vitality consumption" )		// "Level 1"
+	PORT_DIPSETTING(    0x07, "1 (Easiest)" )				// "Easy 3"     (-1 every 28 frames)
+	PORT_DIPSETTING(    0x06, "2" )						// "Easy 2"     (-1 every 24 frames)
+	PORT_DIPSETTING(    0x05, "3" )						// "Easy 1"     (-1 every 20 frames)
+	PORT_DIPSETTING(    0x04, "4 (Normal)" )				// DEF_STR( Normal )        (-1 every 18 frames)
+	PORT_DIPSETTING(    0x03, "5" )						// "Difficult 1"    (-1 every 16 frames)
+	PORT_DIPSETTING(    0x02, "6" )						// "Difficult 2"    (-1 every 14 frames)
+	PORT_DIPSETTING(    0x01, "7" )						// "Difficult 3"    (-1 every 12 frames)
+	PORT_DIPSETTING(    0x00, "8 (Hardest)" )				// "Difficult 4"    (-1 every 8 frames)
+	PORT_DIPNAME( 0x38, 0x38, "Enemy's vitality and attacking power" )	// "Level 2"
+	PORT_DIPSETTING(    0x20, "1 (Easiest)" )				// "Easy 3"
+	PORT_DIPSETTING(    0x28, "2" )						// "Easy 2"
+	PORT_DIPSETTING(    0x30, "3" )						// "Easy 1"
+	PORT_DIPSETTING(    0x38, "4 (Normal)" )				// DEF_STR( Normal )
+	PORT_DIPSETTING(    0x18, "5" )						// "Difficult 1"
+	PORT_DIPSETTING(    0x10, "6" )						// "Difficult 2"
+	PORT_DIPSETTING(    0x08, "7" )						// "Difficult 3"
+	PORT_DIPSETTING(    0x00, "8 (Hardest)" )				// "Difficult 4"
+	PORT_DIPNAME( 0x40, 0x00, "Stage Select" )
+	PORT_DIPSETTING(    0x40, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x80, 0x80, DEF_STR( Unused ) )
+	PORT_DIPSETTING(    0x80, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+
+	PORT_START_TAG("DSWC")
+	PORT_DIPNAME( 0x03, 0x03, "Vitality Packs" )
+	PORT_DIPSETTING(    0x00, "1" )						// 0x0320
+	PORT_DIPSETTING(    0x03, "2" )						// 0x0640
+	PORT_DIPSETTING(    0x02, "3 (2 when continue)" )			// 0x0960 (0x0640 when continue)
+	PORT_DIPSETTING(    0x01, "4 (3 when continue)" )			// 0x0c80 (0x0960 when continue)
+	PORT_DIPNAME( 0x04, 0x04, DEF_STR( Free_Play ) )
+	PORT_DIPSETTING(    0x04, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x08, 0x08, "Freeze" )
+	PORT_DIPSETTING(    0x08, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x10, 0x10, DEF_STR( Flip_Screen ) )
+	PORT_DIPSETTING(    0x10, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x20, 0x00, DEF_STR( Demo_Sounds ) )
+	PORT_DIPSETTING(    0x20, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x40, 0x00, DEF_STR( Allow_Continue ) )
+	PORT_DIPSETTING(    0x40, DEF_STR( No ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Yes ) )
+	PORT_DIPNAME( 0x80, 0x80, "Game Mode")
+	PORT_DIPSETTING(    0x80, "Game" )
+	PORT_DIPSETTING(    0x00, DEF_STR( Test ) )
+
+	PORT_START_TAG("IN1")
+	PORT_BIT( 0x0001, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_8WAY PORT_PLAYER(1)
+	PORT_BIT( 0x0002, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_8WAY PORT_PLAYER(1)
+	PORT_BIT( 0x0004, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_8WAY PORT_PLAYER(1)
+	PORT_BIT( 0x0008, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_8WAY PORT_PLAYER(1)
+	PORT_BIT( 0x0010, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_PLAYER(1)
+	PORT_BIT( 0x0020, IP_ACTIVE_LOW, IPT_BUTTON2 ) PORT_PLAYER(1)
+	PORT_BIT( 0x0040, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_BIT( 0x0080, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_BIT( 0x0100, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_8WAY PORT_PLAYER(2)
+	PORT_BIT( 0x0200, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_8WAY PORT_PLAYER(2)
+	PORT_BIT( 0x0400, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_8WAY PORT_PLAYER(2)
+	PORT_BIT( 0x0800, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_8WAY PORT_PLAYER(2)
+	PORT_BIT( 0x1000, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_PLAYER(2)
+	PORT_BIT( 0x2000, IP_ACTIVE_LOW, IPT_BUTTON2 ) PORT_PLAYER(2)
+	PORT_BIT( 0x4000, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_BIT( 0x8000, IP_ACTIVE_LOW, IPT_UNKNOWN )
+INPUT_PORTS_END
+
+Resolution: 384x224 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Magic+Sword:+Heroic+Fantasy+[World+900725]
+Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=14438
+Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=14439
+
+ROMSet: MSword
+Unused: Off
+Players vitality consumption: 4 [Normal]
+Enemy's vitality and attacking power: 4 [Normal]
+Stage Select: On
+Vitality Packs: 2
+Free Play: Off
+Freeze: Off
+Flip Screen: Off
+Allow Continue: No
+Game Mode: Game
+
+Sample correct TG:
+DSWA: offset 0x27, repeat every 0x7C, typical value 0xFF
+- DSWA: 0x07 (Coin_A): [not relevant]
+- DSWA: 0x38 (Coin_B): [not relevant]
+- DSWA: 0x40 (2 Coins to Start, 1 to Continue): [not relevant]
+- DSWA: 0x80 (Unused): 0x80 (Off)
+DSWB: offset 0x2B, repeat every 0x7C, typical value 0xBC
+- DSWB: 0x07 (Player's vitality consumption): 0x04 (4 (Normal))
+- DSWB: 0x38 (Enemy's vitality and attacking power): 0x38 (4 (Normal))
+- DSWB: 0x40 (Stage Select): 0x00 (On)
+- DSWB: 0x80 (Unused): 0x80 (Off)
+DSWC: offset 0x2F, repeat every 0x7C, typical value 0xDF
+- DSWC: 0x03 (Vitality Packs): 0x03 (2)
+- DSWC: 0x04 (Free_Play): 0x04 (Off)
+- DSWC: 0x08 (Freeze): 0x08 (Off)
+- DSWC: 0x10 (Flip_Screen): 0x10 (Off)
+- DSWC: 0x20 (Demo_Sounds): [not relevant]
+- DSWC: 0x40 (Allow_Continue): 0x40 (No)
+- DSWC: 0x80 (Game Mode): 0x80 (Game)
+
+    20: 00 00 00 FF 00 00 00 FF  00 00 00 BC 00 00 00 DF
+    A0: 00 00 00 FF 00 00 00 BC  00 00 00 DF 00 00 FF FF
+   110: 00 00 00 00 3E 82 43 E1  00 00 00 FF 00 00 00 FF
+   120: 00 00 00 BC 00 00 00 DF  00 00 FF FF 00 00 00 00
