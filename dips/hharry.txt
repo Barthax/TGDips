@@ -1,9 +1,9 @@
 ROM set changed: no
 0.106-0.166: hharry - "Hammerin' Harry (World)"
-0.167-0.175: hharry - "Hammerin' Harry (World, M81)"
+0.167-0.183: hharry - "Hammerin' Harry (World, M81)"
 
 Resolution, 0.106-0.122: 384x256 @ 55.000000Hz
-Resolution, 0.123-0.175: 384x256 @ 55.017606Hz
+Resolution, 0.123-0.183: 384x256 @ 55.017606Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Hammerin%27%20Harry%20[World]
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Hammerin%27+Harry+[World]
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=24456

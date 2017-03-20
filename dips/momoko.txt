@@ -1,6 +1,8 @@
 ROM set changed: no
-0.106-0.175: momoko - "Momoko 120%"
+0.106-0.180: momoko - "Momoko 120%"
+0.181-0.183: momoko - "Momoko 120% (Japanese text)"
 
-Resolution, 0.106-0.175: 240x216 @ 60.000000Hz
+Resolution, 0.106-0.183: 240x216 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Momoko 120%
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Momoko+120%
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=19606
