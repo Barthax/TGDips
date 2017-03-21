@@ -1,0 +1,127 @@
+# MAME 0.106 source snippet [taito_f2.c]
+
+GAME( 1990, ssi,      0,        ssi,      ssi,      0,        ROT270, "Taito Corporation Japan", "Super Space Invaders '91 (World)", 0 )
+
+#define TAITO_COINAGE_WORLD_8 \
+	PORT_DIPNAME( 0x30, 0x30, DEF_STR( Coin_A ) ) \
+	PORT_DIPSETTING(    0x00, DEF_STR( 4C_1C ) ) \
+	PORT_DIPSETTING(    0x10, DEF_STR( 3C_1C ) ) \
+	PORT_DIPSETTING(    0x20, DEF_STR( 2C_1C ) ) \
+	PORT_DIPSETTING(    0x30, DEF_STR( 1C_1C ) ) \
+	PORT_DIPNAME( 0xc0, 0xc0, DEF_STR( Coin_B ) ) \
+	PORT_DIPSETTING(    0xc0, DEF_STR( 1C_2C ) ) \
+	PORT_DIPSETTING(    0x80, DEF_STR( 1C_3C ) ) \
+	PORT_DIPSETTING(    0x40, DEF_STR( 1C_4C ) ) \
+	PORT_DIPSETTING(    0x00, DEF_STR( 1C_6C ) )
+
+#define TAITO_DIFFICULTY_8 \
+	PORT_DIPNAME( 0x03, 0x03, DEF_STR( Difficulty ) ) \
+	PORT_DIPSETTING(    0x02, DEF_STR( Easy ) ) \
+	PORT_DIPSETTING(    0x03, DEF_STR( Medium ) ) \
+	PORT_DIPSETTING(    0x01, DEF_STR( Hard ) ) \
+	PORT_DIPSETTING(    0x00, DEF_STR( Hardest ) )
+
+#define TAITO_F2_PLAYERS_INPUT( player ) \
+	PORT_START \
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_PLAYER(player) PORT_8WAY \
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_PLAYER(player) PORT_8WAY \
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_PLAYER(player) PORT_8WAY \
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_PLAYER(player) PORT_8WAY \
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_PLAYER(player) \
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_BUTTON2 ) PORT_PLAYER(player)
+/* 0x40 and 0x80 are not always the same in all games, so they are not included here */
+
+#define TAITO_F2_SYSTEM_INPUT \
+	PORT_START \
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_TILT ) \
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_SERVICE1 ) \
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_COIN1 ) \
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_COIN2 )
+/* The other bits vary from one game to another, so they are not included here */
+
+	INPUT_PORTS_START( ssi )
+	PORT_START_TAG("DSWA")
+	PORT_DIPNAME( 0x01, 0x00, DEF_STR( Cabinet ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Upright ) )
+	PORT_DIPSETTING(    0x01, DEF_STR( Cocktail ) )
+	PORT_DIPNAME( 0x02, 0x02, DEF_STR( Flip_Screen ) )
+	PORT_DIPSETTING(    0x02, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_SERVICE( 0x04, IP_ACTIVE_LOW )
+	PORT_DIPNAME( 0x08, 0x08, DEF_STR( Demo_Sounds ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x08, DEF_STR( On ) )
+	TAITO_COINAGE_WORLD_8
+
+	PORT_START_TAG("DSWB")
+	TAITO_DIFFICULTY_8
+	PORT_DIPNAME( 0x0c, 0x0c, "Shields" )
+	PORT_DIPSETTING(    0x00, DEF_STR( None ))
+	PORT_DIPSETTING(    0x0c, "1")
+	PORT_DIPSETTING(    0x04, "2")
+	PORT_DIPSETTING(    0x08, "3")
+	PORT_DIPNAME( 0x10, 0x10, DEF_STR( Lives ) )
+	PORT_DIPSETTING(    0x00, "2")
+	PORT_DIPSETTING(    0x10, "3")
+	PORT_DIPNAME( 0xa0, 0xa0, "2 Players Mode" )
+	PORT_DIPSETTING(    0xa0, "Simultaneous")
+	PORT_DIPSETTING(    0x80, "Alternate, Single")
+	PORT_DIPSETTING(    0x00, "Alternate, Dual")
+	PORT_DIPSETTING(    0x20, "Not Allowed")
+	PORT_DIPNAME( 0x40, 0x40, DEF_STR( Allow_Continue ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x40, DEF_STR( On ) )
+
+	/* IN0 */
+	TAITO_F2_PLAYERS_INPUT( 1 )
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_START1 )
+
+	/* IN1 */
+	TAITO_F2_PLAYERS_INPUT( 2 )
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_START2 )
+
+	/* IN2 */
+	TAITO_F2_SYSTEM_INPUT
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_UNKNOWN )
+INPUT_PORTS_END
+
+Resolution: 320x224 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Super+Space+Invaders+'91+[World]
+Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=7869
+Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=110828
+
+ROMSet: SSI
+Cabinet: Upright
+Flip Screen: Off
+Service Mode: Off
+Difficulty: Medium
+Shields: 1
+Lives: 3
+2 Players Mode: Simultaneous
+Allow continue: Off
+
+Sample correct TG:
+DSWA: offset 0x23, repeat every 0x7C, typical value 0xFE
+- DSWA: 0x01 (Cabinet): 0x00 (Upright)
+- DSWA: 0x02 (Flip_Screen): 0x02 (Off)
+- DSWA: 0x04 (Service Mode): 0x04 (Off)
+- DSWA: 0x08 (Demo_Sounds): [not relevant]
+- DSWA: 0x30 (Coin_A): [not relevant]
+- DSWA: 0xc0 (Coin_B): [not relevant]
+DSWB: offset 0x27, repeat every 0x7C, typical value 0xBF
+- DSWB: 0x03 (Difficulty): 0x03 (Medium)
+- DSWB: 0x0c (Shields): 0x0c (1)
+- DSWB: 0x10 (Lives): 0x10 (3)
+- DSWB: 0xa0 (2 Players Mode): 0xa0 (Simultaneous)
+- DSWB: 0x40 (Allow_Continue): 0x00 (Off)
+
+    20: 00 00 00 FE 00 00 00 BF  00 00 00 FF 00 00 00 FF
+    90: 00 00 00 00 00 00 00 00  3E 82 43 E1 00 00 00 FE
+    A0: 00 00 00 BF 00 00 00 FF  00 00 00 FF 00 00 00 FF
+   110: 00 00 00 00 3E 82 43 E1  00 00 00 FE 00 00 00 BF
