@@ -1,8 +1,8 @@
 ROM set changed: no
-0.106-0.175: mhavoc - "Major Havoc (rev 3)"
+0.106-0.183: mhavoc - "Major Havoc (rev 3)"
 
-Resolution, 0.106-0.175: vector @ 50.000000Hz
+Resolution, 0.106-0.183: vector @ 50.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Major%20Havoc%20[Rev%203]
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Major+Havoc+[Rev+3]
 Rules, Points [Marathon Settings]: http://www.twingalaxies.com/scores.php?scores=20939
 Rules, Points [Tournament Settings]: http://www.twingalaxies.com/scores.php?scores=20938
