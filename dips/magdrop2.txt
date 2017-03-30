@@ -1,6 +1,8 @@
 ROM set changed: no
-0.106-0.175: magdrop2 - "Magical Drop II"
+0.106-0.184: magdrop2 - "Magical Drop II"
 
-Resolution, 0.106-0.175: 320x224 @ 59.185606Hz
+Resolution, 0.106-0.184: 320x224 @ 59.185606Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Magical Drop II
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Magical+Drop+II
+Rules, Points [Puzzle Mode]: http://www.twingalaxies.com/scores.php?scores=14699
+Rules, Points [VS. Cpu Mode]: http://www.twingalaxies.com/scores.php?scores=14700

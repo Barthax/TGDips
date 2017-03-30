@@ -1,8 +1,9 @@
 ROM set changed: no
-0.106-0.175: gtmr - "1000 Miglia: Great 1000 Miles Rally (94/07/18)"
+0.106-0.184: gtmr - "1000 Miglia: Great 1000 Miles Rally (94/07/18)"
 
-Resolution, 0.106-0.175: 320x240 @ 60.000000Hz
+Resolution, 0.106-0.184: 320x240 @ 60.000000Hz
 
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=1000+Miglia:+Great+1000+Miles+Rally+[94/07/18]
 Rules, Fastest Completion: http://www.twingalaxies.com/scores.php?scores=23258
 Rules, Stage 01: http://www.twingalaxies.com/scores.php?scores=11869
 Rules, Stage 02: http://www.twingalaxies.com/scores.php?scores=23247
@@ -16,6 +17,3 @@ Rules, Stage 09: http://www.twingalaxies.com/scores.php?scores=23254
 Rules, Stage 10: http://www.twingalaxies.com/scores.php?scores=23255
 Rules, Stage 11: http://www.twingalaxies.com/scores.php?scores=23256
 Rules, Stage 12: http://www.twingalaxies.com/scores.php?scores=23257
-
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=1000%20Miglia:%20Great%201000%20Miles%20Rally%20[94/07/18]
-
