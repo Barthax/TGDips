@@ -1,9 +1,9 @@
 ROM set changed: no
 0.106-0.147: bublbobl - "Bubble Bobble"
-0.148-0.175: bublbobl - "Bubble Bobble (Japan, Ver 0.1)" (minor description change)
+0.148-0.184: bublbobl - "Bubble Bobble (Japan, Ver 0.1)" (minor description change)
 
 Resolution, 0.106-0.129: 256x224 @ 59.000000Hz
-Resolution, 0.130-0.175: 256x224 @ 59.185606Hz
+Resolution, 0.130-0.184: 256x224 @ 59.185606Hz
 
 TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Bubble+Bobble
 Rules, Points [1 Player Only]: http://www.twingalaxies.com/scores.php?scores=5156

@@ -1,0 +1,9 @@
+ROM set changed: no. Added in 0.153.
+0.153-0.184: deathsml - "Deathsmiles (2007/10/09 MASTER VER)"
+
+Resolution, 0.153-0.184: 320x240 @ 60.000000Hz
+
+TG Game Entry: no current tracks
+
+NOTE: There are no hardware DIP switches.  Use Service Mode (press & hold 0 or -) to access the internal settings after playback if not shown during playback... though I haven't figured out how to get out of service mode & back to the game!
+NOTE: Earlier versions supported from 0.142u5-143u9 should not be used as the game was not working properly.
