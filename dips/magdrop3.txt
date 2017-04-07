@@ -8,3 +8,5 @@ TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Mag
 Rules, Points [Challenge Mode]: http://www.twingalaxies.com/scores.php?scores=21184
 Rules, Points [Magical Journey Mode]: http://www.twingalaxies.com/scores.php?scores=14702
 Rules, Points [Survival Mode]: http://www.twingalaxies.com/scores.php?scores=14701
+
+All configuration is done via soft-dips.  Use F2 to enter Service Mode after the recording if settings are not shown during the recording.

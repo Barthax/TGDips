@@ -1,8 +1,11 @@
 ROM set changed: no
 0.106-0.184: magdrop2 - "Magical Drop II"
 
-Resolution, 0.106-0.184: 320x224 @ 59.185606Hz
+Resolution, 0.106-0.113: 320x224 @ 59.185608Hz
+Resolution, 0.114-0.184: 320x224 @ 59.185606Hz
 
 TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Magical+Drop+II
 Rules, Points [Puzzle Mode]: http://www.twingalaxies.com/scores.php?scores=14699
 Rules, Points [VS. Cpu Mode]: http://www.twingalaxies.com/scores.php?scores=14700
+
+All configuration is done via soft-dips.  Use F2 to enter Service Mode after the recording if settings are not shown during the recording.
