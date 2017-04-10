@@ -52,23 +52,6 @@ DSW: offset 0x27, repeat every 0x7C, typical value 0x05, 0x85 after VBLANK
 - DSW: 0x0c (Coinage): [not relevant]
 - DSW: 0x10 (High Score): 0x00 (No Award)
 
-	PORT_START      /* Dip Switch */
-	PORT_DIPNAME( 0x03, 0x01, DEF_STR( Lives ) )
-	PORT_DIPSETTING(    0x00, "2" )
-	PORT_DIPSETTING(    0x01, "3" )
-	PORT_DIPSETTING(    0x02, "4" )
-	PORT_DIPSETTING(    0x03, "5" )
-	PORT_DIPNAME( 0x0C, 0x04, DEF_STR( Coinage ) )
-//  PORT_DIPSETTING(    0x0c, DEF_STR( 2C_1C ) )
-	PORT_DIPSETTING(    0x08, DEF_STR( 2C_1C ) )
-	PORT_DIPSETTING(    0x04, DEF_STR( 1C_1C ) )
-	PORT_DIPSETTING(    0x00, DEF_STR( 1C_2C ) )
-	PORT_DIPNAME( 0x10, 0x00, "High Score" )
-	PORT_DIPSETTING(    0x00, "No Award" )
-	PORT_DIPSETTING(    0x10, "Credit Awarded" )
-	PORT_BIT( 0x60, IP_ACTIVE_HIGH, IPT_UNKNOWN )
-	PORT_BIT( 0x80, IP_ACTIVE_HIGH, IPT_VBLANK )
-
     20: 00 00 00 00 00 00 00 05  00 00 00 5A 00 00 00 28 
     A0: 00 00 00 05 00 00 00 5A  00 00 00 28 00 00 00 00 
    110: 00 00 00 00 3E 82 43 E1  00 00 00 00 00 00 00 85 

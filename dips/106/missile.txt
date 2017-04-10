@@ -1,0 +1,167 @@
+# MAME 0.106 source snippet [missile.c]
+
+GAME( 1980, missile,  0,       missile, missile,         0, ROT0, "Atari", "Missile Command (set 1)", GAME_SUPPORTS_SAVE )
+
+INPUT_PORTS_START( missile )
+	PORT_START	/* IN0 */
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_BUTTON3 ) PORT_COCKTAIL
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_BUTTON2 ) PORT_COCKTAIL
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_COCKTAIL
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_START2 )
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_START1 )
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_COIN1 )
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_COIN2 )
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_COIN3 )
+
+	PORT_START	/* IN1 */
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_BUTTON3 )
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_BUTTON2 )
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_BUTTON1 )
+	PORT_BIT( 0x18, 0x00, IPT_UNUSED ) /* trackball input, handled in machine/missile.c */
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_TILT )
+	PORT_BIT(0x40, IP_ACTIVE_LOW, IPT_SERVICE  ) PORT_NAME( DEF_STR( Service_Mode )) PORT_CODE(KEYCODE_F2)
+	PORT_BIT( 0x80, IP_ACTIVE_HIGH, IPT_VBLANK )
+
+	PORT_START	/* IN2 */
+	PORT_DIPNAME(0x03, 0x00, DEF_STR( Coinage ) )
+	PORT_DIPSETTING(   0x01, DEF_STR( 2C_1C ) )
+	PORT_DIPSETTING(   0x00, DEF_STR( 1C_1C ) )
+	PORT_DIPSETTING(   0x03, DEF_STR( 1C_2C ) )
+	PORT_DIPSETTING(   0x02, DEF_STR( Free_Play ) )
+	PORT_DIPNAME(0x0c, 0x00, "Right Coin" )
+	PORT_DIPSETTING(   0x00, "*1" )
+	PORT_DIPSETTING(   0x04, "*4" )
+	PORT_DIPSETTING(   0x08, "*5" )
+	PORT_DIPSETTING(   0x0c, "*6" )
+	PORT_DIPNAME(0x10, 0x00, "Center Coin" )
+	PORT_DIPSETTING(   0x00, "*1" )
+	PORT_DIPSETTING(   0x10, "*2" )
+	PORT_DIPNAME(0x60, 0x00, DEF_STR( Language ) )
+	PORT_DIPSETTING(   0x00, DEF_STR( English ) )
+	PORT_DIPSETTING(   0x20, DEF_STR( French ) )
+	PORT_DIPSETTING(   0x40, DEF_STR( German ) )
+	PORT_DIPSETTING(   0x60, DEF_STR( Spanish ) )
+	PORT_DIPNAME(0x80, 0x80, DEF_STR( Unknown ) )
+	PORT_DIPSETTING(   0x80, DEF_STR( Off ) )
+	PORT_DIPSETTING(   0x00, DEF_STR( On ) )
+
+	PORT_START	/* IN3 */
+	PORT_DIPNAME(0x03, 0x00, "Cities" )
+	PORT_DIPSETTING(   0x02, "4" )
+	PORT_DIPSETTING(   0x01, "5" )
+	PORT_DIPSETTING(   0x03, "6" )
+	PORT_DIPSETTING(   0x00, "7" )
+	PORT_DIPNAME(0x04, 0x04, "Bonus Credit for 4 Coins" )
+	PORT_DIPSETTING(   0x04, DEF_STR( No ) )
+	PORT_DIPSETTING(   0x00, DEF_STR( Yes ) )
+	PORT_DIPNAME(0x08, 0x00, "Trackball Size" )
+	PORT_DIPSETTING(   0x00, "Large" )
+	PORT_DIPSETTING(   0x08, "Mini" )
+	PORT_DIPNAME(0x70, 0x70, "Bonus City" )
+	PORT_DIPSETTING(   0x10, "8000" )
+	PORT_DIPSETTING(   0x70, "10000" )
+	PORT_DIPSETTING(   0x60, "12000" )
+	PORT_DIPSETTING(   0x50, "14000" )
+	PORT_DIPSETTING(   0x40, "15000" )
+	PORT_DIPSETTING(   0x30, "18000" )
+	PORT_DIPSETTING(   0x20, "20000" )
+	PORT_DIPSETTING(   0x00, DEF_STR( None ) )
+	PORT_DIPNAME(0x80, 0x00, DEF_STR( Cabinet ) )
+	PORT_DIPSETTING(   0x00, DEF_STR( Upright ) )
+	PORT_DIPSETTING(   0x80, DEF_STR( Cocktail ) )
+
+	PORT_START	/* FAKE */
+	PORT_BIT( 0x0f, 0x00, IPT_TRACKBALL_X ) PORT_SENSITIVITY(20) PORT_KEYDELTA(10)
+
+	PORT_START	/* FAKE */
+	PORT_BIT( 0x0f, 0x00, IPT_TRACKBALL_Y ) PORT_SENSITIVITY(20) PORT_KEYDELTA(10) PORT_REVERSE
+
+	PORT_START	/* FAKE */
+	PORT_BIT( 0x0f, 0x00, IPT_TRACKBALL_X ) PORT_SENSITIVITY(20) PORT_KEYDELTA(10) PORT_REVERSE PORT_COCKTAIL
+
+	PORT_START	/* FAKE */
+	PORT_BIT( 0x0f, 0x00, IPT_TRACKBALL_Y ) PORT_SENSITIVITY(20) PORT_KEYDELTA(10) PORT_REVERSE PORT_COCKTAIL
+INPUT_PORTS_END
+
+Resolution: 256x231 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Missile+Command+[Set+1]
+*******************************************************************************
+Rules, Points [Tournament Settings]: http://www.twingalaxies.com/scores.php?scores=7769
+
+ROMSet: Missile
+Language: English
+Unknown: Off
+Cities: 6
+Trackball Size: Player's Choice
+Bonus City: None
+Cabinet: Upright
+
+Sample correct TG:
+IN2: offset 0x2B, repeat every 0x7C but length varies due to analog input, typical value 0x80
+- IN2: 0x03 (Coinage): [not relevant]
+- IN2: 0x0c (Right Coin): [not relevant]
+- IN2: 0x10 (Center Coin): [not relevant]
+- IN2: 0x60 (Language): 0x00 (English)
+- IN2: 0x80 (Unknown): 0x80 (Off)
+IN3: offset 0x2F, repeat every 0x7C but length varies due to analog input, typical value 0x07
+- IN3: 0x03 (Cities): 0x03 (6)
+- IN3: 0x04 (Bonus Credit for 4 Coins): [not relevant]
+- IN3: 0x08 (Trackball Size): [not relevant]
+- IN3: 0x70 (Bonus City): 0x00 (None)
+- IN3: 0x80 (Cabinet): 0x00 (Upright)
+
+    20: 00 00 00 FF 00 00 00 67  00 00 00 80 00 00 00 07
+    A0: 00 00 00 67 00 00 00 80  00 00 00 07 00 00 00 00
+   120: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+   130: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+   140: 00 00 00 FF 00 00 00 E7  00 00 00 80 00 00 00 07
+*******************************************************************************
+Rules, Points [Marathon Settings]: http://www.twingalaxies.com/scores.php?scores=22640
+
+ROMSet: Missile
+Language: English
+Unknown: Off
+Cities: 6
+Trackball Size: Player's Choice
+Bonus City: 10000 [Every]
+Cabinet: Upright
+
+Sample correct TG:
+IN2: offset 0x2B, repeat every 0x7C but length varies due to analog input, typical value 0x80
+- IN2: 0x03 (Coinage): [not relevant]
+- IN2: 0x0c (Right Coin): [not relevant]
+- IN2: 0x10 (Center Coin): [not relevant]
+- IN2: 0x60 (Language): 0x00 (English)
+- IN2: 0x80 (Unknown): 0x80 (Off)
+IN3: offset 0x2F, repeat every 0x7C but length varies due to analog input, typical value 0x77
+- IN3: 0x03 (Cities): 0x03 (6)
+- IN3: 0x04 (Bonus Credit for 4 Coins): [not relevant]
+- IN3: 0x08 (Trackball Size): [not relevant]
+- IN3: 0x70 (Bonus City): 0x70 (10000)
+- IN3: 0x80 (Cabinet): 0x00 (Upright)
+
+    20: 00 00 00 FF 00 00 00 67  00 00 00 80 00 00 00 77
+    A0: 00 00 00 67 00 00 00 80  00 00 00 77 00 00 00 00
+   120: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+   130: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+   140: 00 00 00 FF 00 00 00 E7  00 00 00 80 00 00 00 77
+*******************************************************************************
+Rules, 3-Missiles Per Missile Base Challenge: http://www.twingalaxies.com/scores.php?scores=207468
+
+Settings are 6 cities to start
+No bonus cities.
+
+Sample correct TG:
+IN3: offset 0x2F, repeat every 0x7C but length varies due to analog input, typical value 0x07
+- IN3: 0x03 (Cities): 0x03 (6)
+- IN3: 0x04 (Bonus Credit for 4 Coins): [not relevant]
+- IN3: 0x08 (Trackball Size): [not relevant]
+- IN3: 0x70 (Bonus City): 0x00 (None)
+- IN3: 0x80 (Cabinet): [not relevant]
+
+    20: 00 00 00 FF 00 00 00 67  00 00 00 80 00 00 00 07
+    A0: 00 00 00 67 00 00 00 80  00 00 00 07 00 00 00 00
+   120: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+   130: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+   140: 00 00 00 FF 00 00 00 E7  00 00 00 80 00 00 00 07
