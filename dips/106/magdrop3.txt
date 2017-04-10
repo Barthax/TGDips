@@ -5,4 +5,4 @@ Rules, Points [Challenge Mode]: http://www.twingalaxies.com/scores.php?scores=21
 Rules, Points [Magical Journey Mode]: http://www.twingalaxies.com/scores.php?scores=14702
 Rules, Points [Survival Mode]: http://www.twingalaxies.com/scores.php?scores=14701
 
-All configuration is done via soft-dips.  Use F2 to enter Service Mode after the recording if settings are not shown during the recording.
+NOTE: All relevant rules are covered by internal settings.  If not shown during playback, use F2 to access after playback completed.
