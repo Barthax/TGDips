@@ -1,13 +1,14 @@
 ROM set changed: yes
 0.106-0.143: missile - "Missile Command (set 1)"
-0.143u1-0.175: missile2 - "Missile Command (rev 2)"
+0.143u1-0.184: missile2 - "Missile Command (rev 2)"
 
 MAME History:
 - 0.143u1: Joe Barbara added Missile Command (rev 3). Changed (set 1) to clone 'Missile Command (rev 2)', (set 2) to 'Missile Command (rev 1)' and (for set 2) to 'Super Missile Attack (for rev 1)'. Renamed (missile2) to (missile1) and (missile) to (missile2).
 
 Resolution, 0.106: 256x231 @ 60.000000Hz
-Resolution, 0.107-0.175: 256x231 @ 61.035156Hz
+Resolution, 0.107-0.184: 256x231 @ 61.035156Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Missile%20Command%20[Set%201]
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Missile+Command+[Set+1]
 Rules, Points [Tournament Settings]: http://www.twingalaxies.com/scores.php?scores=7769
 Rules, Points [Marathon Settings]: http://www.twingalaxies.com/scores.php?scores=22640
+Rules, 3-Missiles Per Missile Base Challenge: http://www.twingalaxies.com/scores.php?scores=207468

@@ -1,9 +1,13 @@
 ROM set changed: no
 0.106-0.142: tpgolf - "Top Player's Golf"
 0.143-0.173: tpgolf - "Top Player's Golf (NGM-003)(NGH-003)"
-0.174-0.175: tpgolf - "Top Player's Golf (NGM-003 ~ NGH-003)"
+0.174-0.184: tpgolf - "Top Player's Golf (NGM-003 ~ NGH-003)"
 
 Resolution, 0.106-0.113: 320x224 @ 59.185608Hz
-Resolution, 0.114-0.175: 320x224 @ 59.185606Hz
+Resolution, 0.114-0.184: 320x224 @ 59.185606Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Top Player's Golf
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Top+Player%27s+Golf
+Rules, Least Amount of Strokes [Stroke Play, Top Players Country Club Course]: http://www.twingalaxies.com/scores.php?scores=15437
+Rules, Lowest Par [Stroke Play, SNK Championship Golf Course]: http://www.twingalaxies.com/scores.php?scores=15438
+
+NOTE: There are both hardware DIP switches & internal settings.  Use Service Mode (F2) to access the internal settings after playback if not shown during playback.

@@ -18,6 +18,7 @@ Resolution, 0.113-0.184: 320x224 @ 59.185606Hz
 TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Baseball+Stars+Professional
 Rules, Biggest Blowout: http://www.twingalaxies.com/scores.php?scores=15357
 
+NOTE: There are both hardware DIP switches & internal settings.  Use Service Mode (F2) to access the internal settings after playback if not shown during playback.
 
 Baseball Stars Professional (set 1) / (NGM-002)
 -----------------------------------------------
