@@ -1,11 +1,13 @@
 ROM set changed: no
 0.106-0.143: eightman - "Eight Man"
 0.144-0.173: eightman - "Eight Man (NGM-025)(NGH-025)"
-0.174-0.175: eightman - "Eight Man (NGM-025 ~ NGH-025)"
+0.174-0.184: eightman - "Eight Man (NGM-025 ~ NGH-025)"
 
 Resolution, 0.106-0.113: 320x224 @ 59.185608Hz
-Resolution, 0.114-0.175: 320x224 @ 59.185606Hz
+Resolution, 0.114-0.184: 320x224 @ 59.185606Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Eight%20Man
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Eight+Man
 Rules, Points [1 Player Only]: http://www.twingalaxies.com/scores.php?scores=14680
 Rules, Points [2 Player Only]: http://www.twingalaxies.com/scores.php?scores=14681
+
+NOTE: All relevant rules are covered by internal settings.  If not shown during playback, use F2 to access after playback completed.

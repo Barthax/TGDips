@@ -1,7 +1,7 @@
 ROM set changed: no
-0.106-0.175: ashnojoe - "Ashita no Joe (Japan)"
+0.106-0.184: ashnojoe - "Ashita no Joe (Japan)"
 
-Resolution, 0.106-0.175: 288x208 @ 60.000000Hz
+Resolution, 0.106-0.184: 288x208 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Ashita%20no%20Joe%20(Japan)
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Ashita+no+Joe+(Japan)
 Rules, Fastest Completion: http://www.twingalaxies.com/scores.php?scores=131867

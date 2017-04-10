@@ -12,13 +12,15 @@ ROM set changed: yes
 0.106-0.121: socbrawl - "Soccer Brawl"
 0.122-0.138: socbrawl - "Soccer Brawl (set 1)"
 0.138u4-0.143: socbrawlh - "Soccer Brawl (set 2)"
-0.143u2-0.175: socbrawlh - "Soccer Brawl (NGH-031)"
+0.143u2-0.184: socbrawlh - "Soccer Brawl (NGH-031)"
 
 Resolution, 0.106-0.113: 320x224 @ 59.185608Hz
-Resolution, 0.114-0.175: 320x224 @ 59.185606Hz
+Resolution, 0.114-0.184: 320x224 @ 59.185606Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Soccer%20Brawl
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Soccer+Brawl
 Rules, Biggest Blowout: http://www.twingalaxies.com/scores.php?scores=15408
+
+NOTE: All relevant rules are covered by internal settings.  If not shown during playback, use F2 to access after playback completed.
 
 
 Soccer Brawl (NGM-031) / (set 1)
@@ -26,9 +28,9 @@ Soccer Brawl (NGM-031) / (set 1)
 Note: not currently represented on TG.
 ROM set changed: no.  Added in 0.138u4.
 0.138u4-0.143: socbrawl - "Soccer Brawl (set 1)"
-0.143u2-0.176: socbrawl - "Soccer Brawl (NGM-031)"
+0.143u2-0.184: socbrawl - "Soccer Brawl (NGM-031)"
 
-Resolution, 0.139-0.176: 320x224 @ 59.185606Hz
+Resolution, 0.139-0.184: 320x224 @ 59.185606Hz
 
 Rules: [no current tracks]
 
