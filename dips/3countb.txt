@@ -1,11 +1,16 @@
 ROM set changed: no
 0.106-0.143: 3countb - "3 Count Bout / Fire Suplex"
 0.144-0.173: 3countb - "3 Count Bout / Fire Suplex (NGM-043)(NGH-043)"  (minor description change)
-0.174-0.175: 3countb - "3 Count Bout / Fire Suplex (NGM-043 ~ NGH-043)"  (minor description change)
+0.174-0.184: 3countb - "3 Count Bout / Fire Suplex (NGM-043 ~ NGH-043)"  (minor description change)
+
+MAME History:
+- 0.174: Changed description to '3 Count Bout / Fire Suplex (NGM-043 ~ NGH-043)'.
 
 Resolution, 0.106-0.113: 320x224 @ 59.185608Hz
-Resolution, 0.114-0.175: 320x224 @ 59.185606Hz
+Resolution, 0.114-0.184: 320x224 @ 59.185606Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=3%20Count%20Bout%20/%20Fire%20Suplex
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=3+Count+Bout+/+Fire+Suplex
 Rules, Most Money Earned [Singles Mode]: http://www.twingalaxies.com/scores.php?scores=14652
 Rules, Most Money Earned [Tag Match Mode]: http://www.twingalaxies.com/scores.php?scores=14653
+
+NOTE: All relevant rules are covered by internal settings.  If not shown during playback, use F2 to access after playback completed.

@@ -1,14 +1,16 @@
 ROM set changed: no
 0.106-0.143: fatfury2 - "Fatal Fury 2 / Garou Densetsu 2 - arata-naru tatakai"
 0.143u4-0.173: fatfury2 - "Fatal Fury 2 / Garou Densetsu 2 - arata-naru tatakai (NGM-047)(NGH-047)"
-0.174-0.175: fatfury2 - "Fatal Fury 2 / Garou Densetsu 2 - Arata-naru Tatakai (NGM-047 ~ NGH-047)"
+0.174-0.184: fatfury2 - "Fatal Fury 2 / Garou Densetsu 2 - Arata-naru Tatakai (NGM-047 ~ NGH-047)"
 
 MAME History:
 - 0.143u4: Cleaned up Fatal Fury 2 [Jackc, Johnboy]. Changed description to 'Fatal Fury 2 / Garou Densetsu 2 - arata-naru tatakai (NGM-047)(NGH-047)'.
 - 0.174: Changed description to 'Fatal Fury 2 / Garou Densetsu 2 - Arata-naru Tatakai (NGM-047 ~ NGH-047)'.
 
 Resolution, 0.106-0.113: 320x224 @ 59.185608Hz
-Resolution, 0.114-0.175: 320x224 @ 59.185606Hz
+Resolution, 0.114-0.184: 320x224 @ 59.185606Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Fatal%20Fury%202%20/%20Garou%20Densetsu%202%20-%20arata-naru%20tatakai
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Fatal+Fury+2+/+Garou+Densetsu+2+-+arata-naru+tatakai
 Rules, Points [Tournament Settings]: http://www.twingalaxies.com/scores.php?scores=14684
+
+NOTE: All relevant rules are covered by internal settings.  If not shown during playback, use F2 to access after playback completed.

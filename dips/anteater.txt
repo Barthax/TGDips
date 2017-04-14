@@ -1,8 +1,8 @@
 ROM set changed: no
-0.106-0.175: anteater - "Anteater"
+0.106-0.184: anteater - "Anteater"
 
 Resolution, 0.106-0.113: 256x224 @ 60.606060Hz
-Resolution, 0.114-0.175: 768x224 @ 60.606061Hz
+Resolution, 0.114-0.184: 768x224 @ 60.606061Hz
 
 TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Anteater
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=10091

@@ -1,14 +1,16 @@
 ROM set changed: no
 0.106-0.143: fbfrenzy - "Football Frenzy"
 0.143u2-0.173: fbfrenzy - "Football Frenzy (NGM-034)(NGH-034)"
-0.174-0.175: fbfrenzy - "Football Frenzy (NGM-034 ~ NGH-034)"
+0.174-0.184: fbfrenzy - "Football Frenzy (NGM-034 ~ NGH-034)"
 
 MAME History:
 - 0.143u2: Fixed rom names. Changed description to 'Football Frenzy (NGM-034)(NGH-034)'.
 - 0.174: Changed description to 'Football Frenzy (NGM-034 ~ NGH-034)'.
 
 Resolution, 0.106-0.113: 320x224 @ 59.185608Hz
-Resolution, 0.114-0.175: 320x224 @ 59.185606Hz
+Resolution, 0.114-0.184: 320x224 @ 59.185606Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Football%20Frenzy
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Football+Frenzy
 Rules, Biggest Blowout: http://www.twingalaxies.com/scores.php?scores=15358
+
+NOTE: All relevant rules are covered by internal settings.  If not shown during playback, use F2 to access after playback completed.

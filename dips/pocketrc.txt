@@ -1,13 +1,14 @@
 ROM set changed: no
 0.108u5-0.130: pocketrc - "Pocket Racer (PKR1/VER.B)"
-0.130u1-0.183: pocketrc - "Pocket Racer (Japan, PKR1/VER.B)"
+0.130u1-0.184: pocketrc - "Pocket Racer (Japan, PKR1/VER.B)"
 
 MAME History:
 - 0.130u1: Changed description to 'Pocket Racer (Japan, PKR1/VER.B)'.
+- 0.143u5: hap fixed Pocket Racer runs too fast. Changed M37702 CPU2 and C352 sound clock speeds to 16934400 Hz. Added 2x buttons.
 
 Resolution, 0.108u5-0.136: 640x480 @ 60.000000Hz
 Resolution, 0.137-0.143: 640x480 @ 30.000000Hz
-Resolution, 0.144-0.183: 640x480 @ 60.000000Hz
+Resolution, 0.144-0.184: 640x480 @ 60.000000Hz
 
 TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Pocket+Racer+(Japan,+PKR1/VER.B)
 Rules, Mountain Course (Fastest Lap - Mountain Racer): http://www.twingalaxies.com/scores.php?scores=207576
@@ -18,3 +19,7 @@ Rules, Seaside Course (Fastest Lap - Normal Racer): http://www.twingalaxies.com/
 Rules, Seaside Course (Fastest Lap - Pocket Racer): http://www.twingalaxies.com/scores.php?scores=207570
 Rules, Seaside Course (Fastest Race - Normal Racer): http://www.twingalaxies.com/scores.php?scores=207573
 Rules, Seaside Course (Fastest Race - Pocket Racer): http://www.twingalaxies.com/scores.php?scores=207571
+
+NOTE: The rule sets for these tracks contain both DIPs & internal settings.
+However, it appears that in later versions, you can't return to game mode after entering Service Mode [F2], so I'm not sure how anyone could play with altered internal settings.
+While in earlier versions, the game runs too fast and wasn't really playable - fixed in 0.143u5.
