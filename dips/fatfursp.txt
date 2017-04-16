@@ -1,14 +1,16 @@
 ROM set changed: no
 0.106-0.143: fatfursp - "Fatal Fury Special / Garou Densetsu Special (set 1)"
 0.143u4-0.173: fatfursp - "Fatal Fury Special / Garou Densetsu Special (set 1)(NGM-058)(NGH-058)"
-0.174-0.175: fatfursp - "Fatal Fury Special / Garou Densetsu Special (NGM-058 ~ NGH-058, set 1)"
+0.174-0.184: fatfursp - "Fatal Fury Special / Garou Densetsu Special (NGM-058 ~ NGH-058, set 1)"
 
 MAME History:
 - 0.143u4: Changed description to 'Fatal Fury Special / Garou Densetsu Special (set 1)(NGM-058)(NGH-058)' and clone (set 2) to 'Fatal Fury Special / Garou Densetsu Special (set 2)(NGM-058)(NGH-058)'.
 - 0.174: Changed description to 'Fatal Fury Special / Garou Densetsu Special (NGM-058 ~ NGH-058, set 1)' and clone (set 2)(NGM-058)(NGH-058) to 'Fatal Fury Special / Garou Densetsu Special (NGM-058 ~ NGH-058, set 2)'.
 
 Resolution, 0.106-0.113: 320x224 @ 59.185608Hz
-Resolution, 0.114-0.175: 320x224 @ 59.185606Hz
+Resolution, 0.114-0.184: 320x224 @ 59.185606Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Fatal%20Fury%20Special%20/%20Garou%20Densetsu%20Special%20[Set%201]
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Fatal+Fury+Special+/+Garou+Densetsu+Special+[Set+1]
 Rules, Points [Tournament Settings]: http://www.twingalaxies.com/scores.php?scores=14686
+
+NOTE: All relevant rules are covered by internal settings.  If not shown during playback, use F2 to access after playback completed.
