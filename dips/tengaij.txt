@@ -1,14 +1,14 @@
 ROM set changed: yes
 0.106-0.127: tengai - "Tengai / Sengoku Blade: Sengoku Ace Episode II"
-0.127u4-0.175: tengaij - "Sengoku Blade: Sengoku Ace Episode II / Tengai"
+0.127u4-0.185: tengaij - "Sengoku Blade: Sengoku Ace Episode II / Tengai"
 
 MAME History:
 - 0.127u4: Jet Black and Tormod added 'Tengai (World)' (Psikyo 1996). Changed 'Tengai / Sengoku Blade: Sengoku Ace Episode II' to clone 'Sengoku Blade: Sengoku Ace Episode II / Tengai'. Renamed (tengai) to (tengaij).
 
 Resolution, 0.106-0.113: 320x224 @ 59.299999Hz
 Resolution, 0.114-0.133: 320x224 @ 59.300000Hz
-Resolution, 0.134-0.175: 320x224 @ 59.900000Hz
+Resolution, 0.134-0.185: 320x224 @ 59.900000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Tengai/Sengoku%20Blade:%20Sengoku%20Ace%20Episode%20II
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Tengai/Sengoku+Blade:+Sengoku+Ace+Episode+II
 Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=23004
 Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=23005
