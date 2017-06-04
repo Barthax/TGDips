@@ -1,8 +1,8 @@
 ROM set changed: no
-0.106-0.175: liblrabl - "Libble Rabble"
+0.106-0.185: liblrabl - "Libble Rabble"
 
 Resolution, 0.106-0.171: 288x224 @ 60.606060Hz
-Resolution, 0.172-0.175: 288x224 @ 60.606061Hz
+Resolution, 0.172-0.185: 288x224 @ 60.606061Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Libble%20Rabble
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Libble+Rabble
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=75362

@@ -11,10 +11,10 @@ ROM set changes: yes:
 0.53-0.131: puckman - "PuckMan (Japan set 1, Probably Bootleg)"
 0.132-0.147: puckman - "PuckMan (Japan set 1)"
 0.148: puckman - "Puck Man (Japan set 1)"   (minor description change only)
-0.148u4-0.182: puckmanb - "Puck Man (bootleg set 1)"
+0.148u4-0.185: puckmanb - "Puck Man (bootleg set 1)"
 
 Resolution, 0.106-0.113: 288x224 @ 60.606060Hz
-Resolution, 0.114-0.182: 288x224 @ 60.606061Hz
+Resolution, 0.114-0.185: 288x224 @ 60.606061Hz
 
 TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Pac-Man
 (Note: lots of entries match this.)
@@ -29,10 +29,10 @@ Puck Man (Japan set 1)
 ROM set changed: yes, but currently moot as only relevant track allows many ROM sets
 0.106-0.147: puckmana - "PuckMan (Japan set 2)"
 0.148: puckmana - "Puck Man (Japan set 2)"   (minor description change only)
-0.148u4-0.182: puckman - "Puck Man (Japan set 1)"
+0.148u4-0.185: puckman - "Puck Man (Japan set 1)"
 
 Resolution, 0.106-0.113: 288x224 @ 60.606060Hz
-Resolution, 0.114-0.182: 288x224 @ 60.606061Hz
+Resolution, 0.114-0.185: 288x224 @ 60.606061Hz
 
 TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Pac-Man
 (Note: lots of entries match this.)

@@ -1,9 +1,34 @@
+Note: two ROM sets represented here with switchover at 0.186.
+
+MAME History:
+- 0.130u1: Changed description to 'Star Sweep (Japan, STP1/VER.A)'.
+- 0.186: Coolmod and Bill D added Star Sweep (World, STP2/VER.A). Renamed (starswep) to (starswepj).
+
+
+Star Sweep (Japan, STP1/VER.A)
+------------------------------
 ROM set changed: no
-0.106-0.130: starswep - "Star Sweep (STP1/VER.A)"
-0.131-0.175: starswep - "Star Sweep (Japan, STP1/VER.A)"
+0.106-0.130  : starswep - "Star Sweep (STP1/VER.A)"
+0.130u1-0.185: starswep - "Star Sweep (Japan, STP1/VER.A)"
+0.186-       : starswepj - "Star Sweep (Japan, STP1/VER.A)"
 
 Resolution, 0.106-0.136: 640x480 @ 60.000000Hz
 Resolution, 0.137-0.143: 640x480 @ 30.000000Hz
-Resolution, 0.144-0.175: 640x480 @ 60.000000Hz
+Resolution, 0.144-0.186: 640x480 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Star Sweep [STP1/VER.A]
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Star+Sweep+[STP1/VER.A]
+Rules, Points [Challenge Mode]: http://www.twingalaxies.com/scores.php?scores=110761
+Rules, Points [Story Mode]: http://www.twingalaxies.com/scores.php?scores=110762
+
+
+Star Sweep (World, STP2/VER.A)
+------------------------------
+Note: not represented on TG.
+
+ROM set changed: no.  Added in 0.186.
+0.106-0.185: NOT SUPPORTED
+0.186-     : starswep - "Star Sweep (World, STP2/VER.A)"
+
+Resolution, 0.186-     : 640x480 @ 60.000000Hz
+
+Rules: [no current tracks]

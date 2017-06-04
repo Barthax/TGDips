@@ -1,0 +1,13 @@
+ROM set changed: yes
+0.106-0.130  : tekken3 - "Tekken 3 (TET1/VER.E1)"
+0.130u1-0.185: tekken3 - "Tekken 3 (Japan, TET1/VER.E1)"
+0.186-       : tekken3je1 - "Tekken 3 (Japan, TET1/VER.E1)"
+
+MAME History:
+- 0.130u1: Changed description to 'Tekken 3 (Japan, TET1/VER.E1)'.
+- 0.186: Changed clone (Asia, TET2/VER.E1) to parent 'Tekken 3 (World, TET2/VER.E1)', (Asia, TET2/VER.A) to 'Tekken 3 (World, TET2/VER.A)' and (Asia, TET2/VER.B) to 'Tekken 3 (World, TET2/VER.B)'. Renamed (tekken3) to (tekken3je1), (tekken3ae) to (tekken3), (tekken3aa) to (tekken3a) and (tekken3ab) to (tekken3b).
+
+Resolution, 0.106-0.186: 640x480 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Tekken+3+[TET1/VER.E1]
+Rules, Fastest Completion [Tournament Settings]: http://www.twingalaxies.com/scores.php?scores=120356
