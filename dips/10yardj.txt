@@ -1,13 +1,13 @@
-ROM set changes:
+ROM set changed: yes
 0.106-0.108: yard - "10-Yard Fight (Japan)"
-0.108u5-0.175: 10yardj - "10-Yard Fight (Japan)"
+0.108u5-0.186: 10yardj - "10-Yard Fight (Japan)"
 
 MAME History:
 - 0.108u5: Brian Troha added 10-Yard Fight (World). Renamed (yard) to (10yardj), (vsyard) to (vs10yard) and (vsyard2) to (vs10yarj).
 
 Resolution, 0.106-0.108: 256x240 @ 57.000000Hz
 Resolution, 0.109-0.122: 256x240 @ 57.000000Hz
-Resolution, 0.123-0.175: 256x224 @ 56.737589Hz
+Resolution, 0.123-0.186: 256x224 @ 56.737589Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=10-Yard%20Fight%20[Japan]
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=10-Yard+Fight+[Japan]
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=7672

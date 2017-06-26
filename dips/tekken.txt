@@ -5,7 +5,7 @@ MAME History:
 - 0.186: Changed clone (Asia, TE2/VER.C) to parent 'Tekken (World, TE2/VER.C)', (World, TE4/VER.C) to clone 'Tekken (Asia, TE4/VER.C)' and (Asia, TE2/VER.B) to 'Tekken (World, TE2/VER.B)'. Renamed (tekken) to (tekkenac), (tekkenac) to (tekken) and (tekkenab) to (tekkenb).
 
 
-Tekken (World, TE4/VER.C)
+Tekken (Asia, TE4/VER.C)
 -------------------------
 ROM set changed: yes
 0.106-0.142  : tekken - "Tekken (TE4/VER.C)"
