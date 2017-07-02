@@ -1,16 +1,15 @@
 ROM set changed: yes
 0.106-0.119: crkdown - "Crack Down (US, FD1094 317-0058-04d)"
 0.119u3-0.121: crkdownu - "Crack Down (US, FD1094 317-0058-04d)"
-0.121u2-0.175: crkdownu - "Crack Down (US, Floppy Based, FD1094 317-0058-04d)" (description change only)
+0.121u2-0.187: crkdownu - "Crack Down (US, Floppy Based, FD1094 317-0058-04d)" (description change only)
 
 MAME History:
 - 0.119u3: Arzeno Fabrice and Chris Hardy added Crack Down (World, FD1094 317-0058-04c). Renamed (crkdown) to (crkdownu).
 - 0.121u2: Added 3rd button and coin slots 3 and 4. Changed description to 'Crack Down (World,Floppy Based, FD1094 317-0058-04c)' and clones (US, FD1094 317-0058-04d) to 'Crack Down (US,Floppy Based, FD1094 317-0058-04d)' and (Japan, FD1094 317-0058-04b) to 'Crack Down (Japan,Floppy Based, FD1094 317-0058-04b)'.
 
 Resolution, 0.106-0.127: 496x384 @ 58.000000Hz
-Resolution, 0.128-0.175: 496x384 @ 57.524160Hz
+Resolution, 0.128-0.187: 496x384 @ 57.524160Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Crack%20Down%20[US,%20FD1094%20317-0058-04d]
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Crack+Down+[US,+FD1094+317-0058-04d]
 Rules, 1 Player Only: http://www.twingalaxies.com/scores.php?scores=21462
 Rules, 2 Player Team: http://www.twingalaxies.com/scores.php?scores=24501
-
