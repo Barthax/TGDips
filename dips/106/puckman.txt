@@ -67,7 +67,7 @@ Resolution: 288x224 @ 60.606060 Hz
 
 ----
 Rules, TG Settings: http://www.twingalaxies.com/scores.php?scores=11853
-ROMSet: PuckMan
+ROMSet: U.S. Pac Man (Midway) *
 Rack Test [Cheat]: Off
 Service Mode: Off
 Cabinet: Upright
@@ -76,6 +76,7 @@ Bonus Life: 10000
 Difficulty: Normal
 Ghost Names: Normal
 2x Speed Cheat: Disabled
+* Note: Between 2005 and 2016 the Pac-Man "Points [TG settings]" rules only permitted the puckman ROM set.  Prior to 2005, only the pacman ROM set was permitted.  2016 has muddied the waters.
 
 Sample correct TG:
 IN0: offset 0x23, repeat every 0x7C, typical value 0xFF - only 0x10 bit relevant

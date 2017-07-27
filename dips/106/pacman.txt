@@ -65,7 +65,59 @@ INPUT_PORTS_END
 
 Resolution: 288x224 @ 60.606060 Hz
 
-Rules, High Score Challenge!: http://www.twingalaxies.com/scores.php?scores=11853
+----
+Rules, TG Settings: http://www.twingalaxies.com/scores.php?scores=11853
+ROMSet: U.S. Pac Man (Midway) *
+Rack Test [Cheat]: Off
+Service Mode: Off
+Cabinet: Upright
+Lives: 5
+Bonus Life: 10000
+Difficulty: Normal
+Ghost Names: Normal
+2x Speed Cheat: Disabled
+* Note: Between 2005 and 2016 the Pac-Man "Points [TG settings]" rules only permitted the puckman ROM set.  Prior to 2005, only the pacman ROM set was permitted.  2016 has muddied the waters.
+
+Sample correct TG:
+IN0: offset 0x23, repeat every 0x7C, typical value 0xFF - only 0x10 bit relevant
+- IN0: 0x01 (P1 Joystick Up): [not relevant]
+- IN0: 0x02 (P1 Joystick Left): [not relevant]
+- IN0: 0x04 (P1 Joystick Right): [not relevant]
+- IN0: 0x08 (P1 Joystick Down): [not relevant]
+- IN0: 0x10 (Rack Test (Cheat)): 0x10 (Off)
+- IN0: 0x20 (Coin 1): [not relevant]
+- IN0: 0x40 (Coin 2): [not relevant]
+- IN0: 0x80 (Service Mode): [not relevant]
+
+IN1: offset 0x27, repeat every 0x7C, typical value 0xFF - only high bit relevant
+- IN1: 0x01 (P1 Joystick Up, Cocktail cab): [not relevant]
+- IN1: 0x02 (P1 Joystick Left, Cocktail cab): [not relevant]
+- IN1: 0x04 (P1 Joystick Right, Cocktail cab): [not relevant]
+- IN1: 0x08 (P1 Joystick Down, Cocktail cab): [not relevant]
+- IN1: 0x10 (Service): [not relevant]
+- IN1: 0x20 (Start 1): [not relevant]
+- IN1: 0x40 (Start 2): [not relevant]
+- IN1: 0x80 (Cabinet): 0x80 (Upright)
+
+DSW 1: offset 0x2B, repeat every 0x7C, typical value 0xCD
+- DSW 1: 0x03 (Coinage): [not relevant]
+- DSW 1: 0x0c (Lives): 0x0c (5)
+- DSW 1: 0x30 (Bonus_Life): 0x00 (10000)
+- DSW 1: 0x40 (Difficulty): 0x40 (Normal)
+- DSW 1: 0x80 (Ghost Names): 0x80 (Normal)
+
+FAKE: offset 0x33, repeat every 0x7C, typical value 0x00
+- FAKE: 0x01 (Button 1 / 2x Speed (Cheat)): 0x00 (Button 1)
+- FAKE: 0x06 (2x Speed Cheat): 0x00 (Disabled)
+
+    20: 00 00 00 FF 00 00 00 FF  00 00 00 CD 00 00 00 00 | ... ... ...-....
+    30: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 | ................
+    90: 00 00 00 00 00 00 00 00  3E 82 43 E1 00 00 00 FF | ........>.Cß... 
+    A0: 00 00 00 FF 00 00 00 CD  00 00 00 00 00 00 00 00 | ... ...-........
+   110: 00 00 00 00 3E 82 43 E1  00 00 00 FF 00 00 00 FF | ....>.Cß... ... 
+   120: 00 00 00 CD 00 00 00 00  00 00 00 00 00 00 00 00 | ...-............
+----
+Rules, High Score Challenge!: http://www.twingalaxies.com/scores.php?scores=197901
 ROM Set: not specified but described as being "original"
 Rack Test- Off
 Service Mode- Off
@@ -104,3 +156,38 @@ FAKE: offset 0x33, repeat every 0x7C, typical value 0x00
     A0: 00 00 00 FF 00 00 00 CD  00 00 00 00 00 00 00 00 | ... ...-........
    110: 00 00 00 00 3E 82 43 E1  00 00 00 FF 00 00 00 FF | ....>.Cß... ... 
    120: 00 00 00 CD 00 00 00 00  00 00 00 00 00 00 00 00 | ...-............
+----
+Rules, Highest Score: http://www.twingalaxies.com/scores.php?scores=206052
+Difficulty: Normal
+Rack Test (Cheat): Off
+Service Mode: Off
+
+Sample correct TG:
+IN0: offset 0x23, repeat every 0x7C, typical value 0xFF - only 0x10 bit relevant
+- IN0: 0x01 (P1 Joystick Up): [not relevant]
+- IN0: 0x02 (P1 Joystick Left): [not relevant]
+- IN0: 0x04 (P1 Joystick Right): [not relevant]
+- IN0: 0x08 (P1 Joystick Down): [not relevant]
+- IN0: 0x10 (Rack Test (Cheat)): 0x10 (Off)
+- IN0: 0x20 (Coin 1): [not relevant]
+- IN0: 0x40 (Coin 2): [not relevant]
+- IN0: 0x80 (Service Mode): [not relevant]
+
+DSW 1: offset 0x2B, repeat every 0x7C, typical value 0xCD - only 0x40 bit relevant
+- DSW 1: 0x03 (Coinage): [not relevant]
+- DSW 1: 0x0c (Lives): [not relevant]
+- DSW 1: 0x30 (Bonus_Life): [not relevant]
+- DSW 1: 0x40 (Difficulty): 0x40 (Normal)
+- DSW 1: 0x80 (Ghost Names): [not relevant]
+
+FAKE: offset 0x33, repeat every 0x7C, typical value 0x00
+- FAKE: 0x01 (Button 1 / 2x Speed (Cheat)): 0x00 (Button 1)
+- FAKE: 0x06 (2x Speed Cheat): 0x00 (Disabled)
+
+    20: 00 00 00 FF 00 00 00 FF  00 00 00 CD 00 00 00 00 | ... ... ...-....
+    30: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 | ................
+    90: 00 00 00 00 00 00 00 00  3E 82 43 E1 00 00 00 FF | ........>.Cß... 
+    A0: 00 00 00 FF 00 00 00 CD  00 00 00 00 00 00 00 00 | ... ...-........
+   110: 00 00 00 00 3E 82 43 E1  00 00 00 FF 00 00 00 FF | ....>.Cß... ... 
+   120: 00 00 00 CD 00 00 00 00  00 00 00 00 00 00 00 00 | ...-............
+----
