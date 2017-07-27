@@ -1,11 +1,12 @@
 ROM set changed: yes
 0.106-0.135: combasc - "Combat School (joystick)"
-0.135u4-0.169: combatsc - "Combat School (joystick)"
+0.135u4-0.180: combatsc - "Combat School (joystick)"
 
 MAME History:
 - 0.135u4: Fabio Priuli added device versions of all the Konami custom ICs currently emulated in machine\konamiic.c and video\konamiic.c. Updated Combat School driver to use the new code. Renamed (combasc) to (combatsc), (combasct) to (combatsct), (combascj) to (combatscj) and (combascb) to (combatscb).
 
-Resolution, 0.106-0.169: 256x224 @ 60.000000Hz
+Resolution, 0.106-0.177: 256x224 @ 60.000000Hz
+Resolution, 0.178-0.180: 256x224 @ 59.185606Hz
 
 TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Combat%20School%20[Joystick]
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=7708
