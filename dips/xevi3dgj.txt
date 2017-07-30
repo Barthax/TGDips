@@ -1,0 +1,16 @@
+ROM set changed: yes
+0.106-0.130: xevi3dg - "Xevious 3D/G (XV31/VER.A)"
+0.130u1-0.187: xevi3dg - "Xevious 3D/G (Japan, XV31/VER.A)"
+0.188-     : xevi3dgj - "Xevious 3D/G (Japan, XV31/VER.A)"
+
+MAME History:
+- 0.188: rtw, invzim and The Dumping Union added Xevious 3D/G (World, XV32/VER.A). Renamed (xevi3dg) to (xevi3dgj).
+- 0.130u1: Changed description to 'Xevious 3D/G (Japan, XV31/VER.A)'.
+
+Resolution, 0.106-0.136: 640x480 @ 60.000000Hz
+Resolution, 0.137-0.143: 640x480 @ 30.000000Hz
+Resolution, 0.144-0.188: 640x480 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Xevious+3D/G+[XV31/VER.A]
+Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=39646
+Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=120671
