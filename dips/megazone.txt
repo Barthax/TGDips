@@ -1,7 +1,27 @@
-ROM set changed: no
-0.106-0.175: megazone - "Mega Zone (Konami set 1)"
+Note: two ROM sets represented here with changeover at 0.189.
 
-Resolution, 0.106-0.175: 288x224 @ 60.000000Hz
+MAME History:
+- 0.189: Corrado Tomaselli and The Dumping Union added Mega Zone (program code L). Added new 74LS259 device [AJR]. Changed I8039 CPU3 clock speed to 7159090 Hz and AY-3-8910A sound to 1789772 Hz. Changed (Konami set 1) to clone 'Mega Zone (program code I)' and clones (Konami set 2) to 'Mega Zone (unknown program code 2)', (Kosuka set 1) to 'Mega Zone (program code J)', (Kosuka set 2) to 'Mega Zone (program code H)' and (Interlogic) to 'Mega Zone (unknown program code 1)'. Renamed (megazonec) to (megazoneh), (megazoneb) to (megazonej), (megazonea) to (megazoneb), (megazonei) to (megazonea) and (megazone) to (megazonei).
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Mega%20Zone%20[Konami,%20Set%201]
+Mega Zone (program code I)
+--------------------------
+ROM set changed: yes
+0.106-0.188: megazone - "Mega Zone (Konami set 1)"
+0.189-     : megazonei - "Mega Zone (program code I)"
+
+Resolution, 0.106-0.189: 288x224 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Mega+Zone+[Konami,+Set+1]
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=75553
+
+
+Mega Zone (program code L)
+--------------------------
+Note: not currently represented on TG.
+ROM set changed: no.  Added in 0.189.
+
+0.189-     : megazone - "Mega Zone (program code L)"
+
+Resolution, 0.189-     : 288x224 @ 60.000000Hz
+
+Rules: [no current tracks]
