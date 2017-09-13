@@ -1,10 +1,10 @@
 ROM set changed: no
-0.106-0.175: balcube - "Bal Cube"
+0.106-0.189: balcube - "Bal Cube"
 
 Resolution, 0.106-0.144: 320x224 @ 60.000000Hz
 Resolution, 0.145-0.146: 320x224 @ 59.922743Hz
-Resolution, 0.147-0.175: 320x224 @ 60.000000Hz
+Resolution, 0.147-0.189: 320x224 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Bal%20Cube
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Bal+Cube
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=9847
 Rules, Points [ADeca 2004 Variation - 1 Life Only]: http://www.twingalaxies.com/scores.php?scores=9691
