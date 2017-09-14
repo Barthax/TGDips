@@ -1,6 +1,7 @@
 ROM set changed: no
-0.106-0.175: spacfury - "Space Fury (revision C)"
+0.106-0.189: spacfury - "Space Fury (revision C)"
 
-Resolution, 0.106-0.175: vector @ 40.000000Hz
+Resolution, 0.106-0.189: vector @ 40.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Space Fury [revision C]
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Space+Fury+[revision+C]
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=10487
