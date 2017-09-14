@@ -1,11 +1,15 @@
 ROM set changed: yes
 0.106-0.119: mariojp - "Mario Bros. (Japan)"
-0.119u1-0.175: marioj - "Mario Bros. (Japan)"
+0.119u1-0.188: marioj - "Mario Bros. (Japan)"
+0.189-     : marioj - "Mario Bros. (Japan, Revision C)"
 
 MAME History:
 - 0.119u1: Stephane Humbert added Mario Bros. (US, set 1). Fixed dipswitches. Changed (US) to clone 'Mario Bros. (US, set 2)'. Renamed (mario) to (marioo) and (mariojp) to (marioj).
+- 0.189: Identified clone (Japan) as Revision C [Corrado Tomaselli]. Changed description of clone (Japan) to 'Mario Bros. (Japan, Revision C)'.
 
 Resolution, 0.106-0.122: 256x224 @ 60.000000Hz
-Resolution, 0.123-0.175: 256x224 @ 59.185606Hz
+Resolution, 0.123-0.189: 256x224 @ 59.185606Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Mario Bros. [Japan]
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Mario+Bros.+[Japan]
+Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=119810
+Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=119811

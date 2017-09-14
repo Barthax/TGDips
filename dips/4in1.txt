@@ -1,8 +1,8 @@
 ROM set changed: no
-0.106-0.182: 4in1 - "4 Fun in 1"
+0.106-0.189: 4in1 - "4 Fun in 1"
 
 Resolution, 0.106-0.113: 256x224 @ 60.606060Hz
-Resolution, 0.114-0.182: 256x224 @ 60.606061Hz
+Resolution, 0.114-0.189: 256x224 @ 60.606061Hz
 
 TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=4+in+1+Fun
 Rules, Game 1: Galactic Convoy [Points]: http://www.twingalaxies.com/scores.php?scores=21418
