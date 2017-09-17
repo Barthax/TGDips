@@ -1,0 +1,83 @@
+# MAME 0.106 source snippet [gottlieb.c]
+
+GAME( 1983, krull,    0,        krull,    krull,    0,        ROT270, "Gottlieb", "Krull", 0 )
+
+INPUT_PORTS_START( krull )
+	PORT_START_TAG("DSW")
+	PORT_DIPNAME( 0x01, 0x00, DEF_STR( Demo_Sounds ) )
+	PORT_DIPSETTING(    0x01, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x02, 0x00, DEF_STR( Difficulty ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Normal ) )
+	PORT_DIPSETTING(    0x02, DEF_STR( Hard ) )
+	PORT_DIPNAME( 0x08, 0x00, DEF_STR( Lives ) )
+	PORT_DIPSETTING(    0x00, "3" )
+	PORT_DIPSETTING(    0x08, "5" )
+	PORT_DIPNAME( 0x14, 0x00, DEF_STR( Coinage ) )
+	PORT_DIPSETTING(    0x04, DEF_STR( 2C_1C ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( 1C_1C ) )
+	PORT_DIPSETTING(    0x10, DEF_STR( 1C_2C ) )
+	PORT_DIPSETTING(    0x14, DEF_STR( Free_Play ) )
+	PORT_DIPNAME( 0x20, 0x00, "Hexagon" )
+	PORT_DIPSETTING(    0x00, "Roving" )
+	PORT_DIPSETTING(    0x20, "Stationary" )
+	PORT_DIPNAME( 0xc0, 0x00, DEF_STR( Bonus_Life ) )
+	PORT_DIPSETTING(    0x40, "30000 30000" )
+	PORT_DIPSETTING(    0x00, "30000 50000" )
+	PORT_DIPSETTING(    0x80, "40000 50000" )
+	PORT_DIPSETTING(    0xc0, "50000 75000" )
+
+	PORT_START_TAG("IN1")
+	PORT_SERVICE( 0x01, IP_ACTIVE_LOW )
+	PORT_BIT(0x02, IP_ACTIVE_HIGH, IPT_SERVICE ) PORT_NAME("Select in Service Mode") PORT_CODE(KEYCODE_F1)
+	PORT_BIT( 0x04, IP_ACTIVE_HIGH, IPT_COIN1 )
+	PORT_BIT( 0x08, IP_ACTIVE_HIGH, IPT_COIN2 )
+	PORT_BIT( 0x10, IP_ACTIVE_HIGH, IPT_UNKNOWN )
+	PORT_BIT( 0x20, IP_ACTIVE_HIGH, IPT_UNKNOWN )
+	PORT_BIT( 0x40, IP_ACTIVE_HIGH, IPT_START1 )
+	PORT_BIT( 0x80, IP_ACTIVE_HIGH, IPT_START2 )
+
+	PORT_START_TAG("IN2")	/* trackball H not used */
+	PORT_BIT( 0xff, IP_ACTIVE_LOW, IPT_UNUSED )
+
+	PORT_START_TAG("IN3")	/* trackball V not used */
+	PORT_BIT( 0xff, IP_ACTIVE_LOW, IPT_UNUSED )
+
+	PORT_START_TAG("IN4")
+	PORT_BIT( 0x01, IP_ACTIVE_HIGH, IPT_JOYSTICKRIGHT_UP ) PORT_8WAY
+	PORT_BIT( 0x02, IP_ACTIVE_HIGH, IPT_JOYSTICKRIGHT_RIGHT ) PORT_8WAY
+	PORT_BIT( 0x04, IP_ACTIVE_HIGH, IPT_JOYSTICKRIGHT_DOWN ) PORT_8WAY
+	PORT_BIT( 0x08, IP_ACTIVE_HIGH, IPT_JOYSTICKRIGHT_LEFT ) PORT_8WAY
+	PORT_BIT( 0x10, IP_ACTIVE_HIGH, IPT_JOYSTICKLEFT_UP ) PORT_8WAY
+	PORT_BIT( 0x20, IP_ACTIVE_HIGH, IPT_JOYSTICKLEFT_RIGHT ) PORT_8WAY
+	PORT_BIT( 0x40, IP_ACTIVE_HIGH, IPT_JOYSTICKLEFT_DOWN ) PORT_8WAY
+	PORT_BIT( 0x80, IP_ACTIVE_HIGH, IPT_JOYSTICKLEFT_LEFT ) PORT_8WAY
+INPUT_PORTS_END
+
+Resolution: 256x240 @ 61.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Krull
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=15627
+
+ROMSet: Krull
+Difficulty: Normal
+Lives: 3
+Hexagon: Roving
+First Bonus Life at 30000 Points, other Bonus Lives every 30000 Points
+Service Mode: Off
+
+Sample correct TG:
+DSW: offset 0x23, repeat every 0x7C, typical value 0x40
+- DSW: 0x01 (Demo_Sounds): [not relevant]
+- DSW: 0x02 (Difficulty): 0x00 (Normal)
+- DSW: 0x08 (Lives): 0x00 (3)
+- DSW: 0x14 (Coinage): [not relevant]
+- DSW: 0x20 (Hexagon): 0x00 (Roving)
+- DSW: 0xc0 (Bonus_Life): 0x40 (30000 30000)
+IN1: offset 0x27, repeat every 0x7C, typical value 0x01 but changes with various inputs - probably easier to verify service mode setting visually from playback
+- IN1: 0x01 (SERVICE MODE): 0x01 (Off)
+
+    20: 00 00 00 40 00 00 00 01  00 00 00 FF 00 00 00 FF
+    90: 00 00 00 00 00 00 00 00  3E 82 43 E1 00 00 00 40
+    A0: 00 00 00 01 00 00 00 FF  00 00 00 FF 00 00 00 00
+   110: 00 00 00 00 3E 82 43 E1  00 00 00 40 00 00 00 01

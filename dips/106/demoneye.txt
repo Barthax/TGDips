@@ -1,0 +1,77 @@
+# MAME 0.106 source snippet [redalert.c]
+
+GAME( 1981, demoneye, 0, demoneye, demoneye, 0, ROT270, "Irem",		"Demoneye-X", GAME_WRONG_COLORS | GAME_IMPERFECT_GRAPHICS | GAME_NO_SOUND )
+
+INPUT_PORTS_START( demoneye )
+	PORT_START			   /* DIP Switches */
+	PORT_DIPNAME( 0x03, 0x00, DEF_STR( Lives ) )
+	PORT_DIPSETTING(    0x00, "3" )
+	PORT_DIPSETTING(    0x01, "4" )
+	PORT_DIPSETTING(    0x02, "5" )
+	PORT_DIPSETTING(    0x03, "6" )
+	PORT_DIPNAME( 0x04, 0x00, DEF_STR( Unknown ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x04, DEF_STR( On ) )
+	PORT_DIPNAME( 0x08, 0x00, DEF_STR( Bonus_Life ) )
+	PORT_DIPSETTING(    0x00, "5000" )
+	PORT_DIPSETTING(    0x08, "7000" )
+	PORT_DIPNAME( 0x30, 0x10, DEF_STR( Coinage ) )
+	PORT_DIPSETTING(    0x30, DEF_STR( 2C_1C ) )
+	PORT_DIPSETTING(    0x10, DEF_STR( 1C_1C ) )
+	PORT_DIPSETTING(    0x20, DEF_STR( 1C_2C ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Free_Play ) )
+	PORT_DIPNAME( 0x40, 0x40, DEF_STR( Cabinet ) )
+	PORT_DIPSETTING(    0x40, DEF_STR( Upright ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Cocktail ) )
+	PORT_DIPNAME( 0x80, 0x00, DEF_STR( Unknown ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x80, DEF_STR( On ) )
+
+	PORT_START			   /* IN1 */
+	PORT_BIT ( 0x01, IP_ACTIVE_HIGH, IPT_START1 )
+	PORT_BIT ( 0x02, IP_ACTIVE_HIGH, IPT_START2 )
+	PORT_BIT ( 0x04, IP_ACTIVE_HIGH, IPT_BUTTON1 )
+	PORT_BIT ( 0x08, IP_ACTIVE_HIGH, IPT_UNKNOWN )
+	PORT_BIT ( 0x10, IP_ACTIVE_HIGH, IPT_UNKNOWN )
+	PORT_BIT ( 0x20, IP_ACTIVE_HIGH, IPT_JOYSTICK_LEFT )
+	PORT_BIT ( 0x40, IP_ACTIVE_HIGH, IPT_JOYSTICK_RIGHT )
+	PORT_BIT ( 0x80, IP_ACTIVE_HIGH, IPT_UNKNOWN ) /* Meter */
+
+	PORT_START			   /* IN2  */
+	PORT_BIT ( 0x01, IP_ACTIVE_HIGH, IPT_UNKNOWN )
+	PORT_BIT ( 0x02, IP_ACTIVE_HIGH, IPT_UNKNOWN ) /* Meter */
+	PORT_BIT ( 0x04, IP_ACTIVE_HIGH, IPT_BUTTON1 ) PORT_COCKTAIL
+	PORT_BIT ( 0x08, IP_ACTIVE_HIGH, IPT_UNKNOWN )
+	PORT_BIT ( 0x10, IP_ACTIVE_HIGH, IPT_UNKNOWN )
+	PORT_BIT ( 0x20, IP_ACTIVE_HIGH, IPT_JOYSTICK_LEFT ) PORT_COCKTAIL
+	PORT_BIT ( 0x40, IP_ACTIVE_HIGH, IPT_JOYSTICK_RIGHT ) PORT_COCKTAIL
+	PORT_BIT ( 0x80, IP_ACTIVE_HIGH, IPT_UNKNOWN ) /* Meter */
+
+	PORT_START			   /* Fake input for coins */
+	PORT_BIT( 0x01, IP_ACTIVE_HIGH, IPT_COIN1 ) PORT_IMPULSE(1)
+INPUT_PORTS_END
+
+Resolution: 256x240 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Demoneye-X
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=19213
+
+* NOTE: as of 18-Sep-2017, the ruleset is currently incorrect and seems to have been copied from the "Demon" track. The rules suggested below are default.
+ROMSet: Demoneye
+Lives: 3
+Unknown [all]: Off
+Bonus Life: 5000
+Cabinet: Upright
+
+Sample correct TG:
+DIPS: offset 0x23, repeat every 0x7C, typical value 0x50
+- DIPS: 0x03 (Lives): 0x00 (3)
+- DIPS: 0x04 (Unknown): 0x00 (Off)
+- DIPS: 0x08 (Bonus_Life): 0x00 (5000)
+- DIPS: 0x30 (Coinage): [not relevant]
+- DIPS: 0x40 (Cabinet): 0x40 (Upright)
+- DIPS: 0x80 (Unknown): 0x00 (Off)
+
+    20: 00 00 00 50 00 00 00 00  00 00 00 00 00 00 00 00
+    90: 00 00 00 00 00 00 00 00  3E 82 43 E1 00 00 00 50
+   110: 00 00 00 00 3E 82 43 E1  00 00 00 50 00 00 00 00
