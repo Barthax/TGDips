@@ -1,0 +1,8 @@
+ROM set changed: no
+0.106-0.189: demoneye - "Demoneye-X"
+
+Resolution, 0.106-0.189: 256x240 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Demoneye-X
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=19213
+* NOTE: as of 18-Sep-2017, the ruleset is currently incorrect and seems to have been copied from the "Demon" track.
