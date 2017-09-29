@@ -1,0 +1,12 @@
+ROM set changed: yes
+0.106-0.189: tws96 - "Tecmo World Soccer '96"
+0.190-     : twsoc96 - "Tecmo World Soccer '96"
+
+MAME History:
+- 0.190: Renamed (tws96) to (twsoc96).
+
+Resolution, 0.106-0.113: 320x224 @ 59.185608Hz
+Resolution, 0.114-0.190: 320x224 @ 59.185606Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Tecmo+World+Soccer+%2796
+Rules, Biggest Blowout: http://www.twingalaxies.com/scores.php?scores=15420

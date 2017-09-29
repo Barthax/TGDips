@@ -1,6 +1,11 @@
-ROM set changed: no
-0.106-0.175: tecmowcm - "Tecmo World Cup Millennium (Japan)"
+ROM set changed: yes
+0.106-0.189: tecmowcm - "Tecmo World Cup Millennium (Japan)"
+0.190-     : twcupmil - "Tecmo World Cup Millennium (Japan)"
 
-Resolution, 0.106-0.175: 640x480 @ 60.000000Hz
+MAME History:
+- 0.190: Renamed (tecmowcm) to (twcupmil).
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Tecmo World Cup Millennium [JAPAN]
+Resolution, 0.106-0.190: 640x480 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Tecmo+World+Cup+Millennium+[JAPAN]
+Rules, Biggest Blowout: http://www.twingalaxies.com/scores.php?scores=120351

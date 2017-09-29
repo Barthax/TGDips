@@ -1,10 +1,10 @@
 ROM set changed: no
-0.106-0.175: dkong3 - "Donkey Kong 3 (US)"
+0.106-0.190: dkong3 - "Donkey Kong 3 (US)"
 
 Resolution, 0.106-0.116: 256x224 @ 60.000000Hz
-Resolution, 0.117-0.175: 256x224 @ 60.606061Hz
+Resolution, 0.117-0.190: 256x224 @ 60.606061Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Donkey+Kong+3+%5BUS%5D
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Donkey+Kong+3+[US]
 Rules, Points [Marathon]: http://www.twingalaxies.com/scores.php?scores=7724
 Rules, Points [Tournament]: http://www.twingalaxies.com/scores.php?scores=55855
 Rules, Points [Donkey Kong 3 [US] Hardest (Marathon settings)]: http://www.twingalaxies.com/scores.php?scores=199619
