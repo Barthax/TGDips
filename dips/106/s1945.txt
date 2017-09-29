@@ -1,0 +1,177 @@
+# MAME 0.106 source snippet [psikyo.c]
+
+GAME( 1995, s1945,    0,        s1945,    s1945,    s1945,    ROT270, "Psikyo", "Strikers 1945", 0 )
+
+#define PSIKYO_PORT_PLAYER1 \
+	PORT_BIT(  0x0100, IP_ACTIVE_LOW, IPT_START1                       ) \
+	PORT_BIT(  0x0200, IP_ACTIVE_LOW, IPT_BUTTON3 ) PORT_PLAYER(1) \
+	PORT_BIT(  0x0400, IP_ACTIVE_LOW, IPT_BUTTON2 ) PORT_PLAYER(1) \
+	PORT_BIT(  0x0800, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_PLAYER(1) \
+	PORT_BIT(  0x1000, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_PLAYER(1) \
+	PORT_BIT(  0x2000, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_PLAYER(1) \
+	PORT_BIT(  0x4000, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_PLAYER(1) \
+	PORT_BIT(  0x8000, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_PLAYER(1)
+
+#define PSIKYO_PORT_PLAYER2 \
+	PORT_BIT(  0x0001, IP_ACTIVE_LOW, IPT_START2                       ) \
+	PORT_BIT(  0x0002, IP_ACTIVE_LOW, IPT_BUTTON3 ) PORT_PLAYER(2) \
+	PORT_BIT(  0x0004, IP_ACTIVE_LOW, IPT_BUTTON2 ) PORT_PLAYER(2) \
+	PORT_BIT(  0x0008, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_PLAYER(2) \
+	PORT_BIT(  0x0010, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_PLAYER(2) \
+	PORT_BIT(  0x0020, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_PLAYER(2) \
+	PORT_BIT(  0x0040, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_PLAYER(2) \
+	PORT_BIT(  0x0080, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_PLAYER(2)
+
+#define PSIKYO_PORT_COIN \
+	PORT_BIT( 0x0001, IP_ACTIVE_LOW,  IPT_COIN1    ) \
+	PORT_BIT( 0x0002, IP_ACTIVE_LOW,  IPT_COIN2    ) \
+	PORT_BIT( 0x0004, IP_ACTIVE_HIGH, IPT_SPECIAL  ) \
+	PORT_BIT( 0x0008, IP_ACTIVE_LOW,  IPT_UNKNOWN  ) \
+	PORT_BIT( 0x0010, IP_ACTIVE_LOW,  IPT_SERVICE1 ) \
+	PORT_BIT(0x0020, IP_ACTIVE_LOW,  IPT_SERVICE ) PORT_NAME( DEF_STR( Service_Mode )) PORT_CODE(KEYCODE_F2) \
+	PORT_BIT( 0x0040, IP_ACTIVE_LOW,  IPT_TILT     ) \
+	PORT_BIT( 0x0080, IP_ACTIVE_HIGH, IPT_SPECIAL  )	// From Sound CPU
+
+INPUT_PORTS_START( s1945 )
+
+	PORT_START	// IN0 - c00000&1
+	PSIKYO_PORT_PLAYER2
+
+	PSIKYO_PORT_PLAYER1
+
+	PORT_START	// IN1 - c00002&3
+	PSIKYO_PORT_COIN
+
+	PORT_BIT( 0x0100, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_BIT( 0x0200, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_BIT( 0x0400, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_BIT( 0x0800, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_BIT( 0x1000, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_BIT( 0x2000, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_BIT( 0x4000, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_BIT( 0x8000, IP_ACTIVE_LOW, IPT_UNKNOWN )
+
+	PORT_START	// IN2 - c00004&5
+	PORT_DIPNAME( 0x0001, 0x0001, DEF_STR( Flip_Screen ) )
+	PORT_DIPSETTING(      0x0001, DEF_STR( Off ) )
+	PORT_DIPSETTING(      0x0000, DEF_STR( On ) )
+	PORT_DIPNAME( 0x0002, 0x0000, DEF_STR( Demo_Sounds ) )
+	PORT_DIPSETTING(      0x0002, DEF_STR( Off ) )
+	PORT_DIPSETTING(      0x0000, DEF_STR( On ) )
+	PORT_DIPNAME( 0x000c, 0x000c, DEF_STR( Difficulty ) )
+	PORT_DIPSETTING(      0x0008, DEF_STR( Easy ) )
+	PORT_DIPSETTING(      0x000c, DEF_STR( Normal ) )
+	PORT_DIPSETTING(      0x0004, DEF_STR( Hard ) )
+	PORT_DIPSETTING(      0x0000, DEF_STR( Hardest ) )
+	PORT_DIPNAME( 0x0030, 0x0030, DEF_STR( Lives ) )
+	PORT_DIPSETTING(      0x0020, "1" )
+	PORT_DIPSETTING(      0x0010, "2" )
+	PORT_DIPSETTING(      0x0030, "3" )
+	PORT_DIPSETTING(      0x0000, "4" )
+	PORT_DIPNAME( 0x0040, 0x0040, DEF_STR( Bonus_Life ) )
+	PORT_DIPSETTING(      0x0040, "600K" )
+	PORT_DIPSETTING(      0x0000, "800K" )
+	PORT_SERVICE( 0x0080, IP_ACTIVE_LOW )
+
+	PORT_DIPNAME( 0x0100, 0x0100, "Credits/Coinage" )	// No freeplay for s1945
+	PORT_DIPSETTING(      0x0100, "A+B/A&B" )
+	PORT_DIPSETTING(      0x0000, "A&B/A" )
+	PORT_DIPNAME( 0x0e00, 0x0e00, DEF_STR( Coin_A ) )
+	PORT_DIPSETTING(      0x0a00, DEF_STR( 3C_1C ) )
+	PORT_DIPSETTING(      0x0c00, DEF_STR( 2C_1C ) )
+	PORT_DIPSETTING(      0x0e00, DEF_STR( 1C_1C ) )
+	PORT_DIPSETTING(      0x0800, DEF_STR( 1C_2C ) )
+	PORT_DIPSETTING(      0x0600, DEF_STR( 1C_3C ) )
+	PORT_DIPSETTING(      0x0400, DEF_STR( 1C_4C ) )
+	PORT_DIPSETTING(      0x0200, DEF_STR( 1C_5C ) )
+	PORT_DIPSETTING(      0x0000, DEF_STR( 1C_6C ) )
+	PORT_DIPNAME( 0x7000, 0x7000, DEF_STR( Coin_B ) )
+	PORT_DIPSETTING(      0x5000, DEF_STR( 3C_1C ) )
+	PORT_DIPSETTING(      0x6000, DEF_STR( 2C_1C ) )
+	PORT_DIPSETTING(      0x7000, DEF_STR( 1C_1C ) )
+	PORT_DIPSETTING(      0x4000, DEF_STR( 1C_2C ) )
+	PORT_DIPSETTING(      0x3000, DEF_STR( 1C_3C ) )
+	PORT_DIPSETTING(      0x2000, DEF_STR( 1C_4C ) )
+	PORT_DIPSETTING(      0x1000, DEF_STR( 1C_5C ) )
+	PORT_DIPSETTING(      0x0000, DEF_STR( 1C_6C ) )
+	PORT_DIPNAME( 0x8000, 0x8000, "2C Start, 1C Continue" )
+	PORT_DIPSETTING(      0x8000, DEF_STR( Off ) )
+	PORT_DIPSETTING(      0x0000, DEF_STR( On ) ) // Forces 1C_1C
+
+	PORT_START	// IN3 - c00006&7
+
+	/***********************************************
+
+    This Dip port is bit based:
+
+    Bit 0 1 2 3
+        1 1 1 1 World (No "For use in ...." screen), see:
+                        0149B8: tst.w   $fffe58a0.l
+
+        0 1 1 1 USA & Canada
+        1 0 1 1 Korea
+        1 1 0 1 Hong Kong
+        1 1 1 0 Taiwan
+                    Other regions check see:
+                        005594: move.w  $fffe58a0.l, D0
+
+    Came from a Japan board apparently!!!
+    Japan is listed in the code but how do you activate it?
+    No effect on set s1945j
+
+    ************************************************/
+
+	PORT_DIPNAME( 0x000f, 0x000f, "Country" )
+	PORT_DIPSETTING(      0x000f, DEF_STR( World ) )
+	PORT_DIPSETTING(      0x000e, "U.S.A & Canada" )
+	PORT_DIPSETTING(      0x000d, "Korea" )
+	PORT_DIPSETTING(      0x000b, "Hong Kong" )
+	PORT_DIPSETTING(      0x0007, "Taiwan" )
+	PORT_BIT( 0x0010, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_BIT( 0x0020, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_BIT( 0x0040, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_BIT( 0x0080, IP_ACTIVE_LOW, IPT_VBLANK  )	// vblank
+
+	PORT_BIT( 0x0100, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_BIT( 0x0200, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_BIT( 0x0400, IP_ACTIVE_LOW, IPT_UNKNOWN )	// tested!
+	PORT_BIT( 0x0800, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_BIT( 0x1000, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_BIT( 0x2000, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_BIT( 0x4000, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_BIT( 0x8000, IP_ACTIVE_LOW, IPT_UNKNOWN )	// tested!
+
+INPUT_PORTS_END
+
+Resolution: 320x224 @ 59.299999Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Strikers+1945
+Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=20442
+Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=20443
+
+ROMSet: S1945
+Flip screen: Off
+Difficulty: Normal
+Lives: 3
+Bonus Life: 600K
+Service Mode: Off
+Country: World
+
+Sample correct TG:
+IN2: offset 0x2A, repeat every 0x7C, typical value 0xFFFD
+- IN2: 0x0001 (Flip_Screen): 0x0001 (Off)
+- IN2: 0x0002 (Demo_Sounds): [not relevant]
+- IN2: 0x000c (Difficulty): 0x000c (Normal)
+- IN2: 0x0030 (Lives): 0x30 (3)
+- IN2: 0x0040 (Bonus_Life): 0x0040 (600K)
+- IN2: 0x0080 (SERVICE MODE): 0x0080 (Off)
+- IN2: 0x0100 (Credits/Coinage): [not relevant]
+- IN2: 0x0e00 (Coin_A): [not relevant]
+- IN2: 0x7000 (Coin_B): [not relevant]
+- IN2: 0x8000 (2C Start, 1C Continue): [not relevant]
+IN3: offset 0x2E, repeat every 0x7C, typical value 0xFFFF / 0x007F after VBLANK
+- IN3: 0x000f (Country): 0x000f (World)
+
+    20: 00 00 FF FF 00 00 FF 7B  00 00 FF FD 00 00 FF FF
+    A0: 00 00 FF 7B 00 00 FF FD  00 00 FF FF 00 00 00 00
+   120: 00 00 FF FD 00 00 FF 7F  00 00 00 00 00 00 00 00

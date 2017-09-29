@@ -1,0 +1,89 @@
+# MAME 0.106 source snippet [scobra.c]
+
+GAME( 1983, minefld,  0,        minefld,  minefld,  minefld,      ROT90,  "Stern", "Minefield", GAME_SUPPORTS_SAVE )
+
+/* cocktail mode is N/A */
+INPUT_PORTS_START( minefld )
+	PORT_START_TAG("IN0")
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_BUTTON1 )
+	PORT_DIPNAME( 0x02, 0x02, "Starting Level" )
+	PORT_DIPSETTING(    0x02, "1" )
+	PORT_DIPSETTING(    0x00, "3" )
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_JOYSTICKLEFT_UP ) PORT_8WAY
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_JOYSTICKLEFT_DOWN ) PORT_8WAY
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_JOYSTICKLEFT_RIGHT ) PORT_8WAY
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_JOYSTICKLEFT_LEFT ) PORT_8WAY
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_COIN2 )
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_COIN1 )
+
+	PORT_START_TAG("IN1")
+	PORT_DIPNAME( 0x01, 0x01, DEF_STR( Lives ) )
+	PORT_DIPSETTING(    0x01, "3" )
+	PORT_DIPSETTING(    0x00, "5" )
+	PORT_DIPNAME( 0x02, 0x00, DEF_STR( Demo_Sounds ) )
+	PORT_DIPSETTING(    0x02, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_JOYSTICKRIGHT_UP ) PORT_8WAY
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_JOYSTICKRIGHT_DOWN ) PORT_8WAY
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_JOYSTICKRIGHT_RIGHT ) PORT_8WAY
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_JOYSTICKRIGHT_LEFT ) PORT_8WAY
+	PORT_DIPNAME( 0x40, 0x40, DEF_STR( Unknown ) )
+	PORT_DIPSETTING(    0x40, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x80, 0x80, DEF_STR( Unknown ) )
+	PORT_DIPSETTING(    0x80, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+
+	PORT_START_TAG("IN2")
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_START1 )
+	PORT_DIPNAME( 0x02, 0x02, DEF_STR( Coinage ) )
+	PORT_DIPSETTING(    0x02, DEF_STR( 1C_1C ) )
+	PORT_DIPSETTING(    0x00, "Coin A 1/2 Coin B 2/1" )
+	PORT_DIPNAME( 0x0c, 0x0c, DEF_STR( Difficulty ) )
+	PORT_DIPSETTING(    0x0c, DEF_STR( Easy ) )
+	PORT_DIPSETTING(    0x08, DEF_STR( Medium ) )
+	PORT_DIPSETTING(    0x04, DEF_STR( Hard ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Hardest ) )
+	PORT_DIPNAME( 0x10, 0x10, DEF_STR( Unknown ) )
+	PORT_DIPSETTING(    0x10, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x20, 0x20, DEF_STR( Unknown ) )
+	PORT_DIPSETTING(    0x20, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_START2 )
+	PORT_DIPNAME( 0x80, 0x80, DEF_STR( Unknown ) )
+	PORT_DIPSETTING(    0x80, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+INPUT_PORTS_END
+
+Resolution: 256x224 @ 60.606060Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Minefield
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=75585
+
+ROMSet: MineFld
+Starting Level: 1
+Lives: 3
+Unknown: Off [All]
+Difficulty: Medium
+
+Sample correct TG:
+IN0: offset 0x23, repeat every 0x7C, typical value 0xFF but will change with normal gameplay
+- IN0: 0x02 (Starting Level): 0x02 (1)
+IN1: offset 0x27, repeat every 0x7C, typical value 0xFD but will change with normal gameplay
+- IN1: 0x01 (Lives): 0x01 (3)
+- IN1: 0x02 (Demo_Sounds): [not relevant]
+- IN1: 0x40 (Unknown): 0x40 (Off)
+- IN1: 0x80 (Unknown): 0x80 (Off)
+IN2: offset 0x2B, repeat every 0x7C, typical value 0xFB but will change with normal gameplay
+- IN2: 0x02 (Coinage): [not relevant]
+- IN2: 0x0c (Difficulty): 0x08 (Medium)
+- IN2: 0x10 (Unknown): 0x10 (Off)
+- IN2: 0x20 (Unknown): 0x20 (Off)
+- IN2: 0x80 (Unknown): 0x80 (Off)
+
+    20: 00 00 00 FF 00 00 00 FD  00 00 00 FB 00 00 00 00
+    90: 00 00 00 00 00 00 00 00  3E 82 43 E1 00 00 00 FF
+    A0: 00 00 00 FD 00 00 00 FB  00 00 00 00 00 00 00 00
+   110: 00 00 00 00 3E 82 43 E1  00 00 00 FF 00 00 00 FD
+   120: 00 00 00 FB 00 00 00 00  00 00 00 00 00 00 00 00

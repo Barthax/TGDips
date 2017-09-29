@@ -1,0 +1,109 @@
+# MAME 0.106 source snippet [liberatr.c]
+
+GAME( 1982, liberatr, 0,        liberatr, liberatr, 0, ROT0, "Atari", "Liberator (set 1)", GAME_NO_COCKTAIL )
+
+INPUT_PORTS_START( liberatr )
+	PORT_START			/* IN0 - $5000 */
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_COIN3 )
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_COIN1 )
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_COIN2 )
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_TILT )
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_DIPNAME( 0x40, 0x40, DEF_STR( Cabinet ) )
+	PORT_DIPSETTING(    0x40, DEF_STR( Upright ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Cocktail ) )
+	PORT_SERVICE( 0x80, IP_ACTIVE_LOW )
+
+	PORT_START			/* IN1 - $5001 */
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_BUTTON2 ) PORT_COCKTAIL
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_COCKTAIL
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_BUTTON2 )
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_BUTTON1 )
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_START2 )
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_START1 )
+	PORT_BIT( 0x80, IP_ACTIVE_HIGH,IPT_VBLANK )
+
+	PORT_START			/* IN2  -  Game Option switches DSW @ D4 on PCB */
+	PORT_DIPNAME( 0x03, 0x00, DEF_STR( Lives ) )
+	PORT_DIPSETTING(    0x00, "4" )
+	PORT_DIPSETTING(    0x01, "5" )
+	PORT_DIPSETTING(    0x02, "6" )
+	PORT_DIPSETTING(    0x03, "8" )
+	PORT_DIPNAME( 0x0C, 0x04, DEF_STR( Bonus_Life ) )
+	PORT_DIPSETTING(    0x00, "15000" )
+	PORT_DIPSETTING(    0x04, "20000" )
+	PORT_DIPSETTING(    0x08, "25000" )
+	PORT_DIPSETTING(    0x0C, "30000" )
+	PORT_DIPNAME( 0x30, 0x00, DEF_STR( Difficulty ) )
+	PORT_DIPSETTING(    0x10, DEF_STR( Easy ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Normal ) )
+	PORT_DIPSETTING(    0x20, DEF_STR( Hard ) )
+	PORT_DIPSETTING(    0x30, "???" )
+	PORT_DIPNAME( 0x40, 0x00, DEF_STR( Unknown ) )
+	PORT_DIPSETTING(    0x40, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x80, 0x00, DEF_STR( Unknown ) )
+	PORT_DIPSETTING(    0x80, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+
+	PORT_START			/* IN3  -  Pricing Option switches DSW @ A4 on PCB */
+	PORT_DIPNAME( 0x03, 0x02, DEF_STR( Coinage ) )
+	PORT_DIPSETTING(    0x03, DEF_STR( 2C_1C ) )
+	PORT_DIPSETTING(    0x02, DEF_STR( 1C_1C ) )
+	PORT_DIPSETTING(    0x01, DEF_STR( 1C_2C ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Free_Play ) )
+	PORT_DIPNAME( 0x0c, 0x00, "Right Coin" )
+	PORT_DIPSETTING (   0x00, "*1" )
+	PORT_DIPSETTING (   0x04, "*4" )
+	PORT_DIPSETTING (   0x08, "*5" )
+	PORT_DIPSETTING (   0x0c, "*6" )
+	PORT_DIPNAME( 0x10, 0x00, "Left Coin" )
+	PORT_DIPSETTING (   0x00, "*1" )
+	PORT_DIPSETTING (   0x10, "*2" )
+	/* TODO: verify the following settings */
+	PORT_DIPNAME( 0xe0, 0x00, "Bonus Coins" )
+	PORT_DIPSETTING (   0x00, DEF_STR( None ) )
+	PORT_DIPSETTING (   0x80, "1 each 5" )
+	PORT_DIPSETTING (   0x40, "1 each 4 (+Demo)" )
+	PORT_DIPSETTING (   0xa0, "1 each 3" )
+	PORT_DIPSETTING (   0x60, "2 each 4 (+Demo)" )
+	PORT_DIPSETTING (   0x20, "1 each 2" )
+	PORT_DIPSETTING (   0xc0, "Freeze Mode" )
+	PORT_DIPSETTING (   0xe0, "Freeze Mode" )
+
+	PORT_START	/* IN4 - FAKE - overlaps IN0 in the HW */
+	PORT_BIT( 0x0f, 0x00, IPT_TRACKBALL_X ) PORT_SENSITIVITY(30) PORT_KEYDELTA(10)
+	PORT_BIT( 0xf0, 0x00, IPT_TRACKBALL_Y ) PORT_SENSITIVITY(30) PORT_KEYDELTA(10)
+INPUT_PORTS_END
+
+
+Resolution: 240x232 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Liberator
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=23865
+
+ROMSet: Liberatr
+Cabinet: Upright
+Service Mode: Off
+Lives: 4
+Bonus Life: 20,000
+Difficulty: Normal
+Unknown: On [Both]
+
+Sample correct TG:
+IN0: offset 0x23, repeat every 0x7C but length varies with analog input, typical value 0xFF
+- IN0: 0x40 (Cabinet): 0x40 (Upright)
+- IN0: 0x80 (SERVICE MODCE): 0x80 (Off)
+IN2: offset 0x2B, repeat every 0x7C but length varies with analog input, typical value 0x04
+- IN2: 0x03 (Lives): 0x00 (4)
+- IN2: 0x0C (Bonus_Life): 0x04 (20000)
+- IN2: 0x30 (Difficulty): 0x00 (Normal)
+- IN2: 0x40 (Unknown): 0x00 (On)
+- IN2: 0x80 (Unknown): 0x00 (On)
+
+    20: 00 00 00 FF 00 00 00 7F  00 00 00 04 00 00 00 02
+    90: 00 00 00 00 00 00 00 00  3E 82 43 E1 00 00 00 FF
+    A0: 00 00 00 7F 00 00 00 04  00 00 00 02 00 00 00 00
+   120: 00 00 00 FF 00 00 00 FF  00 00 00 04 00 00 00 02

@@ -143,7 +143,7 @@ INPUT_PORTS_START( spacfury )
 INPUT_PORTS_END
 
 Resolution: vector @ 40.000000Hz
-
+********************************************************************************
 TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Space+Fury+[revision+C]
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=10487
 
@@ -166,3 +166,29 @@ D2: offset 0x37, repeat every 0x7C, typical value 0x05
     A0: 00 00 00 0F 00 00 00 0F  00 00 00 0F 00 00 00 05
     B0: 00 00 00 05 00 00 00 03  00 00 00 03 00 00 00 00
    120: 00 00 00 0F 00 00 00 0F  00 00 00 05 00 00 00 05
+********************************************************************************
+
+* new track was not set up using existing Game Entry
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Space+Fury
+Rules, Space Fury (Revision C)-Points-Easy settings: http://www.twingalaxies.com/scores.php?scores=210485
+
+ROMset : SpacFury (Revision C)
+Cabinet : Upright
+Lives : 5
+Difficulty : Easy
+Bonus Life : 30,000
+
+Sample correct TG:
+D3: offset 0x33, repeat every 0x7C, typical value 0x0D
+- D3: 0x01 (Cabinet): 0x01 (Upright)
+- D3: 0x02 (Demo_Sounds): [not relevant]
+- D3: 0x0c (Lives): 0x0c (5)
+D2: offset 0x37, repeat every 0x7C, typical value 0x08
+- D2: 0x03 (Difficulty): 0x00 (Easy)
+- D2: 0x0c (Bonus_Life): 0x08 (30000)
+
+    30: 00 00 00 0D 00 00 00 08  00 00 00 03 00 00 00 03
+    A0: 00 00 00 0F 00 00 00 0F  00 00 00 0F 00 00 00 0D
+    B0: 00 00 00 08 00 00 00 03  00 00 00 03 00 00 00 00
+   120: 00 00 00 0F 00 00 00 0F  00 00 00 0D 00 00 00 08

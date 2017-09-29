@@ -1,0 +1,75 @@
+# MAME 0.106 source snippet [psikyosh.c]
+
+GAME( 1997, s1945ii,  0,        psikyo3v1,   s1945ii,  s1945ii,  ROT270, "Psikyo", "Strikers 1945 II", GAME_IMPERFECT_GRAPHICS ) // linescroll/zoom
+
+#define UNUSED_PORT \
+	PORT_START_TAG("IN2")/* not read? */ \
+	PORT_BIT(  0x01, IP_ACTIVE_LOW, IPT_UNKNOWN ) \
+	PORT_BIT(  0x02, IP_ACTIVE_LOW, IPT_UNKNOWN ) \
+	PORT_BIT(  0x04, IP_ACTIVE_LOW, IPT_UNKNOWN ) \
+	PORT_BIT(  0x08, IP_ACTIVE_LOW, IPT_UNKNOWN ) \
+	PORT_BIT(  0x10, IP_ACTIVE_LOW, IPT_UNKNOWN ) \
+	PORT_BIT(  0x20, IP_ACTIVE_LOW, IPT_UNKNOWN ) \
+	PORT_BIT(  0x40, IP_ACTIVE_LOW, IPT_UNKNOWN ) \
+	PORT_BIT(  0x80, IP_ACTIVE_LOW, IPT_UNKNOWN )
+
+#define PORT_COIN( debug ) \
+	PORT_START_TAG("IN3") /* System inputs */ \
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_COIN1    ) \
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_COIN2    ) \
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_UNKNOWN  ) \
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_UNKNOWN  ) \
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_SERVICE1 ) \
+	PORT_SERVICE_NO_TOGGLE(0x20, IP_ACTIVE_LOW) \
+	PORT_DIPNAME( 0x40, debug ? 0x00 : 0x40, "Debug" ) /* Must be high for dragnblz, low for others (Resets EEPROM?). Debug stuff */ \
+	PORT_DIPSETTING(    0x40, DEF_STR( Off ) ) \
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) ) \
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_UNKNOWN  )
+
+#define PSIKYOSH_PORT_PLAYER( player, start, buttons ) \
+	PORT_BIT(  0x01, IP_ACTIVE_LOW, start ) \
+	PORT_BIT(  0x02, IP_ACTIVE_LOW, (buttons>=3)?(IPT_BUTTON3 ) :IPT_UNKNOWN ) PORT_PLAYER(player) \
+	PORT_BIT(  0x04, IP_ACTIVE_LOW, (buttons>=2)?(IPT_BUTTON2 ) :IPT_UNKNOWN ) PORT_PLAYER(player) \
+	PORT_BIT(  0x08, IP_ACTIVE_LOW, (buttons>=1)?(IPT_BUTTON1 ) :IPT_UNKNOWN ) PORT_PLAYER(player)\
+	PORT_BIT(  0x10, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT  ) PORT_PLAYER(player) \
+	PORT_BIT(  0x20, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_PLAYER(player) \
+	PORT_BIT(  0x40, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN  ) PORT_PLAYER(player) \
+	PORT_BIT(  0x80, IP_ACTIVE_LOW, IPT_JOYSTICK_UP    ) PORT_PLAYER(player)
+
+INPUT_PORTS_START( s1945ii )
+	PORT_START_TAG("IN0")
+	PSIKYOSH_PORT_PLAYER( 1, IPT_START1, 2 )
+	PORT_START_TAG("IN1")
+	PSIKYOSH_PORT_PLAYER( 2, IPT_START2, 2 )
+
+	UNUSED_PORT
+	PORT_COIN( 0 )
+
+	PORT_START_TAG("IN4") /* jumper pads on the PCB */
+	PORT_DIPNAME( 0x01, 0x01, DEF_STR( Region ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Japan ) )
+	PORT_DIPSETTING(    0x01, DEF_STR( World ) )
+INPUT_PORTS_END
+
+Resolution: 320x224 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Strikers+1945+II   * note that this will match more than one entry
+Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=23010
+Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=23011
+
+NOTE: There are both hardware DIP switches & internal settings.  Use Service Mode (F2) to access the internal settings after playback if not shown during playback.
+
+ROMSet: S1945II
+Debug: Off
+Region: World
+
+Sample correct TG:
+IN3: offset 0x2F, repeat every 0x7C, typical value 0xFF, though this will need to change in order to change Internal setting "Continue" to "Off"
+- IN3: 0x40 (Debug): 0x40 (Off)
+IN4: offset 0x33, repeat every 0x7C, typical value 0x01
+- IN4: 0x01 (Region): 0x01 (World)
+
+    20: 00 00 00 FF 00 00 00 FF  00 00 00 FF 00 00 00 FF
+    30: 00 00 00 01 00 00 00 00  00 00 00 00 00 00 00 00
+    A0: 00 00 00 FF 00 00 00 FF  00 00 00 FF 00 00 00 01
+   120: 00 00 00 FF 00 00 00 FF  00 00 00 01 00 00 00 00
