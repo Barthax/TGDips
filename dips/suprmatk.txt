@@ -1,8 +1,14 @@
 ROM set changed: no
 0.106-0.143: suprmatk - "Super Missile Attack (for set 2)"
-0.144-0.175: suprmatk - "Super Missile Attack (for rev 1)"
+0.144-0.189: suprmatk - "Super Missile Attack (for rev 1)"
 
-Resolution, 0.106: 256x231 @ 60.000000Hz
-Resolution, 0.107-0.175: 256x231 @ 61.035156Hz
+MAME History:
+- 0.143u1: Joe Barbara added Missile Command (rev 3). Changed (set 1) to clone 'Missile Command (rev 2)', (set 2) to 'Missile Command (rev 1)' and (for set 2) to 'Super Missile Attack (for rev 1)'. Renamed (missile2) to (missile1) and (missile) to (missile2).
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Super Missile Attack [for set 2]
+Resolution, 0.106      : 256x231 @ 60.000000Hz
+Resolution, 0.107-0.189: 256x231 @ 61.035156Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Super+Missile+Attack+[for+set+2]
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=9832
+
+NOTE: this is a clone of missile - "Missile Command (rev 3)"

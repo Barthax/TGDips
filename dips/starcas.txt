@@ -1,8 +1,7 @@
 ROM set changes:
-0.35-0.175: starcas - "Star Castle (version 3)"
+0.35-0.189: starcas - "Star Castle (version 3)"
 
-Resolution, 0.106-0.175: vector @ 38.000000Hz
+Resolution, 0.106-0.189: vector @ 38.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Star%20Castle%20[version%203]
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Star+Castle+[version+3]
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=110754
-

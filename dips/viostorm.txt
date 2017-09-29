@@ -8,24 +8,25 @@ Violent Storm (ver EAB)
 -----------------------
 ROM set changed: yes
 0.106-0.149: viostorm - "Violent Storm (ver EAB)"
-0.150-0.175: viostormeb - "Violent Storm (ver EAB)"
+0.150-0.189: viostormeb - "Violent Storm (ver EAB)"
 
 Resolution, 0.106-0.125: 384x224 @ 60.000000Hz
-Resolution, 0.126-0.175: 384x224 @ 59.185606Hz
+Resolution, 0.126-0.189: 384x224 @ 59.185606Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Violent%20Storm%20[ver%20EAB]
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Violent+Storm+[ver+EAB]
 Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=120562
 Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=120564
 Rules, Points [Three Player Team]: http://www.twingalaxies.com/scores.php?scores=120565
 
+NOTES: There are both hardware DIP switches & internal settings.  Use Service Mode (F2) to access the internal settings after playback if not shown during playback.
+       viostorm.nv was added at 0.137, most likely to fix bootup EEPROM error introduced at 0.136. Doesn't seem to affect default internal settings.
 
 Violent Storm (ver EAC)
 -----------------------
 Note: not currently represented on TG.
 ROM set changed: no.  Added in 0.150.
-0.150-0.176: viostorm - "Violent Storm (ver EAC)"
+0.150-0.189: viostorm - "Violent Storm (ver EAC)"
 
-Resolution, 0.150-0.176: 384x224 @ 59.185606Hz
+Resolution, 0.150-0.189: 384x224 @ 59.185606Hz
 
 Rules: [no current tracks]
-
