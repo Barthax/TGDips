@@ -1,7 +1,16 @@
 ROM set changed: no
-0.106-0.175: salamand - "Salamander (version D)"
+0.106-0.190: salamand - "Salamander (version D)"
+
+MAME History [salamand]:
+- 0.144u7: Removed 'Unused' dipswitches.
+MAME History [nemesis.cpp]:
+- 0.150: Renamed "Upright Controls" dipswitch to "Players" in gwarrior and twinbee, and make 2 players default (neither game supports cocktail cabinets). Make default difficulty normal in all games [Alex Jackson].
 
 Resolution, 0.106-0.113: 256x224 @ 60.606060Hz
-Resolution, 0.114-0.175: 256x224 @ 60.606061Hz
+Resolution, 0.114-0.190: 256x224 @ 60.606061Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Salamander [version D]
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Salamander+[version+D]
+Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=23018
+Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=23019
+
+NOTE: "Medium" Difficulty was relabelled at 0.150 to "Normal" - all other labels remain unchanged
