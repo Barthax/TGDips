@@ -1,0 +1,110 @@
+# MAME 0.106 source snippet [bombjack.c]
+
+GAME( 1984, bombjack, 0,        bombjack, bombjack, 0, ROT90, "Tehkan", "Bomb Jack (set 1)", GAME_SUPPORTS_SAVE )
+
+INPUT_PORTS_START( bombjack )
+	PORT_START	/* IN0 */
+	PORT_BIT( 0x01, IP_ACTIVE_HIGH, IPT_JOYSTICK_RIGHT ) PORT_8WAY
+	PORT_BIT( 0x02, IP_ACTIVE_HIGH, IPT_JOYSTICK_LEFT ) PORT_8WAY
+	PORT_BIT( 0x04, IP_ACTIVE_HIGH, IPT_JOYSTICK_UP ) PORT_8WAY
+	PORT_BIT( 0x08, IP_ACTIVE_HIGH, IPT_JOYSTICK_DOWN ) PORT_8WAY
+	PORT_BIT( 0x10, IP_ACTIVE_HIGH, IPT_BUTTON1 )
+	PORT_BIT( 0x20, IP_ACTIVE_HIGH, IPT_UNKNOWN )	/* probably unused */
+	PORT_BIT( 0x40, IP_ACTIVE_HIGH, IPT_UNKNOWN )	/* probably unused */
+	PORT_BIT( 0x80, IP_ACTIVE_HIGH, IPT_UNKNOWN )	/* probably unused */
+
+	PORT_START	/* IN1 */
+	PORT_BIT( 0x01, IP_ACTIVE_HIGH, IPT_JOYSTICK_RIGHT ) PORT_8WAY PORT_COCKTAIL
+	PORT_BIT( 0x02, IP_ACTIVE_HIGH, IPT_JOYSTICK_LEFT ) PORT_8WAY PORT_COCKTAIL
+	PORT_BIT( 0x04, IP_ACTIVE_HIGH, IPT_JOYSTICK_UP ) PORT_8WAY PORT_COCKTAIL
+	PORT_BIT( 0x08, IP_ACTIVE_HIGH, IPT_JOYSTICK_DOWN ) PORT_8WAY PORT_COCKTAIL
+	PORT_BIT( 0x10, IP_ACTIVE_HIGH, IPT_BUTTON1 ) PORT_COCKTAIL
+	PORT_BIT( 0x20, IP_ACTIVE_HIGH, IPT_UNKNOWN )	/* probably unused */
+	PORT_BIT( 0x40, IP_ACTIVE_HIGH, IPT_UNKNOWN )	/* probably unused */
+	PORT_BIT( 0x80, IP_ACTIVE_HIGH, IPT_UNKNOWN )	/* probably unused */
+
+	PORT_START	/* IN2 */
+	PORT_BIT( 0x01, IP_ACTIVE_HIGH, IPT_COIN1 )
+	PORT_BIT( 0x02, IP_ACTIVE_HIGH, IPT_COIN2 )
+	PORT_BIT( 0x04, IP_ACTIVE_HIGH, IPT_START1 )
+	PORT_BIT( 0x08, IP_ACTIVE_HIGH, IPT_START2 )
+	PORT_BIT( 0xf0, IP_ACTIVE_LOW, IPT_UNKNOWN )	/* probably unused */
+
+	PORT_START	/* DSW0 */
+	PORT_DIPNAME( 0x03, 0x00, DEF_STR( Coin_A ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( 1C_1C ) )
+	PORT_DIPSETTING(    0x01, DEF_STR( 1C_2C ) )
+	PORT_DIPSETTING(    0x02, DEF_STR( 1C_3C ) )
+	PORT_DIPSETTING(    0x03, DEF_STR( 1C_6C ) )
+	PORT_DIPNAME( 0x0c, 0x00, DEF_STR( Coin_B ) )
+	PORT_DIPSETTING(    0x04, DEF_STR( 2C_1C ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( 1C_1C ) )
+	PORT_DIPSETTING(    0x08, DEF_STR( 1C_2C ) )
+	PORT_DIPSETTING(    0x0c, DEF_STR( 1C_3C ) )
+	PORT_DIPNAME( 0x30, 0x00, DEF_STR( Lives ) )
+	PORT_DIPSETTING(    0x30, "2" )
+	PORT_DIPSETTING(    0x00, "3" )
+	PORT_DIPSETTING(    0x10, "4" )
+	PORT_DIPSETTING(    0x20, "5" )
+	PORT_DIPNAME( 0x40, 0x40, DEF_STR( Cabinet ) )
+	PORT_DIPSETTING(    0x40, DEF_STR( Upright ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Cocktail ) )
+	PORT_DIPNAME( 0x80, 0x80, DEF_STR( Demo_Sounds ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x80, DEF_STR( On ) )
+
+	PORT_START	/* DSW1 */
+	PORT_DIPNAME( 0x07, 0x00, "Initial High Score?" )
+	PORT_DIPSETTING(    0x00, "10000" )
+	PORT_DIPSETTING(    0x01, "100000" )
+	PORT_DIPSETTING(    0x02, "30000" )
+	PORT_DIPSETTING(    0x03, "50000" )
+	PORT_DIPSETTING(    0x04, "100000" )
+	PORT_DIPSETTING(    0x05, "50000" )
+	PORT_DIPSETTING(    0x06, "100000" )
+	PORT_DIPSETTING(    0x07, "50000" )
+	PORT_DIPNAME( 0x18, 0x00, "Bird Speed" )
+	PORT_DIPSETTING(    0x00, DEF_STR( Easy ) )
+	PORT_DIPSETTING(    0x08, DEF_STR( Medium ) )
+	PORT_DIPSETTING(    0x10, DEF_STR( Hard ) )
+	PORT_DIPSETTING(    0x18, DEF_STR( Hardest ) )
+	PORT_DIPNAME( 0x60, 0x00, "Enemies Number & Speed" )
+	PORT_DIPSETTING(    0x20, DEF_STR( Easy ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Medium ) )
+	PORT_DIPSETTING(    0x40, DEF_STR( Hard ) )
+	PORT_DIPSETTING(    0x60, DEF_STR( Hardest ) )
+	PORT_DIPNAME( 0x80, 0x00, "Special Coin" )
+	PORT_DIPSETTING(    0x00, DEF_STR( Easy ) )
+	PORT_DIPSETTING(    0x80, DEF_STR( Hard ) )
+INPUT_PORTS_END
+
+Resolution: 256x224 @ 60.000000Hz
+
+TG Game Entry [old]: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Bomb+Jack+[Set+1]
+TG Game Entry: http://www.twingalaxies.com/game_detail.php?gameid=6546&platformid=46
+Rules, Points [Marathon]: http://www.twingalaxies.com/scores.php?scores=7694
+Rules, Points [Tournament Settings - 5 Lives Only]: http://www.twingalaxies.com/scores.php?scores=7695
+
+ROMSet: BombJack
+Lives: 3
+Bird speed: Hard
+Enemies Number & Speed: Medium
+Special coin: Easy
+
+Sample correct TG:
+DSW0: offset 0x2F, repeat every 0x7C, typical value 0xC0
+- DSW0: 0x03 (Coin_A): [not relevant]
+- DSW0: 0x0c (Coin_B): [not relevant]
+- DSW0: 0x30 (Lives): 0x00 (3)
+- DSW0: 0x40 (Cabinet): [not relevant]
+- DSW0: 0x80 (Demo_Sounds): [not relevant]
+DSW1: offset 0x33, repeat every 0x7C, typical value 0x10
+- DSW1: 0x07 (Initial High Score?): [not relevant]
+- DSW1: 0x18 (Bird Speed): 0x10 (Hard)
+- DSW1: 0x60 (Enemies Number & Speed): 0x00 (Medium)
+- DSW1: 0x80 (Special Coin): 0x00 (Easy)
+
+    20: 00 00 00 00 00 00 00 00  00 00 00 F0 00 00 00 C0
+    30: 00 00 00 10 00 00 00 00  00 00 00 00 00 00 00 00
+    A0: 00 00 00 00 00 00 00 F0  00 00 00 C0 00 00 00 10
+   120: 00 00 00 F0 00 00 00 C0  00 00 00 10 00 00 00 00
