@@ -1,9 +1,10 @@
 ROM set changed: no
-0.106-0.183: atetris - "Tetris (set 1)"
+0.106-0.191: atetris - "Tetris (set 1)"
 
 Resolution, 0.106-0.114: 336x240 @ 60.000000Hz
-Resolution, 0.115-0.183: 336x240 @ 59.922743Hz
+Resolution, 0.115-0.191: 336x240 @ 59.922743Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Tetris+[Set+1]
+TG Game Entry [old]: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Tetris+[Set+1]
+TG Game Entry: http://www.twingalaxies.com/game_detail.php?gameid=4796&platformid=46
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=7878
 Note: to check the difficulty, enable Service Mode dip switch or press Service Mode button (F2) and wait for it to become available.  Change screens using the Player 1 Button 1.  Navigate with Player 1 Left/Right/Down (not Up).  Toggle settings with Player 1 Left/Right.
