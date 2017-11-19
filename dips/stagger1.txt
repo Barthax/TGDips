@@ -1,0 +1,9 @@
+ROM set changed: no
+0.106-0.191: stagger1 - "Stagger I (Japan)"
+
+Resolution, 0.106-0.122: 256x256 @ 56.000000Hz
+Resolution, 0.123-0.154: 256x224 @ 56.000000Hz
+Resolution, 0.155-0.191: 256x224 @ 56.180000Hz
+
+TG Game Entry: game not currently tracked
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=5159

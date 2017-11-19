@@ -1,12 +1,13 @@
 ROM set changed: yes
 0.106-0.141: thepit - "The Pit"
-0.141u3-0.175: thepitj - "The Pit (Japan)"
+0.141u3-0.191: thepitj - "The Pit (Japan)"
 
 MAME History:
 - 0.141u3: hap fixed parent/clone relationship in ThePit driver. Changed 'The Pit' to clone 'The Pit (Japan)', clone (bootleg) to parent 'The Pit' and (Centuri) to 'The Pit (US)'. Renamed (thepit) to (thepitj), (thepitb) to (thepit) and (thepitc) to (thepitu).
+- 0.149u1: Added DIP locations to 'The Pit' [Brian Troha]. Added 'Diagnostic Tests' dipswitch.
 
 Resolution, 0.106-0.118: 256x224 @ 60.000000Hz
-Resolution, 0.119-0.175: 256x224 @ 60.606061Hz
+Resolution, 0.119-0.191: 256x224 @ 60.606061Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=The%20Pit
+TG Game Entry: http://www.twingalaxies.com/game_detail.php?gameid=250&variationid=10844&platformid=46
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=10844
