@@ -1,13 +1,13 @@
 Note: not currently represented on TG.
 ROM set changed: yes.  Added in 0.119u1.
 0.119u1-0.132: mario - "Mario Bros. (US, set 1)"
-0.132u3-0.175: marioe - "Mario Bros. (US, Revision E)"
+0.132u3-0.193: marioe - "Mario Bros. (US, Revision E)"
 
 MAME History:
 - 0.119u1: Stephane Humbert added Mario Bros. (US, set 1). Fixed dipswitches. Changed 'Mario Bros. (US)' to clone '(US, set 2)'. Renamed (mario) to (marioo) and (mariojp) to (marioj).
 - 0.132u3: Mr Goodwraith, Smitdogg and Dumping Union added Mario Bros. (US, Revision F). Fixed rom names. Changed (US, set 1) to clone 'Mario Bros. (US, Revision E)' and clone (US, set 2) to clone 'Mario Bros. (US, Unknown Rev)'. Renamed (mario) to (marioe).
 
 Resolution, 0.120-0.122: 256x224 @ 60.000000Hz
-Resolution, 0.123-0.175: 256x224 @ 59.185606Hz
+Resolution, 0.123-0.193: 256x224 @ 59.185606Hz
 
 Rules: [no current tracks]
