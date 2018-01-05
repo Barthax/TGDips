@@ -12,7 +12,7 @@ MAME History:
 Resolution, 0.106-0.122: 256x224 @ 60.000000Hz
 Resolution, 0.123-0.193: 256x224 @ 59.185606Hz
 
-TG Game Entry: http://www.twingalaxies.com/game_detail.php?gameid=6848&platformid=46
+TG Game Entry: http://www.twingalaxies.com/mario-bros-us/mame/
 Rules, Single Player, Medium: http://www.twingalaxies.com/scores.php?scores=122029
 Rules, Single Player, Hard: http://www.twingalaxies.com/scores.php?scores=5224
 Rules, Two Player, Hard: http://www.twingalaxies.com/scores.php?scores=19169

@@ -1,9 +1,8 @@
 ROM Set changes: no
-0.106-0.191: spiders - "Spiders (set 1)"
+0.106-0.193: spiders - "Spiders (set 1)"
 
 Resolution, 0.106-0.115: 256x224 @ 60.000000 Hz
-Resolution, 0.116-0.191: 256x256 @ 85.449219 Hz
+Resolution, 0.116-0.193: 256x256 @ 85.449219 Hz
 
-TG Game Entry [old]: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Spiders+[set+1]
-TG Game Entry: http://www.twingalaxies.com/game_detail.php?gameid=6928&platformid=46
+TG Game Entry: http://www.twingalaxies.com/spiders-set-1/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=7820

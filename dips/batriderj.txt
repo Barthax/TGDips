@@ -2,12 +2,12 @@ ROM set changed: yes
 0.106-0.117: batrider - "Armed Police Batrider (Japan, version B)"
 0.118-0.129: batrider - "Armed Police Batrider - B Version (Japan) (Fri Feb 13 1998)" (minor description change)
 0.130-0.141: batridj - "Armed Police Batrider - B Version (Japan) (Fri Feb 13 1998)"
-0.142-0.175: batriderj - "Armed Police Batrider (Japan, B version) (Fri Feb 13 1998)"
+0.142-0.193: batriderj - "Armed Police Batrider (Japan, B version) (Fri Feb 13 1998)"
 
 Resolution, 0.106-0.151: 320x240 @ 60.000000Hz
-Resolution, 0.152-0.175: 320x240 @ 59.637405Hz
+Resolution, 0.152-0.193: 320x240 @ 59.637405Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Armed%20Police%20Batrider%20[Japan,%20Version%20B]
+TG Game Entry: http://www.twingalaxies.com/armed-police-batrider-japan-version-b/mame/
 Rules, Points [Boss Mode - Single Player]: http://www.twingalaxies.com/scores.php?scores=41137
 Rules, Points [Boss Mode - Two Player]: http://www.twingalaxies.com/scores.php?scores=41138
 Rules, Points [Single Player - Advance Mode]: http://www.twingalaxies.com/scores.php?scores=11846
@@ -16,4 +16,3 @@ Rules, Points [Single Player - Training Mode]: http://www.twingalaxies.com/score
 Rules, Points [Two Player Team - Advance Mode]: http://www.twingalaxies.com/scores.php?scores=11847
 Rules, Points [Two Player Team - Normal Mode]: http://www.twingalaxies.com/scores.php?scores=11849
 Rules, Points [Two Player Team - Training Mode]: http://www.twingalaxies.com/scores.php?scores=11851
-
