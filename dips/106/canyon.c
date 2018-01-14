@@ -1,0 +1,59 @@
+# MAME 0.106 source snippet
+
+
+#include "driver.h"
+#include "canyon.h"
+#include "sound/discrete.h"
+
+
+INPUT_PORTS_START( canyon )
+	PORT_START      /* DSW */
+	PORT_DIPNAME( 0x03, 0x00, DEF_STR( Language ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( English ) )
+	PORT_DIPSETTING(    0x01, DEF_STR( Spanish ) )
+	PORT_DIPSETTING(    0x02, DEF_STR( French ) )
+	PORT_DIPSETTING(    0x03, DEF_STR( German ) )
+	PORT_DIPNAME( 0x30, 0x00, "Misses Per Play" )
+	PORT_DIPSETTING(    0x00, "3" )
+	PORT_DIPSETTING(    0x10, "4" )
+	PORT_DIPSETTING(    0x20, "5" )
+	PORT_DIPSETTING(    0x30, "6" )
+	PORT_DIPNAME( 0xC0, 0x80, DEF_STR( Coinage ))
+	PORT_DIPSETTING(    0xC0, DEF_STR( 2C_1C ))
+	PORT_DIPSETTING(    0x80, DEF_STR( 1C_1C ))
+	PORT_DIPSETTING(    0x40, DEF_STR( 1C_2C ))
+	PORT_DIPSETTING(    0x00, DEF_STR( Free_Play ) )
+
+	PORT_START      /* IN1 */
+	PORT_BIT(0x01, IP_ACTIVE_HIGH, IPT_UNUSED )
+	PORT_BIT(0x02, IP_ACTIVE_HIGH, IPT_UNUSED )
+	PORT_BIT(0x04, IP_ACTIVE_HIGH, IPT_BUTTON1 ) PORT_PLAYER(1)
+	PORT_BIT(0x08, IP_ACTIVE_HIGH, IPT_BUTTON1 ) PORT_PLAYER(2)
+
+	PORT_START      /* IN2 */
+	PORT_BIT ( 0x01, IP_ACTIVE_HIGH, IPT_COIN1 )
+	PORT_BIT ( 0x02, IP_ACTIVE_HIGH, IPT_COIN2 )
+	PORT_BIT ( 0x04, IP_ACTIVE_HIGH, IPT_START1 )
+	PORT_BIT ( 0x08, IP_ACTIVE_HIGH, IPT_START2 )
+	PORT_SERVICE( 0x10, IP_ACTIVE_HIGH )
+	PORT_BIT ( 0x20, IP_ACTIVE_LOW, IPT_VBLANK )
+	PORT_BIT( 0x40, IP_ACTIVE_HIGH, IPT_BUTTON7 ) PORT_NAME("Hiscore Reset") PORT_CODE(KEYCODE_H)
+	PORT_BIT ( 0x80, IP_ACTIVE_HIGH, IPT_TILT ) /* SLAM */
+
+	PORT_START
+	PORT_ADJUSTER( 20, "Motor 1 RPM" )
+
+	PORT_START
+	PORT_ADJUSTER( 30, "Motor 2 RPM" )
+
+	PORT_START
+	PORT_ADJUSTER( 70, "Whistle 1 Freq" )
+
+	PORT_START
+	PORT_ADJUSTER( 80, "Whistle 2 Freq" )
+INPUT_PORTS_END
+
+
+
+GAME( 1977, canyon,  0,      canyon, canyon, 0, ROT0, "Atari", "Canyon Bomber", 0 )
+GAME( 1977, canyonp, canyon, canyon, canyon, 0, ROT0, "Atari", "Canyon Bomber (prototype)", 0 )
