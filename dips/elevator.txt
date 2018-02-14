@@ -1,15 +1,17 @@
 ROM set changed: no
 0.106-0.177: elevator - "Elevator Action"
-0.178-0.191: elevator - "Elevator Action (5 pcb version, 1.1)"
+0.178-0.193: elevator - "Elevator Action (5 pcb version, 1.1)"
 
 MAME History: 
 - 0.178: caius and The Dumping Union added clone Elevator Action (4 pcb version, 1.1). Cleaned up rom labels/locations for the Elevator Action sets and added notes. Noted that the 4 and 5 board sets dumped so far of Elevator Action are the exact same code and gfx, just split differently [Lord Nightmare]. Added ww15.pal16l8.ic24.jed.bin. Changed parent description to 'Elevator Action (5 pcb version, 1.1)'.
 
-Resolution, 0.106-0.191: 256x224 @ 60.000000Hz
+Resolution, 0.106-0.193: 256x224 @ 60.000000Hz
 
-TG Game Entry [old]: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Elevator+Action
-TG Game Entry: http://www.twingalaxies.com/game_detail.php?gameid=3785&platformid=46
+TG Game Entry: http://www.twingalaxies.com/elevator-action/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=5158
 Rules, Points [ADeca 2004 Only Variation]: http://www.twingalaxies.com/scores.php?scores=9692
 Rules, Points [Twin Galaxies Extreme Settings]: http://www.twingalaxies.com/scores.php?scores=9848
-Rules, Highest Score: http://www.twingalaxies.com/scores.php?scores=205743
+Rules, Highest Score: http://www.twingalaxies.com/scores.php?scores=207151
+
+TG Game Entry: http://www.twingalaxies.com/elevator-action-5-pcb-1-1/mame/
+Rules, Highest Score: http://www.twingalaxies.com/scores.php?scores=205743     (this is a duplicate of the one above, using the renamed long name TG game entry instead of the existing one - should hopefully attract no submissions)
