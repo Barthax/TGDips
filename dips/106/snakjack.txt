@@ -1,0 +1,86 @@
+# MAME 0.106 source snippet [balsente.c]
+
+GAME( 1984, snakjack, 0,        balsente, snakjack, snakjack, ROT0, "Bally/Sente", "Snacks'n Jaxson", GAME_SUPPORTS_SAVE )
+
+INPUT_PORTS_START( snakjack )
+	PORT_START	/* IN0 */
+	PORT_DIPNAME( 0x03, 0x03, DEF_STR( Coinage ) )
+	PORT_DIPSETTING(    0x02, DEF_STR( 2C_1C ) )
+	PORT_DIPSETTING(    0x03, DEF_STR( 1C_1C ) )
+	PORT_DIPSETTING(    0x01, DEF_STR( 1C_2C ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Free_Play ) )
+	PORT_BIT( 0x7c, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_DIPNAME( 0x80, 0x80, "High Scores" )
+	PORT_DIPSETTING(    0x80, "Keep Top 5" )
+	PORT_DIPSETTING(    0x00, "Keep All" )
+
+	PORT_START	/* IN1 */
+	PORT_DIPNAME( 0x03, 0x01, DEF_STR( Bonus_Life ) )
+	PORT_DIPSETTING(    0x00, "Every 15,000" )
+	PORT_DIPSETTING(    0x01, "Every 20,000" )
+	PORT_DIPSETTING(    0x02, "Every 25,000" )
+	PORT_DIPSETTING(    0x03, "Every 30,000" )
+	PORT_DIPNAME( 0x0c, 0x04, DEF_STR( Lives ) )
+	PORT_DIPSETTING(    0x00, "2" )
+	PORT_DIPSETTING(    0x04, "3" )
+	PORT_DIPSETTING(    0x08, "4" )
+	PORT_DIPSETTING(    0x0c, "5" )
+	PORT_BIT( 0x70, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_DIPNAME( 0x80, 0x00, DEF_STR( Demo_Sounds ) )
+	PORT_DIPSETTING(    0x80, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+
+	PORT_START	/* IN2 */
+	PORT_BIT( 0x3f, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_COIN1 )
+	PORT_SERVICE( 0x80, IP_ACTIVE_LOW )
+
+	PORT_START	/* IN3 */
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_START1 )
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_START2 )
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_BUTTON1 )
+	PORT_BIT( 0x38, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_COIN2 )
+	PORT_BIT( 0x80, IP_ACTIVE_HIGH, IPT_VBLANK )
+
+	/* analog ports */
+	UNUSED_ANALOG_X2
+	PLAYER1_TRACKBALL
+INPUT_PORTS_END
+
+#define UNUSED_ANALOG \
+	PORT_START\
+	PORT_BIT( 0xff, IP_ACTIVE_HIGH, IPT_UNUSED )
+#define UNUSED_ANALOG_X2 UNUSED_ANALOG UNUSED_ANALOG
+#define PLAYER1_TRACKBALL \
+	PORT_START\
+    PORT_BIT( 0xff, 0, IPT_TRACKBALL_Y ) PORT_SENSITIVITY(100) PORT_KEYDELTA(20) PORT_RESET PORT_PLAYER(1)\
+	PORT_START\
+    PORT_BIT( 0xff, 0, IPT_TRACKBALL_X ) PORT_SENSITIVITY(100) PORT_KEYDELTA(20) PORT_RESET PORT_REVERSE PORT_PLAYER(1)
+
+Resolution: 256x240 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/snacksn-jaxson/mame/
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=110688
+
+ROMSet: SnakJack
+High Scores: Keep Top 5
+Bonus Life: Every 20,000
+Lives: 3
+Service Mode: Off
+
+Sample correct TG (* repeat length varies due to analog input):
+IN0: offset 0x23, repeat every 0x7C*, typical value 0xFF
+- IN0: 0x03 (Coinage): [not relevant]
+- IN0: 0x80 (High Scores): 0x80 (Keep Top 5)
+IN1: offset 0x27, repeat every 0x7C*, typical value 0x75
+- IN1: 0x03 (Bonus_Life): 0x01 (Every 20,000)
+- IN1: 0x0c (Lives): 0x04 (3)
+- IN1: 0x80 (Demo_Sounds): [not relevant]
+IN2: offset 0x2B, repeat every 0x7C*, typical value 0xFF, but changes with Coin1. Expect 0x80 or higher.
+- IN2: 0x80 (SERVICE MODE): 0x80 (Off)
+
+    20: 00 00 00 FF 00 00 00 75  00 00 00 FF 00 00 00 7F
+    90: 00 00 00 00 00 00 00 00  3E 82 43 E1 00 00 00 FF
+    A0: 00 00 00 75 00 00 00 FF  00 00 00 7F 00 00 00 00
+   120: 00 00 00 FF 00 00 00 75  00 00 00 FF 00 00 00 FF

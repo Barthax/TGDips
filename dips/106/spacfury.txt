@@ -144,8 +144,9 @@ INPUT_PORTS_END
 
 Resolution: vector @ 40.000000Hz
 ********************************************************************************
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Space+Fury+[revision+C]
+TG Game Entry: http://www.twingalaxies.com/space-fury-revision-c/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=10487
+Rules, One Life Only!: http://www.twingalaxies.com/scores.php?scores=212586
 
 ROMSet: SpacFury
 Cabinet: Upright
@@ -167,10 +168,9 @@ D2: offset 0x37, repeat every 0x7C, typical value 0x05
     B0: 00 00 00 05 00 00 00 03  00 00 00 03 00 00 00 00
    120: 00 00 00 0F 00 00 00 0F  00 00 00 05 00 00 00 05
 ********************************************************************************
-
 * new track was not set up using existing Game Entry
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Space+Fury
+TG Game Entry: http://www.twingalaxies.com/space-fury/mame/
 Rules, Space Fury (Revision C)-Points-Easy settings: http://www.twingalaxies.com/scores.php?scores=210485
 
 ROMset : SpacFury (Revision C)
