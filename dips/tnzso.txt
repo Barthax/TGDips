@@ -4,6 +4,7 @@ MAME History:
 - 0.128u4: Nicola Salmoria and David Haywood removed ROM banking kludges from NewZealand Story. Replaced I8X41 CPU3 with I8742 in clones 'The NewZealand Story (Japan, old version) (older PCB)' and '(World, prototype?) (older PCB)'.
 - 0.129u5: Corrado Tomaselli added clone The NewZealand Story (World, old version) (older PCB). Brian Troha corrected rom names for older TNZS sets. Renamed (tnzso) to (tnzsop).
 - 0.181: Porchy and The Dumping Union added clone The NewZealand Story (World, old version) (older PCB). Note: This is the verified World version with photo & correct Taito rom ID# which fits where it should. The old set is know called "World, unknown version" as it has not be verified and doesn't have a legit Taito rom ID or label [Brian Troha]. Correct labels for clone The NewZealand Story (World, prototype?) (older PCB) [Brian Troha]. Added missing PALs as undumped and fixed some rom labels [Lord Nightmare]. Changed description of clones (World, prototype?) to 'The NewZealand Story (World, prototype) (older PCB)' and (World, old version) to 'The NewZealand Story (World, unknown version) (older PCB)'. Renamed (tnzso) to (tnzsoa).
+- 0.190: Changed description to 'The NewZealand Story (World, new version) (P0-043A PCB)' and clones (Japan, new version) (newer PCB) to 'The NewZealand Story (Japan, new version) (P0-043A PCB)', (Japan, old version) (older PCB) to 'The NewZealand Story (Japan, old version) (P0-041A PCB)', (US, old version) (older PCB) to 'The NewZealand Story (US, old version) (P0-041A PCB)', (World, old version) (older PCB) to 'The NewZealand Story (World, old version) (P0-041A PCB)', (World, prototype) (older PCB) to 'The NewZealand Story (World, prototype) (P0-041-1 PCB)' and (World, unknown version) (older PCB) to 'The NewZealand Story (World, unknown version) (P0-041A PCB)'.
 
 The NewZealand Story (World, prototype?) (older PCB)
 ----------------------------------------------------
@@ -11,12 +12,13 @@ ROM set changed: yes
 0.106-0.127: tnzso - "The NewZealand Story (World, older)"
 0.128-0.129: tnzso - "The NewZealand Story (World, older) (older PCB)"
 0.129u5-0.180: tnzsop - "The NewZealand Story (World, prototype?) (older PCB)"
-0.181-     : tnzsop - "The NewZealand Story (World, prototype) (older PCB)"
+0.181-0.189: tnzsop - "The NewZealand Story (World, prototype) (older PCB)"
+0.190-0.194: tnzsop - "The NewZealand Story (World, prototype) (P0-041-1 PCB)"
 
 Resolution, 0.106-0.133: 256x224 @ 60.000000Hz
-Resolution, 0.134-0.181: 256x224 @ 59.150000Hz
+Resolution, 0.134-0.194: 256x224 @ 59.150000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=The%20NewZealand%20Story%20[World,%20older]
+TG Game Entry: http://www.twingalaxies.com/the-newzealand-story-world-older/mame
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=120403
 
 
@@ -25,10 +27,11 @@ The NewZealand Story (World, unknown version) (older PCB)
 Note: not currently represented on TG.
 ROM set changed: YES.  Added in 0.129u5.
 0.129u5-0.180: tnzso - "The NewZealand Story (World, old version) (older PCB)"
-0.181-     : tnzsoa - "The NewZealand Story (World, unknown version) (older PCB)"
+0.181-0.189: tnzsoa - "The NewZealand Story (World, unknown version) (older PCB)"
+0.190-0.194: tnzsoa - "The NewZealand Story (World, unknown version) (P0-041A PCB)"
 
 Resolution, 0.130-0.133: 256x224 @ 60.000000Hz
-Resolution, 0.134-0.181: 256x224 @ 59.150000Hz
+Resolution, 0.134-0.194: 256x224 @ 59.150000Hz
 
 Rules: [no current tracks]
 
@@ -38,8 +41,9 @@ The NewZealand Story (World, old version) (older PCB)
 Note: not currently represented on TG.
 ROM set changed: no.  Added in 0.181.
 
-0.181-     : tnzso - "The NewZealand Story (World, old version) (older PCB)"
+0.181-0.189: tnzso - "The NewZealand Story (World, old version) (older PCB)"
+0.190-0.194: tnzso - "The NewZealand Story (World, old version) (P0-041A PCB)"
 
-Resolution, 0.181-     : 256x224 @ 59.150000Hz
+Resolution, 0.181-0.194 256x224 @ 59.150000Hz
 
 Rules: [no current tracks]

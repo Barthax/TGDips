@@ -1,15 +1,15 @@
 ROMs Changed: none
-0.106-0.175: xmen - "X-Men (4 Players ver UBB)"
+0.106-0.194: xmen - "X-Men (4 Players ver UBB)"
 
 Resolution, 0.106: 304x224 @ 60.000000Hz
 Resolution, 0.107-0.123: 288x224 @ 60.000000Hz
 Resolution, 0.125-0.133: 304x224 @ 60.000000Hz
-Resolution, 0.134-0.175: 304x224 @ 59.170000Hz
+Resolution, 0.134-0.194: 304x224 @ 59.170000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=X-Men%20[4%20Players%20ver%20UBB]
+TG Game Entry: http://www.twingalaxies.com/x-men-4-players-ver-ubb/mame/
 Rules, Single Player: http://www.twingalaxies.com/scores.php?scores=120661
 Rules, Two Player Team: http://www.twingalaxies.com/scores.php?scores=120662
 Rules, Three Player Team: http://www.twingalaxies.com/scores.php?scores=120663
 Rules, Four Player Team: http://www.twingalaxies.com/scores.php?scores=120664
-Note: if settings not shown by the player, use F2 after playback to enter the internal settings.
 
+Note: if settings not shown by the player, use F2 after playback to enter the internal settings.

@@ -11,15 +11,15 @@ ROM set changes: yes:
 0.53-0.131: puckman - "PuckMan (Japan set 1, Probably Bootleg)"
 0.132-0.147: puckman - "PuckMan (Japan set 1)"
 0.148: puckman - "Puck Man (Japan set 1)"   (minor description change only)
-0.148u4-0.190: puckmanb - "Puck Man (bootleg set 1)"
+0.148u4-0.194: puckmanb - "Puck Man (bootleg set 1)"
 
 Resolution, 0.106-0.113: 288x224 @ 60.606060Hz
-Resolution, 0.114-0.190: 288x224 @ 60.606061Hz
+Resolution, 0.114-0.194: 288x224 @ 60.606061Hz
 
-TG Game Entry [old]: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Pac-Man     (Note: lots of entries match this.)
-TG Game Entry: http://www.twingalaxies.com/game_detail.php?gameid=3229&platformid=46
+TG Game Entry: http://www.twingalaxies.com/pac-man/mame/
 Rules, High Score Challenge: http://www.twingalaxies.com/scores.php?scores=197901
 Rules, Points [TG settings]: http://www.twingalaxies.com/scores.php?scores=11853
+
 Note 1: Between 2005 and 2016 the Pac-Man "Points [TG settings]" rules only permitted the puckman ROM set.  Prior to 2005, only the pacman ROM set was permitted.  2016 has muddied the waters.
 Note 2: do not use Service Mode (F2) to check after playback as it will have reverted to localised settings.
 
@@ -29,11 +29,10 @@ Puck Man (Japan set 1)
 ROM set changed: yes, but currently moot as only relevant track allows many ROM sets
 0.106-0.147: puckmana - "PuckMan (Japan set 2)"
 0.148: puckmana - "Puck Man (Japan set 2)"   (minor description change only)
-0.148u4-0.190: puckman - "Puck Man (Japan set 1)"
+0.148u4-0.194: puckman - "Puck Man (Japan set 1)"
 
 Resolution, 0.106-0.113: 288x224 @ 60.606060Hz
-Resolution, 0.114-0.190: 288x224 @ 60.606061Hz
+Resolution, 0.114-0.194: 288x224 @ 60.606061Hz
 
-TG Game Entry [old]: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Pac-Man     (Note: lots of entries match this.)
-TG Game Entry: http://www.twingalaxies.com/game_detail.php?gameid=3229&platformid=46
+TG Game Entry: http://www.twingalaxies.com/pac-man/mame/
 Rules, High Score Challenge: http://www.twingalaxies.com/scores.php?scores=197901

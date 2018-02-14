@@ -1,11 +1,15 @@
 ROM set changed: no
-0.106-0.175: trackfld - "Track & Field"
+0.106-0.194: trackfld - "Track & Field"
 
-Resolution, 0.106-0.175: 256x224 @ 60.000000Hz
+Resolution, 0.106-0.194: 256x224 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Track%20%26%20Field
+TG Game Entry: http://www.twingalaxies.com/track-field/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=7884
 Rules, Points [ 1-Man / Extended Rounds ]: http://www.twingalaxies.com/scores.php?scores=131631
 Rules, Open Class Challenge! (Engineering): http://www.twingalaxies.com/scores.php?scores=198266
 Rules, Points (button input only): http://www.twingalaxies.com/scores.php?scores=198087
 Rules, Points (trackball and buttons): http://www.twingalaxies.com/scores.php?scores=198124
+Rules, 100 meters dash fastest time: http://www.twingalaxies.com/scores.php?scores=212587
+Rules, Hurdles. Fastest time: http://www.twingalaxies.com/scores.php?scores=212602
+Rules, Javelin. Furthest distance: http://www.twingalaxies.com/scores.php?scores=212589
+Rules, Long Jump. Furthest distance: http://www.twingalaxies.com/scores.php?scores=212588		
