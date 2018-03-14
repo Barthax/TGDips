@@ -1,0 +1,37 @@
+Note: two ROM sets represented here with changeover at 0.79u1. There was an earlier Atari set known as "digdug", but that's not relevant to any current TG tracks.
+
+MAME History:
+- 0.26: Aaron Giles added 'Dig Dug - Namco' (Namco 1982) and clone 'Dig Dug - Atari'. Game is playable with accurate colors and sound. Control: Arrows = Move around and CTRL = Pump. Known issues: The Atari version has some glitches on sprites/chars.
+- 0.27: Changed description to 'Dig Dug (Namco)' and clone Atari to 'Dig Dug (Atari)'. Renamed (digdug) to (digdugat).
+- 0.35RC1: Yasuhiro Ogawa added clone Dig Dug (set 2). Changed 'Dig Dug (Namco)' to parent 'Dig Dug (set 1)'. Renamed (digdug) to (digdugat) and (digdugnm) to (digdug).
+- 0.79u1: Nicola Salmoria swapped (digdug) and (digdugb), the main set should be the newer one. Added EAROM support to Dig Dug. Changed Z80 CPU1/2/3 clock speeds to 3072000 Hz. Changed clone (set 2) to parent 'Dig Dug (rev 2)' and (set 1) to clone 'Dig Dug (rev 1)'. Renamed (digdug) to (digdugb) and (digdugb) to (digdug).
+- 0.133u3: Yasuhiro Ogawa renamed (digdugb) to (digdug1) (it's a rev1, not a bootleg) and (digduga1) to (digdugat1). Fixed rom names.
+
+Dig Dug (rev 1)
+---------------
+ROM set changed: yes. Earlier renames for historical purposes only.
+0.026      :   digdugnm - "Dig Dug - Namco"
+0.027-0.035:   digdugnm - "Dig Dug (Namco)"
+0.35RC1-0.079: digdug - "Dig Dug (set 1)"
+0.079u1-0.133: digdugb - "Dig Dug (rev 1)"
+0.133u3-0.194: digdug1 - "Dig Dug (rev 1)"
+
+Resolution, 0.078-0.131: 288x224 @ 60.606060Hz
+Resolution, 0.132-0.194: 288x224 @ 60.606061Hz
+
+TG Game Entry: http://www.twingalaxies.com/game/dig-dug-rev-1/mame/
+Rules, Points [Marathon Settings]: http://www.twingalaxies.com/scores.php?scores=5191
+Rules, Points [Tournament Settings]: http://www.twingalaxies.com/scores.php?scores=9850
+Rules, Points [ADeca 2004 Only Variation]: http://www.twingalaxies.com/scores.php?scores=9851
+
+Dig Dug (rev 2)
+---------------
+Note: not currently represented at TG. 
+ROM set changed: yes. Added in 0.35RC1.
+0.35RC1-0.079: digdugb - "Dig Dug (set 2)"
+0.079u1-0.194: digdug - "Dig Dug (rev 2)"
+
+Resolution, 0.078-0.131: 288x224 @ 60.606060Hz
+Resolution, 0.132-0.194: 288x224 @ 60.606061Hz
+
+Rules: [no current tracks]

@@ -1,9 +1,9 @@
 ROM set changed: no
 0.106-0.146: yiear - "Yie Ar Kung-Fu (set 1)"
-0.147-0.175: yiear - "Yie Ar Kung-Fu (program code I)"
+0.147-0.194: yiear - "Yie Ar Kung-Fu (program code I)"
 
 Resolution, 0.106-0.133: 256x224 @ 60.000000Hz
-Resolution, 0.134-0.175: 256x224 @ 60.580000Hz
+Resolution, 0.134-0.194: 256x224 @ 60.580000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Yie%20Ar%20Kung-Fu%20%5Bset%201%5D
+TG Game Entry: http://www.twingalaxies.com/game/yie-ar-kung-fu-set-1/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=18800
