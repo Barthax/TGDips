@@ -3,6 +3,7 @@ Note: two ROM sets represented here with changeover at 0.131u3.
 MAME History:
 - 0.131u3: Irongiant added Wizard Fire (Over Sea v2.1). Renamed (wizdfire) to (wizdfiru).
 - 0.133u1: Renamed (wizdfiru) to (wizdfireu) and (darksel2) to (darkseal2).
+- 0.163: Porchy and The Dumping Union redumped MAS10 sound sample rom for Wizard Fire and clones at the correct size (1MB). Fixes missing sounds in clone Dark Seal 2 (Japan v2.1). David Haywood added bankswitch hack (sample banks 0/1 are used for the Japanese version and 2/3 are used for the English version).
 
 
 Wizard Fire (US v1.1)
@@ -10,11 +11,11 @@ Wizard Fire (US v1.1)
 ROM set changed: yes
 0.106-0.131: wizdfire - "Wizard Fire (US v1.1)"
 0.131u3-0.133: wizdfiru - "Wizard Fire (US v1.1)"
-0.133u1-0.175: wizdfireu - "Wizard Fire (US v1.1)"
+0.133u1-0.195: wizdfireu - "Wizard Fire (US v1.1)"
 
-Resolution, 0.106-0.175: 320x240 @ 58.000000Hz
+Resolution, 0.106-0.195: 320x240 @ 58.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Wizard%20Fire%20[US%20version%201.1]
+TG Game Entry: https://www.twingalaxies.com/game/wizard-fire-us-version-11/mame/
 Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=18978
 Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=120644
 
@@ -23,9 +24,8 @@ Wizard Fire (Over Sea v2.1)
 ---------------------------
 Note: not currently represented on TG.
 ROM set changed: no.  Added in 0.131u3.
-0.131u3-0.176: wizdfire - "Wizard Fire (Over Sea v2.1)"
+0.131u3-0.195: wizdfire - "Wizard Fire (Over Sea v2.1)"
 
-Resolution, 0.132-0.176: 320x240 @ 58.000000Hz
+Resolution, 0.132-0.195: 320x240 @ 58.000000Hz
 
 Rules: [no current tracks]
-

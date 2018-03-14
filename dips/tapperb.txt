@@ -1,0 +1,16 @@
+ROM set changed: yes
+0.106-0.141: tapper - "Tapper (Budweiser)"
+0.142-0.194: tapper - "Tapper (Budweiser, set 1)"
+0.195-     : tapperb - "Tapper (Budweiser, Date Unknown)"
+
+MAME History:
+- 0.141u2: Changed description to 'Tapper (Budweiser, set 1)' and clone (alternate) to 'Tapper (Budweiser, set 2)'.
+- 0.195: Marc Deslauriers added clone Tapper (Budweiser, 12/9/83). Corrected several ROM names for the Tapper sets [Marc Deslauriers, Brian Troha]. Changed (Budweiser, set 1) to clone 'Tapper (Budweiser, Date Unknown)' and (Budweiser, set 2) to parent 'Tapper (Budweiser, 1/27/84)'. Renamed (tapper) to (tapperb) and (tappera) to (tapper).
+
+Resolution, 0.106-0.195: 512x480 @ 30.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/game/tapper-budweiser/mame/
+Rules, Points [Marathon Settings]: http://www.twingalaxies.com/scores.php?scores=7872
+Rules, Points [Tournament Settings]: http://www.twingalaxies.com/scores.php?scores=7873
+
+NOTE: There are both hardware DIP switches & internal settings.  Use Service Mode (F2) then Tilt (T) to access the internal settings after playback if not shown during playback.

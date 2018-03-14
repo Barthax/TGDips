@@ -1,12 +1,12 @@
 ROM Set Changed: no
-Berzerk: 0.106-0.181: berzerk - "Berzerk (Set 1)"
-Berzerk1: 0.106-0.181: berzerk1 - "Berzerk (Set 2)"
+Berzerk: 0.106-0.195: berzerk - "Berzerk (Set 1)"
+Berzerk1: 0.106-0.195: berzerk1 - "Berzerk (Set 2)"
 NB: berzerk is Fast Bullets, berzerk1 is Slow Bullets.
 
 Resolution, 0.106-0.115: 256x224 @ 60.000000Hz
-Resolution, 0.116-0.181: 256x224 @ 59.637405Hz
+Resolution, 0.116-0.195: 256x224 @ 59.637405Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Berzerk
+TG Game Entry: https://www.twingalaxies.com/game/berzerk/mame/
 Rules, 1-life, Slow Bullets, Random Play: http://www.twingalaxies.com/scores.php?scores=131843   [incorrectly states "berzerk" ROM set and rules state fast bullets, should be "berzerk1" and slow bullets, otherwise is a duplicate track]
 Rules, 1-life, Fast Bullets, Random Play: http://www.twingalaxies.com/scores.php?scores=9867
 Rules, 1-life, Slow Bullets, Pattern Play: http://www.twingalaxies.com/scores.php?scores=131847  [incorrectly states "berzerk" ROM set and rules state fast bullets, should be "berzerk1" and slow bullets, otherwise is a duplicate track]

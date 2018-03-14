@@ -1,8 +1,8 @@
 ROM set changed: no
-0.106-0.183: pengo - "Pengo (set 1 rev c)"
+0.106-0.195: pengo - "Pengo (set 1 rev c)"
 
 Resolution, 0.106-0.115: 288x224 @ 60.606060Hz
-Resolution, 0.116-0.183: 288x224 @ 60.606061Hz
+Resolution, 0.116-0.195: 288x224 @ 60.606061Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Pengo+[set+1+rev+C]
+TG Game Entry: https://www.twingalaxies.com/game/pengo-set-1-rev-c/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=7783

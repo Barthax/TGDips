@@ -1,12 +1,12 @@
 ROM set changed: no
 0.106-0.127: ikari - "Ikari Warriors (US)"
-0.128-0.175: ikari - "Ikari Warriors (US JAMMA)"
+0.128-0.195: ikari - "Ikari Warriors (US JAMMA)"
 
 MAME History:
 - 0.127u1: Corrado Tomaselli added clone Ikari Warriors (US). SNK rewrite [Nicola Salmoria]: Fixed sprite-sprite priorities. Removed ROM patches, simulated "hard flags" behaviour, oroper memory maps, fixed color test in clone (Japan). fixed inputs and added DIP locations etc. Removed NO_COCKTAIL flag since the game don't have a flip screen dipswitch. This fixes the title and high score screen do not have a black background, as MAME displays. Changed parent description to 'Ikari Warriors (US JAMMA)' and clone (Japan bootleg) to 'Ikari (Joystick hack bootleg)'.
 
-Resolution, 0.106-0.175: 288x216 @ 60.000000Hz
+Resolution, 0.106-0.195: 288x216 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Ikari%20Warriors%20[US]
+TG Game Entry: https://www.twingalaxies.com/game/ikari-warriors-us/mame/
 Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=75113
 Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=75114
