@@ -1,9 +1,9 @@
 ROM set changed: no
-0.106-0.175: esb - "The Empire Strikes Back"
+0.106-0.195: esb - "The Empire Strikes Back"
 
 Resolution, 0.106-0.108: vector @ 30.000000Hz
 Resolution, 0.109-0.152: vector @ 40.000000Hz
-Resolution, 0.153-0.175: vector @ 41.015625Hz
+Resolution, 0.153-0.195: vector @ 41.015625Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=The%20Empire%20Strikes%20Back
+TG Game Entry: https://www.twingalaxies.com/game/the-empire-strikes-back/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=7726

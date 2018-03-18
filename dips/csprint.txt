@@ -1,8 +1,8 @@
 ROM set changed: no
-0.106-0.175: csprint - "Championship Sprint (rev 3)"
+0.106-0.195: csprint - "Championship Sprint (rev 3)"
 
 Resolution, 0.106-0.122: 512x384 @ 60.000000Hz
-Resolution, 0.123-0.175: 512x384 @ 60.096154Hz
+Resolution, 0.123-0.195: 512x384 @ 60.096154Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Championship%20Sprint%20[Rev%203]
+TG Game Entry: https://www.twingalaxies.com/game/championship-sprint-rev-3/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=24464
