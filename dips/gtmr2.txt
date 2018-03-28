@@ -1,17 +1,15 @@
 ROM set changed: no
-0.106-0.175: gtmr2 - "Mille Miglia 2: Great 1000 Miles Rally (95/05/24)"
+0.106-0.195: gtmr2 - "Mille Miglia 2: Great 1000 Miles Rally (95/05/24)"
 
-Resolution, 0.106-0.175: 320x240 @ 60.000000Hz
+Resolution, 0.106-0.195: 320x240 @ 60.000000Hz
 
-Rules, All Stages [Fastest Total Completion]: http://www.twingalaxies.com/scores.php?scores=75584
-Rules, Stage 1 [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=75576
-Rules, Stage 2 [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=75577
-Rules, Stage 3 [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=75578
-Rules, Stage 4 [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=75579
-Rules, Stage 5 [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=75580
-Rules, Stage 6 [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=75581
-Rules, Stage 7 [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=75582
-Rules, Stage 8 [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=75583
-
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Mille%20Miglia%202:%20Great%201000%20Miles%20Rally%20[95/05/24]
-
+TG Game Entry: https://www.twingalaxies.com/game/mille-miglia-2-great-1000-miles-rally-95-05-24/mame/
+Rules, Stage 1 [Fastest Race]: https://www.twingalaxies.com/scores.php?scores=75576
+Rules, Stage 2 [Fastest Race]: https://www.twingalaxies.com/scores.php?scores=75577
+Rules, Stage 3 [Fastest Race]: https://www.twingalaxies.com/scores.php?scores=75578
+Rules, Stage 4 [Fastest Race]: https://www.twingalaxies.com/scores.php?scores=75579
+Rules, Stage 5 [Fastest Race]: https://www.twingalaxies.com/scores.php?scores=75580
+Rules, Stage 6 [Fastest Race]: https://www.twingalaxies.com/scores.php?scores=75581
+Rules, Stage 7 [Fastest Race]: https://www.twingalaxies.com/scores.php?scores=75582
+Rules, Stage 8 [Fastest Race]: https://www.twingalaxies.com/scores.php?scores=75583
+Rules, All Stages [Fastest Total Completion]: https://www.twingalaxies.com/scores.php?scores=75584
