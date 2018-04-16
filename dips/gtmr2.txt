@@ -13,3 +13,5 @@ Rules, Stage 6 [Fastest Race]: https://www.twingalaxies.com/scores.php?scores=75
 Rules, Stage 7 [Fastest Race]: https://www.twingalaxies.com/scores.php?scores=75582
 Rules, Stage 8 [Fastest Race]: https://www.twingalaxies.com/scores.php?scores=75583
 Rules, All Stages [Fastest Total Completion]: https://www.twingalaxies.com/scores.php?scores=75584
+
+NOTE: There are both hardware DIP switches & internal settings.  However, I haven't figured how to access Service Mode after playback, nor how to return to the game if you start in Service Mode.

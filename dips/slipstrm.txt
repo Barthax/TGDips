@@ -17,4 +17,4 @@ Rules, Japanese Course [Fastest Race]: http://www.twingalaxies.com/scores.php?sc
 Rules, Monaco Course [Fastest Lap]: http://www.twingalaxies.com/scores.php?scores=110682
 Rules, Monaco Course [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=110683
 
-NOTE FOR INTERNAL SETTINGS: if settings not shown by the player, use F2 after playback to view settings used.  Navigate with Service Mode button and Player 1 Start button.
+NOTE: There are both hardware DIP switches & internal settings.  Use Service Mode (F2) to access the internal settings after playback if not shown during playback. Navigate with Service Mode button, select with Player 1 Start button.

@@ -1,8 +1,12 @@
 ROM set changed: no
-0.106-0.175: tbyahhoo - "Twin Bee Yahhoo! (ver JAA)"
+0.106-0.196: tbyahhoo - "Twin Bee Yahhoo! (ver JAA)"
 
 Resolution, 0.106: 288x224 @ 58.000000Hz
 Resolution, 0.107-0.125: 288x224 @ 60.000000Hz
-Resolution, 0.126-0.175: 288x224 @ 59.185606Hz
+Resolution, 0.126-0.196: 288x224 @ 59.185606Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Twin Bee Yahhoo! [ver JAA]
+TG Game Entry: https://www.twingalaxies.com/game/twin-bee-yahhoo-ver-jaa/mame/
+Rules, Points [Single Player Only]: https://www.twingalaxies.com/scores.php?scores=120488
+Rules, Points [Two Player Team]: https://www.twingalaxies.com/scores.php?scores=120489
+
+NOTE: There are both hardware DIP switches & internal settings.  Use Service Mode (F2) to access the internal settings after playback if not shown during playback.
