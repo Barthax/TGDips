@@ -8,12 +8,12 @@ Battle Zone (set 1) / (rev 1)
 -----------------------------
 ROM set changed: yes
 0.106-0.146: bzone - "Battle Zone (set 1)"
-0.146u1-0.189: bzonea - "Battle Zone (rev 1)"
+0.146u1-0.197: bzonea - "Battle Zone (rev 1)"
 
 Resolution, 0.106-0.152: vector @ 40.000000Hz
-Resolution, 0.153-0.189: vector @ 41.015625Hz
+Resolution, 0.153-0.197: vector @ 41.015625Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Battle+Zone+[Set+1]
+TG Game Entry: https://www.twingalaxies.com/game/battle-zone-set-1/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=10097
 Rules, Extreme rule - one life only: http://www.twingalaxies.com/scores.php?scores=210308
 
@@ -23,9 +23,9 @@ Battle Zone (set 2) / (rev 2)
 Note: not currently represented on TG.
 ROM set changed: yes
 0.106-0.146: bzone2 - "Battle Zone (set 2)"
-0.146u1-0.189: bzone - "Battle Zone (rev 2)"
+0.146u1-0.1:97 bzone - "Battle Zone (rev 2)"
 
 Resolution, 0.147-0.152: vector @ 40.000000Hz
-Resolution, 0.153-0.189: vector @ 41.015625Hz
+Resolution, 0.153-0.197: vector @ 41.015625Hz
 
 Rules: [no current tracks]

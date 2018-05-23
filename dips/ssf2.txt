@@ -8,14 +8,14 @@ Super Street Fighter II: The New Challengers (World 930911)
 -----------------------------------------------------------
 ROM set changed: yes
 0.106-0.154: ssf2 - "Super Street Fighter II: The New Challengers (World 930911)"
-0.155-0.175: ssf2r1 - "Super Street Fighter II: The New Challengers (World 930911)"
+0.155-0.197: ssf2r1 - "Super Street Fighter II: The New Challengers (World 930911)"
 
 Resolution, 0.106-0.113: 384x224 @ 59.633331Hz
 Resolution, 0.114-0.127: 384x224 @ 59.633333Hz
 Resolution, 0.128-0.152: 384x224 @ 59.629403Hz
-Resolution, 0.153-0.175: 384x224 @ 59.637405Hz
+Resolution, 0.153-0.197: 384x224 @ 59.637405Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Super+Street+Fighter+II:+The+New+Challengers+%5BWorld+930911%5D
+TG Game Entry: https://www.twingalaxies.com/game/super-street-fighter-ii-the-new-challengers-world-930911/mame/
 Rules, Points [Tournament Settings]: http://www.twingalaxies.com/scores.php?scores=11190
 
 NOTE: All settings are internal. Enter Service Mode [F2] at the end of recording to check settings if they are not shown during playback.
@@ -24,8 +24,8 @@ NOTE: All settings are internal. Enter Service Mode [F2] at the end of recording
 Super Street Fighter II: The New Challengers (World 931005)
 -----------------------------------------------------------
 Note: not currently tracked on TG.
-0.155-0.176: ssf2 - "Super Street Fighter II: The New Challengers (World 931005)"
+0.155-0.197: ssf2 - "Super Street Fighter II: The New Challengers (World 931005)"
 
-Resolution, 0.155-0.176: 384x224 @ 59.637405Hz
+Resolution, 0.155-0.197: 384x224 @ 59.637405Hz
 
 Rules: [no current tracks]

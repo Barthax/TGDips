@@ -1,8 +1,14 @@
 ROM set changed: no
 0.106-0.147: robby - "Robby Roto"
-0.148-0.175: robby - "The Adventures of Robby Roto!"
+0.148-0.197: robby - "The Adventures of Robby Roto!"
+
+MAME History:
+- 0.108u3: wolf676 identified some unknown dipswitches in Robby Roto. Added dipswitches 'Use NVRAM" and 'Use Service Mode Settings'.
+- 0.115u1: Changed Z80 CPU and 2x Astrocade clock speeds to 1789772 Hz, palettesize to 512 colors and VSync to 60.054442 Hz. Changed 'Unknown' dipswitches to 'Unused'.
+- 0.147u1: hap changed description to 'The Adventures of Robby Roto!'.
 
 Resolution, 0.106-0.115: 320x204 @ 60.000000Hz
-Resolution, 0.116-0.175: 352x240 @ 60.054442Hz
+Resolution, 0.116-0.197: 352x240 @ 60.054442Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Robby Roto
+TG Game Entry: https://www.twingalaxies.com/game/robby-roto/mame/
+Rules, Points: https://www.twingalaxies.com/scores.php?scores=10484
