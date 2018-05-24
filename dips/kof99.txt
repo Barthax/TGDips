@@ -10,13 +10,15 @@ The King of Fighters '99 - Millennium Battle (set 1) / (set 2) / (NGH-2510)
 ROM set changed: yes
 0.106-0.139: kof99 - "The King of Fighters '99 - Millennium Battle (set 1)"
 0.139u2-0.145: kof99h - "The King of Fighters '99 - Millennium Battle (set 2)"
-0.146-0.175: kof99h - "The King of Fighters '99 - Millennium Battle (NGH-2510)"
+0.146-0.197: kof99h - "The King of Fighters '99 - Millennium Battle (NGH-2510)"
 
 Resolution, 0.106-0.113: 320x224 @ 59.185608Hz
-Resolution, 0.114-0.175: 320x224 @ 59.185606Hz
+Resolution, 0.114-0.197: 320x224 @ 59.185606Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=The%20King%20Of%20Fighters%20%2799%20-%20The%20Millenium%20Battle%20[Set%201]
+TG Game Entry: https://www.twingalaxies.com/game/the-king-of-fighters-99-the-millenium-battle-set-1/mame/
 Rules, Battle Ability [Tournament Settings]: http://www.twingalaxies.com/scores.php?scores=15426
+
+NOTE: All relevant rules are covered by internal settings.  If not shown during playback, use F2 to access after playback completed.
 
 
 The King of Fighters '99 - Millennium Battle (set 1) / (NGM-2510)
@@ -24,9 +26,8 @@ The King of Fighters '99 - Millennium Battle (set 1) / (NGM-2510)
 Note: not currently represented on TG.
 ROM set changed: no.  Added in 0.139u2.
 0.139u2-0.145: kof99 - "The King of Fighters '99 - Millennium Battle (set 1)"
-0.146-0.175: kof99 - "The King of Fighters '99 - Millennium Battle (NGM-2510)"
+0.146-0.197: kof99 - "The King of Fighters '99 - Millennium Battle (NGM-2510)"
 
-Resolution, 0.146-0.175: 320x224 @ 59.185606Hz
+Resolution, 0.146-0.197: 320x224 @ 59.185606Hz
 
 Rules: [no current tracks]
-

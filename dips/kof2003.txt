@@ -3,10 +3,12 @@ ROM set changed: no
 0.125-0.127: kof2003 - "The King of Fighters 2003"
 0.128-0.138: kof2003 - "The King of Fighters 2003 (set 1)"
 0.139-0.143: kof2003 - "The King of Fighters 2003"
-0.144-0.175: kof2003 - "The King of Fighters 2003 (NGM-2710)"
+0.144-0.197: kof2003 - "The King of Fighters 2003 (NGM-2710)"
 
 Resolution, 0.106-0.113: 320x224 @ 59.185608Hz
-Resolution, 0.114-0.175: 320x224 @ 59.185606Hz
+Resolution, 0.114-0.197: 320x224 @ 59.185606Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=The%20King%20Of%20Fighters%202003
+TG Game Entry: https://www.twingalaxies.com/game/the-king-of-fighters-2003/mame/
 Rules, Points [Tournament Settings]: http://www.twingalaxies.com/scores.php?scores=120392
+
+NOTE: All relevant rules are covered by internal settings.  If not shown during playback, use F2 to access after playback completed.

@@ -1,14 +1,16 @@
 ROM set changed: yes
 0.106-0.139: kof99 - "The King of Fighters '99 - Millennium Battle (set 1)"
 0.139u2-0.145: kof99h - "The King of Fighters '99 - Millennium Battle (set 2)"
-0.146-0.175: kof99h - "The King of Fighters '99 - Millennium Battle (NGH-2510)"
+0.146-0.197: kof99h - "The King of Fighters '99 - Millennium Battle (NGH-2510)"
 
 MAME History:
 - 0.139u2: Johnboy renamed (kof99) to (kof99h) and (kof99a) to (kof99).
 - 0.145u6: Changed description to 'The King of Fighters '99 - Millennium Battle (NGM-2510)' and clone (set 2) to 'The King of Fighters '99 - Millennium Battle (NGH-2510)'.
 
 Resolution, 0.106-0.113: 320x224 @ 59.185608Hz
-Resolution, 0.114-0.175: 320x224 @ 59.185606Hz
+Resolution, 0.114-0.197: 320x224 @ 59.185606Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=The%20King%20Of%20Fighters%20%2799%20-%20The%20Millenium%20Battle%20[Set%201]
+TG Game Entry: https://www.twingalaxies.com/game/the-king-of-fighters-99-the-millenium-battle-set-1/mame/
 Rules, Battle Ability [Tournament Settings]: http://www.twingalaxies.com/scores.php?scores=15426
+
+NOTE: All relevant rules are covered by internal settings.  If not shown during playback, use F2 to access after playback completed.

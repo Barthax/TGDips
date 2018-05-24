@@ -1,10 +1,12 @@
 ROM set changed: no
 0.106-0.143: kof2000 - "The King of Fighters 2000"
 0.144-0.173: kof2000 - "The King of Fighters 2000 (NGM-2570) (NGH-2570)"
-0.174-0.175: kof2000 - "The King of Fighters 2000 (NGM-2570 ~ NGH-2570)"
+0.174-0.197: kof2000 - "The King of Fighters 2000 (NGM-2570 ~ NGH-2570)"
 
 Resolution, 0.106-0.113: 320x224 @ 59.185608Hz
-Resolution, 0.114-0.175: 320x224 @ 59.185606Hz
+Resolution, 0.114-0.197: 320x224 @ 59.185606Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=The%20King%20Of%20Fighters%202000
-Rules, Best Ability [Tournament Settings]: http://www.twingalaxies.com/scores.php?scores=15427
+TG Game Entry: https://www.twingalaxies.com/game/the-king-of-fighters-2000/mame/
+Rules, Battle Ability [Tournament Settings]: http://www.twingalaxies.com/scores.php?scores=15427
+
+NOTE: All relevant rules are covered by internal settings.  If not shown during playback, use F2 to access after playback completed.
