@@ -1,0 +1,14 @@
+ROM set changed: yes
+0.106-0.194: wsf - "World Soccer Finals"
+0.195-0.197: wsf - "World Soccer Finals (rev 3)"
+0.198-     : wsf3 - "World Soccer Finals (rev 3)"
+
+MAME History:
+- 0.195: Changed description to 'World Soccer Finals (rev 3)'.
+- 0.198: Kevin Eshbach and The Dumping Union added World Soccer Finals (rev 4). Renamed (wsf) to (wsf3).
+
+Resolution, 0.106-0.198: 320x240 @ 60.000000Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/world-soccer-finals/mame
+Rules, Biggest Blowout: http://www.twingalaxies.com/scores.php?scores=120654
+Rules, Highest Salary: http://www.twingalaxies.com/scores.php?scores=131663

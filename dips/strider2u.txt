@@ -1,0 +1,11 @@
+ROM set changed: yes
+0.106-0.197: strider2 - "Strider 2 (USA 991213)"
+0.198-     : strider2u - "Strider 2 (USA 991213)"
+
+MAME History:
+- 0.198: Nomax, Corrado Tomaselli, f205v and The Dumping Union added Strider 2 (Euro 991213). Renamed (strider2) to (strider2u).
+
+Resolution, 0.106-0.198: 640x480 @ 60.000000Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/strider-2-usa-991213/mame
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=75338
