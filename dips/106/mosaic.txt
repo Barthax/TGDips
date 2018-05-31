@@ -43,9 +43,11 @@ INPUT_PORTS_START( mosaic )
 	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
 INPUT_PORTS_END
 
-Resolution: 320x224 @60Hz
+Resolution: 320x224 @ 60.000000Hz
 
-Rules: http://www.twingalaxies.com/scores.php?scores=75613
+TG Game Entry: https://www.twingalaxies.com/game/mosaic/mame/
+Rules, Points: https://www.twingalaxies.com/scores.php?scores=75613
+
 ROMSet: Mosaic
 Service Mode: Off
 Bombs: 3
@@ -54,8 +56,8 @@ Music: On
 Sound: On
 
 Sample correct TG:
-DSW1: offset 0x27, repeat every 0x7C, typical value 0xBF
-- DSW1: 0x80 (unused): [not relevant]
+DSW1: offset 0x2B, repeat every 0x7C, typical value 0xBC
+- DSW1: 0x80 (SERVICE MODE): 0x80 (OFF)
 - DSW1: 0x40 (Bombs): 0x00 (3)
 - DSW1: 0x20 (Speed): 0x20 (Low)
 - DSW1: 0x10 (Demo_Sounds): [not relevant]

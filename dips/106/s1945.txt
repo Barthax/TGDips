@@ -145,7 +145,7 @@ INPUT_PORTS_END
 
 Resolution: 320x224 @ 59.299999Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Strikers+1945
+TG Game Entry: https://www.twingalaxies.com/game/strikers-1945/mame/
 Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=20442
 Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=20443
 
@@ -169,7 +169,7 @@ IN2: offset 0x2A, repeat every 0x7C, typical value 0xFFFD
 - IN2: 0x0e00 (Coin_A): [not relevant]
 - IN2: 0x7000 (Coin_B): [not relevant]
 - IN2: 0x8000 (2C Start, 1C Continue): [not relevant]
-IN3: offset 0x2E, repeat every 0x7C, typical value 0xFFFF / 0x007F after VBLANK
+IN3: offset 0x2E, repeat every 0x7C, typical value 0xFFFF / 0xFF7F after VBLANK
 - IN3: 0x000f (Country): 0x000f (World)
 
     20: 00 00 FF FF 00 00 FF 7B  00 00 FF FD 00 00 FF FF

@@ -103,9 +103,10 @@ INPUT_PORTS_END
 
 Resolution: 256x224 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Wonder+Boy+%5Bset+1,+new+encryption%5D
+TG Game Entry: http://www.twingalaxies.com/wonder-boy-set-1-new-encryption/mame/
+--------------------------------------------------------------------------------
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=7899
-Rules, ADeca 2004 - 1 Life Only: http://www.twingalaxies.com/scores.php?scores=9864  [This variation was created for the ADeca2004 Competition. Submissions for this variation are CLOSED!]
+Rules, ADeca 2004 - 1 Life Only: http://www.twingalaxies.com/scores.php?scores=9864
 
 ROM Set: WBoy
 Cabinet: Upright
@@ -128,3 +129,25 @@ DSW0: Offset 0x33, repeat every 0x7C, typical value 0x8C
     30: 00 00 00 8C 00 00 00 00  00 00 00 00 00 00 00 00
     A0: 00 00 00 FF 00 00 00 FF  00 00 00 FF 00 00 00 8C
    120: 00 00 00 FF 00 00 00 FF  00 00 00 8C 00 00 00 00
+--------------------------------------------------------------------------------
+Rules, Points - Easy Setting: http://www.twingalaxies.com/scores.php?scores=213525
+
+ROM Set: WBoy
+Lives: 3
+Bonus Life: 30K, 120K, 210K, 300K
+Allow continue: Players choice
+Difficulty: Easy
+
+Sample correct TG:
+DSW0: Offset 0x33, repeat every 0x7C, typical value 0xFC
+-DSW0: 0x01 (Cabinet): [not relevant]
+-DSW0: 0x02 (Demo_Sounds): [not relevant]
+-DSW0: 0x0c (Lives): 0x0c (3)
+-DSW0: 0x10 (Bonus_Life): 0x10 (30k 100k 170k 240k)
+-DSW0: 0x20 (Allow_Continue): [not relevant]
+-DSW0: 0x40 (Difficulty): 0x40 (Easy)
+-DSW0: 0x80 (Unknown): [not relevant]
+
+    30: 00 00 00 FC 00 00 00 00  00 00 00 00 00 00 00 00
+    A0: 00 00 00 FF 00 00 00 FF  00 00 00 FF 00 00 00 FC
+   120: 00 00 00 FF 00 00 00 FF  00 00 00 FC 00 00 00 00

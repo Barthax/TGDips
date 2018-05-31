@@ -53,7 +53,7 @@ INPUT_PORTS_END
 
 Resolution: 320x224 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Strikers+1945+II   * note that this will match more than one entry
+TG Game Entry: https://www.twingalaxies.com/game/strikers-1945-ii/mame/
 Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=23010
 Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=23011
 
