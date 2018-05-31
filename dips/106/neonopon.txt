@@ -1,0 +1,9 @@
+NOTES:
+Game is not mentioned in 0.106 source!
+Was removed from MAME support at 0.107.
+No rules defined that need checking.
+
+Resolution: 320x224 @ 59.185608Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/neo-no-panepon-beta/mame/
+Rules, Points: https://www.twingalaxies.com/scores.php?scores=78626
