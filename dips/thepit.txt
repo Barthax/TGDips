@@ -8,12 +8,12 @@ The Pit (Japan)
 ---------------
 ROM set changed: yes
 0.106-0.141: thepit - "The Pit"
-0.141u3-0.191: thepitj - "The Pit (Japan)"
+0.141u3-0.198: thepitj - "The Pit (Japan)"
 
 Resolution, 0.106-0.118: 256x224 @ 60.000000Hz
-Resolution, 0.119-0.191: 256x224 @ 60.606061Hz
+Resolution, 0.119-0.198: 256x224 @ 60.606061Hz
 
-TG Game Entry: http://www.twingalaxies.com/game_detail.php?gameid=250&variationid=10844&platformid=46
+TG Game Entry: https://www.twingalaxies.com/game/the-pit/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=10844
 
 
@@ -21,8 +21,8 @@ The Pit
 -------
 Note: not currently represented on TG.
 ROM set changed: no.  Added in 0.141u3.
-0.141u3-0.191: thepit - "The Pit"
+0.141u3-0.198: thepit - "The Pit"
 
-Resolution, 0.142-0.191: 256x224 @ 60.606061Hz
+Resolution, 0.142-0.198: 256x224 @ 60.606061Hz
 
 Rules: [no current tracks]
