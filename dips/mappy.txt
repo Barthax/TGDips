@@ -1,8 +1,8 @@
 ROM set changed: no
-0.106-0.196: mappy - "Mappy (US)"
+0.106-0.198: mappy - "Mappy (US)"
 
 Resolution, 0.106-0.115: 288x224 @ 60.606060Hz
-Resolution, 0.116-0.196: 288x224 @ 60.606061Hz
+Resolution, 0.116-0.198: 288x224 @ 60.606061Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/mappy-us/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=7766
