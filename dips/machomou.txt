@@ -1,8 +1,8 @@
 ROM set changed: no
-0.106-0.175: machomou - "Macho Mouse"
+0.106-0.198: machomou - "Macho Mouse"
 
 Resolution, 0.106-0.118: 256x224 @ 60.000000Hz
-Resolution, 0.119-0.175: 256x224 @ 60.606061Hz
+Resolution, 0.119-0.198: 256x224 @ 60.606061Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Macho%20Mouse
+TG Game Entry: https://www.twingalaxies.com/game/macho-mouse/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=10837
