@@ -5,3 +5,5 @@ Resolution, 0.106-0.198: 256x234 @ 60.000000Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/arabian/mame/
 Rules, Points [Tournament Mode]: http://www.twingalaxies.com/scores.php?scores=5188
+
+NOTE: Somewhere between 0.123 & 0.124, the "Carry Bowls To Next Life" DIP was renamed to "Difficulty". "Difficulty = Easy" is the correct translated setting for 0.124 or later.
