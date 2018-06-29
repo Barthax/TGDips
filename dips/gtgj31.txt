@@ -1,0 +1,13 @@
+ROM set changed: yes.
+0.106-0.198: gtg - "Golden Tee Golf (Joystick, v3.1)"
+0.199-     : gtgj31 - "Golden Tee Golf (Joystick, v3.1)"
+
+MAME History:
+- 0.199: hammy and The Dumping Union added Golden Tee Golf (Joystick, v3.3). Renamed (gtg) to (gtgj31).
+
+Resolution, 0.106-0.199: 256x240 @ 60.000000Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/golden-tee-golf-joystick-v31/mame/
+Rules, Longwood Golf Course [Least Amount of Strokes]: http://www.twingalaxies.com/scores.php?scores=70251
+Rules, Royal Links C.C. [Least Amount of Strokes]: http://www.twingalaxies.com/scores.php?scores=70252
+Rules, Sylvan Lakes C.C. [Least Amount of Strokes]: http://www.twingalaxies.com/scores.php?scores=70253
