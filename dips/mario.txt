@@ -13,10 +13,10 @@ ROM set changed: yes
 0.106-0.119: mario - "Mario Bros. (US)"
 0.119u1-0.132: marioo - "Mario Bros. (US, set 2)"
 0.132u3-0.192: marioo - "Mario Bros. (US, Unknown Rev)"
-0.193-0.194: mario - "Mario Bros. (US, Revision G)"
+0.193-0.199: mario - "Mario Bros. (US, Revision G)"
 
 Resolution, 0.106-0.122: 256x224 @ 60.000000Hz
-Resolution, 0.123-0.194: 256x224 @ 59.185606Hz
+Resolution, 0.123-0.199: 256x224 @ 59.185606Hz
 
 TG Game Entry: http://www.twingalaxies.com/mario-bros-us/mame/
 Rules, Single Player, Medium: http://www.twingalaxies.com/scores.php?scores=122029
@@ -31,10 +31,10 @@ Mario Bros. (US, set 1) / (US, Revision E)
 Note: not currently represented on TG.
 ROM set changed: yes.  Added in 0.119u1.
 0.119u1-0.132: mario - "Mario Bros. (US, set 1)"
-0.132u3-0.194: marioe - "Mario Bros. (US, Revision E)"
+0.132u3-0.199: marioe - "Mario Bros. (US, Revision E)"
 
 Resolution, 0.120-0.122: 256x224 @ 60.000000Hz
-Resolution, 0.123-0.194: 256x224 @ 59.185606Hz
+Resolution, 0.123-0.199: 256x224 @ 59.185606Hz
 
 Rules: [no current tracks]
 
@@ -44,8 +44,8 @@ Mario Bros. (US, Revision F)
 Note: not currently represented on TG.
 ROM set changed: yes.  Added in 0.132.u2
 0.132u5-0.192: mario - "Mario Bros. (US, Revision F)"
-0.193-0.194: mariof - "Mario Bros. (US, Revision F)"
+0.193-0.199: mariof - "Mario Bros. (US, Revision F)"
 
-Resolution, 0.133-0.194: 256x224 @ 59.185606Hz
+Resolution, 0.133-0.199: 256x224 @ 59.185606Hz
 
 Rules: [no current tracks]
