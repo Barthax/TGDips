@@ -1,7 +1,7 @@
 ROM set changed: no
-0.106-0.195: gtmr2 - "Mille Miglia 2: Great 1000 Miles Rally (95/05/24)"
+0.106-0.199: gtmr2 - "Mille Miglia 2: Great 1000 Miles Rally (95/05/24)"
 
-Resolution, 0.106-0.195: 320x240 @ 60.000000Hz
+Resolution, 0.106-0.199: 320x240 @ 60.000000Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/mille-miglia-2-great-1000-miles-rally-95-05-24/mame/
 Rules, Stage 1 [Fastest Race]: https://www.twingalaxies.com/scores.php?scores=75576

@@ -1,10 +1,15 @@
 ROM changes: no
 0.106-0.140: NOT AVAILABLE
 0.141-0.143: ket - "Ketsui: Kizuna Jigoku Tachi (V100, third revision)"
-0.144-0.175: ket - "Ketsui: Kizuna Jigoku Tachi (2003/01/01. Master Ver.)"
+0.144-0.199: ket - "Ketsui: Kizuna Jigoku Tachi (2003/01/01. Master Ver.)"
 
-Resolution, 0.141-0.175: 448x224 @ 59.170000Hz
+From MAMEINFO.DAT:
+- 0.140u2: Anonymous and Guru added Ketsui (Cave 2002) and clones Ketsui (older) and Ketsui (first revision).
+- 0.140u3: Added correct sprite masks rom and default NVRAM to Ketsui - Game now playable. Added ket_defaults.nv NVRAM. Changed VSync to 59.17 Hz. Changed description to 'Ketsui: Kizuna Jigoku Tachi (V100, third revision)' and clones (older) to 'Ketsui: Kizuna Jigoku Tachi (V100, second revision)' and (first revision) to 'Ketsui: Kizuna Jigoku Tachi (V100, first revision)'.
+- 0.143u7: Changed description to 'Ketsui: Kizuna Jigoku Tachi (2003/01/01. Master Ver.)' and clones (V100, second revision) to 'Ketsui: Kizuna Jigoku Tachi (2003/01/01 Master Ver.)' and (V100, first revision) to 'Ketsui: Kizuna Jigoku Tachi (2003/01/01 Master Ver)'.
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Ketsui:%20Kizuna%20Jigoku%20Tachi%20%282003/01/01.%20Master%20Ver.%29
+Resolution, 0.141-0.199: 448x224 @ 59.170000Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/ketsui-kizuna-jigoku-tachi-2003-01-01-master-ver/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=200230
 If not shown during playback access configuration using Service Mode (F2) button.  Navigation is with up/down and fire to select.
