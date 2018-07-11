@@ -1,10 +1,12 @@
 ROM set changed: no
-0.106-0.175: fhboxers - "Funky Head Boxers (JUETBKAL 951218 V1.000)"
+0.106-0.199: fhboxers - "Funky Head Boxers (JUETBKAL 951218 V1.000)"
 
 Resolution, 0.106-0.128: 704x513 @ 60.000000Hz
 Resolution, 0.129-0.133: 704x512 @ 60.000000Hz
 Resolution, 0.134-0.142: 320x224 @ 59.828244Hz
-Resolution, 0.143-0.175: 320x224 @ 59.764793Hz
+Resolution, 0.143-0.179: 320x224 @ 59.764793Hz
+Resolution, 0.180-0.193: 352x224 @ 59.764793Hz
+Resolution, 0.194-0.199: 352x224 @ 59.764802Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Funky%20Head%20Boxers%20[JUETBKAL%20951218%20V.1000]
+TG Game Entry: https://www.twingalaxies.com/game/funky-head-boxers-juetbkal-951218-v1000/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=69929
