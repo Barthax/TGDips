@@ -1,6 +1,8 @@
 ROM set changed: no
-0.106-0.175: skydiver - "Sky Diver"
+0.106-0.200: skydiver - "Sky Diver"
 
-Resolution, 0.106-0.175: 256x224 @ 60.000000Hz
+Resolution, 0.106-0.199: 256x224 @ 60.000000Hz
+Resolution, 0.200-     : 256x224 @ 60.114504Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Sky Diver
+TG Game Entry: https://www.twingalaxies.com/game/sky-diver/mame
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=9949

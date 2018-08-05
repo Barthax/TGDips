@@ -1,12 +1,11 @@
 ROM set changed: no
-0.106-0.175: avsp - "Alien vs. Predator (Euro 940520)"
+0.106-0.200: avsp - "Alien vs. Predator (Euro 940520)"
 
 Resolution, 0.106-0.127: 384x224 @ 59.633333Hz
 Resolution, 0.128-0.152: 384x224 @ 59.629403Hz
-Resolution, 0.153-0.175: 384x224 @ 59.637405Hz
+Resolution, 0.153-0.200: 384x224 @ 59.637405Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Alien%20vs.%20Predator%20[Euro%20940520]
-Rules, 3 Players Team: http://www.twingalaxies.com/scores.php?scores=131855
+TG Game Entry: https://www.twingalaxies.com/game/alien-vs-predator-euro-940520/mame/
 Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=10089
 Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=15335
-
+Rules, 3 Players Team: http://www.twingalaxies.com/scores.php?scores=131855

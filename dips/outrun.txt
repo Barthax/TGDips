@@ -1,11 +1,13 @@
 ROM set changed: no
 0.106-0.107: outrun - "Out Run (set 3)"
 0.108-0.111: outrun - "Out Run (standard/upright, Rev B)"
-0.112-0.197: outrun - "Out Run (sitdown/upright, Rev B)"
+0.112-0.200: outrun - "Out Run (sitdown/upright, Rev B)"
 
 Resolution, 0.106-0.114: 320x224 @ 60.000000Hz
 Resolution, 0.115-0.135: 320x224 @ 59.637405Hz
-Resolution, 0.136-0.197: 320x224 @ 60.054389Hz
+Resolution, 0.136-0.200: 320x224 @ 60.054389Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/out-run-set-3/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=19177
+
+NOTE: "Enemies" DIP was renamed to "Difficulty" at between 0.111-0.112 - values/labels were otherwise unchanged.

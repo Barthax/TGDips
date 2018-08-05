@@ -7,19 +7,19 @@ Jump Coaster
 ------------
 ROM set changed: yes.
 0.106-0.198: jumpcoas - "Jump Coaster"
-0.199-     : jumpcoasa - "Jump Coaster"
+0.199-0.200: jumpcoasa - "Jump Coaster"
 
-Resolution, 0.106-0.199: 256x224 @ 60.000000Hz
+Resolution, 0.106-0.200: 256x224 @ 60.000000Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/jump-coaster/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=10039
 
 
-Mario Bros. (US, set 1) / (US, Revision E)
-------------------------------------------
+Jump Coaster (World)
+--------------------
 ROM set changed: no.  Added in 0.199.
-0.199-     : jumpcoas - "Jump Coaster (World)"
+0.199-0.200: jumpcoas - "Jump Coaster (World)"
 
-Resolution, 0.199-     : 256x224 @ 60.000000Hz
+Resolution, 0.199-0.200: 256x224 @ 60.000000Hz
 
 Rules: [no current tracks]
