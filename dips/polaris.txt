@@ -8,12 +8,12 @@ Polaris (First revision)
 ------------------------
 ROM set changed: yes
 0.106-0.137: polaris - "Polaris (set 1)"
-0.137u4-0.175: polarisa - "Polaris (First revision)"
+0.137u4-0.200: polarisa - "Polaris (First revision)"
 
 Resolution, 0.106-0.113: 240x224 @ 60.000000Hz
-Resolution, 0.114-0.175: 260x224 @ 59.541985Hz
+Resolution, 0.114-0.200: 260x224 @ 59.541985Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Polaris%20[set%201]
+TG Game Entry: https://www.twingalaxies.com/game/polaris-set-1/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=7790
 
 
@@ -21,9 +21,8 @@ Polaris (Latest version)
 ------------------------
 Note: not currently represented at TG.
 ROM set changed: no.  Added in 0.137u4.
-0.137u4-0.176: polaris - "Polaris (Latest version)"
+0.137u4-0.200: polaris - "Polaris (Latest version)"
 
-Resolution, 0.138-0.176: 260x224 @ 59.541985Hz
+Resolution, 0.138-0.200: 260x224 @ 59.541985Hz
 
 Rules: [no current tracks]
-

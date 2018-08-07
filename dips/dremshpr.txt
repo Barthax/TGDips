@@ -1,0 +1,8 @@
+ROM set changed: no
+0.106-0.200: dremshpr - "Dream Shopper"
+
+Resolution, 0.106-0.113: 288x224 @ 60.606060Hz
+Resolution, 0.114-0.200: 288x224 @ 60.606061Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/dream-shopper/mame/
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=26140

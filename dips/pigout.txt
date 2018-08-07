@@ -1,11 +1,17 @@
 ROM set changed: no
 0.106-0.122: pigout - "Pigout"
-0.123-0.175: pigout - "Pig Out: Dine Like a Swine! (set 1)"
+0.123-0.195: pigout - "Pig Out: Dine Like a Swine! (set 1)"
+0.196-0.200: pigout - "Pig Out: Dine Like a Swine! (rev 2?)"
 
-Resolution, 0.106-0.175: 320x240 @ 60.000000Hz
+From MAMEINFO.DAT:
+- 0.122u8: Changed description to 'Pig Out: Dine Like a Swine! (set 1)' and clone (alternate) to 'Pig Out: Dine Like a Swine! (set 2)'.
+- 0.196: Kevin Eshbach and The Dumping Union fixed rom labels and documented undumped PALs for Pig Out. Changed description to 'Pig Out: Dine Like a Swine! (rev 2?)' and clone (set 2) to 'Pig Out: Dine Like a Swine! (rev 1)'.
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Pigout
+Resolution, 0.106-0.200: 320x240 @ 60.000000Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/pigout/mame/
 Rules, Calories [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=30942
 Rules, Calories [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=30943
 Rules, Calories [Three Player Team]: http://www.twingalaxies.com/scores.php?scores=30944
 
+NOTE: All relevant rules are covered by internal settings.  If not shown during playback, use 1P + F2 to access after playback completed.
