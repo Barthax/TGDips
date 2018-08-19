@@ -1,12 +1,12 @@
 ROM set changed: yes
 0.106-0.122: route16 - "Route 16"
 0.123-0.165: route16 - "Route 16 (set 1)"
-0.166-0.175: route16c - "Route 16 (set 3, bootleg?)"
+0.166-0.200: route16c - "Route 16 (set 3, bootleg?)"
 
 MAME History:
 - 0.166: Siftware and MASH added Route 16 (set 1). Changed 'Route 16 (set 1)' to clone 'Route 16 (set 3, bootleg?)'. Renamed (route16) to (route16c) and (route16b) to (route16bl).
 
-Resolution, 0.106-0.175: 256x256 @ 57.000000Hz
+Resolution, 0.106-0.200: 256x256 @ 57.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Route%2016
+TG Game Entry: https://www.twingalaxies.com/game/route-16/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=9831
