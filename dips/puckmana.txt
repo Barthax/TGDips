@@ -1,14 +1,16 @@
-ROM set changed: yes, but currently moot as only relevant track allows many ROM sets
+ROM set changed: yes
 0.106-0.147: puckmana - "PuckMan (Japan set 2)"
-0.148: puckmana - "Puck Man (Japan set 2)"   (minor description change only)
-0.148u4-0.194: puckman - "Puck Man (Japan set 1)"
+0.148: puckmana - "Puck Man (Japan set 2)"
+0.148u4-0.200: puckman - "Puck Man (Japan set 1)"
 
 MAME History:
 - 0.147u2: hap changed description to 'Puck Man (Japan set 1)' and clones (Japan set 2) to 'Puck Man (Japan set 2)', (Japan set 1 with speedup hack) to 'Puck Man (Japan set 1 with speedup hack)', (Falcom?) to 'Puck Man (Falcom?)' and (Japan set 3) to 'Puck Man (Japan set 3)'.
 - 0.148u4: Verified original puckman roms and made that set the parent and split some of the roms [Andy Welburn]. Changed 'Puck Man (Japan set 1)' to clone 'Puck Man (bootleg set 1)', clone 'Puck Man (Japan set 2)' to parent 'Puck Man (Japan set 1)', clones 'Puck Man (Japan set 1, speedup hack)' to 'Puck Man (speedup hack)', 'Puck Man (Falcom?)' to 'Puck Man (bootleg set 2)' and 'Puck Man (Japan set 3)' to 'Puck Man (Japan set 2)'. Renamed (puckman) to (puckmanb) and (puckmana) to (puckman).
 
 Resolution, 0.106-0.113: 288x224 @ 60.606060Hz
-Resolution, 0.114-0.194: 288x224 @ 60.606061Hz
+Resolution, 0.114-0.200: 288x224 @ 60.606061Hz
 
 TG Game Entry: http://www.twingalaxies.com/pac-man/mame/
 Rules, High Score Challenge: http://www.twingalaxies.com/scores.php?scores=197901
+
+... plus many "Fastest Perfect" tracks.
