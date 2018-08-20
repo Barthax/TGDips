@@ -1,10 +1,10 @@
 ROM set changed: no
-0.106-0.189: lnc - "Lock'n'Chase"
+0.106-0.200: lnc - "Lock'n'Chase"
 
 Resolution, 0.106-0.128: 256x240 @ 57.000000Hz
-Resolution, 0.129-0.189: 240x240 @ 57.444853Hz
+Resolution, 0.129-0.200: 240x240 @ 57.444853Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Lock+%27N%27+Chase
+TG Game Entry: https://www.twingalaxies.com/game/lock-n-chase/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=7763
 
 MAME History:
