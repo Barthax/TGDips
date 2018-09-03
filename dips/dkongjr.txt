@@ -1,9 +1,9 @@
 ROM set changed: no
 0.106-0.152: dkongjr - "Donkey Kong Junior (US)"
-0.153-0.191: dkongjr - "Donkey Kong Junior (US set F-2)" (description change only)
+0.153-0.200: dkongjr - "Donkey Kong Junior (US set F-2)"
 
 Resolution, 0.106-0.116: 256x224 @ 60.000000Hz
-Resolution, 0.117-0.191: 256x224 @ 60.606061Hz
+Resolution, 0.117-0.200: 256x224 @ 60.606061Hz
 
 TG Game Entry: http://www.twingalaxies.com/game_detail.php?gameid=6650&platformid=46
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=7723
