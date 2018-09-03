@@ -1,0 +1,31 @@
+Note: two ROM sets represented here with changeover at 0.201.
+
+From MAMEINFO.DAT:
+- 0.108: Added clone Halley's Comet '87. Changed description of clones (Japan set 1) to 'Halley's Comet (Japan, Newer)' and (Japan set 2) to 'Halley's Comet (Japan, Older)'.
+- 0.201: Joe Magiera and The Dumping Union added clone Halley's Comet (Japan, prototype). Changed description of clones (Japan, Newer) to 'Halley's Comet (Japan)' and (Japan, Older) to 'Halley's Comet (Japan, rev 1)'. Renamed (halleysc) to (halleyscja), (halleys) to (halleysc), (halleycj) to (halleyscj) and (halley87) to (halleysc87).
+
+
+Halley's Comet (US)
+-------------------
+ROM set changed: yes
+0.106-0.200: halleys - "Halley's Comet (US)"
+0.201-     : halleysc - "Halley's Comet (US)"
+
+Resolution, 0.106-0.136: 256x240 @ 60.000000Hz
+Resolution, 0.137-0.201: 256x240 @ 59.500000Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/halleys-comet/mame/
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=75021
+
+
+Halley's Comet (Japan)
+----------------------
+ROM set changed: yes
+0.106-0.107: halleysc - "Halley's Comet (Japan set 1)"
+0.108-0.200: halleysc - "Halley's Comet (Japan, Newer)"
+0.201-     : halleyscja - "Halley's Comet (Japan)"
+
+Resolution, 0.106-0.136: 256x240 @ 60.000000Hz
+Resolution, 0.137-0.201: 256x240 @ 59.500000Hz
+
+Rules: [no current tracks]
