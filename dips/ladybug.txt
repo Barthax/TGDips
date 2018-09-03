@@ -1,7 +1,7 @@
 ROM set changed: no
-0.106-0.198: ladybug - "Lady Bug"
+0.106-0.201: ladybug - "Lady Bug"
 
-Resolution, 0.106-0.198: 240x192 @ 60.000000Hz
+Resolution, 0.106-0.201: 240x192 @ 60.000000Hz
 
 TG Game Entry: http://www.twingalaxies.com/lady-bug/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=5194

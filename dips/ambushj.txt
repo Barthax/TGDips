@@ -1,8 +1,12 @@
 ROM set changed: yes
 0.106-0.138: ambush - "Ambush"
-0.138u1-0.175: ambushj - "Ambush (Japan)"
+0.138u1-0.201: ambushj - "Ambush (Japan)"
 
-Resolution, 0.106-0.175: 256x222 @ 60.000000Hz
+From MAMEINFO.DAT:
+- 0.138u1: Changed clone (Tecfri) to parent 'Ambush', 'Ambush' to clone 'Ambush (Japan)' and clone (Volt Elec co-ltd) to 'Ambush (Volt Electronics)'. Note: Ambush (Tecfri) displays an M next to ROM 1 during the test, why is internal checksum wrong (0x02 instead of 0x00)? Renamed (ambush) to (ambushj) and (ambusht) to (ambush).
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Ambush
+Resolution, 0.106-0.182: 256x222 @ 60.000000Hz
+Resolution, 0.183-0.201: 256x224 @ 60.606061Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/ambush/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=21438
