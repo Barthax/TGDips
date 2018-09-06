@@ -1,6 +1,6 @@
 Note: this represented two arkretrn sets which switchover at 0.148u4.
 
-MAME History:
+From MAMEINFO.DAT:
 - 0.148u4: Sonic, Smitdogg and The Dumping Union added Arkanoid Returns (Ver 2.02O 1997/02/10). Renamed (arkretrn) to (arkretrnj).
 
 
@@ -8,12 +8,12 @@ Arkanoid Returns (Ver 2.02J 1997/02/10)
 ---------------------------------------
 ROM set changed: yes
 0.106-0.148: arkretrn - "Arkanoid Returns (Ver 2.02J 1997/02/10)"
-0.148u4-0.175: arkretrnj - "Arkanoid Returns (Ver 2.02J 1997/02/10)"
+0.148u4-0.201: arkretrnj - "Arkanoid Returns (Ver 2.02J 1997/02/10)"
 
 Resolution, 0.106-0.113: 320x232 @ 58.970001Hz
-Resolution, 0.114-0.175: 320x232 @ 58.970000Hz
+Resolution, 0.114-0.201: 320x232 @ 58.970000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Arkanoid%20Returns%20[Ver%202.02J%201997/02/10]
+TG Game Entry: https://www.twingalaxies.com/game/arkanoid-returns-ver-202j-1997-02-10/mame/
 Rules, Points [Normal Settings]: http://www.twingalaxies.com/scores.php?scores=21477
 Rules, Points [Tournament Settings]: http://www.twingalaxies.com/scores.php?scores=41135
 
@@ -22,9 +22,8 @@ Arkanoid Returns (Ver 2.02O 1997/02/10)
 ---------------------------------------
 Note: this set is not currently represented on TG
 0.106-0.148: NOT SUPPORTED
-0.149-0.175: arkretrn - "Arkanoid Returns (Ver 2.02O 1997/02/10)"
+0.149-0.201: arkretrn - "Arkanoid Returns (Ver 2.02O 1997/02/10)"
 
-Resolution, 0.149-0.175: 320x232 @ 58.970000Hz
+Resolution, 0.149-0.201: 320x232 @ 58.970000Hz
 
 Rules: [no current tracks]
-
