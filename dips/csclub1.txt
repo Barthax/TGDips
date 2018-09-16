@@ -1,15 +1,14 @@
 ROM set changed: yes
 0.106-0.127: csclub - "Capcom Sports Club (Euro 970722)"
-0.127u6-0.175: csclub1 - "Capcom Sports Club (Euro 970722)"
+0.127u6-0.201: csclub1 - "Capcom Sports Club (Euro 970722)"
 
-MAME History:
+From MAMEINFO.DAT:
 - 0.127u6: Corrado Tomaselli added Capcom Sports Club (Euro 971017). Renamed (csclub) to (csclub1).
 
 Resolution, 0.106-0.113: 384x224 @ 59.633331Hz
 Resolution, 0.114-0.127: 384x224 @ 59.633333Hz
 Resolution, 0.128-0.152: 384x224 @ 59.629403Hz
-Resolution, 0.153-0.175: 384x224 @ 59.637405Hz
+Resolution, 0.153-0.201: 384x224 @ 59.637405Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Capcom%20Sports%20Club%20[Euro%20970722]
+TG Game Entry: https://www.twingalaxies.com/game/capcom-sports-club-euro-970722/mame/
 Rules, Most Money Earned: http://www.twingalaxies.com/scores.php?scores=24441
-
