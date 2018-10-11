@@ -1,8 +1,14 @@
 ROM set changed: no
 0.106-0.154: vendetta - "Vendetta (World 4 Players ver. T)"
-0.155-0.175: vendetta - "Vendetta (World, 4 Players, ver. T)"
+0.155-0.202: vendetta - "Vendetta (World, 4 Players, ver. T)"
 
 Resolution, 0.106-0.145: 304x224 @ 60.000000Hz
-Resolution, 0.146-0.175: 304x224 @ 59.170000Hz
+Resolution, 0.146-0.202: 304x224 @ 59.170000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Vendetta [World 4 Players ver. T]
+TG Game Entry: https://www.twingalaxies.com/game/vendetta-world-4-players-ver-t/mame/
+Rules, Points [Single Player Only]: https://www.twingalaxies.com/scores.php?scores=21360
+Rules, Points [Two Player Team]: https://www.twingalaxies.com/scores.php?scores=21361
+Rules, Points [Three Player Team]: https://www.twingalaxies.com/scores.php?scores=21362
+Rules, Points [Four Player Team]: https://www.twingalaxies.com/scores.php?scores=21363
+
+NOTE: All relevant rules are covered by internal settings.  If not shown during playback, use F2 to access after playback completed.
