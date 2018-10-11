@@ -1,0 +1,10 @@
+ROM set changed: no
+0.106-0.152: NOT SUPPORTED
+0.153-0.201: espgal2 - "Espgaluda II (2005/11/14 MASTER VER)"
+
+Resolution, 0.153-0.201: 320x240 @ 60.000000Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/espgaluda-ii-20051114-master-ver/mame/
+Rules, Points: https://www.twingalaxies.com/scores.php?scores=215705
+
+NOTE: This game has both DIPs & internal settings covered by the rules. If not shown during playback, press F2 to access & check internal settings afterwards.

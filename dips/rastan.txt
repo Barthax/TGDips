@@ -1,6 +1,6 @@
 Note: two ROM sets represented here with changeover at 0.145u6.
 
-MAME History:
+From MAMEINFO.DAT:
 - 0.145u5: ANY and The Dumping Union added clone Rastan (World, set 2). Changed parent description to 'Rastan (World, set 1)'.
 - 0.145u6: Stefan Lindberg added clone Rastan (US). Brian Troha cleaned up parent/child order. Added DIP locations. Corrected ROM names and added additional information / notes. Changed clone (World, set 2) to parent 'Rastan (World Rev 1)', (World, set 1) to clone 'Rastan (World)', (US, set 1) to 'Rastan (US Rev 1)' and (US, set 2) to 'Rastan (US, Earlier code base)'. Renamed (rastan) to (rastana), (rastan2) to (rastan), (rastanu2) to (rastanub), (rastsaga) to (rastsagaa) and (rastsaga1) to (rastsaga).
 
@@ -9,11 +9,11 @@ Rastan (World)
 --------------
 ROM set changed: yes
 0.106-0.145: rastan - "Rastan (World)"
-0.145u6-0.175: rastana - "Rastan (World)"
+0.145u6-0.201: rastana - "Rastan (World)"
 
-Resolution, 0.106-0.175: 320x240 @ 60.000000Hz
+Resolution, 0.106-0.201: 320x240 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Rastan%20[World]
+TG Game Entry: https://www.twingalaxies.com/game/rastan-world/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=7799
 
 
@@ -21,9 +21,8 @@ Rastan (World Rev 1)
 --------------------
 Note: not currently represented at TG.
 ROM set changed: no.  Added in 0.145u6.
-0.145u6-0.176: rastan - "Rastan (World Rev 1)"
+0.145u6-0.201: rastan - "Rastan (World Rev 1)"
 
-Resolution, 0.146-0.176: 320x240 @ 60.000000Hz
+Resolution, 0.146-0.201: 320x240 @ 60.000000Hz
 
 Rules: [no current tracks]
-

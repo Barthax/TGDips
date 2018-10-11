@@ -1,7 +1,12 @@
 ROM set changed: no
-0.106-0.198: wilytowr - "Wily Tower"
+0.106-0.201: wilytowr - "Wily Tower"
 
-Resolution, 0.106-0.198: 256x224 @ 60.000000Hz
+From MAMEINFO.DAT:
+- 0.123u6: Machone and RansAckeR added DIP locations for atomboy/wilytowr. Fixed coin modes. Added dipswitches 'Bonus Points Rate', 'Coin A/B' and 2x 'Unused'.
+
+Resolution, 0.106-0.201: 256x224 @ 60.000000Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/wily-tower/mame/
 Rules, Points: https://www.twingalaxies.com/scores.php?scores=10044
+
+NOTE: two "Unknown" DIPs were consolidated into "Bonus Points Rate" at 0.123u6, with the translated rule-compliant value of "Normal". Thankfully, this is default.

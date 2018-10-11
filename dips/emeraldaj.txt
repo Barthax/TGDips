@@ -1,15 +1,16 @@
 ROM set changed: yes
 0.106: emeralda - "Emeraldia (Japan Version B)"
 0.106u11-0.133: emeraldj - "Emeraldia (Japan Version B)"
-0.133u1-0.175: emeraldaj - "Emeraldia (Japan Version B)"
+0.133u1-0.201: emeraldaj - "Emeraldia (Japan Version B)"
 
-MAME History:
+From MAMEINFO.DAT:
 - 0.106u11: Brian Troha added Emeraldia (World). Renamed (emeralda) to (emeraldj) and (emerldaa) to (emerldja).
 - 0.133u1: Renamed (emeraldj) to (emeraldaj) and (emerldja) to (emeraldaja).
 
-Resolution, 0.106-0.175: 304x224 @ 60.000000Hz
+Resolution, 0.106      : 304x224 @ 60.000000Hz
+Resolution, 0.107-0.178: 288x224 @ 60.000000Hz
+Resolution, 0.179-0.201: 304x224 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Emeraldia%20[Japan%20Version%20B]
+TG Game Entry: https://www.twingalaxies.com/game/emeraldia-japan-version-b/mame/
 Rules, Points [Adventure Mode]: http://www.twingalaxies.com/scores.php?scores=55955
 Rules, Points [Puzzle Mode]: http://www.twingalaxies.com/scores.php?scores=55956
-

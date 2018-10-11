@@ -1,5 +1,5 @@
 ROM set changed: no
-0.106-0.189: mtwins - "Mega Twins (World 900619)"
+0.106-0.201: mtwins - "Mega Twins (World 900619)"
 
 MAME History [cps1.c/cps1.cpp]:
 - 0.148u5: Andrew Gardner added QSound internal DSP ROM to the device. Added DSP16 (4MHz) CPU3. Sonikos fixed 'Difficulty' dipswitch which has in the tab menu values from 1 (easiest) to 8 (hardest) but in the game's menu it's from 0 to 7.
@@ -7,8 +7,8 @@ MAME History [cps1.c/cps1.cpp]:
 Resolution, 0.106-0.126: 384x224 @ 60.000000Hz
 Resolution, 0.127-0.147: 384x224 @ 59.610000Hz
 Resolution, 0.148-0.152: 384x224 @ 59.629403Hz
-Resolution, 0.153-0.189: 384x224 @ 59.637405Hz
+Resolution, 0.153-0.201: 384x224 @ 59.637405Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Mega+Twins+[World+900619]
+TG Game Entry: https://www.twingalaxies.com/game/mega-twins-world-900619/mame/
 Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=14444
 Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=14445

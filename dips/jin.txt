@@ -1,9 +1,17 @@
 ROM set changed: no
-0.106-0.175: jin - "Jin"
+0.106-0.201: jin - "Jin"
+
+From MAMEINFO.DAT:
+- 0.186: Identified some DIPs for Jin [Osso]. Added dipswitches 'Coinage', 'Lives' and 'Level completed'.
 
 Resolution, 0.106-0.115: 316x239 @ 60.000000Hz
 Resolution, 0.116-0.153: 316x239 @ 60.096154Hz
-Resolution, 0.154-0.175: 316x240 @ 60.096154Hz
+Resolution, 0.154-0.201: 316x240 @ 60.096154Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Jin
+TG Game Entry: https://www.twingalaxies.com/game/jin/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=75146
+
+NOTES: As the rules were written with respect to 0.106, they can be translated as such...
+Coinage: A 1C/1C B 1C/1C [default, moot]
+Lives: 3 [default]
+Level completed: 55% [note that this is no longer the default setting!!!]

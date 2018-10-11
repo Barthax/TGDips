@@ -2,11 +2,12 @@ ROM set changed: no.
 0.142u5-143u1: ibara - "Ibara Kuro"
 0.143u2: ibara - "Ibara (2005/03/22 MASTER VER..)"
 0.144-0.152: NOT SUPPORTED
-0.153-0.175: ibara - "Ibara (2005/03/22 MASTER VER..)"
+0.153-0.201: ibara - "Ibara (2005/03/22 MASTER VER..)"
 
 Resolution, 0.143: 640x480 @ 60.000000Hz
-Resolution, 0.153-0.175: 320x240 @ 60.000000Hz
+Resolution, 0.153-0.201: 320x240 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Ibara
+TG Game Entry: https://www.twingalaxies.com/game/ibara/mame
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=200771
-Note: to access internal settings, use Service Mode (F2) button and then navigate with up/down and fire.
+
+NOTE: All relevant rules are covered by internal settings.  If not shown during playback, use F2 to access after playback completed.
