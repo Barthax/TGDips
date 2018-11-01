@@ -1,7 +1,12 @@
 ROM set changed: no
-0.106-0.175: htchctch - "Hatch Catch"
+0.106-0.202: htchctch - "Hatch Catch"
 
-Resolution, 0.106-0.175: 320x240 @ 60.000000Hz
+From MAMEINFO.DAT:
+- 0.111u4: Changed Z80 CPU2 clock speed to 3750000 Hz. Changed 'Unknown' dipswitches to 'Unused'.
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Hatch%20Catch
+Resolution, 0.106-0.202: 320x240 @ 60.000000Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/hatch-catch/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=75041
+
+NOTE: it hasn't been noted in MAMEINFO but at 0.112 (probably at the same time as the Unknown DIPs were renamed), the "Stage Skip" DIP was renamed to "Unknown".
