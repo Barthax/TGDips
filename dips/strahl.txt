@@ -1,10 +1,30 @@
-ROM set changed: no
-0.106-0.175: strahl - "Koutetsu Yousai Strahl (Japan set 1)"
+NOTE: two ROM sets represented here with changeover at 0.203.
+
+From MAMEINFO.DAT:
+- 0.203: VectorGlow added Koutetsu Yousai Strahl (World). Renamed (strahl) to (strahlj) and (strahla) to (strahlja).
+
+Koutetsu Yousai Strahl (Japan set 1)
+------------------------------------
+ROM set changed: yes
+0.106-0.202: strahl - "Koutetsu Yousai Strahl (Japan set 1)"
+0.203-     : strahlj - "Koutetsu Yousai Strahl (Japan set 1)"
 
 Resolution, 0.106-0.122: 256x224 @ 60.000000Hz
 Resolution, 0.123-0.154: 256x224 @ 56.000000Hz
-Resolution, 0.155-0.175: 256x224 @ 56.180000Hz
+Resolution, 0.155-0.203: 256x224 @ 56.180000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Koutetsu%20Yousai%20Strahl%20[Japan%20Set%201]
+TG Game Entry: https://www.twingalaxies.com/game/koutetsu-yousai-strahl-japan-set-1/mame/
 Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=75219
 Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=75220
+
+
+Koutetsu Yousai Strahl (World)
+------------------------------
+NOTE: not currently represented on TG.
+ROM set changed: no.  Added in 0.203.
+
+0.203-     : strahl - "Koutetsu Yousai Strahl (World)"
+
+Resolution, 0.203-     : 256x224 @ 56.180000Hz
+
+Rules: [no current tracks]
