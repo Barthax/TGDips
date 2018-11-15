@@ -1,18 +1,19 @@
 ROM set changed: no
-0.106-0.175: gt99 - "Golden Tee '99 (v1.00)"
+0.106-0.203: gt99 - "Golden Tee '99 (v1.00)"
 
 Resolution, 0.106-0.113: 384x240 @ 60.000000Hz
 Resolution, 0.114-0.122: 200x200 @ 60.000000Hz
-Resolution, 0.123-0.175: 384x240 @ 60.106990Hz
+Resolution, 0.123-0.203: 384x240 @ 60.106990Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Golden%20Tee%20%2799%20[v1.00]
-Rules, Aspen Lake [Least Amount of Strokes]: http://www.twingalaxies.com/scores.php?scores=70056
-Rules, Aspen Lake [Longest Drive]: http://www.twingalaxies.com/scores.php?scores=70060
-Rules, Aspen Lake [Longest Putt]: http://www.twingalaxies.com/scores.php?scores=70063
-Rules, Coconut Cove [Least Amount of Strokes]: http://www.twingalaxies.com/scores.php?scores=70057
-Rules, Coconut Cove [Longest Drive]: http://www.twingalaxies.com/scores.php?scores=70061
-Rules, Coconut Cove [Longest Putt]: http://www.twingalaxies.com/scores.php?scores=70064
-Rules, Rancho Saguaro [Least Amount of Strokes]: http://www.twingalaxies.com/scores.php?scores=70058
-Rules, Rancho Saguaro [Longest Drive]: http://www.twingalaxies.com/scores.php?scores=70062
-Rules, Rancho Saguaro [Longest Putt]: http://www.twingalaxies.com/scores.php?scores=70066
+TG Game Entry: https://www.twingalaxies.com/game/golden-tee-99-v100/mame/
+Rules, Aspen Lake [Least Amount of Strokes]: https://www.twingalaxies.com/scores.php?scores=70056
+Rules, Aspen Lake [Longest Drive]: https://www.twingalaxies.com/scores.php?scores=70060
+Rules, Aspen Lake [Longest Putt]: https://www.twingalaxies.com/scores.php?scores=70063
+Rules, Coconut Cove [Least Amount of Strokes]: https://www.twingalaxies.com/scores.php?scores=70057
+Rules, Coconut Cove [Longest Drive]: https://www.twingalaxies.com/scores.php?scores=70061
+Rules, Coconut Cove [Longest Putt]: https://www.twingalaxies.com/scores.php?scores=70064
+Rules, Rancho Saguaro [Least Amount of Strokes]: https://www.twingalaxies.com/scores.php?scores=70058
+Rules, Rancho Saguaro [Longest Drive]: https://www.twingalaxies.com/scores.php?scores=70062
+Rules, Rancho Saguaro [Longest Putt]: https://www.twingalaxies.com/scores.php?scores=70066
 
+NOTE: This game has both DIPs & internal settings covered by the rules. If not shown during playback, press F2 to access & check internal settings afterwards.

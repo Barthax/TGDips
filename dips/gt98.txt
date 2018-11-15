@@ -1,18 +1,19 @@
 ROM set changed: no
-0.106-0.175: gt98 - "Golden Tee '98 (v1.10)"
+0.106-0.203: gt98 - "Golden Tee '98 (v1.10)"
 
 Resolution, 0.106-0.113: 384x240 @ 60.000000Hz
 Resolution, 0.114-0.122: 200x200 @ 60.000000Hz
-Resolution, 0.123-0.175: 384x240 @ 60.106990Hz
+Resolution, 0.123-0.203: 384x240 @ 60.106990Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Golden%20Tee%20%2798%20[v1.10]
-Rules, Arbor Hill [Least Amount of Strokes]: http://www.twingalaxies.com/scores.php?scores=70044
-Rules, Arbor Hill [Longest Drive]: http://www.twingalaxies.com/scores.php?scores=70048
-Rules, Arbor Hill [Longest Putt]: http://www.twingalaxies.com/scores.php?scores=70051
-Rules, Bayou Bend [Least Amount of Strokes]: http://www.twingalaxies.com/scores.php?scores=70045
-Rules, Bayou Bend [Longest Drive]: http://www.twingalaxies.com/scores.php?scores=70049
-Rules, Bayou Bend [Longest Putt]: http://www.twingalaxies.com/scores.php?scores=70053
-Rules, Palm Grove [Least Amount of Strokes]: http://www.twingalaxies.com/scores.php?scores=70046
-Rules, Palm Grove [Longest Drive]: http://www.twingalaxies.com/scores.php?scores=70050
-Rules, Palm Grove [Longest Putt]: http://www.twingalaxies.com/scores.php?scores=70054
+TG Game Entry: https://www.twingalaxies.com/game/golden-tee-98-v110/mame/
+Rules, Arbor Hill [Least Amount of Strokes]: https://www.twingalaxies.com/scores.php?scores=70044
+Rules, Arbor Hill [Longest Drive]: https://www.twingalaxies.com/scores.php?scores=70048
+Rules, Arbor Hill [Longest Putt]: https://www.twingalaxies.com/scores.php?scores=70051
+Rules, Bayou Bend [Least Amount of Strokes]: https://www.twingalaxies.com/scores.php?scores=70045
+Rules, Bayou Bend [Longest Drive]: https://www.twingalaxies.com/scores.php?scores=70049
+Rules, Bayou Bend [Longest Putt]: https://www.twingalaxies.com/scores.php?scores=70053
+Rules, Palm Grove [Least Amount of Strokes]: https://www.twingalaxies.com/scores.php?scores=70046
+Rules, Palm Grove [Longest Drive]: https://www.twingalaxies.com/scores.php?scores=70050
+Rules, Palm Grove [Longest Putt]: https://www.twingalaxies.com/scores.php?scores=70054
 
+NOTE: This game has both DIPs & internal settings covered by the rules. If not shown during playback, press F2 to access & check internal settings afterwards.
