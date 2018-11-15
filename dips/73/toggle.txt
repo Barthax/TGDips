@@ -1,0 +1,87 @@
+# MAME 0.73 source snippet. [balsente.c]
+
+GAME( 1985, toggle,   0,        balsente, toggle,   toggle,   ROT0, "Bally/Sente", "Toggle (prototype)" )
+
+INPUT_PORTS_START( toggle )
+	PORT_START	/* IN0 */
+	PORT_DIPNAME( 0x03, 0x03, DEF_STR( Coinage ) )
+	PORT_DIPSETTING(    0x02, DEF_STR( 2C_1C ) )
+	PORT_DIPSETTING(    0x03, DEF_STR( 1C_1C ) )
+	PORT_DIPSETTING(    0x01, DEF_STR( 1C_2C ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Free_Play ) )
+	PORT_BIT( 0x7c, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_DIPNAME( 0x80, 0x80, "High Scores" )
+	PORT_DIPSETTING(    0x80, "Keep Top 5" )
+	PORT_DIPSETTING(    0x00, "Keep All" )
+
+	PORT_START	/* IN1 */
+	PORT_BIT( 0x03, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_DIPNAME( 0x04, 0x04, DEF_STR( Lives ) )
+	PORT_DIPSETTING(    0x00, "2" )
+	PORT_DIPSETTING(    0x04, "3" )
+	PORT_BIT( 0x78, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_DIPNAME( 0x80, 0x00, DEF_STR( Demo_Sounds ) )
+	PORT_DIPSETTING(    0x80, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+
+	PORT_START	/* IN2 */
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_JOYSTICK_UP    | IPF_PLAYER1 )
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN  | IPF_PLAYER1 )
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT | IPF_PLAYER1 )
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT  | IPF_PLAYER1 )
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_BUTTON1 )
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_BUTTON1 | IPF_PLAYER2 )
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_COIN1 )
+	PORT_SERVICE( 0x80, IP_ACTIVE_LOW )
+
+	PORT_START	/* IN3 */
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_START1 )
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_START2 )
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_JOYSTICK_UP    | IPF_PLAYER2 )
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN  | IPF_PLAYER2 )
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT | IPF_PLAYER2 )
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT  | IPF_PLAYER2 )
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_COIN2 )
+	PORT_BIT( 0x80, IP_ACTIVE_HIGH, IPT_VBLANK )
+
+	/* analog ports */
+	UNUSED_ANALOG_X4
+INPUT_PORTS_END
+
+#define UNUSED_ANALOG \
+	PORT_START\
+	PORT_BIT( 0xff, IP_ACTIVE_HIGH, IPT_UNUSED )
+#define UNUSED_ANALOG_X2 UNUSED_ANALOG UNUSED_ANALOG
+#define UNUSED_ANALOG_X3 UNUSED_ANALOG_X2 UNUSED_ANALOG
+#define UNUSED_ANALOG_X4 UNUSED_ANALOG_X2 UNUSED_ANALOG_X2
+
+
+ROM set changed: no
+0.70-0.106: toggle - "Toggle (prototype)"
+
+Resolution: 256x240 @ 60.000000Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/toggle-prototype/mame/
+Rules, Points: https://www.twingalaxies.com/scores.php?scores=120440
+
+ROMSet: Toggle
+High Scores: Keep Top 5
+Lives: 3
+Service Mode: Off
+
+Sample correct TG:
+IN0: offset 0x21, repeat every 0x3E, typical value 0xFF
+- IN0: 0x03 (Coinage): [not relevant]
+- IN0: 0x80 (High Scores): 0x80 (Keep Top 5)
+IN1: offset 0x23, repeat every 0x3E, typical value 0x7F
+- IN1: 0x04 (Lives): 0x04 (3)
+- IN1: 0x80 (Demo_Sounds): [not relevant]
+IN2: offset 0x25, repeat every 0x3E, typical value 0xFF
+- IN2: 0x80 (SERVICE MODE): 0x80 (Off)
+
+    20: 00 FF 00 7F 00 FF 00 FF  00 00 00 00 00 00 00 00
+    50: 00 00 00 00 00 00 00 00  00 00 00 00 82 3E 00 FF
+    90: 00 00 00 00 00 00 00 00  00 00 82 3E 00 FF 00 7F
+    D0: 00 00 00 00 00 00 00 00  82 A2 00 FF 00 7F 00 FF
+   110: 00 00 00 00 00 00 82 A2  00 FF 00 7F 00 FF 00 FF
+   150: 00 00 00 00 82 A2 00 FF  00 7F 00 FF 00 FF 00 00
