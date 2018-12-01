@@ -135,7 +135,7 @@ Sample correct TG:
 DIPS: offset 0x33, repeat every 0x7C but varies due to analog input, typical initial value 0x0F, 0x0B after VBLANK
 - DIPS: 0x0004 (IPT_VBLANK)
 - DIPS: 0x0080 (Service Mode): 0x0000 (Off)
-- DIPS: 0x0010 (Trackball Orientation): 0x0010 (Normal Mount)
+- DIPS: 0x0010 (Trackball Orientation): 0x0000 (Normal Mount)
 - DIPS: 0x0020 (Cabinet): 0x0000 (Upright)
 - DIPS: 0x0040 (Controls): 0x0000 (One Trackball)
 
