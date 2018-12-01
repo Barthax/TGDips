@@ -1,6 +1,13 @@
 ROM set changed: no
-0.106-0.175: viper - "Viper"
+0.106-0.194: viper - "Viper"
+0.195-0.203: viper - "Viper (rev 3)"
 
-Resolution, 0.106-0.175: 320x240 @ 60.000000Hz
+From MAMEINFO.DAT:
+- 0.195: Changed description to 'Viper (rev 3)'.
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Viper
+Resolution, 0.106-0.203: 320x240 @ 60.000000Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/viper/mame/
+Rules, Points: https://www.twingalaxies.com/scores.php?scores=120567
+
+NOTE: All relevant rules are covered by internal settings.  If not shown during playback, use [1P + service] to access after playback completed.

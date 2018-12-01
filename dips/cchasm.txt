@@ -1,7 +1,7 @@
 ROM set changed: no
-0.106-0.175: cchasm - "Cosmic Chasm (set 1)"
+0.106-0.203: cchasm - "Cosmic Chasm (set 1)"
 
-Resolution, 0.106-0.175: vector @ 40.000000Hz
+Resolution, 0.106-0.203: vector @ 40.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Cosmic%20Chasm%20[Set%201]
+TG Game Entry: https://www.twingalaxies.com/game/cosmic-chasm-set-1/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=9944

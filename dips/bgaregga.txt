@@ -2,7 +2,7 @@ ROM set changed: yes. Added in 0.037b9.
 0.038-0.060: battleg - "Battle Garegga"
 0.061-0.067: battlega - "Battle Garegga (Europe / USA / Japan / Asia)"
 0.068-0.117: battlega - "Battle Garegga (Europe / USA / Japan / Asia) (Sat Feb 3 1996)"
-0.117u1-0.199: bgaregga - "Battle Garegga (Europe / USA / Japan / Asia) (Sat Feb 3 1996)"
+0.117u1-0.203: bgaregga - "Battle Garegga (Europe / USA / Japan / Asia) (Sat Feb 3 1996)"
 
 MAME History (including some detail prior to WolfMAME support):
 - 0.61: Keisuke added Battle Garegga - Type 2 (Denmark / China). Quench fixed Battle Garegga displaying always an insert coin message. Changed 'Battle Garegga' to clone 'Battle Garegga (Europe / USA / Japan / Asia)'. Renamed (battleg) to (battlega).
@@ -10,7 +10,12 @@ MAME History (including some detail prior to WolfMAME support):
 - 0.117u1: Alex Jackson added clone 'Battle Garegga - Type 2 (Europe / USA / Japan / Asia) (Sat Mar 2 1996)'. Reorganized the Battle Garegga sets in a more sensible fashion. Also fixed the randomly crashes. Changed description of clone 'Battle Garegga (Austria / Hong Kong) (Sat Mar 2 1996)' to 'Battle Garegga - New Version (Austria / Hong Kong) (Sat Mar 2 1996)'. Renamed (battleg) to (bgaregcn), (battlega) to (bgaregga), (battlegb) to (bgaregnv) and (battlegc) to (bgareghk).
 
 Resolution, 0.074-0.151: 320x240 @ 60.000000Hz
-Resolution, 0.152-0.199: 320x240 @ 59.637405Hz
+Resolution, 0.152-0.203: 320x240 @ 59.637405Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/battle-garegga/mame/
 Rules, Highest Score: http://www.twingalaxies.com/scores.php?scores=214959
+
+NOTES:
+Difficulty Medium was renamed to Normal at about 0.142
+Since 0.173, the conditional DIPs feature of this game affects WolfMAME's inpview. Verify settings with caution! [Machine Configuration setting "Region" affects "Bonus_Life" DIP]
+If Service Mode (F1+F2) is entered DURING RECORDING, DIP settings used for the performance can be displayed - this may assist verification. However, doing so AFTER PLAYBACK has ended will only display the viewer's local DIP settings, not those used for the performance.
