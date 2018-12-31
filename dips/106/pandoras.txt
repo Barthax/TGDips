@@ -117,9 +117,7 @@ INPUT_PORTS_END
 Resolution: 256x224 @ 60.000000Hz
 
 ********************************************************************************
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Pandora%27s%20Palace
-Note: the ROM set is incorrectly spelled on the scoreboard (no ending s): pandora
-
+TG Game Entry: https://www.twingalaxies.com/game/pandoras-palace/mame/
 ********************************************************************************
 Rules, Points [Marathon Settings]: http://www.twingalaxies.com/scores.php?scores=7780
 
