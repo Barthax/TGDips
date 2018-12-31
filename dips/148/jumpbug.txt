@@ -1,0 +1,78 @@
+# MAME 0.148 source snippet [galdrvr.c]
+
+GAME( 1981, jumpbug,  0,        jumpbug,  jumpbug, galaxian_state,  jumpbug,  ROT90,  "Hoei (Rock-Ola license)", "Jump Bug", GAME_SUPPORTS_SAVE ) // or by Alpha Denshi Co. under contract from Hoei?
+
+static INPUT_PORTS_START( jumpbug )
+	PORT_START("IN0")
+	PORT_BIT( 0x01, IP_ACTIVE_HIGH, IPT_COIN1 )
+	PORT_BIT( 0x02, IP_ACTIVE_HIGH, IPT_JOYSTICK_UP ) PORT_8WAY PORT_COCKTAIL
+	PORT_BIT( 0x04, IP_ACTIVE_HIGH, IPT_JOYSTICK_LEFT ) PORT_8WAY
+	PORT_BIT( 0x08, IP_ACTIVE_HIGH, IPT_JOYSTICK_RIGHT ) PORT_8WAY
+	PORT_BIT( 0x10, IP_ACTIVE_HIGH, IPT_BUTTON1 )
+	PORT_DIPNAME( 0x20, 0x00, DEF_STR( Cabinet ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Upright ) )
+	PORT_DIPSETTING(    0x20, DEF_STR( Cocktail ) )
+	PORT_BIT( 0x40, IP_ACTIVE_HIGH, IPT_JOYSTICK_DOWN ) PORT_8WAY
+	PORT_BIT( 0x80, IP_ACTIVE_HIGH, IPT_JOYSTICK_UP ) PORT_8WAY
+
+	PORT_START("IN1")
+	PORT_BIT( 0x01, IP_ACTIVE_HIGH, IPT_START1 )
+	PORT_BIT( 0x02, IP_ACTIVE_HIGH, IPT_START2 )
+	PORT_BIT( 0x04, IP_ACTIVE_HIGH, IPT_JOYSTICK_LEFT ) PORT_8WAY PORT_COCKTAIL
+	PORT_BIT( 0x08, IP_ACTIVE_HIGH, IPT_JOYSTICK_RIGHT ) PORT_8WAY PORT_COCKTAIL
+	PORT_BIT( 0x10, IP_ACTIVE_HIGH, IPT_BUTTON1 ) PORT_COCKTAIL
+	PORT_BIT( 0x20, IP_ACTIVE_HIGH, IPT_COIN2 )
+	PORT_DIPNAME( 0x40, 0x00, "Difficulty ?" )
+	PORT_DIPSETTING(    0x00, DEF_STR( Hard ) )
+	PORT_DIPSETTING(    0x40, DEF_STR( Easy ) )
+	PORT_BIT( 0x80, IP_ACTIVE_HIGH, IPT_JOYSTICK_DOWN ) PORT_8WAY PORT_COCKTAIL
+
+	PORT_START("IN2")
+	PORT_DIPNAME( 0x03, 0x01, DEF_STR( Lives ) )
+	PORT_DIPSETTING(    0x01, "3" )
+	PORT_DIPSETTING(    0x02, "4" )
+	PORT_DIPSETTING(    0x03, "5" )
+	PORT_DIPSETTING(    0x00, "Infinite (Cheat)")
+	PORT_DIPNAME( 0x0c, 0x00, DEF_STR( Coinage ) )
+	PORT_DIPSETTING(    0x04, "A 2C/1C  B 2C/1C" )
+	PORT_DIPSETTING(    0x08, "A 2C/1C  B 1C/3C" )
+	PORT_DIPSETTING(    0x00, "A 1C/1C  B 1C/1C" )
+	PORT_DIPSETTING(    0x0c, "A 1C/1C  B 1C/6C" )
+	PORT_BIT( 0xf0, IP_ACTIVE_HIGH, IPT_UNUSED )
+INPUT_PORTS_END
+
+ROM set changed: no
+0.106-0.148: jumpbug - "Jump Bug"
+
+Resolution: 768x224 @ 60.606061Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/jump-bug/mame/
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=10115
+
+ROMSet: JumpBug
+Cabinet: Upright
+Difficulty?: Hard
+Lives: 3
+
+Sample correct TG:
+IN0: offset 0x50, repeat every 0x28, typical value 0x00 but will change with normal game inputs
+- IN0: 0x20 (Cabinet): 0x00 (Upright)
+IN1: offset 0x58, repeat every 0x28, typical value 0x00
+- IN1: 0x40 (Difficulty ?): 0x00 (Hard)
+IN2: offset 0x60, repeat every 0x28, typical value 0x01
+- IN2: 0x03 (Lives): 0x01 (3)
+- IN2: 0x0c (Coinage): [not relevant]
+
+    50: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+    60: 01 00 00 00 00 00 00 00  00 00 00 00 00 38 CA 9E
+    70: A9 9E 3A 00 00 00 10 00  00 00 00 00 00 00 00 00
+    80: 00 00 00 00 00 00 00 00  01 00 00 00 00 00 00 00
+    A0: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+    B0: 01 00 00 00 00 00 00 00  00 00 00 00 00 A8 5E DC
+    C0: FC DB AF 00 00 00 10 00  00 00 00 00 00 00 00 00
+    D0: 00 00 00 00 00 00 00 00  01 00 00 00 00 00 00 00
+    F0: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+   100: 01 00 00 00 00 00 00 00  00 00 00 00 00 18 F3 19
+   110: 50 19 25 01 00 00 10 00  00 00 00 00 00 00 00 00
+   120: 00 00 00 00 00 00 00 00  01 00 00 00 00 00 00 00
+   140: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
