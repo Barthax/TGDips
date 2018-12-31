@@ -1,8 +1,8 @@
 ROM set changed: no
-0.106-0.175: bluehawk - "Blue Hawk"
+0.106-0.205: bluehawk - "Blue Hawk"
 
-Resolution, 0.106-0.175: 384x240 @ 60.000000Hz
+Resolution, 0.106-0.205: 384x240 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Blue%20Hawk
+TG Game Entry: https://www.twingalaxies.com/game/blue-hawk/mame/
 Rules, Points [1 Player Only]: http://www.twingalaxies.com/scores.php?scores=22920
 Rules, Points [2 Player Team]: http://www.twingalaxies.com/scores.php?scores=23410

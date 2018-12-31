@@ -5,17 +5,16 @@ MAME History:
 - 0.133u1: Renamed (gyrodinc) to (gyrodinec).
 - 0.138u1: Changed Gyrodine (Crux 1984) to the parent set. Renamed (gyrodine) to (gyrodinet) and (gyrodinec) to (gyrodine).
 
-
 Gyrodine (Taito Corporation license)
 ------------------------------------
 ROM set changed: yes
 0.106-0.115: gyrodine - "Gyrodine"
 0.116-0.138: gyrodine - "Gyrodine (Taito Corporation license)"
-0.138u1-0.175: gyrodinet - "Gyrodine (Taito Corporation license)"
+0.138u1-0.205: gyrodinet - "Gyrodine (Taito Corporation license)"
 
-Resolution, 0.106-0.175: 288x224 @ 60.000000Hz
+Resolution, 0.106-0.205: 288x224 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Gyrodine
+TG Game Entry: https://www.twingalaxies.com/game/gyrodine/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=70617
 
 
@@ -26,9 +25,8 @@ ROM set changed: yes.
 0.106-0.115: gyrodinc - "Gyrodine (Crux)"
 0.116-0.133: gyrodinc - "Gyrodine"
 0.133u1-0.138: gyrodinec - "Gyrodine"
-0.138u1-0.175: gyrodine - "Gyrodine"
+0.138u1-0.205: gyrodine - "Gyrodine"
 
-Resolution, 0.138-0.175: 288x224 @ 60.000000Hz
+Resolution, 0.138-0.205: 288x224 @ 60.000000Hz
 
 Rules: [no current tracks]
-
