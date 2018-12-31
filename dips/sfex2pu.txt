@@ -1,0 +1,15 @@
+ROM set changed: YES
+0.106-0.144: sfex2p - "Street Fighter EX 2 Plus (USA 990611)"
+0.145-0.204: sfex2p - "Street Fighter EX2 Plus (USA 990611)"
+0.205-     : sfex2pu - "Street Fighter EX2 Plus (USA 990611)"
+
+MAME History:
+- 0.144u4: Changed parent and clone descriptions to 'Street Fighter EX2 Plus'.
+- 0.205: Nomax, Brian Troha, Sean Sutton, Henrique Areias Pontes, MetalliC, Evan Korzon, Smitdogg and The Dumping Union added Street Fighter EX2 Plus (Euro 990611). Renamed (sfex2p) to (sfex2pu).
+
+Resolution, 0.106-0.205: 640x480 @ 60.000000Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/street-fighter-ex-2-plus-usa-990611/mame/
+Rules, Points [Tournament Settings]: http://www.twingalaxies.com/scores.php?scores=110784
+
+NOTE: This game has both DIPs & internal settings covered by the rules. If not shown during playback, press F2 to access & check internal settings afterwards.
