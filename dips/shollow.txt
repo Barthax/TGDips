@@ -6,4 +6,4 @@ Resolution, 0.106-0.204: 512x480 @ 30.000000Hz
 TG Game Entry: https://www.twingalaxies.com/game/satans-hollow-set-1/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=7806
 
-NOTE: This game has both DIPs & internal settings covered by the rules. If not shown during playback, press F2 to access & check internal settings afterwards.
+NOTE: This game has both DIPs & internal settings covered by the rules. If not shown during playback, press F2 then Tilt to access & check internal settings afterwards.

@@ -1,12 +1,15 @@
 ROM set changed: no
 0.106-0.127: bermudat - "Bermuda Triangle (Japan)"
-0.128-0.175: bermudat - "Bermuda Triangle (World?)" (minor description change)
+0.128-0.204: bermudat - "Bermuda Triangle (World?)"
+
+From MAMEINFO.DAT:
+- 0.127u1: SNK rewrite [Nicola Salmoria]: Fixed sprite-sprite priorities. Removed ROM patches, simulated "turbo front" check, clarified the relationship between the sets, converted to tilemaps, proper memory maps and inputs etc. Changed Z80 CPU2 clock speed to 4MHz and visible area to 224x368. Changed description to 'Bermuda Triangle (World?)' and clone (Japan old version) to 'Bermuda Triangle (Japan)'. Renamed (bermudao) to (bermudaj).
 
 Resolution, 0.106-0.127: 384x224 @ 60.000000Hz
 Resolution, 0.128-0.129: 368x224 @ 60.000000Hz
-Resolution, 0.130-0.175: 400x224 @ 60.000000Hz
+Resolution, 0.130-0.204: 400x224 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Bermuda%20Triangle%20[Japan]
+TG Game Entry: https://www.twingalaxies.com/game/bermuda-triangle-japan/mame/
 Rules, Points [1 Player Only]: http://www.twingalaxies.com/scores.php?scores=10169
 Rules, Points [2 Player Team]: http://www.twingalaxies.com/scores.php?scores=24431
 
@@ -68,4 +71,3 @@ b5462139 bt_p17.rom   Bermuda Triangle (World?)
 cb416227 bt_p18.rom   Bermuda Triangle (World?)
 4bc83229 bt_p4.rom    Bermuda Triangle (World?)
 817bd62c bt_p5.rom    Bermuda Triangle (World?)
-

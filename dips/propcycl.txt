@@ -1,13 +1,21 @@
 ROM set changed: no
 0.106-0.131: propcycl - "Prop Cycle (Rev PR2 Ver.A)"
-0.132-0.175: propcycl - "Prop Cycle (Rev. PR2 Ver.A)"
+0.132-0.189: propcycl - "Prop Cycle (Rev. PR2 Ver.A)"
+0.190-0.204: propcycl - "Prop Cycle (Rev. PR2 Ver.A, World)"
+
+From MAMEINFO.DAT:
+- 0.131u3: Changed description to 'Prop Cycle (Rev. PR2 Ver.A)'.
+- 0.190: Changed description to 'Prop Cycle (Rev. PR2 Ver.A, World)'.
 
 Resolution, 0.106-0.144: 640x480 @ 60.000000Hz
 Resolution, 0.145-0.152: 640x480 @ 59.937809Hz
-Resolution, 0.153-0.175: 640x480 @ 60.000000Hz
+Resolution, 0.153-0.202: 640x480 @ 60.000000Hz
+Resolution, 0.203-0.204: 640x480 @ 59.904060Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Propcycle
+TG Game Entry: https://www.twingalaxies.com/game/propcycle/mame/
 Rules, Points: {Advanced Story}: http://www.twingalaxies.com/scores.php?scores=131668
 Rules, Points: {Novice / Cliff Rock}: http://www.twingalaxies.com/scores.php?scores=131665
 Rules, Points: {Novice / Industarn}: http://www.twingalaxies.com/scores.php?scores=131667
 Rules, Points: {Novice / Wind Woods}: http://www.twingalaxies.com/scores.php?scores=131666
+
+NOTE: To calibrate the steering hold down service (9) and tap test (F2). Exit with F2.

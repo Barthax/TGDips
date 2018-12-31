@@ -14,10 +14,10 @@ ROM set changed: yes. Earlier renames for historical purposes only.
 0.027-0.035:   digdugnm - "Dig Dug (Namco)"
 0.35RC1-0.079: digdug - "Dig Dug (set 1)"
 0.079u1-0.133: digdugb - "Dig Dug (rev 1)"
-0.133u3-0.194: digdug1 - "Dig Dug (rev 1)"
+0.133u3-0.204: digdug1 - "Dig Dug (rev 1)"
 
 Resolution, 0.078-0.131: 288x224 @ 60.606060Hz
-Resolution, 0.132-0.194: 288x224 @ 60.606061Hz
+Resolution, 0.132-0.204: 288x224 @ 60.606061Hz
 
 TG Game Entry: http://www.twingalaxies.com/game/dig-dug-rev-1/mame/
 Rules, Points [Marathon Settings]: http://www.twingalaxies.com/scores.php?scores=5191
@@ -29,9 +29,9 @@ Dig Dug (rev 2)
 Note: not currently represented at TG. 
 ROM set changed: yes. Added in 0.35RC1.
 0.35RC1-0.079: digdugb - "Dig Dug (set 2)"
-0.079u1-0.194: digdug - "Dig Dug (rev 2)"
+0.079u1-0.204: digdug - "Dig Dug (rev 2)"
 
 Resolution, 0.078-0.131: 288x224 @ 60.606060Hz
-Resolution, 0.132-0.194: 288x224 @ 60.606061Hz
+Resolution, 0.132-0.204: 288x224 @ 60.606061Hz
 
 Rules: [no current tracks]
