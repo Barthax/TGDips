@@ -1,56 +1,13 @@
 ROM set changed: no
 0.106-0.122: cninja - "Caveman Ninja (World revision 3)"
-0.123-0.175: cninja - "Caveman Ninja (World ver 4)"
+0.123-0.205: cninja - "Caveman Ninja (World ver 4)"
 
 MAME History:
 - 0.122u3: Changed parent description to 'Caveman Ninja (World ver 4)' and clones '(World revision 0)' to '(World ver 1)', '(US)' to '(US ver 4)' and '(Japan)' to '(Japan ver 1)'. Renamed (cninja0) to (cninja1).
 
-Resolution, 0.106-0.175: 256x240 @ 58.000000Hz
+Resolution, 0.106-0.189: 256x240 @ 58.000000Hz
+Resolution, 0.190-0.205: 256x240 @ 58.238857Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Caveman%20Ninja%20[World%20Revision%203]
+TG Game Entry: https://www.twingalaxies.com/game/caveman-ninja-world-revision-3/mame/
 Rules, Points [1 Player Only]: http://www.twingalaxies.com/scores.php?scores=24450
 Rules, Points [2 Player Team]: http://www.twingalaxies.com/scores.php?scores=24451
-
-Additional references confirming only a description change between 0.122 and 0.123:
-C:\MAME>mame122 -listcrc cninja
-39aea12a gn-02-3.1k   Caveman Ninja (World revision 3)
-0f4360ef gn-05-2.3k   Caveman Ninja (World revision 3)
-f740ef7e gn-01-2.1j   Caveman Ninja (World revision 3)
-c98fcb62 gn-04-2.3j   Caveman Ninja (World revision 3)
-0b110b16 gn-00.rom    Caveman Ninja (World revision 3)
-1e28e697 gn-03.rom    Caveman Ninja (World revision 3)
-ca8bef96 gl-07.rom    Caveman Ninja (World revision 3)
-33a2b400 gl-08.rom    Caveman Ninja (World revision 3)
-5a2d4752 gl-09.rom    Caveman Ninja (World revision 3)
-de89c69a mag-02.rom   Caveman Ninja (World revision 3)
-a8f05d33 mag-00.rom   Caveman Ninja (World revision 3)
-5b399eed mag-01.rom   Caveman Ninja (World revision 3)
-2220eb9f mag-03.rom   Caveman Ninja (World revision 3)
-56a53254 mag-05.rom   Caveman Ninja (World revision 3)
-144b94cc mag-04.rom   Caveman Ninja (World revision 3)
-82d44749 mag-06.rom   Caveman Ninja (World revision 3)
-d92e519d gl-06.rom    Caveman Ninja (World revision 3)
-08eb5264 mag-07.rom   Caveman Ninja (World revision 3)
-a1267336 mb7122h.7v   Caveman Ninja (World revision 3)
-
-C:\MAME>mame123 -listcrc cninja
-39aea12a gn-02-3.1k   Caveman Ninja (World ver 4)
-0f4360ef gn-05-2.3k   Caveman Ninja (World ver 4)
-f740ef7e gn-01-2.1j   Caveman Ninja (World ver 4)
-c98fcb62 gn-04-2.3j   Caveman Ninja (World ver 4)
-0b110b16 gn-00.rom    Caveman Ninja (World ver 4)
-1e28e697 gn-03.rom    Caveman Ninja (World ver 4)
-ca8bef96 gl-07.rom    Caveman Ninja (World ver 4)
-33a2b400 gl-08.rom    Caveman Ninja (World ver 4)
-5a2d4752 gl-09.rom    Caveman Ninja (World ver 4)
-de89c69a mag-02.rom   Caveman Ninja (World ver 4)
-a8f05d33 mag-00.rom   Caveman Ninja (World ver 4)
-5b399eed mag-01.rom   Caveman Ninja (World ver 4)
-2220eb9f mag-03.rom   Caveman Ninja (World ver 4)
-56a53254 mag-05.rom   Caveman Ninja (World ver 4)
-144b94cc mag-04.rom   Caveman Ninja (World ver 4)
-82d44749 mag-06.rom   Caveman Ninja (World ver 4)
-d92e519d gl-06.rom    Caveman Ninja (World ver 4)
-08eb5264 mag-07.rom   Caveman Ninja (World ver 4)
-a1267336 mb7122h.7v   Caveman Ninja (World ver 4)
-

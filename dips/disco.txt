@@ -1,8 +1,21 @@
 ROM set changed: no
-0.106-0.175: disco - "Disco No.1"
+0.106-0.205: disco - "Disco No.1"
+
+From MAMEINFO.DAT:
+- 0.126u3: Added dipswitches 'Control Panel', 'Game Speed' and 'Country Code'.
 
 Resolution, 0.106-0.128: 256x240 @ 57.000000Hz
-Resolution, 0.129-0.175: 240x240 @ 57.444853Hz
+Resolution, 0.129-0.205: 240x240 @ 57.444853Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Disco%20No.1
+TG Game Entry: https://www.twingalaxies.com/game/disco-no1/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=26112
+
+NOTE: Due to changes at 0.126u3, the following DIP settings should be used for 0.127 or later...
+Unknown[1-2]: Off [All]
+Control Panel: Upright
+Cabinet: Cocktail
+Lives: 3
+Bonus Life: 10000
+Music Weapons: 5
+Game Speed: Slow
+Country Code: A

@@ -1,13 +1,15 @@
 ROM set changed: yes
 0.106-0.119: wh1 - "World Heroes (set 1)"
 0.120-0.143: wh1h - "World Heroes (set 2)"
-0.144-0.175: wh1h - "World Heroes (ALH-005)"
+0.144-0.205: wh1h - "World Heroes (ALH-005)"
 
 MAME History:
 - 0.120: Johnboy added World Heroes (set 1). Fully redumped (set 2), this is verified AES version. Changed (set 1) to clone 'World Heroes (set 2)' and clone (set 2) to 'World Heroes (set 3)'. Renamed (wh1h) to (wh1ha) and (wh1) to (wh1h).
 - 0.143u4: Changed description to 'World Heroes (ALM-005)' and clone (set 2) to 'World Heroes (ALH-005)'.
 
 Resolution, 0.106-0.113: 320x224 @ 59.185608Hz
-Resolution, 0.114-0.175: 320x224 @ 59.185606Hz
+Resolution, 0.114-0.205: 320x224 @ 59.185606Hz
 
-TG Game Entry: TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=World Heroes [set 1]
+TG Game Entry: https://www.twingalaxies.com/game/world-heroes-set-1/mame
+Rules, Points [Deathmatch Mode, Tournament Settings]: https://www.twingalaxies.com/scores.php?scores=15446
+Rules, Points [Normal Mode, Tournament Settings]: https://www.twingalaxies.com/scores.php?scores=15447

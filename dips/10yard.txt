@@ -1,6 +1,6 @@
 ROM set changed: no.  Added in 0.109.
 0.108u5-0.137: 10yard - "10-Yard Fight (World)"
-0.138-0.204: 10yard - "10-Yard Fight (World, set 1)"
+0.138-0.205: 10yard - "10-Yard Fight (World, set 1)"
 
 From MAMEINFO.DAT:
 - 0.108u5: Brian Troha added 10-Yard Fight (World). Renamed (yard) to (10yardj), (vsyard) to (vs10yard) and (vsyard2) to (vs10yarj).
@@ -8,9 +8,9 @@ From MAMEINFO.DAT:
 - 0.137u3: Kevin Eshbach, Smitdogg and The Dumping Union added clone '10-Yard Fight '85 (US, Taito license)'. Ranger_Lennier, W. Belk, Smitdogg and The Dumping Union added clone 'Vs 10-Yard Fight (US, Taito license)'. Changed parent description to '10-Yard Fight (World, set 1)'.
 
 Resolution, 0.109-0.122: 256x240 @ 57.000000Hz
-Resolution, 0.123-0.204: 256x224 @ 56.737589Hz
+Resolution, 0.123-0.205: 256x224 @ 56.737589Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/10-yard-fight-world-set-1/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=198181
 
-NOTE: "Defensive Man Pause" DIP renamed to "Unused" at 0.123u2.
+NOTE: "Allow Continue" & "Defensive Man Pause" DIPs renamed to "Unused" at 0.123u2.
