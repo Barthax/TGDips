@@ -1,34 +1,37 @@
 Note: two ROM sets represented on TG with changeover at 0.139u2.
 
-MAME History:
+From MAMEINFO.DAT:
 - 0.139u2: john666, Smitdogg and The Dumping Union added Street Fighter II': Champion Edition (World 920513). Renamed (sf2ce) to (sf2ceea).
+[cps1.cpp]
+- 0.148u5: Andrew Gardner added QSound internal DSP ROM to the device. Added DSP16 (4MHz) CPU3. Sonikos fixed 'Difficulty' dipswitch which has in the tab menu values from 1 (easiest) to 8 (hardest) but in the game's menu it's from 0 to 7.
 
 
 Street Fighter II': Champion Edition (World 920313)
 ---------------------------------------------------
 ROM set changed: yes
 0.106-0.138: sf2ce - "Street Fighter II' - Champion Edition (World 920313)"
-0.139-0.139: sf2ce - "Street Fighter II': Champion Edition (World 920313)" (very minor description change only)
-0.139u2-0.193: sf2ceea - "Street Fighter II': Champion Edition (World 920313)" (ROM set rename!)
+0.139-0.139: sf2ce - "Street Fighter II': Champion Edition (World 920313)"
+0.139u2-0.205: sf2ceea - "Street Fighter II': Champion Edition (World 920313)"
 
-Resolution, 0.106-0.126: 384x224 @ 60.000000 Hz
-Resolution, 0.127-0.147: 384x224 @ 59.610000 Hz
-Resolution, 0.148-0.152: 384x224 @ 59.629403 Hz
-Resolution, 0.153-0.193: 384x224 @ 59.637405 Hz
+Resolution, 0.106-0.126: 384x224 @ 60.000000Hz
+Resolution, 0.127-0.147: 384x224 @ 59.610000Hz
+Resolution, 0.148-0.152: 384x224 @ 59.629403Hz
+Resolution, 0.153-0.205: 384x224 @ 59.637405Hz
 
 Note: do not check DIP switches via Service Mode (F2) after playback ends: the settings will revert to your local copy.
 TG Game Entry: http://www.twingalaxies.com/street-fighter-ii-champion-edition-world-920313/mame/
 Rules, Points [Tournament Settings]: http://www.twingalaxies.com/scores.php?scores=11186
 
+NOTE: from 0.148u5 onwards, Difficulty settings have been relabelled. Verify with caution.
 
 Street Fighter II': Champion Edition (World 920513)
 ---------------------------------------------------
 Note: not currently represented on TG.
 ROM set changed: no.  Added in 0.139u2.
-0.139u2-0.193: sf2ce - "Street Fighter II': Champion Edition (World 920513)"
+0.139u2-0.205: sf2ce - "Street Fighter II': Champion Edition (World 920513)"
 
 Resolution, 0.139-0.147: 384x224 @ 59.610000Hz
 Resolution, 0.148-0.152: 384x224 @ 59.629403Hz
-Resolution, 0.153-0.193: 384x224 @ 59.637405Hz
+Resolution, 0.153-0.205: 384x224 @ 59.637405Hz
 
 Rules: [no current tracks]

@@ -1,12 +1,20 @@
 ROM set changed: no
 0.106-0.141: zerohour - "Zero Hour"
-0.141u2-0.175: zerohour - "Zero Hour (set 1)"
+0.141u2-0.205: zerohour - "Zero Hour (set 1)"
 
 MAME History:
+- 0.111u4: Mike Ellery improved dipswitches in Zero Hour. Added 'Bonus Life' dipswitch. Changed 'Unknown' dipswitches to 'Unused'.
+- 0.122u8: RansAckeR fixed 'Bonus Life' dipswitch.
 - 0.141u2: Andrew Welburn and The Dumping Union added clone Zero Hour (set 2). Fixed rom names. Changed parent description to 'Zero Hour (set 1)'.
 
-Resolution, 0.106-0.175: 240x192 @ 60.000000Hz
+Resolution, 0.106-0.205: 240x192 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Zero%20Hour
+TG Game Entry: https://www.twingalaxies.com/game/zero-hour/mame
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=10041
 
+NOTES:
+At 0.111u4, 'Bonus_Life' was combined & renamed from two previously 'Unknown' DIPs (0x10 & 0x20), but labels were incorrect, This was later fixed at 0.122u8.
+For track compatibility, the correctly translated 'Bonus_Life' setting is as follows:
+0.112-0.122: Bonus_Life = No Bonus
+0.123+: Bonus_Life = 5000
+All other DIPs are per current rule set. This will award a bonus life at 5000 in all cases.

@@ -13,3 +13,5 @@ Resolution, 0.153-0.205: 384x224 @ 59.637405Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/street-fighter-ii-the-world-warrior-world-910522/mame/
 Rules, Points [Tournament Settings]: http://www.twingalaxies.com/scores.php?scores=7862
+
+NOTE: from 0.148u5 onwards, Difficulty settings have been relabelled. Verify with caution.

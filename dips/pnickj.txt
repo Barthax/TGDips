@@ -1,9 +1,16 @@
 ROM set changed: no
-0.106-0.175: pnickj - "Pnickies (Japan 940608)"
+0.106-0.205: pnickj - "Pnickies (Japan 940608)"
+
+From MAMEINFO.DAT:
+[from cps1.c]
+- 0.148u5: Andrew Gardner added QSound internal DSP ROM to the device. Added DSP16 (4MHz) CPU3. Sonikos fixed 'Difficulty' dipswitch which has in the tab menu values from 1 (easiest) to 8 (hardest) but in the game's menu it's from 0 to 7.
 
 Resolution, 0.106-0.126: 384x224 @ 60.000000Hz
 Resolution, 0.127-0.147: 384x224 @ 59.610000Hz
 Resolution, 0.148-0.152: 384x224 @ 59.629403Hz
-Resolution, 0.153-0.175: 384x224 @ 59.637405Hz
+Resolution, 0.153-0.205: 384x224 @ 59.637405Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Pnickies [Japan 940608]
+TG Game Entry: https://www.twingalaxies.com/game/pnickies-japan-940608/mame
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=7789
+
+NOTE: from 0.148u5 onwards, Difficulty settings have been relabelled. Verify with caution.
