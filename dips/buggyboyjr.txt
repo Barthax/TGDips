@@ -1,0 +1,21 @@
+ROM set changed: yes
+0.106-0.122: buggyb1 - "Buggy Boy (Single Monitor)"
+0.123-0.133: buggybjr - "Buggy Boy Junior/Speed Buggy (Upright)"
+0.134-0.208: buggyboyjr - "Buggy Boy Junior/Speed Buggy (upright)"
+
+From MAMEINFO.DAT:
+- 0.122u1: Phil Bennett fixed Buggy Boy Junior - Game now playable. Fixed input and rom loading. Changed visible area to 256x240 and VSync to 54.100000 Hz. Replaced the 2x AY-3-8910A sound with 2x YM2149 and Custom. Changed description of 'Buggy Boy (Single Monitor)' to 'Buggy Boy Junior/Speed Buggy (Upright)' and clone 'Buggy Boy' to 'Buggy Boy/Speed Buggy (Cockpit)'. Renamed (buggyb1) to (buggybjr).
+- 0.133u1: Renamed (buggybjr) to (buggyboyjr).
+
+Resolution, 0.106-0.122: 256x240 @ 60.000000Hz
+Resolution, 0.123-0.130: 256x240 @ 54.100000Hz
+Resolution, 0.131-0.208: 256x240 @ 54.065744Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/buggy-boy-juniorspeed-buggy/mame
+Rules, Offroad (Points): https://www.twingalaxies.com/scores.php?scores=220468
+Rules, North (Points): https://www.twingalaxies.com/scores.php?scores=220469
+Rules, South (Points): https://www.twingalaxies.com/scores.php?scores=220470
+Rules, East (Points): https://www.twingalaxies.com/scores.php?scores=220471
+Rules, West (Points): https://www.twingalaxies.com/scores.php?scores=220472
+
+NOTE: game was classified as "Not Working" up to 0.130u1

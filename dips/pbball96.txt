@@ -1,9 +1,13 @@
 ROM set changed: yes
 0.106-0.148: pbball96 - "Powerful Baseball '96 (GV017 Japan 1.03)"
-0.148u5-0.170: powyak96 - "Jikkyou Powerful Pro Yakyuu '96 (GV017 Japan 1.03)"
+0.148u5-0.208: powyak96 - "Jikkyou Powerful Pro Yakyuu '96 (GV017 Japan 1.03)"
 
-Resolution, 0.106-0.170: 640x480 @ 60.000000Hz
+From MAMEINFO.DAT:
+- 0.148u5: Fabio Priuli changed description to 'Jikkyou Powerful Pro Yakyuu '96 (GV017 Japan 1.03)'. Renamed (pbball96) to (powyak96).
 
+Resolution, 0.106-0.208: 640x480 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Powerful%20Baseball%20%2796%20[GV017%20JAPAN%201.03]
+TG Game Entry: https://www.twingalaxies.com/game/powerful-baseball-96-gv017-japan-103/mame/
 Rules, Biggest Blowout: http://www.twingalaxies.com/scores.php?scores=78966
+
+NOTE: All relevant rules are covered by internal settings.  If not shown during playback, use F2 to access after playback completed.

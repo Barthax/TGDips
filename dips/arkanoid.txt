@@ -1,11 +1,13 @@
 ROM set changed: no
 0.106-0.154: arkanoid - "Arkanoid (World)"
 0.155-0.169: arkanoid - "Arkanoid (World, oldest rev)"
-0.170-0.201: arkanoid - "Arkanoid (World, older)"
+0.170-0.207: arkanoid - "Arkanoid (World, older)"
 
 Resolution, 0.106-0.155: 256x224 @ 60.000000Hz
-Resolution, 0.156-0.201: 256x224 @ 59.185606Hz
+Resolution, 0.156-0.207: 256x224 @ 59.185606Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/arkanoid-world/mame/
 Rules, Points [Normal Setting]: http://www.twingalaxies.com/scores.php?scores=21476
 Rules, Points [Tournament Settings]: http://www.twingalaxies.com/scores.php?scores=41127
+
+NOTE: Difficulty options appear to have always been Easy/Hard. Rules require "Normal", not sure where that came from.

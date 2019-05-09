@@ -1,7 +1,8 @@
 ROM set changed: no
-0.106-0.175: ssprint - "Super Sprint (rev 4)"
+0.106-0.208: ssprint - "Super Sprint (rev 4)"
 
 Resolution, 0.106-0.122: 512x384 @ 60.000000Hz
-Resolution, 0.123-0.175: 512x384 @ 60.096154Hz
+Resolution, 0.123-0.208: 512x384 @ 60.096154Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Super Sprint [rev 4]
+TG Game Entry: https://www.twingalaxies.com/game/super-sprint-rev-4/mame/
+Rules, Points: https://www.twingalaxies.com/scores.php?scores=7870

@@ -1,0 +1,9 @@
+ROM set changed: no.  Added in 0.148u4.
+0.149-0.208: ddp2 - "DoDonPachi II - Bee Storm (World, ver. 102)"
+
+Resolution, 0.149-0.208: 448x224 @ 60.000000Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/dodonpachi-ii-bee-storm/mame/
+Rules, Highest Score-Combat Mode: https://www.twingalaxies.com/scores.php?scores=221381
+
+NOTE: All relevant rules are covered by internal settings.  If not shown during playback, switch Service Mode to On (either F2 or use DIPs) then Soft Reset (F3) to access after playback completed.

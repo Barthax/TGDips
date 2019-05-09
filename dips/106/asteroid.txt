@@ -54,6 +54,7 @@ Resolution: vector
 TG Game Entry: https://www.twingalaxies.com/game/asteroids-rev-2/mame/
 Rules, Points [Marathon]: http://www.twingalaxies.com/scores.php?scores=12447
 Rules, Points [TG Extreme Settings]: http://www.twingalaxies.com/scores.php?scores=10094
+Rules, "Stand Your Ground Challenge": https://www.twingalaxies.com/scores.php?scores=219032
 
 ROMSet: Asteroid
 Service Mode: Off

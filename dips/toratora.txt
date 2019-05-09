@@ -1,0 +1,15 @@
+ROM set changed: 
+0.106-0.115: toratora - "Tora Tora"
+0.116-0.208: toratora - "Tora Tora (prototype?)"
+
+MAME History:
+- 0.115u3: Improved Tora Tora driver [Zsolt Vasvari]: Added SN76477 from the schematics, but it sounds terrible; no doubt the schematics are incorrect in many places. Updated to the recent PIA changes. Added 2x SN76477 sound. Changed description to 'Tora Tora (prototype?)'.
+- 0.175: qwijibo fixed Tora Tora timer and interrupts and improved sound. Game now fully playable. Changed M6800 CPU1 clock speed to 648125 Hz.
+- 0.195: Bad A Billy fixed Tora Tora dipswitches and DIP locations.
+
+Resolution, 0.106-0.208: 256x240 @ 60.000000Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/tora-tora-prototype/mame/
+Rules, Track measured by highest number of points: https://www.twingalaxies.com/scores.php?scores=220932
+
+NOTE: classified as "Not Working" up to 0.174

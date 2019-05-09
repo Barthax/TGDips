@@ -1,0 +1,9 @@
+Resolution: 320x224 @ 59.185608Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/neo-turf-masters-big-tournament-golf/mame/
+Rules, Lowest Par [Australia Course]: http://www.twingalaxies.com/scores.php?scores=15368
+Rules, Lowest Par [Germany Course]: http://www.twingalaxies.com/scores.php?scores=15369
+Rules, Lowest Par [Japan Course]: http://www.twingalaxies.com/scores.php?scores=15370
+Rules, Lowest Par [U.S.A. Course]: http://www.twingalaxies.com/scores.php?scores=15371
+
+NOTE: All relevant rules are covered by internal settings.  If not shown during playback, use F2 to access after playback completed.

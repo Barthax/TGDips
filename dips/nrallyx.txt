@@ -10,20 +10,20 @@ New Rally X (bootleg?)
 ROM set changed: yes
 0.78-0.134: nrallyx - "New Rally X"
 0.134u2-0.148: nrallyxb - "New Rally X (bootleg?) "
-0.149-0.197: nrallyxb - "New Rally X (bootleg?)"   (minor description change only)
+0.149-0.209: nrallyxb - "New Rally X (bootleg?)"
 
-Resolution, 0.106-0.197: 288x224 @ 60.606060Hz
+Resolution, 0.106-0.209: 288x224 @ 60.606060Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/new-rally-x/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=7776
 
 
-New Rally X (Namco 1981)
+New Rally X
 -----------
 Note: not currently represented on TG.
 ROM set changed: no.  Added in 0.134u2.
-0.134u2-0.197: nrallyx - "New Rally X"
+0.134u2-0.209: nrallyx - "New Rally X"
 
-Resolution, 0.135-0.197: 288x224 @ 60.606060Hz
+Resolution, 0.135-0.209: 288x224 @ 60.606060Hz
 
 Rules: [no current tracks]

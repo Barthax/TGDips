@@ -1,3 +1,9 @@
+# MAME 0.106 source snippet
+
+#include "driver.h"
+#include "sound/ay8910.h"
+
+
 INPUT_PORTS_START( scregg )
 	PORT_START      /* IN0 */
 	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_4WAY
@@ -67,4 +73,7 @@ INPUT_PORTS_START( scregg )
 	PORT_DIPSETTING(    0x00, DEF_STR( Hard ) )
 INPUT_PORTS_END
 
+
 GAME( 198?, dommy,  0,      dommy,  scregg, 0, ROT270, "Technos", "Dommy", 0 )
+GAME( 1983, scregg, 0,      scregg, scregg, 0, ROT270, "Technos", "Scrambled Egg", 0 )
+GAME( 1983, eggs,   scregg, scregg, scregg, 0, ROT270, "[Technos] Universal USA", "Eggs", 0 )

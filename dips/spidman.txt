@@ -1,6 +1,7 @@
 ROM set changed: no
-0.106-0.175: spidman - "Spider-Man: The Videogame (World)"
+0.106-0.209: spidman - "Spider-Man: The Videogame (World)"
 
-Resolution, 0.106-0.175: 416x224 @ 60.000000Hz
+Resolution, 0.106-0.209: 416x224 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Spider-Man: The Videogame [World]
+TG Game Entry: https://www.twingalaxies.com/game/spider-man-the-videogame-world/mame/
+Rules, Points: https://www.twingalaxies.com/scores.php?scores=110736

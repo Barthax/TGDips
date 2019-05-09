@@ -1,7 +1,7 @@
 ROM set changed: no
-0.106-0.189: drmicro - "Dr. Micro"
+0.106-0.208: drmicro - "Dr. Micro"
 
-Resolution, 0.106-0.189: 256x224 @ 60.000000Hz
+Resolution, 0.106-0.208: 256x224 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Dr.+Micro
+TG Game Entry: https://www.twingalaxies.com/game/dr-micro/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=26126

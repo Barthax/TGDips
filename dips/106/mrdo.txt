@@ -113,7 +113,7 @@ Lives: 5
 Special Rules: Your scoring attempts ends when either you die for a 5th time, regardless of any additional extra lives accrued.
 
 Sample correct TG:
-DSW0: offset 0x2B, repeat every 0x7C, typical value 0xDE
+DSW0: offset 0x2B, repeat every 0x7C, typical value 0x46
 - DSW0: 0x03 (Difficulty): 0x02 (Medium)
 - DSW0: 0x04 (Rack Test (Cheat)): 0x04 (Off)
 - DSW0: 0x08 (Special): 0x00 (Hard)

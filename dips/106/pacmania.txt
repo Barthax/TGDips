@@ -75,11 +75,13 @@ INPUT_PORTS_START( pacmania )
 	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
 INPUT_PORTS_END
 
-Resolution: 384x224 @ 60.000000Hz
+Resolution: 288x224 @ 60.606060Hz
 
-TG Game Entry: http://www.twingalaxies.com/game_detail.php?gameid=3672&platformid=46
+TG Game Entry: https://www.twingalaxies.com/game/pac-mania/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=9806
-Note: to check internal settings, use Service Mode (F2).  Navigate with up/down and left/right to change values.  Service Mode to exit.
+Rules, Highest score on cherry board: https://www.twingalaxies.com/scores.php?scores=221899
+
+NOTE: There are both hardware DIP switches & internal settings.  Use Service Mode (F2) to access the internal settings after playback if not shown during playback.
 
 ROMSet: PacMania
 Service Mode: Off

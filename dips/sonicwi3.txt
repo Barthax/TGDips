@@ -1,10 +1,10 @@
 ROM set changed:
-0.106-0.191: sonicwi3 - "Aero Fighters 3 / Sonic Wings 3"
+0.106-0.209: sonicwi3 - "Aero Fighters 3 / Sonic Wings 3"
 
 Resolution, 0.106-0.113: 320x224 @ 59.185608Hz
-Resolution, 0.114-0.191: 320x224 @ 59.185606Hz
+Resolution, 0.114-0.209: 320x224 @ 59.185606Hz
 
-TG Game Entry: http://www.twingalaxies.com/game_detail.php?gameid=5051&platformid=46
+TG Game Entry: https://www.twingalaxies.com/game/aero-fighters-3-sonic-wings-3/mame/
 Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=14656
 Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=14657
 
