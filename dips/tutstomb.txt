@@ -1,0 +1,8 @@
+ROM set changed: no
+0.106-0.209: tutstomb - "Tut's Tomb"
+
+Resolution, 0.106-0.114: 320x200 @ 69.000000Hz
+Resolution, 0.115-0.209: 320x200 @ 69.202045Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/tuts-tomb/mame/
+Rules, Points: https://www.twingalaxies.com/scores.php?scores=223011

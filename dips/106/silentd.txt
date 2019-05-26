@@ -1,0 +1,175 @@
+# MAME 0.106 source snippet [taito_b.c]
+
+GAME( 1992, silentd,  0,       silentd,  silentd,  taito_b, ROT0,   "Taito Corporation Japan", "Silent Dragon (World)", GAME_SUPPORTS_SAVE )
+
+#define TAITO_DIFFICULTY_8 \
+	PORT_DIPNAME( 0x03, 0x03, DEF_STR( Difficulty ) ) \
+	PORT_DIPSETTING(    0x02, DEF_STR( Easy ) ) \
+	PORT_DIPSETTING(    0x03, DEF_STR( Medium ) ) \
+	PORT_DIPSETTING(    0x01, DEF_STR( Hard ) ) \
+	PORT_DIPSETTING(    0x00, DEF_STR( Hardest ) )
+
+INPUT_PORTS_START( silentd )	/* World Version */
+	PORT_START_TAG("DSWA")
+	PORT_DIPNAME( 0x01, 0x01, DEF_STR( Unused ) )	/* Listed as "NOT USED" in the manual and only shown as "OFF" */
+	PORT_DIPSETTING(    0x01, DEF_STR( Off ))
+	PORT_DIPSETTING(    0x00, DEF_STR( On ))
+	PORT_DIPNAME( 0x02, 0x02, DEF_STR( Flip_Screen ) )
+	PORT_DIPSETTING(    0x02, DEF_STR( Off ))
+	PORT_DIPSETTING(    0x00, DEF_STR( On ))
+	PORT_SERVICE( 0x04, IP_ACTIVE_LOW )
+	PORT_DIPNAME( 0x08, 0x08, DEF_STR( Demo_Sounds ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Off ))
+	PORT_DIPSETTING(    0x08, DEF_STR( On ))
+	PORT_DIPNAME( 0x30, 0x30, DEF_STR( Coinage ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( 4C_1C ) )
+	PORT_DIPSETTING(    0x10, DEF_STR( 3C_1C ) )
+	PORT_DIPSETTING(    0x20, DEF_STR( 2C_1C ) )
+	PORT_DIPSETTING(    0x30, DEF_STR( 1C_1C ) )
+
+/* These next two are listed as Unused for "Oversea Versions"
+    For the USA version use this description:
+
+  Buy-In Pricing    Same As Play Pricing    OFF OFF (Default)
+                    1 Coin  = Continue      ON  OFF
+                    2 Coins = Contniue      OFF ON
+                    3 Coins = Continue      ON  ON
+ */
+
+	PORT_DIPNAME( 0x40, 0x40, DEF_STR( Unused ) )
+	PORT_DIPSETTING(    0x40, DEF_STR( Off ))
+	PORT_DIPSETTING(    0x00, DEF_STR( On ))
+	PORT_DIPNAME( 0x80, 0x80, DEF_STR( Unused ) )
+	PORT_DIPSETTING(    0x80, DEF_STR( Off ))
+	PORT_DIPSETTING(    0x00, DEF_STR( On ))
+
+	PORT_START_TAG("DSWB")
+	TAITO_DIFFICULTY_8
+	PORT_DIPNAME( 0x04, 0x04, "Invulnerability (Cheat)")
+	PORT_DIPSETTING(    0x04, DEF_STR( Off ))
+	PORT_DIPSETTING(    0x00, DEF_STR( On ))
+	PORT_DIPNAME( 0x08, 0x08, "Power-Up Bonus" )	/* Manual States "Power-Up at Stage Clear" */
+	PORT_DIPSETTING(    0x08, DEF_STR( Off ))
+	PORT_DIPSETTING(    0x00, DEF_STR( On ))
+	PORT_DIPNAME( 0x10, 0x10, "Regain Power" )
+	PORT_DIPSETTING(    0x10, DEF_STR( Off ))
+	PORT_DIPSETTING(    0x00, DEF_STR( On ))
+
+/*  Manual Shows "1 Coin Slot (Shared)" and "4 Coin Slot (1 Per Player)"
+
+    You can play the game with 2, 3, or 4 players and the last option is a linked 4 players.
+    Using bit6 and bit7&8 you end up with 1, 2 or 4 separate "Credits" on the demo screens.
+    Using bits7&8 you can have 2-4 players as shown at the top of the game screens.
+
+*/
+
+	PORT_DIPNAME( 0x20, 0x20, "Credits" )			/* Only shows 4 separate credits with 4p/1m below */
+	PORT_DIPSETTING(    0x20, "Combined" )
+	PORT_DIPSETTING(    0x00, "Separate" )			/* When multiple credits show, Coin B will affect p2 credits */
+	PORT_DIPNAME( 0xc0, 0x80, "Cabinet Style" )
+	PORT_DIPSETTING(    0xc0, "3 Players")
+	PORT_DIPSETTING(    0x80, "2 Players")
+	PORT_DIPSETTING(    0x40, "4 Players/1 Machine")	/* with bit6, shows 4 separate credits */
+	PORT_DIPSETTING(    0x00, "4 Players/2 Machines")	/* with bit6 shows 2 separate credits */
+
+	PORT_START_TAG("IN0")
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_PLAYER(1)
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_BUTTON2 ) PORT_PLAYER(1)
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_BUTTON3 ) PORT_PLAYER(1)
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_PLAYER(2)
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_BUTTON2 ) PORT_PLAYER(2)
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_BUTTON3 ) PORT_PLAYER(2)
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_UNKNOWN )
+
+	PORT_START_TAG("IN1")
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_TILT )
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_SERVICE1 )
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_START1 )
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_START2 )
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_COIN1 ) PORT_IMPULSE(2)
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_COIN2 ) PORT_IMPULSE(2)
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_UNKNOWN )
+
+	PORT_START_TAG("IN2")
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_8WAY PORT_PLAYER(1)
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_8WAY PORT_PLAYER(1)
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_8WAY PORT_PLAYER(1)
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_8WAY PORT_PLAYER(1)
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_8WAY PORT_PLAYER(2)
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_8WAY PORT_PLAYER(2)
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_8WAY PORT_PLAYER(2)
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_8WAY PORT_PLAYER(2)
+
+	PORT_START_TAG("IN5")
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_START3 )
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_8WAY PORT_PLAYER(3)
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_8WAY PORT_PLAYER(3)
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_8WAY PORT_PLAYER(3)
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_8WAY PORT_PLAYER(3)
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_PLAYER(3)
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_BUTTON2 ) PORT_PLAYER(3)
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_BUTTON3 ) PORT_PLAYER(3)
+
+	PORT_START_TAG("IN6")
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_START4 )
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_8WAY PORT_PLAYER(4)
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_8WAY PORT_PLAYER(4)
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_8WAY PORT_PLAYER(4)
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_8WAY PORT_PLAYER(4)
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_PLAYER(4)
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_BUTTON2 ) PORT_PLAYER(4)
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_BUTTON3 ) PORT_PLAYER(4)
+
+	PORT_START_TAG("IN7")
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_COIN3 ) PORT_IMPULSE(2)
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_COIN3 ) PORT_IMPULSE(2) PORT_NAME ("Coin 3 2nd input")/*not sure if this is legal under MAME*/
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_COIN4 ) PORT_IMPULSE(2)
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_COIN4 ) PORT_IMPULSE(2) PORT_NAME ("Coin 4 2nd input")/*not sure if this is legal under MAME*/
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_UNKNOWN )
+INPUT_PORTS_END
+
+Resolution: 320x224 @ 60.000000Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/silent-dragon/mame/
+Rules, Points [Single Player Only]: https://www.twingalaxies.com/scores.php?scores=110652
+Rules, Points [Two Player Team]: https://www.twingalaxies.com/scores.php?scores=110653
+Rules, Points [Three Player Team]: https://www.twingalaxies.com/scores.php?scores=110654
+Rules, Points [Four Player Team]: https://www.twingalaxies.com/scores.php?scores=110655
+
+ROMSet: SilentD
+Unused: Off [All]
+Flip Screen: Off
+Service Mode: Off
+Difficulty: Medium
+Invulnerability [Cheat]: Off
+Power-Up Bonus: Off
+Regain Power: Off
+Credits: Combined
+Cabinet Style: 4 Players / 1 Machine
+
+Sample correct TG:
+DSWA: offset 0x23, repeat every 0x7C, typical value 0xFF
+- DSWA: 0x01 (Unused): 0x01 (Off)
+- DSWA: 0x02 (Flip_Screen): 0x02 (Off)
+- DSWA: 0x04 (PORT_SERVICE): 0x04 (Off)
+- DSWA: 0x08 (Demo_Sounds): [not relevant]
+- DSWA: 0x30 (Coinage): [not relevant]
+- DSWA: 0x40 (Unused): 0x40 (Off)
+- DSWA: 0x80 (Unused): 0x80 (Off)
+DSWB: offset 0x27, repeat every 0x7C, typical value 0x7F
+- DSWB: 0x03 (Difficulty): 0x03 (Medium)
+- DSWB: 0x04 (Invulnerability (Cheat)): 0x04 (Off)
+- DSWB: 0x08 (Power-Up Bonus): 0x08 (Off)
+- DSWB: 0x10 (Regain Power): 0x10 (Off)
+- DSWB: 0x20 (Credits): 0x20 (Combined)
+- DSWB: 0xc0 (Cabinet Style): 0x40 (4 Players / 1 Machine)
+
+    20: 00 00 00 FF 00 00 00 7F  00 00 00 FF 00 00 00 FF
+    90: 00 00 00 00 00 00 00 00  3E 82 43 E1 00 00 00 FF
+    A0: 00 00 00 7F 00 00 00 FF  00 00 00 FF 00 00 00 FF
+   110: 00 00 00 00 3E 82 43 E1  00 00 00 FF 00 00 00 7F
