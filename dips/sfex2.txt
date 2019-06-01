@@ -1,7 +1,29 @@
-ROM set changed: no
+Note: two ROM sets represented here with changeover at 0.210.
+
+From MAMEINFO.DAT:
+- 0.144u4: Changed parent and clone descriptions to 'Street Fighter EX2'.
+- 0.210: Jorge Silva added Street Fighter EX2 (Euro 980312). Renamed (sfex2) to (sfex2u).
+
+
+Street Fighter EX2 (USA 980526)
+-------------------------------
+ROM set changed: yes
 0.106-0.144: sfex2 - "Street Fighter EX 2 (USA 980526)"
-0.145-0.175: sfex2 - "Street Fighter EX2 (USA 980526)"
+0.145-0.209: sfex2 - "Street Fighter EX2 (USA 980526)"
+0.210-     : sfex2u - "Street Fighter EX2 (USA 980526)"
 
-Resolution, 0.106-0.175: 640x480 @ 60.000000Hz
+Resolution, 0.106-0.210: 640x480 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Street Fighter EX 2 [USA 980526]
+TG Game Entry: https://www.twingalaxies.com/game/street-fighter-ex-2-usa-980526/mame
+Rules, Points [Tournament Settings]: http://www.twingalaxies.com/scores.php?scores=110783
+
+
+Street Fighter EX2 (Euro 980312)
+--------------------------------
+Note: not currently represented on TG.
+ROM set changed: no
+0.210-     : sfex2 - "Street Fighter EX2 (Euro 980312)"
+
+Resolution, 0.210-     : 288x224 @ 60.606061Hz
+
+Rules: [no current tracks]

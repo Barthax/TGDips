@@ -1,9 +1,29 @@
-ROM set changed: no
+Note: two ROM sets represented here with changeover at 0.210.
+
+From MAMEINFO.DAT:
+- 0.153: Changed description to 'Boxy Boy (SB?)' and clone (Japan) to 'Souko Ban Deluxe (Japan, SB1)'.
+- 0.210: Corrado Tomaselli and The Dumping Union added Boxy Boy (World, SB2). Renamed (boxyboy) to (boxyboya).
+
+Boxy Boy (SB?)
+--------------
+ROM set changed: yes
 0.106-0.152: boxyboy - "Boxy Boy (US)"
-0.153-0.175: boxyboy - "Boxy Boy (SB?)" (minor description change)
+0.153-0.209: boxyboy - "Boxy Boy (SB?)"
+0.210-     : boxyboya - "Boxy Boy (SB?)"
 
 Resolution, 0.106-0.152: 288x224 @ 60.606060Hz
-Resolution, 0.153-0.175: 288x224 @ 60.606061Hz
+Resolution, 0.153-0.210: 288x224 @ 60.606061Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Boxy%20Boy%20[US]
+TG Game Entry: https://www.twingalaxies.com/game/boxy-boy-us/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=41812
+
+
+Boxy Boy (World, SB2)
+---------------------
+Note: not currently represented on TG.
+ROM set changed: no
+0.210-     : boxyboy - "Boxy Boy (World, SB2)"
+
+Resolution, 0.210-     : 288x224 @ 60.606061Hz
+
+Rules: [no current tracks]

@@ -1,10 +1,16 @@
 ROM set changed: no
-0.106-0.175: lastfort - "Last Fortress - Toride"
+0.106-0.191: lastfort - "Last Fortress - Toride"
+0.192-0.209: lastfort - "Last Fortress - Toride (Japan)"
+0.210-     : lastfort - "Last Fortress - Toride (Japan, VG420 PCB)"
+
+From MAMEINFO.DAT:
+- 0.192: Added 'Unused' dipswitch. Changed description to 'Last Fortress - Toride (Japan)' and clones (Erotic, Rev C) to 'Last Fortress - Toride (China, Rev C)', (Erotic, Rev A) to 'Last Fortress - Toride (China, Rev A)' and (German) to 'Last Fortress - Toride (Germany)'.
+- 0.210: twistedsymphony added clone Last Fortress - Toride (Japan, VG460 PCB). Changed parent description to 'Last Fortress - Toride (Japan, VG420 PCB)'.
 
 Resolution, 0.106-0.144: 360x224 @ 58.000000Hz
 Resolution, 0.145-0.146: 360x240 @ 59.922743Hz
-Resolution, 0.147-0.175: 360x224 @ 58.000000Hz
+Resolution, 0.147-0.191: 360x224 @ 58.000000Hz
+Resolution, 0.192-0.210: 360x224 @ 58.232800Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Last%20Fortress%20-%20Toride
+TG Game Entry: https://www.twingalaxies.com/game/last-fortress-toride/mame
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=75337
-
