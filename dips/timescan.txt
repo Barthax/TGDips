@@ -1,8 +1,9 @@
 ROM set changed: no
-0.106-0.175: timescan - "Time Scanner (set 2, System 16B)"
+0.106-0.210: timescan - "Time Scanner (set 2, System 16B)"
 
 Resolution, 0.106-0.114: 320x224 @ 60.000000Hz
 Resolution, 0.115-0.116: 321x224 @ 60.054389Hz
-Resolution, 0.117-0.175: 320x224 @ 60.054389Hz
+Resolution, 0.117-0.210: 320x224 @ 60.054389Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Time Scanner [set 2, System 16B]
+TG Game Entry: https://www.twingalaxies.com/game/time-scanner-set-2-system-16b/mame/
+Rules, Points: https://www.twingalaxies.com/scores.php?scores=120433

@@ -8,12 +8,12 @@ Baraduke (set 1) / Alien Sector
 -------------------------------
 ROM set changed: yes
 0.106-0.118: baraduke - "Baraduke (set 1)"
-0.118u5-0.175: aliensec - "Alien Sector" (name correction only)
+0.118u5-0.210: aliensec - "Alien Sector" (name correction only)
 
 Resolution, 0.106-0.152: 288x224 @ 60.606060Hz
-Resolution, 0.153-0.175: 288x224 @ 60.606061Hz
+Resolution, 0.153-0.210: 288x224 @ 60.606061Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Baraduke%20[Set%201]
+TG Game Entry: https://www.twingalaxies.com/game/baraduke-set-1/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=11911
 
 Because of the unusual nature of the ROM set change, here's added information to help understand the transition was minor:
@@ -58,10 +58,9 @@ Baraduke (original)
 Note: this set not currently represented on TG.
 ROM set changed: no
 0.106-0.118: NOT SUPPORTED
-0.118u5-0.175: baraduke - "Baraduke"
+0.118u5-0.210: baraduke - "Baraduke"
 
 Resolution, 0.119-0.152: 288x224 @ 60.606060Hz
-Resolution, 0.153-0.175: 288x224 @ 60.606061Hz
+Resolution, 0.153-0.210: 288x224 @ 60.606061Hz
 
 Rules: [no current tracks]
-
