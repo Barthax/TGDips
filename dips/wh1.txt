@@ -9,22 +9,24 @@ World Heroes (ALH-005) / (set 1) / (set 2)
 ROM set changed: yes
 0.106-0.119: wh1 - "World Heroes (set 1)"
 0.120-0.143: wh1h - "World Heroes (set 2)"
-0.144-0.205: wh1h - "World Heroes (ALH-005)"
+0.144-0.211: wh1h - "World Heroes (ALH-005)"
 
 Resolution, 0.106-0.113: 320x224 @ 59.185608Hz
-Resolution, 0.114-0.205: 320x224 @ 59.185606Hz
+Resolution, 0.114-0.211: 320x224 @ 59.185606Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/world-heroes-set-1/mame
 Rules, Points [Deathmatch Mode, Tournament Settings]: https://www.twingalaxies.com/scores.php?scores=15446
 Rules, Points [Normal Mode, Tournament Settings]: https://www.twingalaxies.com/scores.php?scores=15447
+
+NOTE: All relevant rules are covered by internal settings.  If not shown during playback, use F2 to access after playback completed.
 
 
 World Heroes (ALM-005) / (set 1)
 ----------------------
 Note: not currently represented at TG.
 0.120-0.143: wh1 - "World Heroes (set 1)"
-0.144-0.205: wh1 - "World Heroes (ALM-005)"
+0.144-0.211: wh1 - "World Heroes (ALM-005)"
 
-Resolution, 0.120-0.205: 320x224 @ 59.185606Hz
+Resolution, 0.120-0.211: 320x224 @ 59.185606Hz
 
 Rules: [no current tracks]

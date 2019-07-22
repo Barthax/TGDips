@@ -1,0 +1,7 @@
+ROM set changed: no
+0.106-0.211: champwr - "Champion Wrestler (World)"
+
+Resolution, 0.106-0.211: 320x224 @ 60.000000Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/champion-wrestler-world/mame/
+Rules, Most Money Earned: https://www.twingalaxies.com/scores.php?scores=24462
