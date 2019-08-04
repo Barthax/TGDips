@@ -1,14 +1,13 @@
 ROM set changed: no
 0.106-0.146: redbaron - "Red Baron"
-0.146u1-0.191: redbaron - "Red Baron (Revised Hardware)"
+0.146u1-0.211: redbaron - "Red Baron (Revised Hardware)"
 
 MAME History:
 - 0.146u1: Andrew Welburn and The Dumping Union added clone Red Baron. Changed parent description to 'Red Baron (Revised Hardware)'. Couriersud fixed bad POKEY sound in Red Baron (wrong address_map_entry). Added address decoding PROM to Red Baron. Currently not used in emulation but we archive it anyways [The Dumping Union]. Fixed rom names.
 
 Resolution, 0.106-0.108: vector @ 45.000000Hz
 Resolution, 0.109-0.152: vector @ 60.000000Hz
-Resolution, 0.153-0.191: vector @ 61.523438Hz
+Resolution, 0.153-0.211: vector @ 61.523438Hz
 
-TG Game Entry [old]: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Red+Baron
-TG Game Entry: http://www.twingalaxies.com/game_detail.php?gameid=1803&platformid=46
+TG Game Entry: https://www.twingalaxies.com/game/red-baron/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=23046
