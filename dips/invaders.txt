@@ -1,12 +1,12 @@
 ROM set changed: no
 0.106-0.117: invaders - "Space Invaders"
-0.117u1-0.195: invaders - "Space Invaders / Space Invaders M" (description change only)
+0.117u1-0.212: invaders - "Space Invaders / Space Invaders M"
 
 MAME History:
 - 0.117u1: Changed description to 'Space Invaders / Space Invaders M'.
 
 Resolution, 0.106-0.111: 240x224 @ 60.000000Hz
-Resolution, 0.112-0.195: 260x224 @ 59.541985Hz
+Resolution, 0.112-0.212: 260x224 @ 59.541985Hz
 
 TG Game Entry: http://www.twingalaxies.com/game/space-invaders/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=5222
