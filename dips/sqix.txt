@@ -9,9 +9,9 @@ Super Qix (World/Japan, V1.1)
 ROM set changes: yes
 0.106-0.131: sqix - "Super Qix (set 1)"
 0.131u3-0.177: sqixr1 - "Super Qix (World, Rev 1)"
-0.178-0.200: sqixr1 - "Super Qix (World/Japan, V1.1)"
+0.178-0.212: sqixr1 - "Super Qix (World/Japan, V1.1)"
 
-Resolution, 0.106-0.200: 256x224 @ 60.000000Hz
+Resolution, 0.106-0.212: 256x224 @ 60.000000Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/super-qix-set-1/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=110824
@@ -20,6 +20,6 @@ Rules, Points: http://www.twingalaxies.com/scores.php?scores=110824
 Super Qix (World/Japan, V1.2)
 -----------------------------
 0.131u3-0.177: sqix - "Super Qix (World, Rev 2)"
-0.178-0.200: sqix - "Super Qix (World/Japan, V1.2)"
+0.178-0.212: sqix - "Super Qix (World/Japan, V1.2)"
 
-Resolution, 0.132-0.200: 256x224 @ 60.000000Hz
+Resolution, 0.132-0.212: 256x224 @ 60.000000Hz

@@ -1,12 +1,14 @@
 ROM set changed: yes
 0.106-0.148: thunderj - "ThunderJaws"
-0.149-0.175: thunderja - "ThunderJaws (rev 2)"
+0.149-0.212: thunderja - "ThunderJaws (rev 2)"
 
 MAME History:
 - 0.149: Artemio Urbina and The Dumping Union added ThunderJaws (rev 3). Corrected rom label as verified on actual PCB [Brian Troha]. Changed 'ThunderJaws' to clone 'ThunderJaws (rev 2)'. Renamed (thunderj) to (thunderja).
 
 Resolution, 0.106-0.114: 336x240 @ 60.000000Hz
-Resolution, 0.115-0.175: 336x240 @ 59.922743Hz
+Resolution, 0.115-0.212: 336x240 @ 59.922743Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=ThunderJaws
+TG Game Entry: https://www.twingalaxies.com/game/thunderjaws/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=20542
+
+NOTE: This game has both DIPs & internal settings covered by the rules. If not shown during playback, press F2 to access & check internal settings afterwards.

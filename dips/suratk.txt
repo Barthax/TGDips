@@ -1,6 +1,13 @@
 ROM set changed: no
-0.106-0.175: suratk - "Surprise Attack (World ver. K)"
+0.106-0.212: suratk - "Surprise Attack (World ver. K)"
 
-Resolution, 0.106-0.175: 288x224 @ 60.000000Hz
+From MAMEINFO.DAT:
+- 0.154: kamilz and Tafoid added 'Bonus Quiz' dipswitch. Converted Surprise Attack to bankdev, added xtal and removed KONAMI_ROM_DEINTERLEAVE [Alex Jackson].
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Surprise Attack [World ver. K]
+Resolution, 0.106-0.192: 288x224 @ 60.000000Hz
+Resolution, 0.193-0.212: 320x224 @ 60.000000Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/surprise-attack-world-ver-k/mame/
+Rules, Points: https://www.twingalaxies.com/scores.php?scores=110861
+
+NOTE: the changed DIP at 0.154 was previously 'Unknown/Unused: Off' - the correct translated setting is 'Bonus Quiz: On'.
