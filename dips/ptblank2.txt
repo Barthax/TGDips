@@ -1,7 +1,7 @@
 ROM set changed: no
-0.106-0.195: ptblank2 - "Point Blank 2 (GNB5/VER.A)"
+0.106-0.212: ptblank2 - "Point Blank 2 (GNB5/VER.A)"
 
-Resolution, 0.106-0.195: 640x480 @ 60.000000Hz
+Resolution, 0.106-0.212: 640x480 @ 60.000000Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/point-blank-2-gnb5-vera/mame
 Rules, Points [Practice Mode]: https://www.twingalaxies.com/scores.php?scores=78928

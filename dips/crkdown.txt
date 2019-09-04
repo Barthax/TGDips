@@ -10,14 +10,16 @@ Crack Down (US, Floppy Based, FD1094 317-0058-04d)
 ROM set changed: yes
 0.106-0.119: crkdown - "Crack Down (US, FD1094 317-0058-04d)"
 0.119u3-0.121: crkdownu - "Crack Down (US, FD1094 317-0058-04d)"
-0.121u2-0.187: crkdownu - "Crack Down (US, Floppy Based, FD1094 317-0058-04d)" (description change only)
+0.121u2-0.212: crkdownu - "Crack Down (US, Floppy Based, FD1094 317-0058-04d)"
 
 Resolution, 0.106-0.127: 496x384 @ 58.000000Hz
-Resolution, 0.128-0.187: 496x384 @ 57.524160Hz
+Resolution, 0.128-0.212: 496x384 @ 57.524160Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Crack+Down+[US,+FD1094+317-0058-04d]
+TG Game Entry: https://www.twingalaxies.com/game/crack-down-us-fd1094-317-0058-04d/mame/
 Rules, 1 Player Only: http://www.twingalaxies.com/scores.php?scores=21462
 Rules, 2 Player Team: http://www.twingalaxies.com/scores.php?scores=24501
+
+NOTE: This game has both DIPs & internal settings covered by the rules. If not shown during playback, press F2 to access & check internal settings afterwards.
 
 
 Crack Down (World, Floppy Based, FD1094 317-0058-04c)
@@ -25,9 +27,9 @@ Crack Down (World, Floppy Based, FD1094 317-0058-04c)
 Note: not currently represented on TG.
 ROM set changed: no.  Added in 0.119u3.
 0.119u3-0.121: crkdown - "Crack Down (World, FD1094 317-0058-04c)"
-0.121u2-0.187: crkdown - "Crack Down (World, Floppy Based, FD1094 317-0058-04c)"
+0.121u2-0.212: crkdown - "Crack Down (World, Floppy Based, FD1094 317-0058-04c)"
 
 Resolution, 0.120-0.127: 496x384 @ 58.000000Hz
-Resolution, 0.128-0.187: 496x384 @ 57.524160Hz
+Resolution, 0.128-0.212: 496x384 @ 57.524160Hz
 
 Rules: [no current tracks]
