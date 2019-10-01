@@ -1,7 +1,16 @@
 ROM set changed: no
-0.106-0.207: mermaid - "Mermaid"
+0.106-0.213: mermaid - "Mermaid"
 
-Resolution, 0.106-0.207: 256x224 @ 60.000000Hz
+From MAMEINFO.DAT:
+- 0.124: Roberto Zandona fixed Mermaid's collision detection - Game now playable.
+- 0.124u1: Roberto Zandona added proper implentation of hardware collision in Mermaid driver. This fixes Mermaid, when the player is in the water with the sharks. Roberto Zandona fixed also the priorities in Mermaid and a sprite wrapping bug.
+- 0.128u4: Stephane Humbert fixed dipswitches (Bonus Life) for Mermaid and clone.
+
+Resolution, 0.106-0.213: 256x224 @ 60.000000Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/mermaid/mame/
 Rules, Points: https://www.twingalaxies.com/scores.php?scores=220959
+
+NOTES:
+Use 0.125 or later ONLY!
+DIPs fix at 0.128u4 is only relevant to clone 'yachtmn'.

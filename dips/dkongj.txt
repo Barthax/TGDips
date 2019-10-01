@@ -1,12 +1,12 @@
 ROM set changed: yes
 0.106-0.133: dkongjp - "Donkey Kong (Japan set 1)"
-0.133u1-0.200: dkongj - "Donkey Kong (Japan set 1)"
+0.133u1-0.213: dkongj - "Donkey Kong (Japan set 1)"
 
 MAME History:
 - 0.133u1: Renamed (dkongjp) to (dkongj).
 
 Resolution, 0.106-0.115: 256x224 @ 60.000000Hz
-Resolution, 0.116-0.200: 256x224 @ 60.606061Hz
+Resolution, 0.116-0.213: 256x224 @ 60.606061Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/donkey-kong-japan-set-1/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=33137

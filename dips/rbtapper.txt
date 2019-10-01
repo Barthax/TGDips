@@ -1,10 +1,11 @@
 ROM set changed: no
-0.106-0.207: rbtapper - "Tapper (Root Beer)"
+0.106-0.213: rbtapper - "Tapper (Root Beer)"
 
-Resolution, 0.106-0.207: 512x480 @ 30.000000Hz
+Resolution, 0.106-0.213: 512x480 @ 30.000000Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/tapper-root-beer/mame/
 Rules, Points [Marathon Settings]: http://www.twingalaxies.com/scores.php?scores=7874
 Rules, [Tournament Settings]: http://www.twingalaxies.com/scores.php?scores=7875
+Rules, One Life Only !: https://www.twingalaxies.com/scores.php?scores=213625
 
 NOTE: There are both hardware DIP switches & internal settings.  Use Service Mode (F2) then Tilt (T) to access the internal settings after playback if not shown during playback.

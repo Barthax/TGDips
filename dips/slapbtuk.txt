@@ -1,11 +1,11 @@
 ROM set changed: yes
 0.106-0.138: slapbtuk - "Slap Fight (English bootleg)"
-0.138u3-0.175: slapfighb2 - "Slap Fight (bootleg set 2)"
+0.138u3-0.213: slapfighb2 - "Slap Fight (bootleg set 2)"
 
 MAME History:
 - 0.138u3: Phil Bennett and Dr. Decapitator hooked up Slap Fight/Alcon 68705 MCU. Brian Troha and Guru corrected rom names for the Slap Fight sets, added PCB locations to any set where possible, added DIP locations and moved PCB information down to matching rom sets. Changed clone 'Alcon' to parent 'Alcon (US)', (set 1) to clone 'Slap Fight (Japan set 1)', (set 2) to 'Slap Fight (Japan set 2)', (Japan bootleg) to 'Slap Fight (bootleg set 1)', (English bootleg) to 'Slap Fight (bootleg set 2)' and (bootleg) to 'Slap Fight (bootleg set 3)'. Renamed (slapbtjp) to (slapfighb1), (slapbtuk) to (slapfighb2) and (slapfgtr) to (slapfighb3).
 
-Resolution, 0.106-0.175: 280x240 @ 60.000000Hz
+Resolution, 0.106-0.213: 280x240 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Slap+Fight+%5BEnglish+bootleg%5D
+TG Game Entry: https://www.twingalaxies.com/game/slap-fight-english-bootleg/mame
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=10025

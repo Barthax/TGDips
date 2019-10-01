@@ -1,12 +1,13 @@
 ROM set changed: no
 0.106-0.113: wbml - "Wonder Boy in Monster Land (Japan New Ver.)"
-0.114-0.170: wbml - "Wonder Boy in Monster Land (Japan New Ver., MC-8123, 317-0043)"
+0.114-0.213: wbml - "Wonder Boy in Monster Land (Japan New Ver., MC-8123, 317-0043)"
 
 MAME History:
 - 0.113u3: Nicola Salmoria added proper MC8123 decryption code. Hooked up chip to WBML. Added 317-0043.key. Changed description to 'Wonder Boy in Monster Land (Japan New Ver., MC-8123, 317-0043)' and clone (Japan Old Ver.) to 'Wonder Boy in Monster Land (Japan Old Ver., MC-8123, 317-0043)'.
 
 Resolution, 0.106-0.130: 256x224 @ 60.000000Hz
 Resolution, 0.131-0.144: 256x224 @ 60.096154Hz
-Resolution, 0.145-0.170: 512x224 @ 60.096154Hz
+Resolution, 0.145-0.213: 512x224 @ 60.096154Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Wonder Boy in Monster Land [Japan New Ver.]
+TG Game Entry: https://www.twingalaxies.com/game/wonder-boy-in-monster-land-japan-new-ver/mame
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=120646

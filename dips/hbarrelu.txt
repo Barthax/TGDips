@@ -1,0 +1,15 @@
+ROM set changed: yes.
+0.106-0.212: hbarrel - "Heavy Barrel (US)"
+0.213-     : hbarrelu - "Heavy Barrel (US)"
+
+From MAMEINFO.DAT:
+- 0.143u8: Kanikani fixed DIPSW and DIP locations in Heavy Barrel.
+- 0.213: Decapped and dumped actual MCU for Heavy Barrel (World) [TeamEurope, Brian Troha, The Dumping Union]. Clean up Heavy Barrel rom labels. Added DEC0 motherboard proms [Brian Troha]. Changed clone 'Heavy Barrel (World)' to parent. Renamed (hbarrel) to (hbarrelu) and (hbarrelw) to (hbarrel).
+
+Resolution, 0.106-0.142: 256x240 @ 57.410000Hz
+Resolution, 0.143-0.155: 256x240 @ 57.392103Hz
+Resolution, 0.156-0.213: 256x240 @ 57.444853Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/heavy-barrel-us-1/mame/
+Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=16911
+Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=16912

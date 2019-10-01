@@ -1,12 +1,43 @@
-ROM set changed: no
+Note: two ROM sets represented here with changeover at 0.112u3.
+
+From MAMEINFO.DAT:
+- 0.112u3: Renamed (lastblad) to (lastbldh) and (lastblda) to (lastblad).
+- 0.129u4: Renamed (lastbldh) to (lastbladh).
+- 0.136u4: Changed description to 'The Last Blade / Bakumatsu Roman'.
+- 0.143u5: Changed description to 'The Last Blade / Bakumatsu Roman - Gekka no Kenshi (NGM-2340)' and clone (set 2) to 'The Last Blade / Bakumatsu Roman - Gekka no Kenshi (NGH-2340)'.
+
+
+The Last Blade / Bakumatsu Roman - Gekka no Kenshi (NGH-2340)
+-------------------------------------------------------------
+ROM set changed: yes.
 0.106: lastblad - "The Last Blade / Bakumatsu Roman - Gekka no Kenshi (set 1)"
-0.107-0.136: lastblad - "Last Blade / Bakumatsu Roman - Gekka no Kenshi, The (set 1)"
-0.137-0.143: lastblad - "The Last Blade / Bakumatsu Roman - Gekka no Kenshi (set 1)"
-0.144-0.175: lastblad - "The Last Blade / Bakumatsu Roman - Gekka no Kenshi (NGM-2340)"
+0.107-0.112: lastblad - "Last Blade / Bakumatsu Roman - Gekka no Kenshi, The (set 1)"
+0.112u3-0.129: lastbldh - "Last Blade / Bakumatsu Roman - Gekka no Kenshi, The (set 2)"
+0.129u4-0.136: lastbladh - "Last Blade / Bakumatsu Roman - Gekka no Kenshi, The (set 2)"
+0.136u4-0.143: lastbladh - "The Last Blade / Bakumatsu Roman - Gekka no Kenshi (set 2)"
+0.143u5-0.213: lastbladh - "The Last Blade / Bakumatsu Roman - Gekka no Kenshi (NGH-2340)"
 
 Resolution, 0.106-0.113: 320x224 @ 59.185608Hz
-Resolution, 0.114-0.175: 320x224 @ 59.185606Hz
+Resolution, 0.114-0.213: 320x224 @ 59.185606Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=The%20Last%20Blade%20/%20Bakumatsu%20Roman%20-%20Gekka%20no%20Kenshi%20[set%201]
+TG Game Entry: https://www.twingalaxies.com/game/the-last-blade-bakumatsu-roman-gekka-no-kenshi-set-1/mame
 Rules, Most Victories [Time Attack Mode, Tournament Settings]: http://www.twingalaxies.com/scores.php?scores=15429
 Rules, Points [Tournament Settings]: http://www.twingalaxies.com/scores.php?scores=15428
+
+NOTE: All relevant rules are covered by internal settings.  If not shown during playback, use F2 to access after playback completed.
+
+
+The Last Blade / Bakumatsu Roman - Gekka no Kenshi (NGM-2340)
+-------------------------------------------------------------
+Note: not currently represented on TG.
+ROM set changed: yes.
+0.106: lastblda - "The Last Blade / Bakumatsu Roman - Gekka no Kenshi (set 2)"
+0.107-0.112: lastblda - "Last Blade / Bakumatsu Roman - Gekka no Kenshi, The (set 2)"
+0.112u3-0.136: lastblad - "Last Blade / Bakumatsu Roman - Gekka no Kenshi, The (set 1)"
+0.137-0.143: lastblad - "The Last Blade / Bakumatsu Roman - Gekka no Kenshi (set 1)"
+0.144-0.213: lastblad - "The Last Blade / Bakumatsu Roman - Gekka no Kenshi (NGM-2340)"
+
+Resolution, 0.106-0.113: 320x224 @ 59.185608Hz
+Resolution, 0.114-0.213: 320x224 @ 59.185606Hz
+
+Rules: [no current tracks]

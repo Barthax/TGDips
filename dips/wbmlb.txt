@@ -1,10 +1,11 @@
 ROM set changed: no
 0.106-0.107: wbmlb - "Wonder Boy in Monster Land"
 0.108-0.147: wbmlb - "Wonder Boy in Monster Land (English bootleg)"
-0.148-0.175: wbmlb - "Wonder Boy in Monster Land (English bootleg set 1)"
+0.148-0.213: wbmlb - "Wonder Boy in Monster Land (English bootleg set 1)"
 
 Resolution, 0.106-0.130: 256x224 @ 60.000000Hz
 Resolution, 0.131-0.144: 256x224 @ 60.096154Hz
-Resolution, 0.145-0.175: 512x224 @ 60.096154Hz
+Resolution, 0.145-0.213: 512x224 @ 60.096154Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Wonder Boy in Monster Land
+TG Game Entry: https://www.twingalaxies.com/game/wonder-boy-in-monster-land/mame
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=32346

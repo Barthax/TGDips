@@ -8,3 +8,5 @@ Rules, Points [Practice Mode]: https://www.twingalaxies.com/scores.php?scores=78
 Rules, Points [Beginner Mode]: https://www.twingalaxies.com/scores.php?scores=78926
 Rules, Points [Advanced Mode]: https://www.twingalaxies.com/scores.php?scores=78925
 Rules, Points [Insane Mode]: https://www.twingalaxies.com/scores.php?scores=78927
+
+NOTE: This game has both DIPs & internal settings covered by the rules. If not shown during playback, press F2 to access & check internal settings afterwards.

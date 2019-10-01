@@ -13,13 +13,15 @@ ROM set changed: yes
 0.120-0.139: wh2jh - "World Heroes 2 Jet (set 2)"
 0.139u2-0.143: wh2j - "World Heroes 2 Jet"
 0.144-0.173: wh2j - "World Heroes 2 Jet (ADM-007)(ADH-007)"
-0.174-0.175: wh2j - "World Heroes 2 Jet (ADM-007 ~ ADH-007)"
+0.174-0.213: wh2j - "World Heroes 2 Jet (ADM-007 ~ ADH-007)"
 
 Resolution, 0.106-0.113: 320x224 @ 59.185608Hz
-Resolution, 0.114-0.170: 320x224 @ 59.185606Hz
+Resolution, 0.114-0.213: 320x224 @ 59.185606Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=World%20Heroes%202%20Jet
+TG Game Entry: https://www.twingalaxies.com/game/world-heroes-2-jet/mame/1
 Rules, Points [Tournament Settings]: http://www.twingalaxies.com/scores.php?scores=15450
+
+NOTE: All relevant rules are covered by internal settings.  If not shown during playback, use F2 to access after playback completed.
 
 
 World Heroes 2 Jet (set 1)
@@ -32,4 +34,3 @@ ROM set changed: no.  Only existed in 0.120-0.139u2.
 Resolution, 0.120-0.139: 320x224 @ 59.185606Hz
 
 Rules: [no current tracks]
-
