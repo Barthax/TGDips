@@ -1,9 +1,9 @@
 ROM set changed: no
-0.106-0.202: le2 - "Lethal Enforcers II: Gun Fighters (ver EAA)"
+0.106-0.214: le2 - "Lethal Enforcers II: Gun Fighters (ver EAA)"
 
 Resolution, 0.106: 288x224 @ 58.000000Hz
 Resolution, 0.107-0.125: 288x224 @ 60.000000Hz
-Resolution, 0.126-0.202: 288x224 @ 59.185606Hz
+Resolution, 0.126-0.214: 288x224 @ 59.185606Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/lethal-enforcers-ii-gun-fighters-ver-eaa/mame/
 Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=75357
