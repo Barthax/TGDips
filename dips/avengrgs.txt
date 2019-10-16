@@ -10,3 +10,5 @@ Resolution, 0.106-0.214: 320x240 @ 58.000000Hz
 TG Game Entry: https://www.twingalaxies.com/game/avengers-in-galactic-storm-us/mame/
 Rules, Points [Story Mode]: http://www.twingalaxies.com/scores.php?scores=24422
 Rules, Points [VS Mode]: http://www.twingalaxies.com/scores.php?scores=32347
+
+NOTE: All relevant rules are covered by internal settings.  If not shown during playback, use F2 to access after playback completed.

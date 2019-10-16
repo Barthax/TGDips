@@ -1,6 +1,6 @@
 ROM set changed: yes
 0.106-0.108: yard - "10-Yard Fight (Japan)"
-0.108u5-0.205: 10yardj - "10-Yard Fight (Japan)"
+0.108u5-0.214: 10yardj - "10-Yard Fight (Japan)"
 
 MAME History:
 - 0.108u5: Brian Troha added 10-Yard Fight (World). Renamed (yard) to (10yardj), (vsyard) to (vs10yard) and (vsyard2) to (vs10yarj).
@@ -8,9 +8,11 @@ MAME History:
 
 Resolution, 0.106-0.108: 256x240 @ 57.000000Hz
 Resolution, 0.109-0.122: 256x240 @ 57.000000Hz
-Resolution, 0.123-0.205: 256x224 @ 56.737589Hz
+Resolution, 0.123-0.214: 256x224 @ 56.737589Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/10-yard-fight-japan/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=7672
 
-NOTE: "Allow Continue" & "Defensive Man Pause" DIPs renamed to "Unused" at 0.123u2.
+NOTES:
+"Allow Continue" & "Defensive Man Pause" DIPs renamed to "Unused" at 0.123u2.
+"Time Reduced By Dead Ball" was not included in the rules - best assume default setting of "Normal".
