@@ -1,13 +1,34 @@
-ROM set changed: no
+Note: two sets are represented here with the switchover at 0.215.
+
+From MAMEINFO.DAT:
+- 0.215: redsupra and smf added 19XX: The War Against Destiny (Euro 960104). Renamed (19xx) to (19xxu).
+
+
+19XX: The War Against Destiny (USA 951207)
+------------------------------------------
+ROM set changed: yes
 0.106-0.111: 19xx - "19XX: The War Against Destiny (US 951207)"
-0.112-0.200: 19xx - "19XX: The War Against Destiny (USA 951207)" (minor description change)
+0.112-0.214: 19xx - "19XX: The War Against Destiny (USA 951207)"
+0.215-     : 19xxu - "19XX: The War Against Destiny (USA 951207)"
 
 Resolution, 0.106-0.127: 384x224 @ 59.633333Hz
 Resolution, 0.128-0.152: 384x224 @ 59.629403Hz
-Resolution, 0.153-0.200: 384x224 @ 59.637405Hz
+Resolution, 0.153-0.215: 384x224 @ 59.637405Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/19xx-the-war-against-destiny-us-951207/mame/
 Rules, One Player: http://www.twingalaxies.com/scores.php?scores=19622
 Rules, Two Player: http://www.twingalaxies.com/scores.php?scores=19623
 
 NOTE: All relevant rules are covered by internal settings.  If not shown during playback, use F2 to access after playback completed.
+
+
+19XX: The War Against Destiny (Euro 960104)
+-------------------------------------------
+Note: this set not currently represented on TG.
+ROM set changed: no
+0.106-0.214: NOT SUPPORTED
+0.215-     19xx - "19XX: The War Against Destiny (Euro 960104)"
+
+Resolution, 0.215-     : 384x224 @ 59.637405Hz
+
+Rules: [no current tracks]
