@@ -1,12 +1,12 @@
 ROM set changed: yes
 0.106-0.143: rambo3 - "Rambo III (Europe set 1)"
-0.143u3-0.175: rambo3p - "Rambo III (Europe, Proto?)"
+0.143u3-0.215: rambo3p - "Rambo III (Europe, Proto?)"
 
 MAME History:
 - 0.143u3: Changed (Europe set 2) to parent 'Rambo III (Europe)' and (Europe set 1) to clone 'Rambo III (Europe, Proto?)'. Renamed (rambo3) to (rambo3p), (rambo3ae) to (rambo3) and (rambo3a) to (rambo3u).
 
-Resolution, 0.106-0.175: 320x224 @ 60.000000Hz
+Resolution, 0.106-0.215: 320x224 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Rambo%20III%20[Europe%20set%201]
+TG Game Entry: https://www.twingalaxies.com/game/rambo-iii-europe-set-1/mame/
 Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=19817
 Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=91176

@@ -1,7 +1,7 @@
 ROM set changed: no. Added in 0.153
-0.153-0.203: pinkswts - "Pink Sweets: Ibara Sorekara (2006/04/06 MASTER VER....)"
+0.153-0.215: pinkswts - "Pink Sweets: Ibara Sorekara (2006/04/06 MASTER VER....)"
 
-Resolution, 0.153-0.203: 320x240 @ 60.000000Hz
+Resolution, 0.153-0.215: 320x240 @ 60.000000Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/pink-sweets-ibara-sorekara/mame/
 Rules, Points: https://www.twingalaxies.com/scores.php?scores=205229
