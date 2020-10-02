@@ -1,11 +1,11 @@
 ROM set changed: no
 0.127-0.136: cubeqst - "Cube Quest"
-0.137-0.215: cubeqst - "Cube Quest (01/04/84)"
+0.137-0.216: cubeqst - "Cube Quest (01/04/84)"
 
 Resolution, 0.127-0.143: 704x480 @ 59.940052Hz
-Resolution, 0.144-0.215: 704x480 @ 59.940057Hz
+Resolution, 0.144-0.216: 704x480 @ 59.940057Hz
 
-TG Game Entry: https://www.twingalaxies.com/game/
-Rules, Points: http://www.twingalaxies.com/scores.php?scores=TBC
+TG Game Entry: https://www.twingalaxies.com/game/cube-quest/mame
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=227319
 
 NOTE: All relevant rules are covered by internal settings.  If not shown during playback, use F2 to access after playback completed.

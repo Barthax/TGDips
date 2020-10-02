@@ -1,14 +1,14 @@
 ROM set changed: yes
 0.106-0.156: dharma - "Dharma Doujou"
-0.157-0.175: dharmaj - "Dharma Doujou (Japan)"
+0.157-0.224: dharmaj - "Dharma Doujou (Japan)"
 
-MAME History:
+From MAMEINFO.DAT:
 - 0.157: rtw added Dharma Doujou. Changed 'Dharma Doujou' to clone 'Dharma Doujou (Japan)'. Renamed (dharma) to (dharmaj).
 
 Resolution, 0.106-0.144: 320x224 @ 60.000000Hz
 Resolution, 0.145-0.146: 320x240 @ 59.922743Hz
-Resolution, 0.147-0.175: 320x224 @ 60.000000Hz
+Resolution, 0.147-0.191: 320x224 @ 60.000000Hz
+Resolution, 0.192-0.224: 320x224 @ 58.232800Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Dharma%20Doujou
+TG Game Entry: https://www.twingalaxies.com/game/dharma-doujou/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=26102
-

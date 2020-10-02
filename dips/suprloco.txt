@@ -1,6 +1,7 @@
 Note: two ROM sets represented here with changeover at 0.147u3.
 
 MAME History:
+- 0.132u3: Team Japump added clone Super Locomotive (Rev.A). Fixed rom names.
 - 0.147u3: Made Rev A the parent set. Added DIP locations to the Super Locomotive sets. Added minor documentation about basic PCB parts [Brian Troha]. Renamed (suprloco) to (suprlocoo) and (suprlocoa) to (suprloco).
 
 
@@ -8,21 +9,21 @@ Super Locomotive
 ----------------
 ROM set changed: yes
 0.106-0.147: suprloco - "Super Locomotive"
-0.147u3-0.175: suprlocoo - "Super Locomotive"
+0.147u3-0.221: suprlocoo - "Super Locomotive"
 
-Resolution, 0.106-0.175: 240x224 @ 60.000000Hz
+Resolution, 0.106-0.221: 240x224 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Super%20Locomotive
+TG Game Entry: https://www.twingalaxies.com/game/super-locomotive/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=110816
 
 
 Super Locomotive (Rev.A)
 ------------------------
 Note: not currently represented on TG.
-ROM set changed: no.  Added in 0.147u3.
-0.147u3-0.176: suprloco - "Super Locomotive (Rev.A)"
+ROM set changed: yes. Added in 0.132u3.
+0.133-0.147: suprlocoa - "Super Locomotive (Rev.A)"
+0.147u3-0.221: suprloco - "Super Locomotive (Rev.A)"
 
-Resolution, 0.148-0.176: 240x224 @ 60.000000Hz
+Resolution, 0.148-0.221: 240x224 @ 60.000000Hz
 
 Rules: [no current tracks]
-

@@ -1,8 +1,8 @@
 ROM set changed: no
-0.106-0.204: gravitar - "Gravitar (version 3)"
+0.106-0.220: gravitar - "Gravitar (version 3)"
 
 Resolution, 0.106-0.152: vector @ 60.000000Hz
-Resolution, 0.153-0.204: vector @ 61.523438Hz
+Resolution, 0.153-0.220: vector @ 61.523438Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/gravitar-version-3/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=10698

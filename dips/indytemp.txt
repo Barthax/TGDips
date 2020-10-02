@@ -1,8 +1,8 @@
 ROM set changes: no
-0.106-0.206: indytemp - "Indiana Jones and the Temple of Doom (set 1)"
+0.106-0.224: indytemp - "Indiana Jones and the Temple of Doom (set 1)"
 
 Resolution, 0.106-0.114: 336x240 @ 60.000000Hz
-Resolution, 0.115-0.206: 336x240 @ 59.922743Hz
+Resolution, 0.115-0.224: 336x240 @ 59.922743Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/indiana-jones-and-the-temple-of-doom-set-1/mame/
 Rules, Points [Easy Path, 3 Lives]: http://www.twingalaxies.com/scores.php?scores=20665

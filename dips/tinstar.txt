@@ -1,7 +1,33 @@
-ROM set changed: no
+Note: two ROM sets represented here with changeover at 0.221.
+
+From MAMEINFO.DAT:
+- 0.116u3: Tirino73 and David Haywood added clone The Tin Star (set 2). Changed parent description to 'The Tin Star (set 1)'.
+- 0.221: Changed (set 1) to clone 'The Tin Star (TS, 5 PCB version)' and (set 2) to parent 'The Tin Star (A10, 4 PCB version)'. Renamed (tinstar) to (tinstara) and (tinstar2) to (tinstar).
+
+The Tin Star (TS, 5 PCB version)
+--------------------------------
+ROM set changed: yes
 0.106-0.116: tinstar - "The Tin Star"
-0.117-0.175: tinstar - "The Tin Star (set 1)"
+0.117-0.220: tinstar - "The Tin Star (set 1)"
+0.221-     : tinstara - "The Tin Star (TS, 5 PCB version)"
 
-Resolution, 0.106-0.175: 256x224 @ 60.000000Hz
+From MAMEINFO.DAT:
+- 0.116u3: Tirino73 and David Haywood added clone The Tin Star (set 2). Changed parent description to 'The Tin Star (set 1)'.
+- 0.221: Changed (set 1) to clone 'The Tin Star (TS, 5 PCB version)' and (set 2) to parent 'The Tin Star (A10, 4 PCB version)'. Renamed (tinstar) to (tinstara) and (tinstar2) to (tinstar).
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=The Tin Star
+Resolution, 0.106-0.221: 256x224 @ 60.000000Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/the-tin-star/mame
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=10790
+
+
+The Tin Star (A10, 4 PCB version)
+---------------------------------
+Note: not currently represented on TG.
+ROM set changed: yes. Added in 0.116u3.
+0.117-0.220: tinstar2 - "The Tin Star (set 2)"
+0.221-     : tinstar - "The Tin Star (A10, 4 PCB version)"
+
+Resolution, 0.221-     : 256x224 @ 60.000000Hz
+
+Rules: [no current tracks]

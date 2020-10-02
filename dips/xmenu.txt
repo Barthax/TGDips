@@ -1,0 +1,19 @@
+ROMs Changed: yes
+0.106-0.220: xmen - "X-Men (4 Players ver UBB)"
+0.221-     : xmenu - "X-Men (4 Players ver UBB)"
+
+From MAMEINFO.DAT:
+- 0.221: Joe Magiera and The Dumping Union added clone X-Men (4 Players ver UEB). Renamed (xmen) to (xmenu) and (xmene) to (xmen).
+
+Resolution, 0.106: 304x224 @ 60.000000Hz
+Resolution, 0.107-0.123: 288x224 @ 60.000000Hz
+Resolution, 0.125-0.133: 304x224 @ 60.000000Hz
+Resolution, 0.134-0.221: 304x224 @ 59.170000Hz
+
+TG Game Entry: http://www.twingalaxies.com/x-men-4-players-ver-ubb/mame/
+Rules, Single Player: http://www.twingalaxies.com/scores.php?scores=120661
+Rules, Two Player Team: http://www.twingalaxies.com/scores.php?scores=120662
+Rules, Three Player Team: http://www.twingalaxies.com/scores.php?scores=120663
+Rules, Four Player Team: http://www.twingalaxies.com/scores.php?scores=120664
+
+NOTE: All relevant rules are covered by internal settings.  If not shown during playback, use F2 to access after playback completed.

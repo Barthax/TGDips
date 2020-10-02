@@ -1,12 +1,14 @@
 ROM set changed: yes
 0.106-0.122: route16 - "Route 16"
 0.123-0.165: route16 - "Route 16 (set 1)"
-0.166-0.200: route16c - "Route 16 (set 3, bootleg?)"
+0.166-0.220: route16c - "Route 16 (set 3, bootleg?)"
+0.221-     : route16c - "Route 16 (Centuri license, set 3, bootleg?)"
 
 MAME History:
 - 0.166: Siftware and MASH added Route 16 (set 1). Changed 'Route 16 (set 1)' to clone 'Route 16 (set 3, bootleg?)'. Renamed (route16) to (route16c) and (route16b) to (route16bl).
+- 0.221: Guru added Route 16 (Sun Electronics). Added missing MCU region to the Route 16 original sets, corrected PROM type on the newly dumped set [Osso]. Changed 'Unknown' dipswitches to 'Unused'. Changed Route 16 (set 1) to clone 'Route 16 (Centuri license, set 1)' and clones (set 2) to 'Route 16 (Centuri license, set 2)' and (set 3, bootleg?) to 'Route 16 (Centuri license, set 3, bootleg?)'. Renamed (route16a) to (route16b) and (route16) to (route16a).
 
-Resolution, 0.106-0.200: 256x256 @ 57.000000Hz
+Resolution, 0.106-0.221: 256x256 @ 57.000000Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/route-16/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=9831

@@ -1,12 +1,14 @@
 ROM set changed: no
-0.084-0.197: dblewing - "Double Wings"
+0.084-0.222: dblewing - "Double Wings"
+0.223-     : dblewing - "Double Wings (set 1)"
 
 MAME History:
 - 0.150: Charles MacDonald and David Haywood fixed Double Wings - Game now playable. Started integrating DECO104 findings from Charles, done a preliminary hookup of Double Wings to it (input ports bit order not yet verified). Nuked old bad simulation code for DW. Misc cleanups [Charles MacDonald, David Haywood]. Added Guru README / clocks [David Haywood]. Fixed 'Lives' dipswitch [lain]. Changed Z80 CPU1 clock speed to 3580000 Hz, OKI6295 sound to 1MHz and VSync to 58.443 Hz. Removed dipswitches '2' and 15x 'Unknown'.
+- 0.223: Jorge Silva added clone Double Wings (set 2). Changed parent description to 'Double Wings (set 1)'. Renamed (dblewinga) to (dblewingb).
 
 Resolution, 0.084-0.095: 256x256 @ 58.000000Hz
 Resolution, 0.096-0.149: 320x240 @ 58.000000Hz
-Resolution, 0.150-0.197: 320x240 @ 58.443000Hz
+Resolution, 0.150-0.223: 320x240 @ 58.443000Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/double-wings/mame
 Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=214049

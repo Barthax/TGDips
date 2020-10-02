@@ -1,11 +1,11 @@
 ROM set changed: yes
 0.106-0.148: karnov - "Karnov (US)"
-0.148u3-0.175: karnova - "Karnov (US, rev 5)"
+0.149-0.225: karnova - "Karnov (US, rev 5)"
 
-MAME History:
+From MAMEINFO.DAT:
 - 0.148u3: System11 added Karnov (US, rev 6). Changed (US) to clone 'Karnov (US, rev 5)'. Renamed (karnov) to (karnova).
 
-Resolution, 0.106-0.175: 256x240 @ 60.000000Hz
+Resolution, 0.106-0.225: 256x240 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Karnov%20[US]
+TG Game Entry: https://www.twingalaxies.com/game/karnov-us/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=75184

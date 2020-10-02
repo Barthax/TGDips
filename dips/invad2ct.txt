@@ -1,9 +1,13 @@
 ROM set changed: no.
-0.106-0.175: invad2ct - "Space Invaders II (Midway, cocktail)"
+0.106-0.225: invad2ct - "Space Invaders II (Midway, cocktail)"
+
+From MAMEINFO.DAT:
+- 0.111u4: Zsolt Vasvari and Derrick Renaud added non-memory mapped coin counters to Space Invaders II. Changed 8080 CPU1 clock speed to 1996800 Hz. Added 2nd Samples sound. Added 'Cabinet' dipswitch.
 
 Resolution, 0.106-0.111: 256x224 @ 60.000000Hz
-Resolution, 0.112-0.175: 260x224 @ 59.541985Hz
+Resolution, 0.112-0.225: 260x224 @ 59.541985Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Space%20Invaders%20II%20[Midway,%20Cocktail]
+TG Game Entry: https://www.twingalaxies.com/game/space-invaders-ii-midway-cocktail/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=110720
-Note: "Unknown" DIP in 0.106 was updated to "Cabinet" in 0.111u4.
+
+NOTE: "Unknown" DIP in 0.106 was updated to "Cabinet" in 0.111u4.

@@ -1,9 +1,11 @@
 ROM set changed: no.  Added in 0.104u5.
-0.104u5-0.135: dbreed - "Dragon Breed (M81 pcb version)"
-0.136-0.175: dbreed - "Dragon Breed (M81 PCB version)" (very minor description change)
+0.106-0.135: dbreed - "Dragon Breed (M81 pcb version)"
+0.136-0.214: dbreed - "Dragon Breed (M81 PCB version)"
+0.215-0.221: dbreed - "Dragon Breed (World, M81 PCB version)"
+0.222-0.225: dbreed - "Dragon Breed (World, M81 hardware)"
 
 Resolution, 0.106-0.122: 384x256 @ 55.000000Hz
-Resolution, 0.123-0.175: 384x256 @ 55.017606Hz
+Resolution, 0.123-0.225: 384x256 @ 55.017606Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Dragon%20Breed%20[M81%20PCB%20Version]
+TG Game Entry: https://www.twingalaxies.com/game/dragon-breed-m81-pcb-version/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=10140

@@ -1,14 +1,31 @@
-ROM set changed: no
-0.106-0.209: denjinmk - "Denjin Makai"
+Note: two ROM sets are represented here with the changeover at 0.218.
 
 From MAMEINFO.DAT:
 - 0.140u3: Angelo Salese, David Haywood and Tomasz Slanina fixed Denjin Makai - Game now playable. Angelo Salese fixed an un-inited bankswitch problem in the Seibu audio driver, gives preliminary working sound in Denjin Makai. Commented out a bogus irq hack in Seibu audio HW, fixes sound for good in Denjin Makai and removes a cheesy kludge. Added a preliminary DMA to the Legionnaire driver, fixes some color issues in Denjin Makai. Added dipswitches 'Demo Sounds', 'Language' and 5x 'Unknown'.
+- 0.218: caius and The Dumping Union added Denjin Makai (set 1). Changed Denjin Makai to clone 'Denjin Makai (set 2)'. Renamed (denjinmk) to (denjinmka).
+
+Denjin Makai (set 2)
+--------------------
+ROM set changed: yes
+0.106-0.217: denjinmk - "Denjin Makai"
+0.218-     : denjinmka - "Denjin Makai (set 2)"
 
 Resolution, 0.106-0.111: 320x224 @ 61.000000Hz
 Resolution, 0.112-0.205: 320x256 @ 61.000000Hz
-Resolution, 0.206-0.209: 320x256 @ 56.000000Hz
+Resolution, 0.206-0.218: 320x256 @ 56.000000Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/denjin-makai/mame
 Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=222113
 
 NOTE: must use WolfMAME versions 0.141 or later - this title was conidered "not working" in earlier versions.
+
+
+Denjin Makai (set 1)
+--------------------
+Note: not currently represented on TG.
+ROM set changed: no.  Added in 0.218.
+0.218-     : denjinmk - "Denjin Makai (set 1)"
+
+Resolution, 0.218-     : 320x256 @ 56.000000Hz
+
+Rules: [no current tracks]

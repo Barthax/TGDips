@@ -1,0 +1,32 @@
+ROM set changed: yes
+0.106-0.222: crusnusa - "Cruis'n USA (rev L4.1)"
+0.223-0.224: crusnusa41 - "Cruis'n USA (rev L4.1)"
+0.225-     : crusnusa41 - "Cruis'n USA (v4.1)"
+
+From MAMEINFO.DAT:
+- 0.223: Brian Troha and The Dumping Union added Cruis'n USA (rev L4.4). Correct ROM labels [Brian Troha]. Renamed (crusnusa) to (crusnusa41).
+- 0.225: Simzy, Brian Troha and The Dumping Union added Cruis'n USA (v4.5). Changed description of (rev L4.4) to clone 'Cruis'n USA (v4.4)' and clones (rev L2.1) to 'Cruis'n USA (v2.1), (rev L4.0) to 'Cruis'n USA (v4.0) and (rev L4.1) to 'Cruis'n USA (v4.1)'. Renamed (crusnusa) to (crusnusa44).
+
+Resolution, 0.106-0.113: 512x400 @ 57.000000Hz
+Resolution, 0.114-0.225: 512x400 @ 57.349016Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/cruisn-usa-rev-l41/mame/
+Rules, Arizona [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=55708
+Rules, Appalachia [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=55707
+Rules, Beverly Hills [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=55709
+Rules, Chicago [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=55710
+Rules, Death Valley [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=55711
+Rules, Golden Gate Bridge [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=55712
+Rules, Grand Canyon [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=55713
+Rules, Indiana [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=55714
+Rules, Iowa [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=55715
+Rules, LA Freeway [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=55716
+Rules, Redwood Forest [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=55717
+Rules, San Francisco [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=55718
+Rules, SF To Washington D.C. [Fastest Completion]: http://www.twingalaxies.com/scores.php?scores=55719
+Rules, US 101 [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=55723
+Rules, Washington D.C. [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=55724
+
+NOTE:
+This game has both DIPs & internal settings covered by the rules. If not shown during playback, press F2 to access & check internal settings afterwards.
+Navigation is with Volume Up and Volume Down with Service Mode as the select button.

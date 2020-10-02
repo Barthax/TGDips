@@ -1,0 +1,11 @@
+ROM set changed: yes
+0.106-0.220: frontlin - "Front Line"
+0.221-     : frontlina - "Front Line (FL, 5 PCB version)"
+
+From MAMEINFO.DAT:
+- 0.221: Joe Magiera and The Dumping Union added Front Line (AA1, 4 PCB version). Changed 'Front Line' to clone 'Front Line (FL, 5 PCB version)'. Renamed (frontlin) to (frontlina).
+
+Resolution, 0.106-0.221: 256x224 @ 60.000000Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/front-line/mame/
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=10109

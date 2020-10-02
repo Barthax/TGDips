@@ -1,12 +1,32 @@
-ROM set changed: yes
-0.106-0.137: polaris - "Polaris (set 1)"
-0.137u4-0.200: polarisa - "Polaris (First revision)"
+Note: two ROM sets represented here with changeover at 0.225.
 
 MAME History:
 - 0.137u4: Siftware added clone Polaris (Original version). Changed clone (set 2) to parent 'Polaris (Latest version)' and (set 1) to clone 'Polaris (First revision)'. Renamed (polaris) to (polarisa) and (polarisa) to (polaris).
+- 0.225: Andrew Welburn and The Dumping Union added 'Polaris (latest version)'. Fixed rom names. Changed (Latest version) to clone 'Polaris (second revision)' and clones (First revision) to 'Polaris (first revision)' and (Original version) to 'Polaris (original version)'. Renamed (polarisa) to (polarisb) and (polaris) to (polarisa).
+
+
+Polaris (first revision)
+------------------------
+ROM set changed: yes
+0.106-0.137: polaris - "Polaris (set 1)"
+0.138-0.224: polarisa - "Polaris (First revision)"
+0.225-     : polarisb - "Polaris (first revision)"
 
 Resolution, 0.106-0.113: 240x224 @ 60.000000Hz
-Resolution, 0.114-0.200: 260x224 @ 59.541985Hz
+Resolution, 0.114-0.225: 260x224 @ 59.541985Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/polaris-set-1/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=7790
+
+
+Polaris (second revision)
+-------------------------
+Note: not currently represented at TG.
+ROM set changed: yes.  Added in 0.137u4.
+0.106-0.137: NOT SUPPORTED
+0.138-0.224: polaris - "Polaris (Latest version)"
+0.225-     : polarisa - "Polaris (second revision)"
+
+Resolution, 0.138-0.225: 260x224 @ 59.541985Hz
+
+Rules: [no current tracks]

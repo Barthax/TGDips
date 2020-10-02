@@ -1,0 +1,12 @@
+ROM set changed: yes
+0.106-0.116: tinstar - "The Tin Star"
+0.117-0.220: tinstar - "The Tin Star (set 1)"
+0.221-     : tinstara - "The Tin Star (TS, 5 PCB version)"
+
+From MAMEINFO.DAT:
+- 0.221: Changed (set 1) to clone 'The Tin Star (TS, 5 PCB version)' and (set 2) to parent 'The Tin Star (A10, 4 PCB version)'. Renamed (tinstar) to (tinstara) and (tinstar2) to (tinstar).
+
+Resolution, 0.106-0.221: 256x224 @ 60.000000Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/the-tin-star/mame
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=10790

@@ -1,14 +1,13 @@
 ROM set changed: no
-0.106-0.200: lnc - "Lock'n'Chase"
+0.106-0.224: lnc - "Lock'n'Chase"
+
+From MAMEINFO.DAT:
+- 0.126u3: Changed name of dipswitch 'Cabinet' to 'Control Panel'.
 
 Resolution, 0.106-0.128: 256x240 @ 57.000000Hz
-Resolution, 0.129-0.200: 240x240 @ 57.444853Hz
+Resolution, 0.129-0.224: 240x240 @ 57.444853Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/lock-n-chase/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=7763
 
-MAME History:
-- 0.126u3: Changed name of dipswitch 'Cabinet' to 'Control Panel'.
-
-NOTE:
-'Game Speed' options seem to have always been "Slow" or "Hard" - not sure where "Fast" (as defined by rules) comes from.
+NOTE: 'Game Speed' options have always been "Slow" or "Hard", until 0.221, when "Hard" renamed to "Fast" finally to match the arcade manual
