@@ -1,10 +1,10 @@
 ROM set changed: no
-0.106-0.205: mrflea - "The Amazing Adventures of Mr. F. Lea"
+0.106-0.227: mrflea - "The Amazing Adventures of Mr. F. Lea"
 
 From MAMEINFO.DAT:
 - 0.139u2: Stephane Humbert fixed dipswitches and inputs in Mr. F. Lea (after verification of the Z80 code). Added 'Bonus Life' dipswitch.
 
-Resolution, 0.106-0.205: 256x248 @ 60.000000Hz
+Resolution, 0.106-0.227: 256x248 @ 60.000000Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/the-amazing-adventures-of-mr-flea/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=10057

@@ -1,13 +1,13 @@
 ROM set changed: yes
 0.106-0.138: looping - "Looping (Set 1)"
-0.139-0.175: loopingv - "Looping (Venture Line license, set 1)"   (set rename & description change)
+0.139-0.228: loopingv - "Looping (Venture Line license, set 1)"
 
 MAME History:
 - 0.138u3: Andrew Welburn added Looping (Video Games GmbH 1982). Changed (set 1) to clone 'Looping (Venture Line license, set 1)' and (set 2) to 'Looping (Venture Line license, set 2)'. Renamed (looping) to (loopingv) and (loopinga) to (loopingva).
 
 Resolution, 0.106-0.109: 256x224 @ 60.000000Hz
 Resolution, 0.110-0.113: 256x224 @ 60.606060Hz
-Resolution, 0.114-0.175: 256x224 @ 60.606061Hz
+Resolution, 0.114-0.228: 256x224 @ 60.606061Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Looping+%5BSet+1%5D
+TG Game Entry: https://www.twingalaxies.com/game/looping-set-1/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=10835

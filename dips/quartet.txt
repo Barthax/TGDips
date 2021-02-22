@@ -1,8 +1,17 @@
 ROM set changed: no
 0.106-0.107: quartet - "Quartet (8751 317-unknown)"
 0.108-0.112: quartet - "Quartet (Rev A, 8751 317-unknown)"
-0.113-0.175: quartet - "Quartet (Rev A, 8751 315-5194)"
+0.113-0.226: quartet - "Quartet (Rev A, 8751 315-5194)"
 
-Resolution, 0.106-0.175: 320x224 @ 60.000000Hz
+From MAMEINFO.DAT:
+- 0.107u2: Changed description to 'Quartet (Rev A, 8751 317-unknown)' and clones (Japan, 8751 317-unknown) to 'Quartet (8751 317-unknown))' and (Japan, 8751 317-unknown) to 'Quartet 2 (unprotected)'. Renamed (quartet2) to (quart21), (quartetj) to (quartet1) and (quartt2j) to (quart2).
+- 0.111u1: Alex Jackson fixed dipswitch defaults ('Credit Power' and 'Difficulty') for Quartet and Quartet 2.
+- 0.112u1: Changed description to 'Quartet (Rev A, 8751 315-5194)' and clones 'Quartet (8751 317-unknown))' to 'Quartet (8751 315-5194)' and 'Quartet 2 (8751 317-unknown)' to 'Quartet 2 (8751 317-0010)'.
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Quartet [8751 317-unknown]
+Resolution, 0.106-0.226: 320x224 @ 60.000000Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/quartet-8751-317-unknown/mame
+Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=7797
+Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=79027
+Rules, Points [Three Player Team]: http://www.twingalaxies.com/scores.php?scores=79028
+Rules, Points [Four Player Team]: http://www.twingalaxies.com/scores.php?scores=79029

@@ -11,9 +11,9 @@ ROM set changed: yes
 0.106-0.122: route16 - "Route 16"
 0.123-0.165: route16 - "Route 16 (set 1)"
 0.166-0.220: route16c - "Route 16 (set 3, bootleg?)"
-0.221-     : route16c - "Route 16 (Centuri license, set 3, bootleg?)"
+0.221-0.227: route16c - "Route 16 (Centuri license, set 3, bootleg?)"
 
-Resolution, 0.106-0.221: 256x256 @ 57.000000Hz
+Resolution, 0.106-0.227: 256x256 @ 57.000000Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/route-16/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=9831
@@ -24,9 +24,9 @@ Route 16 (Centuri license, set 1)
 Note: not currently represented at TG.
 ROM set changed: yes.  Added in 0.166.
 0.166-0.220: route16 - "Route 16 (set 1)"
-0.221-     : route16a - "Route 16 (Centuri license, set 1)"
+0.221-0.227: route16a - "Route 16 (Centuri license, set 1)"
 
-Resolution, 0.166-0.221: 256x256 @ 57.000000Hz
+Resolution, 0.166-0.227: 256x256 @ 57.000000Hz
 
 Rules: [no current tracks]
 
@@ -35,8 +35,8 @@ Route 16 (Sun Electronics)
 --------------------------
 Note: not currently represented at TG.
 ROM set changed: no.  Added in 0.221.
-0.221-     : route16 - "Route 16 (Sun Electronics)"
+0.221-0.227: route16 - "Route 16 (Sun Electronics)"
 
-Resolution, 0.221-     : 256x256 @ 57.000000Hz
+Resolution, 0.221-0.227: 256x256 @ 57.000000Hz
 
 Rules: [no current tracks]

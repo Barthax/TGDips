@@ -1,8 +1,8 @@
 ROM set changed: no
-0.106-0.201: bagman - "Bagman"
+0.106-0.226: bagman - "Bagman"
 
 Resolution, 0.106-0.138: 256x224 @ 60.000000Hz
-Resolution, 0.139-0.201: 256x224 @ 60.606061Hz
+Resolution, 0.139-0.226: 256x224 @ 60.606061Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/bagman/mame/
 Rules, Points [Tournament Settings]: http://www.twingalaxies.com/scores.php?scores=7681

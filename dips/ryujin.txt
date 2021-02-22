@@ -1,6 +1,28 @@
-ROM set changed: no
-0.106-0.175: ryujin - "Ryu Jin (Japan)"
+Note: two ROM sets represented here with changeover at 0.227
 
-Resolution, 0.106-0.175: 320x224 @ 60.000000Hz
+From MAMEINFO.DAT:
+- 0.227: Battlesmurf added Ryu Jin (Japan, ET910000B PCB). Changed Ryu Jin (Japan) to clone 'Ryu Jin (Japan, ET910000A PCB)'. Renamed (ryujin) to (ryujina).
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Ryu Jin [Japan]
+
+Ryu Jin (Japan, ET910000A PCB)
+------------------------------
+ROM set changed: yes
+0.106-0.226: ryujin - "Ryu Jin (Japan)"
+0.227-     : ryujina - "Ryu Jin (Japan, ET910000A PCB)"
+
+Resolution, 0.106-0.227: 320x224 @ 60.000000Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/ryu-jin-japan/mame
+Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=69933
+Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=69934
+
+
+Ryu Jin (Japan, ET910000B PCB)
+------------------------------
+Note: not currently tracked at TG.
+ROM set changed: no.  Added in 0.227
+0.227-     : ryujin - "Ryu Jin (Japan, ET910000B PCB)"
+
+Resolution, 0.227-     : 320x224 @ 60.000000Hz
+
+Rules: [no current tracks]
