@@ -1,7 +1,7 @@
 ROM set changed: no
-0.035b13-0.198: bombjack - "Bomb Jack (set 1)"
+0.035b13-0.232: bombjack - "Bomb Jack (set 1)"
 
-Resolution, 0.106-0.198: 256x224 @ 60.000000Hz
+Resolution, 0.106-0.232: 256x224 @ 60.000000Hz
 
 TG Game Entry: http://www.twingalaxies.com/game/bomb-jack-set-1/mame/
 Rules, Points [Marathon]: http://www.twingalaxies.com/scores.php?scores=7694

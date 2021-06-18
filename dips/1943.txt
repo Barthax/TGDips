@@ -9,11 +9,11 @@ From MAMEINFO.DAT:
 --------------------------------------
 ROM set changed: yes
 0.106-0.138: 1943 - "1943: The Battle of Midway (US)"
-0.138u1-0.143: 1943u - "1943: The Battle of Midway (US)"
-0.144-0.201: 1943u - "1943: The Battle of Midway (US, Rev C)"
+0.139-0.143: 1943u - "1943: The Battle of Midway (US)"
+0.144-0.232: 1943u - "1943: The Battle of Midway (US, Rev C)"
 
-
-Resolution, 0.106-0.201: 256x224 @ 60.000000Hz
+Resolution, 0.106-0.231: 256x224 @ 60.000000Hz
+Resolution, 0.232-     : 256x224 @ 59.637405Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/1943-the-battle-of-midway-us/mame/
 Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=5155
@@ -27,8 +27,9 @@ Rules, Single player - NO special codes allowed - First Level Only: http://www.t
 Note: this set not represented on TG scoreboard yet
 ROM set changed: no.  Added in 0.138u1.
 0.106-0.138: NOT SUPPORTED
-0.138u1-0.201: 1943 - "1943: The Battle of Midway (Euro)"
+0.139-0.232: 1943 - "1943: The Battle of Midway (Euro)"
 
-Resolution, 0.139-0.201: 256x224 @ 60.000000Hz
+Resolution, 0.139-0.231: 256x224 @ 60.000000Hz
+Resolution, 0.232-     : 256x224 @ 59.637405Hz
 
 Rules: [no current tracks]

@@ -8,12 +8,12 @@ Pole Position (Japan)
 ---------------------
 ROM set changed: yes
 0.106-0.149: polepos - "Pole Position"
-0.150-0.175: poleposj - "Pole Position (Japan)"
+0.150-0.232: poleposj - "Pole Position (Japan)"
 
 Resolution, 0.106-0.138: 256x224 @ 60.606060Hz
-Resolution, 0.139-0.175: 256x224 @ 60.606061Hz
+Resolution, 0.139-0.232: 256x224 @ 60.606061Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Pole+Position
+TG Game Entry: https://www.twingalaxies.com/game/pole-position/mame
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=78931
 
 
@@ -21,9 +21,8 @@ Pole Position (World)
 ---------------------
 Note: not currently represented on TG.
 ROM set changed: no.  Added in 0.150.
-0.150-0.175: polepos - "Pole Position (World)"
+0.150-0.232: polepos - "Pole Position (World)"
 
-Resolution, 0.150-0.175: 256x224 @ 60.606061Hz
+Resolution, 0.150-0.232: 256x224 @ 60.606061Hz
 
 Rules: [no current tracks]
-

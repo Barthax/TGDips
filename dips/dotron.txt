@@ -1,7 +1,28 @@
-ROM set changed: no
-0.106-0.175: dotron - "Discs of Tron (Upright)"
+Note: two ROM sets represented here with changeover at 0.230
 
-Resolution, 0.106-0.175: 512x480 @ 30.000000Hz
+From MAMEINFO.DAT:
+- 0.231: Changed 'Discs of Tron (Upright)' to clone 'Discs of Tron (Upright, 9/22/83)' and clone (Upright alternate) to 'Discs of Tron (Upright, 10/4/83)'. Fixed rom names. Renamed (dotron) to (dotrona) and (dotrona) to (dotron).
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Discs%20of%20Tron%20[Upright]
+Discs of Tron (Upright, 9/22/83)
+--------------------------------
+ROM set changed: yes
+0.106-0.229: dotron - "Discs of Tron (Upright)"
+0.230-0.231: dotrona - "Discs of Tron (Upright, 9/22/83)"
+
+Resolution, 0.106-0.231: 512x480 @ 30.000000Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/discs-of-tron-upright/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=7722
+
+
+
+Discs of Tron (Upright, 10/4/83)
+--------------------------------
+Note: not currently tracked at TG.
+ROM set changed: yes
+0.106-0.229: dotrona - "Discs of Tron (Upright alternate)"
+0.230-0.231: dotron - "Discs of Tron (Upright, 10/4/83)"
+
+Resolution, 0.106-0.231: 512x480 @ 30.000000Hz
+
+Rules: [no current tracks]

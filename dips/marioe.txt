@@ -1,7 +1,7 @@
 Note: not currently represented on TG.
 ROM set changed: yes.  Added in 0.119u1.
-0.119u1-0.132: mario - "Mario Bros. (US, set 1)"
-0.132u3-0.199: marioe - "Mario Bros. (US, Revision E)"
+0.120-0.132: mario - "Mario Bros. (US, set 1)"
+0.133-0.232: marioe - "Mario Bros. (US, Revision E)"
 
 MAME History:
 - 0.119u1: Stephane Humbert added Mario Bros. (US, set 1). Fixed dipswitches. Changed 'Mario Bros. (US)' to clone '(US, set 2)'. Renamed (mario) to (marioo) and (mariojp) to (marioj).
@@ -11,6 +11,6 @@ NOTE: Reversed difficulty (MED <-> HARD) reported at 0.106 (and most likely earl
       EXERCISE CAUTION! This may or may not be relevant to any future tracks that may be created for this clone, as the difficulty fix was very close to the time this set was added to MAME support.
 
 Resolution, 0.120-0.122: 256x224 @ 60.000000Hz
-Resolution, 0.123-0.199: 256x224 @ 59.185606Hz
+Resolution, 0.123-0.232: 256x224 @ 59.185606Hz
 
 Rules: [no current tracks]

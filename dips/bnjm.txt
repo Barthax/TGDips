@@ -1,12 +1,12 @@
 ROM set changed: yes
 0.106-0.147: bnj - "Bump 'n' Jump"
-0.148-0.201: bnjm - "Bump 'n' Jump (Midway)"
+0.148-0.232: bnjm - "Bump 'n' Jump (Midway)"
 
-MAME History:
+From MAMEINFO.DAT:
 - 0.148: Kevin Eshbach added clone Bump 'n' Jump. The bnj testmode expects to be able to read back palette and background ram [David Haywood]. Fixed bnj missing sound [hap]. Changed clone 'Bump 'n' Jump' to clone 'Bump 'n' Jump (Midway)'. Renamed (bnj) to (bnjm).
 
 Resolution, 0.106-0.128: 256x240 @ 57.000000Hz
-Resolution, 0.129-0.201: 256x240 @ 57.444853Hz
+Resolution, 0.129-0.232: 256x240 @ 57.444853Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/bump-n-jump/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=7700
