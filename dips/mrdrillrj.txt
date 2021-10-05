@@ -2,12 +2,12 @@ ROM set changed: yes
 0.106-0.130: mrdrillr - "Mr Driller (DRI1/VER.A2)"
 0.131-0.133: mrdrillr - "Mr Driller (Japan, DRI1/VER.A2)"
 0.134-0.152: mrdrillr - "Mr. Driller (Japan, DRI1/VER.A2)"
-0.153-0.228: mrdrillrj - "Mr. Driller (Japan, DRI1/VER.A2)"
+0.153-0.234: mrdrillrj - "Mr. Driller (Japan, DRI1/VER.A2)"
 
-MAME History:
+From MAMEINFO.DAT:
 - 0.153: Tormod, Smitdogg and The Dumping Union added Mr. Driller (US, DRI3/VER.A2). Renamed (mrdrillr) to (mrdrillrj).
 
-Resolution, 0.106-0.228: 640x480 @ 60.000000Hz
+Resolution, 0.106-0.234: 640x480 @ 60.000000Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/mr-driller-dri1vera2/mame/
 Rules, 500M Mode: http://www.twingalaxies.com/scores.php?scores=20779

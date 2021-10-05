@@ -1,10 +1,14 @@
 ROM set changed: no
 0.106-0.111: mmatrix - "Mars Matrix: Hyper Solid Shooting (US 000412)"
-0.112-0.175: mmatrix - "Mars Matrix: Hyper Solid Shooting (USA 000412)"
+0.112-0.234: mmatrix - "Mars Matrix: Hyper Solid Shooting (USA 000412)"
 
 Resolution, 0.106-0.113: 384x224 @ 59.633331Hz
 Resolution, 0.114-0.127: 384x224 @ 59.633333Hz
 Resolution, 0.128-0.152: 384x224 @ 59.629403Hz
-Resolution, 0.153-0.175: 384x224 @ 59.637405Hz
+Resolution, 0.153-0.234: 384x224 @ 59.637405Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Mars Matrix: Hyper Solid Shooting [US 000412]
+TG Game Entry: https://www.twingalaxies.com/game/mars-matrix-hyper-solid-shooting-us-000412/mame
+Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=75519
+Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=75520
+
+NOTE: All relevant rules are covered by internal settings.  If not shown during playback, use F2 to access after playback completed.

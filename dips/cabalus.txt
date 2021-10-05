@@ -1,47 +1,16 @@
 ROM set changed: yes
 0.106-0.119: cabal - "Cabal (US set 1)"
-0.119u2-0.169: cabalus - "Cabal (US set 1, Trackball version)"
-0.172-0.175: cabalus - "Cabal (US set 1, Trackball)"
+0.120-0.169: cabalus - "Cabal (US set 1, Trackball version)"
+0.172-0.234: cabalus - "Cabal (US set 1, Trackball)"
 
-MAME History:
+From MAMEINFO.DAT:
 - 0.119u2: Replaced 'Cabal (US set 1)' with an incomplete new Cabal version (World, Joystick version).
 - 0.119u3: David Haywood fixed 'Cabal (World, Joystick version)' submission from previous release. Re-added 'Cabal (US set 1)' as 'Cabal (US set 1, Trackball version)'. David Haywood added clone Cabal (Alpha Trading). Changed description of clones 'Cabal (US set 2)' to 'Cabal (US set 2, Trackball version)' and 'Cabal (bootleg)' to 'Cabal (bootleg of Joystick version)'. Renamed (cabal2) to (cabalus2).
 - 0.172: Caius added clone Cabal (UK, Trackball). Changed parent description to 'Cabal (World, Joystick)' and clones (Alpha Trading) to 'Cabal (Korea?, Joystick)', (US set 1, Trackball version) to 'Cabal (US set 1, Trackball)' and (US set 2, Trackball version) to 'Cabal (US set 2, Trackball)'.
 
 Resolution, 0.106-0.133: 256x224 @ 60.000000Hz
-Resolution, 0.134-0.175: 256x224 @ 59.600000Hz
+Resolution, 0.134-0.234: 256x224 @ 59.600000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Cabal%20[US%20Set%201]
+TG Game Entry: https://www.twingalaxies.com/game/cabal-us-set-1/mame
 Rules, Points [1 Player Only]: http://www.twingalaxies.com/scores.php?scores=10803
 Rules, Points [2 Player Team]: http://www.twingalaxies.com/scores.php?scores=10804
-
-Additional CRC information to confirm the ROM set name change:
-C:\MAME>mame119 -listcrc cabal
-8fe16fb4 h7_512.bin   Cabal (US set 1)
-6968101c h6_512.bin   Cabal (US set 1)
-562031a2 k7_512.bin   Cabal (US set 1)
-4fda2856 k6_512.bin   Cabal (US set 1)
-4038eff2 4-3n         Cabal (US set 1)
-d9defcbf 3-3p         Cabal (US set 1)
-1ccee214 t6_128.bin   Cabal (US set 1)
-13ca7ae1 tad-2.7s     Cabal (US set 1)
-8324a7fe tad-1.5e     Cabal (US set 1)
-850406b4 2-1s         Cabal (US set 1)
-8b3e0789 1-1u         Cabal (US set 1)
-a94b18c2 prom05.8e    Cabal (US set 1)
-261c93bc prom10.4j    Cabal (US set 1)
-
-C:\MAME>mame120 -listcrc cabalus
-8fe16fb4 h7_512.bin   Cabal (US set 1, Trackball version)
-6968101c h6_512.bin   Cabal (US set 1, Trackball version)
-562031a2 k7_512.bin   Cabal (US set 1, Trackball version)
-4fda2856 k6_512.bin   Cabal (US set 1, Trackball version)
-4038eff2 4-3n         Cabal (US set 1, Trackball version)
-d9defcbf 3-3p         Cabal (US set 1, Trackball version)
-1ccee214 t6_128.bin   Cabal (US set 1, Trackball version)
-13ca7ae1 tad-2.7s     Cabal (US set 1, Trackball version)
-8324a7fe tad-1.5e     Cabal (US set 1, Trackball version)
-850406b4 2-1s         Cabal (US set 1, Trackball version)
-8b3e0789 1-1u         Cabal (US set 1, Trackball version)
-a94b18c2 prom05.8e    Cabal (US set 1, Trackball version)
-261c93bc prom10.4j    Cabal (US set 1, Trackball version)

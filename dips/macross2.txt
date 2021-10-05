@@ -1,11 +1,11 @@
 ROM set changed: no
-0.106-0.175: macross2 - "Super Spacefortress Macross II / Chou-Jikuu Yousai Macross II"
+0.106-0.234: macross2 - "Super Spacefortress Macross II / Chou-Jikuu Yousai Macross II"
 
 Resolution, 0.106-0.122: 384x224 @ 57.000000Hz
 Resolution, 0.123-0.154: 384x224 @ 56.000000Hz
-Resolution, 0.155-0.175: 384x224 @ 56.180000Hz
+Resolution, 0.155-0.234: 384x224 @ 56.180000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Super%20Spacefortress%20Macross%20II%20/%20Chou-Jikuu%20Yousai%20Macross%20II
+TG Game Entry: https://www.twingalaxies.com/game/super-spacefortress-macross-ii-chou-jikuu-yousai-macross-ii/mame
 Rules, Points [Beginner Mode, Single Player Only]: http://www.twingalaxies.com/scores.php?scores=110831
 Rules, Points [Beginner Mode, Two Player Team]: http://www.twingalaxies.com/scores.php?scores=110832
 Rules, Points [Expert Mode, Single Player Only]: http://www.twingalaxies.com/scores.php?scores=110833

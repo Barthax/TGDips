@@ -1,11 +1,11 @@
 ROM set changed: no
 0.106-0.123: roboarmy - "Robo Army (set 1)"
-0.125-0.184: roboarmy - "Robo Army"
+0.125-0.234: roboarmy - "Robo Army"
 
 Resolution, 0.106-0.113: 320x224 @ 59.185608Hz
-Resolution, 0.114-0.184: 320x224 @ 59.185606Hz
+Resolution, 0.114-0.234: 320x224 @ 59.185606Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Robo+Army+[Set+1]
+TG Game Entry: https://www.twingalaxies.com/game/robo-army-set-1/mame
 Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=15396
 Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=91239
 

@@ -1,6 +1,6 @@
 Note: two ROM sets represented here with changover at 0.146u3.
 
-MAME History:
+From MAMEINFO.DAT:
 - 0.146u3: Roman Grantovskiy added Daioh (set 1). Correct the rom names (as per pic) for the new Daioh set. Changed Daioh to clone 'Daioh (set 2)'. Renamed (daioh) to (daioha).
 - 0.160: CoolMod and trap15 added clone Daioh (prototype). Minor fixes [Brian Troha]. Changed parent description to 'Daioh' and clone (set 2) to 'Daioh (earlier)'.
 
@@ -9,11 +9,11 @@ Daioh (set 2) / (earlier)
 -------------------------
 ROM set changed: yes
 0.106-0.146: daioh - "Daioh"
-0.146u3-0.159: daioha - "Daioh (set 2)"
-0.160-0.201: daioha - "Daioh (earlier)"
+0.147-0.159: daioha - "Daioh (set 2)"
+0.160-0.234: daioha - "Daioh (earlier)"
 
 Resolution, 0.106-0.153: 384x240 @ 60.000000Hz
-Resolution, 0.154-0.201: 384x240 @ 57.420000Hz
+Resolution, 0.154-0.234: 384x240 @ 57.420000Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/daioh/mame/
 Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=26071
@@ -24,10 +24,10 @@ Daioh (set 1)
 -------------
 Note: not currently represented on TG.
 ROM set changed: no.  Added in 0.146u3.
-0.146u3-0.159: daioh - "Daioh (set 1)"
-0.160-0.201: daioh - "Daioh"
+0.147-0.159: daioh - "Daioh (set 1)"
+0.160-0.234: daioh - "Daioh"
 
 Resolution, 0.147-0.153: 384x240 @ 60.000000Hz
-Resolution, 0.154-0.201: 384x240 @ 57.420000Hz
+Resolution, 0.154-0.234: 384x240 @ 57.420000Hz
 
 Rules: [no current tracks]

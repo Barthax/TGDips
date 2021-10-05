@@ -1,8 +1,8 @@
 ROM set changed: no
 0.106-0.122: circusc - "Circus Charlie (Selectable level set 1)"
-0.123-0.232: circusc - "Circus Charlie (level select, set 1)"
+0.123-0.235: circusc - "Circus Charlie (level select, set 1)"
 
-Resolution, 0.106-0.232: 256x224 @ 60.000000Hz
+Resolution, 0.106-0.235: 256x224 @ 60.000000Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/circus-charlie-selectable-level-set-1/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=7703
