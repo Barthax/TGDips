@@ -1,4 +1,4 @@
-Note: two ROM sets represented here with changeover at 0.193
+Note: two ROM sets represented here with changeover at 0.236
 
 From MAMEINFO.dat:
 - 0.214: Suspicion that Marvel Land (US) is a proto, thanks https://twitter.com/GoldS_TCRF [hap]. Changed description to 'Marvel Land (US, prototype?)'.
@@ -10,10 +10,10 @@ Marvel Land (US, prototype)
 ROM set changed: yes
 0.106-0.213: marvland - "Marvel Land (US)"
 0.214-0.235: marvland - "Marvel Land (US, prototype?)"
-0.236-     : marvlandup - "Marvel Land (US, prototype)"
+0.236-0.239: marvlandup - "Marvel Land (US, prototype)"
 
 Resolution, 0.106-0.113: 288x224 @ 60.606060Hz
-Resolution, 0.114-0.236: 288x224 @ 60.606061Hz
+Resolution, 0.114-0.239: 288x224 @ 60.606061Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/marvel-land/mame
 Rules, Points: https://www.twingalaxies.com/scores.php?scores=75522
@@ -31,9 +31,9 @@ From MAMEINFO.dat:
 
 0.106-0.133: marvlanj - "Marvel Land (Japan)"
 0.134-0.235: marvlandj - "Marvel Land (Japan)"
-0.236-     : marvland - "Marvel Land (Japan)"
+0.236-0.239: marvland - "Marvel Land (Japan)"
 
 Resolution, 0.106-0.113: 288x224 @ 60.606060Hz
-Resolution, 0.114-0.236: 288x224 @ 60.606061Hz
+Resolution, 0.114-0.239: 288x224 @ 60.606061Hz
 
 Rules: [no current tracks]

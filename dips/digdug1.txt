@@ -3,7 +3,7 @@ ROM set changed: yes. Earlier renames for historical purposes only.
 0.027-0.035: digdugnm - "Dig Dug (Namco)"
 0.036-0.079: digdug - "Dig Dug (set 1)"
 0.080-0.133: digdugb - "Dig Dug (rev 1)"
-0.134-0.232: digdug1 - "Dig Dug (rev 1)"
+0.134-0.239: digdug1 - "Dig Dug (rev 1)"
 
 From MAMEINFO.DAT:
 - 0.26: Aaron Giles added 'Dig Dug - Namco' (Namco 1982) and clone 'Dig Dug - Atari'. Game is playable with accurate colors and sound. Control: Arrows = Move around and CTRL = Pump. Known issues: The Atari version has some glitches on sprites/chars.
@@ -13,7 +13,7 @@ From MAMEINFO.DAT:
 - 0.133u3: Yasuhiro Ogawa renamed (digdugb) to (digdug1) (it's a rev1, not a bootleg) and (digduga1) to (digdugat1). Fixed rom names.
 
 Resolution, 0.078-0.131: 288x224 @ 60.606060Hz
-Resolution, 0.132-0.232: 288x224 @ 60.606061Hz
+Resolution, 0.132-0.239: 288x224 @ 60.606061Hz
 
 TG Game Entry: http://www.twingalaxies.com/game/dig-dug-rev-1/mame/
 Rules, Points [Marathon Settings]: http://www.twingalaxies.com/scores.php?scores=5191

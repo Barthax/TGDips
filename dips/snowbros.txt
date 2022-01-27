@@ -1,7 +1,7 @@
 ROM set changed: no
-0.106-0.205: snowbros - "Snow Bros. - Nick & Tom (set 1)"
+0.106-0.239: snowbros - "Snow Bros. - Nick & Tom (set 1)"
 
-Resolution, 0.106-0.205: 256x224 @ 57.500000Hz
+Resolution, 0.106-0.239: 256x224 @ 57.500000Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/snow-bros-nick-tom-set-1/mame/
 Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=21083

@@ -1,0 +1,12 @@
+ROM set changed: yes
+0.106-0.130: fgtlayer - "Fighting Layer (FTL0/VER.A)"
+0.131-0.238: fgtlayer - "Fighting Layer (Japan, FTL1/VER.A)"
+0.239-     : fgtlayerj - "Fighting Layer (Japan, FTL0/VER.A)"
+
+From MAMEINFO.dat:
+- 0.239: CoolMod added Fighting Layer (FTL3/VER.A). Updated Fighting Layer title as per GitHub comments [Osso]. Changed (Japan, FTL1/VER.A) to clone 'Fighting Layer (Japan, FTL0/VER.A)'. Renamed (fgtlayer) to (fgtlayerj).
+
+Resolution, 0.106-0.239: 640x480 @ 60.000000Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/fighting-layer-ftl0-vera/mame
+Rules, Points [Tournament Settings]: http://www.twingalaxies.com/scores.php?scores=69899

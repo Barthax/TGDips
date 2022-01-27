@@ -1,8 +1,8 @@
 ROM set changed: no
-0.106-0.236: lasso - "Lasso"
+0.106-0.237: lasso - "Lasso"
 
 Resolution, 0.106-0.122: 256x224 @ 60.000000Hz
-Resolution, 0.123-0.236: 256x224 @ 57.000000Hz
+Resolution, 0.123-0.237: 256x224 @ 57.000000Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/lasso/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=10832

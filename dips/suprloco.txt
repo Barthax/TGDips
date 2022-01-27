@@ -9,9 +9,9 @@ Super Locomotive
 ----------------
 ROM set changed: yes
 0.106-0.147: suprloco - "Super Locomotive"
-0.147u3-0.221: suprlocoo - "Super Locomotive"
+0.148-0.237: suprlocoo - "Super Locomotive"
 
-Resolution, 0.106-0.221: 240x224 @ 60.000000Hz
+Resolution, 0.106-0.237: 240x224 @ 60.000000Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/super-locomotive/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=110816
@@ -22,8 +22,8 @@ Super Locomotive (Rev.A)
 Note: not currently represented on TG.
 ROM set changed: yes. Added in 0.132u3.
 0.133-0.147: suprlocoa - "Super Locomotive (Rev.A)"
-0.147u3-0.221: suprloco - "Super Locomotive (Rev.A)"
+0.148-0.237: suprloco - "Super Locomotive (Rev.A)"
 
-Resolution, 0.148-0.221: 240x224 @ 60.000000Hz
+Resolution, 0.148-0.237: 240x224 @ 60.000000Hz
 
 Rules: [no current tracks]

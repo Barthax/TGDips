@@ -1,8 +1,8 @@
 ROM set changed: no
-0.106-0.198: gberet - "Green Beret"
+0.106-0.239: gberet - "Green Beret"
 
 Resolution, 0.106-0.144: 240x224 @ 30.000000Hz
-Resolution, 0.145-0.198: 240x224 @ 60.600000Hz
+Resolution, 0.145-0.239: 240x224 @ 60.600000Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/green-beret/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=7743
