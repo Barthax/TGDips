@@ -1,8 +1,13 @@
 ROM set changed: no
-0.106-0.195: pengo - "Pengo (set 1 rev c)"
+0.106-0.221: pengo - "Pengo (set 1 rev c)"
+0.222-0.240: pengo - "Pengo (set 1 rev C, encrypted)"
+
+From MAMEINFO.DAT:
+- 0.222: Various documentation updates [Brian Troha]. Fixed rom names. Changed description to 'Pengo (set 1 rev C, encrypted)' and clones (set 2) to 'Pengo (set 2, encrypted)', (set 2 not encrypted) to 'Pengo (set 2, rev A, not encrypted)', (set 3 not encrypted)' to 'Pengo (set 3, not encrypted)', (set 4) to 'Pengo (set 4, encrypted)' and (set 5) to 'Pengo (set 5, encrypted)'.
 
 Resolution, 0.106-0.115: 288x224 @ 60.606060Hz
-Resolution, 0.116-0.195: 288x224 @ 60.606061Hz
+Resolution, 0.116-0.240: 288x224 @ 60.606061Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/pengo-set-1-rev-c/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=7783
+Rules, Points: [Acts/Rnds 1 to 16 with 1 life only]: http://www.twingalaxies.com/scores.php?scores=244338

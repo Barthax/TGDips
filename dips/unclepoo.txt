@@ -1,0 +1,12 @@
+ROM set changed: no
+0.106-0.136: NOT SUPPORTED
+0.137-0.240: unclepoo - "Uncle Poo"
+
+From MAMEINFO.DAT:
+- 0.136u4: TeamEurope, Dumping Union, Rene Single, David Haywood and Angelo Salese added 'Uncle Poo' (Diatec 1983). Tafoid added preliminary DIP coverage (lives/coinage/test mode) and Player 2 control fix for Uncle Poo. Stephane Humbert added fresh driver notes based analysis of the Z80 code.
+
+Resolution, 0.106-0.230: 256x240 @ 60.000000Hz
+Resolution, 0.231-0.240: 256x240 @ 59.185606Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/uncle-poo/mame
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=230997

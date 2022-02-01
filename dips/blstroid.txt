@@ -1,9 +1,10 @@
 ROM set changed: no
-0.106-0.236: blstroid - "Blasteroids (rev 4)"
+0.106-0.240: blstroid - "Blasteroids (rev 4)"
 
 Resolution, 0.106-0.114: 640x240 @ 60.000000Hz
 Resolution, 0.115-0.143: 640x240 @ 59.922743Hz
-Resolution, 0.144-0.236: 640x240 @ 59.922748Hz
+Resolution, 0.144-0.240: 640x240 @ 59.922748Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/blasteroids-rev-4/mame
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=24397
+Rules, Points[Two Player Team]: http://www.twingalaxies.com/scores.php?scores=245116

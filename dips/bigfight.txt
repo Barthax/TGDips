@@ -1,12 +1,14 @@
-ROM set changes: no
-0.123-0.209: bigfight - "Big Fight - Big Trouble In The Atlantic Ocean"
+ROM set changes: no. Added in 0.122u4.
+0.106-0.122: NOT SUPPORTED
+0.123-0.240: bigfight - "Big Fight - Big Trouble In The Atlantic Ocean"
 
 From MAMEINFO.DAT:
 - 0.122u4: Bryan McPhail added 'Big Fight - Big Trouble In The Atlantic Ocean' (Tatsumi 1992). Phil Bennett added sound to Big Fight. Corrected OKI M6295 clock values.
 - 0.122u5: Phil Bennett fixed dipswitch settings in Big Fight. Added dipswitches 'Player Select', 'Service Mode', 'Hardware Test Mode', 'Coin A/B', 'Lives', 'Ticket Dispenser', 'Continue Coin', 'Extend', 'Difficulty' and 'Demo Sounds'.
 
 Resolution, 0.123-0.198: 320x240 @ 60.000000Hz
-Resolution, 0.199-0.209: 320x240 @ 57.444853Hz
+Resolution, 0.199-0.240: 320x240 @ 57.444853Hz
 
-TG Game Entry: 
-Rules, Points - Mission Mode [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=
+TG Game Entry: https://www.twingalaxies.com/game/big-fight-big-trouble-in-the-atlantic-ocean/mame
+Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=234326
+Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=234327

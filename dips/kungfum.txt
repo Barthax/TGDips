@@ -1,13 +1,14 @@
 ROM Set changes: No
 0.106-0.149: kungfum - "Kung-Fu Master"
-0.150-0.239: kungfum - "Kung-Fu Master (World)"
+0.150-0.240: kungfum - "Kung-Fu Master (World)"
 
 Resolution, 0.106-0.233: 256x256 @ 55.000000Hz
-Resolution, 0.234-0.239: 256x256 @ 56.338028Hz
+Resolution, 0.234-0.240: 256x256 @ 56.338028Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/kung-fu-master/mame/
 Rules, Points [Tournament Settings]: http://www.twingalaxies.com/scores.php?scores=7759
 Rules, Points [Marathon Settings]: http://www.twingalaxies.com/scores.php?scores=7758
 Rules, Points - 1 Life - 1st. floor only: http://www.twingalaxies.com/scores.php?scores=206051
+Rules, Points [Marathon Settings - 1 Life Only]: http://www.twingalaxies.com/scores.php?scores=245081
 
-NOTE: the "1 Life" track appears not to be redirecting properly - original game entry of "Kung Fu Master" was not used, rather a new one "Kung-Fu Master" (with a hyphen) was created
+NOTE: the "1 Life - 1st floor" track appears not to be redirecting properly - original game entry of "Kung Fu Master" was not used, rather a new one "Kung-Fu Master" (with a hyphen) was created

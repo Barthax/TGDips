@@ -1,15 +1,16 @@
 ROM set changed: no
 0.106-0.139: seawolf - "Sea Wolf"
-0.140-0.212: seawolf - "Sea Wolf (set 1)"
+0.140-0.240: seawolf - "Sea Wolf (set 1)"
 
 From MAMEINFO.DAT:
 - 0.111u4: Zsolt Vasvari and Derrick Renaud added lamp outputs to Sea Wolf. Changed 8080 CPU1 clock speed to 1996800 Hz. Fixed 'Game Time' and 'Extended Time At' dipswitches. Added 'Enable Reset High Score' dipswitch.
 
 Resolution, 0.106-0.111: 256x224 @ 60.000000Hz
-Resolution, 0.112-0.212: 260x224 @ 59.541985Hz
+Resolution, 0.112-0.240: 260x224 @ 59.541985Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/sea-wolf/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=7809
+Rules, Original Arcade settings: http://www.twingalaxies.com/scores.php?scores=233321
 
 NOTES:
 Correct 'Game Time' setting as a result of change at 0.111u4 is "60 seconds + 20 extended"
