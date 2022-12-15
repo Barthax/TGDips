@@ -1,10 +1,18 @@
-ROM set changed: no
+ROM set changed: no; DIP switch labels changed: 0.137
 0.106-0.141: vimana - "Vimana"
-0.142-0.175: vimana - "Vimana (World, set 1)"
+0.142-0.250: vimana - "Vimana (World, set 1)"
 
 Resolution, 0.106-0.133: 320x240 @ 60.000000Hz
 Resolution, 0.134-0.144: 320x240 @ 57.590000Hz
 Resolution, 0.145-0.152: 320x240 @ 57.584258Hz
-Resolution, 0.153-0.175: 320x240 @ 57.613169Hz
+Resolution, 0.153-0.250: 320x240 @ 57.613169Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Vimana
+MAME History:
+- 0.137: Stephane Humbert fixed dipswitches and inputs in Vimana (after verification of the M68000 code). Improved MCU emulation to correctly handle coinage based on dipswitches settings and Territory Jumper. Changed description of clone (old set) to 'Vimana (old set)'.
+- 0.153: Changed VSync to 57.613169 Hz.
+
+TG Game Entry: https://www.twingalaxies.com/game/vimana/mame
+Points [Single Player Only]: https://www.twingalaxies.com/game/vimana/mame/points-single-player-only/page/1
+Points [Two Player Team]: https://www.twingalaxies.com/game/vimana/mame/points-two-player-team/page/1
+0-106-0.136: Bonus Life: 70K and 200K
+0.137-0.250: Bonus Life: 70K 270K 200K+
