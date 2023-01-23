@@ -14,5 +14,6 @@ Resolution, 0.159-0.250: 320x240 @ 55.407801Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/raiden-ii/mame/
 Rules, Points: https://www.twingalaxies.com/scores.php?scores=220599
+Rules, Points [Two Player Team]: https://www.twingalaxies.com/scores.php?scores=238477
 
 NOTE: this game is only considered as "working" from 0.155

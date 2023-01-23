@@ -1,7 +1,7 @@
 ROM set changed: no
-0.106-0.175: kikcubic - "Meikyu Jima (Japan)"
+0.106-0.236: kikcubic - "Meikyu Jima (Japan)"
 
-Resolution, 0.106-0.175: 384x256 @ 55.000000Hz
+Resolution, 0.106-0.236: 384x256 @ 55.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Meikyu%20Jima%20[Japan]
+TG Game Entry: https://www.twingalaxies.com/game/meikyu-jima-japan/mame
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=75554

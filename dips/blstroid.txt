@@ -6,7 +6,8 @@ Resolution, 0.115-0.143: 640x240 @ 59.922743Hz
 Resolution, 0.144-0.250: 640x240 @ 59.922748Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/blasteroids-rev-4/mame
-Rules, Points: https://www.twingalaxies.com/scores.php?scores=24397
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=24397
+Rules, Points[Two Player Team]: http://www.twingalaxies.com/scores.php?scores=245116
 
 Service Mode:
 All relevant rules are covered by internal settings. If not shown during playback, use the combination of P1 Start and the Service button (F2) to access after playback completed.  Navigation options change depending on menu and instructions are given at the bottom of the screen.

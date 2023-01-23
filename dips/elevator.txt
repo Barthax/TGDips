@@ -10,9 +10,9 @@ Elevator Action (EA, 5 PCB version, 1.1)
 ROM set changed: yes
 0.106-0.177: elevator - "Elevator Action"
 0.178-0.220: elevator - "Elevator Action (5 pcb version, 1.1)"
-0.221-0.225: elevatora - "Elevator Action (EA, 5 PCB version, 1.1)"
+0.221-0.237: elevatora - "Elevator Action (EA, 5 PCB version, 1.1)"
 
-Resolution, 0.106-0.225: 256x224 @ 60.000000Hz
+Resolution, 0.106-0.237: 256x224 @ 60.000000Hz
 
 TG Game Entry: http://www.twingalaxies.com/elevator-action/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=5158              (Difficulty: Normal)
@@ -30,8 +30,8 @@ Elevator Action (BA3, 4 PCB version, 1.1)
 Note: not currently represented on TG. Added in 0.178.
 ROM set changed: yes
 0.178-0.220: elevator4 - "Elevator Action (4 pcb version, 1.1)"
-0.221-0.225: elevator - "Elevator Action (BA3, 4 PCB version, 1.1)"
+0.221-0.237: elevator - "Elevator Action (BA3, 4 PCB version, 1.1)"
 
-Resolution, 0.106-0.225: 256x224 @ 60.000000Hz
+Resolution, 0.106-0.237: 256x224 @ 60.000000Hz
 
 Rules: [no current tracks]

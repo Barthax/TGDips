@@ -1,0 +1,8 @@
+ROM set changed: no
+0.106-0.173: attckufo - "Attack Ufo"
+0.174-0.240: attckufo - "Attack UFO"
+
+Resolution, 0.106-0.240: 184x176 @ 60.000000Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/attack-ufo/mame
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=244050

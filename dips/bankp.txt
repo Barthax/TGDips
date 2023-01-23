@@ -1,8 +1,8 @@
 ROM set changed: no
-0.106-0.222: bankp - "Bank Panic"
+0.106-0.239: bankp - "Bank Panic"
 
 Resolution, 0.106-0.146: 224x224 @ 60.000000Hz
-Resolution, 0.147-0.222: 224x224 @ 61.034091Hz
+Resolution, 0.147-0.239: 224x224 @ 61.034091Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/bank-panic/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=7683

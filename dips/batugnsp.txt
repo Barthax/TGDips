@@ -2,9 +2,11 @@ ROM changed: yes; change in 0.133u1.
 0.106-0.133: batugnsp - "Batsugun (Special Ver.)"
 0.134-0.141: batsugunsp - "Batsugun (Special Ver.)"
 0.142-0.250: batsugunsp - "Batsugun - Special Version"
+NOTE: technically a clone of batsugun
 
 MAME History:
 - 0.133u1: Renamed (batsugna) to (batsuguna) and (batugnsp) to (batsugunsp).
+- 0.141u4: Alex Jackson added button 3 to clone Batsugun (Special Ver.). It's a full auto fire button like Cave games have. The service mode input test doesn't show it, presumably because Toaplan didn't bother to update the service mode code from the original version of the game. Changed description of clone (Special Ver.) to 'Batsugun - Special Version'.
 
 Resolution: 0.106-0.151: 320x240 @ 60.000000Hz
 Resolution, 0.152-0.250: 320x240 @ 59.637405Hz
@@ -12,4 +14,7 @@ Resolution, 0.152-0.250: 320x240 @ 59.637405Hz
 TG Scoreboard: https://www.twingalaxies.com/game/batsugun-special-version/mame/
 Points [Single Player Only]: https://www.twingalaxies.com/scores.php?scores=238620
 Points[Two Player Team]: https://www.twingalaxies.com/scores.php?scores=242697
-Note: Service Mode can be entered using the Service button (F2).  Navigation is with P1 Up & Down.  P1 Button 1 selects an option.  DIP Switches can be shown but not altered in Service Mode, thus this can be used after playback has completed to check them.
+
+Service Mode:
+Service Mode can be entered using the Service button (F2).  Navigation is with P1 Up & Down.  P1 Button 1 selects an option.  DIP Switches can be shown but not altered in Service Mode, thus this can be used after playback has completed to check them.
+

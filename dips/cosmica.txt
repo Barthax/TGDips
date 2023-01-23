@@ -1,13 +1,15 @@
 ROM set changed: no
 0.106-0.135: cosmica - "Cosmic Alien"
-0.135u1-0.215: cosmica - "Cosmic Alien (version II)"
-0.216-0.224: cosmica - "Cosmic Alien (version II, set 1)"
+0.136-0.215: cosmica - "Cosmic Alien (version II)"
+0.216-0.240: cosmica - "Cosmic Alien (version II, set 1)"
 
 From MAMEINFO.DAT:
 - 0.135u1: Andrew Welburn and Lord Nightmare added clone Cosmic Alien (first version). Changed description to 'Cosmic Alien (version II)'. Fixed rom names. Lord Nightmare marked Cosmic Alien colors as wrong, added TODO to the driver for fixing colors. Added new XTAL value and switched driver to use it.
 - 0.216: f205v added clone Cosmic Alien (version II, set 2). Changed parent description to 'Cosmic Alien (version II, set 1)'.
 
-Resolution, 0.106-0.224: 256x192 @ 60.000000Hz
+Resolution, 0.106-0.227: 256x192 @ 60.000000Hz
+Resolution, 0.228-0.240: 256x192 @ 58.639833Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/cosmic-alien/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=7707
+Rules, Points [Highest Score on First Ship]: http://www.twingalaxies.com/scores.php?scores=244221

@@ -10,4 +10,4 @@ TG Game Entry: https://www.twingalaxies.com/game/andro-dunos/mame/
 Rules, Points [Single Player Only]: https://www.twingalaxies.com/scores.php?scores=14660
 Rules, Points [Two Player Team]: https://www.twingalaxies.com/scores.php?scores=24403
 
-NOTE: All relevant rules are covered by internal settings. If not shown during playback, use F2 to access after playback completed. 
+NOTE: All relevant rules are covered by internal settings. If not shown during playback, use F2 to access after playback completed.

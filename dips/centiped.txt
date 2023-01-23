@@ -2,23 +2,24 @@ Note: two different ROM sets are tracked by this file.  In 0.106 centiped was th
 
 Centipede (revision 3)
 ----------------------
-ROM set changed: YES
+ROM set changed: yes
 0.106-0.154: centiped - "Centipede (revision 3)"
-0.155-0.202: centiped3 - "Centipede (revision 3)"
+0.155-0.240: centiped3 - "Centipede (revision 3)"
 
-Resolution, 0.106-0.202: 256x240 @ 60.000000Hz
+Resolution, 0.106-0.240: 256x240 @ 60.000000Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/centipede-revision-3/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=7702
+Rules, Points [Easy Difficulty]: http://www.twingalaxies.com/scores.php?scores=238148
 
 
 Centipede (1 player, timed) / Centipede (revision 4)
 ----------------------------------------------------
 ROM set changed: yes
 0.106-0.154: centtime - "Centipede (1 player, timed)"
-0.155-0.202: centiped - "Centipede (revision 4)"
+0.155-0.240: centiped - "Centipede (revision 4)"
 
-Resolution, 0.106-0.202: 256x240 @ 60.000000Hz
+Resolution, 0.106-0.240: 256x240 @ 60.000000Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/centipede-1-player-timed/mame/
 Rules, 3 Minutes Time Challenge: http://www.twingalaxies.com/scores.php?scores=21079

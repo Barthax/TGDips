@@ -1,11 +1,11 @@
 ROM set changed: yes
 0.106-0.147: suprloco - "Super Locomotive"
-0.147u3-0.221: suprlocoo - "Super Locomotive"
+0.148-0.237: suprlocoo - "Super Locomotive"
 
 MAME History:
 - 0.147u3: Made Rev A the parent set. Added DIP locations to the Super Locomotive sets. Added minor documentation about basic PCB parts [Brian Troha]. Renamed (suprloco) to (suprlocoo) and (suprlocoa) to (suprloco).
 
-Resolution, 0.106-0.221: 240x224 @ 60.000000Hz
+Resolution, 0.106-0.237: 240x224 @ 60.000000Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/super-locomotive/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=110816

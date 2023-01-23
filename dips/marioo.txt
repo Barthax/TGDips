@@ -2,7 +2,7 @@ ROM set changed: yes
 0.106-0.119: mario - "Mario Bros. (US)"
 0.120-0.132: marioo - "Mario Bros. (US, set 2)"
 0.133-0.192: marioo - "Mario Bros. (US, Unknown Rev)"
-0.193-0.232: mario - "Mario Bros. (US, Revision G)"
+0.193-0.240: mario - "Mario Bros. (US, Revision G)"
 
 MAME History:
 - 0.119u1: Stephane Humbert added Mario Bros. (US, set 1). Fixed dipswitches. Changed 'Mario Bros. (US)' to clone '(US, set 2)'. Renamed (mario) to (marioo) and (mariojp) to (marioj).
@@ -12,7 +12,7 @@ MAME History:
 NOTE: Reversed difficulty (MED <-> HARD) reported at 0.106 (and most likely earlier) appears to have been fixed around 0.121, though can only find anecdotal reports and no documented confirmation of this.
 
 Resolution, 0.106-0.122: 256x224 @ 60.000000Hz
-Resolution, 0.123-0.232: 256x224 @ 59.185606Hz
+Resolution, 0.123-0.240: 256x224 @ 59.185606Hz
 
 TG Game Entry: http://www.twingalaxies.com/mario-bros-us/mame/
 Rules, Single Player, Medium: http://www.twingalaxies.com/scores.php?scores=122029
@@ -20,3 +20,4 @@ Rules, Single Player, Hard: http://www.twingalaxies.com/scores.php?scores=5224
 Rules, Two Player, Hard: http://www.twingalaxies.com/scores.php?scores=19169
 Rules, Single Player NO POW, Hard: http://www.twingalaxies.com/scores.php?scores=90384
 Rules, Two Player, NO POW, Hard: http://www.twingalaxies.com/scores.php?scores=90385
+Rules, [No POW Challenge: MEDIUM]: http://www.twingalaxies.com/scores.php?scores=233312

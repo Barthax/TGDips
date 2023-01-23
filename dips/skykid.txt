@@ -10,6 +10,8 @@ Resolution, 0.106-0.250: 288x224 @ 60.606060Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/sky-kid-new-ver/mame
 Rules, Points: https://www.twingalaxies.com/scores.php?scores=9236
+Rules, Points [Two Player Team]: https://www.twingalaxies.com/scores.php?scores=239261
 
 Service Mode:
 Do not use Service Mode to check settings after playback as it will reflect only the local configuration not the recording.  Service Mode is a non-interactive single-screen.  Service Mode is accessed using the Service button (F2).
+

@@ -1,0 +1,15 @@
+ROM set changed: yes.
+0.106-0.182: omega - "Omega"
+0.183-0.240: omegab - "Omega (bootleg?)"
+
+From MAMEINFO.DAT:
+- 0.183: Changed description of clone 'Omega' to 'Omega (bootleg?)'. Renamed (omega) to (omegab).
+
+Resolution, 0.106-0.113: 256x224 @ 60.606060Hz
+Resolution, 0.114-0.123: 256x224 @ 60.606061Hz
+Resolution, 0.125-0.240: 768x224 @ 60.606061Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/omega/mame
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=233603
+
+NOTE: clone of theend

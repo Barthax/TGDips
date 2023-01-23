@@ -1,8 +1,8 @@
 ROM set changed: yes
 0.106-0.154: centtime - "Centipede (1 player, timed)"
-0.155-0.202: centiped - "Centipede (revision 4)"
+0.155-0.240: centiped - "Centipede (revision 4)"
 
-Resolution, 0.106-0.202: 256x240 @ 60.000000Hz
+Resolution, 0.106-0.240: 256x240 @ 60.000000Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/centipede-1-player-timed/mame/
 Rules, 3 Minutes Time Challenge: http://www.twingalaxies.com/scores.php?scores=21079

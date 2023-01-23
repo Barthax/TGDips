@@ -1,0 +1,13 @@
+ROM set changed: no. Added in 0.109u1.
+0.106-0.109: NOT SUPPORTED
+0.110-0.240: dokidoki - "Doki Doki Penguin Land"
+
+From MAMEINFO.DAT:
+- 0.109u1: Tomasz Slanina and Guru added 'Doki Doki Penguin Land' (Sega 1985).
+
+Resolution, 0.110-0.127: 280x210 @ 60.000000Hz
+Resolution, 0.128-0.143: 280x210 @ 59.922747Hz
+Resolution, 0.144-0.240: 280x216 @ 59.922738Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/doki-doki-penguin-land/mame
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=235521

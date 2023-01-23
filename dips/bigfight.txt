@@ -1,4 +1,5 @@
-ROM set changes: no
+ROM set changes: no. Added in 0.122u4.
+0.106-0.122: NOT SUPPORTED
 0.123-0.250: bigfight - "Big Fight - Big Trouble In The Atlantic Ocean"
 
 From MAMEINFO.DAT:
@@ -13,3 +14,4 @@ Rules, Points [Single Player Only]: https://www.twingalaxies.com/scores.php?scor
 Rules, Points [Two Player Team]: https://www.twingalaxies.com/scores.php?scores=234327
 
 Note: do not check Service Mode after playback as it will only reflect the local settings, not the recorded settings.  Service Mode is entered using the DIP Switch which can be toggled with the Service button (F2) and then requires a reset, thus cannot be recorded.  The MAME UI's representation is reversed by comparion to the I/O Test area.
+

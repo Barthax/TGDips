@@ -1,8 +1,8 @@
 ROM set changed: no
-0.106-0.175: pulirula - "PuLiRuLa (World)"
+0.106-0.239: pulirula - "PuLiRuLa (World)"
 
-Resolution, 0.106-0.175: 320x224 @ 60.000000Hz
+Resolution, 0.106-0.239: 320x224 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=PuLiRuLa%20[World]
+TG Game Entry: https://www.twingalaxies.com/game/pulirula-world/mame
 Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=21356
 Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=21357

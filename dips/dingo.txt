@@ -1,9 +1,10 @@
 ROM set changed: no
-0.106-0.228: dingo - "Dingo"
+0.106-0.240: dingo - "Dingo"
 
 Resolution, 0.106-0.113: 256x224 @ 60.606060Hz
 Resolution, 0.114-0.123: 256x224 @ 60.606061Hz
-Resolution, 0.125-0.228: 768x224 @ 60.606061Hz
+Resolution, 0.125-0.240: 768x224 @ 60.606061Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/dingo/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=10064
+Rules, Points [Easy Difficulty]: http://www.twingalaxies.com/scores.php?scores=237498
