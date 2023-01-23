@@ -1,10 +1,17 @@
 ROM set changed: no
-0.106-0.175: blkheart - "Black Heart"
+0.106-0.250: blkheart - "Black Heart"
+
+MAME History:
+- 0.122u1: David Haywood and Tomasz Slanina fixed Black Heart - Game now playable. Changed VSync to 56Hz.
+- 0.132u3: Corrado Tomaselli verified/changed clocks on Black Heart. Changed 68000 CPU1 clock speed to 8MHz and VSync to 56.18 Hz.
+- 0.133u1: Brian Troha added DIP locations to Black Heart. Renamed (blkhearj) to (blkheartj).
 
 Resolution, 0.106-0.122: 256x224 @ 60.000000Hz
 Resolution, 0.123-0.132: 256x224 @ 56.000000Hz
-Resolution, 0.133-0.175: 256x224 @ 56.180000Hz
+Resolution, 0.133-0.250: 256x224 @ 56.180000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Black%20Heart
-Rules, Points [1 Player Only]: http://www.twingalaxies.com/scores.php?scores=24395
-Rules, Points [2 Player Team]: http://www.twingalaxies.com/scores.php?scores=24396
+TG Game Entry: https://www.twingalaxies.com/game/black-heart/mame/
+Rules, Points [1 Player Only]: https://www.twingalaxies.com/scores.php?scores=24395
+Rules, Points [2 Player Team]: https://www.twingalaxies.com/scores.php?scores=24396
+
+Note: while the game has a DIP switch for Service Mode, have not been able to get it to work - up to MAME 0.250.

@@ -1,7 +1,14 @@
 ROM set changed: no
-0.106-0.205: panic - "Space Panic (version E)"
+0.106-0.250: panic - "Space Panic (version E)"
 
-Resolution, 0.106-0.205: 256x192 @ 60.000000Hz
+MAME History:
+- 0.228: Added raw screen timing parameters based on schematics [AJR]. Changed VSync to 58.639833 Hz.
+
+Resolution, 0.106-0.227: 256x192 @ 60.000000Hz
+Resolution, 0.228-0.250: 256x192 @ 58.639833Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/space-panic-version-e/mame/
-Rules, Points: http://www.twingalaxies.com/scores.php?scores=7817
+Rules, Points: https://www.twingalaxies.com/scores.php?scores=7817
+
+Service Mode:
+No service mode.

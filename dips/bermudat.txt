@@ -1,13 +1,14 @@
 ROM set changed: no
 0.106-0.127: bermudat - "Bermuda Triangle (Japan)"
-0.128-0.204: bermudat - "Bermuda Triangle (World?)"
+0.128-0.250: bermudat - "Bermuda Triangle (World?)"
 
 From MAMEINFO.DAT:
 - 0.127u1: SNK rewrite [Nicola Salmoria]: Fixed sprite-sprite priorities. Removed ROM patches, simulated "turbo front" check, clarified the relationship between the sets, converted to tilemaps, proper memory maps and inputs etc. Changed Z80 CPU2 clock speed to 4MHz and visible area to 224x368. Changed description to 'Bermuda Triangle (World?)' and clone (Japan old version) to 'Bermuda Triangle (Japan)'. Renamed (bermudao) to (bermudaj).
+- 0.129u4: Changed visible area to 224x400.
 
 Resolution, 0.106-0.127: 384x224 @ 60.000000Hz
 Resolution, 0.128-0.129: 368x224 @ 60.000000Hz
-Resolution, 0.130-0.204: 400x224 @ 60.000000Hz
+Resolution, 0.130-0.250: 400x224 @ 60.000000Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/bermuda-triangle-japan/mame/
 Rules, Points [1 Player Only]: http://www.twingalaxies.com/scores.php?scores=10169

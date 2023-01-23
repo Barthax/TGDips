@@ -1,6 +1,16 @@
 ROM set changed: no
-0.106-0.175: tripool - "Tri-Pool (Casino Tech)"
+0.106-0.251: tripool - "Tri-Pool (Casino Tech)"
 
-Resolution, 0.106-0.175: 256x224 @ 60.000000Hz
+MAME History:
+- 0.231: Added raw screen timing parameters based on schematics [AJR]. Changed VSync to 59.185606 Hz.
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Tri-Pool [Casino Tech]
+Resolution, 0.106-0.230: 256x224 @ 60.000000Hz
+Resolution, 0.231-0.251: 256x224 @ 59.185606Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/tri-pool-casino-tech/mame/
+Points [Game A - Pool]: https://www.twingalaxies.com/scores.php?scores=120459
+Points [Game B - Nine-Ball]: https://www.twingalaxies.com/scores.php?scores=120460
+Points [Game C - Snooker]: https://www.twingalaxies.com/scores.php?scores=120461
+
+Service Mode:
+No service mode.

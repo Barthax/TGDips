@@ -1,9 +1,12 @@
 ROM set changed: no
-0.106-0.201: boogwing - "Boogie Wings (Euro v1.5, 92.12.07)"
+0.106-0.250: boogwing - "Boogie Wings (Euro v1.5, 92.12.07)"
+
+MAME History:
+- 0.194: Removed space, offset and mem mask from decocomn_device::priority_r [smf]. Alpha blend/Palette effect improvements. Hooked up DECO 99 "ACE" chip. Updated alpha blending notes. Demoted game with MACHINE_IMPERFECT_GRAPHICS [cam900]. Changed VSync to 57.799650 Hz.
 
 Resolution, 0.106-0.193: 320x240 @ 58.000000Hz
-Resolution, 0.194-0.201: 320x240 @ 57.799650Hz
+Resolution, 0.194-0.250: 320x240 @ 57.799650Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/boogie-wings-euro-v15-921207/mame/
-Rules, Points [1 Player Only]: http://www.twingalaxies.com/scores.php?scores=24371
-Rules, Points [2 Player Team]: http://www.twingalaxies.com/scores.php?scores=24372
+Rules, Points [1 Player Only]: https://www.twingalaxies.com/scores.php?scores=24371
+Rules, Points [2 Player Team]: https://www.twingalaxies.com/scores.php?scores=24372

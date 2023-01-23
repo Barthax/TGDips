@@ -1,8 +1,10 @@
 ROM set changed: no
-0.106-0.201: 1943kai - "1943 Kai: Midway Kaisen (Japan)"
+0.106-0.250: 1943kai - "1943 Kai: Midway Kaisen (Japan)"
 
-Resolution, 0.106-0.201: 256x224 @ 60.000000Hz
+Resolution, 0.106-0.231: 256x224 @ 60.000000Hz
+Resolution, 0.232-0.250: 256x224 @ 59.637405Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/1943-kai-midway-kaisen-japan/mame/
-Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=40875
-Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=40876
+Rules, Points [Single Player Only]: https://www.twingalaxies.com/scores.php?scores=40875
+Rules, Points [Two Player Team]: https://www.twingalaxies.com/scores.php?scores=40876
+Note: Service Mode only accssible with the Service DIP switch enabled and a reboot.  No gameplay-useful information in the Service Mode.

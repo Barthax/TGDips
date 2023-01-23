@@ -1,24 +1,23 @@
 ROM set changed: no
 0.106-0.136: ncv2 - "Namco Classics Collection Vol.2"
-0.136u4-0.208: ncv2 - "Namco Classic Collection Vol.2"
+0.136u4-0.250: ncv2 - "Namco Classic Collection Vol.2"
 
 MAME History:
 - 0.136u4: Heihachi_73 changed description to 'Namco Classic Collection Vol.2'.
 
 Resolution, 0.106-0.187: 288x224 @ 60.000000Hz
-Resolution, 0.188-0.208: 288x224 @ 58.557786Hz
+Resolution, 0.188-0.250: 288x224 @ 58.557786Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/namco-classics-collection-vol-2/mame/
-Rules, Points [Dig Dug - Original]: http://www.twingalaxies.com/scores.php?scores=21459
-Rules, Points [Dig Dug Arrangement] [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=21460
-Rules, Points [Dig Dug Arrangement] [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=78604
-Rules, Points [New Rally-X - Original]: http://www.twingalaxies.com/scores.php?scores=21457
-Rules, Points [Pac-Man - Original]: http://www.twingalaxies.com/scores.php?scores=21454
-Rules, Points [Pac-Man Arrangement] [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=78606
-Rules, Points [Pac-Man Arrangement] [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=78607
-Rules, Points [Rally-X - Original Mode]: http://www.twingalaxies.com/scores.php?scores=21456
-Rules, Points [Rally-X Arrangement]: http://www.twingalaxies.com/scores.php?scores=21458
+Rules, Points [Dig Dug - Original]: https://www.twingalaxies.com/scores.php?scores=21459
+Rules, Points [Dig Dug Arrangement] [Single Player Only]: https://www.twingalaxies.com/scores.php?scores=21460
+Rules, Points [Dig Dug Arrangement] [Two Player Team]: https://www.twingalaxies.com/scores.php?scores=78604
+Rules, Points [New Rally-X - Original]: https://www.twingalaxies.com/scores.php?scores=21457
+Rules, Points [Pac-Man - Original]: https://www.twingalaxies.com/scores.php?scores=21454
+Rules, Points [Pac-Man Arrangement] [Single Player Only]: https://www.twingalaxies.com/scores.php?scores=78606
+Rules, Points [Pac-Man Arrangement] [Two Player Team]: https://www.twingalaxies.com/scores.php?scores=78607
+Rules, Points [Rally-X - Original Mode]: https://www.twingalaxies.com/scores.php?scores=21456
+Rules, Points [Rally-X Arrangement]: https://www.twingalaxies.com/scores.php?scores=21458
 
-NOTES:
-This game has both DIPs & internal settings covered by the rules. Press F2 to access & check internal settings afterwards - button 1 for selection and 1P start for exit.
-There appears to be no way to exit Service Mode and return to the game - checked up to 0.205.
+Service Mode:
+This game has both DIPs & internal settings covered by the rules. Press F2 to access & check internal settings afterwards. Navigation is with P1 Up & Down, P1 Button 1 for selection and P1 Button 2 to exit sub-menus. 1P start for exit but there appears to be no way to exit Service Mode and return to the game - checked up to 0.250.

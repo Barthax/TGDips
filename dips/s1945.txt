@@ -1,11 +1,19 @@
 ROM set changed: no
 0.106-0.127: s1945 - "Strikers 1945"
-0.128-0.195: s1945 - "Strikers 1945 (World)"
+0.128-0.250: s1945 - "Strikers 1945 (World)"
+
+MAME History:
+- 0.149u1: Added dipswitch locations to all sets in the driver. Filled in some unknown dipswitches from Battle K-Road. Moved Region settings into Game Configuration menu. Added a note about the Free Play mode in the Strikers 1945 sets not working [Brian Troha].
 
 Resolution, 0.106-0.113: 320x224 @ 59.299999Hz
 Resolution, 0.114-0.133: 320x224 @ 59.300000Hz
-Resolution, 0.134-0.195: 320x224 @ 59.900000Hz
+Resolution, 0.134-0.218: 320x224 @ 59.900000Hz
+Resolution, 0.219-0.250: 320x224 @ 59.922900Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/strikers-1945/mame/
-Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=20442
-Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=20443
+Rules, Points [Single Player Only]: https://www.twingalaxies.com/scores.php?scores=20442
+Rules, Points [Two Player Team]: https://www.twingalaxies.com/scores.php?scores=20443
+Note: The Country / Region DIP switch was adjusted in 0.149u1 to a Game Configuration item.
+
+Service Mode:
+Do not use Service Mode after playback as it will only reflect local configuration not the recording. Service Mode is accessed via the DIP Switch and this can be toggled with the Service button (F2). Service Mode requires a restart thus cannot be recorded in an INP. Navigation is with P1 Up & Down; P1 Button 1 to enter menu option.

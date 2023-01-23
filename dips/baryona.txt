@@ -1,6 +1,7 @@
 Note: two ROM sets represented here with changeover at 0.159.
 
 MAME History:
+- 0.155: Rockman and Datasat added clone Baryon - Future Assault (set 2). Changed parent description to 'Baryon - Future Assault (set 1)'.
 - 0.159: Swapped Bayron sets. The bayrona set had original SemiCom logo'ed labels and the former bayron set didn't have any labels. Also corrected the rom labels and made the PCB layout to match the bayron set - verified via a pic of the PCB. Renamed (baryon) to (baryona) and (baryona) to (baryon).
 
 
@@ -8,14 +9,14 @@ Baryon - Future Assault (set 2) / (set 1)
 -----------------------------------------
 ROM set changed: YES, baryon & baryona were swapped at 0.159. Added in 0.155. See below for other ROM set, which currently has no active tracks.
 0.155-0.158: baryona - "Baryon - Future Assault (set 2)"
-0.159-0.175: baryon  - "Baryon - Future Assault (set 1)"
+0.159-0.250: baryon  - "Baryon - Future Assault (set 1)"
 
 Resolution, 0.155-0.163: 304x224 @ 57.793000Hz
-Resolution, 0.164-0.175: 308x224 @ 57.793000Hz
+Resolution, 0.164-0.250: 308x224 @ 57.793000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Baryon+-+Future+Assault+(Set+1)
-Rules, Points: http://www.twingalaxies.com/scores.php?scores=200347
-Note: this track created to represent baryon at 0.169.
+TG Game Entry: https://www.twingalaxies.com/game/baryon-future-assault-set-1/mame/
+Rules, Points: https://www.twingalaxies.com/scores.php?scores=200347
+Note: this track created to represent baryon at 0.169 but the rules do not explicitly prevent use of alternative set.
 
 
 Baryon - Future Assault (set 1) / (set 2)
@@ -23,13 +24,10 @@ Baryon - Future Assault (set 1) / (set 2)
 ROM set changed: YES, baryon & baryona were swapped at 0.159. Added in 0.142u4.
 0.143-0.154: baryon  - "Baryon - Future Assault"
 0.155-0.158: baryon  - "Baryon - Future Assault (set 1)"
-0.159-0.175: baryona - "Baryon - Future Assault (set 2)"
-
-MAME History:
-- 0.155: Rockman and Datasat added clone Baryon - Future Assault (set 2). Changed parent description to 'Baryon - Future Assault (set 1)'.
+0.159-0.250: baryona - "Baryon - Future Assault (set 2)"
 
 Resolution, 0.143-0.153: 304x224 @ 58.000000Hz
 Resolution, 0.154-0.163: 304x224 @ 57.793000Hz
-Resolution, 0.164-0.175: 308x224 @ 57.793000Hz
+Resolution, 0.164-0.250: 308x224 @ 57.793000Hz
 
 Rules: [no current tracks]

@@ -1,8 +1,12 @@
 ROM set changed: no
-0.106-0.195: btlecity - "Vs. Battle City"
+0.106-0.250: btlecity - "Vs. Battle City"
 
-Resolution, 0.106-0.195: 256x240 @ 60.000000Hz
+Resolution, 0.106-0.240: 256x240 @ 60.000000Hz
+Resolution, 0.241-0.250: 256x240 @ 60.098476H
+
+MAME History:
+- 0.248: Added earliest hardware variant of 2A03 APU. Fixes number of tanks killed count screen in Vs. Battle City [kmg].
 
 TG Game Entry: https://www.twingalaxies.com/game/vs-battle-city/mame/
-Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=120576
-Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=120577
+Rules, Points [Single Player Only]: https://www.twingalaxies.com/scores.php?scores=120576
+Rules, Points [Two Player Team]: https://www.twingalaxies.com/scores.php?scores=120577

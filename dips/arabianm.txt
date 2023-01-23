@@ -1,13 +1,13 @@
 ROM set changed: no
-0.106-0.204: arabianm - "Arabian Magic (Ver 1.0O 1992/07/06)"
+0.106-0.250: arabianm - "Arabian Magic (Ver 1.0O 1992/07/06)"
 
 Resolution, 0.106-0.113: 320x224 @ 58.970001Hz
-Resolution, 0.114-0.204: 320x224 @ 58.970000Hz
+Resolution, 0.114-0.250: 320x224 @ 58.970000Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/arabian-magic-ver-10o-1992-07-06/mame/
-Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=21470
-Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=21471
-Rules, Points [Three Player Team]: http://www.twingalaxies.com/scores.php?scores=41124
-Rules, Points [Four Player Team]: http://www.twingalaxies.com/scores.php?scores=41125
+Rules, Points [Single Player Only]: https://www.twingalaxies.com/scores.php?scores=21470
+Rules, Points [Two Player Team]: https://www.twingalaxies.com/scores.php?scores=21471
+Rules, Points [Three Player Team]: https://www.twingalaxies.com/scores.php?scores=41124
+Rules, Points [Four Player Team]: https://www.twingalaxies.com/scores.php?scores=41125
 
 NOTE: All relevant rules are covered by internal settings.  If not shown during playback, use F2 to access after playback completed.

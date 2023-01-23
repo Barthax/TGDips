@@ -1,14 +1,15 @@
 ROM set changed: yes
 0.106-0.135: rranger - "Rough Ranger (v2.0)"
 0.136-0.152: rranger - "Rough Ranger (v2.0, unprotected, bootleg?)"
-0.153-0.175: rrangerb - "Rough Ranger (v2.0, bootleg)"
+0.153-0.251: rrangerb - "Rough Ranger (v2.0, bootleg)"
 
 MAME History:
+- 0.135u4: Worked around protection in sranger, srangerw and srangerb [Angelo Salese]. Changed clone Super Ranger (v2.0) to parent and 'Rough Ranger (v2.0)' to clone 'Rough Ranger (v2.0, unprotected, bootleg?)'.
 - 0.153: bodger319, AeroCityMayor, Brian Troha and The Dumping Union added clone Rough Ranger (v2.0). This new dump is an original non patched dump of rom 1. The older unprotected set has now been labeled as a bootleg. Changed description of clone (v2.0, unprotected, bootleg?) to 'Rough Ranger (v2.0, bootleg)'. Renamed (rranger) to (rrangerb).
 
 Resolution, 0.106-0.155: 256x224 @ 60.000000Hz
-Resolution, 0.156-0.175: 256x224 @ 59.100000Hz
+Resolution, 0.156-0.251: 256x224 @ 59.100000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Rough%20Ranger%20[v2.0]
-Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=91268
-Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=91269
+TG Game Entry: https://www.twingalaxies.com/game/rough-ranger-v20/mame/
+Rules, Points [Single Player Only]: https://www.twingalaxies.com/scores.php?scores=91268
+Rules, Points [Two Player Team]: https://www.twingalaxies.com/scores.php?scores=91269

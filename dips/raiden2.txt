@@ -1,16 +1,16 @@
 ROM set changed: no
 0.106-0.138: raiden2 - "Raiden 2 (set 1, US Fabtek)"
 0.139-0.154: raiden2 - "Raiden II (set 1, US Fabtek)"
-0.155-0.211: raiden2 - "Raiden II (US, set 1)"
+0.155-0.250: raiden2 - "Raiden II (US, set 1)"
 
-From MAMEINFO.DAT:
+MAME History:
 - 0.155: Angelo Salese and Olivier Galibert fixed Raiden II - Game now playable. Farzeno added clone Raiden II (US, set 2). THE SHEEP added clone Raiden II (harder, Raiden DX hardware). Icronnya77 added clone Raiden II (easy version, Germany). Added destination base address for sprite DMA, fixes purple laser visibility in Raiden II/DX [Angelo Salese]. Attempted to identify regions / rename sets to fit. Interestingly the 'easy' sets do not show a JAPAN message even when the region is 0x00 (or when the region is 0x04, which is the Korean region on RDX) [David Haywood]. Changed description of clones (set 1, US Fabtek) to 'Raiden II (US, set 1)', (set 2, Hong Kong, Metrotainment) to 'Raiden II (Hong Kong)', (set 3, Japan) to 'Raiden II (Japan)', (set 4, Italy) to 'Raiden II (Italy)', (set 5, Easy Version) to 'Raiden II (easy version, Korea?)', (set 6, Easy Version) to 'Raiden II (easy version, Japan?)', (set 7, US Fabtek, Easy Version) to 'Raiden II (easy version, US set 2)', (set 8, US Fabtek, Easy Version) to 'Raiden II (easy version, US set 1)' and (set 9, The Netherlands) to 'Raiden II (Holland)'. Renamed (raiden2a) to (raiden2hk), (raiden2b) to (raiden2j), (raiden2c) to (raiden2i), (raiden2d) to (raiden2e), (raiden2e) to (raiden2ea), (raiden2f) to (raiden2eu) and (raiden2g) to (raiden2eua).
 
 Resolution, 0.106-0.124: 304x240 @ 60.000000Hz
 Resolution, 0.125-0.133: 344x240 @ 60.000000Hz
 Resolution, 0.134-0.139: 344x240 @ 55.470000Hz
 Resolution, 0.140-0.158: 320x240 @ 55.470000Hz
-Resolution, 0.159-0.211: 320x240 @ 55.407801Hz
+Resolution, 0.159-0.250: 320x240 @ 55.407801Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/raiden-ii/mame/
 Rules, Points: https://www.twingalaxies.com/scores.php?scores=220599

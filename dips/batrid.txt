@@ -2,14 +2,17 @@ Note: this set not represented on TG
 ROM set changed: yes
 0.106-0.129: NOT SUPPORTED
 0.130-0.141: batrid - "Armed Police Batrider (Europe) (Fri Feb 13 1998)"
-0.142-0.203: batrider - "Armed Police Batrider (Europe) (Fri Feb 13 1998)"
+0.142-0.250: batrider - "Armed Police Batrider (Europe) (Fri Feb 13 1998)"
 
 MAME History:
+- 0.141u4: Removed audio\toaplan2.c. Major toaplan2.c updates [Alex Jackson]: [...] Fixed region jumpers and dipswitches in many sets, based on analysis of the program code and strings in the ROMs. [...] Also fixed inconsistent ROM naming between some of the batrider clones.
 - 0.141u4: Alex Jackson fixed inconsistent rom naming between some of the Armed Police Batrider clones. Changed description of clones 'Armed Police Batrider - B Version (Japan) (Fri Feb 13 1998)' to 'Armed Police Batrider (Japan, B version) (Fri Feb 13 1998)', 'Armed Police Batrider - A Version (Japan) (Mon Dec 22 1997)' to 'Armed Police Batrider (Japan, older version) (Mon Dec 22 1997)', 'Armed Police Batrider - A Version (Taiwan) (Mon Dec 22 1997)' to 'Armed Police Batrider (Taiwan) (Mon Dec 22 1997)' and 'Armed Police Batrider (U.S.A.) (Fri Feb 13 1998)' to 'Armed Police Batrider (USA) (Fri Feb 13 1998)'. Renamed (batrid) to (batrider), (batridc) to (batriderc), (batridj) to (batriderj), (batridja) to (batriderja), (batridk) to (batriderk), (batridta) to (batridert) and (batridu) to (batrideru).
 
 Resolution, 0.130-0.151: 320x240 @ 60.000000Hz
-Resolution, 0.152-0.203: 320x240 @ 59.637405Hz
+Resolution, 0.152-0.250: 320x240 @ 59.637405Hz
 
 Rules: [no current tracks]
 
-NOTE: Difficulty & Timer settings Medium were both renamed to Normal at about 0.142.
+NOTES:
+Difficulty & Timer settings Medium were both renamed to Normal in 0.141u4.
+If Service Mode (F1+F2) is entered DURING RECORDING, DIP settings used for the performance can be displayed - this may assist verification. However, doing so AFTER PLAYBACK has ended will only display the viewer's local DIP settings, not those used for the performance.

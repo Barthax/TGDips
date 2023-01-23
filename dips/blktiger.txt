@@ -1,7 +1,14 @@
 ROM set changed: no
-0.106-0.214: blktiger - "Black Tiger"
+0.106-0.250: blktiger - "Black Tiger"
 
-Resolution, 0.106-0.214: 256x224 @ 60.000000Hz
+MAME History:
+- 0.232: Adjust the common screen timings on old Capcom games [O. Galibert, Jose Tejada]. Changed VSync to 59.637405 Hz.
+
+Resolution, 0.106-0.231: 256x224 @ 60.000000Hz
+Resolution, 0.232-0.250: 256x224 @ 59.637405Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/black-tiger/mame/
-Rules, Points: http://www.twingalaxies.com/scores.php?scores=7687
+Rules, Points: https://www.twingalaxies.com/scores.php?scores=7687
+
+Service mode:
+No service mode.

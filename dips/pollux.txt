@@ -1,8 +1,11 @@
 ROM set changed: no
-0.106-0.199: pollux - "Pollux (set 1)"
+0.106-0.250: pollux - "Pollux (set 1)"
 
-Resolution, 0.106-0.199: 384x240 @ 60.000000Hz
+Resolution, 0.106-0.250: 384x240 @ 60.000000Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/pollux-set-1/mame/
 Rules, Points [Single Player Only]: https://www.twingalaxies.com/scores.php?scores=78937
 Rules, Points [Two Player Team]: https://www.twingalaxies.com/scores.php?scores=78938
+
+Service Mode
+Service Mode reflects the local configuration after playback ends, not the recording. Service Mode is accessed by enabling the Service Mode DIP switch or via Service button (9) which toggles the DIP switch with each use. A reset must be used to enter Service Mode and therefore cannot be recorded in an INP.

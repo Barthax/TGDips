@@ -1,9 +1,9 @@
 ROM set changed: no
-0.106-0.201: airbustr - "Air Buster: Trouble Specialty Raid Unit (World)"
+0.106-0.250: airbustr - "Air Buster: Trouble Specialty Raid Unit (World)"
 
 Resolution, 0.106-0.155: 256x224 @ 60.000000Hz
-Resolution, 0.156-0.201: 256x224 @ 57.400000Hz
+Resolution, 0.156-0.250: 256x224 @ 57.400000Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/air-buster-trouble-specialty-raid-unit-world/mame/
-Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=11818
-Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=24401
+Rules, Points [Single Player Only]: https://www.twingalaxies.com/scores.php?scores=11818
+Rules, Points [Two Player Team]: https://www.twingalaxies.com/scores.php?scores=24401

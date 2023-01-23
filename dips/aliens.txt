@@ -1,10 +1,11 @@
 ROM set changed: no
-0.106-0.203: aliens - "Aliens (World set 1)"
+0.106-0.250: aliens - "Aliens (World set 1)"
 
 Resolution, 0.106-0.145: 288x224 @ 60.000000Hz
 Resolution, 0.146-0.164: 288x224 @ 59.170000Hz
-Resolution, 0.165-0.203: 288x224 @ 59.185606Hz
+Resolution, 0.165-0.250: 288x224 @ 59.185606Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/aliens-world-set-1/mame/
 Rules, Points [Single Player Only]: https://www.twingalaxies.com/scores.php?scores=11838
 Rules, Points [Two Player Team]: https://www.twingalaxies.com/scores.php?scores=41118
+Note: Service Mode performs an extension ROM check with checksum.  No settings can be seen or manipulated.

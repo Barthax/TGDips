@@ -1,9 +1,15 @@
 ROM set changed: no
-0.106-0.207: pang - "Pang (World)"
+0.106-0.250: pang - "Pang (World)"
+
+MAME History:
+- 0.133u1: Corrado Tomaselli changed VSync to 57.42 Hz in block, cworld, dokaben, hatena, pang, qsangoku, qtono1 and spang.
 
 Resolution, 0.106-0.133: 384x240 @ 60.000000Hz
-Resolution, 0.134-0.207: 384x240 @ 57.420000Hz
+Resolution, 0.134-0.250: 384x240 @ 57.420000Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/pang-world/mame/
-Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=7782
-Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=78867
+Rules, Points [Single Player Only]: https://www.twingalaxies.com/scores.php?scores=7782
+Rules, Points [Two Player Team]: https://www.twingalaxies.com/scores.php?scores=78867
+
+Service Mode:
+All relevant rules are covered by internal settings.  If not shown during playback, use F2 to access after playback completed.

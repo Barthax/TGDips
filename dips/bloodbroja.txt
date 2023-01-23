@@ -1,12 +1,12 @@
 ROM set changed: yes
 0.106-0.192: bloodbro - "Blood Bros. (set 1)"
-0.193-0.236: bloodbroja - "Blood Bros. (Japan)"
+0.193-0.250: bloodbroja - "Blood Bros. (Japan)"
 
 MAME History:
 - 0.193: Bill D. and The Dumping Union added clone Blood Bros. (US). Osso, Caius and The Dumping Union added clone West Story (bootleg of Blood Bros., set 2). Verified West Story sprite data by converting original mask rom into bootleg format and figuring out what was scrambled from there, it's a very simple but quite stupid bitswap on 2 of the roms. Made a note that one byte actually differs in the bootleg even after this, since it's been verified on 2 bootlegs it could be the original mask rom has a bad byte in it instead, should really be checked [David Haywood]. Changed (set 1) to clone 'Blood Bros. (Japan)', clone (set 3) to parent 'Blood Bros. (World?)', (set 2) to 'Blood Bros. (Japan, rev A)' and (bootleg of Blood Bros.) to 'West Story (bootleg of Blood Bros., set 1)'. Renamed (bloodbro) to (bloodbroja), (bloodbrob) to (bloodbro), (bloodbroa) to (bloodbroj) and (weststry) to (weststory).
 
 Resolution, 0.106-0.133: 256x224 @ 60.000000Hz
-Resolution, 0.134-0.236: 256x224 @ 59.390000Hz
+Resolution, 0.134-0.250: 256x224 @ 59.390000Hz
 
 TG Game Entry: http://www.twingalaxies.com/blood-bros-set-1/mame/
 Rules, Points [1 Player Only]: http://www.twingalaxies.com/scores.php?scores=7691

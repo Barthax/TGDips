@@ -1,14 +1,16 @@
 ROM set changed: yes
 0.106-0.132: tnexspce - "The Next Space"
 0.132u4-0.148: tnextspc - "The Next Space"
-0.149-0.197: tnextspc - "The Next Space (set 1)"
+0.149-0.251: tnextspc - "The Next Space (set 1)"
 
 MAME History:
 - 0.132u4: Team Japump added clone 'The Next Space (Japan)'. Fixed rom names. Renamed (tnexspce) to (tnextspc).
 
 Resolution, 0.106-0.155: 256x224 @ 60.000000Hz
-Resolution, 0.156-0.197: 256x224 @ 60.191409Hz
+Resolution, 0.156-0.214: 256x224 @ 60.191409Hz
+Resolution, 0.215-0.251: 256x224 @ 59.185606Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/the-next-space/mame
 Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=18986
 Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=18987
+Note: Service Mode requires a reset and only repeats the ROM checks that exist at boot up.

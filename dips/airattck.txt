@@ -1,11 +1,16 @@
 ROM set changed:
 0.106-0.113: airattck - "Air Attack"
-0.114-0.201: airattck - "Air Attack (set 1)"
+0.114-0.250: airattck - "Air Attack (set 1)"
 
 Resolution, 0.106-0.122: 256x224 @ 60.000000Hz
 Resolution, 0.123-0.154: 256x224 @ 56.000000Hz
-Resolution, 0.155-0.201: 256x224 @ 56.180000Hz
+Resolution, 0.155-0.250: 256x224 @ 56.180000Hz
+
+MAME History:
+- 0.163: According to the Air Attack manual at: http://www.arcade-museum.com/manuals-videogames/A/Air%20Attack.pdf all unknown dipswitches should be changed to unused [D Go Go Fan]. Changed 'Unknown' dipswitches to 'Unused'.
+- 0.133u1: Brian Troha added DIP locations to Air Attack. Renamed (airattca) to (airattcka).
+- 0.114: Guru added clone Air Attack (set 2). Changed 68000 CPU1 clock speed to 8MHz and OKI6295 sound to 1MHz. Added PROMs ($0, 100 - unknown). Changed parent description to 'Air Attack (set 1)'. Fixed rom names.
 
 TG Game Entry: https://www.twingalaxies.com/game/air-attack/mame/
-Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=24419
-Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=24420
+Rules, Points [Single Player Only]: https://www.twingalaxies.com/scores.php?scores=24419
+Rules, Points [Two Player Team]: https://www.twingalaxies.com/scores.php?scores=24420

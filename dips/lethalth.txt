@@ -1,13 +1,30 @@
 ROM set changed:no
-0.106-0.205: lethalth - "Lethal Thunder (World)"
+0.106-0.250: lethalth - "Lethal Thunder (World)"
 
 From MAMEINFO.DAT:
 - 0.106u3: Added missing 'Bonus Life' dipswitch.
 
-Resolution, 0.106-0.205: 320x240 @ 60.000000Hz
+Resolution, 0.106-0.250: 320x240 @ 60.000000Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/lethal-thunder-world/mame/
-Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=23039
-Rules, Points [2 Player Team]: http://www.twingalaxies.com/scores.php?scores=23040
+Rules, Points [Single Player Only]: https://www.twingalaxies.com/scores.php?scores=23039
+Rules, Points [2 Player Team]: https://www.twingalaxies.com/scores.php?scores=23040
 
-NOTE: 'Bonus Life' was taken from two previously 'Unknown' DIPs, for which the rules require them to be 'Off'. Therefore for compatibility, the correctly translated 'Bonus Life' setting is '700K & 1.5M'.
+NOTE: in version 0.107 two previously 'Unknown' DIPs were identified as the 'Bonus Life' DIP switch.  The 0.106 rules require the Unknown DIPs to be 'Off' and were the default position for these Unused DIP switches.  From 0.107 the correctly translated 'Bonus Life' setting is '700K & 1.5M'.  This is also the default, and should hopefully create little confusion.  Relevant source code (from Dip switch bank 3) below...
+
+Before (0.106)
+PORT_START /* Dip switch bank 3 */
+PORT_DIPNAME( 0x01, 0x01, DEF_STR( Unknown ) )
+PORT_DIPSETTING(    0x01, DEF_STR( Off ) )
+PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+PORT_DIPNAME( 0x02, 0x02, DEF_STR( Unknown ) )
+PORT_DIPSETTING(    0x02, DEF_STR( Off ) )
+PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+
+After (0.107)
+PORT_START /* Dip switch bank 3 */
+PORT_DIPNAME( 0x03, 0x03, DEF_STR( Bonus_Life ) )
+PORT_DIPSETTING(    0x02, "500K & 1M" )
+PORT_DIPSETTING(    0x03, "700K & 1.5M" )
+PORT_DIPSETTING(    0x00, "700K, 1.5M, 3M & 4.5M" )
+PORT_DIPSETTING(    0x01, "1M & 2M" )

@@ -1,11 +1,11 @@
 ROM set changed: yes
 0.106-0.111: 19xx - "19XX: The War Against Destiny (US 951207)"
 0.112-0.214: 19xx - "19XX: The War Against Destiny (USA 951207)"
-0.215-     : 19xxu - "19XX: The War Against Destiny (USA 951207)"
+0.215-0.250: 19xxu - "19XX: The War Against Destiny (USA 951207)"
 
 Resolution, 0.106-0.127: 384x224 @ 59.633333Hz
 Resolution, 0.128-0.152: 384x224 @ 59.629403Hz
-Resolution, 0.153-0.215: 384x224 @ 59.637405Hz
+Resolution, 0.153-0.250: 384x224 @ 59.637405Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/19xx-the-war-against-destiny-us-951207/mame/
 Rules, One Player: http://www.twingalaxies.com/scores.php?scores=19622

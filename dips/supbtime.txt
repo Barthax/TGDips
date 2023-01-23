@@ -1,9 +1,17 @@
 ROM set changed: no
 0.106-0.121: supbtime - "Super Burger Time (World)"
-0.122-0.175: supbtime - "Super Burger Time (World, set 1)"
+0.122-0.250: supbtime - "Super Burger Time (World, set 1)"
 
-Resolution, 0.106-0.175: 320x240 @ 58.000000Hz
+MAME History:
+- 0.191: Luiskiko/jammarcade.net added PAL dumps for Super Burger Time. Dirk Best added DIP locations. Changed MSM6295 sound clock to 1073863 Hz and VSync to 57.799650 Hz. Removed 3rd coin slot. Added 'Cabinet' dipswitch.
+- 0.191: Merged tumblep.cpp with supbtime.cpp driver. Removed includes\supbtime.h, includes\tumblep.h, video\supbtime.cpp and video\tumblep.cpp. Clean up and merge tumblep: Removed duplicate code. Screen raw parameters and XTAL values. Added DIP locations to all games [Dirk Best].
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Super%20Burger%20Time%20[World]
-Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=38237
-Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=110805
+Resolution, 0.106-0.190: 320x240 @ 58.000000Hz
+Resolution, 0.191-0.250: 320x240 @ 57.799650Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/super-burger-time-world/mame/
+Rules, Points [Single Player Only]: https://www.twingalaxies.com/scores.php?scores=38237
+Rules, Points [Two Player Team]: https://www.twingalaxies.com/scores.php?scores=110805
+
+Service Mode:
+No service mode.

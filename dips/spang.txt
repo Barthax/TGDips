@@ -13,4 +13,5 @@ Rules, Points [Tour Mode, Single Player Only]: https://www.twingalaxies.com/scor
 Rules, Points [Tour Mode, Two Player Team]: https://www.twingalaxies.com/scores.php?scores=110823
 Rules, Points [Panic Mode, Two Player Team]: https://www.twingalaxies.com/scores.php?scores=110821
 
-NOTE: All relevant rules are covered by internal settings.  If not shown during playback, use F2 to access after playback completed.
+Service Mode:
+All relevant rules are covered by internal settings.  If not shown during playback, use F2 to access after playback completed.

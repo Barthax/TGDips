@@ -1,11 +1,17 @@
-ROM set changed: no
-0.106-0.175: batmanfr - "Batman Forever (JUE 960507 V1.000)"
+ROM set changed: no; Sega Billboard features were added in 0.214.
+0.106-0.250: batmanfr - "Batman Forever (JUE 960507 V1.000)"
+
+MAME History:
+- 0.214: Added machine\segabill.cpp/h, layout\segabill.lay and layout\segabillv.lay. Emulated the Sega Billboard and hook it up to the STV driver. It's not shown by default. To view it, choose the layout view 'Billboard'. YouTube: https://youtu.be/csuOJBU5rzo [biggestsonicfan, Dirk Best]. Added Z80 (8MHz) CPU5. Added dipswitches 'Test Winner LED P1/2', 'Test 7-Segment P1/2', 'Demo', 'Testmode' and 2x 'Unknown'.
 
 Resolution, 0.106-0.128: 704x513 @ 60.000000Hz
 Resolution, 0.129-0.133: 704x512 @ 60.000000Hz
 Resolution, 0.134-0.142: 320x224 @ 59.828244Hz
-Resolution, 0.143-0.175: 320x224 @ 59.764793Hz
+Resolution, 0.143-0.193: 320x224 @ 59.764793Hz
+Resolution, 0.194-0.250: 352x224 @ 59.764802Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Batman%20Forever%20[JUE%20960507%20v1.000]
-Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=41798
-Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=41799
+TG Game Entry: https://www.twingalaxies.com/game/batman-forever-jue-960507-v1000/mame/
+Rules, Points [Single Player Only]: https://www.twingalaxies.com/scores.php?scores=41798
+Rules, Points [Two Player Team]: https://www.twingalaxies.com/scores.php?scores=41799
+
+Note: standard STV BIOS dual-layer interface.  Service Mode is accessed with the Service button (F2).  Service Mode is navigated with the Test button (9) and selection made with the Service button (F2).  The final Service Mode option is the game cartridge selection which is chosen with the Service Mode navigation.  Entering the cartridge-specific section changes the navigation options to P1 Up and Down.  Selection and alteration is achieved with P1 Start button.  Context-specific navigation instructions are given at the bottom of the screen.

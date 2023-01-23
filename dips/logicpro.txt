@@ -1,7 +1,10 @@
 ROM set changed: no
-0.106-0.211: logicpro - "Logic Pro (Japan)"
+0.106-0.250: logicpro - "Logic Pro (Japan)"
 
-Resolution, 0.106-0.211: 320x224 @ 60.000000Hz
+Resolution, 0.106-0.250: 320x224 @ 60.000000Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/logic-pro-japan/mame
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=75382
+
+Note: no service mode:
+- logicpro, logicpr2: Service mode bugs: logicpro: Pressing f12 does not go into service mode. logicpr2: In sound self test pressing left or right does not change the number of the sound/music to be tested (it has been like this since first emulated in MAME). Also, if following a graphical test sometimes the backgrounds are retained when entering other tests (eg try colour test and follow with coin switch or sound tests). deniamc37b15gre2 Chook. These bugs aren't really bugs: logicpro : Does not have a service mode. logicpr2 : Numbers in sound test cannot be changed. Confirmed on the actual PCB. No combination of dipswitch settings and button presses could bring up a service mode in logicpro or change the sound request numbers in logicpr2. I can confirm that the screen garbage remaining after the color bar test in other test screens *is* a bug and does need fixing for logicpr2. Charles MacDonald (0.122u3).

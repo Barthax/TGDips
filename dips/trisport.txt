@@ -1,6 +1,16 @@
 ROM set changed: no
-0.106-0.175: trisport - "Tri-Sports"
+0.106-0.251: trisport - "Tri-Sports"
 
-Resolution, 0.106-0.175: 512x480 @ 30.000000Hz
+Resolution, 0.106-0.251: 512x480 @ 30.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Tri-Sports
+TG Game Entry: https://www.twingalaxies.com/game/tri-sports/mame/
+Points [Mini-Golf Deluxe]: https://www.twingalaxies.com/scores.php?scores=120462
+Points [Pool Shark - Nine Ball Mode]: https://www.twingalaxies.com/scores.php?scores=120463
+Points [Pool Shark - Rotation Mode]: https://www.twingalaxies.com/scores.php?scores=120464
+Points [Pool Shark - Straight Mode]: https://www.twingalaxies.com/scores.php?scores=120465
+Points [Power Strike - Flash Bowling]: https://www.twingalaxies.com/scores.php?scores=120466
+Points [Power Strike - Regulation Bowling]: https://www.twingalaxies.com/scores.php?scores=120467
+Points [Power Strike - Triple Strike]: https://www.twingalaxies.com/scores.php?scores=120468
+
+Service Mode:
+Service Mode reflects the local configuration after playback ends, not the recording.  Service Mode is accessed with the Service button (F2) but is not a DIP switch itself despite being in the DIP switch portion of the MAME UI.  Navigation is performed with P1 Button 2; selection with P1 Button 1.

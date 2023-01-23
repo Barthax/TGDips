@@ -1,8 +1,14 @@
 ROM set changed: no
 0.106-0.180: momoko - "Momoko 120%"
-0.181-0.183: momoko - "Momoko 120% (Japanese text)"
+0.181-0.250: momoko - "Momoko 120% (Japanese text)"
 
-Resolution, 0.106-0.183: 240x216 @ 60.000000Hz
+MAME History:
+- 0.181: Paul Hogger added clone Momoko 120% (English text). Changed parent description to 'Momoko 120% (Japanese text)'. Fixed rom names.
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Momoko+120%
-Rules, Points: http://www.twingalaxies.com/scores.php?scores=19606
+Resolution, 0.106-0.250: 240x216 @ 60.000000Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/momoko-120/mame/
+Rules, Points: https://www.twingalaxies.com/scores.php?scores=19606
+
+Service Mode:
+No service mode.

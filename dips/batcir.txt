@@ -1,15 +1,15 @@
 ROM set changed: no
-0.106-0.202: batcir - "Battle Circuit (Euro 970319)"
+0.106-0.250: batcir - "Battle Circuit (Euro 970319)"
 
 Resolution, 0.106-0.113: 384x224 @ 59.633331Hz
 Resolution, 0.114-0.127: 384x224 @ 59.633333Hz
 Resolution, 0.128-0.152: 384x224 @ 59.629403Hz
-Resolution, 0.153-0.202: 384x224 @ 59.637405Hz
+Resolution, 0.153-0.250: 384x224 @ 59.637405Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/battle-circuit-euro-970319/mame/
-Rules, Points [1 Player Only]: http://www.twingalaxies.com/scores.php?scores=24320
-Rules, Points [2 Player Team]: http://www.twingalaxies.com/scores.php?scores=24321
-Rules, Points [3 Player Team]: http://www.twingalaxies.com/scores.php?scores=131856
-Rules, Points [4 Player Team]: http://www.twingalaxies.com/scores.php?scores=131859
+Rules, Points [1 Player Only]: https://www.twingalaxies.com/scores.php?scores=24320
+Rules, Points [2 Player Team]: https://www.twingalaxies.com/scores.php?scores=24321
+Rules, Points [3 Player Team]: https://www.twingalaxies.com/scores.php?scores=131856
+Rules, Points [4 Player Team]: https://www.twingalaxies.com/scores.php?scores=131859
 
 NOTE: All relevant rules are covered by internal settings.  If not shown during playback, use F2 to access after playback completed.

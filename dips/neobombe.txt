@@ -1,9 +1,11 @@
 ROM set changed: no
-0.106-0.175: neobombe - "Neo Bomberman"
+0.106-0.250: neobombe - "Neo Bomberman"
 
 Resolution, 0.106-0.113: 320x224 @ 59.185608Hz
-Resolution, 0.114-0.175: 320x224 @ 59.185606Hz
+Resolution, 0.114-0.250: 320x224 @ 59.185606Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Neo%20Bomberman
-Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=15360
-Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=78622
+TG Game Entry: https://www.twingalaxies.com/game/neo-bomberman/mame/
+Rules, Points [Single Player Only]: https://www.twingalaxies.com/scores.php?scores=15360
+Rules, Points [Two Player Team]: https://www.twingalaxies.com/scores.php?scores=78622
+
+NOTE: All relevant rules are covered by internal settings.  If not shown during playback, use F2 to access after playback completed.  Navigation is with P1 Up & Down.  Select menu option with P1 Button 1 and sub-menus can be exited with P1 Button 3.  P1 Button 1 and P1 Button 2 adjust individual configuration options.

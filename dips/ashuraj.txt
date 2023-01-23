@@ -1,12 +1,14 @@
 ROM Set changes: YES
 0.106-0.130: ashura - "Ashura Blaster (Japan)"
-0.131-0.175: ashuraj - "Ashura Blaster (Japan)"
+0.131-0.250: ashuraj - "Ashura Blaster (Japan)"
 
 MAME History:
 - 0.131: Tirino73 added Ashura Blaster (World). Renamed (ashura) to (ashuraj).
 
-Resolution, 0.106-0.175: 320x224 @ 60.000000Hz
+Resolution, 0.106-0.250: 320x224 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Ashura%20Blaster%20[Japan]
-Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=10689
-Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=10690
+TG Game Entry: https://www.twingalaxies.com/game/ashura-blaster-japan/mame/
+Rules, Points [Single Player Only]: https://www.twingalaxies.com/scores.php?scores=10689
+Rules, Points [Two Player Team]: https://www.twingalaxies.com/scores.php?scores=10690
+
+Note: Service Mode is accessed by enabling the Service DIP switch and then reset of the machine, thus this is not possible to capture in an INP file but can be checked after an INP finishes playing.
