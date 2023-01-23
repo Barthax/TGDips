@@ -1,11 +1,33 @@
-ROM set changed: no
-0.106-0.130: puzlstar - "Puzzle Star"
-0.130u3-0.175: puzlstar - "Puzzle Star (ver. 100MG)"
+Note: two ROM sets represented here with changeover at 0.224
 
-MAME History:
+From MAMEINFO.DAT:
 - 0.130u3: Changed description to 'Puzzle Star (ver. 100MG)'.
+- 0.198: Changed description to 'Puzzle Star / Mohuan Xingzuo (ver. 100MG)'.
+- 0.224: GC8TECH.COM and Team FBNeo added Puzzle Star / Mohuan Xingzuo (ver. 100MG, 09/30/99 build). Changed (ver. 100MG) to clone 'Puzzle Star / Mohuan Xingzuo (ver. 100MG, 09/20/99 build)'. Renamed (puzlstar) to (puzlstara).
+
+Puzzle Star / Mohuan Xingzuo (ver. 100MG, 09/20/99 build)
+---------------------------------------------------------
+ROM set changed: yes
+0.106-0.130: puzlstar - "Puzzle Star"
+0.130u3-0.197: puzlstar - "Puzzle Star (ver. 100MG)"
+0.198-0.223: puzlstar - "Puzzle Star / Mohuan Xingzuo (ver. 100MG)"
+0.224-     : puzlstara - "Puzzle Star / Mohuan Xingzuo (ver. 100MG, 09/20/99 build)"
 
 Resolution, 0.106-0.145: 448x224 @ 60.000000Hz
-Resolution, 0.146-0.175: 448x224 @ 59.170000Hz
+Resolution, 0.146-0.211: 448x224 @ 59.170000Hz
+Resolution, 0.212-0.222: 448x224 @ 60.000000Hz
+Resolution, 0.223-0.224: 448x224 @ 59.185606Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Puzzle Star
+TG Game Entry: https://www.twingalaxies.com/game/puzzle-star/mame
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=79020
+
+
+Puzzle Star / Mohuan Xingzuo (ver. 100MG, 09/30/99 build)
+---------------------------------------------------------
+Note: not currently represented on TG.
+ROM set changed: no. Added in 0.224.
+0.224-     : puzlstar - "Puzzle Star / Mohuan Xingzuo (ver. 100MG, 09/30/99 build)"
+
+Resolution, 0.224-     : 448x224 @ 59.185606Hz
+
+Rules: [no current tracks]

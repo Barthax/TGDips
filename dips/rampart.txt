@@ -1,10 +1,9 @@
 ROM set changed: no
-0.106-0.175: rampart - "Rampart (Trackball)"
+0.106-0.198: rampart - "Rampart (Trackball)"
 
 Resolution, 0.106-0.114: 336x240 @ 60.000000Hz
-Resolution, 0.115-0.175: 336x240 @ 59.922743Hz
+Resolution, 0.115-0.198: 336x240 @ 59.922743Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Rampart%20[Trackball]
+TG Game Entry: https://www.twingalaxies.com/game/rampart-trackball/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=91182
 Note: Use Service Mode (F2) to check settings if not shown during playback.  Note: P2 button 1 to select options.
-

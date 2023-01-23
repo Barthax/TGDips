@@ -1,7 +1,13 @@
 ROM set changed: no
-0.106-0.175: battlcry - "Battlecry"
+0.106-0.191: battlcry - "Battlecry"
+0.192-0.209: battlcry - "Battlecry (Version E)"
 
-Resolution, 0.106-0.175: 256x224 @ 59.000000Hz
+From MAMEINFO.DAT:
+- 0.106u3: Added 'Difficulty' and 'Background Music' dipswitches.
+- 0.125u6: Added 'Unknown 2-7' dipswitch.
+- 0.192: ShouTime, progetto-SNAPS, Patrick Wheeler, Sean Sutton, Surgeville, Paul Vining, Marisol Nunez Serrano, Rod_Wod, Jeffrey Gray, John Wilke, gamerfan, Smitdogg and The Dumping Union added clones Battlecry (Version C) and (Prototype). Fixed (Prototype) rom loading, promoted to working status [Osso]. Changed parent description to 'Battlecry (Version E)'.
 
-TG Game Entry: www.twingalaxies.com/scores.php?platformid=46&gamename=Battlecry
+Resolution, 0.106-0.209: 256x224 @ 59.000000Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/battlecry/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=24322

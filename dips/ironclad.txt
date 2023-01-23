@@ -1,0 +1,15 @@
+ROM set changed: no.  Added in 0.143u8.
+0.144-0.172: ironclad - "Choutetsu Brikin'ger - Iron Clad (Prototype)"
+0.173-     : ironclad - "Choutetsu Brikin'ger - Iron clad (prototype)"
+0.174-0.189: ironclad - "Choutetsu Brikin'ger - Iron Clad (prototype)"     (OMG, are we that pedantic about the caps?!)
+
+MAME History:
+- 0.143u8: Added 'Choutetsu Brikin'ger - Iron clad (Prototype)' (Saurus 1996) and clone (Prototype, older
+- 0.144: Changed clone '(Prototype, older)' to parent 'Choutetsu Brikin'ger - Iron clad (Prototype)'. Changed '(Prototype)' to clone 'Choutetsu Brikin'ger - Iron clad (Prototype, bootleg)'. Renamed (ironclad) to (ironclado) and (ironclado) to (ironclad).
+- 0.173: Changed description to 'Choutetsu Brikin'ger - Iron clad (prototype)' and clone (Prototype, bootleg) to 'Choutetsu Brikin'ger - Iron clad (prototype, bootleg)'.
+- 0.174: Changed description to 'Choutetsu Brikin'ger - Iron Clad (prototype)' and clone (prototype, bootleg) to 'Choutetsu Brikin'ger - Iron Clad (prototype, bootleg)'.
+
+Resolution, 0.144-0.189: 320x224 @ 59.185606Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Choutetsu+Brikin%27ger-+Iron+Clad+(prototype)
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=208951

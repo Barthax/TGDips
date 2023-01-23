@@ -1,7 +1,10 @@
 ROM set changed: no
 0.106-0.122: spacefrt - "Space Fortress"
-0.123-0.175: spacefrt - "Space Fortress (CVS)"
+0.123-0.197 spacefrt - "Space Fortress (CVS)"
 
-Resolution, 0.106-0.175: 240x248 @ 60.000000Hz
+Resolution, 0.106-0.197: 240x248 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Space Fortress
+TG Game Entry: https://www.twingalaxies.com/game/space-fortress/mame/
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=10485
+
+NOTE: source/DIPs were changed at 0.124. For WolfMAME versions 0.125 or later, set Bonus Life to "None" - note at coin drop, it will still display that Bonus Rocket is awarded at 200000.

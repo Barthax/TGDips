@@ -1,7 +1,7 @@
 ROM Set changed: yes
 0.106-0.138: 1941 - "1941 - Counter Attack (World)"
 0.139-0.145: 1941 - "1941: Counter Attack (World)"
-0.145u5-0.183: 1941r1 - "1941: Counter Attack (World)"
+0.145u5-0.193: 1941r1 - "1941: Counter Attack (World)"
 
 MAME History:
 - 0.139: Changed description to '1941: Counter Attack (World)' and clone (Japan) to '1941: Counter Attack (Japan)'.
@@ -11,9 +11,9 @@ MAME History:
 Resolution, 0.106-0.126: 384x224 @ 60.000000Hz
 Resolution, 0.127-0.147: 384x224 @ 59.610000Hz
 Resolution, 0.148-0.152: 384x224 @ 59.629403Hz
-Resolution, 0.154-0.183: 384x224 @ 59.637405Hz
+Resolution, 0.154-0.193: 384x224 @ 59.637405Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=1941+-+Counter+Attack+[World]
+TG Game Entry: http://www.twingalaxies.com/1941-counter-attack-world/mame/
 Rules, Single Player: http://www.twingalaxies.com/scores.php?scores=11801
 Rules, Two Player: http://www.twingalaxies.com/scores.php?scores=11877
 Note: do not check DIPs via Service Mode (F2) after playback has finished - they will reflect your local settings only.

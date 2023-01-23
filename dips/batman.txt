@@ -1,9 +1,13 @@
 ROM set changed: no
-0.106-0.175: batman - "Batman"
+0.106-0.197: batman - "Batman"
+
+NOTE: allMAMErenamed.txt erroneously has a rename to "batmantv" at 0.142.
 
 Resolution, 0.106-0.114: 336x240 @ 60.000000Hz
-Resolution, 0.115-0.175: 336x240 @ 59.922743Hz
+Resolution, 0.115-0.197: 336x240 @ 59.922743Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Batman
+TG Game Entry: https://www.twingalaxies.com/game/batman/mame/
 Rules, Points [3 Lives to Start]: http://www.twingalaxies.com/scores.php?scores=11912
 Rules, Points [7 Lives to Start]: http://www.twingalaxies.com/scores.php?scores=16897
+
+NOTE: All relevant rules are covered by internal settings.  If not shown during playback, use F2 to access after playback completed.

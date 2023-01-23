@@ -1,9 +1,9 @@
 ROM set changed: no
 0.106-0.150: funnymou - "Funny Mouse"
-0.151-0.175: funnymou - "Funny Mouse (Japan)"
+0.151-0.198: funnymou - "Funny Mouse (Japan)"
 
 Resolution, 0.106-0.118: 256x224 @ 60.000000Hz
-Resolution, 0.119-0.175: 256x224 @ 60.606061Hz
+Resolution, 0.119-0.198: 256x224 @ 60.606061Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Funny%20Mouse
+TG Game Entry: https://www.twingalaxies.com/game/funny-mouse/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=10829

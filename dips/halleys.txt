@@ -1,8 +1,19 @@
-ROM set changed: no
-0.106-0.175: halleys - "Halley's Comet (US)"
+ROM set changed: yes
+0.106-0.200: halleys - "Halley's Comet (US)"
+0.201-0.211: halleysc - "Halley's Comet (US)"
+
+From MAMEINFO.DAT:
+- 0.128u3: Stephane Humbert fixed dipswitches and added DIP locations for Halley's Comet and clones. Added dipswitches 'Operation Data Recorder', 'Infinite Lives (Cheat)', 'Coin Slots' and 9x 'Unused'.
+- 0.201: Joe Magiera and The Dumping Union added clone Halley's Comet (Japan, prototype). Changed description of clones (Japan, Newer) to 'Halley's Comet (Japan)' and (Japan, Older) to 'Halley's Comet (Japan, rev 1)'. Renamed (halleysc) to (halleyscja), (halleys) to (halleysc), (halleycj) to (halleyscj) and (halley87) to (halleysc87).
 
 Resolution, 0.106-0.136: 256x240 @ 60.000000Hz
-Resolution, 0.137-0.175: 256x240 @ 59.500000Hz
+Resolution, 0.137-0.211: 256x240 @ 59.500000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Halley%27s%20Comet
+TG Game Entry: https://www.twingalaxies.com/game/halleys-comet/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=75021
+
+NOTE: Track compliant settings which are affected by the changes at 0.128u3 are as follows:
+    Difficulty: Hard
+    Bonus Life: 200k/1200k/1000k+
+    Operation Data Recorder: Not fixed
+    Infinite Lives (Cheat): Off

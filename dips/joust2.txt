@@ -1,0 +1,20 @@
+ROM set changed: no
+0.106-0.143: joust2 - "Joust 2 - Survival of the Fittest (set 1)"
+0.144-0.153: joust2 - "Joust 2 - Survival of the Fittest (set 1)"
+0.154-0.213: joust2 - "Joust 2 - Survival of the Fittest (revision 2)"
+
+From MAMEINFO.DAT:
+- 0.143u4: Changed description to 'Joust 2 - Survival of the Fittest'.
+- 0.154: Joe Magiera added clone Joust 2 - Survival of the Fittest (revision 1). Added two video board PROMs to Joust 2 and made ROM names more descriptive [Joe Magiera]. Changed parent description to 'Joust 2 - Survival of the Fittest (revision 2)'.
+
+Resolution, 0.106-0.115: 276x240 @ 60.000000Hz
+Resolution, 0.116-0.213: 276x240 @ 60.096154Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/joust-2-survival-of-the-fittest-set-1/mame
+Rules, Points [Single Player Only, Marathon Settings]: https://www.twingalaxies.com/scores.php?scores=5228
+Rules, Points [Single Player Only, Tournament Settings]: https://www.twingalaxies.com/scores.php?scores=37347
+Rules, Points [Two Player Team, Marathon Settings]: https://www.twingalaxies.com/scores.php?scores=75158
+Rules, Points [Two Player Team, Tournament Settings]: https://www.twingalaxies.com/scores.php?scores=75159
+Rules, Points [Single Player Only, Level 1 Start]: https://www.twingalaxies.com/scores.php?scores=223988
+
+NOTE: All relevant rules are covered by internal settings.  If not shown during playback, use F2 to access after playback completed.

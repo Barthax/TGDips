@@ -1,8 +1,11 @@
 ROM set changed: yes
 0.106-0.137: armedf - "Armed Formation"
-0.138-0.175: armedff - "Armed Formation (Fillmore license)"
+0.138-0.201: armedff - "Armed Formation (Fillmore license)"
 
-Resolution, 0.106-0.175: 320x240 @ 57.000000Hz
+From MAMEINFO.DAT:
+- 0.138: Takahiro Nogi added Armed Formation. Changed 'Armed Formation' to clone 'Armed Formation (Fillmore license)'. Renamed (armedf) to (armedff).
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Armed%20Formation
+Resolution, 0.106-0.201: 320x240 @ 57.000000Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/armed-formation/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=10092

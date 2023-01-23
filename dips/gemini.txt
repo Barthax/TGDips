@@ -1,12 +1,31 @@
-ROM set changed: no
-0.106-0.143: gemini - "Gemini Wing"
-0.144-0.175: gemini - "Gemini Wing (Japan)"
+Note: two ROM sets represented here with changeover at 0.208.
 
 MAME History:
 - 0.143u4: Brian Troha added proper region to Gemini and DIP locations. Changed description to 'Gemini Wing (Japan)'.
+- 0.208: pacman70 added Gemini Wing (World). Renamed (gemini) to (geminij).
 
-Resolution, 0.106-0.175: 256x224 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Gemini%20Wing
+Gemini Wing (Japan)
+-------------------
+ROM set changed: yes
+0.106-0.143: gemini - "Gemini Wing"
+0.144-0.207: gemini - "Gemini Wing (Japan)"
+0.208-0.239: geminij - "Gemini Wing (Japan)"
+
+Resolution, 0.106-0.177: 256x224 @ 60.000000Hz
+Resolution, 0.178-0.239: 256x224 @ 59.185606Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/gemini-wing/mame/
 Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=10148
 Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=10149
+
+
+Gemini Wing (World)
+-------------------
+Not: not currently represented on TG.
+ROM set changed: no.  Added in 0.208.
+0.208-0.239: gemini - "Gemini Wing (World)"
+
+Resolution, 0.208-0.239: 256x224 @ 59.185606Hz
+
+Rules: [no current tracks]

@@ -1,0 +1,141 @@
+# MAME 0.106 source snippet [itech32.c]
+
+GAME( 2000, gt2k,     0,        gt3d,    aama,  aama,     ROT0, "Incredible Technologies", "Golden Tee 2K (v1.00)" , 0) /* PIC 16C54 labeled as ITGF2K */
+
+INPUT_PORTS_START( itech32_base )
+	PORT_START_TAG("P1")	/* 080000 */
+	PORT_BIT( 0x0001, IP_ACTIVE_LOW, IPT_COIN1 )
+	PORT_BIT( 0x0002, IP_ACTIVE_LOW, IPT_START1 )
+	PORT_BIT( 0x0004, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_PLAYER(1)
+	PORT_BIT( 0x0008, IP_ACTIVE_LOW, IPT_BUTTON2 ) PORT_PLAYER(1)
+	PORT_BIT( 0x0010, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_PLAYER(1)
+	PORT_BIT( 0x0020, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_PLAYER(1)
+	PORT_BIT( 0x0040, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_PLAYER(1)
+	PORT_BIT( 0x0080, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_PLAYER(1)
+
+	PORT_START_TAG("P2")	/* 100000 */
+	PORT_BIT( 0x0001, IP_ACTIVE_LOW, IPT_COIN2 )
+	PORT_BIT( 0x0002, IP_ACTIVE_LOW, IPT_START2 )
+	PORT_BIT( 0x0004, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_PLAYER(2)
+	PORT_BIT( 0x0008, IP_ACTIVE_LOW, IPT_BUTTON2 ) PORT_PLAYER(2)
+	PORT_BIT( 0x0010, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_PLAYER(2)
+	PORT_BIT( 0x0020, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_PLAYER(2)
+	PORT_BIT( 0x0040, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_PLAYER(2)
+	PORT_BIT( 0x0080, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_PLAYER(2)
+
+	PORT_START_TAG("P3")	/* 180000 */
+	PORT_BIT( 0x00ff, IP_ACTIVE_HIGH, IPT_UNUSED )
+
+	PORT_START_TAG("P4")	/* 200000 */
+	PORT_BIT( 0x00ff, IP_ACTIVE_LOW, IPT_UNUSED )
+
+	PORT_START_TAG("DIPS")	/* 280000 */
+	PORT_SERVICE_NO_TOGGLE( 0x0001, IP_ACTIVE_LOW )
+	PORT_BIT( 0x0002, IP_ACTIVE_LOW, IPT_SERVICE1 )
+	PORT_BIT( 0x0004, IP_ACTIVE_LOW, IPT_VBLANK )
+	PORT_BIT( 0x0008, IP_ACTIVE_LOW, IPT_SPECIAL )
+	PORT_DIPNAME( 0x0010, 0x0000, "Video Sync" )
+	PORT_DIPSETTING(      0x0000, "-" )
+	PORT_DIPSETTING(      0x0010, "+" )
+	PORT_DIPNAME( 0x0020, 0x0000, DEF_STR( Flip_Screen ))
+	PORT_DIPSETTING(      0x0000, DEF_STR( Off ))
+	PORT_DIPSETTING(      0x0020, DEF_STR( On ))
+	PORT_DIPNAME( 0x0040, 0x0000, DEF_STR( Unknown ))
+	PORT_DIPSETTING(      0x0040, DEF_STR( Off ))
+	PORT_DIPSETTING(      0x0000, DEF_STR( On ))
+	PORT_DIPNAME( 0x0080, 0x0000, DEF_STR( Service_Mode ) )
+	PORT_DIPSETTING(      0x0000, DEF_STR( Off ))
+	PORT_DIPSETTING(      0x0080, DEF_STR( On ))
+
+	PORT_START_TAG("EXTRA")	/* 78000 */
+	PORT_BIT( 0x00ff, IP_ACTIVE_LOW, IPT_UNUSED )
+INPUT_PORTS_END
+
+INPUT_PORTS_START( gt3d )
+	PORT_INCLUDE(itech32_base)
+
+	PORT_MODIFY("P1")
+	PORT_BIT( 0x00f0, IP_ACTIVE_LOW, IPT_UNUSED )
+
+	PORT_MODIFY("P2")
+	PORT_BIT( 0x00f0, IP_ACTIVE_LOW, IPT_UNUSED )
+
+	PORT_MODIFY("P3")
+	PORT_BIT( 0x0001, IP_ACTIVE_LOW, IPT_VOLUME_UP )
+	PORT_BIT( 0x0002, IP_ACTIVE_LOW, IPT_VOLUME_DOWN )
+	PORT_BIT( 0x0004, IP_ACTIVE_LOW, IPT_COIN3 )
+	PORT_BIT( 0x00f8, IP_ACTIVE_LOW, IPT_UNUSED )
+
+	PORT_MODIFY("DIPS")
+	PORT_DIPNAME( 0x0010, 0x0000, DEF_STR( Unknown ))
+	PORT_DIPSETTING(      0x0000, DEF_STR( Off ))
+	PORT_DIPSETTING(      0x0010, DEF_STR( On ))
+	PORT_DIPNAME( 0x0020, 0x0000, "Trackball Orientation" )
+	PORT_DIPSETTING(      0x0000, "Normal Mount" )
+	PORT_DIPSETTING(      0x0020, "45 Degree Angle" )
+	PORT_DIPNAME( 0x0040, 0x0000, DEF_STR( Controls ))
+	PORT_DIPSETTING(      0x0000, "One Trackball" )
+	PORT_DIPSETTING(      0x0040, "Two Trackballs" )
+
+	PORT_START_TAG("TRACKX1")
+    PORT_BIT( 0xff, 0x00, IPT_TRACKBALL_X ) PORT_MINMAX(0,255) PORT_SENSITIVITY(25) PORT_KEYDELTA(32) PORT_REVERSE PORT_PLAYER(1)
+
+	PORT_START_TAG("TRACKY1")
+    PORT_BIT( 0xff, 0x00, IPT_TRACKBALL_Y ) PORT_MINMAX(0,255) PORT_SENSITIVITY(25) PORT_KEYDELTA(32) PORT_PLAYER(1)
+
+	PORT_START_TAG("TRACKX2")
+    PORT_BIT( 0xff, 0x00, IPT_TRACKBALL_X ) PORT_MINMAX(0,255) PORT_SENSITIVITY(25) PORT_KEYDELTA(32) PORT_REVERSE PORT_COCKTAIL PORT_PLAYER(2)
+
+	PORT_START_TAG("TRACKY2")
+    PORT_BIT( 0xff, 0x00, IPT_TRACKBALL_Y ) PORT_MINMAX(0,255) PORT_SENSITIVITY(25) PORT_KEYDELTA(32) PORT_COCKTAIL PORT_PLAYER(2)
+INPUT_PORTS_END
+
+INPUT_PORTS_START( aama )
+	PORT_INCLUDE(gt3d)
+
+	PORT_MODIFY("DIPS")
+	PORT_DIPNAME( 0x0010, 0x0000, "Trackball Orientation" )	/* Determined by actual use / trial & error */
+	PORT_DIPSETTING(      0x0000, "Normal Mount" )			/* The manual says "Always on (defualt)" and "Off -- UNUSED --" */
+	PORT_DIPSETTING(      0x0010, "45 Degree Angle" )
+	PORT_DIPNAME( 0x0020, 0x0000, DEF_STR( Cabinet ))
+	PORT_DIPSETTING(      0x0000, DEF_STR( Upright ))
+	PORT_DIPSETTING(      0x0020, DEF_STR( Cocktail ))		/* Cocktail mode REQUIRES "Controls" to be set to "Two Trackballs" */
+	PORT_DIPNAME( 0x0040, 0x0000, DEF_STR( Controls ))
+	PORT_DIPSETTING(      0x0000, "One Trackball" )
+	PORT_DIPSETTING(      0x0040, "Two Trackballs" )		/* Two Trackballs will work for Upright for "side by side" controls */
+INPUT_PORTS_END
+
+
+Resolution: 384x240 @ 60.000000Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/golden-tee-2k-v100/mame/
+Rules, Coyote Run [Least Amount of Strokes]: https://www.twingalaxies.com/scores.php?scores=70221
+Rules, Coyote Run [Longest Drive]: https://www.twingalaxies.com/scores.php?scores=70224
+Rules, Coyote Run [Longest Putt]: https://www.twingalaxies.com/scores.php?scores=70227
+Rules, Sea Haven [Least Amount of Strokes]: https://www.twingalaxies.com/scores.php?scores=70222
+Rules, Sea Haven [Longest Drive]: https://www.twingalaxies.com/scores.php?scores=70225
+Rules, Sea Haven [Longest Putt]: https://www.twingalaxies.com/scores.php?scores=70228
+Rules, Stone Valley [Least Amount of Strokes]: https://www.twingalaxies.com/scores.php?scores=70223
+Rules, Stone Valley [Longest Drive]: https://www.twingalaxies.com/scores.php?scores=70226
+Rules, Stone Valley [Longest Putt]: https://www.twingalaxies.com/scores.php?scores=70229
+
+NOTE: This game has both DIPs & internal settings covered by the rules. If not shown during playback, press F2 to access & check internal settings afterwards.
+
+ROMSet: GT2K
+Service Mode: Off
+Trackball Orientation: Normal Mount
+Cabinet: Upright
+Controls: One Trackball
+
+Sample correct TG:
+DIPS: offset 0x33, repeat every 0x7C but varies due to analog input, typical initial value 0x0F, 0x0B after VBLANK
+- DIPS: 0x0004 (IPT_VBLANK)
+- DIPS: 0x0080 (Service Mode): 0x0000 (Off)
+- DIPS: 0x0010 (Trackball Orientation): 0x0000 (Normal Mount)
+- DIPS: 0x0020 (Cabinet): 0x0000 (Upright)
+- DIPS: 0x0040 (Controls): 0x0000 (One Trackball)
+
+    30: 00 00 00 0F 00 00 00 FF  00 00 00 00 00 00 00 00
+    A0: 00 00 00 FF 00 00 00 FF  00 00 00 FF 00 00 00 0F
+   110: 00 00 00 00 3E 82 43 E1  00 00 00 FF 00 00 00 FF
+   120: 00 00 00 FF 00 00 00 FF  00 00 00 0B 00 00 00 FF

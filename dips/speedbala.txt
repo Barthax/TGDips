@@ -1,0 +1,13 @@
+ROM set changed: yes
+0.106-0.219: speedbal - "Speed Ball"
+0.220-     : speedbala - "Speed Ball (set 2)"
+
+From MAMEINFO.DAT:
+- 0.155: Brian Troha added DIP locations to Speed Ball.
+- 0.220: Jorge Silva added Speed Ball (set 1). Note: Seems to have a more complete hidden test mode, with a 'hard test' that's not enabled in the alternate Speed Ball rom set. Redump confirmed that rom 4.u48 in (set 1) matches alternate [Osso]. Changed Speed Ball to clone 'Speed Ball (set 2)'. Renamed (speedbal) to (speedbala).
+
+Resolution, 0.106-0.149: 256x224 @ 60.000000Hz
+Resolution, 0.150-0.220: 256x224 @ 56.400000Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/speed-ball/mame/
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=10227

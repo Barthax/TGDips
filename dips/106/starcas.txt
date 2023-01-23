@@ -1,4 +1,6 @@
-# MAME 0.106 source snippet
+# MAME 0.106 source snippet [cinemat.c]
+
+GAME( 1980, starcas,  0,       starcas,  starcas,  starcas,  ORIENTATION_FLIP_Y,   "Cinematronics", "Star Castle (version 3)", GAME_SUPPORTS_SAVE )
 
 INPUT_PORTS_START( starcas )
 	PORT_START_TAG("INPUTS")
@@ -36,9 +38,11 @@ INPUT_PORTS_START( starcas )
 	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_COIN1 )
 INPUT_PORTS_END
 
-Resolution: Vector.
+Resolution: vector @ 38.000000Hz
 
-Rules: http://www.twingalaxies.com/scores.php?scores=110754
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Star+Castle+[version+3]
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=110754
+
 ROMSet: StarCas
 Lives: 3
 Unknown: Off [All]

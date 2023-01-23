@@ -1,26 +1,9 @@
-#MAME Source info from vendetta.c
-#Source/driver version 0.106
+Resolution: 304x224 @ 60.000000Hz
 
+TG Game Entry: https://www.twingalaxies.com/game/vendetta-world-4-players-ver-t/mame/
+Rules, Points [Single Player Only]: https://www.twingalaxies.com/scores.php?scores=21360
+Rules, Points [Two Player Team]: https://www.twingalaxies.com/scores.php?scores=21361
+Rules, Points [Three Player Team]: https://www.twingalaxies.com/scores.php?scores=21362
+Rules, Points [Four Player Team]: https://www.twingalaxies.com/scores.php?scores=21363
 
-#Game Information: (Year, Driver, Parent, Machine, Inputs, Init, Orientation, Manufacturer, Name, Status)
-GAME( 1991, vendetta, 0,        vendetta, vendet4p, vendetta, ROT0, "Konami", "Vendetta (World 4 Players ver. T)", 0 )
-
-
-Resolution: 304x224 @ 60 Hz
-
-
-Settings are adjusted in Service Mode (F2) and will be evident in playback if changed. Settings can also be checked after playback. No DIP analysis or INP dump needed.
-
-
-Rules: http://www.twingalaxies.com/scores.php?scores=21360
-
-
-ROMSet: Vendetta
-
-
-Internal Defaults
------------------
-Player Life: 2 Lives
-Difficulty: Normal
-Video Screen Flip: Normal
-Special Rules: The above are the default internal settings for this title and need not be changed. This is a Single Player ONLY Variation! You may freely choose your character. Continues are NOT allowed!
+NOTE: All relevant rules are covered by internal settings.  If not shown during playback, use F2 to access after playback completed.

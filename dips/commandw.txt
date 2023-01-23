@@ -1,8 +1,8 @@
 ROM set changed: no
 0.106-0.167: commandw - "Command War - Super Special Battle & War Game (Ver 0.0J) (Prototype)"
-0.168-0.175: commandw - "Command War - Super Special Battle & War Game (Ver 0.0J, prototype)" (minor description change)
+0.168-0.232: commandw - "Command War - Super Special Battle & War Game (Ver 0.0J, prototype)"
 
-Resolution, 0.106-0.175: 320x224 @ 58.970000Hz
+Resolution, 0.106-0.232: 320x224 @ 58.970000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Command%20War%20-%20Super%20Special%20Battle%20%26%20War%20Game%20[Ver%200.0J]%20[Prototype]
+TG Game Entry: https://www.twingalaxies.com/game/command-war-super-special-battle-war-game-ver-00j-prototype/mame
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=55691

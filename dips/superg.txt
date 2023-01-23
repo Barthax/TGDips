@@ -1,7 +1,7 @@
 ROM set changed: no
 0.106-0.123: superg - "Super Galaxians"
 0.124u1-0.134: superg - "Super Galaxians (galaxiaj hack)"
-0.135-0.170: superg - "Super Galaxians (galaxiana hack)"
+0.135-0.195: superg - "Super Galaxians (galaxiana hack)"
 
 MAME History:
 - 0.124u1: Changed 'Super GX' from a clone of 'Moon Alien Part 2' to a clone of 'Galaxian (Namco set 1)'. Changed visible area to 224x768 and palettesize to 32 colors. Changed description of clones (Midway) to 'Galaxian (Midway set 1)', (Midway, old rev) to 'Galaxian (Midway set 2)', 'Super Galaxians' to 'Super Galaxians (galaxiaj hack)', 'Galaxian Part X' to 'Galaxian Part X (moonaln hack)', 'Space Invaders Galactica' to 'Space Invaders Galactica (galaxiaj hack)', 'Galaxian Part 4' to 'Galaxian Part 4 (hack)', 'Galaxian Turbo' to 'Galaxian Turbo (superg hack)', 'Swarm (hack of Galaxian)' to 'Swarm (bootleg?)' and 'Star Fighter (bootleg of Galaxian)' to 'Star Fighter'.
@@ -9,6 +9,9 @@ MAME History:
 
 Resolution, 0.106-0.113: 256x224 @ 60.606060Hz
 Resolution, 0.114-0.123: 256x224 @ 60.606061Hz
-Resolution, 0.125-0.170: 768x224 @ 60.606061Hz
+Resolution, 0.125-0.195: 768x224 @ 60.606061Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Super Galaxians
+TG Game Entry: https://www.twingalaxies.com/game/super-galaxians/mame/
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=7865
+
+NOTE: starting lives and bonus life settings are shown during boot up around frame 120

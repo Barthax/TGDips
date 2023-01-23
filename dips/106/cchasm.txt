@@ -1,0 +1,75 @@
+# MAME 0.106 source snippet [cchasm.c]
+
+GAME( 1983, cchasm,  0,      cchasm, cchasm, 0, ROT270, "Cinematronics / GCE", "Cosmic Chasm (set 1)", 0 )
+
+INPUT_PORTS_START( cchasm )
+	PORT_START /* DSW */
+	PORT_DIPNAME( 0x01, 0x01, DEF_STR( Lives ) )
+	PORT_DIPSETTING(    0x01, "3" )
+	PORT_DIPSETTING(    0x00, "5" )
+	PORT_DIPNAME( 0x06, 0x06, DEF_STR( Bonus_Life ) )
+	PORT_DIPSETTING(    0x06, "40000" )
+	PORT_DIPSETTING(    0x04, "60000" )
+	PORT_DIPSETTING(    0x02, "80000" )
+	PORT_DIPSETTING(    0x00, "100000" )
+	PORT_DIPNAME( 0x08, 0x08, DEF_STR( Difficulty ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Easy ) )
+	PORT_DIPSETTING(    0x08, DEF_STR( Hard ) )
+	PORT_DIPNAME( 0x10, 0x10, DEF_STR( Bonus_Life ) )
+	PORT_DIPSETTING(    0x00, "Once" )
+	PORT_DIPSETTING(    0x10, "Every" )
+	PORT_DIPNAME( 0x20, 0x00, DEF_STR( Demo_Sounds ) )
+	PORT_DIPSETTING(    0x20, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x40, 0x40, DEF_STR( Coinage ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( 2C_1C ) )
+	PORT_DIPSETTING(    0x40, DEF_STR( 1C_1C ) )
+	PORT_SERVICE( 0x80, IP_ACTIVE_LOW )
+
+	PORT_START /* IN1 */
+	PORT_BIT( 0xff, 0, IPT_DIAL ) PORT_SENSITIVITY(100) PORT_KEYDELTA(10)
+
+	PORT_START /* IN2 */
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_BUTTON1 )
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_BUTTON2 )
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_BUTTON3 )
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_START1 )
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_START2 )
+
+	PORT_START /* IN3 */
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_COIN1 )
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_COIN2 )
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_COIN3 )
+	PORT_BIT(0x01, IP_ACTIVE_LOW, IPT_OTHER ) PORT_NAME("Test 1") PORT_CODE(KEYCODE_F1)
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_UNUSED ) /* Test 2, not used in cchasm */
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_UNUSED ) /* Test 3, not used in cchasm */
+INPUT_PORTS_END
+
+Resolution: vector @ 40.000000Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/cosmic-chasm-set-1/mame/
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=9944
+
+ROMSet: CChasm
+Lives: 5
+Bonus Life: 40000
+Difficulty: Easy
+Bonus Life: Every
+Service Mode: Off
+
+Sample correct TG:
+DSWA: offset 0x23, repeat every 0x7C but length varies due to analog input, typical value 0xD6
+- DSW: 0x01 (Lives): 0x00 (5)
+- DSW: 0x06 (Bonus_Life): 0x06 (40000)
+- DSW: 0x08 (Difficulty): 0x00 (Easy)
+- DSW: 0x10 (Bonus_Life): 0x10 (Every)
+- DSW: 0x20 (Demo_Sounds): [not relevant]
+- DSW: 0x40 (Coinage): [not relevant]
+- DSW: 0x80 (SERVICE MODE): 0x80 (Off)
+
+    20: 00 00 00 D6 00 00 00 00  00 00 00 FF 00 00 00 77
+    90: 00 00 00 00 00 00 00 00  3E 82 43 E1 00 00 00 D6
+   110: 00 00 00 00 3E 82 43 E1  00 00 00 D6 00 00 00 00

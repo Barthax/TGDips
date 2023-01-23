@@ -1,7 +1,7 @@
 ROM set changed: no
 0.106-0.160: spatter - "Spatter"
 0.161-0.170: spatter - "Spatter (set 1)"
-0.172-0.175: spatter - "Spatter (315-xxxx)"
+0.172-0.200: spatter - "Spatter (315-xxxx)"
 
 MAME History:
 - 0.161: Andrea Palazzetti added clone Spatter (315-5099). Changed parent description to 'Spatter (set 1)'.
@@ -9,6 +9,7 @@ MAME History:
 
 Resolution, 0.106-0.130: 240x224 @ 60.000000Hz
 Resolution, 0.131-0.144: 240x224 @ 60.096154Hz
-Resolution, 0.145-0.175: 479x224 @ 60.096154Hz
+Resolution, 0.145-0.200: 479x224 @ 60.096154Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Spatter
+TG Game Entry: https://www.twingalaxies.com/game/spatter/mame
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=110728

@@ -1,0 +1,11 @@
+ROM set changed: no. Added in 0.145u8. Removed for 0.162 only... not sure why.
+0.145u8-0.161: babypac - "Baby Pac-Man (set 1)"
+0.163-0.190: babypac - "Baby Pac-Man (set 1)"
+
+Resolution, 0.146-0.161: 280x216 @ 59.922738Hz
+Resolution, 0.163-0.190: 280x216 @ 59.922738Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Baby+Pac-Man+[Set+1]
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=201338
+
+NOTE: ROM set "babypac" was supported for 0.142-0.145, but this set was renamed at 0.145u8 and therefore these versions should NOT be used for this track.

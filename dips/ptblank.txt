@@ -1,13 +1,28 @@
 ROM set changed: no
 0.106-0.133: ptblank - "Point Blank"
 0.134-0.165: ptblank - "Point Blank (World, GN2 Rev B)"
-0.166-0.170: ptblank - "Point Blank (World, GN2 Rev B, set 1)"
+0.166-0.214: ptblank - "Point Blank (World, GN2 Rev B, set 1)"
 
 MAME History:
 - 0.133u2: Brian Troha and Dumping Union added clone Gun Bullet (World, GN3 Rev B). Changed parent description to 'Point Blank (World, GN2 Rev B)' and clone 'Gun Bullet (Japan)' to 'Gun Bullet (Japan, GN1)'. Renamed (gunbulet) to (gunbuletj).
+- 0.153: Added default EEPROM.
 - 0.166: Caius, Smitdogg and The Dumping Union added clone 'Point Blank (World, GN2 Rev B, set 2)' (Namco 1994). Changed parent description to 'Point Blank (World, GN2 Rev B, set 1)'.
 
 Resolution, 0.106-0.113: 288x224 @ 59.700001Hz
-Resolution, 0.114-0.170: 288x224 @ 59.700000Hz
+Resolution, 0.114-0.202: 288x224 @ 59.700000Hz
+Resolution, 0.203-0.214: 288x224 @ 59.659091Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Point Blank
+TG Game Entry: https://www.twingalaxies.com/game/point-blank/mame
+Rules, Points [Training Mode]: https://www.twingalaxies.com/scores.php?scores=78923
+Rules, Points [Beginner Mode]: https://www.twingalaxies.com/scores.php?scores=78921
+Rules, Points [Expert Mode]: https://www.twingalaxies.com/scores.php?scores=78922
+Rules, Points [Very Hard Mode]: https://www.twingalaxies.com/scores.php?scores=78924
+
+IMPORTANT NOTES:
+EEPROM added to the required ROMset at 0.153 changed starting lives from 1 to 3! As at 2019-08-25, no Internal Settings have been written into the rule sets for the tracks above, which is a MAJOR oversight!
+Newer tracks below have an explicit rule stating 3 lives...
+
+Rules, (Training Mode): https://www.twingalaxies.com/scores.php?scores=226793
+Rules, (Beginner Mode): https://www.twingalaxies.com/scores.php?scores=226794
+Rules, (Expert Mode): https://www.twingalaxies.com/scores.php?scores=226792
+Rules, (Very Hard Mode): https://www.twingalaxies.com/scores.php?scores=226791

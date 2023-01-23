@@ -8,11 +8,11 @@ Last Duel (US Old Ver.)
 -----------------------
 ROM set changed: yes
 0.106-0.132: lastduel - "Last Duel (US set 1)"
-0.132u4-0.175: lastduelo - "Last Duel (US Old Ver.)"
+0.133-0.228: lastduelo - "Last Duel (US Old Ver.)"
 
-Resolution, 0.106-0.175: 384x240 @ 60.000000Hz
+Resolution, 0.106-0.228: 384x240 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Last%20Duel%20[US%20set%201]
+TG Game Entry: https://www.twingalaxies.com/game/last-duel-us-set-1/mame/
 Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=21035
 Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=75336
 
@@ -21,9 +21,8 @@ Last Duel (US New Ver.)
 -----------------------
 Note: not currently represented on TG.
 ROM set changed: no.  Added in 0.132u4.
-0.132u4-0.175: lastduel - "Last Duel (US New Ver.)"
+0.133-0.228: lastduel - "Last Duel (US New Ver.)"
 
-Resolution, 0.133-0.175: 384x240 @ 60.000000Hz
+Resolution, 0.133-0.228: 384x240 @ 60.000000Hz
 
 Rules: [no current tracks]
-

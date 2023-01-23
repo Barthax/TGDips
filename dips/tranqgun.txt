@@ -2,8 +2,9 @@ ROM set changed: no
 0.106-0.108: tranqgun - "Tranquilizer Gun"
 0.109-0.147: tranqgun - "Tranquillizer Gun"
 0.148-0.172: tranqgun - "Tranquilizer Gun"
-0.173-0.175: tranqgun - "Tranquillizer Gun"
+0.173-0.198: tranqgun - "Tranquillizer Gun"
 
-Resolution, 0.106-0.175: 256x224 @ 60.000000Hz
+Resolution, 0.106-0.198: 256x224 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Tranquilizer Gun
+TG Game Entry: https://www.twingalaxies.com/game/tranquilizer-gun/mame/
+Rules, Points: https://www.twingalaxies.com/scores.php?scores=120456

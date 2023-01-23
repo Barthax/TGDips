@@ -1,0 +1,9 @@
+Resolution: 416x224 @ 60.000000Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/golden-axe-the-revenge-of-death-adder-world/mame/
+Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=21353
+Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=21354
+Rules, Points [Three Player Team]: http://www.twingalaxies.com/scores.php?scores=70024
+Rules, Points [Four Player Team]: http://www.twingalaxies.com/scores.php?scores=70026
+
+NOTE: All relevant rules are covered by internal settings.  If not shown during playback, use F2 to access after playback completed.

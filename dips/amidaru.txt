@@ -7,24 +7,23 @@ Historical, not relevant to current tracking but may provide clarity:
 * 0.007-0.013: amidarus - "Amidar (US version)"
 * 0.014-0.033: amidar - "Amidar (US version)"
 * 0.033b7-0.035: amidar - "Amidar (US)"   (minor description change only)
-* 0.035b8-0.106: amidaru - "Amidar (Stern)"
+* 0.035b8-0.105: amidaru - "Amidar (Stern)"
 ----------
 0.106-0.138: amidaru - "Amidar (Stern)"
-0.138b8-0.181: amidaru - "Amidar (Stern Electronics)"   (minor description change only)
+0.138b8-0.205: amidaru - "Amidar (Stern Electronics)"
 
 MAME History: 
- - 0.138u1: Changed description of clone 'Amidar (Stern)' to 'Amidar (Stern Electronics)'.
- - 0.124u1: Added Discrete sound. Changed visible area to 224x768 and palettesize to 32 colors. Removed 2x 'Unknown' dipswitches.
- - 0.113u2: Changed VSync to 60.606061 Hz.
- - 0.35b8: Changed 'Amidar (US)' to clone '(Stern)' and '(Japan)' to parent 'Amidar'. Renamed (amidar) to (amidaru) and (amidarjp) to (amidar).
- - 0.33b7: Changed description of 'Amidar (US version)' to 'Amidar (US)' and clones 'Amidar (Japanese version)' to 'Amidar (Japan)' and 'Amigo (Amidar US bootleg)' to 'Amigo'.
- - 0.14: Nicola Salmoria renamed (amidar) to (amidarjp) and (amidarus) to (amidar). Since the US version is better, Amidar (Japanese version) has a worse attract mode and does not display the number of jumps left.
  - 0.07: Added Amidar (US version). This version is quite different, it has a better attract mode and displayes the number of jumps left.
+ - 0.14: Nicola Salmoria renamed (amidar) to (amidarjp) and (amidarus) to (amidar). Since the US version is better, Amidar (Japanese version) has a worse attract mode and does not display the number of jumps left.
+ - 0.33b7: Changed description of 'Amidar (US version)' to 'Amidar (US)' and clones 'Amidar (Japanese version)' to 'Amidar (Japan)' and 'Amigo (Amidar US bootleg)' to 'Amigo'.
+ - 0.35b8: Changed 'Amidar (US)' to clone '(Stern)' and '(Japan)' to parent 'Amidar'. Renamed (amidar) to (amidaru) and (amidarjp) to (amidar).
+ - 0.113u2: Changed VSync to 60.606061 Hz.
+ - 0.124u1: Added Discrete sound. Changed visible area to 224x768 and palettesize to 32 colors. Removed 2x 'Unknown' dipswitches.
+ - 0.138u1: Changed description of clone 'Amidar (Stern)' to 'Amidar (Stern Electronics)'.
 
 Resolution, 0.106-0.113: 256x224 @ 60.606060Hz
 Resolution, 0.114-0.124: 256x224 @ 60.606061Hz
-Resolution, 0.125-0.181: 768x224 @ 60.606061Hz
+Resolution, 0.125-0.205: 768x224 @ 60.606061Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Amidar
-(Note that this link also covers the Japanese/Konami set.)
+TG Game Entry: http://www.twingalaxies.com/amidar/mame/     (Note that this link also covers the Japanese/Konami set.)
 Rules, Points [Stern ROMSet]: http://www.twingalaxies.com/scores.php?scores=7673

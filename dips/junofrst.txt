@@ -1,8 +1,10 @@
 ROM set changed: no
-0.106-0.175: junofrst - "Juno First"
+0.106-0.225: junofrst - "Juno First"
 
 Resolution, 0.106-0.143: 256x224 @ 30.000000Hz
-Resolution, 0.144-0.175: 256x224 @ 60.000000Hz
+Resolution, 0.144-0.209: 256x224 @ 60.000000Hz
+Resolution, 0.210-0.225: 768x224 @ 60.606061Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Juno+First
+TG Game Entry: https://www.twingalaxies.com/game/juno-first/mame/
 Rules, Points [Tournament Settings]: http://www.twingalaxies.com/scores.php?scores=9828
+Rules, Points [Marathon]: http://www.twingalaxies.com/scores.php?scores=218377

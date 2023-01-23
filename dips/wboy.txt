@@ -1,14 +1,15 @@
 ROM set changed: no
 0.106-0.113: wboy - "Wonder Boy (set 1, new encryption)"
-0.114-0.179: wboy - "Wonder Boy (set 1, 315-5177)"
+0.114-0.197: wboy - "Wonder Boy (set 1, 315-5177)"
 
 MAME History:
 - 0.113u3: Changed description to 'Wonder Boy (set 1, 315-5177)' and clones (set 1, old encryption) to 'Wonder Boy (set 1, 315-5135)', (set 2) to 'Wonder Boy (set 2, 315-5178)', (set 2 not encrypted) to 'Wonder Boy (set 2, not encrypted)', (set 3) to 'Wonder Boy (set 3, 315-5135)' and (set 4) to 'Wonder Boy (set 4, 315-5162)'.
 
 Resolution, 0.106-0.130: 256x224 @ 60.000000Hz
 Resolution, 0.131-0.144: 256x224 @ 60.096154Hz
-Resolution, 0.145-0.179: 512x224 @ 60.096154Hz
+Resolution, 0.145-0.197: 512x224 @ 60.096154Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Wonder+Boy+%5Bset+1,+new+encryption%5D
+TG Game Entry: http://www.twingalaxies.com/wonder-boy-set-1-new-encryption/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=7899
-Rules, ADeca 2004 - 1 Life Only: http://www.twingalaxies.com/scores.php?scores=9864  [This variation was created for the ADeca2004 Competition. Submissions for this variation are CLOSED!]
+Rules, ADeca 2004 - 1 Life Only: http://www.twingalaxies.com/scores.php?scores=9864
+Rules, Points - Easy Setting: http://www.twingalaxies.com/scores.php?scores=213525

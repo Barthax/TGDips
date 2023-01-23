@@ -1,10 +1,10 @@
 ROM set changed: no
 0.106-0.147: aerofgt - "Aero Fighters"
-0.148-0.175: aerofgt - "Aero Fighters (World / USA + Canada / Korea / Hong Kong / Taiwan) (newer hardware)" (minor description change)
+0.148-0.201: aerofgt - "Aero Fighters (World / USA + Canada / Korea / Hong Kong / Taiwan) (newer hardware)"
 
 Resolution, 0.106-0.135: 320x224 @ 60.000000Hz
-Resolution, 0.136-0.175: 320x224 @ 61.310000Hz
+Resolution, 0.136-0.201: 320x224 @ 61.310000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Aero+Fighters
+TG Game Entry: https://www.twingalaxies.com/game/aero-fighters/mame/
 Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=19192
 Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=19193

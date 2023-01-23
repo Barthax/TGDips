@@ -1,11 +1,11 @@
 ROM set changed: no
 0.106-0.151: vsgradus - "Vs. Gradius"
-0.152-0.175: vsgradus - "Vs. Gradius (US, set GR E)"
+0.152-0.199: vsgradus - "Vs. Gradius (US, set GR E)"
 
 MAME History:
 - 0.152: Fixed rom names. Changed description to 'Vs. Gradius (US, set GR E)'.
 
-Resolution, 0.106-0.175: 256x240 @ 60.000000Hz
+Resolution, 0.106-0.199: 256x240 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Vs.+Gradius
+TG Game Entry: https://www.twingalaxies.com/game/vs-gradius/mame/
 Rules, Points [Tournament Settings]: http://www.twingalaxies.com/scores.php?scores=120580

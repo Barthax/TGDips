@@ -1,12 +1,12 @@
 ROM set changed: yes
 0.106-0.143: exvania - "Exvania (Japan)"
-0.143u6-0.175: exvaniaj - "Exvania (Japan)"
+0.143u6-0.201: exvaniaj - "Exvania (Japan)"
 
-MAME History:
+From MAMEINFO.DAT:
 - 0.143u6: Tormod and The Dumping Union added Exvania (World). Renamed (exvania) to (exvaniaj).
 
-Resolution, 0.106-0.175: 288x224 @ 60.000000Hz
+Resolution, 0.106-0.194: 288x224 @ 60.000000Hz
+Resolution, 0.195-0.201: 304x224 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Exvania%20[Japan]
+TG Game Entry: https://www.twingalaxies.com/game/exvania-japan/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=55986
-

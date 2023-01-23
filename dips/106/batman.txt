@@ -1,0 +1,7 @@
+Resolution: 336x240 @ 60.000000Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/batman/mame/
+Rules, Points [3 Lives to Start]: http://www.twingalaxies.com/scores.php?scores=11912
+Rules, Points [7 Lives to Start]: http://www.twingalaxies.com/scores.php?scores=16897
+
+NOTE: All relevant rules are covered by internal settings.  If not shown during playback, use F2 to access after playback completed.

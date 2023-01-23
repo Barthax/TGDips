@@ -1,10 +1,10 @@
 ROM set changed: no
 0.106-0.128: bbusters - "Beast Busters (World ?)"
-0.129-0.175: bbusters - "Beast Busters (World)" (very minor description change)
+0.129-0.213: bbusters - "Beast Busters (World)"
 
-Resolution, 0.106-0.175: 256x224 @ 60.000000Hz
+Resolution, 0.106-0.213: 256x224 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Beast%20Busters%20[World%20?]
+TG Game Entry: https://www.twingalaxies.com/game/beast-busters-world-/mame/
 Rules, Points [1 Player Only]: http://www.twingalaxies.com/scores.php?scores=11924
 Rules, Points [2 Player Team]: http://www.twingalaxies.com/scores.php?scores=11925
-Rules, Points [3 Player Team]: http://www.twingalaxies.com/scores.php?scores=11926
+Rules, Points [3 Player Team]: http://www.twingalaxies.com/scores.php?scores=11926   - incorrectly labeled "3 Lives To Start"

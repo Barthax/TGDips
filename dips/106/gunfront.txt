@@ -1,0 +1,127 @@
+# MAME 0.106 source snippet [taito_f2.c]
+
+GAME( 1990, gunfront, 0,        gunfront, gunfront, 0,        ROT270, "Taito Corporation Japan", "Gun & Frontier (World)", 0 )
+
+#define TAITO_COINAGE_WORLD_8 \
+	PORT_DIPNAME( 0x30, 0x30, DEF_STR( Coin_A ) ) \
+	PORT_DIPSETTING(    0x00, DEF_STR( 4C_1C ) ) \
+	PORT_DIPSETTING(    0x10, DEF_STR( 3C_1C ) ) \
+	PORT_DIPSETTING(    0x20, DEF_STR( 2C_1C ) ) \
+	PORT_DIPSETTING(    0x30, DEF_STR( 1C_1C ) ) \
+	PORT_DIPNAME( 0xc0, 0xc0, DEF_STR( Coin_B ) ) \
+	PORT_DIPSETTING(    0xc0, DEF_STR( 1C_2C ) ) \
+	PORT_DIPSETTING(    0x80, DEF_STR( 1C_3C ) ) \
+	PORT_DIPSETTING(    0x40, DEF_STR( 1C_4C ) ) \
+	PORT_DIPSETTING(    0x00, DEF_STR( 1C_6C ) )
+
+#define TAITO_DIFFICULTY_8 \
+	PORT_DIPNAME( 0x03, 0x03, DEF_STR( Difficulty ) ) \
+	PORT_DIPSETTING(    0x02, DEF_STR( Easy ) ) \
+	PORT_DIPSETTING(    0x03, DEF_STR( Medium ) ) \
+	PORT_DIPSETTING(    0x01, DEF_STR( Hard ) ) \
+	PORT_DIPSETTING(    0x00, DEF_STR( Hardest ) )
+
+#define TAITO_F2_PLAYERS_INPUT( player ) \
+	PORT_START \
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_PLAYER(player) PORT_8WAY \
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_PLAYER(player) PORT_8WAY \
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_PLAYER(player) PORT_8WAY \
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_PLAYER(player) PORT_8WAY \
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_PLAYER(player) \
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_BUTTON2 ) PORT_PLAYER(player)
+/* 0x40 and 0x80 are not always the same in all games, so they are not included here */
+
+#define TAITO_F2_SYSTEM_INPUT \
+	PORT_START \
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_TILT ) \
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_SERVICE1 ) \
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_COIN1 ) \
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_COIN2 )
+/* The other bits vary from one game to another, so they are not included here */
+
+
+	INPUT_PORTS_START( gunfront )
+	PORT_START_TAG("DSWA")
+	PORT_DIPNAME( 0x01, 0x01, DEF_STR( Unknown ) )
+	PORT_DIPSETTING(    0x01, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x02, 0x02, DEF_STR( Flip_Screen ) )
+	PORT_DIPSETTING(    0x02, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_SERVICE( 0x04, IP_ACTIVE_LOW )
+	PORT_DIPNAME( 0x08, 0x08, DEF_STR( Demo_Sounds ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x08, DEF_STR( On ) )
+	TAITO_COINAGE_WORLD_8
+
+	PORT_START_TAG("DSWB")
+	TAITO_DIFFICULTY_8
+	PORT_DIPNAME( 0x0c, 0x0c, DEF_STR( Bonus_Life ) )
+	PORT_DIPSETTING(    0x08, "10k and every 80k" )
+	PORT_DIPSETTING(    0x0c, "20k and every 80k" )
+	PORT_DIPSETTING(    0x04, "30k and every 80k" )
+	PORT_DIPSETTING(    0x00, "60k and every 80k" )
+	PORT_DIPNAME( 0x30, 0x30, DEF_STR( Lives ) )
+	PORT_DIPSETTING(    0x20, "1" )
+	PORT_DIPSETTING(    0x10, "2" )
+	PORT_DIPSETTING(    0x30, "3" )
+	PORT_DIPSETTING(    0x00, "5" )
+	PORT_DIPNAME( 0x40, 0x40, DEF_STR( Allow_Continue ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x40, DEF_STR( On ) )
+	PORT_DIPNAME( 0x80, 0x80, "Upright Controls" ) /* ie single or two players at once */
+	PORT_DIPSETTING(    0x00, DEF_STR( Single ) )
+	PORT_DIPSETTING(    0x80, DEF_STR( Dual ) )
+
+	/* IN0 */
+	TAITO_F2_PLAYERS_INPUT( 1 )
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_START1 )
+
+	/* IN1 */
+	TAITO_F2_PLAYERS_INPUT( 2 )
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_START2 )
+
+	/* IN2 */
+	TAITO_F2_SYSTEM_INPUT
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_UNKNOWN )
+INPUT_PORTS_END
+
+Resolution: 320x224 @ 60.000000Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/gun-frontier-world/mame/
+Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=70589
+Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=70590
+
+ROMSet: GunFront
+Unknown: Off
+Flip Screen: Off
+Difficulty: Medium
+Bonus Life: 20K and every 80K
+Lives: 3
+Allow Continue: Off
+Upright Controls: Single
+
+Sample correct TG:
+DSWA: offset 0x23, repeat every 0x7C, typical value 0xFF
+- DSWA: 0x01 (Unknown): 0x01 (Off)
+- DSWA: 0x02 (Flip_Screen): 0x02 (Off)
+- DSWA: 0x04 (SERVICE MODE): [not relevant]
+- DSWA: 0x08 (Demo_Sounds): [not relevant]
+- DSWA: 0x30 (Coin_A): [not relevant]
+- DSWA: 0xc0 (Coin_B): [not relevant]
+DSWB: offset 0x27, repeat every 0x7C, typical value 0x3F
+- DSWB: 0x03 (Difficulty): 0x03 (Medium)
+- DSWB: 0x0c (Bonus_Life): 0x0c (20k and every 80k)
+- DSWB: 0x30 (Lives): 0x30 (3)
+- DSWB: 0x40 (Allow_Continue): 0x00 (Off)
+- DSWB: 0x80 (Upright Controls): 0x00 (Single)
+
+    20: 00 00 00 FF 00 00 00 3F  00 00 00 FF 00 00 00 FF
+    90: 00 00 00 00 00 00 00 00  3E 82 43 E1 00 00 00 FF
+    A0: 00 00 00 3F 00 00 00 FF  00 00 00 FF 00 00 00 FF
+   110: 00 00 00 00 3E 82 43 E1  00 00 00 FF 00 00 00 3F

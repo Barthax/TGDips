@@ -1,9 +1,12 @@
 ROM set changed: no
-0.106-0.175: phozon - "Phozon (Japan)"
+0.106-0.196: phozon - "Phozon (Japan)"
 
 Resolution, 0.106-0.115: 288x224 @ 60.606060Hz
-Resolution, 0.116-0.175: 288x224 @ 60.606061Hz
+Resolution, 0.116-0.196: 288x224 @ 60.606061Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Phozon%20[Japan]
+TG Game Entry: https://www.twingalaxies.com/game/phozon-japan/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=7786
-Note: the dips settings are shown (very briefly) during boot up starting around frame 627.  Any changes to the dips after this point will not affect the game.
+
+NOTES:
+DIPs are shown by the game (very briefly) during boot up starting around frame 635.  Any changes to the DIP settings after this will not take effect.
+NOTE: Since 0.173, the conditional DIPs feature of this game affects WolfMAME's inpview. Verify settings with caution! ["Lives" affects "Bonus_Life"]

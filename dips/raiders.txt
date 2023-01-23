@@ -1,8 +1,9 @@
 ROM set changed: no
-0.106-0.175: raiders - "Raiders"
+0.106-0.197: raiders - "Raiders"
 
-Resolution, 0.106-0.175: 240x248 @ 60.000000Hz
+Resolution, 0.106-0.197: 240x248 @ 60.000000Hz
 
+TG Game Entry: https://www.twingalaxies.com/game/raiders/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=91172
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Raiders
+NOTE: source/DIPs were changed at 0.124, "Bonus Life" DIP was removed as it is always awarded at 100k, "Lives" DIP was removed as it is always set to 4.

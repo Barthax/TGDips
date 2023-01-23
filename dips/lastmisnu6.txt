@@ -1,0 +1,13 @@
+ROM set changed: yes
+0.106-0.197: lastmisn - "Last Mission (US revision 6)"
+0.198-     : lastmisnu6 - "Last Mission (US revision 6)"
+
+MAME History:
+- 0.198: caius and The Dumping Union added Last Mission (World revision 8). Renamed (lastmisn) to (lastmisnu6) and (lastmisno) to (lastmisnu5).
+
+Resolution, 0.106-0.147: 256x240 @ 58.000000Hz
+Resolution, 0.148-0.155: 256x240 @ 57.392103Hz
+Resolution, 0.156-0.198: 256x240 @ 57.444853Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/last-mission-us-revision-6/mame/
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=75338

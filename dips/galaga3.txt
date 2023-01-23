@@ -8,11 +8,11 @@ Galaga 3 (GP3 rev. C)
 ---------------------
 ROM set changed: yes
 0.106-0.148: galaga3 - "Galaga 3 (rev. C)"
-0.148u3-0.181: galaga3a - "Galaga 3 (GP3 rev. C)"
+0.149-0.229: galaga3a - "Galaga 3 (GP3 rev. C)"
 
-Resolution, 0.106-0.181: 288x224 @ 60.606060Hz
+Resolution, 0.106-0.229: 288x224 @ 60.606060Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Galaga+3+[rev.C]
+TG Game Entry: https://www.twingalaxies.com/game/galaga-3-revc/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=7735
 
 
@@ -21,9 +21,8 @@ Gaplus (rev. D) / Galaga 3 (GP3 rev. D)
 Note: not currently represented on TG.
 ROM set changed: yes.  Added in 0.62.
 0.106-0.148: gaplus - "Gaplus (rev. D)"
-0.148u3-0.181: galaga3 - "Galaga 3 (GP3 rev. D)"
+0.149-0.229: galaga3 - "Galaga 3 (GP3 rev. D)"
 
-Resolution, 0.149-0.181: 288x224 @ 60.606060Hz
+Resolution, 0.106-0.229: 288x224 @ 60.606060Hz
 
 Rules: [no current tracks]
-

@@ -1,14 +1,16 @@
 ROM set changed: yes
 0.106-0.127: tnzsj - "The NewZealand Story (Japan)"
 0.128: tnzsj - "The NewZealand Story (Japan) (older PCB)"
-0.128u1-0.175: tnzsjo - "The NewZealand Story (Japan, old version) (older PCB)"
+0.128u1-0.189: tnzsjo - "The NewZealand Story (Japan, old version) (older PCB)"
+0.190-0.194: tnzsjo - "The NewZealand Story (Japan, old version) (P0-041A PCB)"
 
 MAME History:
 - 0.127u3: Tirino73 added clone The NewZealand Story (Japan) (newer PCB). Fixed rom names. Changed parent description to 'The NewZealand Story (World, newer) (newer PCB)' and clones (Japan) to 'The NewZealand Story (Japan) (older PCB)' and (World, older) to 'The NewZealand Story (World, older) (older PCB)'.
 - 0.128u1: Stephane Humbert changed parent description to 'The NewZealand Story (World, new version) (newer PCB)' and clones '(Japan) (newer PCB)' to 'The NewZealand Story (Japan, new version) (newer PCB)', '(Japan) (older PCB)' to 'The NewZealand Story (Japan, old version) (older PCB)' and '(World, older) (older PCB)' to 'The NewZealand Story (World, prototype?) (older PCB)'. Changed 'Unknown' dipswitch to 'Unused'. Renamed (tnzsj) to (tnzsjo) and (tnzsjn) to (tnzsj).
+- 0.190: Changed description to 'The NewZealand Story (World, new version) (P0-043A PCB)' and clones (Japan, new version) (newer PCB) to 'The NewZealand Story (Japan, new version) (P0-043A PCB)', (Japan, old version) (older PCB) to 'The NewZealand Story (Japan, old version) (P0-041A PCB)', (US, old version) (older PCB) to 'The NewZealand Story (US, old version) (P0-041A PCB)', (World, old version) (older PCB) to 'The NewZealand Story (World, old version) (P0-041A PCB)', (World, prototype) (older PCB) to 'The NewZealand Story (World, prototype) (P0-041-1 PCB)' and (World, unknown version) (older PCB) to 'The NewZealand Story (World, unknown version) (P0-041A PCB)'.
 
 Resolution, 0.106-0.133: 256x224 @ 60.000000Hz
-Resolution, 0.134-0.175: 256x224 @ 59.150000Hz
+Resolution, 0.134-0.194: 256x224 @ 59.150000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=The NewZealand Story [Japan]
-
+TG Game Entry: http://www.twingalaxies.com/the-newzealand-story-japan/mame
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=120401

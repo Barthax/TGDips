@@ -1,7 +1,9 @@
 ROM set changed: no
 0.106-0.123: skykid - "Sky Kid (New Ver.)"
-0.125-0.175: skykid - "Sky Kid (new version)"
+0.125-0.240: skykid - "Sky Kid (new version)"
 
-Resolution, 0.106-0.175: 288x224 @ 60.606060Hz
+Resolution, 0.106-0.240: 288x224 @ 60.606060Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Sky Kid [New Ver.]
+TG Game Entry: https://www.twingalaxies.com/game/sky-kid-new-ver/mame
+Rules, Points: https://www.twingalaxies.com/scores.php?scores=9236
+Rules, Points [Two Player Team]: https://www.twingalaxies.com/scores.php?scores=239261

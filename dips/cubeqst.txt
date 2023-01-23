@@ -1,0 +1,14 @@
+ROM set changed: no
+0.127-0.136: cubeqst - "Cube Quest"
+0.137-0.225: cubeqst - "Cube Quest (01/04/84)"
+
+From MAMEINFO.DAT:
+- 0.136u2: Bill K added clone Cube Quest (12/30/83). Changed parent description to 'Cube Quest (01/04/84)'.
+
+Resolution, 0.127-0.143: 704x480 @ 59.940052Hz
+Resolution, 0.144-0.225: 704x480 @ 59.940057Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/cube-quest/mame
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=227319
+
+NOTE: All relevant rules are covered by internal settings.  If not shown during playback, use F2 to access after playback completed.

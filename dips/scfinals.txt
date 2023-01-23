@@ -1,29 +1,31 @@
-Note: two ROM sets represented here with changeover at 0.148.
+Note: two ROM sets represented here with changeover at 0.148
 
 MAME History:
 - 0.148: dlfrsilver and The Dumping Union added Super Cup Finals (Ver 2.2O 1994/01/13). Renamed (scfinals) to (scfinalso).
+- 0.227: nnap added clone Super Cup Finals (Ver 2.1O 1993/11/19, single PCB). Changed parent description to 'Super Cup Finals (Ver 2.2O 1994/01/13, single PCB)' and clone (Ver 2.1O 1993/11/19) to 'Super Cup Finals (Ver 2.1O 1993/11/19, F3 Cartridge)'. Renamed (scfinalso) to (scfinalsoc).
 
 
-Super Cup Finals (Ver 2.1O 1993/11/19)
---------------------------------------
+Super Cup Finals (Ver 2.1O 1993/11/19, F3 Cartridge)
+----------------------------------------------------
 ROM set changed: yes
 0.106-0.147: scfinals - "Super Cup Finals (Ver 2.1O 1993/11/19)"
-0.148-0.175: scfinalso - "Super Cup Finals (Ver 2.1O 1993/11/19)"
+0.148-0.226: scfinalso - "Super Cup Finals (Ver 2.1O 1993/11/19)"
+0.227-     : scfinalsoc - "Super Cup Finals (Ver 2.1O 1993/11/19, F3 Cartridge)"
 
 Resolution, 0.106-0.113: 320x224 @ 58.970001Hz
-Resolution, 0.114-0.175scfin: 320x224 @ 58.970000Hz
+Resolution, 0.114-0.227: 320x224 @ 58.970000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Super%20Cup%20Finals%20[Ver%202.1O%201993/11/19]
+TG Game Entry: https://www.twingalaxies.com/game/super-cup-finals-ver-21o-19931119/mame/
 Rules, Biggest Blowout: http://www.twingalaxies.com/scores.php?scores=110807
 
 
-Super Cup Finals (Ver 2.2O 1994/01/13)
---------------------------------------
+Super Cup Finals (Ver 2.2O 1994/01/13, single PCB)
+--------------------------------------------------
 Note: not currently represented on TG.
 ROM set changed: no.  Added in 0.148.
-0.148-0.176: scfinals - "Super Cup Finals (Ver 2.2O 1994/01/13)"
+0.148-0.226: scfinals - "Super Cup Finals (Ver 2.2O 1994/01/13)"
+0.227-     : scfinals - "Super Cup Finals (Ver 2.2O 1994/01/13, single PCB)"
 
-Resolution, 0.148-0.176: 320x224 @ 58.970000Hz
+Resolution, 0.148-0.227: 320x224 @ 58.970000Hz
 
 Rules: [no current tracks]
-

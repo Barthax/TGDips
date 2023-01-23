@@ -1,15 +1,17 @@
 ROM set changed: yes
 0.106-0.140: suprmrio - "Vs. Super Mario Bros."
 0.141-0.146: suprmrio - "Vs. Super Mario Bros. (set ?)"
-0.146u1-0.147: suprmrioa - "Vs. Super Mario Bros. (set ?)"
-0.147u2-0.175: suprmrioa - "Vs. Super Mario Bros. (set ?, harder)"
+0.147      : suprmrioa - "Vs. Super Mario Bros. (set ?)"
+0.148-0.239: suprmrioa - "Vs. Super Mario Bros. (set ?, harder)"
 
 MAME History:
 - 0.146u1: Changed clone (set E) to parent 'Vs. Super Mario Bros. (set SM4-4 E)'. Renamed (suprmrio) to (suprmrioa) and (suprmrioa) to (suprmrio).
 - 0.147u2: Stephane Humbert changed description of clone (set ?) to 'Vs. Super Mario Bros. (set ?, harder)'. Note: 2 bytes affect timer speed, making game harder.
 
-Resolution, 0.106-0.175: 256x240 @ 60.000000Hz
+Resolution, 0.106-0.239: 256x240 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Vs.%20Super%20Mario%20Bros.
+TG Game Entry: http://www.twingalaxies.com/vs-super-mario-bros/mame/
 Rules, Points [1 Life]: http://www.twingalaxies.com/scores.php?scores=132430
 Rules, Points [Tournament Settings]: http://www.twingalaxies.com/scores.php?scores=38238
+
+NOTE: Difficulty settings Normal/Fast were renamed to Slow/Fast at about 0.138

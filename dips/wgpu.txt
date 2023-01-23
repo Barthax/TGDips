@@ -1,0 +1,11 @@
+ROM set changed: yes
+0.106-0.175: wgp - "World Grand Prix (US)"
+0.201-     : wgpu - "World Grand Prix (US)"
+
+From MAMEINFO.DAT:
+- 0.201: Hammy and The Dumping Union added World Grand Prix (World). Renamed (wgp) to (wgpu).
+
+Resolution, 0.106-0.201: 320x240 @ 60.000000Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/world-grand-prix-us/mame
+Rules, Grand Prix Points: http://www.twingalaxies.com/scores.php?scores=120652

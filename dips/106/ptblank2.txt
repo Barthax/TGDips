@@ -1,0 +1,5 @@
+# MAME 0.106 source snippet [namcos12.c]
+
+GAME( 1999, ptblank2,  0,        coh700g,  ptblank2, ptblank2, ROT0, "Namco",         "Point Blank 2 (GNB5/VER.A)", GAME_IMPERFECT_GRAPHICS | GAME_IMPERFECT_SOUND ) /* KC042 */
+
+NOTE: This game has both DIPs & internal settings covered by the rules. If not shown during playback, press F2 to access & check internal settings afterwards. DIPs are easier to verify by sight rather than hexdump.

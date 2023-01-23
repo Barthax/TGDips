@@ -1,6 +1,6 @@
 Note: two ROM sets represented here with switchover at 0.143u7.
 
-MAME History:
+From MAMEINFO.DAT:
 - 0.143u7: Bensonrad added 'Butasan - Pig's & Bomber's (Japan, English)'. Changed 'Butasan (Japan)' to clone '(Japan, Japanese)'. Renamed (butasan) to (butasanj). Roberto Zandona fixed text ram banking, missing background tiles and wrong colours in Butasan. Also the top status area (where the score and time info is) is missing text and has wrong colors.
 
 
@@ -8,18 +8,18 @@ Butasan (Japan, Japanese)
 -------------------------
 ROM set changed: yes
 0.106-0.143: butasan - "Butasan (Japan)"
-0.143u7-0.184: butasanj - "Butasan (Japan, Japanese)"
+0.144-0.227: butasanj - "Butasan (Japan, Japanese)"
 
-MAME History:
+From MAMEINFO.DAT:
 - 0.133u1: Kanikani fixed Coin1 and Coin2 were swapped in Butasan, and fixed DIP locations order.
 
 NOTE: the 0.133u1 info appears to cover the Difficulty DIP settings being relabeled.
       Before: Rank 1 / Rank 2 / Rank 3 / Rank 4
       After: Normal / Medium Difficult / Difficult / Very Difficult
 
-Resolution, 0.106-0.184: 256x240 @ 54.000000Hz
+Resolution, 0.106-0.227: 256x240 @ 54.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Butasan+[Japan]
+TG Game Entry: https://www.twingalaxies.com/game/butasan-japan/mame/
 Rules, Points [1 Player Only]: http://www.twingalaxies.com/scores.php?scores=19164
 Rules, Points [2 Player Team]: http://www.twingalaxies.com/scores.php?scores=19165
 
@@ -29,8 +29,8 @@ Butasan - Pig's & Bomber's (Japan, English)
 Note: not represented on TG.
 ROM set changed: no.  Added in 0.143u7.
 0.106-0.143: NOT SUPPORTED
-0.143u7-0.184: butasan - "Butasan - Pig's & Bomber's (Japan, English)"
+0.144-0.227: butasan - "Butasan - Pig's & Bomber's (Japan, English)"
 
-Resolution, 0.144-0.184: 256x240 @ 54.000000Hz
+Resolution, 0.144-0.227: 256x240 @ 54.000000Hz
 
 Rules: [no current tracks]

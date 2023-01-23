@@ -1,0 +1,14 @@
+ROM set changed: no
+0.106-0.231: ws89 - "World Stadium '89 (Japan)"
+0.232-0.240: ws89 - "Pro Yakyuu World Stadium '89 (Japan)"
+
+From MAMEINFO.DAT:
+- 0.232: Fixed abbreviated titles [Sasuke]. Changed description to 'Pro Yakyuu World Stadium (Japan)' and clones '89 (Japan) to 'Pro Yakyuu World Stadium '89 (Japan)' and '90 (Japan) to 'Pro Yakyuu World Stadium '90 (Japan)'.
+
+Resolution, 0.106-0.152: 288x224 @ 60.606060Hz
+Resolution, 0.153-0.240: 288x224 @ 60.606061Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/world-stadium-89-japan/mame
+Rules, Biggest Blowout: https://www.twingalaxies.com/scores.php?scores=231509
+
+NOTE: clone of ws

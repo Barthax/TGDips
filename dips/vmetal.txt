@@ -1,7 +1,22 @@
 ROM set changed: no
-0.106-0.175: vmetal - "Varia Metal"
+0.106-0.209: vmetal - "Varia Metal"
+
+From MAMEINFO.DAT:
+- 0.137u3: Stephane Humbert fixed dipswitches and inputs (after verification of the M68000 code) in Varia Metal and clone. Added dipswitches 'Coinage', 'Flip Screen', 'Difficulty', 'Bonus Life' and 5x 'Unused'.
 
 Resolution, 0.106-0.147: 320x224 @ 60.000000Hz
-Resolution, 0.148-0.175: 320x224 @ 58.232800Hz
+Resolution, 0.148-0.191: 320x224 @ 58.232800Hz
+Resolution, 0.192-0.209: 304x224 @ 58.232800Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Varia Metal
+TG Game Entry: https://www.twingalaxies.com/game/varia-metal/mame
+Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=22965
+Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=22966
+
+NOTE: the correct translation of the rules since the update at 0.137u3 is as follows:
+
+Flip Screen: Off
+Unused: Off [All]
+Difficulty: Normal
+Lives: 3
+Bonus Life: Every 30000
+Service Mode: Off

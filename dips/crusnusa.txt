@@ -1,10 +1,21 @@
-ROM set changed: no
-0.106-0.175: crusnusa - "Cruis'n USA (rev L4.1)"
+Note: three ROM sets represented here with changeover at 0.223 & 0.225
+
+From MAMEINFO.DAT:
+- 0.223: Brian Troha and The Dumping Union added Cruis'n USA (rev L4.4). Correct ROM labels [Brian Troha]. Renamed (crusnusa) to (crusnusa41).
+- 0.225: Simzy, Brian Troha and The Dumping Union added Cruis'n USA (v4.5). Changed description of (rev L4.4) to clone 'Cruis'n USA (v4.4)' and clones (rev L2.1) to 'Cruis'n USA (v2.1), (rev L4.0) to 'Cruis'n USA (v4.0) and (rev L4.1) to 'Cruis'n USA (v4.1)'. Renamed (crusnusa) to (crusnusa44).
+
+
+Cruis'n USA (v4.1)
+------------------
+ROM set changed: yes
+0.106-0.222: crusnusa - "Cruis'n USA (rev L4.1)"
+0.223-0.224: crusnusa41 - "Cruis'n USA (rev L4.1)"
+0.225-     : crusnusa41 - "Cruis'n USA (v4.1)"
 
 Resolution, 0.106-0.113: 512x400 @ 57.000000Hz
-Resolution, 0.114-0.175: 512x400 @ 57.349016Hz
+Resolution, 0.114-0.225: 512x400 @ 57.349016Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Cruis%27n%20USA%20[Rev%20L4.1]
+TG Game Entry: https://www.twingalaxies.com/game/cruisn-usa-rev-l41/mame/
 Rules, Arizona [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=55708
 Rules, Appalachia [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=55707
 Rules, Beverly Hills [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=55709
@@ -20,4 +31,32 @@ Rules, San Francisco [Fastest Race]: http://www.twingalaxies.com/scores.php?scor
 Rules, SF To Washington D.C. [Fastest Completion]: http://www.twingalaxies.com/scores.php?scores=55719
 Rules, US 101 [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=55723
 Rules, Washington D.C. [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=55724
-Note: service mode accessible with F2.  Navigation is with Volume Up and Volume Down with Service Mode as the select button.
+
+NOTE:
+This game has both DIPs & internal settings covered by the rules. If not shown during playback, press F2 to access & check internal settings afterwards.
+Navigation is with Volume Up and Volume Down with Service Mode as the select button.
+
+
+Cruis'n USA (v4.4)
+------------------
+Note: not currently represented on TG.
+ROM set changed: yes. Added in 0.223.
+0.106-0.222: NOT SUPPORTED
+0.223-0.224: crusnusa - "Cruis'n USA (rev L4.4)"
+0.225-     : crusnusa44 - "Cruis'n USA (v4.4)"
+
+Resolution, 0.222-0.225: 512x400 @ 57.349016Hz
+
+Rules: [no current tracks]
+
+
+Cruis'n USA (v4.5)
+------------------
+Note: not currently represented on TG.
+ROM set changed: no. Added in 0.225.
+0.106-0.225: NOT SUPPORTED
+0.225-     : crusnusa - "Cruis'n USA (v4.5)"
+
+Resolution, 0.222-0.225: 512x400 @ 57.349016Hz
+
+Rules: [no current tracks]

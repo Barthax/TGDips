@@ -1,10 +1,12 @@
 ROM set changed: no
 0.106-0.154: skyshark - "Sky Shark (US)"
-0.155-0.175: skyshark - "Sky Shark (US, set 1)"
+0.155-0.240: skyshark - "Sky Shark (US, set 1)"
 
 Resolution, 0.106-0.113: 320x240 @ 54.877857Hz
 Resolution, 0.114-0.137: 320x240 @ 54.877858Hz
 Resolution, 0.138-0.141: 320x240 @ 54.000000Hz
-Resolution, 0.142-0.175: 320x240 @ 54.877858Hz
+Resolution, 0.142-0.240: 320x240 @ 54.877858Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Sky Shark [US]
+TG Game Entry: https://www.twingalaxies.com/game/sky-shark-us/mame
+Rules, Points [Tournament Settings]: https://www.twingalaxies.com/scores.php?scores=7813
+Rules, Points [Marathon Settings]: https://www.twingalaxies.com/scores.php?scores=232467

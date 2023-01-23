@@ -1,0 +1,16 @@
+ROM set changed: yes
+0.106-0.133: raphero - "Rapid Hero (Japan?)"
+0.134-0.202: raphero - "Rapid Hero"
+0.203-     : rapheroa - "Rapid Hero (Media Trading)"
+
+From MAMEINFO.DAT:
+- 0.203: pacman70 added clone Rapid Hero (NMK). Changed description of clone Rapid Hero to 'Rapid Hero (Media Trading)'. Renamed (raphero) to (rapheroa).
+
+Resolution, 0.106-0.154: 384x224 @ 56.000000Hz
+Resolution, 0.155-0.203: 384x224 @ 56.180000Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/rapid-hero-japan/mame
+Rules, Points [1 Player Only]: https://www.twingalaxies.com/scores.php?scores=23020
+Rules, Points [2 Player Team]: https://www.twingalaxies.com/scores.php?scores=23021
+
+NOTE: clone of 'arcadian'

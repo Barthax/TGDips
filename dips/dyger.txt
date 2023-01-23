@@ -1,0 +1,7 @@
+ROM set changed: no
+0.106-0.210: dyger - "Dyger (Korea set 1)"
+
+Resolution, 0.106-0.210: 384x224 @ 60.000000Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/dyger-korea-set-1/mame/
+Rules, Points: https://www.twingalaxies.com/scores.php?scores=26167

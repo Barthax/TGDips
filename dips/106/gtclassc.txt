@@ -29,6 +29,8 @@ Rules, Scorpion Bend [Least Amount Of Strokes]: http://www.twingalaxies.com/scor
 Rules, Scorpion Bend [Longest Drive]: http://www.twingalaxies.com/scores.php?scores=70247
 Rules, Scorpion Bend [Longest Putt]: http://www.twingalaxies.com/scores.php?scores=70250
 
+NOTE: This game has both DIPs & internal settings covered by the rules. If not shown during playback, press F2 to access & check internal settings afterwards.
+
 ROMSet: GTClassC
 Service Mode: Off
 Trackball Orientation: Normal Mount
@@ -41,7 +43,7 @@ No Hole In One Contest
 3 Hole Operator Event Off
 
 Sample correct TG:
-DIPS: offset 0x33, repeat every 0x7C, typical value 0x??
+DIPS: offset 0x33, repeat every 0x7C, typical value 0x0F, 0x0B after VBLANK
 - DIPS: 0x0010 (Trackball Orientation): 0x0000 (Normal Mount)
 - DIPS: 0x0020 (Cabinet): 0x0000 (Upright)
 - DIPS: 0x0040 (Controls): 0x0000 (One Trackball)
@@ -49,6 +51,3 @@ DIPS: offset 0x33, repeat every 0x7C, typical value 0x??
     30: 00 00 00 0F 00 00 00 FF  00 00 00 00 00 00 00 00
     A0: 00 00 00 FF 00 00 00 FF  00 00 00 FF 00 00 00 0F
    120: 00 00 00 FF 00 00 00 FF  00 00 00 0B 00 00 00 FF
-
------------------
-- For internal settings.  Use service mode (F2) after replay if internal settings are not shown during replay.

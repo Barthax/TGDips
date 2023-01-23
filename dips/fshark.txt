@@ -1,0 +1,10 @@
+ROM set changed: no
+0.074-0.210: fshark - "Flying Shark (World)"
+
+Resolution, 0.074-0.113: 320x240 @ 54.877857Hz
+Resolution, 0.114-0.137: 320x240 @ 54.877858Hz
+Resolution, 0.138-0.141: 320x240 @ 54.000000Hz
+Resolution, 0.142-0.210: 320x240 @ 54.877858Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/flying-shark/
+Rules, Points: https://www.twingalaxies.com/scores.php?scores=214378

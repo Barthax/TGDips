@@ -1,9 +1,18 @@
 ROM set changed: no
 0.106-0.154: gogomile - "Go Go! Mile Smile"
-0.155-0.175: gogomile - "Susume! Mile Smile / Go Go! Mile Smile (newer)"
+0.155-0.213: gogomile - "Susume! Mile Smile / Go Go! Mile Smile (newer)"
 
-Resolution, 0.106-0.175: 320x240 @ 60.000000Hz
+From MAMEINFO.DAT:
+- 0.106u3: Fixed 'Difficulty' and 'Language' dipswitches.
+- 0.155: System11 corrected clock speeds. Changed YM2203 and YM3812 clock speeds to 3580000 Hz and OKI6295 to 1MHz. Changed parent description to 'Susume! Mile Smile / Go Go! Mile Smile (newer)' and clone (Japan) to 'Susume! Mile Smile / Go Go! Mile Smile (older)'. Renamed (gogomilej) to (gogomileo).
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Go%20Go!%20Mile%20Smile
+Resolution, 0.106-0.213: 320x240 @ 60.000000Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/go-go-mile-smile/mame/
 Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=21148
 Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=21149
+
+NOTES:
+At 0.106u3, 'Difiiculty' settings changed from [Easy?/Normal/Hard?/Hardest?] to [Easy/Normal/Hard/Very Hard] - therefore does not affect current Points tracks
+At 0.106u3, 'Country' DIP relabelled to 'Language', settings changed from [China/Japan/Korea/USA] to [Chinese/Japanese/Korean/English]
+At 0.155, default setting for 'Language' changed from English to Japanese.

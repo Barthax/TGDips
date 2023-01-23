@@ -1,7 +1,12 @@
 ROM set changed: no
-0.106-0.175: shocking - "Shocking"
+0.106-0.200: shocking - "Shocking"
+
+From MAMEINFO.DAT:
+- 0.109u2: Added dipswitches 'Coinage', 'Difficulty' and 6x 'Unused'.
 
 Resolution, 0.106-0.150: 380x224 @ 60.000000Hz
-Resolution, 0.151-0.175: 380x224 @ 60.096154Hz
+Resolution, 0.151-0.200: 380x224 @ 60.096154Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Shocking
+TG Game Entry: https://www.twingalaxies.com/game/shocking/mame
+Rules, Points [Single Player Only]: https://www.twingalaxies.com/scores.php?scores=110644
+Rules, Points [Two Player Team]: https://www.twingalaxies.com/scores.php?scores=110645

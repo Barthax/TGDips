@@ -1,17 +1,33 @@
-ROM Set Changed: no
-Berzerk: 0.106-0.181: berzerk - "Berzerk (Set 1)"
-Berzerk1: 0.106-0.181: berzerk1 - "Berzerk (Set 2)"
-NB: berzerk is Fast Bullets, berzerk1 is Slow Bullets.
+NOTES:
+This is the FAST BULLETS variation. For slow bullets, see berzerk1.txt.
+Two ROM sets represented here with changeover at 0.216.
+
+From MAMEINFO.DAT:
+- 0.216: Kevin Eshbach and The Dumping Union added Berzerk (revision RC31A). Changed (set 1) to clone 'Berzerk (revision RC31)', (set 2) to 'Berzerk (revision RC28)', (French Speech) to 'Berzerk (French Speech, revision RC31)', (German Speech) to 'Berzerk (German Speech, revision RC32)' and (Spanish Speech) to 'Berzerk (Spanish Speech, revision RC32)'. Renamed (berzerk) to (berzerka) and (berzerk1) to (berzerkb).
+
+
+Berzerk (revision RC31)
+-----------------------
+ROM Set Changed: yes.
+0.106-0.215: berzerk - "Berzerk (Set 1)"
+0.216-     : berzerka - "Berzerk (revision RC31)"
 
 Resolution, 0.106-0.115: 256x224 @ 60.000000Hz
-Resolution, 0.116-0.181: 256x224 @ 59.637405Hz
+Resolution, 0.116-0.216: 256x224 @ 59.637405Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Berzerk
-Rules, 1-life, Slow Bullets, Random Play: http://www.twingalaxies.com/scores.php?scores=131843   [incorrectly states "berzerk" ROM set and rules state fast bullets, should be "berzerk1" and slow bullets, otherwise is a duplicate track]
-Rules, 1-life, Fast Bullets, Random Play: http://www.twingalaxies.com/scores.php?scores=9867
-Rules, 1-life, Slow Bullets, Pattern Play: http://www.twingalaxies.com/scores.php?scores=131847  [incorrectly states "berzerk" ROM set and rules state fast bullets, should be "berzerk1" and slow bullets, otherwise is a duplicate track]
-Rules, 1-life, Fast Bullets, Pattern Play: http://www.twingalaxies.com/scores.php?scores=131846
-Rules, Slow Bullets, Random Play: http://www.twingalaxies.com/scores.php?scores=7685
+TG Game Entry: https://www.twingalaxies.com/game/berzerk/mame/     *** this game entry also covers fast bullets, have requested separate game entries
 Rules, Fast Bullets, Random Play: http://www.twingalaxies.com/scores.php?scores=7686
-Rules, Slow Bullets, Pattern Play: http://www.twingalaxies.com/scores.php?scores=131844
+Rules, 1-life, Fast Bullets, Random Play: http://www.twingalaxies.com/scores.php?scores=9867
 Rules, Fast Bullets, Pattern Play: http://www.twingalaxies.com/scores.php?scores=131845
+Rules, 1-life, Fast Bullets, Pattern Play: http://www.twingalaxies.com/scores.php?scores=131846
+
+
+Berzerk (revision RC31A)
+------------------------
+Note: not currently represented on TG.
+ROM set changed: no.  Added in 0.216.
+0.216-     : berzerk - "Berzerk (revision RC31A)"
+
+Resolution, 0.216-     : 256x224 @ 59.637405Hz
+
+Rules: [no current tracks]

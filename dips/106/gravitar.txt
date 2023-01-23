@@ -1,0 +1,102 @@
+# MAME 0.106 source snippet. [bwidow.c]
+
+GAME( 1982, gravitar, 0,        gravitar, gravitar, 0, ROT0, "Atari", "Gravitar (version 3)", 0 )
+
+INPUT_PORTS_START( gravitar )
+	PORT_START_TAG("IN0")
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_COIN2 )	// To fit "Coin B" Dip Switch
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_COIN1 )	// To fit "Coin A" Dip Switch
+	PORT_BIT( 0x0c, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_SERVICE( 0x10, IP_ACTIVE_LOW )
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_SERVICE ) PORT_NAME("Diagnostic Step") PORT_CODE(KEYCODE_F1)
+	/* bit 6 is the VG HALT bit. We set it to "low" */
+	/* per default (busy vector processor). */
+	PORT_BIT( 0x40, IP_ACTIVE_HIGH, IPT_SPECIAL )
+	/* bit 7 is tied to a 3kHz clock */
+	PORT_BIT( 0x80, IP_ACTIVE_HIGH, IPT_SPECIAL )
+
+	PORT_START_TAG("DSW0")
+	PORT_BIT( 0x03, IP_ACTIVE_HIGH, IPT_UNUSED )
+	PORT_DIPNAME(0x0c, 0x04, DEF_STR( Lives ) )
+	PORT_DIPSETTING (  0x00, "3" )
+	PORT_DIPSETTING (  0x04, "4" )
+	PORT_DIPSETTING (  0x08, "5" )
+	PORT_DIPSETTING (  0x0c, "6" )
+	PORT_DIPNAME(0x10, 0x00, DEF_STR( Difficulty ) )
+	PORT_DIPSETTING (  0x00, DEF_STR( Easy ) )
+	PORT_DIPSETTING (  0x10, DEF_STR( Hard ) )
+	PORT_BIT( 0x20, IP_ACTIVE_HIGH, IPT_UNUSED )
+	PORT_DIPNAME(0xc0, 0x00, DEF_STR( Bonus_Life ) )
+	PORT_DIPSETTING (  0x00, "10000" )
+	PORT_DIPSETTING (  0x40, "20000" )
+	PORT_DIPSETTING (  0x80, "30000" )
+	PORT_DIPSETTING (  0xc0, DEF_STR( None ) )
+
+	PORT_START_TAG("DSW1")
+	PORT_DIPNAME(0x03, 0x00, DEF_STR( Coinage ) )
+	PORT_DIPSETTING (  0x01, DEF_STR( 2C_1C ) )
+	PORT_DIPSETTING (  0x00, DEF_STR( 1C_1C ) )
+	PORT_DIPSETTING (  0x03, DEF_STR( 1C_2C ) )
+	PORT_DIPSETTING (  0x02, DEF_STR( Free_Play ) )
+	PORT_DIPNAME(0x0c, 0x00, DEF_STR( Coin_B ) )
+	PORT_DIPSETTING (  0x00, "*1" )
+	PORT_DIPSETTING (  0x04, "*4" )
+	PORT_DIPSETTING (  0x08, "*5" )
+	PORT_DIPSETTING (  0x0c, "*6" )
+	PORT_DIPNAME(0x10, 0x00, DEF_STR( Coin_A ) )
+	PORT_DIPSETTING (  0x00, "*1" )
+	PORT_DIPSETTING (  0x10, "*2" )
+	PORT_DIPNAME(0xe0, 0x00, "Bonus Coins" )
+	PORT_DIPSETTING (  0x80, "1 each 5" )
+	PORT_DIPSETTING (  0x60, "2 each 4" )
+	PORT_DIPSETTING (  0x40, "1 each 4" )
+	PORT_DIPSETTING (  0xa0, "1 each 3" )
+	PORT_DIPSETTING (  0x20, "1 each 2" )
+	PORT_DIPSETTING (  0x00, DEF_STR( None ) )
+
+	PORT_START_TAG("IN3")
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_BUTTON3 )
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_BUTTON1 )
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_2WAY
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_2WAY
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_BUTTON2 )
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_UNUSED )
+
+	PORT_START_TAG("IN4")
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_START1 )
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_START2 )
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_UNUSED )
+INPUT_PORTS_END
+
+
+
+Resolution: vector @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Gravitar%20[Version%203]
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=10698
+
+ROMSet: Gravitar
+Service Mode: Off
+Lives: 3
+Difficulty: Easy
+Bonus Life: 10000
+
+Sample correct TG:
+IN0: offset 0x23, repeat every 0x7C, typical value 0x3F
+- IN0: 0x10 (Service Mode): 0x10 (Off)
+DSW0: offset 0x27, repeat every 0x7C, typical value 0x00
+- DSW0: 0x0c (Lives): 0x00 (3)
+- DSW0: 0x10 (Difficulty): 0x00 (Easy)
+- DSW0: 0xc0 (Bonus_Life): 0x00 (10000)
+
+    20: 00 00 00 3F 00 00 00 00  00 00 00 00 00 00 00 FF
+    90: 00 00 00 00 00 00 00 00  3E 82 43 E1 00 00 00 3F
+    A0: 00 00 00 00 00 00 00 00  00 00 00 FF 00 00 00 FF
+   110: 00 00 00 00 3E 82 43 E1  00 00 00 3F 00 00 00 00

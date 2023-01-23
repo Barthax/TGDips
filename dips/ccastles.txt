@@ -1,9 +1,10 @@
 ROM set changed: no
-0.60-0.175: ccastles - "Crystal Castles (version 4)"
+0.60-0.228: ccastles - "Crystal Castles (version 4)"
 
 Resolution: 0.106: 256x232 @ 60.000000Hz
 Resolution, 0.107-0.113: 256x232 @ 61.035156Hz
-Resolution: 0.114-0.175: 319x255 @ 61.035156Hz
+Resolution: 0.114-0.208: 319x255 @ 61.035156Hz
+Resolution: 0.209-0.228: 256x232 @ 61.035156Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Crystal%20Castles%20[Version%204]
+TG Game Entry: https://www.twingalaxies.com/game/crystal-castles-version-4/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=5190

@@ -1,0 +1,10 @@
+Note: not currently represented on TG.
+ROM set changed: no. Added in 0.152.
+0.152-0.213: buckyea - "Bucky O'Hare (ver EA)"
+
+MAME History:
+- 0.152: caius added clone Bucky O'Hare (ver EA). Changed K054539 sound clock speed to 18432000 Hz.
+
+Resolution, 0.152-0.213: 384x224 @ 60.000000Hz
+
+Rules: [no current tracks]

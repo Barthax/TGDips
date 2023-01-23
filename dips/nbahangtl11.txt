@@ -1,0 +1,14 @@
+ROM set changed: yes
+0.106-0.230: nbahangt - "NBA Hangtime (rev L1.1 04/16/96)"
+0.231-     : nbahangtl11 - "NBA Hangtime (ver L1.1 4/16/96)"
+
+From MAMEINFO.DAT:
+- 0.231: Historical Source added NBA Hangtime (ver L1.3 10/10/96) and clones NBA Hangtime (ver L1.2 8/29/96), NBA Hangtime (ver M1.1 4/16/96), NBA Hangtime (ver M1.2 8/29/96), NBA Hangtime (ver M1.3 10/10/96), NBA Maximum Hangtime (ver L0.9 10/30/96) and NBA Maximum Hangtime (ver M1.0 11/08/96). Changed NBA Maximum Hangtime and clones from a parent set to clones of NBA Hangtime. Changed (rev L1.1 04/16/96) to clone 'NBA Hangtime (ver L1.1 4/16/96)', (rev L1.0 11/08/96) to 'NBA Maximum Hangtime (ver L1.0 11/08/96)' and (rev L1.03 06/09/97) to 'NBA Maximum Hangtime (ver L1.03 06/09/97)'. Renamed (nbahangt) to (nbahangtl11) and (nbamht1) to (nbamhtl10).
+
+Resolution, 0.106-0.113: 400x254 @ 53.204948Hz
+Resolution, 0.114: 400x254 @ 53.204950Hz
+Resolution, 0.115-0.154: 399x253 @ 54.815170Hz
+Resolution, 0.155-0.231: 400x254 @ 54.706840Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/nba-hangtime-rev-l11-04-16-96/mame
+Rules, Biggest Blowout: http://www.twingalaxies.com/scores.php?scores=31208

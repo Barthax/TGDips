@@ -1,0 +1,13 @@
+ROM set changed: yes
+0.106-0.188: shocktro - "Shock Troopers (set 1)"
+0.189-0.199: shocktroa - "Shock Troopers (set 2)"
+
+MAME History:
+- 0.189: Swapped Shock Troopers sets since what was known as set 2 is actually a newer revision than set 1, as per MAME parent-clone policies parent must be the newer revision [Angelo Salese]. Renamed (shocktro) to (shocktroa) and (shocktroa) to (shocktro).
+
+Resolution, 0.106-0.113: 320x224 @ 59.185608Hz
+Resolution, 0.114-0.199: 320x224 @ 59.185606Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/shock-troopers-set-1/mame/
+Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=9866
+Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=15405

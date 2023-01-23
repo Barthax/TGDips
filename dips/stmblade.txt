@@ -1,7 +1,9 @@
 ROM set changed: no
-0.106-0.175: stmblade - "Storm Blade (US)"
+0.106-0.198: stmblade - "Storm Blade (US)"
 
 Resolution, 0.106-0.148: 352x240 @ 60.000000Hz
-Resolution, 0.149-0.175: 352x240 @ 60.186720Hz
+Resolution, 0.149-0.198: 352x240 @ 60.186720Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Storm Blade [US]
+TG Game Entry: https://www.twingalaxies.com/game/storm-blade-us/mame/
+Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=10977
+Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=10978

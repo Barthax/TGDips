@@ -1,8 +1,24 @@
 ROM set changed: no
 0.106-0.121: roughrac - "Rough Racer (Japan, FD1094 317-0058-06b)"
-0.122-0.175: roughrac - "Rough Racer (Japan, Floppy Based, FD1094 317-0058-06b)"
+0.122-0.198: roughrac - "Rough Racer (Japan, Floppy Based, FD1094 317-0058-06b)"
+
+MAME History:
+- 0.121u2: Sonikos fixed dipswitches in Rough Racer. Added 3rd button and coin slots 3 and 4. Added dipswitches 'Start Credit', 'Demo Sounds', 'Game Instruction', 'Difficulty', 'Start Money' and 'Start Intro'. Changed description to 'Rough Racer (Japan, Floppy Based, FD1094 317-0058-06b)'.
 
 Resolution, 0.106-0.127: 496x384 @ 58.000000Hz
-Resolution, 0.128-0.175: 496x384 @ 57.524160Hz
+Resolution, 0.128-0.198: 496x384 @ 57.524160Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Rough Racer [Japan, FD1094 317-0058-06b]
+TG Game Entry: https://www.twingalaxies.com/game/rough-racer-japan-fd1094-317-0058-06b/mame/
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=91267
+
+NOTE:
+Changes at 0.121u2 mean that the rules need to be translated for users of 0.122+. Please read https://www.twingalaxies.com/showthread.php/188427?p=975007&viewfull=1#post975007 for details, or just trust the following!
+
+ROMset: RoughRac
+Start Credit: 1
+Demo Sounds: Off
+Flip Screen: Off
+Game Instruction: On
+Difficulty: Normal
+Start Money: 15000
+Start Nitro: 10

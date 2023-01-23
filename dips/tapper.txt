@@ -1,11 +1,48 @@
-ROM set changed: no
+Note: three ROM sets represented here with changeover at 0.195 & 0.198.
+
+MAME History:
+- 0.141u2: Changed description to 'Tapper (Budweiser, set 1)' and clone (alternate) to 'Tapper (Budweiser, set 2)'.
+- 0.195: Marc Deslauriers added clone Tapper (Budweiser, 12/9/83). Corrected several ROM names for the Tapper sets [Marc Deslauriers, Brian Troha]. Changed (Budweiser, set 1) to clone 'Tapper (Budweiser, Date Unknown)' and (Budweiser, set 2) to parent 'Tapper (Budweiser, 1/27/84)'. Renamed (tapper) to (tapperb) and (tappera) to (tapper).
+- 0.198: Brian Troha added Tapper (Budweiser, 1/27/84). Note: Latest version of Tapper known to come with "standard" graphics roms. Created the version with alternate graphics. Unknown if those graphics are hacked or a later revision [Brian Troha]. Renamed (tapper) to (tapperg).
+
+
+Tapper (Budweiser, Date Unknown)
+--------------------------------
+ROM set changed: yes
 0.106-0.141: tapper - "Tapper (Budweiser)"
-0.142-0.182: tapper - "Tapper (Budweiser, set 1)"
+0.142-0.194: tapper - "Tapper (Budweiser, set 1)"
+0.195-0.198: tapperb - "Tapper (Budweiser, Date Unknown)"
 
-Resolution, 0.106-0.182: 512x480 @ 30.000000Hz
+Resolution, 0.106-0.198: 512x480 @ 30.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Tapper+[Budweiser]
+TG Game Entry: http://www.twingalaxies.com/game/tapper-budweiser/mame/
 Rules, Points [Marathon Settings]: http://www.twingalaxies.com/scores.php?scores=7872
 Rules, Points [Tournament Settings]: http://www.twingalaxies.com/scores.php?scores=7873
+Rules, One Life Only: https://www.twingalaxies.com/scores.php?scores=212950
 
 NOTE: There are both hardware DIP switches & internal settings.  Use Service Mode (F2) then Tilt (T) to access the internal settings after playback if not shown during playback.
+
+
+Tapper (Budweiser, 1/27/84 - Alternate graphics)
+------------------------------------------------
+Note: not currently represented at TG. 
+ROM set changed: yes.
+0.106-0.141: tappera - "Tapper (alternate)"
+0.142-0.194: tappera - "Tapper (Budweiser, set 2)"
+0.195-0.197: tapper - "Tapper (Budweiser, 1/27/84)"
+0.198-     : tapperg - "Tapper (Budweiser, 1/27/84 - Alternate graphics)"
+
+Resolution, 0.106-0.198: 512x480 @ 30.000000Hz
+
+Rules: [no current tracks]
+
+
+Tapper (Budweiser, 1/27/84)
+---------------------------
+Note: not currently represented at TG. 
+ROM set changed: no. Added on 0.198.
+0.198-     : tapper - "Tapper (Budweiser, 1/27/84)"
+
+Resolution, 0.198-     : 512x480 @ 30.000000Hz
+
+Rules: [no current tracks]

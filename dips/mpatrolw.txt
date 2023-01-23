@@ -1,8 +1,9 @@
 ROM set changed: no
-0.31-0.183: mpatrolw - "Moon Patrol (Williams)"
+0.31-0.236: mpatrolw - "Moon Patrol (Williams)"
 
 Resolution, 0.106-0.122: 240x248 @ 57.000000Hz
-Resolution, 0.123-0.183: 240x252 @ 56.737589Hz
+Resolution, 0.123-0.236: 240x252 @ 56.737589Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Moon+Patrol
+TG Game Entry: http://www.twingalaxies.com/moon-patrol/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=5215
+Rules, No Shoot, Jump Only Points: http://www.twingalaxies.com/scores.php?scores=212617

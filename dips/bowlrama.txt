@@ -1,16 +1,15 @@
 ROM set changed: no
 0.106-0.164: bowlrama - "Bowl-O-Rama"
-0.165-0.175: bowlrama - "Bowl-O-Rama Rev 1.0" (minor description change)
+0.165-0.228: bowlrama - "Bowl-O-Rama Rev 1.0"
 
-MAME History:
+From MAMEINFO.DAT:
 - 0.165: Brian Troha corrected rom names for Bowl-O-Rama. Changed description to 'Bowl-O-Rama Rev 1.0'.
 
-Resolution, 0.106-0.175: 360x240 @ 57.000000Hz
+Resolution, 0.106-0.228: 360x240 @ 57.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Bowl-O-Rama
+TG Game Entry: https://www.twingalaxies.com/game/bowl-o-rama/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=20435
 Rules, Black-O-Jack: http://www.twingalaxies.com/scores.php?scores=20437
 Rules, Flash-O-Matic: http://www.twingalaxies.com/scores.php?scores=20436
-Note: Settings are accessible via Service Mode: use F2 to access after game if not confirmed during playback.
 
-
+NOTE: All relevant rules are covered by internal settings.  If not shown during playback, use F2 to access after playback completed.

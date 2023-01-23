@@ -1,0 +1,9 @@
+ROM set changed: no
+0.106-0.128: NOT SUPPORTED
+0.129-0.240: skatekds - "Vs. Skate Kids. (Graphic hack of Super Mario Bros.)"
+
+Resolution, 0.129-0.240: 256x240 @ 60.000000Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/vs-skate-kids-graphic-hack-of-super-mario-bros/mame
+Rules, Points [Marathon Settings]: http://www.twingalaxies.com/scores.php?scores=245523
+Rules, Points [Tournament Settings]: http://www.twingalaxies.com/scores.php?scores=245527

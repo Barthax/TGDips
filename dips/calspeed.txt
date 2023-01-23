@@ -1,12 +1,10 @@
 ROM set changed: no
 0.106-0.163: calspeed - "California Speed (Version 2.1a, 4/17/98)"
-0.164-0.175: calspeed - "California Speed (Version 2.1a Apr 17 1998, GUTS 1.25 Apr 17 1998 / MAIN Apr 17 1998)" (description change only)
+0.164-0.240: calspeed - "California Speed (Version 2.1a Apr 17 1998, GUTS 1.25 Apr 17 1998 / MAIN Apr 17 1998)"
 
-Resolution, 0.106-0.175: 640x480 @ 57.000000Hz
+Resolution, 0.106-0.240: 640x480 @ 57.000000Hz
 
-Note: service mode accessible with F2 (hold button).  Navigation is with Volume Up/Volume Down OR Road/Sky Cam, with Start as the select button.
-
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=California%20Speed
+TG Game Entry: https://www.twingalaxies.com/game/california-speed/mame/
 Rules, Central Valley [Fastest Race, Normal Course]: http://www.twingalaxies.com/scores.php?scores=55644
 Rules, Central Valley [Fastest Race, Reverse Course]: http://www.twingalaxies.com/scores.php?scores=55645
 Rules, Highway 1 [Fastest Race, Normal Course]: http://www.twingalaxies.com/scores.php?scores=55646
@@ -35,5 +33,8 @@ Rules, Willow Spring [Fastest Race, Normal Course]: http://www.twingalaxies.com/
 Rules, Willow Spring [Fastest Race, Reverse Course]: http://www.twingalaxies.com/scores.php?scores=55669
 Rules, Yosemite [Fastest Race, Normal Course]: http://www.twingalaxies.com/scores.php?scores=55670
 Rules, Yosemite [Fastest Race, Reverse Course]: http://www.twingalaxies.com/scores.php?scores=55671
+Rules, Do the State - Full Game: http://www.twingalaxies.com/scores.php?scores=232282
 
-
+NOTES:
+This game has both DIPs & internal settings covered by the rules. If not shown during playback, press & hold F2 to access & check internal settings afterwards.
+Service Mode navigation is with Volume Up/Volume Down OR Road/Sky Cam, with Start as the select button.

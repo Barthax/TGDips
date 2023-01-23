@@ -1,11 +1,12 @@
 ROM set changed: no
-0.106-0.175: mappy - "Mappy (US)"
+0.106-0.205: mappy - "Mappy (US)"
 
 Resolution, 0.106-0.115: 288x224 @ 60.606060Hz
-Resolution, 0.116-0.175: 288x224 @ 60.606061Hz
+Resolution, 0.116-0.205: 288x224 @ 60.606061Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Mappy%20[US]
+TG Game Entry: https://www.twingalaxies.com/game/mappy-us/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=7766
-Note 1: the DIPs are shown by the game (very briefly) during boot up starting around frame 745.  Any changes to the DIP settings after this will not take effect.
-Note 2: the Bonus Life settings are slightly harder if starting lives = 5.
-Note 3: 0.173-0.174 WolfMAME will only report 5 lives values of Bonus Life settings, so check the boot-up dips.
+
+NOTES:
+DIPs are shown by the game (very briefly) during boot up starting around frame 780.  Any changes to the DIP settings after this will not take effect.
+Since 0.173, the conditional DIPs feature of this game affects WolfMAME's inpview. Verify settings with caution! ["Lives" affects "Bonus_Life"]

@@ -1,12 +1,12 @@
 ROM set changed: yes
 0.106-0.132: lupin3 - "Lupin III"
-0.133-0.175: lupin3a - "Lupin III (set 2)"
+0.133-0.228: lupin3a - "Lupin III (set 2)"
 
 MAME History:
 - 0.132u2: Hau and Team Japump added Lupin III (set 1). Added 'Cabinet' configuration. Changed 'Lupin III' to clone 'Lupin III (set 2)'. Renamed (lupin3) to (lupin3a).
 
 Resolution, 0.106-0.113: 240x224 @ 60.000000Hz
-Resolution, 0.114-0.175: 260x224 @ 59.541985Hz
+Resolution, 0.114-0.228: 260x224 @ 59.541985Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Lupin%20III
+TG Game Entry: https://www.twingalaxies.com/game/lupin-iii/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=9226

@@ -1,7 +1,28 @@
-ROM set changed: no
-0.106-0.175: radarscp - "Radar Scope"
+Note: two ROM sets represented here with changeover at 0.229
+
+From MAMEINFO.DAT:
+- 0.229: Anonymous and Gaming Alexandria added 'Radar Scope (TRS02, rev. D)'. Note: A newer revision based on ROM labels, legitimate looking code changes, although in MAME it has some misplaced sprites flicking in the top left part of the screen near the score as the enemies appear. Does this glitch happen on the PCB? Changed 'Radar Scope' to clone 'Radar Scope (TRS02?, rev. C)'. Renamed (radarscp) to (radarscpc).
+
+
+Radar Scope (TRS02?, rev. C)
+----------------------------
+ROM set changed: yes
+0.106-0.189: radarscp - "Radar Scope"
+0.229-     : radarscpc - "Radar Scope (TRS02?, rev. C)"
 
 Resolution, 0.106-0.115: 256x224 @ 60.000000Hz
-Resolution, 0.116-0.175: 256x224 @ 60.606061Hz
+Resolution, 0.116-0.229: 256x224 @ 60.606061Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Radar Scope
+TG Game Entry: https://www.twingalaxies.com/game/radar-scope/mame/
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=9951
+
+
+Radar Scope (TRS02, rev. D)
+---------------------------
+Note: not currently tracked at TG.
+ROM set changed: no.  Added in 0.229
+0.229-     : radarscp - "Radar Scope (TRS02, rev. D)"
+
+Resolution, 0.229-     : 256x224 @ 60.606061Hz
+
+Rules: [no current tracks]

@@ -1,4 +1,6 @@
-# MAME 0.106 source snippet
+# MAME 0.106 source snippet [centiped.c]
+
+GAME( 1982, milliped, 0,        milliped, milliped, 0,        ROT270, "Atari",   "Millipede", 0 )
 
 INPUT_PORTS_START( milliped )
 	PORT_START	/* IN0 $2000 */ /* see port 6 for x trackball */
@@ -110,9 +112,14 @@ INPUT_PORTS_START( milliped )
 INPUT_PORTS_END
 
 
-Resolution: 256x240 @ 60Hz
+Resolution: 256x240 @ 60.000000Hz
 
-Rules: http://www.twingalaxies.com/scores.php?scores=9868
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Millipede
+
+********************************************************************************
+Rules, Points [Tournament Settings]: http://www.twingalaxies.com/scores.php?scores=9868
+Rules, Points [1 Life Only - ADeca 2004 Variation Only]: http://www.twingalaxies.com/scores.php?scores=9869
+
 ROMSet: Milliped
 Language: English
 Bonus: 0 1x
@@ -126,7 +133,7 @@ Spider: Hard
 Starting Score Select: Off
 
 Sample correct TG:
-IN0: offset 0x23, repeat every 0x7C, typical value 0x34 but changes with gameplay
+IN0: offset 0x23, repeat every 0x7C, typical value 0x74 (0x34 before VBLANK) but changes with gameplay
 - IN0: 0x03 (Language): 0x00 (English)
 - IN0: 0x0c (Bonus): 0x04 (0 1x)
 - IN0: 0x10 (button 1): [not relevant]
@@ -158,3 +165,51 @@ DSW1: offset 0x33, repeat every 0x7C, precise value 0xFF
     A0: 00 00 00 70 00 00 00 FF  00 00 00 FF 00 00 00 FF | ...p... ... ... 
    110: 00 00 00 00 3E 82 43 E1  00 00 00 74 00 00 00 70 | ....>.Cß...t...p
    120: 00 00 00 FF 00 00 00 FF  00 00 00 FF 00 00 00 02 | ... ... ... ....
+********************************************************************************
+Rules, Points [Marathon Settings]: http://www.twingalaxies.com/scores.php?scores=5232
+
+ROMSet: Milliped
+Language: English
+Bonus: 0 1x
+Unknown: Off [Both]
+Service mode: Off
+Millipede Head: Easy
+Beetle: Easy
+Lives: 5
+Bonus Life: None
+Spider: Hard
+Starting Score Select: Off
+
+Sample correct TG:
+IN0: offset 0x23, repeat every 0x7C, typical value 0x74 (0x34 before VBLANK) but changes with gameplay
+- IN0: 0x03 (Language): 0x00 (English)
+- IN0: 0x0c (Bonus): 0x04 (0 1x)
+- IN0: 0x10 (button 1): [not relevant]
+- IN0: 0x20 (start button 1): [not relevant]
+- IN0: 0x40 (vertical blank): [not relevant]
+- IN0: 0x80 (special): [not relevant]
+
+IN1: offset 0x27, repeat every 0x7C, typical value 0x70 but changes with gameplay
+- IN1: 0x01 (Unknown): 0x00 (Off)
+- IN1: 0x02 (Unknown): 0x00 (Off)
+- IN1: 0x04 (Credit Minimum): [not relevant]
+- IN1: 0x08 (Coin Counters): [not relevant]
+- IN1: 0x10 (button 1): [not relevant]
+- IN1: 0x20 (start button 2): [not relevant]
+- IN1: 0x40 (unknown): [not relevant]
+- IN1: 0x80 (special): [not relevant]
+
+DSW1: offset 0x33, repeat every 0x7C, precise value 0x94
+- DSW1: 0x01 (Millipede Head): 0x00 (Easy)
+- DSW1: 0x02 (Beetle): 0x00 (Easy)
+- DSW1: 0x0c (Lives): 0x04 (3)
+- DSW1: 0x30 (Bonus_Life): 0x10 (15000)
+- DSW1: 0x40 (Spider): 0x00 (Easy)
+- DSW1: 0x80 (Starting Score Select): 0x80 (Off)
+
+    20: 00 00 00 34 00 00 00 70  00 00 00 FF 00 00 00 FF
+    30: 00 00 00 94 00 00 00 02  00 00 00 00 00 00 00 00
+    90: 00 00 00 00 00 00 00 00  3E 82 43 E1 00 00 00 34
+    A0: 00 00 00 70 00 00 00 FF  00 00 00 FF 00 00 00 94
+   110: 00 00 00 00 3E 82 43 E1  00 00 00 74 00 00 00 70
+   120: 00 00 00 FF 00 00 00 FF  00 00 00 94 00 00 00 02

@@ -2,13 +2,13 @@ Note: not currently represented on TG.
 ROM set changed: yes.  Added in 0.100u3.
 0.106-0.130: gigandsj - "Gigandes (Japan)"
 0.130u4-0.146: gigandesj - "Gigandes (Japan)"
-0.147-0.175: gigandes - "Gigandes"
+0.147-0.224: gigandes - "Gigandes"
 
-MAME History:
+From MAMEINFO.DAT:
 - 0.100u3: Chack'n added clone Gigandes (Japan). Fixed rom names.
 - 0.130u4: Renamed (gigandsj) to (gigandesj).
 - 0.147: Changed Gigandes/(earlier) descriptions as both sets support English / Japanese via dipswitch. But one set has a revised and corrected service mode [Brian Troha, Dave France, The Dumping Union]. Changed Gigandes to clone 'Gigandes (earlier)' and clone (Japan) to parent 'Gigandes'. Renamed (gigandes) to (gigandesa) and (gigandesj) to (gigandes).
 
-Resolution, 0.106-0.175: 384x240 @ 60.000000Hz
+Resolution, 0.106-0.224: 384x240 @ 60.000000Hz
 
 Rules: [no current tracks]

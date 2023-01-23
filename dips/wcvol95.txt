@@ -1,6 +1,26 @@
-ROM set changed: no
-0.106-0.175: wcvol95 - "World Cup Volley '95 (Japan v1.0)"
+Note: two ROM sets represented here with changeover at 0.201.
 
-Resolution, 0.106-0.175: 320x240 @ 58.000000Hz
+From MAMEINFO.DAT:
+- 0.201: Fabrice Arzeno and The Dumping Union added World Cup Volley '95 (Asia v1.0). Renamed (wcvol95) to (wcvol95j).
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=World Cup Volley '95 [Japan v1.0]
+
+World Cup Volley '95 (Japan v1.0)
+---------------------------------
+ROM set changed: yes.
+0.106-0.200: wcvol95 - "World Cup Volley '95 (Japan v1.0)"
+0.201-     : wcvol95j - "World Cup Volley '95 (Japan v1.0)"
+
+Resolution, 0.106-0.201: 320x240 @ 58.000000Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/world-cup-volley-95-japan-v10/mame
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=120651
+
+
+World Cup Volley '95 (Asia v1.0)
+--------------------------------
+ROM set changed: no.  Added in 0.201.
+0.201-     : wcvol95 - "World Cup Volley '95 (Asia v1.0)"
+
+Resolution, 0.201-     : 320x240 @ 58.000000Hz
+
+Rules: [no current tracks]

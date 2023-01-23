@@ -1,0 +1,156 @@
+# MAME 0.106 source snippet [cps1.c]
+
+GAME( 1991, 3wonders, 0,        cps1,     3wonders, cps1,     ROT0,   "Capcom", "Three Wonders (World 910520)" , 0)					// "ETC"
+
+#define CPS1_COINAGE_1 \
+	PORT_DIPNAME( 0x07, 0x07, DEF_STR( Coin_A ) ) \
+	PORT_DIPSETTING(    0x00, DEF_STR( 4C_1C ) ) \
+	PORT_DIPSETTING(    0x01, DEF_STR( 3C_1C ) ) \
+	PORT_DIPSETTING(    0x02, DEF_STR( 2C_1C ) ) \
+	PORT_DIPSETTING(    0x07, DEF_STR( 1C_1C ) ) \
+	PORT_DIPSETTING(    0x06, DEF_STR( 1C_2C ) ) \
+	PORT_DIPSETTING(    0x05, DEF_STR( 1C_3C ) ) \
+	PORT_DIPSETTING(    0x04, DEF_STR( 1C_4C ) ) \
+	PORT_DIPSETTING(    0x03, DEF_STR( 1C_6C ) ) \
+	PORT_DIPNAME( 0x38, 0x38, DEF_STR( Coin_B ) ) \
+	PORT_DIPSETTING(    0x00, DEF_STR( 4C_1C ) ) \
+	PORT_DIPSETTING(    0x08, DEF_STR( 3C_1C ) ) \
+	PORT_DIPSETTING(    0x10, DEF_STR( 2C_1C ) ) \
+	PORT_DIPSETTING(    0x38, DEF_STR( 1C_1C ) ) \
+	PORT_DIPSETTING(    0x30, DEF_STR( 1C_2C ) ) \
+	PORT_DIPSETTING(    0x28, DEF_STR( 1C_3C ) ) \
+	PORT_DIPSETTING(    0x20, DEF_STR( 1C_4C ) ) \
+	PORT_DIPSETTING(    0x18, DEF_STR( 1C_6C ) )
+
+INPUT_PORTS_START( 3wonders )
+	PORT_START_TAG("IN0")
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_COIN1 )
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_COIN2 )
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_SERVICE1 )
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_START1 )
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_START2 )
+	PORT_SERVICE_NO_TOGGLE( 0x40, IP_ACTIVE_LOW )
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_UNKNOWN )
+
+	PORT_START_TAG("DSWA")
+	CPS1_COINAGE_1
+	PORT_DIPNAME( 0x40, 0x40, "2 Coins to Start, 1 to Continue" )
+	PORT_DIPSETTING(    0x40, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	/* Free Play: ALL bits 0 to 7 must be ON ; 4C_1C, 4C_1C, 2 Coins to Start, 1 to Continue ON */
+	PORT_DIPNAME( 0x80, 0x80, "Freeze" )
+	PORT_DIPSETTING(    0x80, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+
+	PORT_START_TAG("DSWB")
+	PORT_DIPNAME( 0x03, 0x02, "Lives (Midnight Wanderers)" )
+	PORT_DIPSETTING(    0x03, "1" )
+	PORT_DIPSETTING(    0x02, "2" )
+	PORT_DIPSETTING(    0x01, "3" )
+	PORT_DIPSETTING(    0x00, "5" )
+	PORT_DIPNAME( 0x0c, 0x08, "Difficulty (Midnight Wanderers)" )
+	PORT_DIPSETTING(    0x0c, DEF_STR( Easy ) )
+	PORT_DIPSETTING(    0x08, DEF_STR( Normal ) )
+	PORT_DIPSETTING(    0x04, DEF_STR( Hard ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Hardest ) )
+	PORT_DIPNAME( 0x30, 0x10, "Lives (Chariot)" )
+	PORT_DIPSETTING(    0x30, "1" )
+	PORT_DIPSETTING(    0x20, "2" )
+	PORT_DIPSETTING(    0x10, "3" )
+	PORT_DIPSETTING(    0x00, "5" )
+	PORT_DIPNAME( 0xc0, 0x80, "Difficulty (Chariot)" )
+	PORT_DIPSETTING(    0xc0, DEF_STR( Easy ) )
+	PORT_DIPSETTING(    0x80, DEF_STR( Normal ) )
+	PORT_DIPSETTING(    0x40, DEF_STR( Hard ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Hardest ) )
+
+	PORT_START_TAG("DSWC")
+	PORT_DIPNAME( 0x03, 0x01, "Lives (Don't Pull)" )
+	PORT_DIPSETTING(    0x03, "1" )
+	PORT_DIPSETTING(    0x02, "2" )
+	PORT_DIPSETTING(    0x01, "3" )
+	PORT_DIPSETTING(    0x00, "5" )
+	PORT_DIPNAME( 0x0c, 0x08, "Difficulty (Don't Pull)" )
+	PORT_DIPSETTING(    0x0c, DEF_STR( Easy ) )
+	PORT_DIPSETTING(    0x08, DEF_STR( Normal ) )
+	PORT_DIPSETTING(    0x04, DEF_STR( Hard ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Hardest ) )
+	PORT_DIPNAME( 0x10, 0x10, DEF_STR( Flip_Screen ) )
+	PORT_DIPSETTING(    0x10, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x20, 0x00, DEF_STR( Demo_Sounds ) )
+	PORT_DIPSETTING(    0x20, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x40, 0x00, DEF_STR( Allow_Continue ) )
+	PORT_DIPSETTING(    0x40, DEF_STR( No ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Yes ) )
+	PORT_DIPNAME( 0x80, 0x80, "Game Mode")
+	PORT_DIPSETTING(    0x80, "Game" )
+	PORT_DIPSETTING(    0x00, DEF_STR( Test ) )
+
+	PORT_START_TAG("IN1")
+	PORT_BIT( 0x0001, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_8WAY PORT_PLAYER(1)
+	PORT_BIT( 0x0002, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_8WAY PORT_PLAYER(1)
+	PORT_BIT( 0x0004, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_8WAY PORT_PLAYER(1)
+	PORT_BIT( 0x0008, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_8WAY PORT_PLAYER(1)
+	PORT_BIT( 0x0010, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_PLAYER(1)
+	PORT_BIT( 0x0020, IP_ACTIVE_LOW, IPT_BUTTON2 ) PORT_PLAYER(1)
+	PORT_BIT( 0x0040, IP_ACTIVE_LOW, IPT_BUTTON3 ) PORT_PLAYER(1)
+	PORT_BIT( 0x0080, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_BIT( 0x0100, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_8WAY PORT_PLAYER(2)
+	PORT_BIT( 0x0200, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_8WAY PORT_PLAYER(2)
+	PORT_BIT( 0x0400, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_8WAY PORT_PLAYER(2)
+	PORT_BIT( 0x0800, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_8WAY PORT_PLAYER(2)
+	PORT_BIT( 0x1000, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_PLAYER(2)
+	PORT_BIT( 0x2000, IP_ACTIVE_LOW, IPT_BUTTON2 ) PORT_PLAYER(2)
+	PORT_BIT( 0x4000, IP_ACTIVE_LOW, IPT_BUTTON3 ) PORT_PLAYER(2)
+	PORT_BIT( 0x8000, IP_ACTIVE_LOW, IPT_UNKNOWN )
+INPUT_PORTS_END
+
+Resolution: 384x224 @ 60.000000Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/three-wonders-world-910520/mame/
+Rules, Chariot: Adventure Through The Sky [Points, Single Player Only]: http://www.twingalaxies.com/scores.php?scores=14468
+Rules, Chariot: Adventure Through The Sky [Points, Two Player Team]: http://www.twingalaxies.com/scores.php?scores=14469
+Rules, Don't Pull [Points, Single Player Only]: http://www.twingalaxies.com/scores.php?scores=14470
+Rules, Don't Pull [Points, Two Player Team]: http://www.twingalaxies.com/scores.php?scores=14471
+Rules, Midnight Wanderers, Quest For The Chariot [Points, Single Player Only]: http://www.twingalaxies.com/scores.php?scores=14466
+Rules, Midnight Wanderers, Quest For The Chariot [Points, Two Player Team]: http://www.twingalaxies.com/scores.php?scores=14467
+
+ROMSet: 3Wonders
+Freeze: Off
+Lives [Midnight Wanderers]: 2
+Difficulty [Midnight Wanderers]: Normal
+Lives [Chariot]: 2
+Difficulty [Chariot]: Normal
+Lives [Don't Pull]: 2
+Difficulty [Don't Pull]: Normal
+Flip Screen: Off
+Demo Sounds: On
+Allow Continue: No
+Game Mode: Game
+
+Sample correct TG:
+DSWA: Offset 0x27, repeat every 0x7C, typical value 0xFF
+-DSWA: 0x07 (Coin_A): [not relevant]
+-DSWA: 0x38 (Coin_B): [not relevant]
+-DSWA: 0x40 (2 Coins to Start, 1 to Continue): [not relevant]
+-DSWA: 0x80 (Freeze): 0x80 (Off)
+DSWB: Offset 0x2B, repeat every 0x7C, typical value 0xAA
+-DSWB: 0x03 (Lives (Midnight Wanderers)): 0x02 (2)
+-DSWB: 0x0c (Difficulty (Midnight Wanderers)): 0x08 (Normal)
+-DSWB: 0x30 (Lives (Chariot)): 0x20 (2)
+-DSWB: 0xc0 (Difficulty (Chariot)): 0x80 (Normal)
+DSWC: Offset 0x2F, repeat every 0x7C, typical value 0xDA
+-DSWC: 0x03 (Lives (Don't Pull)): 0x02 (2)
+-DSWC: 0x0c (Difficulty (Don't Pull)): 0x08 (Normal)
+-DSWC: 0x10 (Flip_Screen): 0x10 (Off)
+-DSWC: 0x20 (Demo_Sounds): 0x00 (On)
+-DSWC: 0x40 (Allow_Continue): 0x40 (No)
+-DSWC: 0x80 (Game Mode): 0x80 (Game)
+
+    20: 00 00 00 FF 00 00 00 FF  00 00 00 AA 00 00 00 DA
+    A0: 00 00 00 FF 00 00 00 AA  00 00 00 DA 00 00 FF FF
+   110: 00 00 00 00 3E 82 43 E1  00 00 00 FF 00 00 00 FF
+   120: 00 00 00 AA 00 00 00 DA  00 00 FF FF 00 00 00 00

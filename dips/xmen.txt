@@ -1,15 +1,36 @@
-ROMs Changed: none
-0.106-0.175: xmen - "X-Men (4 Players ver UBB)"
+Note: two ROM sets represented here with changeover at 0.221.
+
+From MAMEINFO.DAT:
+- 0.135u2: IronGiant added clone X-Men (4 Players ver EBA).
+- 0.221: Joe Magiera and The Dumping Union added clone X-Men (4 Players ver UEB). Renamed (xmen) to (xmenu) and (xmene) to (xmen).
+
+X-Men (4 Players ver UBB)
+-------------------------
+ROMs Changed: yes
+0.106-0.220: xmen - "X-Men (4 Players ver UBB)"
+0.221-     : xmenu - "X-Men (4 Players ver UBB)"
 
 Resolution, 0.106: 304x224 @ 60.000000Hz
 Resolution, 0.107-0.123: 288x224 @ 60.000000Hz
 Resolution, 0.125-0.133: 304x224 @ 60.000000Hz
-Resolution, 0.134-0.175: 304x224 @ 59.170000Hz
+Resolution, 0.134-0.221: 304x224 @ 59.170000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=X-Men%20[4%20Players%20ver%20UBB]
+TG Game Entry: http://www.twingalaxies.com/x-men-4-players-ver-ubb/mame/
 Rules, Single Player: http://www.twingalaxies.com/scores.php?scores=120661
 Rules, Two Player Team: http://www.twingalaxies.com/scores.php?scores=120662
 Rules, Three Player Team: http://www.twingalaxies.com/scores.php?scores=120663
 Rules, Four Player Team: http://www.twingalaxies.com/scores.php?scores=120664
-Note: if settings not shown by the player, use F2 after playback to enter the internal settings.
 
+NOTE: All relevant rules are covered by internal settings.  If not shown during playback, use F2 to access after playback completed.
+
+
+X-Men (4 Players ver EBA)
+-------------------------
+Note: not currently represented on TG.
+ROM set changed: yes. Added in 0.135u2.
+0.136-0.220: xmene - "X-Men (4 Players ver EBA)"
+0.221-     : xmen - "X-Men (4 Players ver EBA)"
+
+Resolution, 0.221-     : 304x224 @ 59.170000Hz
+
+Rules: [no current tracks]

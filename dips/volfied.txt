@@ -1,12 +1,14 @@
 ROM set changed: no
 0.106-0.129: volfied - "Volfied (World)"
-0.130-0.179: volfied - "Volfied (World, revision 1)"
+0.130-0.201: volfied - "Volfied (World, revision 1)"
 
 MAME History:
 - 0.129u4: Brian Troha added clone Volfied (Japan). Added minor additional information and OSC info to Volfied driver. Also added two BPROMs not included before. Changed parent description to 'Volfied (World, revision 1)' and clones (US) to 'Volfied (US, revision 1)' and (Japan) to 'Volfied (Japan, revision 1)'.
 - 0.118u3: Stephane Humbert cleaned up several Taito drivers to use common input port macros. Fixed the dipwitches for all games (a few still remain unknown though) and added many notes.
 
-Resolution, 0.106-0.179: 320x240 @ 60.000000Hz
+Resolution, 0.106-0.201: 320x240 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Volfied+%5BWorld%5D
+TG Game Entry: https://www.twingalaxies.com/game/volfied-world/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=120570
+
+NOTE: Difficulty setting Normal was relabelled to Medium at 0.118u3.

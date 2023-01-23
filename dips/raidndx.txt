@@ -1,0 +1,40 @@
+Note: two ROM sets represented here with changeover at 0.139
+
+From MAMEINFO.DAT:
+- 0.138u3: IronGiant added Raiden DX (UK). Changed (set 1) to clone 'Raiden DX (Asia set 1)', (Metrotainment license) to 'Raiden DX (Asia set 2)' and (Tuning license) to 'Raiden DX (Germany)'. Renamed (raidndx) to (raidndxa1), (raidndxm) to (raidndxa2) and (raidndxt) to (raidndxg).
+- 0.147: A new note and a rom name change, radinaetgaertdx -> raidendx [Angelo Salese]. Renamed (raidndx) to (raidendx), (raidndxj) to (raidendxj), (raidndxu) to (raidendxu), (raidndxa1) to (raidendxa1), (raidndxa2) to (raidendxa2) and (raidndxg) to (raidendxg).
+- 0.153: Alex Meijer added clone Raiden DX (The Netherlands). Changed description of clone (Asia set 1) to 'Raiden DX (Hong Kong, set 1)' and (Asia set 2) to 'Raiden DX (Hong Kong, set 2)'.
+
+
+Raiden DX (UK)
+--------------
+ROM set changed: yes. Added in 0.138u3.
+0.106-0.138: NOT SUPPORTED
+0.139-0.146: raidndx - "Raiden DX (UK)"
+0.147-0.240: raidendx - "Raiden DX (UK)"
+
+Resolution, 0.139      : 344x240 @ 55.470000Hz
+Resolution, 0.139-0.158: 320x240 @ 55.470000Hz
+Resolution, 0.159-0.240: 320x240 @ 55.407801Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/raiden-dx/mame
+Rules, Points [Training Stage]: http://www.twingalaxies.com/scores.php?scores=244073
+Rules, Points [Mission Bravo - Single Player Only]: http://www.twingalaxies.com/scores.php?scores=245393
+Rules, Points [Mission Charlie - Single Player Only]: http://www.twingalaxies.com/scores.php?scores=245388
+
+
+Raiden DX (Asia set 1)
+----------------------
+Note: not currently represented on TG.
+ROM set changed: yes
+0.106-0.138: raidndx - "Raiden DX (set 1)"
+0.139-0.146: raidndxa1 - "Raiden DX (Asia set 1)"
+0.147-0.152: raidendxa1 - "Raiden DX (Asia set 1)"
+0.153-0.240: raidendxa1 - "Raiden DX (Hong Kong, set 1)"
+
+Resolution, 0.106-0.124: 304x240 @ 60.000000Hz
+Resolution, 0.125-0.133: 344x240 @ 60.000000Hz
+Resolution, 0.134-0.139: 344x240 @ 55.470000Hz
+Resolution, 0.140-0.240: 344x240 @ 55.470000Hz
+
+Rules: [no current tracks]

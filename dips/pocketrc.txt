@@ -1,6 +1,6 @@
 ROM set changed: no
 0.108u5-0.130: pocketrc - "Pocket Racer (PKR1/VER.B)"
-0.130u1-0.184: pocketrc - "Pocket Racer (Japan, PKR1/VER.B)"
+0.130u1-0.195: pocketrc - "Pocket Racer (Japan, PKR1/VER.B)"
 
 MAME History:
 - 0.130u1: Changed description to 'Pocket Racer (Japan, PKR1/VER.B)'.
@@ -8,10 +8,10 @@ MAME History:
 
 Resolution, 0.108u5-0.136: 640x480 @ 60.000000Hz
 Resolution, 0.137-0.143: 640x480 @ 30.000000Hz
-Resolution, 0.144-0.184: 640x480 @ 60.000000Hz
+Resolution, 0.144-0.195: 640x480 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Pocket+Racer+(Japan,+PKR1/VER.B)
-Rules, Mountain Course (Fastest Lap - Mountain Racer): http://www.twingalaxies.com/scores.php?scores=207576
+TG Game Entry: https://www.twingalaxies.com/game/pocket-racer-japan-pkr1-ver-b/mame/
+Rules, Mountain Course (Fastest Lap - Normal Racer): http://www.twingalaxies.com/scores.php?scores=207576
 Rules, Mountain Course (Fastest Lap - Pocket Racer): http://www.twingalaxies.com/scores.php?scores=207574
 Rules, Mountain Course (Fastest Race - Normal Racer): http://www.twingalaxies.com/scores.php?scores=207577
 Rules, Mountain Course (Fastest Race - Pocket Racer): http://www.twingalaxies.com/scores.php?scores=207575

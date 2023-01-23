@@ -1,12 +1,14 @@
 ROM set changes: no
 0.106-0.165: nslasher - "Night Slashers (Korea Rev 1.3)"
-0.166-0.175: nslasher - "Night Slashers (Korea Rev 1.3, DE-0397-0 PCB)"
+0.166-0.209: nslasher - "Night Slashers (Korea Rev 1.3, DE-0397-0 PCB)"
 
-Resolution, 0.106-0.175: 320x240 @ 60.000000Hz
+Resolution, 0.106-0.188: 320x240 @ 60.000000Hz
+Resolution, 0.189      : 320x240 @ 57.799650Hz
+Resolution, 0.106-0.209: 320x240 @ 58.464346Hz
 
 There are no hardware DIP switches.  Use Service Mode (F2) to access the internal settings after playback if none is shown during playback.
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Night+Slashers+%5BKorea+Rev+1.3%5D
+TG Game Entry: https://www.twingalaxies.com/game/night-slashers-korea-rev-13/mame/
 Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=78635
 Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=78636
 Rules, Points [Three Player Team]: http://www.twingalaxies.com/scores.php?scores=78637

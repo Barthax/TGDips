@@ -1,0 +1,101 @@
+# MAME 0.106 source snippet [matmania.c]
+
+GAME( 1985, matmania, 0,        matmania, matmania, 0, ROT270, "Technos (Taito America license)", "Mat Mania", 0 )
+
+INPUT_PORTS_START( matmania )
+	PORT_START	/* IN0 */
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_8WAY
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_8WAY
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_8WAY
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_8WAY
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_BUTTON1 )
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_BUTTON2 )
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_COIN2 ) PORT_IMPULSE(1)
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_COIN1 ) PORT_IMPULSE(1)
+
+	PORT_START	/* IN1 */
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_8WAY PORT_PLAYER(2)
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_8WAY PORT_PLAYER(2)
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_8WAY PORT_PLAYER(2)
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_8WAY PORT_PLAYER(2)
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_PLAYER(2)
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_BUTTON2 ) PORT_PLAYER(2)
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_START1 )
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_START2 )
+
+	PORT_START	/* DSW1 */
+	PORT_DIPNAME(0x03, 0x03, DEF_STR( Difficulty ) )
+	PORT_DIPSETTING(   0x03, DEF_STR( Easy ) )
+	PORT_DIPSETTING(   0x02, DEF_STR( Medium ) )
+	PORT_DIPSETTING(   0x01, DEF_STR( Hard ) )
+	PORT_DIPSETTING(   0x00, DEF_STR( Hardest ) )
+	PORT_DIPNAME(0x0c, 0x0c, "Tournament Time" )    // Tournament time is always 3:00, but time per 1 second is shorter.
+	PORT_DIPSETTING(   0x00, "2:12" )
+	PORT_DIPSETTING(   0x04, "2:24" )
+	PORT_DIPSETTING(   0x08, "2:30" )
+	PORT_DIPSETTING(   0x0c, "2:36" )
+	PORT_DIPNAME(0x10, 0x10, DEF_STR( Unused ) )
+	PORT_DIPSETTING(   0x10, DEF_STR( Off ) )
+	PORT_DIPSETTING(   0x00, DEF_STR( On ) )
+	PORT_DIPNAME(0x20, 0x20, DEF_STR( Unused ) )
+	PORT_DIPSETTING(   0x20, DEF_STR( Off ) )
+	PORT_DIPSETTING(   0x00, DEF_STR( On ) )
+	PORT_DIPNAME(0x40, 0x40, DEF_STR( Unused ) )
+	PORT_DIPSETTING(   0x40, DEF_STR( Off ) )
+	PORT_DIPSETTING(   0x00, DEF_STR( On ) )
+	PORT_DIPNAME(0x80, 0x80, DEF_STR( Unused ) )
+	PORT_DIPSETTING(   0x80, DEF_STR( Off ) )
+	PORT_DIPSETTING(   0x00, DEF_STR( On ) )
+
+	PORT_START	/* DSW2 */
+	PORT_DIPNAME(0x03, 0x03, DEF_STR( Coin_A ) )
+	PORT_DIPSETTING(   0x00, DEF_STR( 2C_1C ) )
+	PORT_DIPSETTING(   0x03, DEF_STR( 1C_1C ) )
+	PORT_DIPSETTING(   0x02, DEF_STR( 1C_2C ) )
+	PORT_DIPSETTING(   0x01, DEF_STR( 1C_3C ) )
+	PORT_DIPNAME(0x0c, 0x0c, DEF_STR( Coin_B ) )
+	PORT_DIPSETTING(   0x00, DEF_STR( 2C_1C ) )
+	PORT_DIPSETTING(   0x0c, DEF_STR( 1C_1C ) )
+	PORT_DIPSETTING(   0x08, DEF_STR( 1C_2C ) )
+	PORT_DIPSETTING(   0x04, DEF_STR( 1C_3C ) )
+	PORT_DIPNAME(0x10, 0x10, DEF_STR( Demo_Sounds ) )
+	PORT_DIPSETTING(   0x00, DEF_STR( Off ) )
+	PORT_DIPSETTING(   0x10, DEF_STR( On ) )
+	PORT_DIPNAME(0x20, 0x00, DEF_STR( Cabinet ) )    // The default setting should be cocktail.
+	PORT_DIPSETTING(   0x00, DEF_STR( Upright ) )
+	PORT_DIPSETTING(   0x20, DEF_STR( Cocktail ) )
+	PORT_SERVICE( 0x40, IP_ACTIVE_LOW )
+	PORT_BIT( 0x80, IP_ACTIVE_HIGH, IPT_VBLANK )
+INPUT_PORTS_END
+
+Resolution: 256x240 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/game_detail.php?gameid=3895&platformid=46
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=7768
+
+ROMSet: MatMania
+Difficulty: Medium
+Tournament Time: 2:36
+Unused: Off [All]
+Cabinet: Upright
+Service Mode: Off
+
+Sample correct TG:
+DSW1: offset 0x2B, repeat every 0x7C, typical value 0xFE
+- DSW1: 0x03 (Difficulty): 0x02 (Medium)
+- DSW1: 0x0c (Tournament Time): 0x0c (2:36)
+- DSW1: 0x10 (Unused): 0x10 (Off)
+- DSW1: 0x20 (Unused): 0x20 (Off)
+- DSW1: 0x40 (Unused): 0x40 (Off)
+- DSW1: 0x80 (Unused): 0x80 (Off)
+DSW2: offset 0x2F, repeat every 0x7C, typical initial value 0x5F, DF after vertical blank
+- DSW2: 0x03 (Coin_A): [not relevant]
+- DSW2: 0x0c (Coin_B): [not relevant]
+- DSW2: 0x10 (Demo_Sounds): [not relevant]
+- DSW2: 0x20 (Cabinet): 0x00 (Upright)
+- DSW2: 0x40 (Service Mode): 0x40 (Off)
+- DSW2: 0x80 (Vertical Blank): [not relevant]
+
+    20: 00 00 00 FF 00 00 00 FF  00 00 00 FE 00 00 00 5F
+    A0: 00 00 00 FF 00 00 00 FE  00 00 00 5F 00 00 00 00
+   120: 00 00 00 FE 00 00 00 DF  00 00 00 00 00 00 00 00

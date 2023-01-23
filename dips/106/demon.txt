@@ -1,0 +1,70 @@
+# MAME 0.106 source snippet [cinemat.c]
+
+GAME( 1982, demon,    0,       demon,    demon,    0,        ORIENTATION_FLIP_Y,   "Rock-ola", "Demon", GAME_SUPPORTS_SAVE )
+
+INPUT_PORTS_START( demon )
+	PORT_START_TAG("INPUTS")
+	PORT_BIT( 0x0001, IP_ACTIVE_LOW, IPT_START1 )
+	PORT_BIT( 0x0002, IP_ACTIVE_LOW, IPT_START2 )
+	PORT_BIT( 0x0004, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_2WAY PORT_PLAYER(1)
+	PORT_BIT( 0x0008, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_2WAY PORT_PLAYER(1)
+	PORT_BIT( 0x0010, IP_ACTIVE_LOW, IPT_BUTTON2 ) PORT_PLAYER(1)
+	PORT_BIT( 0x0020, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_PLAYER(1)
+	PORT_BIT( 0x0040, IP_ACTIVE_LOW, IPT_UNKNOWN )
+	PORT_SERVICE( 0x0080, IP_ACTIVE_LOW )
+	PORT_BIT( 0x0100, IP_ACTIVE_LOW, IPT_TILT )
+	PORT_BIT( 0x0200, IP_ACTIVE_LOW, IPT_BUTTON3 ) PORT_PLAYER(1)
+	PORT_BIT( 0x0400, IP_ACTIVE_LOW, IPT_BUTTON3 ) PORT_PLAYER(2)
+	PORT_BIT( 0x0800, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_2WAY PORT_PLAYER(2)
+	PORT_BIT( 0x1000, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_2WAY PORT_PLAYER(2)
+	PORT_BIT( 0x2000, IP_ACTIVE_LOW, IPT_BUTTON2 ) PORT_PLAYER(2)
+	PORT_BIT( 0x4000, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_PLAYER(2)
+	PORT_BIT( 0x8000, IP_ACTIVE_LOW, IPT_UNKNOWN ) /* also mapped to Button 3, player 2 */
+
+	PORT_START_TAG("SWITCHES")
+	PORT_DIPNAME( 0x03, 0x03, DEF_STR( Coinage ) )
+	PORT_DIPSETTING(    0x01, DEF_STR( 2C_1C ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( 4C_3C ) )
+	PORT_DIPSETTING(    0x03, DEF_STR( 1C_1C ) )
+	PORT_DIPSETTING(    0x02, DEF_STR( 2C_3C ) )
+	PORT_DIPNAME( 0x0c, 0x00, DEF_STR( Lives ) )
+	PORT_DIPSETTING(    0x00, "3")
+	PORT_DIPSETTING(    0x04, "4" )
+	PORT_DIPSETTING(    0x08, "5" )
+	PORT_DIPSETTING(    0x0c, "6" )
+	PORT_DIPNAME( 0x30, 0x30, "Starting Difficulty" )
+	PORT_DIPSETTING(    0x30, "1" )
+	PORT_DIPSETTING(    0x10, "5" )
+	PORT_DIPSETTING(    0x00, "10" )
+/*  PORT_DIPSETTING(    0x20, "1" )*/
+	PORT_DIPNAME( 0x40, 0x40, DEF_STR( Free_Play ) )
+	PORT_DIPSETTING(    0x40, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_COIN1 )
+INPUT_PORTS_END
+
+Resolution: vector @ 38.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Demon
+(Note: multiple games are matched by this link.)
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=9948
+
+ROMSet: Demon
+Service Mode: Off
+Lives: 3
+Starting Difficulty: 1
+Free Play: Off
+
+Sample correct TG:
+INPUTS: offset 0x22, repeat every 0x7C, typical value 0xFFFF, but changes with all inputs - probbaly easier to verify visually
+- INPUTS: 0x0080 (SERVICE MODE): 0x0080 (Off)
+SWITCHES: offset 0x27, repeat every 0x7C, typical value 0xF3
+- SWITCHES: 0x03 (Coinage): [not relevant]
+- SWITCHES: 0x0c (Lives): 0x00 (3)
+- SWITCHES: 0x30 (Starting Difficulty): 0x30 (1)
+- SWITCHES: 0x40 (Free_Play): 0x40 (Off)
+
+    20: 00 00 FF FF 00 00 00 F3  00 00 00 00 00 00 00 00
+    90: 00 00 00 00 00 00 00 00  3E 82 43 E1 00 00 FF FF
+    A0: 00 00 00 F3 00 00 00 00  00 00 00 00 00 00 00 00
+   110: 00 00 00 00 3E 82 43 E1  00 00 FF FF 00 00 00 F3

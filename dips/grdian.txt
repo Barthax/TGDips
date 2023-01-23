@@ -1,0 +1,12 @@
+ROM set changed: yes
+0.106-0.126: getstar - "Guardian"
+0.127-0.152: getstar - "Guardian (US)"
+0.153-0.240: grdian - "Guardian (US)"
+
+From MAMEINFO.DAT:
+- 0.153: Renamed (getstar) to (grdian), (gtstarb1) to (getstarb1) and (gtstarb2) to (getstarb2).
+
+Resolution, 0.106-0.240: 280x240 @ 60.000000Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/guardian-taito/mame
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=231612

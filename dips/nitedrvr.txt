@@ -1,6 +1,8 @@
 ROM set changed: no
-0.106-0.175: nitedrvr - "Night Driver"
+0.106-0.200: nitedrvr - "Night Driver"
 
-Resolution, 0.106-0.175: 256x256 @ 57.000000Hz
+Resolution, 0.106-0.199: 256x256 @ 57.000000Hz
+Resolution, 0.200-     : 256x256 @ 56.654676Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Night Driver
+TG Game Entry: https://www.twingalaxies.com/game/night-driver/mame
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=9235

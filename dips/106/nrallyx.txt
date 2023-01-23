@@ -1,0 +1,76 @@
+# MAME 0.106 source snippet [rallyx.c]
+
+GAME( 1981, nrallyx,  0,        rallyx,   nrallyx,  rallyx,   ROT0, "Namco", "New Rally X", 0 )
+
+INPUT_PORTS_START( nrallyx )
+	PORT_START_TAG("IN0")
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_SERVICE1 )
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_BUTTON1 )
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_4WAY
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_4WAY
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_4WAY
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_4WAY
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_START1 )
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_COIN1 )
+
+	PORT_START_TAG("IN1")
+	PORT_DIPNAME( 0x01, 0x01, DEF_STR( Cabinet ) )
+	PORT_DIPSETTING(	0x01, DEF_STR( Upright ) )
+	PORT_DIPSETTING(	0x00, DEF_STR( Cocktail ) )
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_COCKTAIL
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_4WAY PORT_COCKTAIL
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_4WAY PORT_COCKTAIL
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_4WAY PORT_COCKTAIL
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_4WAY PORT_COCKTAIL
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_START2 )
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_COIN2 )
+
+	PORT_START_TAG("DSW")
+	PORT_DIPNAME( 0xc0, 0xc0, DEF_STR( Coinage ) )
+	PORT_DIPSETTING(	0x40, DEF_STR( 2C_1C ) )
+	PORT_DIPSETTING(	0xc0, DEF_STR( 1C_1C ) )
+	PORT_DIPSETTING(	0x80, DEF_STR( 1C_2C ) )
+	PORT_DIPSETTING(	0x00, DEF_STR( Free_Play ) )
+	PORT_DIPNAME( 0x38, 0x00, DEF_STR( Difficulty ) )
+	PORT_DIPSETTING(	0x10, "1 Car, Medium" )
+	PORT_DIPSETTING(	0x28, "1 Car, Hard" )
+	PORT_DIPSETTING(	0x18, "2 Cars, Medium" )
+	PORT_DIPSETTING(	0x30, "2 Cars, Hard" )
+	PORT_DIPSETTING(	0x00, "3 Cars, Easy" )
+	PORT_DIPSETTING(	0x20, "3 Cars, Medium" )
+	PORT_DIPSETTING(	0x38, "3 Cars, Hard" )
+	PORT_DIPSETTING(	0x08, "4 Cars, Easy" )
+	/* TODO: the bonus score depends on the number of lives */
+	PORT_DIPNAME( 0x06, 0x02, DEF_STR( Bonus_Life ) )
+	PORT_DIPSETTING(	0x02, "A" )
+	PORT_DIPSETTING(	0x04, "B" )
+	PORT_DIPSETTING(	0x06, "C" )
+	PORT_DIPSETTING(	0x00, DEF_STR( None ) )
+	PORT_SERVICE( 0x01, IP_ACTIVE_LOW )
+INPUT_PORTS_END
+
+
+Resolution: 288x224 @ 60.606060Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=New+Rally-X
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=7776
+
+ROMSet: NRallyX
+Cabinet: Upright
+Difficulty: 3 Cars, Medium
+Bonus Life: A [20000 80000]
+Service Mode: Off
+
+Sample correct TG:
+IN1: offset 0x27, repeat every 0x7C, typical value 0xFF
+- IN1: 0x01 (Cabinet): 0x01 (Upright)
+DSW0: offset 0x2B, repeat every 0x7C, typical value 0xE3
+- DSW0: 0xc0 (Coinage): [not relevant]
+- DSW0: 0x38 (Difficulty): 0x20 (3 Cars, Medium)
+- DSW0: 0x06 (Bonus_Life): 0x02 (A)
+- DSW0: 0x01 (SERVICE MODE): 0x01 (Off)
+
+    20: 00 00 00 FF 00 00 00 FF  00 00 00 E3 00 00 00 00
+    A0: 00 00 00 FF 00 00 00 E3  00 00 00 00 00 00 00 00
+   110: 00 00 00 00 3E 82 43 E1  00 00 00 FF 00 00 00 FF
+   120: 00 00 00 E3 00 00 00 00  00 00 00 00 00 00 00 00

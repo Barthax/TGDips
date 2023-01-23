@@ -1,12 +1,14 @@
 ROM set changed: yes
 0.106-0.148: misncrft - "Mission Craft (version 2.4)"
-0.149-0.175: misncrfta - "Mission Craft (version 2.4)"
+0.149-0.200: misncrfta - "Mission Craft (version 2.4)"
 
 MAME History:
 - 0.149: Artemio Urbina and The Dumping Union added Mission Craft (version 2.7). Renamed (misncrft) to (misncrfta).
 
-Resolution, 0.106-0.175: 320x236 @ 60.000000Hz
+Resolution, 0.106-0.200: 320x236 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Mission%20Craft%20[version%202.4]
+TG Game Entry: https://www.twingalaxies.com/game/mission-craft-version-24/mame/
 Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=75587
 Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=75588
+
+NOTE: All relevant rules are covered by internal settings.  If not shown during playback, use F2 to access after playback completed.

@@ -1,0 +1,13 @@
+ROM set changed: yes.
+0.106-0.201: tokisens - "Toki no Senshi - Chrono Soldier"
+0.202-     : tokisensa - "Toki no Senshi - Chrono Soldier (prototype?)"
+
+From MAMEINFO.DAT:
+- 0.202: ShouTime added Toki no Senshi - Chrono Soldier (MC-8123, 317-0040). The 317-0040 key was brute forced. Added CPU overclock hack in the init routine, otherwise player dies in attract mode and game gives a continue screen, probably the other Z80 timing kludges aren't quite accurate (or the encrypted CPU differs). Could also be different screen refresh, or even just exactly when the first interrupt occurs [David Haywood]. Changed Toki no Senshi to clone 'Toki no Senshi - Chrono Soldier (prototype?)'. Renamed (tokisens) to (tokisensa).
+
+Resolution, 0.106-0.130: 256x224 @ 60.000000Hz
+Resolution, 0.131-0.144: 256x224 @ 60.096154Hz
+Resolution, 0.145-0.202: 512x224 @ 60.096154Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/toki-no-senshi-chrono-soldier/mame
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=120441

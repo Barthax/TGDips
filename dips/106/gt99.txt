@@ -1,3 +1,5 @@
+# MAME 0.106 source snippet [itech32.c]
+
 GAME( 1999, gt99,     0,        gt3d,    aama,  aama,     ROT0, "Incredible Technologies", "Golden Tee '99 (v1.00)" , 0) /* PIC 16C54 labeled as ITGF99 */
 
 INPUT_PORTS_START( aama )
@@ -103,9 +105,21 @@ INPUT_PORTS_START( itech32_base )
 	PORT_BIT( 0x00ff, IP_ACTIVE_LOW, IPT_UNUSED )
 INPUT_PORTS_END
 
-Resolution: 384x240 @ 60Hz
+Resolution: 384x240 @ 60.000000Hz
 
-Rules:
+TG Game Entry: https://www.twingalaxies.com/game/golden-tee-99-v100/mame/
+Rules, Aspen Lake [Least Amount of Strokes]: https://www.twingalaxies.com/scores.php?scores=70056
+Rules, Aspen Lake [Longest Drive]: https://www.twingalaxies.com/scores.php?scores=70060
+Rules, Aspen Lake [Longest Putt]: https://www.twingalaxies.com/scores.php?scores=70063
+Rules, Coconut Cove [Least Amount of Strokes]: https://www.twingalaxies.com/scores.php?scores=70057
+Rules, Coconut Cove [Longest Drive]: https://www.twingalaxies.com/scores.php?scores=70061
+Rules, Coconut Cove [Longest Putt]: https://www.twingalaxies.com/scores.php?scores=70064
+Rules, Rancho Saguaro [Least Amount of Strokes]: https://www.twingalaxies.com/scores.php?scores=70058
+Rules, Rancho Saguaro [Longest Drive]: https://www.twingalaxies.com/scores.php?scores=70062
+Rules, Rancho Saguaro [Longest Putt]: https://www.twingalaxies.com/scores.php?scores=70066
+
+NOTE: This game has both DIPs & internal settings covered by the rules. If not shown during playback, press F2 to access & check internal settings afterwards.
+
 ROMSet: GT99
 Service Mode: Off
 Trackball Orientation: Normal Mount
@@ -118,16 +132,14 @@ No Hole In One Contest
 3 Hole Operator Event Off
 
 Sample correct TG:
-DIPS: offset 0x33, repeat varies due to analogue inputs, typical value 0x0F (and 0x0B)
-- DIPS: 0x0001 (unused): [not relevant]
-- DIPS: 0x0002 (service): [not relevant]
-- DIPS: 0x0004 (vertical blank): [not relevant]
-- DIPS: 0x0008 (special): [not relevant]
+DIPS: offset 0x33, repeat every 0x7C but varies due to analog input, typical initial value 0x0F, 0x0B after VBLANK
+- DIPS: 0x0004 (IPT_VBLANK)
+- DIPS: 0x0080 (Service Mode): 0x0000 (Off)
 - DIPS: 0x0010 (Trackball Orientation): 0x0000 (Normal Mount)
 - DIPS: 0x0020 (Cabinet): 0x0000 (Upright)
 - DIPS: 0x0040 (Controls): 0x0000 (One Trackball)
-- DIPS: 0x0080 (Service_Mode): 0x0000 (Off)
 
-    30: 00 00 00 0F 00 00 00 FF  00 00 00 00 00 00 00 00 | ....... ........
-    A0: 00 00 00 FF 00 00 00 FF  00 00 00 FF 00 00 00 0F | ... ... ... ....
-   120: 00 00 00 FF 00 00 00 FF  00 00 00 0B 00 00 00 FF | ... ... ....... 
+    30: 00 00 00 0F 00 00 00 FF  00 00 00 00 00 00 00 00
+    A0: 00 00 00 FF 00 00 00 FF  00 00 00 FF 00 00 00 0F
+   110: 00 00 00 00 3E 82 43 E1  00 00 00 FF 00 00 00 FF
+   120: 00 00 00 FF 00 00 00 FF  00 00 00 0B 00 00 00 FF

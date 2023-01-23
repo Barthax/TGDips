@@ -1,3 +1,7 @@
+# MAME 0.106 source snippet [hyperspt.c]
+
+GAME( 1984, roadf,	  0,		roadf,	  roadf,	hyperspt, ROT90, "Konami", "Road Fighter (set 1)", 0 )
+
 INPUT_PORTS_START( roadf )
 	PORT_START_TAG("IN0")
 	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_COIN1 )
@@ -92,17 +96,40 @@ INPUT_PORTS_START( roadf )
 	PORT_DIPSETTING(	0x00, DEF_STR( On ) )
 INPUT_PORTS_END
 
-Resolution: 256x224 @ 60Hz
+Resolution: 256x224 @ 60.000000Hz
 
-Rules: http://www.twingalaxies.com/scores.php?scores=43034
+TG Game Entry: https://www.twingalaxies.com/game/road-fighter-set-1/mame/
+--------------------------------------------------------------------------------
+Rules, Points [Tournament Settings]: https://www.twingalaxies.com/scores.php?scores=7802
+
+ROMSet: RoadF
+Allow Continue: No
+Number Of Opponents: Medium
+Speed Of Opponents: Difficult
+Fuel Consumption: Medium
+Cabinet: Upright
+
+Sample correct TG:
+IN1: offset 0x33, repeat every 0x7C, typical value 0x25
+-IN1: 0x01 (Allow_Continue): 0x01 (No)
+-IN1: 0x06 (Number of Opponents): 0x04 (Medium)
+-IN1: 0x08 (Speed of Opponents): 0x00 (Difficult)
+-IN1: 0x30 (Fuel Consumption): 0x20 (Medium)
+-IN1: 0x40 (Cabinet): 0x00 (Upright)
+-IN1: 0x80 (Demo Sounds): [not relevant, typical value 0x00 (On)]
+
+    30: 00 00 00 24 00 00 00 00  00 00 00 00 00 00 00 00
+    A0: 00 00 00 FF 00 00 00 BF  00 00 00 FF 00 00 00 24
+   120: 00 00 00 BF 00 00 00 FF  00 00 00 24 00 00 00 00
+--------------------------------------------------------------------------------
+Rules, Points [Marathon Settings]: https://www.twingalaxies.com/scores.php?scores=43034
+
 ROMSet: RoadF
 Allow Continue: No
 Number Of Opponents: Easy
 Speed Of Opponents: Easy
 Fuel Consumption: Easy
 Cabinet: Upright
-Special Rules: Your score is regardless of race position achieved.
-
 
 Sample correct TG:
 IN1: offset 0x33, repeat every 0x7C, typical value 0x3F
@@ -113,6 +140,6 @@ IN1: offset 0x33, repeat every 0x7C, typical value 0x3F
 -IN1: 0x40 (Cabinet): 0x00 (Upright)
 -IN1: 0x80 (Demo Sounds): [not relevant, typical value 0x00 (On)]
 
-    30: 00 00 00 3F 00 00 00 00  00 00 00 00 00 00 00 00 | ...?............
-    A0: 00 00 00 FF 00 00 00 BF  00 00 00 FF 00 00 00 3F | ... ...+... ...?
-   120: 00 00 00 BF 00 00 00 FF  00 00 00 3F 00 00 00 00 | ...+... ...?....
+    30: 00 00 00 3F 00 00 00 00  00 00 00 00 00 00 00 00
+    A0: 00 00 00 FF 00 00 00 BF  00 00 00 FF 00 00 00 3F
+   120: 00 00 00 BF 00 00 00 FF  00 00 00 3F 00 00 00 00

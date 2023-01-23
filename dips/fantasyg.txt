@@ -1,0 +1,16 @@
+ROM set changed: yes
+0.106-0.174: fantasy - "Fantasy (World)"
+0.175-0.187: fantasy - "Fantasy (Germany)"
+0.188-     : fantasyg - "Fantasy (Germany)"
+
+MAME History:
+- 0.122u8: Added dipswitches 'Coinage Bonus' and 'Unused'.
+- 0.175: Fantasy (World) is actually Germany version (and likely bootleg too) [Angelo Salese]. Changed description to 'Fantasy (Germany)'.
+- 0.188: Made Fantasy (US) the parent for consistency, since up until now the parent was the German version [Osso]. Renamed (fantasy) to (fantasyg).
+
+Resolution, 0.106-0.113: 256x224 @ 61.246746Hz
+Resolution, 0.114-0.128: 256x224 @ 61.246745Hz
+Resolution, 0.129-0.188: 256x224 @ 61.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Fantasy+[World]
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=9865

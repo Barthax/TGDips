@@ -1,12 +1,12 @@
 ROM set changed: no
-0.106-0.175: gt3d - "Golden Tee 3D Golf (v1.93N)"
+0.106-0.203: gt3d - "Golden Tee 3D Golf (v1.93N)"
 
 Resolution, 0.106-0.113: 384x240 @ 60.000000Hz
 Resolution, 0.114-0.122: 200x200 @ 60.000000Hz
 Resolution, 0.123-0.153: 384x256 @ 60.106990Hz
-Resolution, 0.154-0.175: 384x240 @ 60.106990Hz
+Resolution, 0.154-0.203: 384x240 @ 60.106990Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Golden%20Tee%203D%20Golf%20[v1.93N]
+TG Game Entry: https://www.twingalaxies.com/game/golden-tee-3d-golf-v193n/mame/
 Rules, Cactus Canyon [Least Amount of Strokes]: http://www.twingalaxies.com/scores.php?scores=70230
 Rules, Cactus Canyon [Longest Drive]: http://www.twingalaxies.com/scores.php?scores=70234
 Rules, Cactus Canyon [Longest Putt]: http://www.twingalaxies.com/scores.php?scores=70237
@@ -16,3 +16,7 @@ Rules, Oak Valley [Longest Putt]: http://www.twingalaxies.com/scores.php?scores=
 Rules, Ocean Pointe [Least Amount of Strokes]: http://www.twingalaxies.com/scores.php?scores=70233
 Rules, Ocean Pointe [Longest Drive]: http://www.twingalaxies.com/scores.php?scores=70236
 Rules, Coral Ridge [Longest Putt]: http://www.twingalaxies.com/scores.php?scores=70239
+
+NOTES:
+This game has both DIPs & internal settings covered by the rules. If not shown during playback, press F2 to access & check internal settings afterwards.
+There is no Cabinet DIP in this game - almost certainly a copy & paste from tracks for the later games in the Golden Tee series.

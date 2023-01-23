@@ -1,16 +1,20 @@
 ROM set changed: yes
 0.106-0.117: battleg - "Battle Garegga - Type 2 (Denmark / China) (Tue Apr 2 1996)"
 0.117u1-0.133: bgaregcn - "Battle Garegga - Type 2 (Denmark / China) (Tue Apr 2 1996)"
-0.133u1-0.175: bgareggacn - "Battle Garegga - Type 2 (Denmark / China) (Tue Apr 2 1996)"
+0.133u1-0.203: bgareggacn - "Battle Garegga - Type 2 (Denmark / China) (Tue Apr 2 1996)"
 
 MAME History:
 - 0.117u1: Alex Jackson added clone 'Battle Garegga - Type 2 (Europe / USA / Japan / Asia) (Sat Mar 2 1996)'. Reorganized the Battle Garegga sets in a more sensible fashion. Also fixed the randomly crashes. Changed description of clone 'Battle Garegga (Austria / Hong Kong) (Sat Mar 2 1996)' to 'Battle Garegga - New Version (Austria / Hong Kong) (Sat Mar 2 1996)'. Renamed (battleg) to (bgaregcn), (battlega) to (bgaregga), (battlegb) to (bgaregnv) and (battlegc) to (bgareghk).
 - 0.133u1: Renamed (bgareghk) to (bgareggahk), (bgaregnv) to (bgaregganv), (bgaregt2) to (bgareggat2) and (bgaregcn) to (bgareggacn).
 
 Resolution, 0.106-0.151: 320x240 @ 60.000000Hz
-Resolution, 0.152-0.175: 320x240 @ 59.637405Hz
+Resolution, 0.152-0.203: 320x240 @ 59.637405Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Battle%20Garegga%20-%20Type%202%20[Denmark/China]%20[Tues%20Apr%202%201996]
+TG Game Entry: https://www.twingalaxies.com/game/battle-garegga-type-2-denmark-china-tues-apr-2-1996/mame/
 Rules, Points [1 Player Only]: http://www.twingalaxies.com/scores.php?scores=11922
 Rules, Points [2 Player Team]: http://www.twingalaxies.com/scores.php?scores=11923
 
+NOTES:
+Difficulty Medium was renamed to Normal at about 0.142
+Since 0.173, the conditional DIPs feature of this game affects WolfMAME's inpview. Verify settings with caution! [Machine Configuration setting "Region" affects "Bonus_Life" DIP]
+If Service Mode (F1+F2) is entered DURING RECORDING, DIP settings used for the performance can be displayed - this may assist verification. However, doing so AFTER PLAYBACK has ended will only display the viewer's local DIP settings, not those used for the performance.

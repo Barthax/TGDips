@@ -1,7 +1,9 @@
 ROM set changed: no
-0.106-0.175: ultratnk - "Ultra Tank"
+0.106-0.240: ultratnk - "Ultra Tank"
 
 Resolution, 0.106-0.113: 256x224 @ 60.000000Hz
-Resolution, 0.114-0.175: 256x224 @ 60.114504Hz
+Resolution, 0.114-0.240: 256x224 @ 60.114504Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Ultra Tank
+TG Game Entry: https://www.twingalaxies.com/game/ultra-tank/mame/
+Rules, Biggest Blowout: https://www.twingalaxies.com/scores.php?scores=120510
+Rules, Open Field: https://www.twingalaxies.com/scores.php?scores=232531

@@ -1,11 +1,11 @@
 ROM set change: no
-0.106-0.175: armwarr1 - "Armored Warriors (Euro 941011)"
+0.106-0.201: armwarr1 - "Armored Warriors (Euro 941011)"
 
 Resolution, 0.106-0.127: 384x224 @ 59.633333Hz
 Resolution, 0.128-0.152: 384x224 @ 59.629403Hz
-Resolution, 0.153-0.175: 384x224 @ 59.637405Hz
+Resolution, 0.153-0.201: 384x224 @ 59.637405Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Armored%20Warriors%20[Euro%20941011]
-Rules, Single Player: http://www.twingalaxies.com/scores.php?scores=11896
-Rules, Two Player: http://www.twingalaxies.com/scores.php?scores=11899
-Rules, Three Player: http://www.twingalaxies.com/scores.php?scores=11907
+TG Game Entry: https://www.twingalaxies.com/game/armored-warriors-euro-941011/mame/
+Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=11896
+Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=11899
+Rules, Points [Three Player Team]: http://www.twingalaxies.com/scores.php?scores=11907

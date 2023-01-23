@@ -1,8 +1,17 @@
 ROM set changed: no
-0.106-0.175: tmnt - "Teenage Mutant Ninja Turtles (World 4 Players)"
+0.106-0.176: tmnt - "Teenage Mutant Ninja Turtles (World 4 Players)"
+0.177-0.222: tmnt - "Teenage Mutant Ninja Turtles (World 4 Players, version X)"
+
+From MAMEINFO.DAT:
+- 0.177: The Iron Goat added clone Teenage Mutant Ninja Turtles (US 4 Players, version H). Changed parent description to 'Teenage Mutant Ninja Turtles (World 4 Players, version X)' and clones (UK 2 Players, set 1) to 'Teenage Mutant Hero Turtles (UK 2 Players, version U)', (UK 2 Players, set 2) to 'Teenage Mutant Hero Turtles (UK 2 Players, version ?)', (UK 4 Players, set 1) to 'Teenage Mutant Hero Turtles (UK 4 Players, version F)', (UK 4 Players, set 2) to 'Teenage Mutant Hero Turtles (UK 4 Players, version S)', (UK 4 Players, set 3) to 'Teenage Mutant Hero Turtles (UK 4 Players, version ?)', (Japan 2 Players) to 'Teenage Mutant Ninja Turtles (Japan 2 Players, version 1)', (Japan 4 Players) to 'Teenage Mutant Ninja Turtles (Japan 4 Players, version 2)', (Oceania 2 Players) to 'Teenage Mutant Ninja Turtles (Oceania 2 Players, version ?)', (US 4 Players, set 1) to 'Teenage Mutant Ninja Turtles (US 4 Players, version R)' and (US 4 Players, set 2) to 'Teenage Mutant Ninja Turtles (US 4 Players, version J)'.
 
 Resolution, 0.106-0.143: 304x224 @ 60.000000Hz
 Resolution, 0.144-0.174: 320x224 @ 60.000000Hz
-Resolution, 0.175: 312x224 @ 60.000000Hz
+Resolution, 0.175-0.179: 312x224 @ 60.000000Hz
+Resolution, 0.180-0.222: 320x224 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Teenage Mutant Ninja Turtles [World 4 Players]
+TG Game Entry: https://www.twingalaxies.com/game/teenage-mutant-ninja-turtles-world-4-players/mame
+Rules, Points [Single Player Only]: https://www.twingalaxies.com/scores.php?scores=41674
+Rules, Points [Two Player Team]: https://www.twingalaxies.com/scores.php?scores=68873
+Rules, Points [Three Player Team]: https://www.twingalaxies.com/scores.php?scores=68874
+Rules, Points [Four Player Team]: https://www.twingalaxies.com/scores.php?scores=68875

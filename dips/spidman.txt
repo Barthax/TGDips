@@ -1,6 +1,12 @@
 ROM set changed: no
-0.106-0.175: spidman - "Spider-Man: The Videogame (World)"
+0.106-0.240: spidman - "Spider-Man: The Videogame (World)"
 
-Resolution, 0.106-0.175: 416x224 @ 60.000000Hz
+Resolution, 0.106-0.240: 416x224 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Spider-Man: The Videogame [World]
+TG Game Entry: https://www.twingalaxies.com/game/spider-man-the-videogame-world/mame/
+Rules, Points [Single Player Only]: https://www.twingalaxies.com/scores.php?scores=110736
+Rules, Points [Two Player Team]: https://www.twingalaxies.com/scores.php?scores=110737
+Rules, Points [Three Player Team]: https://www.twingalaxies.com/scores.php?scores=110738
+Rules, Points [Four Player Team]: https://www.twingalaxies.com/scores.php?scores=110739
+Rules, Points [Single Player only] [HARDEST SETTINGS]: https://www.twingalaxies.com/scores.php?scores=237505
+Rules, Points [Two Player Team] [HARDEST SETTINGS]: https://www.twingalaxies.com/scores.php?scores=237504

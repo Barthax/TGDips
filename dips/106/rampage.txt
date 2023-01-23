@@ -1,0 +1,97 @@
+# MAME 0.106 source snippet [mcr3.c]
+
+GAME( 1986, rampage,  0,        mono_sg,   rampage,  rampage,  ROT0,  "Bally Midway", "Rampage (revision 3)", GAME_SUPPORTS_SAVE )
+
+/* verified from wiring diagram, plus DIP switches from manual */
+INPUT_PORTS_START( rampage )
+	PORT_START_TAG("MONO.IP0")	/* J2 1-8 */
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_COIN1 )
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_COIN2 )
+	PORT_BIT( 0x0c, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_TILT )
+	PORT_SERVICE( 0x20, IP_ACTIVE_LOW )
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_SERVICE )
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_UNUSED )
+
+	PORT_START_TAG("MONO.IP1")	/* J2 10-13,15-18 */
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_8WAY PORT_PLAYER(1)
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_8WAY PORT_PLAYER(1)
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_8WAY PORT_PLAYER(1)
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_8WAY PORT_PLAYER(1)
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_PLAYER(1)
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_BUTTON2 ) PORT_PLAYER(1)
+	PORT_BIT( 0xc0, IP_ACTIVE_LOW, IPT_UNUSED )
+
+	PORT_START_TAG("MONO.IP2")	/* J3 1-8 */
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_8WAY PORT_PLAYER(2)
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_8WAY PORT_PLAYER(2)
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_8WAY PORT_PLAYER(2)
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_8WAY PORT_PLAYER(2)
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_PLAYER(2)
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_BUTTON2 ) PORT_PLAYER(2)
+	PORT_BIT( 0xc0, IP_ACTIVE_LOW, IPT_UNUSED )
+
+	PORT_START_TAG("MONO.IP3")
+	PORT_DIPNAME( 0x03, 0x03, DEF_STR( Difficulty ) )
+	PORT_DIPSETTING(    0x02, DEF_STR( Easy ) )
+	PORT_DIPSETTING(    0x03, DEF_STR( Normal ) )
+	PORT_DIPSETTING(    0x01, DEF_STR( Hard ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Free_Play ) )
+	PORT_DIPNAME( 0x04, 0x04, "Score Option" )
+	PORT_DIPSETTING(    0x04, "Keep score when continuing" )
+	PORT_DIPSETTING(    0x00, "Lose score when continuing" )
+	PORT_DIPNAME( 0x08, 0x08, DEF_STR( Coin_A ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( 2C_1C ) )
+	PORT_DIPSETTING(    0x08, DEF_STR( 1C_1C ) )
+	PORT_DIPNAME( 0x70, 0x70, DEF_STR( Coin_B ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( 3C_1C ) )
+	PORT_DIPSETTING(    0x10, DEF_STR( 2C_1C ) )
+	PORT_DIPSETTING(    0x70, DEF_STR( 1C_1C ) )
+	PORT_DIPSETTING(    0x60, DEF_STR( 1C_2C ) )
+	PORT_DIPSETTING(    0x50, DEF_STR( 1C_3C ) )
+	PORT_DIPSETTING(    0x40, DEF_STR( 1C_4C ) )
+	PORT_DIPSETTING(    0x30, DEF_STR( 1C_5C ) )
+	PORT_DIPSETTING(    0x20, DEF_STR( 1C_6C ) )
+	PORT_BIT( 0x80,    0x80, IPT_DIPSWITCH_NAME ) PORT_NAME("Rack Advance (Cheat)") PORT_CODE(KEYCODE_F1)
+	PORT_DIPSETTING(    0x80, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+
+	PORT_START_TAG("MONO.IP4")	/* J4 1-7,9 */
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_4WAY PORT_PLAYER(3)
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_4WAY PORT_PLAYER(3)
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_4WAY PORT_PLAYER(3)
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_4WAY PORT_PLAYER(3)
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_PLAYER(3)
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_BUTTON2 ) PORT_PLAYER(3)
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_BIT( 0x80, IP_ACTIVE_HIGH, IPT_SPECIAL )	/* status from Sounds Good board */
+INPUT_PORTS_END
+
+Resolution: 512x480 @ 30.000000Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/rampage-revision-3/mame/
+Rules, Points [Single Player Only]: https://www.twingalaxies.com/scores.php?scores=31210
+Rules, Points [Two Player Team]: https://www.twingalaxies.com/scores.php?scores=31211
+Rules, Points [Three Player Team]: https://www.twingalaxies.com/scores.php?scores=31212
+
+ROMSet: Rampage
+Service Mode: Off
+Difficulty: Normal
+Score Option: Lose Score when Continuing
+Rack Advance [Cheat]: Off
+
+Sample correct TG: (DIPs should be evident from playback, but anyhoo...)
+MONO.IP0: offset 0x23, repeat every 0x7C, typical value 0xFF
+- MONO.IP0: 0x20 (PORT_SERVICE): 0x20 (Off)
+MONO.IP3: offset 0x2F, repeat every 0x7C, typical value 0xFB
+- MONO.IP3: 0x03 (Difficulty): 0x03 (Normal)
+- MONO.IP3: 0x04 (Score Option): 0x00 (Lose score when continuing)
+- MONO.IP3: 0x08 (Coin_A): [not relevant]
+- MONO.IP3: 0x70 (Coin_B): [not relevant]
+- MONO.IP3: 0x80 (Rack Advance (Cheat)): 0x80 (Off)
+
+    20: 00 00 00 FF 00 00 00 FF  00 00 00 FF 00 00 00 FB
+    90: 00 00 00 00 00 00 00 00  3E 82 43 E1 00 00 00 FF
+    A0: 00 00 00 FF 00 00 00 FF  00 00 00 FB 00 00 00 7F
+   110: 00 00 00 00 3E 82 43 E1  00 00 00 FF 00 00 00 FF
+   120: 00 00 00 FF 00 00 00 FB  00 00 00 7F 00 00 00 00

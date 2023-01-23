@@ -1,10 +1,30 @@
-ROm set changed: no
-0.106-0.175: gondo - "Gondomania (US)"
+Note: two ROM sets are represented here with the changeover at 0.217.
+
+From MAMEINFO.DAT:
+- 0.145u4: Stephane Humbert fixed dipswitches and inputs (after verification of the M6809/HD6309 code) in Gondomania and clone. Added 'Swap buttons' dipswitch. Changed 'Unknown' dipswitches to 'Unused'.
+- 0.217: Corrado Tomaselli and The Dumping Union added Gondomania (World). Note: I8751 protection MCU not dumped. Renamed (gondo) to (gondou).
+
+Gondomania (US)
+---------------
+ROM set changed: yes
+0.106-0.216: gondo - "Gondomania (US)"
+0.217-     : gondou - "Gondomania (US)"
 
 Resolution, 0.106-0.147: 256x240 @ 58.000000Hz
 Resolution, 0.148-0.155: 256x240 @ 57.392103Hz
 Resolution, 0.156-0.175: 256x240 @ 57.444853Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Gondomania%20[US]
+TG Game Entry: https://www.twingalaxies.com/game/gondomania-us/mame
 Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=70536
 Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=70537
+
+
+Gondomania (World)
+------------------
+Note: not currently represented on TG.
+ROM set changed: no.  Added in 0.217.
+0.217-     : gondo - "Gondomania (World)"
+
+Resolution, 0.217-     : 256x240 @ 57.444853Hz
+
+Rules: [no current tracks]

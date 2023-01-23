@@ -1,0 +1,11 @@
+ROM set changed: yes.
+0.090-0.133: jumpcoat - "Jump Coaster (Taito)"
+0.134-0.200: jumpcoast - "Jump Coaster (Taito)"
+
+From MAMEINFO.DAT:
+- 0.89u4: Thierry and Gerald added clone Jump Coaster (Taito).
+- 0.133u1: Renamed (jumpcoat) to (jumpcoast).
+
+Resolution, 0.090-0.200: 256x224 @ 60.000000Hz
+
+NOTE: not currently represented at TG

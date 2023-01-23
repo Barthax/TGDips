@@ -1,8 +1,8 @@
 ROM set changed: no
-0.106-0.183: hardhat - "Hard Hat"
+0.106-0.197: hardhat - "Hard Hat"
 
 Resolution, 0.106-0.113: 248x256 @ 57.000000Hz
-Resolution, 0.114-0.183: 256x256 @ 59.996811Hz
+Resolution, 0.114-0.197: 256x256 @ 59.996811Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Hard+Hat
+TG Game Entry: https://www.twingalaxies.com/game/hard-hat/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=9613

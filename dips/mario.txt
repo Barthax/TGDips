@@ -1,37 +1,41 @@
-Note: three ROM sets represented here with changeovers at 0.119u1 and 0.132u3.
+Note: four ROM sets represented here with changeovers at 0.119u1, 0.132u3 and 0.193.
 
 MAME History:
 - 0.119u1: Stephane Humbert added Mario Bros. (US, set 1). Fixed dipswitches. Changed 'Mario Bros. (US)' to clone '(US, set 2)'. Renamed (mario) to (marioo) and (mariojp) to (marioj).
 - 0.132u3: Mr Goodwraith, Smitdogg and Dumping Union added Mario Bros. (US, Revision F). Fixed rom names. Changed (US, set 1) to clone 'Mario Bros. (US, Revision E)' and clone (US, set 2) to clone 'Mario Bros. (US, Unknown Rev)'. Renamed (mario) to (marioe).
+- 0.193: Verified Mario Bros. (US, Unknown Rev) as revision G and identified the unknown PROM as the main cpu memory map decoding PROM [Bryan McPhail]. Changed clone (US, Unknown Rev) to parent 'Mario Bros. (US, Revision G)'. Renamed (mario) to (mariof) and (marioo) to (mario).
 
+NOTE: Reversed difficulty (MED <-> HARD) reported at 0.106 (and most likely earlier) appears to have been fixed around 0.121, though can only find anecdotal reports and no documented confirmation of this.
 
-Mario Bros. (US) / (US, set 2) / (US, Unknown Rev)
---------------------------------------------------
+Mario Bros. (US) / (US, set 2) / (US, Unknown Rev) / Mario Bros. (US, Revision G)
+---------------------------------------------------------------------------------
 ROM set changed: yes
 0.106-0.119: mario - "Mario Bros. (US)"
-0.119u1-0.132: marioo - "Mario Bros. (US, set 2)"
-0.132u3-0.175: marioo - "Mario Bros. (US, Unknown Rev)"
+0.120-0.132: marioo - "Mario Bros. (US, set 2)"
+0.133-0.192: marioo - "Mario Bros. (US, Unknown Rev)"
+0.193-0.240: mario - "Mario Bros. (US, Revision G)"
 
 Resolution, 0.106-0.122: 256x224 @ 60.000000Hz
-Resolution, 0.123-0.175: 256x224 @ 59.185606Hz
+Resolution, 0.123-0.240: 256x224 @ 59.185606Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Mario%20Bros.%20[US]
-Rules, Single Player, Medium: http://www.twingalaxies.com/scores.php?scores=122029
-Rules, Single Player, Hard: http://www.twingalaxies.com/scores.php?scores=5224
-Rules, Two Player, Hard: http://www.twingalaxies.com/scores.php?scores=19169
-Rules, Single Player NO POW, Hard: http://www.twingalaxies.com/scores.php?scores=90384
-Rules, Two Player, NO POW, Hard: http://www.twingalaxies.com/scores.php?scores=90385
+TG Game Entry: http://www.twingalaxies.com/mario-bros-us/mame/
+Rules, Points [ Single Player: HARD ]: http://www.twingalaxies.com/scores.php?scores=5224
+Rules, Points [ Single Player: MEDIUM ]: http://www.twingalaxies.com/scores.php?scores=122029
+Rules, Points [ No POW Challenge: HARD ]: http://www.twingalaxies.com/scores.php?scores=90384
+Rules, Points [ Two Player Team: HARD ]: http://www.twingalaxies.com/scores.php?scores=19169
+Rules, Points [ No POW Challenge / 2 Player Team: HARD ]: http://www.twingalaxies.com/scores.php?scores=90385
+Rules, [No POW Challenge: MEDIUM]: http://www.twingalaxies.com/scores.php?scores=233312
 
 
 Mario Bros. (US, set 1) / (US, Revision E)
 ------------------------------------------
 Note: not currently represented on TG.
 ROM set changed: yes.  Added in 0.119u1.
-0.119u1-0.132: mario - "Mario Bros. (US, set 1)"
-0.132u3-0.175: marioe - "Mario Bros. (US, Revision E)"
+0.120-0.132: mario - "Mario Bros. (US, set 1)"
+0.133-0.240: marioe - "Mario Bros. (US, Revision E)"
 
 Resolution, 0.120-0.122: 256x224 @ 60.000000Hz
-Resolution, 0.123-0.175: 256x224 @ 59.185606Hz
+Resolution, 0.123-0.240: 256x224 @ 59.185606Hz
 
 Rules: [no current tracks]
 
@@ -39,9 +43,10 @@ Rules: [no current tracks]
 Mario Bros. (US, Revision F)
 ----------------------------
 Note: not currently represented on TG.
-ROM set changed: no.  Added in 0.132.u2
-0.132u5-0.175: mario - "Mario Bros. (US, Revision F)"
+ROM set changed: yes.  Added in 0.132.u2
+0.133-0.192: mario - "Mario Bros. (US, Revision F)"
+0.193-0.240: mariof - "Mario Bros. (US, Revision F)"
 
-Resolution, 0.133-0.175: 256x224 @ 59.185606Hz
+Resolution, 0.133-0.240: 256x224 @ 59.185606Hz
 
 Rules: [no current tracks]

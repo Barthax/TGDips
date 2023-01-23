@@ -1,6 +1,9 @@
 ROM set changed: no
-0.106-0.175: superbik - "Superbike"
+0.106-0.197: superbik - "Superbike"
 
-Resolution, 0.106-0.175: 240x248 @ 60.000000Hz
+Resolution, 0.106-0.197: 240x248 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Superbike
+TG Game Entry: https://www.twingalaxies.com/game/superbike/mame
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=110852
+
+NOTE: source/DIPs were changed at 0.124, "Bonus Life" DIP was removed as it is always awarded at 5000.

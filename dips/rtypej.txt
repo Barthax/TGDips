@@ -1,12 +1,12 @@
 ROM set changed: yes
 0.106-0.111: rtype - "R-Type (Japan)"
-0.111u1-0.175: rtypej - "R-Type (Japan)"
+0.112-0.232: rtypej - "R-Type (Japan)"
 
-MAME History:
+From MAMEINFO.DAT:
 - 0.111u1: Stefan Lindberg added R-Type (World). Fixed rom names. Renamed (rtypepj) to (rtypejp) and (rtype) to (rtypej).
 
 Resolution, 0.106-0.122: 384x256 @ 55.000000Hz
-Resolution, 0.123-0.175: 384x256 @ 55.017606Hz
+Resolution, 0.123-0.232: 384x256 @ 55.017606Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=R-Type%20[Japan]
+TG Game Entry: https://www.twingalaxies.com/game/r-type-japan/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=19190

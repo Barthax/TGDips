@@ -1,0 +1,36 @@
+Note: two ROM sets represented here with changeover at 0.146u1.
+
+MAME History:
+- 0.133u1: Renamed (vstennij) to (vstennisj).
+- 0.146u1: Changed clone (Japan) to parent 'Vs. Tennis (Japan/USA, set TE A-3)' and 'Vs. Tennis' to clone 'Vs. Tennis (Japan/USA, set ?)'. Renamed (vstennis) to (vstennisa) and (vstennisj) to (vstennis).
+
+
+Vs. Tennis (Japan/USA, set TE A-3)
+----------------------------------
+ROM set changed: yes. Added in 0.079.
+0.079-0.133: vstennij - "Vs. Tennis (Japan)"
+0.133u1-0.146: vstennisj - "Vs. Tennis (Japan)"
+0.146u1-0.200: vstennis - "Vs. Tennis (Japan/USA, set TE A-3)"
+
+Resolution, 0.079-0.106: 512x240 @ 60.000000Hz
+Resolution, 0.107-0.200: 2 screens, each 256x240 @ 60.000000Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/vs-tennis/mame/
+Rules, Biggest Blowout: https://www.twingalaxies.com/scores.php?scores=214855
+Rules, Biggest Blowout - Skill: Medium: https://www.twingalaxies.com/scores.php?scores=216181
+
+Vs. Tennis (Japan/USA, set 2)
+-----------------------------
+Note: not currently represented on TG.
+ROM set changed: yes.  Added in 0.037b11.
+0.074-0.146: vstennis - "Vs. Tennis"
+0.147-0.152: vstennisa - "Vs. Tennis (Japan/USA, set ?)"
+0.153-0.200: vstennisa - "Vs. Tennis (Japan/USA, set 2)"
+
+MAME History:
+- 0.153: ANY added clone Vs. Tennis (Japan/USA, set 3). We suspect that some roms for the second CPU went bad. Changed description of clone (Japan/USA, set ?) to 'Vs. Tennis (Japan/USA, set 2)'.
+
+Resolution, 0.074-0.106: 512x240 @ 60.000000Hz
+Resolution, 0.107-0.200: 2 screens, each 256x240 @ 60.000000Hz
+
+Rules: [no current tracks]

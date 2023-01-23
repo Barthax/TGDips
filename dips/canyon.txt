@@ -1,7 +1,9 @@
 ROM set changed: no
-0.106-0.175: canyon - "Canyon Bomber"
+0.106-0.232: canyon - "Canyon Bomber"
 
-Resolution, 0.106-0.175: 256x240 @ 60.000000Hz
+Resolution, 0.106-0.199: 256x240 @ 60.000000Hz
+Resolution, 0.200-0.232: 256x240 @ 60.114504Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Canyon%20Bomber
+TG Game Entry: http://www.twingalaxies.com/canyon-bomber/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=7701
+Rules, Solo Plane Challenge: https://www.twingalaxies.com/scores.php?scores=222130

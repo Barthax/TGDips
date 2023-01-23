@@ -1,0 +1,12 @@
+ROM set changed: yes.
+0.106-0.189: maniacsq - "Maniac Square (unprotected)"
+0.190-     : maniacsqu - "Maniac Square (unprotected, Version 1.0, Checksum BB73)"
+
+MAME History:
+- 0.190: Peter Wilhelmsen added Maniac Square (protected, Version 1.0, Checksum DEEE). Added DS5002FP SRAM dumps to Maniac Square (protected, Version 1.0, Checksum DEEE) and clone (protected, Version 1.0, Checksum CF2D) - Games now playable [Peter Wilhelmsen, Morten Shearman Kirkegaard, Charles MacDonald, David Haywood]. Changed Maniac Square (unprotected) to clone 'Maniac Square (unprotected, Version 1.0, Checksum BB73)' and clone (protected) to 'Maniac Square (protected, Version 1.0, Checksum CF2D)'. Renamed (maniacsq) to (maniacsqu).
+
+Resolution, 0.106-0.113: 320x240 @ 59.099998Hz
+Resolution, 0.114-0.190: 320x240 @ 59.100000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Maniac+Square+[Unprotected]
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=75513

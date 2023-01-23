@@ -1,0 +1,17 @@
+ROM set changed: yes
+0.106-0.133: batugnsp - "Batsugun (Special Ver.)"
+0.134-0.141: batsugunsp - "Batsugun (Special Ver.)"
+0.142-0.240: batsugunsp - "Batsugun - Special Version"
+
+From MAMEINFO.DAT:
+- 0.133u1: Renamed (batsugna) to (batsuguna) and (batugnsp) to (batsugunsp).
+- 0.141u4: Alex Jackson added button 3 to clone Batsugun (Special Ver.). It's a full auto fire button like Cave games have. The service mode input test doesn't show it, presumably because Toaplan didn't bother to update the service mode code from the original version of the game. Changed description of clone (Special Ver.) to 'Batsugun - Special Version'.
+
+Resolution, 0.106-0.151: 320x240 @ 60.000000Hz
+Resolution, 0.152-0.240: 320x240 @ 59.637405Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/batsugun-special-version/mame
+Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=238620
+Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=242697
+
+NOTE: technically a clone of batsugun

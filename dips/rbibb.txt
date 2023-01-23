@@ -1,6 +1,11 @@
 ROM set changed: no
-0.106-0.175: rbibb - "Vs. Atari R.B.I. Baseball (set 1)"
+0.106-0.213: rbibb - "Vs. Atari R.B.I. Baseball (set 1)"
 
-Resolution, 0.106-0.175: 256x240 @ 60.000000Hz
+Resolution, 0.106-0.213: 256x240 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Vs. Atari R.B.I. Baseball [set 1]
+TG Game Entry: https://www.twingalaxies.com/game/vs-atari-rbi-baseball-set-1-1/mame/
+Rules, Biggest Blowout: https://www.twingalaxies.com/scores.php?scores=55203
+
+NOTE:
+At about 0.138 'Color Palette' DIP was renamed to 'PPU Type', but work had been done on the graphics in the meantime, so there in no clear translation pre/post this change.
+Best assume default settings.

@@ -1,9 +1,12 @@
 ROM set changed: no
-0.106-0.175: rmpgwt - "Rampage: World Tour (rev 1.3)"
+0.106-0.197: rmpgwt - "Rampage: World Tour (rev 1.3)"
 
 Resolution, 0.106-0.113: 400x254 @ 53.204948Hz
 Resolution, 0.114: 400x254 @ 53.204950Hz
 Resolution, 0.115-0.154: 399x253 @ 54.815170Hz
-Resolution, 0.155-0.175: 400x254 @ 54.706840Hz
+Resolution, 0.155-0.197: 400x254 @ 54.706840Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Rampage: World Tour [rev 1.3]
+TG Game Entry: https://www.twingalaxies.com/game/rampage-world-tour-rev-13/mame/
+Rules, Points [Single Player Only]: https://www.twingalaxies.com/scores.php?scores=91178
+Rules, Points [Two Player Team]: https://www.twingalaxies.com/scores.php?scores=91179
+Rules, Points [Three Player Team]: https://www.twingalaxies.com/scores.php?scores=91181

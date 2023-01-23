@@ -1,53 +1,6 @@
-INPUT_PORTS_START( gt98 )
-	PORT_INCLUDE(gt3d)
+# MAME 0.106 source snippet [itech32.c]
 
-	PORT_MODIFY("DIPS")
-	PORT_DIPNAME( 0x0020, 0x0000, DEF_STR( Unknown ))	/* Seem to have no effect on the game */
-	PORT_DIPSETTING(      0x0000, DEF_STR( Off ))
-	PORT_DIPSETTING(      0x0020, DEF_STR( On ))
-	PORT_DIPNAME( 0x0040, 0x0000, DEF_STR( Cabinet ))
-	PORT_DIPSETTING(      0x0000, DEF_STR( Upright ))
-	PORT_DIPSETTING(      0x0040, DEF_STR( Cocktail ))
-INPUT_PORTS_END
-
-INPUT_PORTS_START( gt3d )
-	PORT_INCLUDE(itech32_base)
-
-	PORT_MODIFY("P1")
-	PORT_BIT( 0x00f0, IP_ACTIVE_LOW, IPT_UNUSED )
-
-	PORT_MODIFY("P2")
-	PORT_BIT( 0x00f0, IP_ACTIVE_LOW, IPT_UNUSED )
-
-	PORT_MODIFY("P3")
-	PORT_BIT( 0x0001, IP_ACTIVE_LOW, IPT_VOLUME_UP )
-	PORT_BIT( 0x0002, IP_ACTIVE_LOW, IPT_VOLUME_DOWN )
-	PORT_BIT( 0x0004, IP_ACTIVE_LOW, IPT_COIN3 )
-	PORT_BIT( 0x00f8, IP_ACTIVE_LOW, IPT_UNUSED )
-
-	PORT_MODIFY("DIPS")
-	PORT_DIPNAME( 0x0010, 0x0000, DEF_STR( Unknown ))
-	PORT_DIPSETTING(      0x0000, DEF_STR( Off ))
-	PORT_DIPSETTING(      0x0010, DEF_STR( On ))
-	PORT_DIPNAME( 0x0020, 0x0000, "Trackball Orientation" )
-	PORT_DIPSETTING(      0x0000, "Normal Mount" )
-	PORT_DIPSETTING(      0x0020, "45 Degree Angle" )
-	PORT_DIPNAME( 0x0040, 0x0000, DEF_STR( Controls ))
-	PORT_DIPSETTING(      0x0000, "One Trackball" )
-	PORT_DIPSETTING(      0x0040, "Two Trackballs" )
-
-	PORT_START_TAG("TRACKX1")
-    PORT_BIT( 0xff, 0x00, IPT_TRACKBALL_X ) PORT_MINMAX(0,255) PORT_SENSITIVITY(25) PORT_KEYDELTA(32) PORT_REVERSE PORT_PLAYER(1)
-
-	PORT_START_TAG("TRACKY1")
-    PORT_BIT( 0xff, 0x00, IPT_TRACKBALL_Y ) PORT_MINMAX(0,255) PORT_SENSITIVITY(25) PORT_KEYDELTA(32) PORT_PLAYER(1)
-
-	PORT_START_TAG("TRACKX2")
-    PORT_BIT( 0xff, 0x00, IPT_TRACKBALL_X ) PORT_MINMAX(0,255) PORT_SENSITIVITY(25) PORT_KEYDELTA(32) PORT_REVERSE PORT_COCKTAIL PORT_PLAYER(2)
-
-	PORT_START_TAG("TRACKY2")
-    PORT_BIT( 0xff, 0x00, IPT_TRACKBALL_Y ) PORT_MINMAX(0,255) PORT_SENSITIVITY(25) PORT_KEYDELTA(32) PORT_COCKTAIL PORT_PLAYER(2)
-INPUT_PORTS_END
+GAME( 1998, gt98,     0,        gt3d,    aama,  aama,     ROT0, "Incredible Technologies", "Golden Tee '98 (v1.10)" , 0) /* PIC 16C54 labeled as ITGF98 */
 
 INPUT_PORTS_START( itech32_base )
 	PORT_START_TAG("P1")	/* 080000 */
@@ -98,9 +51,77 @@ INPUT_PORTS_START( itech32_base )
 	PORT_BIT( 0x00ff, IP_ACTIVE_LOW, IPT_UNUSED )
 INPUT_PORTS_END
 
-Resolution: 384x240 @ 60Hz
+INPUT_PORTS_START( gt3d )
+	PORT_INCLUDE(itech32_base)
 
-Rules: http://www.twingalaxies.com/scores.php?scores=70048
+	PORT_MODIFY("P1")
+	PORT_BIT( 0x00f0, IP_ACTIVE_LOW, IPT_UNUSED )
+
+	PORT_MODIFY("P2")
+	PORT_BIT( 0x00f0, IP_ACTIVE_LOW, IPT_UNUSED )
+
+	PORT_MODIFY("P3")
+	PORT_BIT( 0x0001, IP_ACTIVE_LOW, IPT_VOLUME_UP )
+	PORT_BIT( 0x0002, IP_ACTIVE_LOW, IPT_VOLUME_DOWN )
+	PORT_BIT( 0x0004, IP_ACTIVE_LOW, IPT_COIN3 )
+	PORT_BIT( 0x00f8, IP_ACTIVE_LOW, IPT_UNUSED )
+
+	PORT_MODIFY("DIPS")
+	PORT_DIPNAME( 0x0010, 0x0000, DEF_STR( Unknown ))
+	PORT_DIPSETTING(      0x0000, DEF_STR( Off ))
+	PORT_DIPSETTING(      0x0010, DEF_STR( On ))
+	PORT_DIPNAME( 0x0020, 0x0000, "Trackball Orientation" )
+	PORT_DIPSETTING(      0x0000, "Normal Mount" )
+	PORT_DIPSETTING(      0x0020, "45 Degree Angle" )
+	PORT_DIPNAME( 0x0040, 0x0000, DEF_STR( Controls ))
+	PORT_DIPSETTING(      0x0000, "One Trackball" )
+	PORT_DIPSETTING(      0x0040, "Two Trackballs" )
+
+	PORT_START_TAG("TRACKX1")
+    PORT_BIT( 0xff, 0x00, IPT_TRACKBALL_X ) PORT_MINMAX(0,255) PORT_SENSITIVITY(25) PORT_KEYDELTA(32) PORT_REVERSE PORT_PLAYER(1)
+
+	PORT_START_TAG("TRACKY1")
+    PORT_BIT( 0xff, 0x00, IPT_TRACKBALL_Y ) PORT_MINMAX(0,255) PORT_SENSITIVITY(25) PORT_KEYDELTA(32) PORT_PLAYER(1)
+
+	PORT_START_TAG("TRACKX2")
+    PORT_BIT( 0xff, 0x00, IPT_TRACKBALL_X ) PORT_MINMAX(0,255) PORT_SENSITIVITY(25) PORT_KEYDELTA(32) PORT_REVERSE PORT_COCKTAIL PORT_PLAYER(2)
+
+	PORT_START_TAG("TRACKY2")
+    PORT_BIT( 0xff, 0x00, IPT_TRACKBALL_Y ) PORT_MINMAX(0,255) PORT_SENSITIVITY(25) PORT_KEYDELTA(32) PORT_COCKTAIL PORT_PLAYER(2)
+INPUT_PORTS_END
+
+INPUT_PORTS_START( aama )
+	PORT_INCLUDE(gt3d)
+
+	PORT_MODIFY("DIPS")
+	PORT_DIPNAME( 0x0010, 0x0000, "Trackball Orientation" )	/* Determined by actual use / trial & error */
+	PORT_DIPSETTING(      0x0000, "Normal Mount" )			/* The manual says "Always on (defualt)" and "Off -- UNUSED --" */
+	PORT_DIPSETTING(      0x0010, "45 Degree Angle" )
+	PORT_DIPNAME( 0x0020, 0x0000, DEF_STR( Cabinet ))
+	PORT_DIPSETTING(      0x0000, DEF_STR( Upright ))
+	PORT_DIPSETTING(      0x0020, DEF_STR( Cocktail ))		/* Cocktail mode REQUIRES "Controls" to be set to "Two Trackballs" */
+	PORT_DIPNAME( 0x0040, 0x0000, DEF_STR( Controls ))
+	PORT_DIPSETTING(      0x0000, "One Trackball" )
+	PORT_DIPSETTING(      0x0040, "Two Trackballs" )		/* Two Trackballs will work for Upright for "side by side" controls */
+INPUT_PORTS_END
+
+
+
+Resolution: 384x240 @ 60.000000Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/golden-tee-98-v110/mame/
+Rules, Arbor Hill [Least Amount of Strokes]: https://www.twingalaxies.com/scores.php?scores=70044
+Rules, Arbor Hill [Longest Drive]: https://www.twingalaxies.com/scores.php?scores=70048
+Rules, Arbor Hill [Longest Putt]: https://www.twingalaxies.com/scores.php?scores=70051
+Rules, Bayou Bend [Least Amount of Strokes]: https://www.twingalaxies.com/scores.php?scores=70045
+Rules, Bayou Bend [Longest Drive]: https://www.twingalaxies.com/scores.php?scores=70049
+Rules, Bayou Bend [Longest Putt]: https://www.twingalaxies.com/scores.php?scores=70053
+Rules, Palm Grove [Least Amount of Strokes]: https://www.twingalaxies.com/scores.php?scores=70046
+Rules, Palm Grove [Longest Drive]: https://www.twingalaxies.com/scores.php?scores=70050
+Rules, Palm Grove [Longest Putt]: https://www.twingalaxies.com/scores.php?scores=70054
+
+NOTE: This game has both DIPs & internal settings covered by the rules. If not shown during playback, press F2 to access & check internal settings afterwards.
+
 ROMSet: GT98
 Service Mode: Off
 Trackball Orientation: Normal Mount
@@ -112,16 +133,14 @@ Skill Level 3
 No Hole In One Contest
 
 Sample correct TG:
-DIPS: offset 0x33, repeat varies due to analogue input, typical value 0x0F
-- DIPS: 0x0001 (unused): [not relevant]
-- DIPS: 0x0002 (service 1): [not relevant]
-- DIPS: 0x0004 (vertical blank): [not relevant]
-- DIPS: 0x0008 (special): [not relevant]
-Note: the DIPs here don't make sense from the source.  Both the Controls and the Cabinet occupy the same 0x40 mask.  The following is worked out by testing.
-- DIPS: 0x0010 (Trackball Orientation): 0x0000 (Normal Mount) [0x0010 = 45 Degree Angle]
-- DIPS: 0x0020 (Cabinet): 0x0000 (Upright) [0x0020 = Cocktail]
-- DIPS: 0x0040 (Controls): 0x0000 (One Trackball) [0x0040 = Two Trackballs]
-- DIPS: 0x0080 (Service_Mode): 0x0000 (Off)
-    30: 00 00 00 0F 00 00 00 FF  00 00 00 00 00 00 00 00 | ....... ........
-    A0: 00 00 00 FF 00 00 00 FF  00 00 00 FF 00 00 00 0F | ... ... ... ....
-   120: 00 00 00 FF 00 00 00 FF  00 00 00 0B 00 00 00 FF | ... ... ....... 
+DIPS: offset 0x33, repeat every 0x7C but varies due to analog input, typical initial value 0x0F, 0x0B after VBLANK
+- DIPS: 0x0004 (IPT_VBLANK)
+- DIPS: 0x0080 (Service Mode): 0x0000 (Off)
+- DIPS: 0x0010 (Trackball Orientation): 0x0000 (Normal Mount)
+- DIPS: 0x0020 (Cabinet): 0x0000 (Upright)
+- DIPS: 0x0040 (Controls): 0x0000 (One Trackball)
+
+    30: 00 00 00 0F 00 00 00 FF  00 00 00 00 00 00 00 00
+    A0: 00 00 00 FF 00 00 00 FF  00 00 00 FF 00 00 00 0F
+   110: 00 00 00 00 3E 82 43 E1  00 00 00 FF 00 00 00 FF
+   120: 00 00 00 FF 00 00 00 FF  00 00 00 0B 00 00 00 FF

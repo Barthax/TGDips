@@ -1,10 +1,15 @@
 ROM set changed: yes
 0.106-0.133: superpcm - "Super Pac-Man (Midway)"
-0.133u1-0.175: superpacm - "Super Pac-Man (Midway)"
+0.134-0.232: superpacm - "Super Pac-Man (Midway)"
+
+From MAMEINFO.DAT:
+- 0.133u1: Brian Troha added DIP locations to Super Pac-Man. Renamed (superpcm) to (superpacm).
 
 Resolution, 0.106-0.115: 288x224 @ 60.606060Hz
-Resolution, 0.116-0.175: 288x224 @ 60.606061Hz
+Resolution, 0.116-0.232: 288x224 @ 60.606061Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Super+Pac-Man+(Midway)
+TG Game Entry: https://www.twingalaxies.com/game/super-pac-man-midway/mame/
 Rules, Points [Marathon Settings]: http://www.twingalaxies.com/scores.php?scores=126645
 Rules, Points [Tournament Settings]: http://www.twingalaxies.com/scores.php?scores=126646
+
+NOTE: Since 0.173, the conditional DIPs feature of this game affects WolfMAME's inpview. Verify settings with caution!

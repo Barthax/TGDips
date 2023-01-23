@@ -1,9 +1,11 @@
 ROM set changed: no
-0.106-0.175: sftm - "Street Fighter: The Movie (v1.12)"
+0.106-0.205: sftm - "Street Fighter: The Movie (v1.12)"
 
 Resolution, 0.106-0.113: 384x255 @ 60.000000Hz
 Resolution, 0.114-0.122: 200x200 @ 60.000000Hz
 Resolution, 0.123-0.153: 384x256 @ 60.106990Hz
-Resolution, 0.154-0.175: 384x240 @ 60.106990Hz
+Resolution, 0.154-0.205: 384x240 @ 60.106990Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Street Fighter: The Movie [v1.12]
+TG Game Entry: https://www.twingalaxies.com/game/street-fighter-the-movie-v112/mame
+Rules, Points [Tournament Settings]: https://www.twingalaxies.com/scores.php?scores=11188
+Rules, Points [Tag Team Mode, Tournament Settings]: https://www.twingalaxies.com/scores.php?scores=11189

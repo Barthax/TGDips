@@ -1,9 +1,30 @@
-ROM set changed: no
+Note: two ROM sets represented here with changeover at 0.211.
+
+From MAMEINFO.DAT:
+- 0.211: Recreativas.org and The Dumping Union added FD1094 317-5023a.key to 'RyuKyu (Rev A, Japan) (FD1094 317-5023A)' - Game now playable. Changed clone (FD1094 317-5023A) to parent 'RyuKyu (Rev A, Japan) (FD1094 317-5023A)'. Renamed (ryukyu) to (ryukyua) and (ryukyua) to (ryukyu).
+
+RyuKyu (Japan) (FD1094 317-5023)
+--------------------------------
+ROM set changed: yes
 0.106-0.165: ryukyu - "RyuKyu (Japan, FD1094 317-5023)"
-0.166-0.175: ryukyu - "RyuKyu (Japan) (FD1094 317-5023)"
+0.166-0.210: ryukyu - "RyuKyu (Japan) (FD1094 317-5023)"
+0.211-     : ryukyua - "RyuKyu (Japan) (FD1094 317-5023)"
 
 Resolution, 0.106-0.114: 320x224 @ 60.000000Hz
 Resolution, 0.115-0.116: 321x224 @ 60.054389Hz
-Resolution, 0.117-0.175: 320x224 @ 60.054389Hz
+Resolution, 0.117-0.211: 320x224 @ 60.054389Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=RyuKyu [Japan, FD1094 317-5023]
+TG Game Entry: https://www.twingalaxies.com/game/ryukyu-japan-fd1094-317-5023/mame
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=91275
+
+
+RyuKyu (Rev A, Japan) (FD1094 317-5023A)
+----------------------------------------
+Note: not currently represented on TG.
+ROM set changed: YES
+0.207-0.210: ryukyua - "RyuKyu (Japan) (FD1094 317-5023A)"
+0.211-     : ryukyu - "RyuKyu (Rev A, Japan) (FD1094 317-5023A)"
+
+Resolution, 0.207-0.211: 320x224 @ 60.054389Hz
+
+Rules: [no current tracks]

@@ -1,0 +1,13 @@
+ROM set changed: yes
+0.106-0.144: sfex2 - "Street Fighter EX 2 (USA 980526)"
+0.145-0.209: sfex2 - "Street Fighter EX2 (USA 980526)"
+0.210-     : sfex2u - "Street Fighter EX2 (USA 980526)"
+
+From MAMEINFO.DAT:
+- 0.144u4: Changed parent and clone descriptions to 'Street Fighter EX2'.
+- 0.210: Jorge Silva added Street Fighter EX2 (Euro 980312). Renamed (sfex2) to (sfex2u).
+
+Resolution, 0.106-0.210: 640x480 @ 60.000000Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/street-fighter-ex-2-usa-980526/mame
+Rules, Points [Tournament Settings]: http://www.twingalaxies.com/scores.php?scores=110783

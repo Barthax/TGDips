@@ -1,8 +1,12 @@
 ROM set changed: no
-0.106-0.175: grdians - "Guardians / Denjin Makai II"
+0.106-0.205: grdians - "Guardians / Denjin Makai II"
+0.206-0.209: grdians - "Guardians / Denjin Makai II (P-FG01-1 PCB)"
 
-Resolution, 0.106-0.175: 304x232 @ 60.000000Hz
+From MAMEINFO.DAT:
+- 0.206: caius and The Dumping Union added clone Guardians / Denjin Makai II (P0-113A PCB). Changed parent description to 'Guardians / Denjin Makai II (P-FG01-1 PCB)'.
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Guardians%20/%20Denjin%20Makai%20II
+Resolution, 0.106-0.209: 304x232 @ 60.000000Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/guardians-denjin-makai-ii/mame/
 Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=70576
 Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=70577

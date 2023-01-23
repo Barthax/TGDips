@@ -1,0 +1,40 @@
+Note: two ROM sets represented here with changeover at 0.134u2.
+
+MAME History:
+- 0.116u4: Hammad and Brian Troha added B.Rap Boys (World). Renamed (brapboys) to (brapboyj).
+
+
+B.Rap Boys (World)
+------------------
+ROM set changed: no. Added in 0.116u4.
+0.117-0.196: brapboys - "B.Rap Boys (World)"
+
+Resolution, 0.117-0.132: 320x240 @ 60.000000Hz
+Resolution, 0.133      : 256x240 @ 60.000000Hz
+Resolution, 0.134      : 256x224 @ 60.000000Hz
+Resolution, 0.135-0.196: 256x224 @ 59.185400Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/brap-boys-world/mame
+Rules, Single Player [Points]: http://www.twingalaxies.com/scores.php?scores=213579
+Rules, Two Player Team [Points]: http://www.twingalaxies.com/scores.php?scores=213580
+Rules, Three Player Team [Points]: http://www.twingalaxies.com/scores.php?scores=213581
+
+
+B.Rap Boys Special (Japan)
+--------------------------
+Note: not currently represented on TG.
+ROM set changed: yes. Added in 0.74u2.
+
+0.75-0.112: brapboys - "B.Rap Boys"
+0.113-0.116: brapboys - "B.Rap Boys (Japan)"
+0.117-0.132: brapboyj - "B.Rap Boys (Japan)"
+0.133: brapboyj - "B.Rap Boys Special (Japan)"
+0.134-0.188: brapboysj - "B.Rap Boys Special (Japan)"
+0.189- : brapboyspj - "B.Rap Boys Special (Japan)"
+
+Resolution, 0.75-0.132 : 320x240 @ 60.000000Hz
+Resolution, 0.133      : 256x240 @ 60.000000Hz
+Resolution, 0.134      : 256x224 @ 60.000000Hz
+Resolution, 0.135-0.196: 256x224 @ 59.185400Hz
+
+Rules: [no current tracks]

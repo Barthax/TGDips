@@ -1,10 +1,12 @@
 ROM set changed: no
-0.106-0.175: superpac - "Super Pac-Man"
+0.106-0.240: superpac - "Super Pac-Man"
 
 Resolution, 0.106-0.115: 288x224 @ 60.606060Hz
-Resolution, 0.116-0.175: 288x224 @ 60.606061Hz
+Resolution, 0.116-0.240: 288x224 @ 60.606061Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Super%20Pac-Man
-Rules, Points [Marathon Settings]: http://www.twingalaxies.com/scores.php?scores=7866
+TG Game Entry: https://www.twingalaxies.com/game/super-pac-man-namco/mame/
+Rules, Points [Marathon Settings]: http://www.twingalaxies.com/scores.php?scores=7866 - this does not seem to link to a track
 Rules, Points [Tournament Settings]: http://www.twingalaxies.com/scores.php?scores=7867
-Note: the dip settings are displayed (very briefly) during boot up starting around frame 210.  Any dip changes after this will not affect the recording.
+Rules, Points [Marathon Settings]: http://www.twingalaxies.com/scores.php?scores=245229
+
+NOTE: Since 0.173, the conditional DIPs feature of this game affects WolfMAME's inpview. Verify settings with caution! ["Lives" affects "Bonus_Life"]

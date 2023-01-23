@@ -1,8 +1,9 @@
 0.001-0.152: NOT SUPPORTED
-0.153-0.175: ibarablk - "Ibara Kuro Black Label (2006/02/06. MASTER VER.)"
+0.153-0.201: ibarablk - "Ibara Kuro Black Label (2006/02/06. MASTER VER.)"
 
-Resolution, 0.153-0.175: 320x240 @ 60.000000Hz
+Resolution, 0.153-0.201: 320x240 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Ibara+Kuro+Black+Label+(2006/02/06.+Master+Ver.)
+TG Game Entry: https://www.twingalaxies.com/game/ibara-kuro-black-label-2006-02-06-master-ver/mame
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=200770
-Note: to access internal settings, use Service Mode (F2) button and then navigate with up/down and fire.
+
+NOTE: All relevant rules are covered by internal settings.  If not shown during playback, use F2 to access after playback completed.

@@ -1,0 +1,31 @@
+Note: two ROM sets represented here with changeover at 0.235
+
+From MAMEINFO.DAT:
+- 0.235: BuddyC, MetalliC and rtw added Espgaluda II (2005/11/14 MASTER VER, newer CV1000-B PCB). Note: There are two known CV1000-B PCB revisions. The newer one uses an updated FPGA firmware and has some minor hardware differences [hap]. Changed (2005/11/14 MASTER VER) to clone 'Espgaluda II (2005/11/14 MASTER VER, original CV1000-B PCB)'. Renamed (espgal2) to (espgal2a).
+
+Espgaluda II (2005/11/14 MASTER VER, original CV1000-B PCB)
+-----------------------------------------------------------
+ROM set changed: yes
+0.106-0.152: NOT SUPPORTED
+0.153-0.234: espgal2 - "Espgaluda II (2005/11/14 MASTER VER)"
+0.235-     : espgal2a - "Espgaluda II (2005/11/14 MASTER VER, original CV1000-B PCB)"
+
+Resolution, 0.153-0.224: 320x240 @ 60.000000Hz
+Resolution, 0.225-0.226: 320x240 @ 60.020000Hz
+Resolution, 0.227-0.235: 320x240 @ 60.024000Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/espgaluda-ii-20051114-master-ver/mame/
+Rules, Points: https://www.twingalaxies.com/scores.php?scores=215705
+
+NOTE: This game has both DIPs & internal settings covered by the rules. If not shown during playback, press & hold "Service 2" (typically '0') for a few seconds to access & check internal settings afterwards.
+
+
+Espgaluda II (2005/11/14 MASTER VER, newer CV1000-B PCB)
+--------------------------------------------------------
+Note: not currently represented on TG.
+ROM set changed: no.  Added in 0.235
+0.235-     : espgal2 - "Espgaluda II (2005/11/14 MASTER VER, newer CV1000-B PCB)"
+
+Resolution, 0.235-     : 320x240 @ 60.024000Hz
+
+Rules: [no current tracks]

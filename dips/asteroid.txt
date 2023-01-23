@@ -7,23 +7,24 @@ Asteroid, Rev 2
 ---------------
 ROM set changed: yes
 0.106-0.132: asteroid - "Asteroids (rev 2)"
-0.132u2-0.186: asteroid2 - "Asteroids (rev 2)"
+0.132u2-0.206: asteroid2 - "Asteroids (rev 2)"
 
 Resolution, 0.106-0.152: vector @ 60.000000Hz
-Resolution, 0.153-0.186: vector @ 61.523438Hz
+Resolution, 0.153-0.206: vector @ 61.523438Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Asteroids+[Rev+2]
+TG Game Entry: https://www.twingalaxies.com/game/asteroids-rev-2/mame/
 Rules, Points [Marathon]: http://www.twingalaxies.com/scores.php?scores=12447
 Rules, Points [TG Extreme Settings]: http://www.twingalaxies.com/scores.php?scores=10094
+Rules, "Stand Your Ground Challenge": https://www.twingalaxies.com/scores.php?scores=219032
 
 
 Asteroid, Rev 4
 ---------------
 ROM set changed: no.  Added in 0.132u2.
-0.132u2-0.186: asteroid - "Asteroids (rev 4)"
+0.132u2-0.206: asteroid - "Asteroids (rev 4)"
 
 Resolution, 0.133-0.152: vector @ 60.000000Hz
-Resolution, 0.153-0.186: vector @ 61.523438Hz
+Resolution, 0.153-0.206: vector @ 61.523438Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Asteroids+(Rev+4)
+TG Game Entry: https://www.twingalaxies.com/game/asteroids-rev-4/mame/
 Rules, TGTS: http://www.twingalaxies.com/scores.php?scores=132358

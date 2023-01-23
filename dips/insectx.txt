@@ -1,7 +1,18 @@
 ROM set changed: no
-0.106-0.175: insectx - "Insector X (World)"
+0.106-0.205: insectx - "Insector X (World)"
 
-Resolution, 0.106-0.175: 256x224 @ 60.000000Hz
+From MAMEINFO.DAT:
+- 0.128u1: Changed 'Unknown' to 'Unused' dipswitches.
+- 0.143u8: Kanikani fixed difficulty DIPSW (based on manual) and added DIP locations to Insector X.
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Insector%20X
+From tnzs.c:
+  - This game doesn't use standard settings for "Difficulty" Dip Switch :
+    look at table at 0x1b86 (4 * 2 bytes) and especially table at 0x4731
+    (4 bytes) which determines end of level boss energy via code at 0x46e2,
+    and you'll notice that "Easy" and "Hard" settings are swapped.
+    End of level boss energy is stored at 0xe484 and 0xe485 (LSB first).
+
+Resolution, 0.106-0.205: 256x224 @ 60.000000Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/insector-x/mame
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=32352

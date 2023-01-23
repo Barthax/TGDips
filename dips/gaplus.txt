@@ -10,9 +10,9 @@ Gaplus (rev. D) / Galaga 3 (GP3 rev. D)
 Note: not currently represented on TG.
 ROM set changed: yes.  Added in 0.62.
 0.106-0.148: gaplus - "Gaplus (rev. D)"
-0.148u3-0.181: galaga3 - "Galaga 3 (GP3 rev. D)"
+0.149-0.229: galaga3 - "Galaga 3 (GP3 rev. D)"
 
-Resolution, 0.106-0.181: 288x224 @ 60.606060Hz
+Resolution, 0.106-0.229: 288x224 @ 60.606060Hz
 
 Rules: [no current tracks]
 
@@ -22,8 +22,8 @@ Gaplus (GP2 rev. B)
 Note: not currently represented on TG.
 ROM set changed: yes.
 0.106-0.148: gapluso - "Gaplus (rev. B)"
-0.148u3-0.181: gaplus - "Gaplus (GP2 rev. B)"
+0.149-0.229: gaplus - "Gaplus (GP2 rev. B)"
 
-Resolution, 0.149-0.181: 288x224 @ 60.606060Hz
+Resolution, 0.106-0.229: 288x224 @ 60.606060Hz
 
 Rules: [no current tracks]

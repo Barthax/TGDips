@@ -1,10 +1,10 @@
 ROM set changed: no
-0.106-0.181: guardian - "Guardians of the 'Hood"
+0.106-0.240: guardian - "Guardians of the 'Hood"
 
 Resolution, 0.106-0.114: 336x240 @ 60.000000Hz
-Resolution, 0.115-0.181: 336x240 @ 59.922743Hz
+Resolution, 0.115-0.240: 336x240 @ 59.922743Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Guardians+of+The+%27Hood
+TG Game Entry: https://www.twingalaxies.com/game/guardians-of-the-hood/mame
 Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=70579
 Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=70580
 Rules, Points [Three Player Team]: http://www.twingalaxies.com/scores.php?scores=70582

@@ -1,7 +1,12 @@
 ROM set changed: no
-0.106-0.175: joinem - "Joinem"
+0.106-0.209: joinem - "Joinem"
 
-Resolution, 0.106-0.175: 256x224 @ 60.000000Hz
+From MAMEINFO.DAT:
+- 0.147u1: Fixed Joinem testmode. Added columnscroll. Cleanup [hap]. Changed Z80 CPU2 clock speed to 3MHz. Changed visible area to 224x256 and palettesize to 64 colors. Added dipswitches 'Bonus Life', '255 Lives (Cheat)' and 'Unknown'.
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Joinem
+Resolution, 0.106-0.209: 256x224 @ 60.000000Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/joinem/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=75153
+
+NOTE: 'Bonus Life' DIP was added at 0.147u1, taken from a previous 'Unknown' DIP. The correct translation is "Bonus Life: Every 30000"

@@ -1,11 +1,13 @@
 ROM set changed: yes
 0.106-0.144: ts2 - "Battle Arena Toshinden 2 (USA 951124)"
-0.144u7-0.175: ts2a - "Battle Arena Toshinden 2 (USA 951124) Older"
+0.145-0.232: ts2a - "Battle Arena Toshinden 2 (USA 951124) Older"
+0.233-0.234: ts2u - "Battle Arena Toshinden 2 (USA 951124)"
 
 MAME History:
 - 0.144u7: Brian Troha added Battle Arena Toshinden 2 (USA 951124), readded the alt mask rom format. Changed 'Battle Arena Toshinden 2 (USA 951124)' to clone 'Battle Arena Toshinden 2 (USA 951124) Older'. Renamed (ts2) to (ts2a).
+- 0.233: Brian Troha and The Dumping Union added Battle Arena Toshinden 2 (Euro 951124) and clone Battle Arena Toshinden 2 (Japan 951124). Changed (USA 951124) to clone 'Battle Arena Toshinden 2 (USA 951124, 32Mb mask ROMs)', (USA 951124) Older to 'Battle Arena Toshinden 2 (USA 951124)' and (Japan 951124) to 'Battle Arena Toshinden 2 (Japan 951124, 32Mb mask ROMs)'. Renamed (ts2) to (ts2ua), (ts2a) to (ts2u) and (ts2j) to (ts2ja).
 
-Resolution, 0.106-0.175: 640x480 @ 60.000000Hz
+Resolution, 0.106-0.234: 640x480 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Battle%20Arena%20Toshinden%202%20[USA%20951124]
+TG Game Entry: https://www.twingalaxies.com/game/battle-arena-toshinden-2-usa-951124/mame
 Rules, Fastest Completion: http://www.twingalaxies.com/scores.php?scores=55746

@@ -1,11 +1,9 @@
 ROM set changed: no
-0.106-0.175: gauntleg - "Gauntlet Legends (version 1.6)"
+0.106-0.222: gauntleg - "Gauntlet Legends (version 1.6)"
 
-Resolution, 0.106-0.175: 640x480 @ 57.000000Hz
+Resolution, 0.106-0.222: 640x480 @ 57.000000Hz
 
-NB: rules incorrectly indicate gauntdl: Gauntlet Dark Legacy.
-
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Gauntlet%20Legends%20[version%201.6]
+TG Game Entry: https://www.twingalaxies.com/game/gauntlet-legends-version-16/mame/
 Rules, Most Experience Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=69963
 Rules, Most Experience Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=69964
 Rules, Most Experience Points [Three Player Team]: http://www.twingalaxies.com/scores.php?scores=69966

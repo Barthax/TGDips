@@ -1,9 +1,11 @@
 ROM set changed: no
-0.106-0.175: pbobbl2n - "Puzzle Bobble 2 / Bust-A-Move Again (Neo-Geo)"
+0.106-0.232: pbobbl2n - "Puzzle Bobble 2 / Bust-A-Move Again (Neo-Geo)"
 
 Resolution, 0.106-0.113: 320x224 @ 59.185608Hz
-Resolution, 0.114-0.175: 320x224 @ 59.185606Hz
+Resolution, 0.114-0.232: 320x224 @ 59.185606Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Puzzle%20Bobble%202%20/%20Bust-A-Move%20Again%20[Neo%20Geo]
+TG Game Entry: https://www.twingalaxies.com/game/puzzle-bobble-2-bust-a-move-again-neo-geo/mame
 Rules, Points [Points, Puzzle Mode]: http://www.twingalaxies.com/scores.php?scores=79000
 Rules, Points [Versus Computer Mode]: http://www.twingalaxies.com/scores.php?scores=79001
+
+NOTE: All relevant rules are covered by internal settings.  If not shown during playback, use F2 to access after playback completed.

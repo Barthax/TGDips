@@ -8,11 +8,11 @@ Palamedes (Japan)
 -----------------
 ROM set changed: yes
 0.106-0.186: palamed - "Palamedes (Japan)"
-0.187-     : palamedj - "Palamedes (Japan)"
+0.187-0.194: palamedj - "Palamedes (Japan)"
 
-Resolution, 0.106-0.187: 320x224 @ 60.000000Hz
+Resolution, 0.106-0.194: 320x224 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Palamedes+[Japan]
+TG Game Entry: http://www.twingalaxies.com/palamedes-japan/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=78866
 
 
@@ -20,8 +20,8 @@ Palamedes (US)
 --------------
 Note: not currently represented on TG.
 ROM set changed: no.  Added in 0.187
-0.187-     : palamed - "Palamedes (US)"
+0.187-0.194: palamed - "Palamedes (US)"
 
-Resolution, 0.187-     320x224 @ 60.000000Hz
+Resolution, 0.187-0.194: 320x224 @ 60.000000Hz
 
 Rules: [no current tracks]

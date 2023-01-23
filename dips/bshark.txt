@@ -8,11 +8,11 @@ Battle Shark (US)
 -----------------
 ROM set changed: yes
 0.053-0.143: bshark - "Battle Shark (US)"
-0.143u9-0.175: bsharku - "Battle Shark (US)"
+0.143u9-0.190: bsharku - "Battle Shark (US)"
 
-Resolution, 0.106-0.175: 320x240 @ 60.000000Hz
+Resolution, 0.106-0.190: 320x240 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Battle%20Shark%20[US]
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Battle+Shark+[US]
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=10823
 
 
@@ -20,8 +20,8 @@ Battle Shark (World)
 --------------------
 Note: not currently tracked at TG
 ROM set changed: no.  Added in 0.143u9.
-0.143u9-0.175: bshark - "Battle Shark (World)"
+0.143u9-0.190: bshark - "Battle Shark (World)"
 
-Resolution, 0.144-0.175: 320x240 @ 60.000000Hz
+Resolution, 0.144-0.190: 320x240 @ 60.000000Hz
 
 Rules: [no current tracks]

@@ -1,0 +1,77 @@
+# MAME 0.106 source snippet [galaxian.c]
+
+GAME( 1979, superg,   galaxian, galaxian, superg,   0,        ROT90,  "hack", "Super Galaxians", GAME_SUPPORTS_SAVE )
+
+#define GAL_IN0\
+	PORT_START_TAG("IN0")\
+	PORT_BIT( 0x01, IP_ACTIVE_HIGH, IPT_COIN1 )\
+	PORT_BIT( 0x02, IP_ACTIVE_HIGH, IPT_COIN2 )\
+	PORT_BIT( 0x04, IP_ACTIVE_HIGH, IPT_JOYSTICK_LEFT ) PORT_2WAY\
+	PORT_BIT( 0x08, IP_ACTIVE_HIGH, IPT_JOYSTICK_RIGHT ) PORT_2WAY\
+	PORT_BIT( 0x10, IP_ACTIVE_HIGH, IPT_BUTTON1 )\
+	PORT_DIPNAME( 0x20, 0x00, DEF_STR( Cabinet ) )\
+	PORT_DIPSETTING(    0x00, DEF_STR( Upright ) )\
+	PORT_DIPSETTING(    0x20, DEF_STR( Cocktail ) )\
+	PORT_SERVICE( 0x40, IP_ACTIVE_HIGH )\
+	PORT_BIT( 0x80, IP_ACTIVE_HIGH, IPT_SERVICE1 )
+
+#define GAL_IN1\
+	PORT_START_TAG("IN1")\
+	PORT_BIT( 0x01, IP_ACTIVE_HIGH, IPT_START1 )\
+	PORT_BIT( 0x02, IP_ACTIVE_HIGH, IPT_START2 )\
+	PORT_BIT( 0x04, IP_ACTIVE_HIGH, IPT_JOYSTICK_LEFT ) PORT_2WAY PORT_COCKTAIL\
+	PORT_BIT( 0x08, IP_ACTIVE_HIGH, IPT_JOYSTICK_RIGHT ) PORT_2WAY PORT_COCKTAIL\
+	PORT_BIT( 0x10, IP_ACTIVE_HIGH, IPT_BUTTON1 ) PORT_COCKTAIL\
+	PORT_BIT( 0x20, IP_ACTIVE_HIGH, IPT_UNUSED )\
+	PORT_DIPNAME( 0xc0, 0x00, DEF_STR( Coinage ) )\
+	PORT_DIPSETTING(    0x40, DEF_STR( 2C_1C ) )\
+	PORT_DIPSETTING(    0x00, DEF_STR( 1C_1C ) )\
+	PORT_DIPSETTING(    0x80, DEF_STR( 1C_2C ) )\
+	PORT_DIPSETTING(    0xc0, DEF_STR( Free_Play ) )
+
+INPUT_PORTS_START( superg )
+GAL_IN0
+GAL_IN1
+
+	PORT_START_TAG("DSW0")
+	PORT_DIPNAME( 0x03, 0x01, DEF_STR( Bonus_Life ) )
+	PORT_DIPSETTING(    0x01, "4000" )
+	PORT_DIPSETTING(    0x02, "5000" )
+	PORT_DIPSETTING(    0x03, "7000" )
+	PORT_DIPSETTING(    0x00, DEF_STR( None ) )
+	PORT_DIPNAME( 0x04, 0x00, DEF_STR( Lives ) )
+	PORT_DIPSETTING(    0x00, "3" )
+	PORT_DIPSETTING(    0x04, "5" )
+	PORT_DIPNAME( 0x08, 0x00, DEF_STR( Unused ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x08, DEF_STR( On ) )
+	PORT_BIT( 0xf0, IP_ACTIVE_HIGH, IPT_UNUSED )
+INPUT_PORTS_END
+
+Resolution: 256x224 @ 60.606060Hz
+
+TG Game Entry [old]: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Super+Galaxians
+TG Game Entry: http://www.twingalaxies.com/game_detail.php?gameid=3957&platformid=46
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=7865
+
+ROMSet: SuperG
+Cabinet: Upright
+Service Mode: Off
+Bonus Life: 7000
+Lives: 3
+Unused: Off
+
+Sample correct TG:
+IN0: offset 0x23, repeat every 0x7C, typical value 0x00
+- IN0: 0x20 (Cabinet): 0x00 (Upright)
+- IN0: 0x40 (SERVICE MODE): 0x00 (Off)
+DSW0: offset 0x2B, repeat every 0x7C, typical value 0x03
+- DSW0: 0x03 (Bonus_Life): 0x03 (7000)
+- DSW0: 0x04 (Lives): 0x00 (3)
+- DSW0: 0x08 (Unused): 0x00 (Off)
+
+    20: 00 00 00 00 00 00 00 00  00 00 00 03 00 00 00 00
+    90: 00 00 00 00 00 00 00 00  3E 82 43 E1 00 00 00 00
+    A0: 00 00 00 00 00 00 00 03  00 00 00 00 00 00 00 00
+   110: 00 00 00 00 3E 82 43 E1  00 00 00 00 00 00 00 00
+   120: 00 00 00 03 00 00 00 00  00 00 00 00 00 00 00 00

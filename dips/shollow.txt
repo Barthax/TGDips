@@ -1,9 +1,9 @@
 ROM set changed: no
-0.106-0.175: shollow - "Satan's Hollow (set 1)"
+0.106-0.204: shollow - "Satan's Hollow (set 1)"
 
-Resolution, 0.106-0.175: 512x480 @ 30.000000Hz
+Resolution, 0.106-0.204: 512x480 @ 30.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Satan%27s%20Hollow%20%5Bset%201%5D
+TG Game Entry: https://www.twingalaxies.com/game/satans-hollow-set-1/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=7806
 
-NOTE: this game has both hard (DIPs) & soft (internal) settings. If not shown during playback, press F2 to access & check internal settings afterwards.
+NOTE: This game has both DIPs & internal settings covered by the rules. If not shown during playback, press F2 then Tilt to access & check internal settings afterwards.

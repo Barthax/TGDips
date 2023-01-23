@@ -1,0 +1,12 @@
+ROM set changed: yes
+0.106-0.191: grudge - "Grudge Match (prototype)"
+0.192-0.239: grudgep - "Grudge Match (v00.80, prototype)"
+
+MAME History:
+- 0.192: Vernimark and f205v added Grudge Match (v00.90, Italy, location test?). Note: Dump is a bit odd, 2 roms were identical, one rom needs to be loaded over the end of another as not to get corrupt text. I've asked for verification. Despite being in Italian this is a newer and noticably more complete version than the previous set, so I've made it the parent [David Haywood]. Changed (prototype) to clone 'Grudge Match (v00.80, prototype)'. Renamed (grudge) to (grudgep).
+
+Resolution, 0.106-0.113: 256x240 @ 60.000000Hz
+Resolution, 0.114-0.239: 256x240 @ 59.185606Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/grudge-match-prototype/mame
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=70572

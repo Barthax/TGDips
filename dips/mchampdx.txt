@@ -1,6 +1,15 @@
-ROM set changed: no
-0.106-0.175: mchampdx - "Multi Champ Deluxe (ver. 0106, 06/01/2000)"
+ROM set changed: no. Added in 0.102u4.
+0.103-0.197: mchampdx - "Multi Champ Deluxe (ver. 0106, 06/01/2000)"
 
-Resolution, 0.106-0.175: 320x240 @ 60.000000Hz
+Resolution, 0.103-0.197: 320x240 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Multi Champ Deluxe [ver. 0106, 06/01/2000]
+TG Game Entry: https://www.twingalaxies.com/game/multi-champ-deluxe-ver-0106-06-01-2000/mame
+Rules, Points [Tetris]: http://www.twingalaxies.com/scores.php?scores=23045
+Rules, Points [Pac Man]: http://www.twingalaxies.com/scores.php?scores=23043
+Rules, Points [Solitaire]: http://www.twingalaxies.com/scores.php?scores=75618
+Rules, Points [Pang Pang]: http://www.twingalaxies.com/scores.php?scores=23044
+
+NOTES:
+All relevant rules are covered by internal settings.  If not shown during playback, use F2 to access after playback completed.
+EEPROM was added to ROMset at 0.194, and as a result, default internal settings have changed! Please exercise caution!
+After revealing 100% of each model (unless Back Type is set to None), you are able to switch games - this is disallowed.

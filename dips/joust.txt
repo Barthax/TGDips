@@ -1,11 +1,19 @@
 ROM set changed: no
-0.30-0.175: joust - "Joust (White/Green label)"
+0.030-0.224: joust - "Joust (White/Green label)"
+0.225-     : joust - "Joust (Green label)"
+
+From MAMEINFO.DAT:
+- 0.225: Document and correct Joust rom labels [Brian Troha]. Changed parent description to 'Joust (Green label)' and clones (Solid Red label) to 'Joust (Red label)' and (White/Red label) to 'Joust (Yellow label)'. Renamed (joustwr) to (jousty).
 
 Resolution, 0.106-0.115: 292x240 @ 60.000000Hz
-Resolution, 0.116-0.175: 292x240 @ 60.096154Hz
+Resolution, 0.116-0.225: 292x240 @ 60.096154Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Joust%20[White/Green%20Label]
+TG Game Entry: https://www.twingalaxies.com/game/joust-white-green-label/mame
 Rules, 1 Player, Tournament: http://www.twingalaxies.com/scores.php?scores=9837
 Rules, 2 Player, Tournament: http://www.twingalaxies.com/scores.php?scores=75157
 Rules, 1 Player, Marathon: http://www.twingalaxies.com/scores.php?scores=5161
 Rules, 2 Player, Marathon: http://www.twingalaxies.com/scores.php?scores=75156
+
+TG Game Entry: https://www.twingalaxies.com/game/joust/mame
+Rules, Extreme Enduro (Joust-X): http://www.twingalaxies.com/scores.php?scores=195081 - any set of joust, parent or clones, is acceptable
+Rules, Training Camp Challenge!: http://www.twingalaxies.com/scores.php?scores=197125 - any set of joust, parent or clones, is acceptable

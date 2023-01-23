@@ -1,0 +1,13 @@
+Note: not currently represented on TG, clone of 'gunlock'
+ROM set changed: yes
+0.071-0.105: rayforcj - "Rayforce (Japan)"
+0.106-0.133: rayforcj - "Ray Force (Ver 2.3J 1994/01/20)"
+0.134-0.234: rayforcej - "Ray Force (Ver 2.3J 1994/01/20)"
+
+From MAMEINFO.DAT:
+- 0.133u1: Renamed (rayforcj) to (rayforcej).
+
+Resolution, 0.071-0.113: 320x224 @ 58.970001Hz
+Resolution, 0.114-0.234: 320x224 @ 58.970000Hz
+
+Rules: [no current tracks]

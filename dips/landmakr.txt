@@ -1,8 +1,28 @@
-ROM set changed: no
-0.106-0.175: landmakr - "Land Maker (Ver 2.01J 1998/06/01)"
+NOTE: two ROM sets represented here with changeover at 0.203.
+
+From MAMEINFO.DAT:
+- 0.203: SEGV added Land Maker (Ver 2.02O 1998/06/02). Renamed (landmakr) to (landmakrj).
+
+Land Maker (Ver 2.01J 1998/06/01)
+---------------------------------
+ROM set changed: yes
+0.106-0.202: landmakr - "Land Maker (Ver 2.01J 1998/06/01)"
+0.203-     : landmakrj - "Land Maker (Ver 2.01J 1998/06/01)"
 
 Resolution, 0.106-0.113: 320x232 @ 58.970001Hz
-Resolution, 0.114-0.175: 320x232 @ 58.970000Hz
+Resolution, 0.114-0.203: 320x232 @ 58.970000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Land%20Maker%20[Ver%202.01J%201998/06/01]
+TG Game Entry: https://www.twingalaxies.com/game/land-maker-ver-201j-1998-06-01/mame/
 Rules, Points [V.S. CPU Mode]: http://www.twingalaxies.com/scores.php?scores=75329
+
+
+Land Maker (Ver 2.02O 1998/06/02)
+---------------------------------
+Note: not currently represented on TG.
+ROM set changed: no.  Added in 0.203.
+
+0.203-     : landmakr - "Land Maker (Ver 2.02O 1998/06/02)"
+
+Resolution, 0.203-     : 320x232 @ 58.970000Hz
+
+Rules: [no current tracks]

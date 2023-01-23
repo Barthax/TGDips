@@ -1,7 +1,9 @@
 ROM set changed: no
-0.106-0.175: citycon - "City Connection (set 1)"
+0.106-0.240: citycon - "City Connection (set 1)"
 
-Resoution, 0.106-0.175: 240x224 @ 60.000000Hz
+Resoution, 0.106-0.197: 240x224 @ 60.000000Hz
+Resoution, 0.198-0.240: 240x224 @ 59.637405Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=City%20Connection%20[Set%201]
+TG Game Entry: https://www.twingalaxies.com/game/city-connection-set-1/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=9228
+Rules, Screen Completion Challenge: http://www.twingalaxies.com/scores.php?scores=230611

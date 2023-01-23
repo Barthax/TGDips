@@ -1,0 +1,17 @@
+ROM set changed: yes.
+0.106-0.196: pnyaa - "Pochi and Nyaa"
+0.197-     : pnyaaa - "Pochi and Nyaa (Ver 2.00)"
+
+MAME History:
+- 0.197: Razoola added Pochi and Nyaa (Ver 2.02). Changed Pochi and Nyaa to clone 'Pochi and Nyaa (Ver 2.00)'. Renamed (pnyaa) to (pnyaaa).
+
+Resolution, 0.106-0.113: 320x224 @ 59.185608Hz
+Resolution, 0.114-0.197: 320x224 @ 59.185606Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/pochi-and-nyaa/mame
+Rules, Points [PochiNyaa Attack - Beginner Mode]: https://www.twingalaxies.com/scores.php?scores=78917
+Rules, Points [1 Player PochiNyaa - Story Mode]: https://www.twingalaxies.com/scores.php?scores=78920
+Rules, Points [PochiNyaa Attack - Expert Mode]: https://www.twingalaxies.com/scores.php?scores=78918
+Rules, Points [PochiNyaa Attack - Survival Mode]: https://www.twingalaxies.com/scores.php?scores=78919
+
+NOTE: All relevant rules are covered by internal settings.  If not shown during playback, use F2 to access after playback completed.

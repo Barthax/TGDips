@@ -1,9 +1,9 @@
 ROM set changed: no
-0.106-0.175: exterm - "Exterminator"
+0.106-0.201: exterm - "Exterminator"
 
 Resolution, 0.106-0.114: 256x240 @ 60.000000Hz
-Resolution, 0.115-0.175: 256x240 @ 59.557843Hz
+Resolution, 0.115-0.201: 256x240 @ 59.557843Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Exterminator
+TG Game Entry: https://www.twingalaxies.com/game/exterminator/mame/
 Rules, Points [1 Player Only]: http://www.twingalaxies.com/scores.php?scores=55974
 Rules, Points [2 Player Team]: http://www.twingalaxies.com/scores.php?scores=55975

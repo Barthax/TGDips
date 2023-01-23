@@ -1,18 +1,18 @@
 Note: two ROM sets are represented here with changeover at 0.146u4.
 
-MAME History:
+From MAMEINFO.DAT:
 - 0.146u4: Arzeno Fabrice added Ninja Baseball Bat Man (World). Renamed (nbbatman) to (nbbatmanu).
 
 
 Ninja Baseball Bat Man (US)
 ---------------------------
 ROM set change: yes
-0.106-0.146u3: nbbatman - "Ninja Baseball Bat Man (US)"
-0.146u4-0.175: nbbatmanu - "Ninja Baseball Bat Man (US)"
+0.106-0.146: nbbatman - "Ninja Baseball Bat Man (US)"
+0.147-0.232: nbbatmanu - "Ninja Baseball Bat Man (US)"
 
-Resolution, 0.106-0.175: 320x240 @ 60.000000Hz
+Resolution, 0.106-0.232: 320x240 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Ninja%20Baseball%20Batman%20[US]
+TG Game Entry: https://www.twingalaxies.com/game/ninja-baseball-batman-us/mame
 Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=55088
 Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=78641
 Rules, Points [Three Player Team]: http://www.twingalaxies.com/scores.php?scores=78642
@@ -23,9 +23,8 @@ Ninja Baseball Bat Man (World)
 ------------------------------
 Note: not currently represented on TG.
 ROM set changed: no.  Added in 0.146u4.
-0.146u4-0.175: nbbatman - "Ninja Baseball Bat Man (World)"
+0.147-0.232: nbbatman - "Ninja Baseball Bat Man (World)"
 
-Resolution, 0.147-0.175: 320x240 @ 60.000000Hz
+Resolution, 0.147-0.232: 320x240 @ 60.000000Hz
 
 Rules: [no current tracks]
-

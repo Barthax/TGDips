@@ -1,0 +1,12 @@
+ROM set changed: yes
+0.106-0.217: sbagman - "Super Bagman"
+0.218-     : sbagman2 - "Super Bagman (version 3?)"
+
+From MAMEINFO.DAT:
+- 0.218: Michel Blanco added Super Bagman (version 5). Fixed rom names. Changed Super Bagman to clone 'Super Bagman (version 3?)'. Renamed (sbagman) to (sbagman2).
+
+Resolution, 0.106-0.138: 256x224 @ 60.000000Hz
+Resolution, 0.139-0.218: 256x224 @ 60.606061Hz
+
+TG Game Entry: http://www.twingalaxies.com/super-bagman/mame/
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=10027

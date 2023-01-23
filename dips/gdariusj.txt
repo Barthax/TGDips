@@ -1,0 +1,12 @@
+ROM set changed: yes
+0.106-0.226: gdarius - "G-Darius (Ver 2.01J)"
+0.227-     : gdariusj - "G-Darius (Ver 2.01J)"
+
+From MAMEINFO.DAT:
+- 0.227: The Dumping Union added clone G-Darius (Ver 2.02O). Renamed (gdarius) to (gdariusj) and (gdariusb) to (gdariusu).
+
+Resolution, 0.106-0.227: 640x480 @ 60.000000Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/g-darius-ver-201j/mame/
+Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=69933
+Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=69934

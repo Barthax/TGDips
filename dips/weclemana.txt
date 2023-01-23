@@ -1,0 +1,15 @@
+ROM set changed: yes.
+0.106-0.147: wecleman - "WEC Le Mans 24"
+0.148-0.166: wecleman - "WEC Le Mans 24 (set 1)"
+0.167-0.201: wecleman - "WEC Le Mans 24 (v2.00, set 1)"
+0.202-     : weclemana - "WEC Le Mans 24 (v2.00, set 1)"
+
+MAME History:
+- 0.147u2: Corrado Tomaselli added clone WEC Le Mans 24 (set 2). Changed parent description to 'WEC Le Mans 24 (set 1)'.
+- 0.167: ANY and The Dumping Union added clone WEC Le Mans 24 (v1.26). Changed parent description to 'WEC Le Mans 24 (v2.00, set 1)' and clone (set 2) to 'WEC Le Mans 24 (v2.00, set 2)'. Renamed (wecleman2) to (weclemana).
+- 0.202: ClawGrip added WEC Le Mans 24 (v2.01). Renamed (weclemanb) to (weclemanc), (weclemana) to (weclemanb) and (wecleman) to (weclemana).
+
+Resolution, 0.106-0.202: 320x224 @ 60.000000Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/wec-le-mans-24/mame
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=120635

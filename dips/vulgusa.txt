@@ -1,12 +1,13 @@
 ROM set changed: yes
 0.106-0.143: vulgus - "Vulgus (set 1)"
-0.143u1-0.175: vulgusa - "Vulgus (set 2)"
+0.144-0.237: vulgusa - "Vulgus (set 2)"
 
 MAME History:
 - 0.143u1: Brian Troha added DIP locations to Vulgus. Angelo Salese removed deprecat.h usage in Vulgus. Added 2x 'Unused' dipswitches. Changed (set 2) to parent 'Vulgus (set 1)' and (set 1) to clone 'Vulgus (set 2)'. Renamed (vulgus) to (vulgusa) and (vulgus2) to (vulgus).
 
 Resolution, 0.106-0.146: 256x224 @ 60.000000Hz
-Resolution, 0.147-0.175: 256x224 @ 59.590000Hz
+Resolution, 0.147-0.231: 256x224 @ 59.590000Hz
+Resolution, 0.232-0.237: 256x224 @ 59.637405Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Vulgus%20[set%201
+TG Game Entry: https://www.twingalaxies.com/game/vulgus-set-1/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=7892

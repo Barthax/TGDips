@@ -1,13 +1,13 @@
 ROM set changed: no. Added in 0.147u4 (was previously a DIP switch hack, then an external cheat).
 0.106-0.147: NOT SUPPORTED
-0.147u4-0.175: jrpacmanf - "Jr. Pac-Man (speedup hack)"
+0.147u4-0.193: jrpacmanf - "Jr. Pac-Man (speedup hack)"
 
 MAME History:
 - 0.88u3: Aaron Giles cleaned up the Jr Pacman driver. Removed 'Increase Game Speed (Cheat)' dipswitch.
 - 0.147u4: Added clone Jr. Pac-Man (speedup hack). Kevin Echbach fixed rom names and locations in Jr. Pac-Man according to PCB marking. Changed description to 'Jr. Pac-Man (11/9/83)'.
 
 Resolution, 0.106-0.147: NOT SUPPORTED
-Resolution, 0.148-0.175: 288x224 @ 60.606060Hz
+Resolution, 0.148-0.193: 288x224 @ 60.606060Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Jr.%20Pac-Man%20(speedup%20hack)
+TG Game Entry: http://www.twingalaxies.com/jr-pac-man-speedup-hack/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=132394

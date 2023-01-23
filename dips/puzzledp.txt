@@ -1,7 +1,8 @@
 ROM set changed: no
-0.106-0.175: puzzledp - "Puzzle De Pon!"
+0.106-0.224: puzzledp - "Puzzle De Pon!"
 
 Resolution, 0.106-0.113: 320x224 @ 59.185608Hz
-Resolution, 0.114-0.175: 320x224 @ 59.185606Hz
+Resolution, 0.114-0.224: 320x224 @ 59.185606Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Puzzle De Pon!
+TG Game Entry: https://www.twingalaxies.com/game/puzzle-de-pon/mame
+Rules, Points [1 Player Mode]: http://www.twingalaxies.com/scores.php?scores=9809

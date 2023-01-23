@@ -1,0 +1,34 @@
+Note: two ROM sets represented here with changeover at 0.240. THESE ARE TWO VERY DISTINCT GAMES!!!
+
+From MAMEINFO.DAT [theend]:
+- 0.183: Changed description of clone 'Omega' to 'Omega (bootleg?)'. Renamed (omega) to (omegab).
+
+
+Omega (bootleg?)
+----------------
+ROM set changed: yes.
+0.106-0.182: omega - "Omega"
+0.183-0.240: omegab - "Omega (bootleg?)"
+
+Resolution, 0.106-0.113: 256x224 @ 60.606060Hz
+Resolution, 0.114-0.123: 256x224 @ 60.606061Hz
+Resolution, 0.125-0.240: 768x224 @ 60.606061Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/omega/mame
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=233603
+
+NOTE: clone of theend
+
+
+Omega
+-----
+Note: not currently represented on TG.
+ROM set changed: no.  Added in 0.183.
+0.183-0.240: omega - "Omega"
+
+From MAMEINFO.DAT [omega]:
+- 0.183: ShouTime, Darksoft, Anonymous Donator, Smitdogg and The Dumping Union added 'Omega' (Nihon System 1986). Decrypt Omega program. Used known plaintext attack to obtain Omega program encryption key [Vas Crabb]. Fill in dipswitches for Omega. Get Omega working [Brian Troha]. Fixed sprite rom load order in Omega, sprite colors are now correct to real machine screenshots. Made input ports derived from gigas rather than fully redefining everything. Note: Omega code/gfx looks to be based on Gigas Mark II, given the "MarkII" graphic in the gfx roms and Gigas Mark II style continue numbers etc. PCB is marked "K.K NS6102-A" and seems to be somewhere between Gigas hardware and Free Kick hardware (3x dipswitch arrays). Supposedly an extremely limited release with ~10 PCBs produced [Lord Nightmare].
+
+Resolution, 0.183-0.240: 256x224 @ 60.836502Hz
+
+Rules: [no current tracks]

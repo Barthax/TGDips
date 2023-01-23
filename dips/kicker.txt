@@ -1,8 +1,11 @@
 ROM set changed: no
-0.106-0.175: kicker - "Kicker"
+0.106-0.203: kicker - "Kicker"
 
-Resolution, 0.106-0.175: 256x224 @ 60.000000Hz
+From MAMEINFO.DAT:
+- 0.132u1: Removed 4x 'Unknown' dipswitches.
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Kicker
+Resolution, 0.106-0.203: 256x224 @ 60.000000Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/kicker/mame/
 Rules, Points [Marathon Settings]: http://www.twingalaxies.com/scores.php?scores=10475
 Rules, Points [TGES]: http://www.twingalaxies.com/scores.php?scores=75193

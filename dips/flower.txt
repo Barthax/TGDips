@@ -1,16 +1,24 @@
-ROM set changed: no*
+ROM set changed: no *
 0.106-0.125: flower - "Flower"
 0.126-0.138: flower - "Flower (Komax)"
-0.139-0.175: flower - "Flower (US)"
+0.139-0.212: flower - "Flower (US)"
 
-* It only changed during 0.125 updates but the net result is it remained the same.  flower -> flowerk, flowerk -> flower.
-MAME History:
-- 0.125u9: Couriersud added state saving for Flower. Renamed (flower) to (flowers) and (flowerk) to (flower).
+* NOTE: Was renamed during 0.125 partial updates, but the net result is it remained the same between 0.125 & 0.126.
+flower -> flowerk, flowerk -> flower.
+
+From MAMEINFO.DAT:
 - 0.125u8: Brian Troha fixed Flower dipswitches and added DIP locations. Changed 'Flower (bootleg)' to parent 'Flower (Sega/Alpha)' and 'Flower' to clone '(Komax)'. Renamed (flower) to (flowerk) and (flowerbl) to (flower). Added dipswitches 'Energy Decrease', 'Enemy Bullets', 'Demo Sounds' and 'Keep Weapon Items When Destroyed'.
+- 0.125u9: Couriersud added state saving for Flower. Renamed (flower) to (flowers) and (flowerk) to (flower).
 - 0.138u1: Changed description to 'Flower (US)' and clone (Sega/Alpha) to 'Flower (Japan)'. Renamed (flowers) to (flowerj).
+- 0.186: Scroll, inputs and sprites. Added sprite sizes [Angelo Salese]. Changed visible area to 272x224. Added 2x Players, 3x buttons and 1x coin slot. Added dipswitches 'Energy Decrease', 'Invulnerability (Cheat)', 'Keep Weapons When Destroyed', 'Difficulty', 'Shot Range', 'Lives', 'Coinage', 'Cabinet', 'Demo Sounds' and 'Bonus Life'.
 
 Resolution, 0.106-0.171: 272x224 @ 60.000000Hz
-Resolution, 0.172-0.175: "No Screens attached to the system"
+Resolution, 0.172-0.177: "No Screens attached to the system"
+Resolution, 0.178-0.185: 288x224 @ 61.585689Hz
+Resolution, 0.186-0.191: 272x224 @ 61.585689Hz
+Resolution, 0.192-0.212: 288x224 @ 60.606061Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Flower
+TG Game Entry: https://www.twingalaxies.com/game/flower/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=69917
+
+NOTE: there have been many changes to these DIPs over time, verify with caution!!!

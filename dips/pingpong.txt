@@ -1,0 +1,8 @@
+ROM set changed: no
+0.106-0.123: pingpong - "Ping Pong"
+0.124-0.210: pingpong - "Konami's Ping-Pong"
+
+Resolution, 0.106-0.210: 256x224 @ 60.000000Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/konamis-ping-pong/mame/
+Rules, Points: https://www.twingalaxies.com/scores.php?scores=223013

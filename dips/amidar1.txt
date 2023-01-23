@@ -3,7 +3,7 @@ NOTE: both amidar/amidar1 (renamed) & amidaru ROM sets are tracked separately. T
 
 ROM set changed: yes
 0.106-0.142: amidar - "Amidar"
-0.142u4-0.175: amidar1 - "Amidar (older)"
+0.142u4-0.193: amidar1 - "Amidar (older)"
 
 MAME History: 
  - 0.142u4: Patrik Styrnell added Amidar (Konami 1982). Renamed (amidar) to (amidar1).
@@ -12,8 +12,8 @@ MAME History:
 
 Resolution, 0.106-0.113: 256x224 @ 60.606060Hz
 Resolution, 0.114-0.124: 256x224 @ 60.606061Hz
-Resolution, 0.125-0.175: 768x224 @ 60.606061Hz
+Resolution, 0.125-0.193: 768x224 @ 60.606061Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Amidar
+TG Game Entry: http://www.twingalaxies.com/amidar/mame/
 (Note that this link also covers the US/Stern set.)
 Rules, Points [Konami ROMSet]: http://www.twingalaxies.com/scores.php?scores=41122

@@ -1,0 +1,102 @@
+# MAME 0.106 source snippet [cvs.c]
+
+GAME( 1983, hunchbak,    cvs,      cvs,      cvs,    0,          ROT90, "Century Electronics", "Hunchback", GAME_IMPERFECT_SOUND | GAME_NO_COCKTAIL )
+
+INPUT_PORTS_START( cvs )
+
+	PORT_START	/* Matrix 0 */
+    PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_START1 )				/* Confirmed */
+    PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_START2 ) 		  	/* Confirmed */
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_COIN2 )				/* Confirmed */
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_COIN1 )				/* Confirmed */
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_COCKTAIL
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_BUTTON1 )			/* Confirmed */
+    PORT_BIT( 0xC0, IP_ACTIVE_LOW, IPT_UNKNOWN )
+
+	PORT_START	/* Dunno */
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_BUTTON2) PORT_COCKTAIL
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_BUTTON2 )			/* Confirmed */
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT )		/* Confirmed */
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) 		/* Confirmed */
+    PORT_BIT( 0xcc, IP_ACTIVE_LOW, IPT_UNKNOWN )
+
+	PORT_START	/* Dunno */
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_COIN2 )				/* Duplicate? */
+    PORT_BIT( 0xfe, IP_ACTIVE_LOW, IPT_UNKNOWN )
+
+	PORT_START	/* Dunno */
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_JOYSTICK_UP )		/* Confirmed */
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN )		/* Confirmed */
+    PORT_BIT( 0xcf, IP_ACTIVE_LOW, IPT_UNKNOWN )
+
+	PORT_START	/* SW BANK 3 */
+	PORT_DIPNAME( 0x01, 0x00, "Colour" )
+	PORT_DIPSETTING(    0x00, "option 1" )
+	PORT_DIPSETTING(    0x01, "option 2" )
+	PORT_DIPNAME( 0x02, 0x02, DEF_STR( Cabinet ))
+	PORT_DIPSETTING(    0x02, DEF_STR( Upright ))
+	PORT_DIPSETTING(    0x00, DEF_STR( Cocktail ))
+    PORT_DIPNAME( 0x0C, 0x00, "Bonus" )
+    PORT_DIPSETTING(    0x00, "10k only" )
+    PORT_DIPSETTING(    0x04, "20k only" )
+    PORT_DIPSETTING(    0x08, "30k and every 40k" )
+    PORT_DIPSETTING(    0x0C, "40k and every 80k" )
+	PORT_DIPNAME( 0x10, 0x00, "Registration Length" )
+	PORT_DIPSETTING(    0x00, "3" )
+	PORT_DIPSETTING(    0x10, "10" )
+	PORT_DIPNAME( 0x20, 0x00, "Registration" )
+	PORT_DIPSETTING(    0x20, DEF_STR( Off ))
+	PORT_DIPSETTING(    0x00, DEF_STR( On ))
+
+    PORT_START	/* SW BANK 2 */
+	PORT_DIPNAME( 0x03, 0x00, "Coins for 1 Play" )			/* Confirmed */
+	PORT_DIPSETTING(    0x00, "1" )
+	PORT_DIPSETTING(    0x01, "2" )
+    PORT_DIPSETTING(    0x02, "3" )
+    PORT_DIPSETTING(    0x03, "4" )
+    PORT_DIPNAME( 0x0C, 0x0C, "Plays for 1 Coin" )			/* Confirmed */
+    PORT_DIPSETTING(    0x0C, "2" )
+    PORT_DIPSETTING(    0x08, "3" )
+    PORT_DIPSETTING(    0x04, "4" )
+    PORT_DIPSETTING(    0x00, "5" )
+	PORT_DIPNAME( 0x10, 0x00, DEF_STR( Lives ))				/* Confirmed */
+	PORT_DIPSETTING(    0x00, "3" )
+	PORT_DIPSETTING(    0x10, "5" )
+	PORT_DIPNAME( 0x20, 0x00, "Meter Pulses" )
+	PORT_DIPSETTING(    0x00, "2" )
+	PORT_DIPSETTING(    0x20, "5" )
+
+	PORT_START	/* SENSE */
+	PORT_BIT( 0x80, IP_ACTIVE_HIGH, IPT_VBLANK )
+
+INPUT_PORTS_END
+
+Resolution: 240x248 @ 60.000000Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/hunchback/mame/
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=9238
+
+ROMset: HunchBak
+Colour: option 1
+Cabinet: Upright
+Bonus: 10k Only
+Lives: 3
+Meter Pulses: 2
+
+Sample correct TG:
+SWB3: offset 0x33, repeat every 0x7C, typical value 0x02
+- SWB3: 0x01 (Colour): 0x00 (option 1)
+- SWB3: 0x02 (Cabinet): 0x02 (Upright)
+- SWB3: 0x0C (Bonus): 0x00 (10k only)
+- SWB3: 0x10 (Registration Length): [not relevant]
+- SWB3: 0x20 (Registration): [not relevant]
+SWB2: offset 0x37, repeat every 0x7C, typical value 0x0C
+- SWB2: 0x03 (Coins for 1 Play): [not relevant]
+- SWB2: 0x0C (Plays for 1 Coin): [not relevant]
+- SWB2: 0x10 (Lives): 0x00 (3)
+- SWB2: 0x20 (Meter Pulses): 0x00 (2)
+
+    30: 00 00 00 02 00 00 00 0C  00 00 00 00 00 00 00 00
+    A0: 00 00 00 FF 00 00 00 FF  00 00 00 FF 00 00 00 02
+    B0: 00 00 00 0C 00 00 00 00  00 00 00 00 00 00 00 00
+   120: 00 00 00 FF 00 00 00 FF  00 00 00 02 00 00 00 0C

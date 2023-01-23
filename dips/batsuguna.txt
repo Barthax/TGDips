@@ -1,6 +1,6 @@
 Note: two ROM sets represented here with the switchover at 0.141u1.
 
-MAME History:
+From MAMEINFO.DAT:
 - 0.133u1: Renamed (batsugna) to (batsuguna) and (batugnsp) to (batsugunsp).
 - 0.141u1: Alex Jackson fixed missing music and some sound effects in Batsugun. Changed (set 2)' to parent 'Batsugun' and (set 1) to clone 'Batsugun (older set)'. Renamed (batsugun) to (batsuguna) and (batsuguna) to (batsugun).
 
@@ -9,14 +9,17 @@ Batsugun (set 1) / Batsugun (older set)
 ---------------------------------------
 ROM set changed: yes
 0.106-0.141: batsugun - "Batsugun (set 1)"
-0.141u1-0.175: batsuguna - "Batsugun (older set)"
+0.142-0.232: batsuguna - "Batsugun (older set)"
 
 Resolution, 0.106-0.151: 320x240 @ 60.000000Hz
-Resolution, 0.152-0.175: 320x240 @ 59.637405Hz
+Resolution, 0.152-0.232: 320x240 @ 59.637405Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Batsugun%20[Set%201]
+TG Game Entry: http://www.twingalaxies.com/batsugun-set-1/mame/
 Rules, Points [1 Player Only]: http://www.twingalaxies.com/scores.php?scores=11914
 Rules, Points [2 Player Team]: http://www.twingalaxies.com/scores.php?scores=11915
+
+NOTES:  Difficulty DIP settings were relabelled at 0.142 from (Easy/Medium/Hard/Hardest) to (Easy/Normal/Hard/Very Hard)
+        Region DIP was removed at 0.148
 
 
 Batsugun (set 2) / Batsugun
@@ -24,10 +27,10 @@ Batsugun (set 2) / Batsugun
 Note: this set not represented on TG.
 ROM set changed: yes
 0.106-0.133: batsugna - "Batsugun (set 2)"
-0.133u1-0.141: batsuguna - "Batsugun (set 2)"
-0.142-0.175: batsugun - "Batsugun"
+0.134-0.141: batsuguna - "Batsugun (set 2)"
+0.142-0.232: batsugun - "Batsugun"
 
 Resolution, 0.106-0.151: 320x240 @ 60.000000Hz
-Resolution, 0.152-0.175: 320x240 @ 59.637405Hz
+Resolution, 0.152-0.232: 320x240 @ 59.637405Hz
 
 Rules: [no current tracks]

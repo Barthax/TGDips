@@ -1,0 +1,27 @@
+Note: two ROM sets represented here with changeover at 0.122u8.
+
+MAME History:
+- 0.122u8: Phil Bennett fixed Lock-On - Game now playable. Added Lock-On (rev. E). Significant improvements to the driver. Added POLL input handling to the NEC V20/V30 core. Added 6x Volume Filter sound. Changed VSync to 55.803571 Hz. Added 'Coin A/B', 'Enable H/W Tests Menu' and 'Unused' dipswitches. Renamed (lockon) to (lockonc). Changed 'Lock-On' to clone 'Lock-On (rev. C)'.
+
+Lock-On (rev. C)
+----------------
+Note: not currently represented on TG.
+ROM set changed: yes.
+0.106-0.122: lockon - "Lock-On"
+0.123-0.190: lockonc - "Lock-On (rev. C)"
+
+Resolution, 0.106-0.122: 320x240 @ 60.000000Hz
+Resolution, 0.123-0.190: 320x240 @ 55.803571Hz
+
+Rules: [no current tracks]
+
+
+Lock-On (rev. E)
+----------------
+ROM set changed: no. Added in 0.122u8.
+0.123-0.190: lockon - "Lock-On (rev. E)"
+
+Resolution, 0.123-0.190: 320x240 @ 55.803571Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Lock-On+(rev.+E)
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=210685

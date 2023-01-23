@@ -3,7 +3,7 @@ ROM set changed: no
 
 Resolution, 0.106-0.175: 320x240 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Asylum%20[Prototype]
+TG Game Entry: https://www.twingalaxies.com/game/asylum-prototype/mame/
 Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=21481
 Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=41140
 Rules, Points [Three Player Team]: http://www.twingalaxies.com/scores.php?scores=41141

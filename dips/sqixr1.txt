@@ -1,12 +1,13 @@
 ROM set changes: yes
 0.106-0.131: sqix - "Super Qix (set 1)"
-0.131u3-0.175: sqixr1 - "Super Qix (World, Rev 1)"
+0.131u3-0.177: sqixr1 - "Super Qix (World, Rev 1)"
+0.178-0.212: sqixr1 - "Super Qix (World/Japan, V1.1)"
 
 MAME history:
 - 0.131u3: Stefan Lindberg added Super Qix (World, Rev 2). Dr. Decapitator and Nicola Salmoria added I8751 ROM to clone Super Qix (US). Nicola Salmoria fixed sqix/sqixa bootleg MCU bad dump by comparison with the original. Changed description of 'Super Qix (set 1)' to 'Super Qix (World, Rev 1)' and clones 'Super Qix (set 2)' to 'Super Qix (bootleg set 1)' and 'Super Qix (bootleg)' to 'Super Qix (bootleg set 2)'. Renamed (sqix) to (sqixr1), (sqixa) to (sqixb1) and (sqixbl) to (sqixb2).
+- 0.178: Lord Nightmare added clone Super Qix (World/Japan, V1.0). Shuffled around the Super Qix machine configs to make a bit more logical sense. Added a custom input member to clean up the MCU semaphore implementation for sqix and clones. Added some notes about the sqixb1 MCU code origin. Replaced bootleg MCU code on sqix and sqixr1 sets with an MCU dump patched from the decapped sqixu MCU, using hints in the bootleg MCU code to figure out what to change. This very likely will match the real sqix/sqixr1 MCU once it gets dumped, but mark it as BAD_DUMP since it is a user-created image. Added sqixr0 World/Japan V1.0 romset as a working clone, dumped from an early PCB. Renamed sqixr1, sqix and sqixb1 set long names to include their version numbers. Updated comments about sqixb1, which is in fact an exact copy of sqixr0 with one gfx rom split and the MCU replaced with a bootleg version. Added notes about the greenwire fix on 7H on the V1.0 pcb vs the res/cap fix on later PCBs and notes about V1.0 coin lockout being inverted compared to the later sets. Minor comment updates and rom name fixes [Lord Nightmare]. Marked the recovered sqixb1 MCU dump good for that specific set as it matches a dump from a working PCB and updated notes [Lord Nightmare, Elgen]. Changed parent description to 'Super Qix (World/Japan, V1.2)' and clones (World, Rev 1) to 'Super Qix (World/Japan, V1.1)', (bootleg set 1) to 'Super Qix (bootleg of V1.0, 8031 MCU)' and (bootleg set 2) to 'Super Qix (bootleg, No MCU)'.
 
-Resolution, 0.106-0.175: 256x224 @ 60.000000Hz
+Resolution, 0.106-0.212: 256x224 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Super%20Qix%20[set%201]
+TG Game Entry: https://www.twingalaxies.com/game/super-qix-set-1/mame
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=110824
-

@@ -1,14 +1,21 @@
-ROM set changed: yes
-0.106-0.133: digdugb - "Dig Dug (rev 1)"
-0.133u3-0.175: digdug1 - "Dig Dug (rev 1)"
+ROM set changed: yes. Earlier renames for historical purposes only.
+0.026      : digdugnm - "Dig Dug - Namco"
+0.027-0.035: digdugnm - "Dig Dug (Namco)"
+0.036-0.079: digdug - "Dig Dug (set 1)"
+0.080-0.133: digdugb - "Dig Dug (rev 1)"
+0.134-0.239: digdug1 - "Dig Dug (rev 1)"
 
-MAME History:
+From MAMEINFO.DAT:
+- 0.26: Aaron Giles added 'Dig Dug - Namco' (Namco 1982) and clone 'Dig Dug - Atari'. Game is playable with accurate colors and sound. Control: Arrows = Move around and CTRL = Pump. Known issues: The Atari version has some glitches on sprites/chars.
+- 0.27: Changed description to 'Dig Dug (Namco)' and clone Atari to 'Dig Dug (Atari)'. Renamed (digdug) to (digdugat).
+- 0.35RC1: Yasuhiro Ogawa added clone Dig Dug (set 2). Changed 'Dig Dug (Namco)' to parent 'Dig Dug (set 1)'. Renamed (digdug) to (digdugat) and (digdugnm) to (digdug).
+- 0.79u1: Nicola Salmoria swapped (digdug) and (digdugb), the main set should be the newer one. Added EAROM support to Dig Dug. Changed Z80 CPU1/2/3 clock speeds to 3072000 Hz. Changed clone (set 2) to parent 'Dig Dug (rev 2)' and (set 1) to clone 'Dig Dug (rev 1)'. Renamed (digdug) to (digdugb) and (digdugb) to (digdug).
 - 0.133u3: Yasuhiro Ogawa renamed (digdugb) to (digdug1) (it's a rev1, not a bootleg) and (digduga1) to (digdugat1). Fixed rom names.
 
-Resolution, 0.106-0.131: 288x224 @ 60.606060Hz
-Resolution, 0.132-0.175: 288x224 @ 60.606061Hz
+Resolution, 0.078-0.131: 288x224 @ 60.606060Hz
+Resolution, 0.132-0.239: 288x224 @ 60.606061Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Dig%20Dug%20[Rev%201]
+TG Game Entry: http://www.twingalaxies.com/game/dig-dug-rev-1/mame/
 Rules, Points [Marathon Settings]: http://www.twingalaxies.com/scores.php?scores=5191
 Rules, Points [Tournament Settings]: http://www.twingalaxies.com/scores.php?scores=9850
 Rules, Points [ADeca 2004 Only Variation]: http://www.twingalaxies.com/scores.php?scores=9851

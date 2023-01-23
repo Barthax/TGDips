@@ -1,18 +1,17 @@
-ROM Set Changed: no
-Berzerk: 0.106-0.175: berzerk - "Berzerk (Set 1)"
-Berzerk1: 0.106-0.175: berzerk1 - "Berzerk (Set 2)"
-NB: berzerk is Fast Bullets, berzerk1 is Slow Bullets.
+NOTE: this is the SLOW BULLETS variation. For fast bullets, see berzerk.txt.
+
+ROM Set Changed: yes.
+0.106-0.215: berzerk1 - "Berzerk (Set 2)"
+0.216-     : berzerkb - "Berzerk (revision RC28)"
+
+From MAMEINFO.DAT:
+- 0.216: Kevin Eshbach and The Dumping Union added Berzerk (revision RC31A). Changed (set 1) to clone 'Berzerk (revision RC31)', (set 2) to 'Berzerk (revision RC28)', (French Speech) to 'Berzerk (French Speech, revision RC31)', (German Speech) to 'Berzerk (German Speech, revision RC32)' and (Spanish Speech) to 'Berzerk (Spanish Speech, revision RC32)'. Renamed (berzerk) to (berzerka) and (berzerk1) to (berzerkb).
 
 Resolution, 0.106-0.115: 256x224 @ 60.000000Hz
-Resolution, 0.116-0.175: 256x224 @ 59.637405Hz
+Resolution, 0.116-0.216: 256x224 @ 59.637405Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Berzerk
-Rules, 1-life, Slow Bullets, Random Play: http://www.twingalaxies.com/scores.php?scores=131843
-Rules, 1-life, Fast Bullets, Random Play: http://www.twingalaxies.com/scores.php?scores=9867
-Rules, 1-life, Slow Bullets, Pattern Play: http://www.twingalaxies.com/scores.php?scores=131847
-Rules, 1-life, Fast Bullets, Pattern Play: http://www.twingalaxies.com/scores.php?scores=131846
+TG Game Entry: https://www.twingalaxies.com/game/berzerk/mame/     *** this game entry also covers fast bullets, have requested separate game entries
 Rules, Slow Bullets, Random Play: http://www.twingalaxies.com/scores.php?scores=7685
-Rules, Fast Bullets, Random Play: http://www.twingalaxies.com/scores.php?scores=7686
+Rules, 1-life, Slow Bullets, Random Play: http://www.twingalaxies.com/scores.php?scores=131843
 Rules, Slow Bullets, Pattern Play: http://www.twingalaxies.com/scores.php?scores=131844
-Rules, Fast Bullets, Pattern Play: http://www.twingalaxies.com/scores.php?scores=131845
-
+Rules, 1-life, Slow Bullets, Pattern Play: http://www.twingalaxies.com/scores.php?scores=131847

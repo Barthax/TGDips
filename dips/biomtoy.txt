@@ -1,11 +1,11 @@
 ROM set changed: no
 0.106-0.143: biomtoy - "Biomechanical Toy (unprotected)"
-0.143u4-0.175: biomtoy - "Biomechanical Toy (Ver. 1.0.1885)"
+0.143u4-0.201: biomtoy - "Biomechanical Toy (Ver. 1.0.1885)"
 
-MAME History:
+From MAMEINFO.DAT:
 - 0.143u4: Tirino73 added clone Biomechanical Toy (Ver. 1.0.1884). Changed parent description to 'Biomechanical Toy (Ver. 1.0.1885)'.
 
-Resolution, 0.106-0.175: 320x240 @ 60.000000Hz
+Resolution, 0.106-0.201: 320x240 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Biomechanical%20Toy%20[Unprotected]
+TG Game Entry: https://www.twingalaxies.com/game/biomechanical-toy-unprotected/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=10062

@@ -1,0 +1,131 @@
+# MAME 0.106 source snippet [segac2.c]
+
+GAME( 1990, thunderl, 0,        thunderl, thunderl, 0,        ROT270, "Seta",                   "Thunder & Lightning" , 0) // Country/License: DSW
+
+#define	JOY_TYPE1_2BUTTONS(_n_) \
+	PORT_BIT(  0x0001, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT	) PORT_PLAYER(_n_) \
+	PORT_BIT(  0x0002, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT) PORT_PLAYER(_n_) \
+	PORT_BIT(  0x0004, IP_ACTIVE_LOW, IPT_JOYSTICK_UP	) PORT_PLAYER(_n_) \
+	PORT_BIT(  0x0008, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN	) PORT_PLAYER(_n_) \
+	PORT_BIT(  0x0010, IP_ACTIVE_LOW, IPT_BUTTON1		) PORT_PLAYER(_n_) \
+	PORT_BIT(  0x0020, IP_ACTIVE_LOW, IPT_BUTTON2		) PORT_PLAYER(_n_) \
+	PORT_BIT(  0x0040, IP_ACTIVE_LOW, IPT_UNKNOWN						) \
+	PORT_BIT(  0x0080, IP_ACTIVE_LOW, IPT_START##_n_					)
+
+	INPUT_PORTS_START( thunderl )
+	PORT_START_TAG("IN0") //Player 1
+	JOY_TYPE1_2BUTTONS(1)	// button2 = speed up
+
+	PORT_START_TAG("IN1") //Player 2
+	JOY_TYPE1_2BUTTONS(2)
+
+	PORT_START_TAG("IN2") //Coins + DSW
+	PORT_BIT( 0x0001, IP_ACTIVE_LOW, IPT_COIN1 ) PORT_IMPULSE(5)
+	PORT_BIT( 0x0002, IP_ACTIVE_LOW, IPT_COIN2 ) PORT_IMPULSE(5)
+	PORT_BIT(  0x0004, IP_ACTIVE_LOW, IPT_SERVICE1 )
+	PORT_BIT(  0x0008, IP_ACTIVE_LOW, IPT_TILT     )
+	PORT_DIPNAME( 0x0010, 0x0000, "Force 1 Life" )
+	PORT_DIPSETTING(      0x0000, DEF_STR( Off ) )
+	PORT_DIPSETTING(      0x0010, DEF_STR( On ) )
+	PORT_DIPNAME( 0x00e0, 0x00e0, "Copyright" )
+	PORT_DIPSETTING(      0x0080, "Romstar" )
+	PORT_DIPSETTING(      0x00c0, "Seta (Romstar License)" )
+	PORT_DIPSETTING(      0x00e0, "Seta (Visco License)" )
+	PORT_DIPSETTING(      0x00a0, "Visco" )
+	PORT_DIPSETTING(      0x0060, DEF_STR( None ) )
+//  PORT_DIPSETTING(      0x0040, DEF_STR( None ) )
+//  PORT_DIPSETTING(      0x0020, DEF_STR( None ) )
+//  PORT_DIPSETTING(      0x0000, DEF_STR( None ) )
+
+	PORT_START_TAG("IN3") //2 DSWs - $600003 & 1.b
+	PORT_DIPNAME( 0x000f, 0x000f, DEF_STR( Coin_A ) )
+	PORT_DIPSETTING(      0x000c, DEF_STR( 4C_1C ) )
+	PORT_DIPSETTING(      0x000d, DEF_STR( 3C_1C ) )
+	PORT_DIPSETTING(      0x0008, DEF_STR( 4C_2C ) )
+	PORT_DIPSETTING(      0x000e, DEF_STR( 2C_1C ) )
+	PORT_DIPSETTING(      0x0009, DEF_STR( 3C_2C ) )
+	PORT_DIPSETTING(      0x0004, DEF_STR( 4C_3C ) )
+	PORT_DIPSETTING(      0x0000, DEF_STR( 4C_4C ) )
+	PORT_DIPSETTING(      0x0005, DEF_STR( 3C_3C ) )
+	PORT_DIPSETTING(      0x000a, DEF_STR( 2C_2C ) )
+	PORT_DIPSETTING(      0x000f, DEF_STR( 1C_1C ) )
+	PORT_DIPSETTING(      0x0001, DEF_STR( 3C_4C ) )
+	PORT_DIPSETTING(      0x0006, DEF_STR( 2C_3C ) )
+	PORT_DIPSETTING(      0x0002, DEF_STR( 2C_4C ) )
+	PORT_DIPSETTING(      0x000b, DEF_STR( 1C_2C ) )
+	PORT_DIPSETTING(      0x0007, DEF_STR( 1C_3C ) )
+	PORT_DIPSETTING(      0x0003, DEF_STR( 1C_4C ) )
+	PORT_DIPNAME( 0x00f0, 0x00f0, DEF_STR( Coin_B ) )
+	PORT_DIPSETTING(      0x00c0, DEF_STR( 4C_1C ) )
+	PORT_DIPSETTING(      0x00d0, DEF_STR( 3C_1C ) )
+	PORT_DIPSETTING(      0x0080, DEF_STR( 4C_2C ) )
+	PORT_DIPSETTING(      0x00e0, DEF_STR( 2C_1C ) )
+	PORT_DIPSETTING(      0x0090, DEF_STR( 3C_2C ) )
+	PORT_DIPSETTING(      0x0040, DEF_STR( 4C_3C ) )
+	PORT_DIPSETTING(      0x0000, DEF_STR( 4C_4C ) )
+	PORT_DIPSETTING(      0x0050, DEF_STR( 3C_3C ) )
+	PORT_DIPSETTING(      0x00a0, DEF_STR( 2C_2C ) )
+	PORT_DIPSETTING(      0x00f0, DEF_STR( 1C_1C ) )
+	PORT_DIPSETTING(      0x0010, DEF_STR( 3C_4C ) )
+	PORT_DIPSETTING(      0x0060, DEF_STR( 2C_3C ) )
+	PORT_DIPSETTING(      0x0020, DEF_STR( 2C_4C ) )
+	PORT_DIPSETTING(      0x00b0, DEF_STR( 1C_2C ) )
+	PORT_DIPSETTING(      0x0070, DEF_STR( 1C_3C ) )
+	PORT_DIPSETTING(      0x0030, DEF_STR( 1C_4C ) )
+
+	PORT_SERVICE( 0x0100, IP_ACTIVE_LOW )
+	PORT_DIPNAME( 0x0200, 0x0000, DEF_STR( Flip_Screen ) )
+	PORT_DIPSETTING(      0x0000, DEF_STR( Off ) )		// WEIRD!
+	PORT_DIPSETTING(      0x0200, DEF_STR( On ) )
+	PORT_DIPNAME( 0x0400, 0x0000, DEF_STR( Cabinet ) )
+	PORT_DIPSETTING(      0x0000, DEF_STR( Upright ) )
+	PORT_DIPSETTING(      0x0400, DEF_STR( Cocktail ) )
+	PORT_DIPNAME( 0x0800, 0x0800, DEF_STR( Controls ) )
+	PORT_DIPSETTING(      0x0800, "2" )
+	PORT_DIPSETTING(      0x0000, "1" )
+	PORT_DIPNAME( 0x1000, 0x0000, DEF_STR( Demo_Sounds ) )
+	PORT_DIPSETTING(      0x1000, DEF_STR( Off ) )
+	PORT_DIPSETTING(      0x0000, DEF_STR( On ) )
+	PORT_DIPNAME( 0x2000, 0x2000, DEF_STR( Lives ) )
+	PORT_DIPSETTING(      0x2000, "3" )
+	PORT_DIPSETTING(      0x0000, "2" )
+	PORT_DIPNAME( 0xc000, 0xc000, DEF_STR( Difficulty ) )
+	PORT_DIPSETTING(      0x8000, DEF_STR( Easy ) )
+	PORT_DIPSETTING(      0xc000, DEF_STR( Normal ) )
+	PORT_DIPSETTING(      0x4000, DEF_STR( Hard ) )
+	PORT_DIPSETTING(      0x0000, DEF_STR( Hardest ) )
+INPUT_PORTS_END
+
+Resolution: 384x240 @ 60.000000Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/thunder-lightning/mame/
+Rules, Points: https://www.twingalaxies.com/scores.php?scores=10985
+
+ROMSet: ThunderL
+Force 1 life: Off
+Copyright: Seta [Visco License]
+Service Mode: Off
+Flip Screen: Off
+Cabinet: Upright
+Controls: 2
+Lives: 3
+Difficulty: Normal
+
+Sample correct TG:
+IN2: offset 0x2A, repeat every 0x7C, typical value 0x00EF
+- IN2: 0x0010 (Force 1 Life): 0x0000 (Off)
+- IN2: 0x00e0 (Copyright): 0x00e0 (Seta (Visco License))
+IN3: offset 0x2E, repeat every 0x7C, typical value 0xE9FF
+- IN3: 0x000f (Coin_A): [not relevant]
+- IN3: 0x00f0 (Coin_B): [not relevant]
+- IN3: 0x0100 (SERVICE MODE): 0x0100 (Off)
+- IN3: 0x0200 (Flip_Screen): 0x0000 (Off)
+- IN3: 0x0400 (Cabinet): 0x0000 (Upright)
+- IN3: 0x0800 (Controls): 0x0800 (2)
+- IN3: 0x1000 (Demo_Sounds): [not relevant]
+- IN3: 0x2000 (Lives): 0x2000 (3)
+- IN3: 0xc000 (Difficulty): 0xc000 (Normal)
+
+    20: 00 00 00 FF 00 00 00 FF  00 00 00 EF 00 00 E9 FF
+    A0: 00 00 00 FF 00 00 00 EF  00 00 E9 FF 00 00 00 00
+   120: 00 00 00 EF 00 00 E9 FF  00 00 00 00 00 00 00 00

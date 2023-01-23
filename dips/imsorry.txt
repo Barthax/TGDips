@@ -1,9 +1,9 @@
 ROM set changed: no
 0.106-0.113: imsorry - "I'm Sorry (US)"
-0.114-0.175: imsorry - "I'm Sorry (315-5110, US)"
+0.114-0.236: imsorry - "I'm Sorry (315-5110, US)"
 
 Resolution, 0.106-0.130: 256x224 @ 60.000000Hz
-Resolution, 0.131-0.175: 512x224 @ 60.096154Hz
+Resolution, 0.131-0.236: 512x224 @ 60.096154Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=I%27m%20Sorry%20[US]
+TG Game Entry: https://www.twingalaxies.com/game/im-sorry-us/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=21146

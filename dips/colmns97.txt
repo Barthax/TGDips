@@ -1,9 +1,13 @@
 ROM set changed: no
-0.106-0.175: colmns97 - "Columns '97 (JET 961209 V1.000)"
+0.106-0.201: colmns97 - "Columns '97 (JET 961209 V1.000)"
 
 Resolution, 0.106-0.133: 704x512 @ 60.000000Hz
 Resolution, 0.134-0.142: 320x224 @ 59.828244Hz
-Resolution, 0.143-0.175: 320x224 @ 59.764793Hz
+Resolution, 0.143-0.179: 320x224 @ 59.764793Hz
+Resolution, 0.180-0.193: 352x224 @ 59.764793Hz
+Resolution, 0.194-0.201: 352x224 @ 59.764802Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Columns%20%2797%20[JET%20961209%20V1.000]
+TG Game Entry: https://www.twingalaxies.com/game/columns-97-jet-961209-v1000/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=55690
+
+NOTE: This game has both DIPs & internal settings covered by the rules. If not shown during playback, press F2 to access & check internal settings afterwards.

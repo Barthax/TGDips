@@ -1,7 +1,10 @@
 ROM set changed: no
-0.106-0.175: roadrunn - "Road Runner (rev 2)"
+0.106-0.212: roadrunn - "Road Runner (rev 2)"
 
 Resolution, 0.106-0.114: 336x240 @ 60.000000Hz
-Resolution, 0.115-0.175: 336x240 @ 59.922743Hz
+Resolution, 0.115-0.212: 336x240 @ 59.922743Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Road Runner [Rev 2]
+TG Game Entry: https://www.twingalaxies.com/game/road-runner-rev-2/mame/
+Rules, Points: https://www.twingalaxies.com/scores.php?scores=42238
+
+NOTE: All relevant rules are covered by internal settings.  If not shown during playback, use F2 to access after playback completed.

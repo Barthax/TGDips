@@ -1,6 +1,7 @@
 ROM set changed: no
-0.106-0.175: tankbatt - "Tank Battalion"
+0.106-0.207: tankbatt - "Tank Battalion"
 
-Resolution, 0.106-0.175: 256x224 @ 60.000000Hz
+Resolution, 0.106-0.207: 256x224 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Tank Battalion
+TG Game Entry: https://www.twingalaxies.com/game/tank-battalion/mame
+Rules, Points: https://www.twingalaxies.com/scores.php?scores=10456

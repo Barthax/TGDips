@@ -1,0 +1,68 @@
+# MAME 0.106 source snippet [galaxian.c]
+
+GAME( 1982, checkman, 0,        checkman, checkman, checkman, ROT90,  "Zilec-Zenitone", "Check Man", GAME_SUPPORTS_SAVE )
+
+INPUT_PORTS_START( checkman )
+	PORT_START_TAG("IN0")
+	PORT_BIT( 0x01, IP_ACTIVE_HIGH, IPT_COIN2 )
+	PORT_BIT( 0x02, IP_ACTIVE_HIGH, IPT_COIN1 )
+	PORT_BIT( 0x04, IP_ACTIVE_HIGH, IPT_JOYSTICK_LEFT )
+	PORT_BIT( 0x08, IP_ACTIVE_HIGH, IPT_JOYSTICK_RIGHT )
+	PORT_BIT( 0x10, IP_ACTIVE_HIGH, IPT_BUTTON2 ) PORT_COCKTAIL PORT_NAME("P2 Tiles Right")
+	PORT_BIT( 0x20, IP_ACTIVE_HIGH, IPT_JOYSTICK_DOWN )
+	PORT_BIT( 0x40, IP_ACTIVE_HIGH, IPT_JOYSTICK_UP ) PORT_COCKTAIL
+	PORT_BIT( 0x80, IP_ACTIVE_HIGH, IPT_JOYSTICK_UP )
+
+	PORT_START_TAG("IN1")
+	PORT_BIT( 0x01, IP_ACTIVE_HIGH, IPT_START1 ) PORT_NAME("Start 1 / P1 Tiles Left")/* also p1 tiles left */
+	PORT_BIT( 0x02, IP_ACTIVE_HIGH, IPT_START2 ) PORT_NAME("Start 2 / P1 Tiles Right")/* also p1 tiles right */
+	PORT_BIT( 0x04, IP_ACTIVE_HIGH, IPT_JOYSTICK_LEFT ) PORT_COCKTAIL
+	PORT_BIT( 0x08, IP_ACTIVE_HIGH, IPT_JOYSTICK_RIGHT ) PORT_COCKTAIL
+	PORT_BIT( 0x10, IP_ACTIVE_HIGH, IPT_BUTTON1 ) PORT_COCKTAIL PORT_NAME("P2 Tiles Left")/* p2 tiles left */
+	PORT_BIT( 0x20, IP_ACTIVE_HIGH, IPT_JOYSTICK_DOWN ) PORT_COCKTAIL
+	PORT_DIPNAME( 0x40, 0x00, DEF_STR( Coinage ) )
+	PORT_DIPSETTING(    0x40, "A 2C/1C  B 1C/3C" )
+	PORT_DIPSETTING(    0x00, "A 1C/1C  B 1C/6C" )
+	PORT_DIPNAME( 0x80, 0x00, DEF_STR( Cabinet ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Upright ) )
+	PORT_DIPSETTING(    0x80, DEF_STR( Cocktail ) )
+
+	PORT_START_TAG("DSW0")
+	PORT_DIPNAME( 0x03, 0x00, DEF_STR( Lives ) )
+	PORT_DIPSETTING(    0x00, "3" )
+	PORT_DIPSETTING(    0x01, "4" )
+	PORT_DIPSETTING(    0x02, "5" )
+	PORT_DIPSETTING(    0x03, "6" )
+	PORT_DIPNAME( 0x04, 0x00, DEF_STR( Bonus_Life ) )
+	PORT_DIPSETTING(    0x00, "100000" )
+	PORT_DIPSETTING(    0x04, "200000" )
+	PORT_DIPNAME( 0x08, 0x00, "Difficulty Increases At Level" )
+	PORT_DIPSETTING(    0x08, "3" )
+	PORT_DIPSETTING(    0x00, "5" )
+	PORT_BIT( 0xf0, IP_ACTIVE_HIGH, IPT_UNUSED )
+INPUT_PORTS_END
+
+Resolution: 256x224 @ 60.606060Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/check-man/mame/
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=24467
+
+ROMSet: CheckMan
+Cabinet: Upright
+Lives: 3
+Bonus Life: 100000
+Difficulty Increases at Level 5
+
+Sample correct TG:
+IN1: offset 0x27, repeat every 0x7C, typical value 0x00 but varies with normal gameplay, expect upper nibble 0x70 or lower
+- IN1: 0x40 (Coinage): [not relevant]
+- IN1: 0x80 (Cabinet): 0x00 (Upright)
+DSW0: offset 0x2B, repeat every 0x7C, typical value 0x00
+- DSW0: 0x03 (Lives): 0x00 (3)
+- DSW0: 0x04 (Bonus_Life): 0x00 (100000)
+- DSW0: 0x08 (Difficulty Increases At Level): 0x00 (5)
+
+    20: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+    A0: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
+   110: 00 00 00 00 3E 82 43 E1  00 00 00 00 00 00 00 00
+   120: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00

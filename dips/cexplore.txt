@@ -1,0 +1,12 @@
+ROM set changed: no. Added in 0.037b13 but only playable from 0.188.
+0.188-0.198: cexplore - "Explorer (DECO Cassette) (US)"
+
+MAME History:
+- 0.188: Brian Troha added roms from the DECO GRO DE-0091C-1 overlay PCB to Explorer (DECO Cassette) (US) - Game now playable.
+
+Resolution, 0.188-0.198: 256x240 @ 57.444853Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/explorer-deco-cassette-us/mame/
+Rules, Points: https://www.twingalaxies.com/scores.php?scores=214206
+
+NOTE: only playable from 0.188, so DECOCASS DIP labels & values changes at 0.133u1 do not affect this title (check http://www.twingalaxies.com/showthread.php/165533-MAME-Decocass-games for better explanation).

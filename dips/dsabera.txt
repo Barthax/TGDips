@@ -1,13 +1,15 @@
 ROM set changed: yes
 0.106-0.172: dsaber - "Dragon Saber"
-0.173-0.175: dsabera - "Dragon Saber (World, older?)"
+0.173-0.213: dsabera - "Dragon Saber (World, older?)"
 
-MAME History:
+From MAMEINFO.DAT:
 - 0.173: Layer added Dragon Saber (World, DO2). Fixed rom names. Changed 'Dragon Saber' to clone 'Dragon Saber (World, older?)'. Renamed (dsaber) to (dsabera).
 
 Resolution, 0.106-0.113: 288x224 @ 60.606060Hz
-Resolution, 0.114-0.175: 288x224 @ 60.606061Hz
+Resolution, 0.114-0.213: 288x224 @ 60.606061Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Dragon%20Saber
+TG Game Entry: https://www.twingalaxies.com/game/dragon-saber/mame/
 Rules, Points [1 Player Only]: http://www.twingalaxies.com/scores.php?scores=10141
 Rules, Points [2 Player Team]: http://www.twingalaxies.com/scores.php?scores=10142
+
+NOTE: This game has both DIPs & internal settings covered by the rules. If not shown during playback, press F2 to access & check internal settings afterwards.

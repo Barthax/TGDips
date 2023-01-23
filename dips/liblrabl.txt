@@ -1,8 +1,10 @@
 ROM set changed: no
-0.106-0.185: liblrabl - "Libble Rabble"
+0.106-0.197: liblrabl - "Libble Rabble"
 
 Resolution, 0.106-0.171: 288x224 @ 60.606060Hz
-Resolution, 0.172-0.185: 288x224 @ 60.606061Hz
+Resolution, 0.172-0.197: 288x224 @ 60.606061Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Libble+Rabble
+TG Game Entry: https://www.twingalaxies.com/game/libble-rabble/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=75362
+
+NOTE: Since 0.173, the conditional DIPs feature of this game affects WolfMAME's inpview. While "Lives" affects "Bonus_Life" in general, this does not impact the specific settings for this track.

@@ -1,0 +1,110 @@
+# MAME 0.106 source snippet [pacman.c]
+
+GAME( 1984, kungfum,  0,        kunGAME( 1982, ponpoko,  0,        woodpek,  ponpoko,  ponpoko,  ROT0,   "Sigma Enterprises Inc.", "Ponpoko", GAME_SUPPORTS_SAVE )
+
+INPUT_PORTS_START( ponpoko )
+	PORT_START_TAG("IN0")
+	PORT_BIT( 0x01, IP_ACTIVE_HIGH, IPT_JOYSTICK_UP ) PORT_8WAY
+	PORT_BIT( 0x02, IP_ACTIVE_HIGH, IPT_JOYSTICK_LEFT ) PORT_8WAY
+	PORT_BIT( 0x04, IP_ACTIVE_HIGH, IPT_JOYSTICK_RIGHT ) PORT_8WAY
+	PORT_BIT( 0x08, IP_ACTIVE_HIGH, IPT_JOYSTICK_DOWN ) PORT_8WAY
+	PORT_BIT( 0x10, IP_ACTIVE_HIGH, IPT_BUTTON1 )
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_COIN1 )
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_COIN2 )
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_SERVICE1 )
+
+	/* The 2nd player controls are used even in upright mode */
+	PORT_START_TAG("IN1")
+	PORT_BIT( 0x01, IP_ACTIVE_HIGH, IPT_JOYSTICK_UP ) PORT_8WAY PORT_PLAYER(2)
+	PORT_BIT( 0x02, IP_ACTIVE_HIGH, IPT_JOYSTICK_LEFT ) PORT_8WAY PORT_PLAYER(2)
+	PORT_BIT( 0x04, IP_ACTIVE_HIGH, IPT_JOYSTICK_RIGHT ) PORT_8WAY PORT_PLAYER(2)
+	PORT_BIT( 0x08, IP_ACTIVE_HIGH, IPT_JOYSTICK_DOWN ) PORT_8WAY PORT_PLAYER(2)
+	PORT_BIT( 0x10, IP_ACTIVE_HIGH, IPT_BUTTON1 ) PORT_PLAYER(2)
+	PORT_BIT( 0x20, IP_ACTIVE_HIGH, IPT_START1 )
+	PORT_BIT( 0x40, IP_ACTIVE_HIGH, IPT_START2 )
+	PORT_BIT( 0x80, IP_ACTIVE_HIGH, IPT_UNUSED )
+
+	PORT_START_TAG("DSW 1")
+	PORT_DIPNAME( 0x03, 0x01, DEF_STR( Bonus_Life ) )
+	PORT_DIPSETTING(    0x01, "10000" )
+	PORT_DIPSETTING(    0x02, "30000" )
+	PORT_DIPSETTING(    0x03, "50000" )
+	PORT_DIPSETTING(    0x00, DEF_STR( None ) )
+	PORT_DIPNAME( 0x0c, 0x00, DEF_STR( Unknown ) )
+	PORT_DIPSETTING(    0x00, "0" )
+	PORT_DIPSETTING(    0x04, "1" )
+	PORT_DIPSETTING(    0x08, "2" )
+	PORT_DIPSETTING(    0x0c, "3" )
+	PORT_DIPNAME( 0x30, 0x20, DEF_STR( Lives ) )
+	PORT_DIPSETTING(    0x00, "2" )
+	PORT_DIPSETTING(    0x10, "3" )
+	PORT_DIPSETTING(    0x20, "4" )
+	PORT_DIPSETTING(    0x30, "5" )
+	PORT_DIPNAME( 0x40, 0x40, DEF_STR( Cabinet ) )
+	PORT_DIPSETTING(    0x40, DEF_STR( Upright ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Cocktail ) )
+	PORT_DIPNAME( 0x80, 0x80, DEF_STR( Unknown ) )
+	PORT_DIPSETTING(    0x80, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+
+	PORT_START_TAG("DSW 2")
+	PORT_DIPNAME( 0x0f, 0x01, DEF_STR( Coinage ) )
+	PORT_DIPSETTING(    0x04, "A 3/1 B 3/1" )
+	PORT_DIPSETTING(    0x0e, "A 3/1 B 1/2" )
+	PORT_DIPSETTING(    0x0f, "A 3/1 B 1/4" )
+	PORT_DIPSETTING(    0x02, "A 2/1 B 2/1" )
+	PORT_DIPSETTING(    0x0d, "A 2/1 B 1/1" )
+	PORT_DIPSETTING(    0x07, "A 2/1 B 1/3" )
+	PORT_DIPSETTING(    0x0b, "A 2/1 B 1/5" )
+	PORT_DIPSETTING(    0x0c, "A 2/1 B 1/6" )
+	PORT_DIPSETTING(    0x01, "A 1/1 B 1/1" )
+	PORT_DIPSETTING(    0x06, "A 1/1 B 4/5" )
+	PORT_DIPSETTING(    0x05, "A 1/1 B 2/3" )
+	PORT_DIPSETTING(    0x0a, "A 1/1 B 1/3" )
+	PORT_DIPSETTING(    0x08, "A 1/1 B 1/5" )
+	PORT_DIPSETTING(    0x09, "A 1/1 B 1/6" )
+	PORT_DIPSETTING(    0x03, "A 1/2 B 1/2" )
+	PORT_DIPSETTING(    0x00, DEF_STR( Free_Play ) )
+	PORT_DIPNAME( 0x10, 0x10, DEF_STR( Unknown ) )  /* Most likely unused */
+	PORT_DIPSETTING(    0x10, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x20, 0x20, DEF_STR( Unknown ) )  /* Most likely unused */
+	PORT_DIPSETTING(    0x20, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x40, 0x00, DEF_STR( Demo_Sounds ) )
+	PORT_DIPSETTING(    0x40, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x80, 0x80, DEF_STR( Unknown ) )  /* Most likely unused */
+	PORT_DIPSETTING(    0x80, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+INPUT_PORTS_END
+
+Resolution: 288x224 @ 60.606060Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Ponpoko
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=9813
+
+ROMSet: Ponpoko
+Bonus Life: 10000
+Unknown [1]: 0
+Unknowns [2-5]: Off
+Lives: 3
+Cabinet: Upright
+
+Sample correct TG:
+DSW1: offset 0x2B, repeat every 0x7C, typical value 0xD1
+- DSW1: 0x03 (Bonus_Life): 0x01 (10000)
+- DSW1: 0x0c (Unknown): 0x00 (0)
+- DSW1: 0x30 (Lives): 0x10 (3)
+- DSW1: 0x40 (Cabinet): 0x40 (Upright)
+- DSW1: 0x80 (Unknown): 0x80 (Off)
+DSW2: offset 0x, repeat every 0x7C, typical value 0xB1
+- DSW2: 0x0f (Coinage): [not relevant]
+- DSW2: 0x10 (Unknown): 0x10 (Off)
+- DSW2: 0x20 (Unknown): 0x20 (Off)
+- DSW2: 0x40 (Demo_Sounds): [not relevant]
+- DSW2: 0x80 (Unknown): 0x80 (Off)
+
+    20: 00 00 00 E0 00 00 00 00  00 00 00 D1 00 00 00 B1
+    A0: 00 00 00 00 00 00 00 D1  00 00 00 B1 00 00 00 00
+   120: 00 00 00 D1 00 00 00 B1  00 00 00 00 00 00 00 00

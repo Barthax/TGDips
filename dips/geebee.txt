@@ -1,12 +1,15 @@
 ROM set changed: no
 0.106-0.141: geebee - "Gee Bee"
-0.142-0.175: geebee - "Gee Bee (Japan)"
+0.142-0.197: geebee - "Gee Bee (Japan)"
 
 MAME History:
+- 0.127u6: Stephane Humbert reworked Gee Bee INPUT_PORTS definitions by using conditional dipswitches. Added INPUT_PORTS definition for clone Gee Bee (F.lli Bertolino license), this game has specific "Replay" settings (this fixed unable to coin - always coin lockout). Replaced 'Lives/Bonus Life' dipswitch with 'Lives' and 'Replay'.
 - 0.141u3: Changed description to 'Gee Bee (Japan)' and clones (F.lli Bertolino license) to 'Gee Bee (Europe)' and (Gremlin) to 'Gee Bee (US)'.
 
 Resolution, 0.106-0.128: 272x224 @ 60.000000Hz
-Resolution, 0.129-0.175: 272x224 @ 60.606061Hz
+Resolution, 0.129-0.197: 272x224 @ 60.606061Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Gee%20Bee
+TG Game Entry: https://www.twingalaxies.com/game/gee-bee/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=10111
+
+NOTE: Since 0.173, the conditional DIPs feature of this game affects WolfMAME's inpview. Verify settings with caution! ["Lives" affects "Replay"]

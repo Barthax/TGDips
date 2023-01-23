@@ -1,0 +1,10 @@
+ROMs Changed: none
+0.106-0.194: xmen6p - "X-Men (6 Players ver ECB)"
+
+Resolution, 0.106: 560x224 @ 60.000000Hz
+Resolution, 0.107-0.194: 288x224 @ 60.000000Hz288x224 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/x-men-6-player-ver-ecb/mame
+Rules, Points [6 Player Team]: http://www.twingalaxies.com/scores.php?scores=131864
+
+Note: if settings not shown by the player, use F2 after playback to enter the internal settings.

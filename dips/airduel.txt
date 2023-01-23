@@ -1,30 +1,36 @@
 Note: two sets are represented by airduel with 0.167 being the switchover.
 
-MAME History:
+From MAMEINFO.DAT:
 - 0.167: System11 and The Dumping Union added Air Duel (World, M82-A-A + M82-B-A). Make it clearer that Air Duel (the M82 PCB) is actually a conversion of Major Title, the sprite roms used for the extra sprite layer in Major Title are still present on the board! [David Haywood]. Changed (Japan) to clone 'Air Duel (Japan, M72)'. Renamed (airduel) to (airduelm72).
+- 0.215: Replaced MCU simulation/hack with proper MCU code for clone Air Duel (Japan, M72 PCB version) [Caius, Jorge Silva, TeamEurope, The Dumping Union]. Changed description of clone (Japan, M72) to 'Air Duel (Japan, M72 PCB version)'.
+- 0.222: HaloWarrior40 added clone Air Duel (US location test, M82 hardware). Fixed rom names. Changed parent description to 'Air Duel (World, M82 hardware)' and clone (Japan, M72 PCB version) to 'Air Duel (Japan, M72 hardware)'.
+- 0.225: Jon Exidy added clone Air Duel (World, M72 hardware). Renamed (airduelm72) to (airdueljm72).
 
-
-Air Duel (Japan, M72)
----------------------
+Air Duel (Japan, M72 hardware)
+------------------------------
 ROM set changed: yes
 0.106-0.166: airduel - "Air Duel (Japan)"
-0.167-0.175: airduelm72 - "Air Duel (Japan, M72)"
+0.167-0.214: airduelm72 - "Air Duel (Japan, M72)"
+0.215-0.221: airduelm72 - "Air Duel (Japan, M72 PCB version)"
+0.222-0.224: airduelm72 - "Air Duel (Japan, M72 hardware)"
+0.225-     : airdueljm72 - "Air Duel (Japan, M72 hardware)"
 
 Resolution, 0.106-0.122: 384x256 @ 55.000000Hz
-Resolution, 0.123-0.175: 384x256 @ 55.017606 Hz
+Resolution, 0.123-0.225: 384x256 @ 55.017606Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Air%20Duel%20[Japan]
+TG Game Entry: https://www.twingalaxies.com/game/air-duel-japan/mame/
 Rules, Single Player: http://www.twingalaxies.com/scores.php?scores=11820
 Rules, Two Player: http://www.twingalaxies.com/scores.php?scores=11821
 
 
-Air Duel (World, M82-A-A + M82-B-A)
------------------------------------
+Air Duel (World, M82 hardware)
+------------------------------
 Note: this set not represented on TG yet.
 ROM set changed: no
 0.106-0.166: NOT SUPPORTED
-0.167-0.175: airduel - "Air Duel (World, M82-A-A + M82-B-A)"
+0.167-0.221: airduel - "Air Duel (World, M82-A-A + M82-B-A)"
+0.222-0.225: airduel - "Air Duel (World, M82 hardware)"
 
-Resolution, 0.167-0.175: 384x256 @ 55.017606Hz
+Resolution, 0.167-0.225: 384x256 @ 55.017606Hz
 
 Rules: [no current tracks]

@@ -1,12 +1,12 @@
 ROM set changed: no
 0.106-0.142: nam1975 - "NAM-1975"
 0.143-0.173: nam1975 - "NAM-1975 (NGM-001)(NGH-001)"
-0.174-0.184: nam1975 - "NAM-1975 (NGM-001 ~ NGH-001)"
+0.174-0.208: nam1975 - "NAM-1975 (NGM-001 ~ NGH-001)"
 
 Resolution, 0.106-0.113: 320x224 @ 59.185608Hz
-Resolution, 0.114-0.184: 320x224 @ 59.185606Hz
+Resolution, 0.114-0.208: 320x224 @ 59.185606Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Nam+1975
+TG Game Entry: https://www.twingalaxies.com/game/nam-1975/mame/
 Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=60051
 Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=78598
 

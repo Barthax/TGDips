@@ -1,9 +1,10 @@
 ROM set changed: no
 0.106-0.113: pitfall2 - "Pitfall II"
-0.114-0.175: pitfall2 - "Pitfall II (315-5093)"
+0.114-0.202: pitfall2 - "Pitfall II (315-5093)"
 
 Resolution, 0.106-0.130: 256x224 @ 60.000000Hz
 Resolution, 0.131-0.144: 256x224 @ 60.096154Hz
-Resolution, 0.145-0.175: 512x224 @ 60.096154Hz
+Resolution, 0.145-0.202: 512x224 @ 60.096154Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Pitfall II
+TG Game Entry: https://www.twingalaxies.com/game/pitfall-ii-lost-caverns/mame/
+Rules, Points: https://www.twingalaxies.com/scores.php?scores=9817

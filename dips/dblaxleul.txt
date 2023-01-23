@@ -1,0 +1,18 @@
+ROM set changed: yes
+0.106-0.147: dblaxle - "Double Axle (US)"
+0.147u2-0.206: dblaxleu - "Double Axle (US, earlier)"
+0.207-     : dblaxleul - "Double Axle (US, Rev 1, Linkable)"
+
+MAME History:
+- 0.147u2: ShouTime and The Dumping Union added Double Axle (US). Changed 'Double Axle (US)' to clone '(US, earlier)'. Renamed (dblaxle) to (dblaxleu).
+- 0.207: Evan Korzon, Jordan Eldredge, Brian Troha, Smitdogg and The Dumping Union added clone 'Double Axle (US)'. Identified the standalone version of Double Axle and corrected the dipswitches for it [Brian Troha]. Added dipswitches 'Handle Pulse', 'Back Gear', 'Vibration Mode', 'Steering Wheel Vibration', 'Select Round', 'Allow Continue' and 'Buy-In'. Changed parent description to 'Double Axle (US, Rev 1)' and clones (US, earlier) to 'Double Axle (US, Rev 1, Linkable)' and Power Wheels (Japan) to 'Power Wheels (Japan, Rev 2, Linkable)'. Renamed (dblaxleu) to (dblaxleul).
+
+Resolution, 0.106-0.207: 320x240 @ 60.000000Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/double-axle/mame/
+Rules, Beginner [Cross Country Race - Fastest Lap]: http://www.twingalaxies.com/scores.php?scores=55857
+Rules, Beginner [Cross Country Race - Fastest Race]: http://www.twingalaxies.com/scores.php?scores=55858
+Rules, Expert [Icy Road - Fastest Lap]: http://www.twingalaxies.com/scores.php?scores=55859
+Rules, Expert [Icy Road - Fastest Race]: http://www.twingalaxies.com/scores.php?scores=55860
+Rules, Standard [Mud Bog Race - Fastest Lap]: http://www.twingalaxies.com/scores.php?scores=55861
+Rules, Standard [Mud Bog Race - Fastest Race]: http://www.twingalaxies.com/scores.php?scores=55862

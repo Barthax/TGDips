@@ -2,13 +2,13 @@ ROM set changed: yes
 0.106-0.133: scrambls - "Scramble (Stern)"
 0.133u1-0.138: scrambles - "Scramble (Stern)"
 0.139-0.147: scrambles - "Scramble (Stern Electronics)"
-0.148-0.180: scrambles - "Scramble (Stern Electronics set 1)"
+0.148-0.198: scrambles - "Scramble (Stern Electronics set 1)"
 
 MAME History:
 - 0.133u1: Renamed (scrambls) to (scrambles).
 
 Resolution, 0.106-0.113: 256x224 @ 60.606060Hz
-Resolution, 0.114-0.180: 768x224 @ 60.606061Hz
+Resolution, 0.114-0.198: 768x224 @ 60.606061Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Scramble+%5BStern%5D
+TG Game Entry: https://www.twingalaxies.com/game/scramble-stern/mame/
 Rules, Points [Tournament Settings]: http://www.twingalaxies.com/scores.php?scores=7808

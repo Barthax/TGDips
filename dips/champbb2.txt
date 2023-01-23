@@ -1,12 +1,13 @@
 ROM set changed: no
 0.106-0.122: champbb2 - "Champion Baseball II (set 1)"
 0.123-0.167: champbb2 - "Champion Base Ball Part-2: Pair Play (set 1)"
-0.168-0.175: champbb2 - "Champion Base Ball Part-2 (set 1)"
+0.168-0.213: champbb2 - "Champion Base Ball Part-2 (set 1)"
 
-MAME History:
+From MAMEINFO.DAT:
 - 0.122u8: Changed description to 'Champion Base Ball Part-2: Pair Play'.
+- 0.168: Added ALPHA-8201 device to ChampionBaseBall driver. Now clone Champion Base Ball Part-2 (Japan) that previously locked up at boot is playable [hap]. Changed parent description to 'Champion Base Ball Part-2 (set 1)' and clones (set 2) to 'Champion Base Ball Part-2 (set 2)' and (Japan) to 'Champion Base Ball Part-2 (Japan)'. Replaced ALPHA-8201 CPU3 with HD44801.
 
-Resolution, 0.106-0.175: 256x224 @ 60.000000Hz
+Resolution, 0.106-0.213: 256x224 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Champion%20Baseball%20II%20[Set%201]
+TG Game Entry: https://www.twingalaxies.com/game/champion-baseball-ii-set-1/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=24459

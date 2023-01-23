@@ -1,8 +1,9 @@
 ROM set changed: no
-0.106-0.175: ajax - "Ajax"
+0.106-0.196: ajax - "Ajax"
 
 Resolution, 0.106-0.164: 288x224 @ 60.000000Hz
-Resolution, 0.165-0.175: 288x224 @ 59.185606Hz
+Resolution, 0.165-0.176: 288x224 @ 59.185606Hz
+Resolution, 0.177-0.196: 304x224 @ 59.185606Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Ajax
+TG Game Entry: https://www.twingalaxies.com/game/ajax/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=15632

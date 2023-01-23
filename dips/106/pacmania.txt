@@ -1,0 +1,106 @@
+# MAME 0.106 source snippet [namcos1.c]
+
+GAME( 1987, pacmania, 0,        ns1,     pacmania, pacmania, ROT270, "Namco", "Pac-Mania", 0 )
+
+INPUT_PORTS_START( ns1 )
+	PORT_START_TAG( "CONTROL0" )
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT )
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT )
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN )
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_JOYSTICK_UP )
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_BUTTON1 )
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_BUTTON2 )
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_BUTTON3 )
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_START1 )
+
+	PORT_START_TAG( "CONTROL1" )
+	PORT_BIT( 0x01, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_PLAYER(2)
+	PORT_BIT( 0x02, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT )  PORT_PLAYER(2)
+	PORT_BIT( 0x04, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN )  PORT_PLAYER(2)
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_JOYSTICK_UP )    PORT_PLAYER(2)
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_BUTTON1 )        PORT_PLAYER(2)
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_BUTTON2 )        PORT_PLAYER(2)
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_BUTTON3 )        PORT_PLAYER(2)
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_START2 )
+
+	PORT_START_TAG( "DIPSW" )
+	PORT_SERVICE( 0x80, IP_ACTIVE_LOW )
+	PORT_DIPNAME( 0x40, 0x40, DEF_STR( Unknown ) )
+	PORT_DIPSETTING(    0x40, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x20, 0x20, DEF_STR( Unknown ) )
+	PORT_DIPSETTING(    0x20, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x10, 0x10, DEF_STR( Unknown ) )
+	PORT_DIPSETTING(    0x10, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x08, 0x08, DEF_STR( Unknown ) )
+	PORT_DIPSETTING(    0x08, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x04, 0x04, DEF_STR( Unknown ) )
+	PORT_DIPSETTING(    0x04, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x02, 0x02, DEF_STR( Unknown ) )
+	PORT_DIPSETTING(    0x02, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	PORT_DIPNAME( 0x01, 0x01, DEF_STR( Unknown ) )
+	PORT_DIPSETTING(    0x01, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+
+	PORT_START_TAG( "COIN" )
+	PORT_BIT( 0x01, IP_ACTIVE_HIGH, IPT_SPECIAL )   /* OUT:coin lockout */
+	PORT_BIT( 0x02, IP_ACTIVE_HIGH, IPT_SPECIAL )   /* OUT:coin counter 1 */
+	PORT_BIT( 0x04, IP_ACTIVE_HIGH, IPT_SPECIAL )   /* OUT:coin counter 2 */
+	PORT_BIT( 0x08, IP_ACTIVE_LOW, IPT_COIN2 )
+	PORT_BIT( 0x10, IP_ACTIVE_LOW, IPT_COIN1 )
+	PORT_BIT( 0x20, IP_ACTIVE_LOW, IPT_SERVICE ) PORT_NAME("Service Button") PORT_CODE(KEYCODE_F1)	// service switch from the edge connector
+	PORT_BIT( 0x40, IP_ACTIVE_LOW, IPT_SERVICE1 )
+	PORT_BIT( 0x80, IP_ACTIVE_LOW, IPT_UNUSED )
+INPUT_PORTS_END
+
+INPUT_PORTS_START( pacmania )
+	PORT_INCLUDE( ns1 )
+
+	PORT_MODIFY( "DIPSW" )
+	PORT_DIPNAME( 0x40, 0x40, "Freeze" )
+	PORT_DIPSETTING(    0x40, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+	/* this doesn't seem to have much use... */
+	PORT_DIPNAME( 0x20, 0x20, "Kick Watchdog in IRQ" )
+	PORT_DIPSETTING(    0x20, DEF_STR( No ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( Yes ) )
+	/* to enter the A.D.S. menu, set the dip switch and reset with service coin pressed */
+	PORT_DIPNAME( 0x08, 0x08, "Auto Data Sampling" )
+	PORT_DIPSETTING(    0x08, DEF_STR( Off ) )
+	PORT_DIPSETTING(    0x00, DEF_STR( On ) )
+INPUT_PORTS_END
+
+Resolution: 288x224 @ 60.606060Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/pac-mania/mame/
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=9806
+Rules, Highest score on cherry board: https://www.twingalaxies.com/scores.php?scores=221899
+
+NOTE: There are both hardware DIP switches & internal settings.  Use Service Mode (F2) to access the internal settings after playback if not shown during playback.
+
+ROMSet: PacMania
+Service Mode: Off
+Unknown: Off [All]
+Freeze: Off
+Kick Watchdog in IRQ: No
+Auto Data Sampling: Off
+
+Sample correct TG:
+DIPSW: offset 0x2B, repeat every 0x7C, typical value 0xFF
+- DIPSW: 0x80 (SERVICE MODE): 0x80 (Off)
+- DIPSW: 0x10 (Unknown): 0x10 (Off)
+- DIPSW: 0x04 (Unknown): 0x04 (Off)
+- DIPSW: 0x02 (Unknown): 0x02 (Off)
+- DIPSW: 0x01 (Unknown): 0x01 (Off)
+- DIPSW: 0x40 (Freeze): 0x40 (Off)
+- DIPSW: 0x20 (Kick Watchdog in IRQ): 0x20 (No)
+- DIPSW: 0x08 (Auto Data Sampling): 0x08 (Off)
+
+    20: 00 00 00 FF 00 00 00 FF  00 00 00 FF 00 00 00 F8
+    A0: 00 00 00 FF 00 00 00 FF  00 00 00 F8 00 00 00 00
+   120: 00 00 00 FF 00 00 00 F8  00 00 00 00 00 00 00 00

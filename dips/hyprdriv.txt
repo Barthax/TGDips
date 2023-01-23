@@ -1,0 +1,17 @@
+ROM set changed: no
+0.106-0.191: hyprdriv - "Hyperdrive"
+
+Resolution, 0.106-0.191: 640x480 @ 57.000000Hz
+
+TG Game Entry [old]: http://www.twingalaxies.com/game_detail.php?gameid=1608&platformid=46
+TG Game Entry: http://www.twingalaxies.com/game_detail.php?gameid=1608&platformid=46
+Rules, Asteroid Mine (Fastest Race): http://www.twingalaxies.com/game_detail.php?gameid=1608&platformid=46&scores=210742&page=1&ref=fbshare
+Rules, Asteroid Mine Mirrored (Fastest Race): http://www.twingalaxies.com/game_detail.php?gameid=1608&platformid=46&scores=210743&page=1&ref=fbshare
+Rules, Deep Space (Fastest Race): http://www.twingalaxies.com/game_detail.php?gameid=1608&platformid=46&scores=210740&page=1&ref=fbshare
+Rules, Deep Space Mirrored (Fastest Race): http://www.twingalaxies.com/game_detail.php?gameid=1608&platformid=46&scores=210741&page=1&ref=fbshare
+Rules, Mars Dragstrip (Fastest Race): http://www.twingalaxies.com/game_detail.php?gameid=1608&platformid=46&scores=210738&page=1&ref=fbshare
+Rules, Mars Dragstrip Mirrored (Fastest Race): http://www.twingalaxies.com/game_detail.php?gameid=1608&platformid=46&scores=210739&page=1&ref=fbshare
+Rules, Orbital Speedway (Fastest Race): http://www.twingalaxies.com/game_detail.php?gameid=1608&platformid=46&scores=210736&page=1&ref=fbshare
+Rules, Orbital Speedway Mirrored (Fastest Race): http://www.twingalaxies.com/game_detail.php?gameid=1608&platformid=46&scores=210737&page=1&ref=fbshare
+
+NOTE: There are both hardware DIP switches & internal settings.  Use Service Mode (F2) to access the internal settings after playback if not shown during playback.

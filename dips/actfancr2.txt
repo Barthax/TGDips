@@ -1,0 +1,11 @@
+ROM set changed: yes
+0.106-0.187: actfancr - "Act-Fancer Cybernetick Hyper Weapon (World revision 2)"
+0.188-     : actfancr2 - "Act-Fancer Cybernetick Hyper Weapon (World revision 2)"
+
+MAME History:
+- 0.188: Corrado Tomaselli and The Dumping Union added Act-Fancer Cybernetick Hyper Weapon (World revision 3). Renamed (actfancr) to (actfancr2).
+
+Resolution, 0.106-0.188: 256x240 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Act-Fancer+Cybernetick+Hyper+Weapon+[World+revision+2]
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=21441

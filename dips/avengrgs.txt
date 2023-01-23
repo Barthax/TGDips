@@ -1,8 +1,14 @@
 ROM set changed: no
-0.106-0.175: avengrgs - "Avengers In Galactic Storm (US)"
+0.106-0.194: avengrgs - "Avengers In Galactic Storm (US)"
+0.195-0.214: avengrgs - "Avengers In Galactic Storm (US/Europe 1.0)"
 
-Resolution, 0.106-0.175: 320x240 @ 58.000000Hz
+From MAMEINFO.DAT:
+- 0.195: Changed description to 'Avengers In Galactic Storm (US/Europe 1.0)' and clone (Japan) to 'Avengers In Galactic Storm (Japan 1.2)'.
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Avengers%20in%20Galactic%20Storm%20[US]
+Resolution, 0.106-0.214: 320x240 @ 58.000000Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/avengers-in-galactic-storm-us/mame/
 Rules, Points [Story Mode]: http://www.twingalaxies.com/scores.php?scores=24422
 Rules, Points [VS Mode]: http://www.twingalaxies.com/scores.php?scores=32347
+
+NOTE: All relevant rules are covered by internal settings.  If not shown during playback, use F2 to access after playback completed.

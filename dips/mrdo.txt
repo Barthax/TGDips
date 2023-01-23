@@ -1,9 +1,13 @@
 ROM set changed: no
-0.106-0.184: mrdo - "Mr. Do!"
+0.106-0.240: mrdo - "Mr. Do!"
 
 Resolution, 0.106-0.136: 240x192 @ 61.166569Hz
-Resolution, 0.137-0.184: 240x192 @ 59.943237Hz
+Resolution, 0.137-0.240: 240x192 @ 59.943237Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Mr.+Do!
+TG Game Entry: https://www.twingalaxies.com/game/mr-do/mame/
 Rules, Points [Marathon Settings]: http://www.twingalaxies.com/scores.php?scores=7772
 Rules, Points [Tournament Settings]: http://www.twingalaxies.com/scores.php?scores=7773
+Rules, Points [No shooting challenge]: http://www.twingalaxies.com/scores.php?scores=238382
+Rules, Points [Default Difficulty - No Ball]: http://www.twingalaxies.com/scores.php?scores=239260
+Rules, Points [Marathon Settings] - Default Difficulty: http://www.twingalaxies.com/scores.php?scores=225229
+Rules, Points [Best average level 10]: http://www.twingalaxies.com/scores.php?scores=242091

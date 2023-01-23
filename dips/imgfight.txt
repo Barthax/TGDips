@@ -1,6 +1,6 @@
 Note: two ROM sets represented here with changeover at 0.129u4.
 
-MAME History:
+From MAMEINFO.DAT:
 - 0.129u4: Arzeno Fabrice added Image Fight (revision A, Japan). Renamed (imgfight) to (imgfigho).
 - 0.133u1: Renamed (imgfigho) to (imgfighto).
 - 0.146u1: Hooked up MCU to clone Image Fight (Japan) [David Haywood]. Changed parent description to 'Image Fight (World, revision A)'. Renamed (imgfighto) to (imgfightj).
@@ -12,26 +12,29 @@ ROM set changed: yes
 0.106-0.129: imgfight - "Image Fight (Japan)"
 0.129u4-0.133: imgfigho - "Image Fight (Japan)"
 0.133u1-0.146: imgfighto - "Image Fight (Japan)"
-0.146u1-0.175: imgfightj - "Image Fight (Japan)"
+0.146u1-0.225: imgfightj - "Image Fight (Japan)"
 
 Resolution, 0.106-0.122: 384x256 @ 55.000000Hz
 Resolution, 0.123-0.175: 384x256 @ 55.017606Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Image%20Fight%20[Japan]
+TG Game Entry: https://www.twingalaxies.com/game/image-fight-japan/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=75117
 
 
-Image Fight (World, revision A)
--------------------------------
+Image Fight (World)
+-------------------
 Note: not currently represented at TG.
 ROM set changed: no.  Added in 0.129u4.
-0.129u4-0.135: imgfight - "Image Fight (revision A, Japan)"
-0.135u1-0.175: imgfight - "Image Fight (World, revision A)"
 
-MAME History:
+0.106-0.129: NOT SUPPORTED
+0.130-0.135: imgfight - "Image Fight (revision A, Japan)"
+0.136-0.215: imgfight - "Image Fight (World, revision A)"
+0.216-0.225: imgfight - "Image Fight (World)"
+
+From MAMEINFO.DAT:
 - 0.135u1: Changed description to 'Image Fight (Japan, revision A)'.
+- 0.216: Changed description to 'Image Fight (World)'.
 
-Resolution, 0.130-0.175: 384x256 @ 55.017606Hz
+Resolution, 0.130-0.225: 384x256 @ 55.017606Hz
 
 Rules: [no current tracks]
-

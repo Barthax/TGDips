@@ -1,16 +1,16 @@
 ROM set changed: yes
 0.106: crusnwld - "Cruis'n World (rev L2.3)"
 0.106u10-0.133: crusnw23 - "Cruis'n World (rev L2.3)"
-0.133u1-0.175: crusnwld23 - "Cruis'n World (rev L2.3)"
+0.133u1-0.210: crusnwld23 - "Cruis'n World (rev L2.3)"
 
 MAME History:
 - 0.106u10: Aaron Giles added Cruis'n World (rev L2.4). Renamed (crusnwld) to (crusnw23).
 - 0.133u1: Renamed (crusnu40) to (crusnusa40), (crusnu21) to (crusnusa21), (crusnw23) to (crusnwld23), (crusnw20) to (crusnwld20), (crusnw17) to (crusnwld17) and (crusnw13) to (crusnwld13).
 
 Resolution, 0.106-0.113: 512x400 @ 57.000000Hz
-Resolution, 0.114-0.175: 512x400 @ 57.349016Hz
+Resolution, 0.114-0.210: 512x400 @ 57.349016Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Cruis%27n%20World%20[Rev%20L2.3]
+TG Game Entry: https://www.twingalaxies.com/game/Cruisn-world-rev-l23/mame/
 Rules, The World [Fastest Completion]: http://www.twingalaxies.com/scores.php?scores=55739
 Rules, Africa [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=55725
 Rules, Australia [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=55726
@@ -26,3 +26,5 @@ Rules, Japan [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=55735
 Rules, Mexico [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=55736
 Rules, Moscow [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=55737
 Rules, New York [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=55738
+
+NOTE: This game has both DIPs & internal settings covered by the rules. If not shown during playback, press F2 to access & check internal settings afterwards.

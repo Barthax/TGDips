@@ -8,13 +8,13 @@ Sly Spy (US revision 3)
 -----------------------
 ROM set changed: yes
 0.106-0.169: slyspy - "Sly Spy (US revision 3)"
-0.170-0.175: slyspy3 - "Sly Spy (US revision 3)"
+0.170-0.196: slyspy3 - "Sly Spy (US revision 3)"
 
 Resolution, 0.106-0.142: 256x240 @ 57.410000Hz
 Resolution, 0.143-0.155: 256x240 @ 57.392103Hz
-Resolution, 0.156-0.175: 256x240 @ 57.444853Hz
+Resolution, 0.156-0.196: 256x240 @ 57.444853Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Sly%20Spy%20[US%20revision%203]
+TG Game Entry: https://www.twingalaxies.com/game/sly-spy-us-revision-3/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=110685
 
 
@@ -22,9 +22,8 @@ Sly Spy (US revision 4)
 -----------------------
 Note: not currently represented on TG.
 ROM set changed: no.  Added in 0.170.
-0.170-0.176: slyspy - "Sly Spy (US revision 4)"
+0.170-0.196: slyspy - "Sly Spy (US revision 4)"
 
-Resolution, 0.170-0.176: 256x240 @ 57.444853Hz
+Resolution, 0.170-0.196: 256x240 @ 57.444853Hz
 
 Rules: [no current tracks]
-

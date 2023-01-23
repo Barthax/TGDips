@@ -1,0 +1,15 @@
+ROM set changed: yes
+0.106-0.217: p47aces - "P-47 Aces"
+0.218-     : p47aces - "P-47 Aces (ver 1.0)"
+0.219-     : p47acesa - "P-47 Aces (ver 1.0)"
+
+From MAMEINFO.DAT:
+- 0.106u3: Added missing 'Bonus Life' dipswitch.
+- 0.218: Fixed rom names. Changed description to 'P-47 Aces (ver 1.0)'.
+- 0.219: Derick2k, rtw and trap15 added P-47 Aces (ver 1.1). Renamed (p47aces) to (p47acesa).
+
+Resolution, 0.106-0.219: 320x224 @ 60.000000Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/p-47-aces/mame/
+Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=78861
+Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=78862

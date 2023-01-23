@@ -1,0 +1,14 @@
+ROM set changed: yes
+0.106-0.129: wc90 - "Tecmo World Cup '90 (set 1)"
+0.130-0.189: wc90 - "Tecmo World Cup '90 (World)"
+0.190-     : twcup90 - "Tecmo World Cup '90 (World)"
+
+MAME History:
+- 0.129u4: Tomasz Slanina added clone Tecmo World Cup '90 (Euro set 2). Changed parent description to 'Tecmo World Cup '90 (World)' and clones (set 2) to 'Tecmo World Cup '90 (Euro set 1)' and (trackball) to 'Tecmo World Cup '90 (trackball set 1)'.
+- 0.190: Renamed (wc90) to (twcup90), (wc90a) to (twcup90a), (wc90b) to (twcup90b), (wc90b1) to (twcup90b1), (wc90b2) to (twcup90b2), (wc90ba) to (twcup90ba) and (wc90t) to (twcup90t).
+
+Resolution, 0.106-0.136: 256x224 @ 60.000000Hz
+Resolution, 0.137-0.190: 256x224 @ 59.170000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Tecmo+World+Cup+%2790+[set+1]
+Rules, Biggest Blowout: http://www.twingalaxies.com/scores.php?scores=120350

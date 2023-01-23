@@ -1,0 +1,11 @@
+ROM set changed: yes.
+0.106-0.200: wcvol95 - "World Cup Volley '95 (Japan v1.0)"
+0.201-     : wcvol95j - "World Cup Volley '95 (Japan v1.0)"
+
+From MAMEINFO.DAT:
+- 0.201: Fabrice Arzeno and The Dumping Union added World Cup Volley '95 (Asia v1.0). Renamed (wcvol95) to (wcvol95j).
+
+Resolution, 0.106-0.201: 320x240 @ 58.000000Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/world-cup-volley-95-japan-v10/mame
+Rules, Points: http://www.twingalaxies.com/scores.php?scores=120651

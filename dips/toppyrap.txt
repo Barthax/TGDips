@@ -1,6 +1,8 @@
 ROM set changed: no
-0.106-0.175: toppyrap - "Toppy & Rappy"
+0.106-0.200: toppyrap - "Toppy & Rappy"
 
-Resolution, 0.106-0.175: 256x224 @ 57.500000Hz
+Resolution, 0.106-0.200: 256x224 @ 57.500000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Toppy & Rappy
+TG Game Entry: https://www.twingalaxies.com/game/toppy-rappy/mame
+Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=120447
+Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=120448

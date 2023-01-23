@@ -1,0 +1,76 @@
+# MAME 0.145 source snippet [namcond1.c]
+
+GAME( 1996, ncv2,      0, namcond1, namcond1, 0, ROT90, "Namco", "Namco Classic Collection Vol.2", GAME_IMPERFECT_SOUND | GAME_IMPERFECT_GRAPHICS | GAME_UNEMULATED_PROTECTION )
+
+static INPUT_PORTS_START( namcond1 )
+	PORT_START("P1_P2")
+	PORT_BIT( 0x0001, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT )
+	PORT_BIT( 0x0002, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT )
+	PORT_BIT( 0x0004, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN )
+	PORT_BIT( 0x0008, IP_ACTIVE_LOW, IPT_JOYSTICK_UP )
+	PORT_BIT( 0x0010, IP_ACTIVE_LOW, IPT_BUTTON1 )
+	PORT_BIT( 0x0020, IP_ACTIVE_LOW, IPT_BUTTON2 )
+	PORT_BIT( 0x0040, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_BIT( 0x0080, IP_ACTIVE_LOW, IPT_START1 )
+	PORT_BIT( 0x0100, IP_ACTIVE_LOW, IPT_JOYSTICK_RIGHT ) PORT_PLAYER(2)
+	PORT_BIT( 0x0200, IP_ACTIVE_LOW, IPT_JOYSTICK_LEFT ) PORT_PLAYER(2)
+	PORT_BIT( 0x0400, IP_ACTIVE_LOW, IPT_JOYSTICK_DOWN ) PORT_PLAYER(2)
+	PORT_BIT( 0x0800, IP_ACTIVE_LOW, IPT_JOYSTICK_UP ) PORT_PLAYER(2)
+	PORT_BIT( 0x1000, IP_ACTIVE_LOW, IPT_BUTTON1 ) PORT_PLAYER(2)
+	PORT_BIT( 0x2000, IP_ACTIVE_LOW, IPT_BUTTON2 ) PORT_PLAYER(2)
+	PORT_BIT( 0x4000, IP_ACTIVE_LOW, IPT_UNUSED )
+	PORT_BIT( 0x8000, IP_ACTIVE_LOW, IPT_START2 )
+
+	PORT_START("DSW")
+	PORT_DIPNAME( 0x0100, 0x0100, "Freeze" )
+	PORT_DIPSETTING(      0x0100, DEF_STR( Off ) )
+	PORT_DIPSETTING(      0x0000, DEF_STR( On ) )
+	PORT_DIPNAME( 0x0200, 0x0200, DEF_STR( Test ) )
+	PORT_DIPSETTING(      0x0200, DEF_STR( Off ) )
+	PORT_DIPSETTING(      0x0000, DEF_STR( On ) )
+	PORT_BIT( 0x1000, IP_ACTIVE_LOW, IPT_COIN1 )
+	PORT_BIT( 0x2000, IP_ACTIVE_LOW, IPT_COIN2 )
+	PORT_SERVICE( 0x4000, IP_ACTIVE_LOW )
+	PORT_BIT( 0x8000, IP_ACTIVE_LOW, IPT_SERVICE1 )
+	PORT_BIT( 0x00ff, IP_ACTIVE_LOW, IPT_UNUSED )
+INPUT_PORTS_END
+
+ROM set changed: no
+0.106-0.136: ncv2 - "Namco Classics Collection Vol.2"
+0.136u4-0.145: ncv2 - "Namco Classic Collection Vol.2"
+
+Resolution: 288x224 @ 60.000000Hz
+
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Namco+Classics+Collection+Vol.+2
+Rules, Points [Dig Dug - Original]: http://www.twingalaxies.com/scores.php?scores=21459
+Rules, Points [Dig Dug Arrangement] [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=21460
+Rules, Points [Dig Dug Arrangement] [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=78604
+Rules, Points [New Rally-X - Original]: http://www.twingalaxies.com/scores.php?scores=21457
+Rules, Points [Pac-Man - Original]: http://www.twingalaxies.com/scores.php?scores=21454
+Rules, Points [Pac-Man Arrangement] [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=78606
+Rules, Points [Pac-Man Arrangement] [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=78607
+Rules, Points [Rally-X - Original Mode]: http://www.twingalaxies.com/scores.php?scores=21456
+Rules, Points [Rally-X Arrangement]: http://www.twingalaxies.com/scores.php?scores=21458
+
+ROMSet: NCV2
+Freeze: Off
+Test: Off
+
+NOTES:
+This game has both DIPs & internal settings covered by the rules. Press F2 to access & check internal settings afterwards - button 1 for selection and 1P start for exit.
+There appears to be no way to exit Service Mode and return to the game - checked up to 0.205.
+
+Sample correct TG:
+DSW: offset 0x59, repeat every 0x20, typical value 0xF3
+- DSW: 0x0100 (Freeze): 0x0100 (Off)
+- DSW: 0x0200 (Test): 0x0200 (Off)
+- DSW: 0x4000 (SERVICE MODE): [not relevant]
+
+    50: FF FF 00 00 00 00 00 00  FF F3 00 00 00 00 00 00
+    70: FF FF 00 00 00 00 00 00  FF F3 00 00 00 00 00 00
+    90: FF FF 00 00 00 00 00 00  FF F3 00 00 00 00 00 00
+    B0: FF FF 00 00 00 00 00 00  FF F3 00 00 00 00 00 00
+    D0: FF FF 00 00 00 00 00 00  FF F3 00 00 00 00 00 00
+    F0: FF FF 00 00 00 00 00 00  FF F3 00 00 00 00 00 00
+   110: FF FF 00 00 00 00 00 00  FF F3 00 00 00 00 00 00
+   130: FF FF 00 00 00 00 00 00  FF F3 00 00 00 00 00 00

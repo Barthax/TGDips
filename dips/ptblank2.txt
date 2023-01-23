@@ -1,6 +1,12 @@
 ROM set changed: no
-0.106-0.175: ptblank2 - "Point Blank 2 (GNB5/VER.A)"
+0.106-0.212: ptblank2 - "Point Blank 2 (GNB5/VER.A)"
 
-Resolution, 0.106-0.175: 640x480 @ 60.000000Hz
+Resolution, 0.106-0.212: 640x480 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Point Blank 2 [GNB5/VER.A]
+TG Game Entry: https://www.twingalaxies.com/game/point-blank-2-gnb5-vera/mame
+Rules, Points [Practice Mode]: https://www.twingalaxies.com/scores.php?scores=78928
+Rules, Points [Beginner Mode]: https://www.twingalaxies.com/scores.php?scores=78926
+Rules, Points [Advanced Mode]: https://www.twingalaxies.com/scores.php?scores=78925
+Rules, Points [Insane Mode]: https://www.twingalaxies.com/scores.php?scores=78927
+
+NOTE: This game has both DIPs & internal settings covered by the rules. If not shown during playback, press F2 to access & check internal settings afterwards.

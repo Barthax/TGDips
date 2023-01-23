@@ -1,0 +1,14 @@
+ROM set changed: yes
+0.106-0.213: marvland - "Marvel Land (US)"
+0.214-0.235: marvland - "Marvel Land (US, prototype?)"
+0.236-0.239: marvlandup - "Marvel Land (US, prototype)"
+
+From MAMEINFO.dat:
+- 0.214: Suspicion that Marvel Land (US) is a proto, thanks https://twitter.com/GoldS_TCRF [hap]. Changed description to 'Marvel Land (US, prototype?)'.
+- 0.236: Made clone Marvel Land (Japan) the parent, the US prototype is an earlier incomplete build, it ends abruptly, lacks any end credits, and is missing many of the levels plus various other incomplete elements, see https://tcrf.net/Marvel_Land_(Arcade) [David Haywood]. Changed (US, prototype?) to clone 'Marvel Land (US, prototype)'. Renamed (marvland) to (marvlandup) and (marvlandj) to (marvland).
+
+Resolution, 0.106-0.113: 288x224 @ 60.606060Hz
+Resolution, 0.114-0.239: 288x224 @ 60.606061Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/marvel-land/mame
+Rules, Points: https://www.twingalaxies.com/scores.php?scores=75522

@@ -1,19 +1,20 @@
 ROM Set changes: No
-0.106-0.175: gtclassc - "Golden Tee Classic (v1.00)"
+0.106-0.203: gtclassc - "Golden Tee Classic (v1.00)"
 
-Resolution, 0.106-0.113: 384 x 240 @ 60.000000 Hz
-Resolution, 0.114-0.122: 200 x 200 @ 60.000000 Hz
-Resolution, 0.123-0.153: 384 x 256 @ 60.106990 Hz
-Resolution, 0.154-0.175: 384 x 240 @ 60.106990 Hz
+Resolution, 0.106-0.113: 384x240 @ 60.000000Hz
+Resolution, 0.114-0.122: 200x200 @ 60.000000Hz
+Resolution, 0.123-0.153: 384x256 @ 60.106990Hz
+Resolution, 0.154-0.203: 384x240 @ 60.106990Hz
 
-Rules, Anchor Cove [Least Amount Of Strokes]: http://www.twingalaxies.com/scores.php?scores=70241
-Rules, Anchor Cove [Longest Drive]: http://www.twingalaxies.com/scores.php?scores=70245
-Rules, Anchor Cove [Longest Putt]: http://www.twingalaxies.com/scores.php?scores=70248
-Rules, Mt. Springs [Least Amount Of Strokes]: http://www.twingalaxies.com/scores.php?scores=70242
-Rules, Mt. Springs [Longest Drive]: http://www.twingalaxies.com/scores.php?scores=70246
-Rules, Mt. Springs [Longest Putt]: http://www.twingalaxies.com/scores.php?scores=70249
-Rules, Scorpion Bend [Least Amount Of Strokes]: http://www.twingalaxies.com/scores.php?scores=70243
-Rules, Scorpion Bend [Longest Drive]: http://www.twingalaxies.com/scores.php?scores=70247
-Rules, Scorpion Bend [Longest Putt]: http://www.twingalaxies.com/scores.php?scores=70250
+TG Game Entry: https://www.twingalaxies.com/game/golden-tee-classic-v100/mame/
+Rules, Anchor Cove [Least Amount Of Strokes]: https://www.twingalaxies.com/scores.php?scores=70241
+Rules, Anchor Cove [Longest Drive]: https://www.twingalaxies.com/scores.php?scores=70245
+Rules, Anchor Cove [Longest Putt]: https://www.twingalaxies.com/scores.php?scores=70248
+Rules, Mt. Springs [Least Amount Of Strokes]: https://www.twingalaxies.com/scores.php?scores=70242
+Rules, Mt. Springs [Longest Drive]: https://www.twingalaxies.com/scores.php?scores=70246
+Rules, Mt. Springs [Longest Putt]: https://www.twingalaxies.com/scores.php?scores=70249
+Rules, Scorpion Bend [Least Amount Of Strokes]: https://www.twingalaxies.com/scores.php?scores=70243
+Rules, Scorpion Bend [Longest Drive]: https://www.twingalaxies.com/scores.php?scores=70247
+Rules, Scorpion Bend [Longest Putt]: https://www.twingalaxies.com/scores.php?scores=70250
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Golden%20Tee%20Classic%20[v1.00]
+NOTE: This game has both DIPs & internal settings covered by the rules. If not shown during playback, press F2 to access & check internal settings afterwards.

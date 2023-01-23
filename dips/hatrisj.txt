@@ -1,11 +1,11 @@
 ROM set changed: yes
 0.106-0.131: hatris - "Hatris (Japan)"
-0.131u2-0.175: hatrisj - "Hatris (Japan)"
+0.131u2-0.224: hatrisj - "Hatris (Japan)"
 
-MAME History:
+From MAMEINFO.DAT:
 - 0.131u2: Andrew Welburn added Hatris (US). Replaced dipswitches 'Difficulty 1/2' with 'Hat Fall Velocity' and 'End Line Position'. Renamed (hatris) to (hatrisj).
 
-Resolution, 0.106-0.175: 352x240 @ 60.000000Hz
+Resolution, 0.106-0.224: 352x240 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Hatris%20[Japan]
+TG Game Entry: https://www.twingalaxies.com/game/hatris-japan/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=75042

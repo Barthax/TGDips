@@ -1,0 +1,10 @@
+ROM set changed: no. Added in 0.192.
+0.106-0.191: NOT SUPPORTED
+0.192-0.209: akatana - "Akai Katana (2010/ 8/13 MASTER VER.)"
+
+Resolution, 0.192-0.209: 320x240 @ 60.000000Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/akai-katana-2010813-master-ver/mame/
+Rules, Points: https://www.twingalaxies.com/scores.php?scores=215706
+
+NOTE: This game has both DIPs & internal settings covered by the rules. If not shown during playback, press F2 to access & check internal settings afterwards.

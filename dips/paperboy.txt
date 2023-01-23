@@ -1,10 +1,10 @@
 ROM set changed: no
-0.106-0.175: paperboy - "Paperboy (rev 3)"
+0.106-0.189: paperboy - "Paperboy (rev 3)"
 
 Resolution, 0.106-0.122: 512x384 @ 60.000000Hz
-Resolution, 0.123-0.175: 512x384 @ 60.096154Hz
+Resolution, 0.123-0.189: 512x384 @ 60.096154Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Paperboy+%5BRev+3%5D
+TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Paperboy+[Rev+3]
 Rules, Points [Easy Street]: http://www.twingalaxies.com/scores.php?scores=78880
 Rules, Points [Grand Slam Score]: http://www.twingalaxies.com/scores.php?scores=78881
 Rules, Points [Hard Way]: http://www.twingalaxies.com/scores.php?scores=78882

@@ -1,9 +1,17 @@
 ROM set changed: no
-0.106-0.175: astrob - "Astro Blaster (version 3)"
+0.106-0.205: astrob - "Astro Blaster (version 3)"
+
+From MAMEINFO.DAT:
+- 0.122u8: Changed 'Unknown' dipswitches to 'Unused'.
 
 Resolution, 0.106-0.107: 256x224 @ 60.000000Hz
 Resolution, 0.108-0.113: 256x224 @ 59.998135Hz
-Resolution, 0.114-0.175: 256x224 @ 59.998138Hz
+Resolution, 0.114-0.196: 256x224 @ 59.998138Hz
+Resolution, 0.197-0.205: 256x224 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Astro%20Blaster%20[Version%203]
+TG Game Entry: https://www.twingalaxies.com/game/astro-blaster-version-3/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=7678
+
+NOTES:
+Default setting for "Unknown" DIPs was changed to "Off" at about 0.108, but these DIPs were later renamed to Unused at 0.122u8, which makes the "Unknown: ON [All]" rule settings moot.
+Contrary to the TG "Special Rules", an extra ship is NOT awarded at 10,000 Points!

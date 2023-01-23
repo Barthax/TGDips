@@ -1,7 +1,11 @@
 ROM set changed: no
-0.106-0.175: mainevt - "The Main Event (4 Players ver. Y)"
+0.106-0.190: mainevt - "The Main Event (4 Players ver. Y)"
 
-Resolution, 0.106-0.175: 288x224 @ 60.000000Hz
+MAME History:
+- 0.133u1: Brian Troha added DIP locations to The Main Event. Changed 'Unknown' dipswitches to 'Unused'. Renamed (mainev2p) to (mainevt2p).
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=The%20Main%20Event%20[4%20Players%20ver.%20Y]
+Resolution, 0.106-0.190: 288x224 @ 60.000000Hz
+
+TG Game Entry [old]: http://www.twingalaxies.com/scores.php?platformid=46&gamename=The+Main+Event+[4+Players+ver.+Y]
+TG Game Entry: http://www.twingalaxies.com/game_detail.php?gameid=9160&platformid=46
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=120399

@@ -1,12 +1,12 @@
 ROM set changed: yes
 0.106-0.147: invrvnge - "Invader's Revenge"
-0.147u2-0.175: invrvngeb - "Invader's Revenge (set 3)"
+0.148-0.225: invrvngeb - "Invader's Revenge (set 3)"
 
-MAME History:
+From MAMEINFO.DAT:
 - 0.147u2: Andrew Welburn added 'Invader's Revenge (set 1)' and clones (set 2) and (Game World, single PCB). hap removed Invader's Revenge color overlay, it doesn't have one. Hook up color prom. Sound is an MC6808P and AY-3-8910. DIPs 5, 6 and 7 are read from IN0 (info from MisfitMAME), also put driver notes in one big comment section instead of /* separate lines */ and got rid of (very incomplete anyway) changelog. Got rid of samples. Fixed cocktail DIP in Invader's Revenge (The cocktail switching works the same way as for Space Invaders. Flip control is available at bit 5 of port 5) [Robbbert, hap]. Added M6808 (2MHz) CPU2. Replaced SN76477 and Samples sound with AY-3-8910A (2MHz). Changed 'Invader's Revenge' to clone 'Invader's Revenge (set 3)' and 'Invader's Revenge (Dutchford)' to 'Invader's Revenge (Dutchford, single PCB)'. Renamed (invrvnge) to (invrvngeb) and (invrvngea) to (invrvngedu). Added dipswitches 'Difficulty', 'Fuel Destroyed by Comet' and 'Bonus Life'.
 
 Resolution, 0.106-0.113: 240x224 @ 60.000000Hz
-Resolution, 0.114-0.175: 260x224 @ 59.541985Hz
+Resolution, 0.114-0.225: 260x224 @ 59.541985Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Invader%27s%20Revenge
+TG Game Entry: https://www.twingalaxies.com/game/invaders-revenge/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=75128

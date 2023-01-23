@@ -8,13 +8,13 @@ Nibbler (rev 6)
 ---------------
 ROM set changed: yes
 0.106-0.143: nibbler - "Nibbler (set 1)"
-0.143u6-0.181: nibbler6 - "Nibbler (rev 6)"
+0.143u6-0.193: nibbler6 - "Nibbler (rev 6)"
 
 Resolution, 0.106-0.113: 256x224 @ 61.246746Hz
 Resolution, 0.114-0.128: 256x224 @ 61.246745Hz
-Resolution, 0.129-0.181: 256x224 @ 61.000000Hz
+Resolution, 0.129-0.193: 256x224 @ 61.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Nibbler+[set+1]
+TG Game Entry: http://www.twingalaxies.com/nibbler-set-1/mame/
 Rules, Points [Tournament Settings - 5 Life Limit]: http://www.twingalaxies.com/scores.php?scores=57234
 Rules, Points [Marathon Settings]: http://www.twingalaxies.com/scores.php?scores=7777
 Rules, Billionaire's Club Training Camp: http://www.twingalaxies.com/scores.php?scores=197849
@@ -24,8 +24,8 @@ Nibbler (rev 9)
 ---------------
 Note: not currently represented on TG.
 ROM set changed: no.  Added in 0.143u6.
-0.143u6-0.181: nibbler - "Nibbler (rev 9)"
+0.143u6-0.193: nibbler - "Nibbler (rev 9)"
 
-Resolution, 0.144-0.181: 256x224 @ 61.000000Hz
+Resolution, 0.144-0.193: 256x224 @ 61.000000Hz
 
 Rules: [no current tracks]
