@@ -11,3 +11,8 @@ Resolution, 0.220-0.250: 256x224 @ 59.170000Hz
 TG Game Entry: https://www.twingalaxies.com/game/final-star-force-us/mame/
 Rules, Points [Single Player Only]: https://www.twingalaxies.com/scores.php?scores=22932
 Rules, Points [Two Player Team]: https://www.twingalaxies.com/scores.php?scores=22933
+
+Service Mode:
+Service Mode reflects the local configuration after playback, not the recording.  Once triggered, a screen test pattern appears in Service Mode: press P1 Button 1 to cycle to the next screen.
+From MAMEInfo.DAT:
+- To enter into service mode press and hold start buttons 1 and 2 during P.O.S.T.

@@ -1,8 +1,32 @@
+Note: two different ROM sets are tracked by this file.  In 0.106 centiped was the original release and centtime was the time-limited version.
+
+MAME History:
+- 0.155: Phil Bennett added clone Centipede (revision 1). Made centtime the parent (this is actually revision 4). Renamed ROMs to include correct part numbers and locations. Changed clone (1 player, timed) to parent 'Centipede (revision 4)'. Renamed (centiped) to (centiped3) and (centtime) to (centiped).
+- 0.156: Tafoid added missing 2P start button to clone Centipede (revision 3). Removed 2nd Player in parent Centipede (revision 4).
+
+Centipede (revision 3)
+----------------------
+ROM set changed: yes
+0.106-0.154: centiped - "Centipede (revision 3)"
+0.155-0.250: centiped3 - "Centipede (revision 3)"
+
+Resolution, 0.106-0.250: 256x240 @ 60.000000Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/centipede-revision-3/mame/
+Rules, Points: https://www.twingalaxies.com/scores.php?scores=7702
+Rules, Points [Easy Difficulty]: https://www.twingalaxies.com/scores.php?scores=238148
+
+
+Centipede (1 player, timed) / Centipede (revision 4)
+----------------------------------------------------
 ROM set changed: yes
 0.106-0.154: centtime - "Centipede (1 player, timed)"
-0.155-0.240: centiped - "Centipede (revision 4)"
+0.155-0.250: centiped - "Centipede (revision 4)"
 
-Resolution, 0.106-0.240: 256x240 @ 60.000000Hz
+Resolution, 0.106-0.240: 256x250 @ 60.000000Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/centipede-1-player-timed/mame/
-Rules, 3 Minutes Time Challenge: http://www.twingalaxies.com/scores.php?scores=21079
+Rules, 3 Minutes Time Challenge: https://www.twingalaxies.com/scores.php?scores=21079
+
+Service Mode:
+Service Mode will reflect the local configuration after playback, not the recording.  Service Mode does not permit changing the settings.  It displays the SW1/N9 bank vertically as the left-most set of binary numbers with the SW2/N8 bank next to it.

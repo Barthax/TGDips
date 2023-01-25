@@ -12,10 +12,10 @@ MAME History:
 DoDonPachi II - Bee Storm (World, ver. 102)
 ---------------
 ROM set changed: no.  Added in 0.148u4.
-0.149-0.250: ddp2 - "DoDonPachi II - Bee Storm (World, ver. 102)"
+0.149-0.251: ddp2 - "DoDonPachi II - Bee Storm (World, ver. 102)"
 
 Resolution, 0.149-0.222: 448x224 @ 60.000000Hz
-Resolution, 0.223-0.250: 448x224 @ 59.185606Hz
+Resolution, 0.223-0.251: 448x224 @ 59.185606Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/dodonpachi-ii-bee-storm/mame/
 Rules, Highest Score-Combat Mode: https://www.twingalaxies.com/scores.php?scores=221381
@@ -26,6 +26,8 @@ Points[Internet Rank : Two Player Team]: https://www.twingalaxies.com/scores.php
 - Note: track author first submission using MAME 0.247.
 Points[Practice :Two Player Team]: https://www.twingalaxies.com/scores.php?scores=249001
 - Note: track author first submission using MAME 0.247.
+
+NOTE: All relevant rules are covered by internal settings.  If not shown during playback, switch Service Mode to On (either F2 or use DIPs) then Soft Reset (F3) to access after playback completed.
 
 
 DoDonPachi II - Bee Storm (Japan, ver. 102) / DoDonPachi II (Japan, ver. 102)
@@ -39,7 +41,3 @@ Resolution, 0.149-0.222: 448x224 @ 60.000000Hz
 Resolution, 0.223-0.250: 448x224 @ 59.185606Hz
 
 Rules: [no current tracks]
-
-Service Mode:
-Hardware DIP settings (like Free Play) will reflect the local configuration after playback ends, not the recording.  Most settings are software settings (stored in NVRAM), not hardware.  If not shown during playback, switch Service Mode to On (either F2 or use DIPs) then Soft Reset (F3) to access after playback completed.
-

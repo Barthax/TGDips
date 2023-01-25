@@ -1,8 +1,14 @@
 ROM set changed: no
-0.106-0.175: firebarr - "Fire Barrel (Japan)"
+0.106-0.250: firebarr - "Fire Barrel (Japan)"
 
-Resolution, 0.106-0.175: 320x240 @ 60.000000Hz
+MAME History:
+- 0.140u3: [Long paragraph cut shorter.] Angelo Salese fixed extensive issues with tilemaps/sprites. Changed input from 2 to 3 buttons. Added 'Rapid Fire' dipswitch.
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Fire%20Barrel
+Resolution, 0.106-0.250: 320x240 @ 60.000000Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/fire-barrel-japan/mame/
 Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=69907
 Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=69908
+
+Service Mode:
+Service Mode tests the RAM and ROM only and then pauses.
