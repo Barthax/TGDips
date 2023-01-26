@@ -1,8 +1,9 @@
 ROM set changed: no. Added in 0.140u2.
-0.140u2-0.143: espgal - "EspGaluda (V100, first revision)"
-0.144-0.198: espgal - "Espgaluda (2003/10/15 Master Ver)"
+0.141-0.143: espgal - "EspGaluda (V100, first revision)"
+0.144-0.251: espgal - "Espgaluda (2003/10/15 Master Ver)"
 
-Resolution, 0.141-0.198: 448x224 @ 59.170000Hz
+Resolution, 0.141-0.222: 448x224 @ 59.170000Hz
+Resolution, 0.223-0.251: 448x224 @ 59.185606Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/espgaluda-2003-10-15-master-ver/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=200221

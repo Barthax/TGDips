@@ -8,12 +8,12 @@ Warriors of Fate (World 921002)
 -------------------------------
 ROM set changed: yes
 0.106-0.144: wof - "Warriors of Fate (World 921002)"
-0.144u3-0.205: wofr1 - "Warriors of Fate (World 921002)"
+0.145-0.245: wofr1 - "Warriors of Fate (World 921002)"
 
 Resolution, 0.106-0.126: 384x224 @ 60.000000Hz
 Resolution, 0.127-0.147: 384x224 @ 59.610000Hz
 Resolution, 0.148-0.152: 384x224 @ 59.629403Hz
-Resolution, 0.153-0.205: 384x224 @ 59.637405Hz
+Resolution, 0.153-0.245: 384x224 @ 59.637405Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/warriors-of-fate-world-921002/mame/
 Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=14475
@@ -25,10 +25,10 @@ Warriors of Fate (World 921031)
 -------------------------------
 Note: not currently represented on TG.
 ROM set changed: no.  Added in 0.144u3.
-0.144u3-0.205: wof - "Warriors of Fate (World 921031)"
+0.145-0.245: wof - "Warriors of Fate (World 921031)"
 
 Resolution, 0.145-0.147: 384x224 @ 59.610000Hz
 Resolution, 0.148-0.152: 384x224 @ 59.629403Hz
-Resolution, 0.153-0.205: 384x224 @ 59.637405Hz
+Resolution, 0.153-0.245: 384x224 @ 59.637405Hz
 
 Rules: [no current tracks]

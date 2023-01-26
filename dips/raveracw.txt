@@ -1,11 +1,18 @@
-ROM set changed: no
-0.106-0.175: raveracw - "Rave Racer (Rev. RV2, World)"
+ROM set changed: yes
+0.106-0.238: raveracw - "Rave Racer (Rev. RV2, World)"
+0.239-0.241: raveracw - "Rave Racer (Rev. RV2 Ver.B, World)"
+0.242-     : raverace - "Rave Racer (Rev. RV2 Ver.B, World)"
+
+From MAMEINFO.DAT:
+- 0.239: sjy96525 changed description to 'Rave Racer (Rev. RV2 Ver.B, World)'.
+- 0.242: Redumped/Verified Rave Racer (Rev. RV2 Ver.B, World) and clone Rave Racer (Rev. RV1 Ver.B, Japan). Fixed rom names. Renamed (raveracw) to (raverace), (raveracj) to (raveracej) and (raveracja) to (raveraceja).
 
 Resolution, 0.106-0.144: 640x480 @ 60.000000Hz
 Resolution, 0.145-0.152: 640x480 @ 59.937809Hz
-Resolution, 0.153-0.175: 640x480 @ 60.000000Hz
+Resolution, 0.153-0.202: 640x480 @ 60.000000Hz
+Resolution, 0.203-0.241: 640x480 @ 59.904060Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Rave%20Racer%20[Rev.%20RV2,%20World]
+TG Game Entry: https://www.twingalaxies.com/game/rave-racer-rev-rv2-world/mame
 Rules, City - Time Trial [Fastest Lap]: http://www.twingalaxies.com/scores.php?scores=91194
 Rules, City - Time Trial [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=91195
 Rules, City [Fastest Lap]: http://www.twingalaxies.com/scores.php?scores=91184
@@ -22,5 +29,6 @@ Rules, Ridge Racer Short - Time Trial [Fastest Lap]: http://www.twingalaxies.com
 Rules, Ridge Racer Short - Time Trial [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=91202
 Rules, Ridge Racer Short [Fastest Lap]: http://www.twingalaxies.com/scores.php?scores=91191
 Rules, Ridge Racer Short [Fastest Race]: http://www.twingalaxies.com/scores.php?scores=91192
-NB: Use service mode (F2) to access settings after playback if not shown.  Use steering left/right to navigate menu and button 1 to select.
 
+NOTE: Use service mode (F2) to access settings after playback if not shown.  Use steering left/right to navigate menu and button 1 to select.
+From MAMEINFO.DAT: To calibrate controls hold key 9 and press F2 to enter a simple calibration screen.

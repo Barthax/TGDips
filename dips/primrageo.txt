@@ -1,0 +1,12 @@
+ROM set changed: yes
+0.106-0.248: primrage - "Primal Rage (version 2.3)"
+0.249-     : primrageo - "Primal Rage (version 2.3, older build)"
+
+From MAMEINFO.DAT:
+- 0.249: Guru added Primal Rage (version 2.3, newer build). Note: Still shows 'version 2.3' on the title screen but build is newer than the primrage set. Changed (version 2.3) to clone 'Primal Rage (version 2.3, older build)'. Renamed (primrage) to (primrageo).
+
+Resolution, 0.106-0.114: 336x240 @ 60.000000Hz
+Resolution, 0.115-0.249: 336x240 @ 59.922743Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/primal-rage-version-23/mame
+Rules, Points [Tournament Settings]: http://www.twingalaxies.com/scores.php?scores=78973

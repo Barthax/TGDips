@@ -1,8 +1,11 @@
 ROM set changed: no
 0.106-0.191: gunbird2 - "Gunbird 2"
-0.192-0.197: gunbird2 - "Gunbird 2 (set 1)"
+0.192-0.251: gunbird2 - "Gunbird 2 (set 1)"
 
-Resolution, 0.106-0.197: 320x224 @ 60.000000Hz
+From MAMEINFO.DAT:
+- 0.192: Hyid Choi added clone Gunbird 2 (set 2). Changed parent description to 'Gunbird 2 (set 1)'.
+
+Resolution, 0.106-0.251: 320x224 @ 60.000000Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/gunbird-2/mame/
 Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=23037

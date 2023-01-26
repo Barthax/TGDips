@@ -1,8 +1,8 @@
 ROM set changed: no
-0.106-0.222: gauntlet - "Gauntlet (rev 14)"
+0.106-0.245: gauntlet - "Gauntlet (rev 14)"
 
 Resolution, 0.106-0.114: 336x240 @ 60.000000Hz
-Resolution, 0.115-0.222: 336x240 @ 59.922743Hz
+Resolution, 0.115-0.245: 336x240 @ 59.922743Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/gauntlet-rev-14/mame/
 Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=7738

@@ -1,7 +1,7 @@
 ROM set changed: no
-0.106-0.214: timber - "Timber"
+0.106-0.251: timber - "Timber"
 
-Resolution, 0.106-0.214: 512x480 @ 30.000000Hz
+Resolution, 0.106-0.251: 512x480 @ 30.000000Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/timber/mame/
 Rules, Points [Single Player Only, Marathon Settings]: http://www.twingalaxies.com/scores.php?scores=7881

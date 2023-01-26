@@ -11,10 +11,10 @@ Cabal (US set 1, Trackball)
 ROM set changed: yes
 0.106-0.119: cabal - "Cabal (US set 1)"
 0.120-0.169: cabalus - "Cabal (US set 1, Trackball version)"
-0.172-0.234: cabalus - "Cabal (US set 1, Trackball)"
+0.172-0.248: cabalus - "Cabal (US set 1, Trackball)"
 
 Resolution, 0.106-0.133: 256x224 @ 60.000000Hz
-Resolution, 0.134-0.234: 256x224 @ 59.600000Hz
+Resolution, 0.134-0.248: 256x224 @ 59.600000Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/cabal-us-set-1/mame
 Rules, Points [1 Player Only]: http://www.twingalaxies.com/scores.php?scores=10803
@@ -24,11 +24,11 @@ Rules, Points [2 Player Team]: http://www.twingalaxies.com/scores.php?scores=108
 Cabal (World, Joystick)
 -----------------------
 Note: not currently represented on TG.
-ROM set changed: 
+ROM set changed: no. Added in 0.119u2.
 0.120-0.171: cabal - "Cabal (World, Joystick version)"
-0.172-0.234: cabal - "Cabal (World, Joystick)"
+0.172-0.248: cabal - "Cabal (World, Joystick)"
 
 Resolution, 0.120-0.133: 256x224 @ 60.000000Hz
-Resolution, 0.134-0.234: 256x224 @ 59.600000Hz
+Resolution, 0.134-0.248: 256x224 @ 59.600000Hz
 
 Rules: [not current tracks]

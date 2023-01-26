@@ -1,0 +1,12 @@
+ROM set changed: yes
+0.106-0.249: spiker - "Spiker"
+0.250-     : spikera - "Spiker (5/5/86)"
+
+From MAMEINFO.DAT:
+- 0.250: Changed clone (5/5/86) to 'Spiker (earliest?)' and 'Spiker' to clone 'Spiker (5/5/86)'. Renamed (spiker) to (spikera), (spiker3) to (spiker) and (spiker2) to (spikerb).
+
+Resolution, 0.106-0.113: 256x240 @ 60.000000Hz
+Resolution, 0.114-0.250: 256x240 @ 59.185606Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/spiker/mame
+Rules, Biggest Blowout: http://www.twingalaxies.com/scores.php?scores=110740

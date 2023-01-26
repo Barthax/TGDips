@@ -1,0 +1,12 @@
+ROM set changed: yes
+0.106-0.245: avengers - "Avengers (US set 1)"
+0.246-     : avengersc - "Avengers (US, unknown revision)"
+
+From MAMEINFO.DAT:
+- 0.246: anonymous added Avengers (US, revision C) and clone Avengers (US). Correct rom labels for Avengers sets [Brian Troha]. Added info on the Avengers protection chip. Note: The protection chip underneath the sound module. Needs dumping. The protection is extensive: Palette data, calculates player movement and even a hand in the sound. The angle/movement stuff isn't 100% accurate either [simzy39]. Added NO_DUMP placeholder for MCU [hap]. Changed (US set 1) to clone 'Avengers (US, unknown revision)' and clones (US set 2) to 'Avengers (US, revision A)' and (Japan) to 'Hissatsu Buraiken (Japan, revision A)'. Renamed (avengers) to (avengersc) and (avengers2) to (avengersa).
+
+Resolution, 0.106-0.246: 256x240 @ 60.000000Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/avengers-us-set-1/mame
+Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=11810
+Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=11908

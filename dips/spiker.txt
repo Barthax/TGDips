@@ -1,7 +1,31 @@
-ROM set changed: no
-0.106-0.175: spiker - "Spiker"
+Note: two ROM sets represented here with changeover at 0.250.
+
+From MAMEINFO.DAT:
+- 0.144u1: Kevin Eshbach added Spiker (5/5/86) and Spiker (6/9/86).
+- 0.144u2: Changed Spiker (5/5/86) and Spiker (6/9/86) from parent sets to clones of Spiker.
+- 0.250: Changed clone (5/5/86) to 'Spiker (earliest?)' and 'Spiker' to clone 'Spiker (5/5/86)'. Renamed (spiker) to (spikera), (spiker3) to (spiker) and (spiker2) to (spikerb).
+
+
+Spiker (5/5/86)
+---------------
+ROM set changed: yes
+0.106-0.249: spiker - "Spiker"
+0.250-     : spikera - "Spiker (5/5/86)"
 
 Resolution, 0.106-0.113: 256x240 @ 60.000000Hz
-Resolution, 0.114-0.175: 256x240 @ 59.185606Hz
+Resolution, 0.114-0.250: 256x240 @ 59.185606Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Spiker
+TG Game Entry: https://www.twingalaxies.com/game/spiker/mame
+Rules, Biggest Blowout: http://www.twingalaxies.com/scores.php?scores=110740
+
+
+Spiker (6/9/86)
+---------------
+Note: not currently represented on TG.
+ROM set changed: no. Added in 0.144u1.
+0.145-0.249: spiker3 - "Spiker (6/9/86)"
+0.250-     : spiker - "Spiker (6/9/86)"
+
+Resolution, 0.145-0.250: 256x240 @ 59.185606Hz
+
+Rules: [no current tracks]

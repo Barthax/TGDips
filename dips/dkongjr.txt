@@ -1,9 +1,12 @@
 ROM set changed: no
 0.106-0.152: dkongjr - "Donkey Kong Junior (US)"
-0.153-0.239: dkongjr - "Donkey Kong Junior (US set F-2)"
+0.153-0.244: dkongjr - "Donkey Kong Junior (US set F-2)"
+
+From MAMEINFO.DAT:
+- 0.153: Kevin Eshbach changed parent description to 'Donkey Kong Junior (US set F-2)'. Corrected some rom names.
 
 Resolution, 0.106-0.116: 256x224 @ 60.000000Hz
-Resolution, 0.117-0.239: 256x224 @ 60.606061Hz
+Resolution, 0.117-0.244: 256x224 @ 60.606061Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/donkey-kong-junior-us/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=7723

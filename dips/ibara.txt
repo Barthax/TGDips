@@ -1,13 +1,35 @@
-ROM set changed: no.
+Note: two ROM sets represented here with changeover at 0.250.
+
+From MAMEINFO.DAT:
+- 0.250: alamone added Ibara (2005/03/22 MASTER VER.., '06. 3. 7 ver.). Note: Newer revision CV1000-B PCB. Renamed (ibara) to (ibarao).
+
+
+Ibara (2005/03/22 MASTER VER..)
+-------------------------------
+ROM set changed: yes
 0.142u5-143u1: ibara - "Ibara Kuro"
 0.143u2: ibara - "Ibara (2005/03/22 MASTER VER..)"
 0.144-0.152: NOT SUPPORTED
-0.153-0.201: ibara - "Ibara (2005/03/22 MASTER VER..)"
+0.153-0.249: ibara - "Ibara (2005/03/22 MASTER VER..)"
+0.250-     : ibarao - "Ibara (2005/03/22 MASTER VER..)"
 
-Resolution, 0.143: 640x480 @ 60.000000Hz
-Resolution, 0.153-0.201: 320x240 @ 60.000000Hz
+Resolution, 0.143      : 640x480 @ 60.000000Hz
+Resolution, 0.153-0.224: 320x240 @ 60.000000Hz
+Resolution, 0.225-0.226: 320x240 @ 60.020000Hz
+Resolution, 0.227-0.250: 320x240 @ 60.024000Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/ibara/mame
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=200771
 
 NOTE: All relevant rules are covered by internal settings.  If not shown during playback, use F2 to access after playback completed.
+
+
+Ibara (2005/03/22 MASTER VER.., '06. 3. 7 ver.)
+-----------------------------------------------
+Note: not currently represented on TG.
+ROM set changed: no.  Added in 0.250.
+0.139-0.249: ibara - "Ibara (2005/03/22 MASTER VER.., '06. 3. 7 ver.)"
+
+Resolution, 0.250-     : 320x240 @ 60.024000Hz
+
+Rules: [no current tracks]

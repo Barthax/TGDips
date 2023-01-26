@@ -1,13 +1,14 @@
 ROM set changed: no
 0.106-0.138: theends - "The End (Stern)"
-0.138u1-0.194: theends - "The End (Stern Electronics)"
+0.139-0.241: theends - "The End (Stern Electronics)"
 
-MAME History:
+From MAMEINFO.DAT:
 - 0.138u1: Changed description of clone (Stern) to 'The End (Stern Electronics)'.
+- 0.202: kazblox fixed protection in 'The End'. 'The End' now shows the HIT UFO screen after the CHANCE TIME round. Corrected sync and machine setup for clone Take Off (bootleg of The End). Sidam bootlegs of Konami games have a 12MHz pixel clock with video being scaled by two pixels instead of 3. Now correctly set up as per the 12MHz pixel clock. Given Take Off's hardware hierarchy, correct the year from 1980 to 1981 as a guess. Mark Take Off as MACHINE_WRONG_COLORS. See the reference video for more; some colors that are purple with the default palette_init are green on real hardware.
 
 Resolution, 0.106-0.113: 256x224 @ 60.606060Hz
 Resolution, 0.114-0.123: 256x224 @ 60.606061Hz
-Resolution, 0.125-0.194: 768x224 @ 60.606061Hz
+Resolution, 0.125-0.241: 768x224 @ 60.606061Hz
 
 TG Game Entry: http://www.twingalaxies.com/game/the-end-stern/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=19163

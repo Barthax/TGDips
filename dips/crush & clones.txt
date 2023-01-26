@@ -1,0 +1,78 @@
+crush
+ROM set changed: no. Added in 0.035b13.
+0.35b13-0.146: crush - "Crush Roller (Kural Samno)"
+0.147-0.198: crush - "Crush Roller (set 1)"
+-------------------------------------------------------------------------------
+crush2
+ROM set changed: yes. Added in 0.001.
+0.001-0.035b12: crush - "Crush Roller"
+0.035b13-0.146: crush2 - "Crush Roller (Kural Esco - bootleg?)"
+0.147-0.198: crush2 - "Crush Roller (set 2)"
+-------------------------------------------------------------------------------
+crush3
+ROM set changed: no. Added in 0.178.
+0.178-0.198: crush3 - "Crush Roller (set 3)"
+-------------------------------------------------------------------------------
+crush4
+ROM set changed: yes. Added in 0.035b5.
+0.35b5-0.35b12: crush2 - "Crush Roller (set 2)"
+0.35b13-0.146: crush3 - "Crush Roller (Kural - bootleg?)"
+0.147-0.177: crush3 - "Crush Roller (set 3)"
+0.178-0.198: crush4 - "Crush Roller (set 4)"
+-------------------------------------------------------------------------------
+crush5
+ROM set changed: yes. Added in 0.098u1.
+0.98u1-0.146: crush4 - "Crush Roller (Kural TWT)"
+0.147-0.177: crush4 - "Crush Roller (set 4)"
+0.178-0.198: crush5 - "Crush Roller (set 5)"
+-------------------------------------------------------------------------------
+crushbl
+ROM set changed: no. Added in 0.118u6.
+0.118u6-0.146: crushbl - "Crush Roller (bootleg)"
+0.147-0.198: crushbl - "Crush Roller (bootleg set 1)"
+-------------------------------------------------------------------------------
+crushbl2
+ROM set changed: no. Added in 0.130u3.
+0.130u3-0.146: crushbl2 - "Crush Roller (bootleg?)"
+0.147-0.198: crushbl2 - "Crush Roller (bootleg set 2)"
+-------------------------------------------------------------------------------
+crushbl3
+ROM set changed: no. Added in 0.148u5.
+0.148u5-0.198: crushbl3 - "Crush Roller (bootleg set 3)"
+-------------------------------------------------------------------------------
+crushrlf
+ROM set changed: no. Added in 0.164.
+0.164-0.192: crushrlf - "Crush Roller (Famaresa PCB)"
+0.193-0.198: crushrlf - "Crush Roller (Famare SA PCB)"
+-------------------------------------------------------------------------------
+crushs
+ROM set changed: no. Added in 0.118u6.
+0.118u6-0.146: crushs - "Crush Roller (Sidam bootleg)"
+0.147-0.148: crushs - "Crush Roller (bootleg set 3)"
+0.148u5-0.198: crushs - "Crush Roller (bootleg set 4)"
+-------------------------------------------------------------------------------
+korosuke
+ROM set changed: no. Added in 0.070.
+0.070-0.146: korosuke - "Korosuke Roller"
+0.147-0.198: korosuke - "Korosuke Roller (Japan)"
+-------------------------------------------------------------------------------
+maketrax
+ROM set changed: no. Added in 0.030.
+0.030-0.068: maketrax - "Make Trax"
+0.069-0.146: maketrax - "Make Trax (set 1)"
+0.147-0.198: maketrax - "Make Trax (US set 1)"
+-------------------------------------------------------------------------------
+maketrxb
+ROM set changed: no. Added in 0.069.
+0.069-0.146: maketrxb - "Make Trax (set 2)"
+0.147-0.198: maketrxb - "Make Trax (US set 2)"
+-------------------------------------------------------------------------------
+mbrush
+ROM set changed: no. Added in 0.035b3.
+0.035b3-0.146: mbrush - "Magic Brush"
+0.147-0.198: mbrush - "Magic Brush (bootleg of Crush Roller)"
+-------------------------------------------------------------------------------
+paintrlr
+ROM set changed: no. Added in 0.036b12.
+0.036b12-0.146: paintrlr - "Paint Roller"
+0.147-0.198: paintrlr - "Paint Roller (bootleg of Crush Roller)"

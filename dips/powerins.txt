@@ -1,6 +1,6 @@
 Note: two ROM sets represented here with changeover at 0.128u2.
 
-MAME History:
+From MAMEINFO.DAT:
 - 0.128u2: Jim Hernandez added Power Instinct (USA). Renamed (powerins) to (powerinj).
 - 0.133u1: Renamed (powerinj) to (powerinsj), (powerina) to (powerinsa) and (powerinb) to (powerinsb).
 
@@ -9,13 +9,14 @@ Gouketsuji Ichizoku (Japan)
 ---------------------------
 ROM set changed: yes
 0.106-0.128: powerins - "Gouketsuji Ichizoku (Japan)"
-0.128u2-0.133: powerinj - "Gouketsuji Ichizoku (Japan)"
-0.133u1-0.175: powerinsj - "Gouketsuji Ichizoku (Japan)"
+0.129-0.133: powerinj - "Gouketsuji Ichizoku (Japan)"
+0.134-0.249: powerinsj - "Gouketsuji Ichizoku (Japan)"
 
 Resolution, 0.106-0.133: 320x224 @ 56.000000Hz
-Resolution, 0.134-0.175: 320x224 @ 56.000000Hz
+Resolution, 0.134-0.214: 320x224 @ 56.000000Hz
+Resolution, 0.215-0.249: 320x224 @ 56.205036Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Gouketsuji%20Ichizoku%20[Japan]
+TG Game Entry: https://www.twingalaxies.com/game/gouketsuji-ichizoku-japan/mame
 Rules, Points [Tournament Settings]: http://www.twingalaxies.com/scores.php?scores=70540
 
 
@@ -23,9 +24,9 @@ Power Instinct (USA)
 --------------------
 Note: not currently represented at TG.
 ROM set changed: no.  Added in 0.128u2.
-0.128u2-0.175: powerins - "Power Instinct (USA)"
+0.129-0.249: powerins - "Power Instinct (USA)"
 
-Resolution, 0.128-0.175: 320x224 @ 56.000000Hz
+Resolution, 0.128-0.214: 320x224 @ 56.000000Hz
+Resolution, 0.215-0.249: 320x224 @ 56.205036Hz
 
 Rules: [no current tracks]
-

@@ -1,7 +1,7 @@
 ROM set changed: yes
 0.106-0.119: cabal - "Cabal (US set 1)"
 0.120-0.169: cabalus - "Cabal (US set 1, Trackball version)"
-0.172-0.234: cabalus - "Cabal (US set 1, Trackball)"
+0.172-0.248: cabalus - "Cabal (US set 1, Trackball)"
 
 From MAMEINFO.DAT:
 - 0.119u2: Replaced 'Cabal (US set 1)' with an incomplete new Cabal version (World, Joystick version).
@@ -9,7 +9,7 @@ From MAMEINFO.DAT:
 - 0.172: Caius added clone Cabal (UK, Trackball). Changed parent description to 'Cabal (World, Joystick)' and clones (Alpha Trading) to 'Cabal (Korea?, Joystick)', (US set 1, Trackball version) to 'Cabal (US set 1, Trackball)' and (US set 2, Trackball version) to 'Cabal (US set 2, Trackball)'.
 
 Resolution, 0.106-0.133: 256x224 @ 60.000000Hz
-Resolution, 0.134-0.234: 256x224 @ 59.600000Hz
+Resolution, 0.134-0.248: 256x224 @ 59.600000Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/cabal-us-set-1/mame
 Rules, Points [1 Player Only]: http://www.twingalaxies.com/scores.php?scores=10803

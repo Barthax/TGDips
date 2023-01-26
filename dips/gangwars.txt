@@ -1,22 +1,21 @@
 Note: two ROM sets represented here with changeover at 0.139u2.
 
-MAME History:
+From MAMEINFO.DAT:
 - 0.139u2: David Raingeard added correct GFX roms for Gang Wars, renamed bootleg set as Euro set (and new parent), made note about bootleg GFX roms. Changed description of clone 'Gang Wars (bootleg)' to 'Gang Wars'. Renamed (gangwars) to (gangwarsu) and (gangwarsb) to (gangwars).
+- 0.154: Jets and Layer added clone Gang Wars (Japan). David Haywood added Gang Wars (bootleg). Reinstated the bootleg, these 68705 instead of alpha MCU bootlegs might be interesting later down the line even if the main code is the same. Also one of our mask roms was bad, and the gangwarsu set should definitely have been using different roms for the gfx [David Haywood]. Added gfx2 rom ($200000) from clone (Japan) to Gang Wars. Added new gfx2 roms to clone (US).
 
 
 Gang Wars (US)
 --------------
 ROM set changed: yes
 0.106-0.139: gangwars - "Gang Wars (US)"
-0.139u2-0.175: gangwarsu - "Gang Wars (US)"
+0.140-0.251: gangwarsu - "Gang Wars (US)"
 
 Resolution, 0.106-0.155: 256x224 @ 60.000000Hz
-Resolution, 0.156-0.175: 256x224 @ 60.191409Hz
+Resolution, 0.156-0.174: 256x224 @ 60.191409Hz
+Resolution, 0.215-0.251: 256x224 @ 59.185606Hz
 
-MAME History:
-- 0.154: Jets and Layer added clone Gang Wars (Japan). David Haywood added Gang Wars (bootleg). Reinstated the bootleg, these 68705 instead of alpha MCU bootlegs might be interesting later down the line even if the main code is the same. Also one of our mask roms was bad, and the gangwarsu set should definitely have been using different roms for the gfx [David Haywood]. Added gfx2 rom ($200000) from clone (Japan) to Gang Wars. Added new gfx2 roms to clone (US).
-
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Gang%20Wars%20[US]
+TG Game Entry: https://www.twingalaxies.com/game/gang-wars-us/mame
 Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=23033
 Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=23034
 
@@ -26,13 +25,14 @@ Gang Wars (Euro - not bootleg!)
 Note: not currently represented on TG.
 ROM set changed: yes.
 0.106-0.133: gangwarb - "Gang Wars (bootleg)"
-0.133u1-0.139: gangwarsb - "Gang Wars (bootleg)"
-0.139u2-0.175: gangwars - "Gang Wars"
+0.134-0.139: gangwarsb - "Gang Wars (bootleg)"
+0.140-0.251: gangwars - "Gang Wars"
 
-MAME History:
+From MAMEINFO.DAT:
 - 0.133u1: Renamed (gangwarb) to (gangwarsb).
 
 Resolution, 0.106-0.155: 256x224 @ 60.000000Hz
-Resolution, 0.156-0.175: 256x224 @ 60.191409Hz
+Resolution, 0.156-0.214: 256x224 @ 60.191409Hz
+Resolution, 0.215-0.251: 256x224 @ 59.185606Hz
 
 Rules: [no current tracks]
