@@ -1,8 +1,13 @@
 ROM set changed: no
 0.106-0.172: 1945kiii - "1945k III"
-0.173-0.203: 1945kiii - "1945k III (newer, OPCX2 PCB)"
+0.173-0.250: 1945kiii - "1945k III (newer, OPCX2 PCB)"
 
-Resolution, 0.106-0.203: 320x224 @ 60.000000Hz
+Resolution, 0.106-0.219: 320x224 @ 60.000000Hz
+Resolution, 0.219-0.250: 320x224 @ 59.637405Hz
+
+MAME History:
+- 0.173: System11 added clone 1945k III (older, OPCX1 PCB). Note: Interesting version, dated a year earlier, different PCB (not using flash roms) and only 8 planes to choose from, not 10 etc. Changed parent description to '1945k III (newer, OPCX2 PCB)'.
+- 0.220: Added input ports for clone 1945k III (older, OPCX1 PCB). Note: 1945K-III is clearly a retooled Solite Spirtis. There are spots in 1945K-III where it shows "SOLITE SPIRITS" such as the ship selection screen's background and after the continue countdown expires, but before the high score table. It's unknown if the changes were specifically meant for an Export version or if Promat was trying to capitalized on Psikyo's Striker 1945 series and it's name. Older version of 1945K-III there's no dipswitches for Demo Sound or Allow Continue - Demo sounds always OFF [Brian Troha]. Implemented VRAM access toggle behavior. Implemented sprite limitation per frame. Correct VRAM flip-flop behavior. Converted screen parameters into raw format. Added Hardware notes [cam900]. Changed VSync to 59.637405 Hz.
 
 TG Game Entry: https://www.twingalaxies.com/game/1945k-iii/mame/
 Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=19196

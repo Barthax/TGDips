@@ -1,9 +1,45 @@
-ROM set changed: no.  Added in 0.148u4.
-0.149-0.212: ddp2 - "DoDonPachi II - Bee Storm (World, ver. 102)"
+Note: mutliple ROM sets have appeared as ddp2 over the years.  One important note is that the game was not playable prior to 0.145u5 so tracking precise history prior to 0.146 has little value for the TG adjudication purposes.
 
-Resolution, 0.149-0.212: 448x224 @ 60.000000Hz
+MAME History:
+- 0.130u2: Added Bee Storm - DoDonPachi II (set 1). Added ARM7 (20MHz) CPU3. Changed description of 'Bee Storm - DoDonPachi II' to 'Bee Storm - DoDonPachi II (set 2)'. Renamed (ddp2) to (ddp2a).
+- 0.130u3: Changed 'Bee Storm - DoDonPachi II (set 2)' from a parent set to clone 'Bee Storm - DoDonPachi II (ver. 102)'. Changed parent description to 'Bee Storm - DoDonPachi II (ver. 100)'.
+- 0.140u2: JackC added clone 'Bee Storm - DoDonPachi II (ver. 101)'. Not working. Renamed (ddp2) to (ddp2100) and (ddp2a) to (ddp2).
+- 0.145u5: David Haywood and rtw fixed DoDonPachi II - Game now playable. Added speedups and improved PGM ARM irq to more likely assert/clear instead of pulse. Changed parent and clones descriptions to 'DoDonPachi II - Bee Storm'.
+- 0.148u4: Mr. CAST, Smitdogg, Tormod and The Dumping Union added DoDonPachi II - Bee Storm (World, ver. 102) and clones (World, ver. 100), (World, ver. 101), (Hong Kong, ver. 100), (Hong Kong, ver. 101), (Hong Kong, ver. 102), (Korea, ver. 100), (Korea, ver. 101), (Korea, ver. 102), (Taiwan, ver. 100), (Taiwan, ver. 101), (Taiwan, ver. 102), (China, ver. 100), (China, ver. 101) and (China, ver. 102). Renamed (ddp2) to (ddp2j), (ddp2100) to (ddp2100j) and (ddp2101) to (ddp2101j).
+- 0.198: Changed description of clones (China, ver. 100) to 'DoDonPachi - Feng Bao (China, ver. 100)', (China, ver. 101) to 'DoDonPachi - Feng Bao (China, ver. 101)', (China, ver. 102) to 'DoDonPachi - Feng Bao (China, ver. 102)', (Hong Kong, ver. 100) to 'DoDonPachi II - Fung Bou (Hong Kong, ver. 100)', (Hong Kong, ver. 101) to 'DoDonPachi II - Fung Bou (Hong Kong, ver. 101)', (Hong Kong, ver. 102) to 'DoDonPachi II - Fung Bou (Hong Kong, ver. 102)', (Japan, ver. 100) to 'DoDonPachi II (Japan, ver. 100)', (Japan, ver. 101) to 'DoDonPachi II (Japan, ver. 101)', (Japan, ver. 102) to 'DoDonPachi II (Japan, ver. 102)', (Taiwan, ver. 100) to 'DoDonPachi - Feng Bao (Taiwan, ver. 100)', (Taiwan, ver. 101) to 'DoDonPachi - Feng Bao (Taiwan, ver. 101)' and (Taiwan, ver. 102) to 'DoDonPachi - Feng Bao (Taiwan, ver. 102)'.
+
+
+DoDonPachi II - Bee Storm (World, ver. 102)
+---------------
+ROM set changed: no.  Added in 0.148u4.
+0.149-0.250: ddp2 - "DoDonPachi II - Bee Storm (World, ver. 102)"
+
+Resolution, 0.149-0.222: 448x224 @ 60.000000Hz
+Resolution, 0.223-0.250: 448x224 @ 59.185606Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/dodonpachi-ii-bee-storm/mame/
 Rules, Highest Score-Combat Mode: https://www.twingalaxies.com/scores.php?scores=221381
+- Note: non-author first submission using MAME 0.149.
+Points[Combat :Two Player Team]: https://www.twingalaxies.com/scores.php?scores=249000
+- Note: track author first submission using MAME 0.247.
+Points[Internet Rank : Two Player Team]: https://www.twingalaxies.com/scores.php?scores=248999
+- Note: track author first submission using MAME 0.247.
+Points[Practice :Two Player Team]: https://www.twingalaxies.com/scores.php?scores=249001
+- Note: track author first submission using MAME 0.247.
 
-NOTE: All relevant rules are covered by internal settings.  If not shown during playback, switch Service Mode to On (either F2 or use DIPs) then Soft Reset (F3) to access after playback completed.
+
+DoDonPachi II - Bee Storm (Japan, ver. 102) / DoDonPachi II (Japan, ver. 102)
+-------------------
+ROM set changed: yes, changeover at 0.148u4.
+0.146-0.148: ddp2 - "DoDonPachi II - Bee Storm (Japan, ver. 102)"
+0.149-0.197: ddp2j - "DoDonPachi II - Bee Storm (Japan, ver. 102)"
+0.198-0.251: ddp2j - "DoDonPachi II (Japan, ver. 102)"
+
+Resolution, 0.149-0.222: 448x224 @ 60.000000Hz
+Resolution, 0.223-0.250: 448x224 @ 59.185606Hz
+
+Rules: [no current tracks]
+
+Service Mode:
+Hardware DIP settings (like Free Play) will reflect the local configuration after playback ends, not the recording.  Most settings are software settings (stored in NVRAM), not hardware.  If not shown during playback, switch Service Mode to On (either F2 or use DIPs) then Soft Reset (F3) to access after playback completed.
+

@@ -1,9 +1,17 @@
 ROM set changed: no
 0.106-0.123: skykid - "Sky Kid (New Ver.)"
-0.125-0.240: skykid - "Sky Kid (new version)"
+0.124-0.250: skykid - "Sky Kid (new version)"
 
-Resolution, 0.106-0.240: 288x224 @ 60.606060Hz
+MAME History:
+- 0.121u2: Corrado Tomaselli added clone Sky Kid (Manufactured by Sipem). No license text is displayed but the PCB was licensed by Namco for production by Sipem (formerly Sidam) with Namco supplying the Custom chips (MCU etc.). The level select is handled in a much more user-friendly way in this set and the dip for it is inverted (although this is displayed incorrectly in the test mode). Renamed dipswitch 'Round Select' to 'Round Skip'.
+- 0.123u1: Zsolt Vasvari removed color tables from Sky Kid. Added RESNET color computations where appropriate. Changed palettesize to 1280 colors. Changed description to 'Sky Kid (new version)' and clones (Old Ver.) to 'Sky Kid (old version)', (CUS60 Ver.) to 'Sky Kid (CUS60 version)' and (Manufactured by Sipem) to 'Sky Kid (Sipem)'.
+
+Resolution, 0.106-0.250: 288x224 @ 60.606060Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/sky-kid-new-ver/mame
 Rules, Points: https://www.twingalaxies.com/scores.php?scores=9236
 Rules, Points [Two Player Team]: https://www.twingalaxies.com/scores.php?scores=239261
+
+Service Mode:
+Do not use Service Mode to check settings after playback as it will reflect only the local configuration not the recording.  Service Mode is a non-interactive single-screen.  Service Mode is accessed using the Service button (F2).
+

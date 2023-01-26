@@ -1,10 +1,15 @@
 ROM set changed: no
-0.106-0.240: pbobble3 - "Puzzle Bobble 3 (Ver 2.1O 1996/09/27)"
+0.106-0.250: pbobble3 - "Puzzle Bobble 3 (Ver 2.1O 1996/09/27)"
 
 Resolution, 0.106-0.113: 320x232 @ 58.970001Hz
-Resolution, 0.114-0.240: 320x232 @ 58.970000Hz
+Resolution, 0.114-0.250: 320x232 @ 58.970000Hz
 
-TG Game Entry: https://www.twingalaxies.com/game/puzzle-bobble-3-ver-21o-1996-09-27/mame
-Rules, Points [Player Versus Computer Mode]: http://www.twingalaxies.com/scores.php?scores=79004
-Rules, Points [Puzzle Mode, Normal Difficulty]: http://www.twingalaxies.com/scores.php?scores=79002
-Rules, Points [Puzzle Mode, Ver 2.5]: http://www.twingalaxies.com/scores.php?scores=79003
+TG Game Entry: https://www.twingalaxies.com/game/puzzle-bobble-3-ver-21o-1996-09-27/mame/
+Rules, Points [Player Versus Computer Mode]: https://www.twingalaxies.com/scores.php?scores=79004
+Rules, Points [Puzzle Mode, Normal Difficulty]: https://www.twingalaxies.com/scores.php?scores=79002
+Rules, Points [Puzzle Mode, Ver 2.5]: https://www.twingalaxies.com/scores.php?scores=79003
+Note: rules indicate to use Internal Defaults but then list "Continue" and "Intrude Play" incorrectly for their default values.
+
+Service Mode:
+Standard Taito F3 BIOS.
+Service Mode can be accessed using the Service button (F2).  Navigate with P1 Up and Down.  Select menu options with P1 Button 1.  Change settings with P1 Left and Right.

@@ -1,15 +1,15 @@
 ROM set changed: yes
 0.106-0.111: 1944 - "1944: The Loop Master (US 000620)"
 0.112-0.226: 1944 - "1944: The Loop Master (USA 000620)"
-0.227-     : 1944u - "1944: The Loop Master (USA 000620)"
+0.227-0.250: 1944u - "1944: The Loop Master (USA 000620)"
 
-From MAMEINFO.DAT:
+MAME History:
 - 0.227: undamned added 1944: The Loop Master (Euro 000620). ROM labels as per photo [Brian Troha]. Renamed (1944) to (1944u).
 
 Resolution, 0.106-0.113: 384x224 @ 59.633331Hz
 Resolution, 0.114-0.127: 384x224 @ 59.633333Hz
 Resolution, 0.128-0.152: 384x224 @ 59.629403Hz
-Resolution, 0.153-0.227: 384x224 @ 59.637405Hz
+Resolution, 0.153-0.250: 384x224 @ 59.637405Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/1944-the-loop-master-us-000620/mame/
 Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=21093

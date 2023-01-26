@@ -1,9 +1,10 @@
-ROm set changed:
-0.106-0.194: sonicwi2 - "Aero Fighters 2 / Sonic Wings 2"
+ROm set changed: no
+0.106-0.250: sonicwi2 - "Aero Fighters 2 / Sonic Wings 2"
 
 Resolution, 0.106-0.113: 320x224 @ 59.185608Hz
-Resolution, 0.114-0.194: 320x224 @ 59.185606Hz
+Resolution, 0.114-0.250: 320x224 @ 59.185606Hz
 
-TG Game Entry: http://www.twingalaxies.com/aero-fighters-2-sonic-wings-2/mame/
-Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=14654
-Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=14655
+TG Game Entry: https://www.twingalaxies.com/aero-fighters-2-sonic-wings-2/mame/
+Rules, Points [Single Player Only]: https://www.twingalaxies.com/scores.php?scores=14654
+Rules, Points [Two Player Team]: https://www.twingalaxies.com/scores.php?scores=14655
+Note: access Service Mode with Service button (F2).  Navigation with P1 Up & Down.  P1 Button 1 selects entry.  P1 button 1 and P1 button 2 adjust settings.  P1 button 3 exits sub-sections.

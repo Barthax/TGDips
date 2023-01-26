@@ -1,12 +1,13 @@
 ROM set changed: no
 0.106-0.137: astorm3 - "Alien Storm (set 3, World, 3 Players, FD1094 317-0148)"
 0.138-0.165: astorm3 - "Alien Storm (World, 3 Players, FD1094 317-0148)" (minor description change)
-0.166-0.175: astorm3 - "Alien Storm (World, 3 Players) (FD1094 317-0148)" (very minor description change)
+0.166-0.250: astorm3 - "Alien Storm (World, 3 Players) (FD1094 317-0148)" (very minor description change)
 
 Resolution, 0.106-0.133: 320x224 @ 60.000000Hz
-Resolution, 0.134-0.175: 320x224 @ 57.230000Hz
+Resolution, 0.134-0.250: 320x224 @ 57.230000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Alien%20Storm%20[Set%203,%20World,%203%20Players,%20FD1094%20317-0148]
-Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=21279
-Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=21280
-Rules, Points [Three Player Team]: http://www.twingalaxies.com/scores.php?scores=21281
+TG Game Entry: https://www.twingalaxies.com/game/alien-storm-set-3-world-3-players-fd1094-317-0148/mame/
+Rules, Points [Single Player Only]: https://www.twingalaxies.com/scores.php?scores=21279
+Rules, Points [Two Player Team]: https://www.twingalaxies.com/scores.php?scores=21280
+Rules, Points [Three Player Team]: https://www.twingalaxies.com/scores.php?scores=21281
+Note: Service Mode can be entered with the Service Mode button (F2).  Menu options are cycled through using the Service 1 (9) button and options are selected using the Service Mode (F2) button.

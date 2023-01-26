@@ -1,8 +1,10 @@
 ROM set changed: no
-0.106-0.210: bmaster - "Blade Master (World)"
+0.106-0.250: bmaster - "Blade Master (World)"
 
-Resolution, 0.106-0.210: 320x240 @ 60.000000Hz
+Resolution, 0.106-0.250: 320x240 @ 60.000000Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/blade-master-world/mame/
-Rules, Points [1 Player Only]: http://www.twingalaxies.com/scores.php?scores=24349
-Rules, Points [2 Player Team]: http://www.twingalaxies.com/scores.php?scores=24350
+Rules, Points [1 Player Only]: https://www.twingalaxies.com/scores.php?scores=24349
+Rules, Points [2 Player Team]: https://www.twingalaxies.com/scores.php?scores=24350
+
+Note: do not use Service Mode after playback as it will only reflect local configuration not the recording.  Service Mode is accessed via the DIP Switch and this can be toggled with the Service button (F2).  Service Mode requires a restart thus cannot be recorded in an INP.  Navigation is with P1 Up & Down; P1 Button 1 to select.

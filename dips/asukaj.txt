@@ -1,0 +1,14 @@
+ROM set changed: yes; changed in 0.237
+0.106-0.115: NOT SUPPORTED
+0.116-0.236: asukaj - "Asuka & Asuka (Japan)"
+
+MAME History:
+-  6th June 2007: Corrado Tomaselli dumped Asuka & Asuka (Japan). Original Japan PCB.
+- 0.115u4: Corrado Tomaselli added clone Asuka & Asuka (Japan). Changed parent description to 'Asuka & Asuka (World)'.
+- 0.237: Brian Troha and The Dumping Union added clone Asuka & Asuka (Japan, version 1). Renamed (asukaj) to (asukaja).
+
+Resolution, 0.116-0.250: 320x240 @ 60.000000Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/asuka-asuka-japan/mame/ - should actually be (World) set...
+Rules, Points [Single Player Only]: https://www.twingalaxies.com/scores.php?scores=11806
+Rules, Points [Two Player Team]: https://www.twingalaxies.com/scores.php?scores=11807

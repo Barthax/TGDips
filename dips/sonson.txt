@@ -1,9 +1,18 @@
-ROM set changed: no
-0.106-0.237: sonson - "Son Son"
+ROM set changed: no; DIP labels updated in 0.133u1
+0.106-0.250: sonson - "Son Son"
 
 Resolution, 0.106-0.155: 240x240 @ 60.000000Hz
-Resolution, 0.156-0.237: 240x240 @ 57.370000Hz
+Resolution, 0.156-0.249: 240x240 @ 57.370000Hz
+Resolution, 0.250: 240x240 @ 55.400000Hz
 
-TG Game Entry: https://www.twingalaxies.com/game/son-son/mame
-Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=110699
-Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=110700
+MAME History:
+- 0.250: Consolidated driver in single file. Minor cleanups [Osso]. Changed vsync to 55.40Hz. Source of measurements: https://github.com/MikeS11/Arcade-Sonson_MiSTer/issues/1#issuecomment-1312089702. The value originally set must have been a typo, according to Corrado Tomaselli. The original PCB alternates between 55.37Hz and 55.43Hz and it is Corrado's suggestion to run it at 55.40Hz [birdybro].
+- 0.193: Changed MC6809 CPU1/2 clock speed to 6MHz.
+- 0.156: Corrado Tomaselli correct audio CPU clock for Son Son as measured on PCB. Changed M6809 CPU1/2 clock speeds to 1.5MHz and VSync to 57.37 Hz.
+- 0.133u1: Angelo Salese fixed unsupported negative sprite positions and unimplemented coincounter in Son Son. Tafoid updated Son Son DIP locations and defaults to match those of the game upgrade manual. Added 'Flip Screen' dipswitch.
+
+TG Game Entry: https://www.twingalaxies.com/game/son-son/mame/
+Rules, Points [Single Player Only]: https://www.twingalaxies.com/scores.php?scores=110699
+Rules, Points [Two Player Team]: https://www.twingalaxies.com/scores.php?scores=110700
+0.106-0.133: Difficulty: Medium
+0.134-0.250: Difficulty: Normal

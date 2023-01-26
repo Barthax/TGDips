@@ -1,8 +1,14 @@
 ROM set changed: no
-0.106-0.175: borntofi - "Born To Fight"
+0.106-0.250: borntofi - "Born To Fight"
 
-Resolution, 0.106-0.175: 352x256 @ 54.000000Hz
+MAME History:
+- 0.141u3: Added dipswitches 'Sound Test', 'Free Bullets' and 4x 'Unused'.
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Born%20To%20Fight
-Rules, Points [1 Player Only]: http://www.twingalaxies.com/scores.php?scores=24376
-Rules, Points [2 Player Team]: http://www.twingalaxies.com/scores.php?scores=24377
+Resolution, 0.106-0.250: 352x256 @ 54.000000Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/born-to-fight/mame/
+Rules, Points [1 Player Only]: https://www.twingalaxies.com/scores.php?scores=24376
+Rules, Points [2 Player Team]: https://www.twingalaxies.com/scores.php?scores=24377
+
+Note 1: In 0.141u3 the DIP switches were updated.  Prior to this the "Unknown 1" DIP switch had been ruled to be Off and after this the "Sound Test" DIP switch is valued as Off to match.  "Unknown 2" DIP switch had been ruled to be the value "180" prior to 0.141u3 and after the "Free Bullets" DIP switch should be Off to match.
+Note 2: do not use Service Mode after playback as it will only reflect local configuration not the recording. Service Mode is accessed via the DIP Switch and this can be toggled with the Service button (F2). Service Mode requires a restart thus cannot be recorded in an INP.

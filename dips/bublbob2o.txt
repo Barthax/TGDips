@@ -8,6 +8,6 @@ MAME History:
 Resolution, 0.106-0.113: 320x224 @ 58.970001Hz
 Resolution, 0.114-0.175: 320x224 @ 58.970000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Bubble%20Bobble%202%20[Ver%202.5O%201994/10/05)
-Rules, Points [1 Player Only]: http://www.twingalaxies.com/scores.php?scores=10979
-Rules, Points [2 Player Only]: http://www.twingalaxies.com/scores.php?scores=10980
+TG Game Entry: https://www.twingalaxies.com/game/bubble-bobble-2-ver-25o-1994-10-05/mame/
+Rules, Points [1 Player Only]: https://www.twingalaxies.com/scores.php?scores=10979
+Rules, Points [2 Player Only]: https://www.twingalaxies.com/scores.php?scores=10980

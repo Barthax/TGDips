@@ -1,0 +1,56 @@
+ROM Set changed: yes; changes at 0.124, 0.133u1, 0.242.
+
+MAME History:
+- 0.124: Andrea Turci added Ridge Racer (Rev. RR3, World). Renamed (ridgerac) to (ridgerab).
+- 0.133u1: Renamed (ridgerab) to (ridgeracb) and (ridgeraj) to (ridgeracj).
+- 0.242: Jim Kingery, Brian Troha and The Dumping Union added Ridge Racer (Rev. RR2 Ver.B, World). Redumped/Verified clone Ridge Racer (Rev. RR3 Ver.B, US). Fixed rom names. Changed description of (Rev. RR3, World) to 'Ridge Racer (Rev. RR3 Ver.B, US)' and clones (Rev. RR2 Ver.B, World, 3-screen?) to 'Ridge Racer (Rev. RR3, US)' and 'Ridge Racer Full Scale (World)' to 'Ridge Racer Full Scale (Rev. RRF2, World)'. Renamed (ridgeracb) to (ridgeraca), (ridgerac) to (ridgeracb) and (ridgerac3) to (ridgeracc).
+- 0.250: Changed description to 'Ridge Racer (World, RR2 Ver.B)' and clones (Rev. RR1, Japan) to 'Ridge Racer (Japan, RR1)', (Rev. RR2, World) to 'Ridge Racer (World, RR2)', (Rev. RR3 Ver.B, US) to 'Ridge Racer (US, RR3 Ver.B)', (Rev. RR3, US) to 'Ridge Racer (US, RR3)' and (Rev. RRF2, World) to 'Ridge Racer Full Scale (World, RRF2)'.
+
+Ridge Racer (Rev. RR3, World) / (US, RR3 Ver.B)
+---------------------------------------------
+Added in 0.124.
+0.124-0.241: ridgerac - "Ridge Racer (Rev. RR3, World)"
+0.242-0.249: ridgeracb - "Ridge Racer (Rev. RR3 Ver.B, US)"
+0.250: ridgeracb - "Ridge Racer (US, RR3 Ver.B)"
+
+Resolution, 0.124-0.144: 640x480 @ 60.000000H
+Resolution, 0.145-0.152: 640x480 @ 59.937809H
+Resolution, 0.153-0.202: 640x480 @ 60.000000H
+Resolution, 0.203-0.250: 640x480 @ 59.904060H
+
+TG Game Entry: https://www.twingalaxies.com/game/ridge-racer/mame/
+Intermediate Stage - Fastest Lap: https://www.twingalaxies.com/game/ridge-racer/mame/intermediate-stage-fastest-lap
+Intermediate Stage - Fastest Race: https://www.twingalaxies.com/game/ridge-racer/mame/intermediate-stage-fastest-race
+Novice Stage - Fastest Lap: https://www.twingalaxies.com/game/ridge-racer/mame/novice-stage-fastest-lap
+Novice Stage - Fastest Race: https://www.twingalaxies.com/game/ridge-racer/mame/novice-stage-fastest-race
+Advanced Stage - Fastest Lap: https://www.twingalaxies.com/game/ridge-racer/mame/advanced-stage-fastest-lap
+Advanced Stage - Fastest Race: https://www.twingalaxies.com/game/ridge-racer/mame/advanced-stage-fastest-race
+TT Stage - Fastest Lap: https://www.twingalaxies.com/game/ridge-racer/mame/tt-stage-fastest-lap
+TT Stage - Fastest Race: https://www.twingalaxies.com/game/ridge-racer/mame/tt-stage-fastest-race
+
+
+Ridge Racer (Rev. RR2, World)
+-------------------------
+0.106-0.123: ridgerac - "Ridge Racer (Rev. RR2, World)"
+0.124-0.133u1: ridgerab - "Ridge Racer (Rev. RR2, World)"
+0.134-0.241: ridgeracb - "Ridge Racer (Rev. RR2, World)"
+0.242-0.249: ridgeraca - "Ridge Racer (Rev. RR2, World)"
+0.250: ridgeraca - "Ridge Racer (World, RR2)"
+
+Resolution, 0.106-0.144: 640x480 @ 60.000000H
+Resolution, 0.145-0.152: 640x480 @ 59.937809H
+Resolution, 0.153-0.202: 640x480 @ 60.000000H
+Resolution, 0.203-0.241: 640x480 @ 59.904060H
+
+Rules: [no current tracks]
+
+
+Ridge Racer (Rev. RR2 Ver.B, World)
+----------------------
+Added in 0.242.
+0.242-0.249: ridgerac - "Ridge Racer (Rev. RR2 Ver.B, World)"
+0.250: ridgerac - "Ridge Racer (World, RR2 Ver.B)"
+
+Resolution, 0.242-0.250: 640x480 @ 59.904060H
+
+Rules: [no current tracks]

@@ -1,10 +1,16 @@
 ROM set changed: no
-0.106-0.196: baddudes - "Bad Dudes vs. Dragonninja (US)"
+0.106-0.213: baddudes - "Bad Dudes vs. Dragonninja (US)"
+0.214-0.250: baddudes - "Bad Dudes vs. Dragonninja (US revision 1)"
+
+MAME History:
+- 0.214: Correct rom labels for clone Dragonninja (Japan) & updated info [Brian Troha]. Changed description to 'Bad Dudes vs. Dragonninja (US revision 1)' and clone (Japan) to 'Dragonninja (Japan revision 1)'.
 
 Resolution, 0.106-0.142: 256x240 @ 57.410000Hz
 Resolution, 0.143-0.155: 256x240 @ 57.392103Hz
-Resolution, 0.156-0.196: 256x240 @ 57.444853Hz
+Resolution, 0.156-0.250: 256x240 @ 57.444853Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/bad-dudes-vs-dragonninja-us/mame/
-Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=11843
-Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=11909
+Rules, Points [Single Player Only]: https://www.twingalaxies.com/scores.php?scores=11843
+Rules, Points [Two Player Team]: https://www.twingalaxies.com/scores.php?scores=11909
+
+Note: Service Mode will reflect the local configuration only, not the recording.  Service Mode is entered by enabling the DIP switch which can be toggled with the Service button (9) and then a reset must occur, thus cannot be recorded.

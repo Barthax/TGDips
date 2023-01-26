@@ -1,13 +1,20 @@
 ROM set changed: no
-0.106-0.200: punisher - "The Punisher (World 930422)"
+0.106-0.250: punisher - "The Punisher (World 930422)"
+
+MAME History:
+- 0.126u4: Corrado Tomaselli verified and correct CPS1 refresh rate. Changed VSync to 59.610000 Hz.
+- 0.147u1: Changed CPS-1 video timings to SCREEN_RAW_PARAMS [Angelo Salese]. Changed VSync to 59.629403 Hz.
+- 0.153: Cleanup (includes\cps1.h) [Osso]. Willow, Strider and Ghouls'n Ghosts have some changed factory setting defaults as stated from manual. Also noted differences in bonus live coverage where applicable [Tafoid]. Cleanup QSound. No practical changes here except that i removed support for LOG_WAVE raw sound filewriting. Updated soundstream before writing (tsk). Reg 3 is key on. Small fix to sample start and loop. Guru measured qsound music timing. Modified CPS1 video params [hap]. Eliminate pointless planar-to-chunky conversion of gfx ROMs, just decode them as-is [Alex Jackson]. Changed VSync to 59.637405 Hz.
 
 Resolution, 0.106-0.126: 384x224 @ 60.000000Hz
 Resolution, 0.127-0.147: 384x224 @ 59.610000Hz
 Resolution, 0.148-0.152: 384x224 @ 59.629403Hz
-Resolution, 0.153-0.200: 384x224 @ 59.637405Hz
+Resolution, 0.153-0.250: 384x224 @ 59.637405Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/the-punisher-world-930422/mame/
 Rules, 1 Player: http://www.twingalaxies.com/scores.php?scores=14464
 Rules, 2 Player: http://www.twingalaxies.com/scores.php?scores=14465
 
+Service Mode:
+Standard CPS-1 BIOS.
 NOTE: There are both hardware DIP switches & internal settings.  Use Service Mode (F2) to access the internal settings after playback if not shown during playback.

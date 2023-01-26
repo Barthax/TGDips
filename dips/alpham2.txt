@@ -1,17 +1,18 @@
 ROM set changed: no
 0.106-0.143: alpham2 - "Alpha Mission II / ASO II - Last Guardian"
 0.144-0.173: alpham2 - "Alpha Mission II / ASO II - Last Guardian (NGM-007)(NGH-007)"
-0.174-0.184: alpham2 - "Alpha Mission II / ASO II - Last Guardian (NGM-007 ~ NGH-007)"
+0.174-0.250: alpham2 - "Alpha Mission II / ASO II - Last Guardian (NGM-007 ~ NGH-007)"
 
 MAME History:
 - 0.143u1: Fixed rom names. Changed description to 'Alpha Mission II / ASO II - Last Guardian (NGM-007)(NGH-007)'.
 - 0.174: Changed description to 'Alpha Mission II / ASO II - Last Guardian (NGM-007 ~ NGH-007)'.
 
 Resolution, 0.106-0.113: 320x224 @ 59.185608Hz
-Resolution, 0.114-0.184: 320x224 @ 59.185606Hz
+Resolution, 0.114-0.250: 320x224 @ 59.185606Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Alpha+Mission+II+/+ASO+II+-+Last+Guardian
-Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=14659
-Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=24402
+TG Game Entry: https://www.twingalaxies.com/game/alpha-mission-ii-aso-ii-last-guardian/mame/
+Rules, Points [Single Player Only]: https://www.twingalaxies.com/scores.php?scores=14659
+Rules, Points [Two Player Team]: https://www.twingalaxies.com/scores.php?scores=24402
 
-NOTE: All relevant rules are covered by internal settings.  If not shown during playback, use F2 to access after playback completed.
+Service Mode:
+All relevant rules are covered by internal settings.  If not shown during playback, use F2 to access after playback completed.

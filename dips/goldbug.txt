@@ -1,9 +1,34 @@
 ROM set changed: no
-0.106-0.197: goldbug - "Gold Bug"
+0.106-0.250: goldbug - "Gold Bug"
 
-Resolution, 0.106-0.197: 240x248 @ 60.000000Hz
+MAME History:
+- 0.123u1: Stephane Humbert fixed dipswitches and inputs for all games in the CVS driver.
+
+Resolution, 0.106-0.250: 240x248 @ 60.000000Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/gold-bug/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=10110
 
 NOTE: source/DIPs were changed at 0.124. For WolfMAME versions 0.125 or later, set Bonus Life to "800k only".
+
+Service Mode:
+No service mode.
+
+Further information confirming DIP change:
+MAME 123 -listxml snippet for goldbug:
+[code]                <dipswitch name="Bonus Life" mask="12" port="-1">
+                        <dipvalue name="10k only" value="0" default="yes"/>
+                        <dipvalue name="20k only" value="4"/>
+                        <dipvalue name="30k and every 40k" value="8"/>
+                        <dipvalue name="40k and every 80k" value="12"/>
+                </dipswitch>[/code]
+
+MAME 125 -listxml snippet for goldbug (0.124 crashes for me):
+[code]                <dipswitch name="Bonus Life" mask="12" port="4">
+                        <dipvalue name="100k only" value="12" default="yes"/>
+                        <dipvalue name="200k only" value="4"/>
+                        <dipvalue name="400k only" value="8"/>
+                        <dipvalue name="800k only" value="0"/>
+                </dipswitch>[/code]
+
+

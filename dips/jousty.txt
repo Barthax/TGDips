@@ -1,12 +1,12 @@
 ROM set changed: yes
 0.106-0.224: joustwr - "Joust (White/Red label)"
-0.225-     : jousty - "Joust (Yellow label)"
+0.225-0.251: jousty - "Joust (Yellow label)"
 
 From MAMEINFO.DAT:
 - 0.225: Document and correct Joust rom labels [Brian Troha]. Changed parent description to 'Joust (Green label)' and clones (Solid Red label) to 'Joust (Red label)' and (White/Red label) to 'Joust (Yellow label)'. Renamed (joustwr) to (jousty).
 
 Resolution, 0.106-0.115: 292x240 @ 60.000000Hz
-Resolution, 0.116-0.225: 292x240 @ 60.096154Hz
+Resolution, 0.116-0.251: 292x240 @ 60.096154Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/joust/mame
 Rules, Extreme Enduro (Joust-X): http://www.twingalaxies.com/scores.php?scores=195081 - any set of joust, parent or clones, is acceptable

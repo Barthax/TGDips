@@ -1,10 +1,10 @@
 ROM set changed: no
-0.106-0.184: 2020bb - "2020 Super Baseball (set 1)"
+0.106-0.250: 2020bb - "2020 Super Baseball (set 1)"
 
 Resolution, 0.106-0.113: 320x224 @ 59.185608Hz
-Resolution, 0.114-0.184: 320x224 @ 59.185606Hz
+Resolution, 0.114-0.250: 320x224 @ 59.185606Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=2020+Super+Baseball+[Set+1]
-Rules, Biggest Blowout: http://www.twingalaxies.com/scores.php?scores=15355
+TG Game Entry: https://www.twingalaxies.com/game/2020-super-baseball-set-1/mame/
+Rules, Biggest Blowout: https://www.twingalaxies.com/scores.php?scores=15355
 
 NOTE: All relevant rules are covered by internal settings.  If not shown during playback, use F2 to access after playback completed.

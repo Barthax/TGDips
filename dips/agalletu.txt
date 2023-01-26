@@ -1,17 +1,17 @@
 ROM Set changes: no and yes*
 0.106-0.121: agallet - "Air Gallet"
 0.122-0.137: agallet - "Air Gallet (JUEHTK)"   (minor description change only)
-0.138-0.201: agallet - "Air Gallet (Europe)"
-0.138-0.201: agalletu - "Air Gallet (USA)"
+0.138-0.250: agallet - "Air Gallet (Europe)"
+0.138-0.250: agalletu - "Air Gallet (USA)"
 
 * For all versions prior to 0.137u1, there is only one ROM set.
 * The region rule of the variation determines which region DIP switch should be used for 0.137u1 and prior.
 * The region rule of the variation determines which ROM set should be used for 0.138 and onwards.
 
 Resolution, 0.106-0.113: 320x240 @ 57.550644Hz
-Resolution, 0.114-0.201: 320x240 @ 57.550645Hz
+Resolution, 0.114-0.250: 320x240 @ 57.550645Hz
 
 DIP switches can be checked via Service Mode (F2) after playback.
 TG Game Entry: https://www.twingalaxies.com/game/air-gallet/mame/
-Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=21428 (USA region)
-Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=21429 (USA region)
+Rules, Points [Single Player Only]: https://www.twingalaxies.com/scores.php?scores=21428 (USA region)
+Rules, Points [Two Player Team]: https://www.twingalaxies.com/scores.php?scores=21429 (USA region)

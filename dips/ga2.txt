@@ -1,12 +1,17 @@
 ROM set changed: no
-0.106-0.201: ga2 - "Golden Axe: The Revenge of Death Adder (World)"
+0.106-0.213: ga2 - "Golden Axe: The Revenge of Death Adder (World)"
+0.214-0.250: ga2 - "Golden Axe: The Revenge of Death Adder (World, Rev B)"
 
-Resolution, 0.106-0.201: 416x224 @ 60.000000Hz
+
+MAME History:
+- 0.214: Changed description to 'Golden Axe: The Revenge of Death Adder (World, Rev B)' and clone (US) to 'Golden Axe: The Revenge of Death Adder (US, Rev A)'.
+
+Resolution, 0.106-0.250: 416x224 @ 60.000000Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/golden-axe-the-revenge-of-death-adder-world/mame/
-Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=21353
-Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=21354
-Rules, Points [Three Player Team]: http://www.twingalaxies.com/scores.php?scores=70024
-Rules, Points [Four Player Team]: http://www.twingalaxies.com/scores.php?scores=70026
+Rules, Points [Single Player Only]: https://www.twingalaxies.com/scores.php?scores=21353
+Rules, Points [Two Player Team]: https://www.twingalaxies.com/scores.php?scores=21354
+Rules, Points [Three Player Team]: https://www.twingalaxies.com/scores.php?scores=70024
+Rules, Points [Four Player Team]: https://www.twingalaxies.com/scores.php?scores=70026
 
 NOTE: All relevant rules are covered by internal settings.  If not shown during playback, use F2 to access after playback completed.

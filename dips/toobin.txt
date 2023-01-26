@@ -1,9 +1,10 @@
 ROM set changed: no
-0.31-0.175: toobin - "Toobin' (rev 3)"
+0.31-0.251: toobin - "Toobin' (rev 3)"
 
 Resolution, 0.106-0.128: 512x384 @ 60.000000Hz
-Resolution, 0.129-0.175: 512x384 @ 60.096154Hz
+Resolution, 0.129-0.251: 512x384 @ 60.096154Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Toobin%27%20[Rev%203]
-Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=20657
-Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=20656
+TG Game Entry: https://www.twingalaxies.com/game/toobin-rev-3/mame/
+Rules, Points [Single Player Only]: https://www.twingalaxies.com/scores.php?scores=20657
+Rules, Points [Two Player Team]: https://www.twingalaxies.com/scores.php?scores=20656
+Note: Service Mode can be accessed using the Service button (F2).  Navigation on the first screen is by simultaneous use of P1 Button 1 and P2 Button 1.  The following service screens are cycled through using P1 BUtton 1 only.  Changeable settings menus are navigated with P1 Paddle Backware (L is up, R is down) and individual settings altered with P1 Paddle Forward (L and/or R to cycle around).  Service button exits Service Mode.

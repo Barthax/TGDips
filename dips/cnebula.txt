@@ -1,0 +1,11 @@
+ROM set changed: no, introduced in 0.251.
+0.106-0.250: NOT SUPPORTED
+0.251: cnebula - Nebula (DECO Cassette) (UK)
+
+MAME History:
+- 0.251: Rene Balke, Darksoft, Arcadeautomaten/Senil Data Systems and David Haywood added 'Nebula (DECO Cassette) (UK)' (Data East Corporation 1981). Note: 1980.12 Nebula - "NEBULA2 01/021980.11.25" string in cassette data.
+
+Resolution, 0.251: 256x240 @ 57.444853Hz
+
+TG Game: https://www.twingalaxies.com/game/nebula-deco-cassette-uk/mame/
+Points (One Player): https://www.twingalaxies.com/scores.php?scores=253983

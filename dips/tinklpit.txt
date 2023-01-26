@@ -1,6 +1,9 @@
 ROM set changed: no
-0.106-0.175: tinklpit - "Tinkle Pit (Japan)"
+0.106-0.250: tinklpit - "Tinkle Pit (Japan)"
 
-Resolution 0.106-0.175: 304x224 @ 60.000000Hz
+Resolution 0.106-0.250: 304x224 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Tinkle Pit [Japan]
+TG Game Entry: https://www.twingalaxies.com/game/tinkle-pit-japan
+Points [Single Player Only]: https://www.twingalaxies.com/scores.php?scores=120437
+Points [Two Player Team]: https://www.twingalaxies.com/scores.php?scores=120438
+Note: Enter Service Mode with the Service button (F2) and use P1 Up & Down to navigate.  P1 Button 1 to select menu option and also to cycle individual setting options.  P1 Button 2 to navigate out from a sub-menu.  Use the Service button (F2) to exit service mode.

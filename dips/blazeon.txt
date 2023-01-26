@@ -1,6 +1,6 @@
 Note: two ROM sets represented on TG with changeover at 0.206.
 
-From MAMEINFO.DAT:
+MAME History:
 - 0.206: rtw and The Dumping Union added Blaze On (World). Renamed (blazeon) to (blazeonj).
 
 
@@ -8,21 +8,23 @@ Blaze On (Japan)
 ----------------
 ROM set changed: yes
 0.106-0.205: blazeon - "Blaze On (Japan)"
-0.206-     : blazeonj - "Blaze On (Japan)"
+0.206-0.251: blazeonj - "Blaze On (Japan)"
 
-Resolution, 0.106-0.206: 320x232 @ 60.000000Hz
+Resolution, 0.106-0.251: 320x232 @ 60.000000Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/blaze-on-japan/mame/
-Rules, Points [1 Player Only]: http://www.twingalaxies.com/scores.php?scores=10805
-Rules, Points [2 Player Team]: http://www.twingalaxies.com/scores.php?scores=10806
+Rules, Points [1 Player Only]: https://www.twingalaxies.com/scores.php?scores=10805
+Rules, Points [2 Player Team]: https://www.twingalaxies.com/scores.php?scores=10806
+
+Note: do not use Service Mode after playback as it will only reflect local configuration not the recording.  Service Mode is accessed via the DIP Switch.  Service Mode requires a restart thus cannot be recorded in an INP.  Navigation is with P1 Up & Down; P1 Button 1 to select.  Sub-sections typically require an exit combination of P1 Start and P2 Start simultaneously.
 
 
 Blaze On (World)
 ----------------
 Note: not currently represented on TG.
 ROM set changed: no.  Added in 0.206.
-0.206: blazeon - "Blaze On (World)"
+0.206-0.251: blazeon - "Blaze On (World)"
 
-Resolution, 0.206      : 320x232 @ 60.000000Hz
+Resolution, 0.206-0.251: 320x232 @ 60.000000Hz
 
 Rules: [no current tracks]

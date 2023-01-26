@@ -1,0 +1,35 @@
+Note: two ROM sets are represented here with the changeover at 0.129.
+
+MAME History:
+- 0.113u2: Changed VSync to 58.970000 Hz.
+- 0.128u4: Ross Myers added 'Puzzle Bobble 2 (Ver 2.3O 1995/07/31)'. Renamed (pbobble2) to (pbobbl2o).
+- 0.133u1: Renamed (pbobbl2o) to (pbobble2o), (pbobbl2j) to (pbobble2j), (pbobbl2u) to (pbobble2u) and (pbobbl2x) to (pbobble2x).
+
+Puzzle Bobble 2 (Ver 2.3O 1995/07/31)
+---------------
+ROM set changed: no but only introduced in 0.129.
+0.106-0.128: NOT SUPPORTED
+0.129-0.251: pbobble2 - "Puzzle Bobble 2 (Ver 2.3O 1995/07/31)"
+
+Resolution, 0.129-0.251: 320x232 @ 58.970000Hz
+
+TG Game: https://www.twingalaxies.com/game/puzzle-bobble-2-ver-230-19950731/mame/
+Points [Puzzle Game]: https://www.twingalaxies.com/scores.php?scores=239078
+
+
+Puzzle Bobble 2 (Ver 2.2O 1995/07/20)
+---------------
+Note: not represented on TG.
+ROM set changed: yes.
+0.106-0.128: pbobble2 - "Puzzle Bobble 2 (Ver 2.2O 1995/07/20)"
+0.129-0.133: pbobbl2o - "Puzzle Bobble 2 (Ver 2.2O 1995/07/20)"
+0.134-0.251: pbobble2o - "Puzzle Bobble 2 (Ver 2.2O 1995/07/20)"
+
+Resolution, 0.107-0.113: 320x232 @ 58.970001Hz
+Resolution, 0.114-0.251: 320x232 @ 58.970000Hz
+
+Rules: [no current tracks]
+
+[B]Service Mode[/B]
+Standard Taito F3 service mode.
+All relevant rules are covered by internal settings.  If not shown during playback, use Service button (F2) to access after playback completed.  Navigation is with P1 Up and Down.  Selection with P1 Button 1.

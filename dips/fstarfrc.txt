@@ -1,8 +1,18 @@
 ROM set changed: no
-0.106-0.175: fstarfrc - "Final Star Force (US)"
+0.106-0.250: fstarfrc - "Final Star Force (US)"
 
-Resolution, 0.106-0.175: 256x224 @ 60.000000Hz
+MAME History:
+- 0.118: BisonSAS fixed 'Difficulty' dipswitch in Final Star Force.
+- 0.220: Fixed Final Star Force titlescreen scroll timing issue [N. Gilbert, David Haywood, hap]. Lower screen refreshrate to match Final Star Force video recording and also match Ninja Gaiden (gaiden.c) [hap].
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Final%20Star%20Force%20[US]
-Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=22932
-Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=22933
+Resolution, 0.106-0.219: 256x224 @ 60.000000Hz
+Resolution, 0.220-0.250: 256x224 @ 59.170000Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/final-star-force-us/mame/
+Rules, Points [Single Player Only]: https://www.twingalaxies.com/scores.php?scores=22932
+Rules, Points [Two Player Team]: https://www.twingalaxies.com/scores.php?scores=22933
+
+Service Mode:
+Service Mode reflects the local configuration after playback, not the recording.  Once triggered, a screen test pattern appears in Service Mode: press P1 Button 1 to cycle to the next screen.
+From MAMEInfo.DAT:
+- To enter into service mode press and hold start buttons 1 and 2 during P.O.S.T.

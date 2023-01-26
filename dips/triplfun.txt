@@ -1,0 +1,15 @@
+ROM set changed: no
+0.106-0.250: triplfun - "Triple Fun"
+
+MAME History:
+- 0.106u3: Changed 'Unknown' dipswitches to 'Unused'.
+- 0.122u8: Added 'Unused' dipswitch.
+
+Resolution, 0.106-0.250: 320x224 @ 60.000000H
+
+TG Game Entry: https://www.twingalaxies.com/game/triple-fun/mame/
+Points[Single Player Only]: https://www.twingalaxies.com/scores.php?scores=251114
+Points[Two Player Team]: https://www.twingalaxies.com/scores.php?scores=251115
+Notes:
+Parent ROM set is oisipuzl: Oishii Puzzle wa Irimasenka.
+Enter Service Mode using Service button (F2) after playback and navigate with P1 Up & Down.  P1 Start button selects.  Hardware DIP switches can be seen in the DIP Switch Assignments section.

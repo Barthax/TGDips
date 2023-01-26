@@ -1,11 +1,13 @@
 ROM set changed: no
 0.106-0.147: btoads - "Battle Toads"
-0.148-0.175: btoads - "Battletoads" (minor description change)
+0.148-0.250: btoads - "Battletoads" (minor description change)
 
 Resolution, 0.106-0.114: 512x224 @ 60.000000Hz
-Resolution, 0.115-0.175: 512x224 @ 60.797665Hz
+Resolution, 0.115-0.250: 512x224 @ 60.797665Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Battle%20Toads
-Rules, Points [1 Player Only]: http://www.twingalaxies.com/scores.php?scores=41800
-Rules, Points [2 Player Team]: http://www.twingalaxies.com/scores.php?scores=41801
-Rules, Points [3 Player Team]: http://www.twingalaxies.com/scores.php?scores=41802
+TG Game Entry: https://www.twingalaxies.com/game/battle-toads/mame/
+Rules, Points [1 Player Only]: https://www.twingalaxies.com/scores.php?scores=41800
+Rules, Points [2 Player Team]: https://www.twingalaxies.com/scores.php?scores=41801
+Rules, Points [3 Player Team]: https://www.twingalaxies.com/scores.php?scores=41802
+
+Note: Service Mode is accessed using Service button (F2).  Navigation is performed with P1 Up & Down.  P1 Button 1 selects menu options and cycles changeable options.

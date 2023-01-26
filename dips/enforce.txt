@@ -8,20 +8,24 @@ Enforce (Japan)
 ---------------
 ROM set changed: yes
 0.106-0.147: enforce - "Enforce (Japan)"
-0.147u1-0.201: enforcej - "Enforce (Japan)"
+0.147u1-0.250: enforcej - "Enforce (Japan)"
 
-Resolution, 0.106-0.201: 320x232 @ 60.000000Hz
+Resolution, 0.106-0.219: 320x232 @ 60.000000Hz
+Resolution, 0.220-0.250: 320x224 @ 60.055992Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/enforce-japan/mame/
-Rules, Points: http://www.twingalaxies.com/scores.php?scores=55959
+Rules, Points: https://www.twingalaxies.com/scores.php?scores=55959
 
+Notes:
+The DIP Switch Difficulty was relabeled in 0.127.  Difficulty "Medium" in 0.127 has been labeled "Normal" in prior versions.
 
 Enforce (World)
 ---------------
 Note: not currently represented on TG.
 ROM set changed: no.  Added in 0.147u1.
-0.147u1-0.201: enforce - "Enforce (World)"
+0.147u1-0.250: enforce - "Enforce (World)"
 
-Resolution, 0.148-0.201: 320x232 @ 60.000000Hz
+Resolution, 0.148-0.219: 320x232 @ 60.000000Hz
+Resolution, 0.220-0.250: 320x224 @ 60.055992Hz
 
 Rules: [no current tracks]

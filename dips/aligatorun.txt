@@ -1,10 +1,15 @@
 ROM set changed: yes
 0.106-0.133: aligatun - "Alligator Hunt (unprotected)"
-0.133u1-0.175: aligatorun - "Alligator Hunt (unprotected)"
+0.133u1-0.188: aligatorun - "Alligator Hunt (unprotected)"
+0.189-0.250: aligatorun - "Alligator Hunt (unprotected, set 1)"
+
+MAME History:
+- 0.133u1: Brian Troha added DIP locations to Alligator Hunt. Renamed (aligatun) to (aligatorun).
+- 0.189: David Haywood and Peter Wilhelmsen added clone Alligator Hunt (unprotected, set 2). Note: This was purchased as part of the quest to find a 2nd working Alligator Hunt still using the DS5002FP rather than the unprotected code, took a gamble on it because it was an unknown set, turns out it's unprotected but very different to the set in MAME. Changed description of clone (unprotected) to 'Alligator Hunt (unprotected, set 1)'.
 
 Resolution, 0.106-0.113: 320x240 @ 59.099998Hz
-Resolution, 0.114-0.175: 320x240 @ 59.100000Hz
+Resolution, 0.114-0.250: 320x240 @ 59.100000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Alligator%20Hunt%20[Unprotected]
-Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=21434
-Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=21435
+TG Game Entry: https://www.twingalaxies.com/game/alligator-hunt-unprotected/mame/
+Rules, Points [Single Player Only]: https://www.twingalaxies.com/scores.php?scores=21434
+Rules, Points [Two Player Team]: https://www.twingalaxies.com/scores.php?scores=21435
