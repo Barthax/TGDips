@@ -1,11 +1,11 @@
 ROM set changed: no
-0.106-0.209: rocnrope - "Roc'n Rope"
+0.106-0.247: rocnrope - "Roc'n Rope"
 
 From MAMEINFO.DAT:
 - 0.141u4: Tafoid re-added clone Ropeman (bootleg of Roc'n Rope). Changed 'Unknown' dipswitch to 'Unused'.
 - 0.144u7: Kanikani updated Roc'n Rope dipswitches.
 
-Resolution, 0.106-0.209: 256x224 @ 60.000000Hz
+Resolution, 0.106-0.247: 256x224 @ 60.000000Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/rocn-rope/mame/
 Rules, Points: https://www.twingalaxies.com/scores.php?scores=14492

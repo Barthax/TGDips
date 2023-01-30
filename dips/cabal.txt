@@ -26,7 +26,7 @@ The Bonus Life setting in 0.145 of "150k 650k 500k+" was known in 0.144 and befo
 Cabal (World, Joystick)
 -----------------------
 Note: not currently represented on TG.
-ROM set changed: 
+ROM set changed: no. Added in 0.119u2.
 0.120-0.171: cabal - "Cabal (World, Joystick version)"
 0.172-0.250: cabal - "Cabal (World, Joystick)"
 

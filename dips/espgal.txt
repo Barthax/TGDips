@@ -1,6 +1,6 @@
 ROM set changed: no. Added in 0.140u2.
 0.140u2-0.143: espgal - "EspGaluda (V100, first revision)"
-0.144-0.250: espgal - "Espgaluda (2003/10/15 Master Ver)"
+0.144-0.251: espgal - "Espgaluda (2003/10/15 Master Ver)"
 
 MAME History:
 - 0.140u3: Added missing tiles/sprite and samples roms to EspGaluda - Game now playable. Changed VSync to 59.17 Hz. Changed description to 'EspGaluda (V100, first revision)'.
@@ -9,7 +9,7 @@ MAME History:
 - 0.223: Simulated 'Photo Y2K 2' sprite offset decode (machine\pgmprot_igs027a_type1.cpp) and promoted game to working [iq_132, dink]. Support for V3021 RTC serial interface. Implemented RAM and address commands. Use device_rtc_interface for RTC handling (machine\v3021.cpp). Use struct for sprites and raw parameters for screen. Fixed timing of intro sequences in some games. Use generic gfx layout for foreground. Moved VBlank IRQ into screen_vblank. Reduced duplicates. Added notes [cam900]. Changed VSync to 59.185606 Hz.
 
 Resolution, 0.141-0.222: 448x224 @ 59.170000Hz
-Resolution, 0.223-0.250: 448x224 @ 59.185606Hz
+Resolution, 0.223-0.251: 448x224 @ 59.185606Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/espgaluda-2003-10-15-master-ver/mame/
 Rules, Points: https://www.twingalaxies.com/scores.php?scores=200221

@@ -2,11 +2,11 @@ ROM set changed: yes
 0.106-0.177: mightybj - "Vs. Mighty Bomb Jack (Japan)"
 0.178-0.250: nvs_mightybj - "Vs. Mighty Bomb Jack (Japan)"
 
-MAME history:
+From MAMEINFO.DAT:
 - 0.178: Renamed (mightybj) to (nvs_mightybj).
 
 Resolution, 0.106-0.240: 256x240 @ 60.000000Hz
-Resolution, 0.241-0.250: 256x240 @ 60.098476H
+Resolution, 0.241-0.250: 256x240 @ 60.098476Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/vs-mighty-bomb-jack-japan/mame/
 Rules, Points: https://www.twingalaxies.com/scores.php?scores=120587

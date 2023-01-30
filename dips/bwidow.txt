@@ -1,8 +1,8 @@
 ROM set changed: no
-0.26-0.203: bwidow - "Black Widow"
+0.26-0.251: bwidow - "Black Widow"
 
 Resolution, 0.106-0.152: vector @ 60.000000Hz
-Resolution, 0.153-0.203: vector @ 61.523438Hz
+Resolution, 0.153-0.251: vector @ 61.523438Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/black-widow/mame/
 Rules, Points [Marathon]: http://www.twingalaxies.com/scores.php?scores=10098

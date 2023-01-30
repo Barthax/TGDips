@@ -1,8 +1,19 @@
-ROM set changed: no
-0.106-0.212: bosco - "Bosconian (new version)"
+Note: two ROM sets are represented here with a changeover at 0.249.
+
+From MAMEINFO.DAT:
+- 0.222: Increased the length of the Namco 54XX IRQ to fix Bosconian shot sound regression. Fixed tilemap offset problem. Added 'Star Destroyer' sub title to description. Note: Is the screen horizontal resolution maybe 285? PCB videos do show a slightly larger right border though. Bullet vs tilemap offsets are correct when compared with PCB videos (both playfield area, and radar area). Bullet vs sprite offsets are also correct. The radar area is offset by 3 pixels, also confirmed with PCB video when it does the VRAM check [hap]. Changed description to 'Bosconian - Star Destroyer (new version)', (Midway, new version) to 'Bosconian - Star Destroyer (Midway, new version)', (Midway, old version) to 'Bosconian - Star Destroyer (Midway, old version)', (old version) to 'Bosconian - Star Destroyer (old version)' and (older version) to 'Bosconian - Star Destroyer (older version)'.
+- 0.249: Virtvic, Porchy and The Dumping Union added Bosconian - Star Destroyer (version 5). Fixed rom names. Changed (new version) to clone 'Bosconian - Star Destroyer (version 3)', (old version) to 'Bosconian - Star Destroyer (version 1, newer)' and (older version) to 'Bosconian - Star Destroyer (version 1, older)'. Renamed (bosco) to (bosco3), (boscoo) to (bosco1) and (boscoo2) to (bosco1o).
+
+
+Bosconian - Star Destroyer (version 3)
+--------------------------------------
+ROM set changed: yes
+0.106-0.221: bosco - "Bosconian (new version)"
+0.222-0.248: bosco - "Bosconian - Star Destroyer (new version)"
+0.249-     : bosco3 - "Bosconian - Star Destroyer (version 3)"
 
 Resolution, 0.106-0.131: 288x224 @ 60.606060Hz
-Resolution, 0.132-0.212: 288x224 @ 60.606061Hz
+Resolution, 0.132-0.249: 288x224 @ 60.606061Hz
 
 TG Game Entry: http://www.twingalaxies.com/bosconian-new-version/mame/
 Rules, Points [Tournament Settings - 5 Lives Only]: http://www.twingalaxies.com/scores.php?scores=7696
@@ -10,3 +21,14 @@ Rules, Points [Marathon]: http://www.twingalaxies.com/scores.php?scores=5231
 Rules, Points [Tournament Settings - 1 Life Only]: http://www.twingalaxies.com/scores.php?scores=11797
 
 Note: DIP settings are shown (very briefly) during boot up around frame 850.  Any changes to the recording's dip settings will have no effect after this point.
+
+
+Bosconian - Star Destroyer (version 5)
+--------------------------------------
+Note: not currently represented on TG.
+ROM set changed: no. Added in 0.249.
+0.249-     : bosco - "Bosconian - Star Destroyer (version 5)"
+
+Resolution, 0.249-     : 288x224 @ 60.606061Hz
+
+Rules: [not current tracks]

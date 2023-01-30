@@ -1,8 +1,12 @@
 ROM set changed: no
-0.106-0.198: dockman - "Dock Man"
+0.106-0.208: dockman - "Dock Man"
+0.209-0.247: dockman - "Dock Man (set 1)"
+
+From MAMEINFO.DAT:
+- 0.209: Andrew Welburn and The Dumping Union added clones Dock Man (set 2) and (set 3). Changed parent description to 'Dock Man (set 1)'.
 
 Resolution, 0.106-0.118: 256x224 @ 60.000000Hz
-Resolution, 0.119-0.198: 256x224 @ 60.606061Hz
+Resolution, 0.119-0.247: 256x224 @ 60.606061Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/dock-man/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=26113

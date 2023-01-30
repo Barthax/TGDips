@@ -1,13 +1,13 @@
 ROM set changed: yes
 0.106-0.141: moo - "Wild West C.O.W.-Boys of Moo Mesa (ver EA)"
 0.141u3-0.145: moomesa - "Wild West C.O.W.-Boys of Moo Mesa (ver EA)"
-0.145u4-0.236: moomesa - "Wild West C.O.W.-Boys of Moo Mesa (ver EAB)"
+0.145u4-0.245: moomesa - "Wild West C.O.W.-Boys of Moo Mesa (ver EAB)"
 
 MAME History:
 - 0.141u3: Irongiant added clone Wild West C.O.W.-Boys of Moo Mesa (ver UA, set 1). Changed description of clone 'Wild West C.O.W.-Boys of Moo Mesa (ver UA)' to 'Wild West C.O.W.-Boys of Moo Mesa (ver UA, set 2)'. Renamed (moo) to (moomesa), (mooaa) to (moomesaa), (moobl) to (moomesabl) and (mooua) to (moomesaua).
 - 0.145u4: Fixed Moo Mesa ROMs labels, added PCB locations and a better documentation about sub-revisions. Renamed some romsets to use revision codes [Team CPS-1]. Repair rom labels [Guru]. Changed description to 'Wild West C.O.W.-Boys of Moo Mesa (ver EAB)' and clones (ver UA, set 1) to 'Wild West C.O.W.-Boys of Moo Mesa (ver UAC)', (ver UA, set 2) to 'Wild West C.O.W.-Boys of Moo Mesa (ver UAB)', (ver AA) to 'Wild West C.O.W.-Boys of Moo Mesa (ver AAB)' and (bootleg ver AA) to 'Wild West C.O.W.-Boys of Moo Mesa (bootleg)'. Renamed (moomesau) to (moomesauac), (moomesaua) to (moomesauab) and (moomesaa) to (moomesaaab).
 
-Resolution, 0.106-0.236: 384x224 @ 60.000000Hz
+Resolution, 0.106-0.245: 384x224 @ 60.000000Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/wild-west-cow-boys-of-moo-mesa-world-version-ea/mame
 Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=15639

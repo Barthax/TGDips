@@ -1,15 +1,16 @@
 ROM set changed: no
 0.106-0.127: tnk3 - "T.N.K. III (US)"
-0.128-0.215: tnk3 - "T.N.K III (US)"
+0.128-0.240: tnk3 - "T.N.K III (US)"
 
 MAME History:
 - 0.127u1: SNK rewrite [Nicola Salmoria]: Fixed sprite-sprite priorities. Converted to tilemaps, removed hacks, proper memory maps, screen flip / cocktail mode support, added DIP locations, better implementation of sound CPU communication and hooked sound CPU interrupts to YM3526 chip. Removed Dial control. Changed description to 'T.N.K III (US)' and clone (Japan) to 'T.A.N.K (Japan)'.
 - 0.127u2: Nicola Salmoria fixed palette decoding of early SNK games (T.N.K III). The least significan bits were assigned incorrectly. Stephane Humbert fixed dipswitches and inputs for T.N.K III (US) and clone (Japan). Removed 2nd coin slot.
 
-Resolution, 0.106-0.215: 288x216 @ 60.000000Hz
+Resolution, 0.106-0.240: 288x216 @ 60.000000Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/tnk-iii-us/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=10801
 Rules, Points [Tournament Settings]: https://www.twingalaxies.com/scores.php?scores=227275
+Rules, Points [1 LIFE ONLY Settings]: https://www.twingalaxies.com/scores.php?scores=227329
 
 NOTE: from 0.127u1 or u2 onwards, "Bonus Life" & "Bonus Occurrence" were consolidated into a single DIP setting, seemingly for convenience. Earlier versions look more like the actual arcade board. Therefore the correct "Bonus Life" setting for 0.128 onwards should be "20k 60k 60k+"

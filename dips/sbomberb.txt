@@ -1,11 +1,11 @@
 ROM set changed: yes
 0.106-0.141: sbomberb - "Space Bomber (ver. B)"
-0.142-0.234: sbomber - "Space Bomber (ver. B)"
+0.142-0.245: sbomber - "Space Bomber (ver. B)"
 
 MAME History:
 - 0.141u2: hap, N. Francfort, Smitdogg and The Dumping Union added clone Space Bomber. Renamed (sbomberb) to (sbomber).
 
-Resolution, 0.106-0.234: 320x224 @ 60.000000Hz
+Resolution, 0.106-0.245: 320x224 @ 60.000000Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/space-bomber-ver-b/mame
 Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=110705

@@ -1,11 +1,32 @@
-ROM set changed: no
-0.106-0.121: pwrinst2 - "Power Instinct 2 (USA)"
-0.122-0.170: pwrinst2 - "Power Instinct 2 (US, Ver. 94/04/08)"
+Note: two ROM sets represented here with changeover at 0.251.
 
-MAME History:
+From MAMEINFO.DAT:
 - 0.122: Changed description to 'Power Instinct 2 (US, Ver. 94/04/08)' and clone 'Gouketsuji Ichizoku 2 (Japan)' to 'Gouketsuji Ichizoku 2 (Japan, Ver. 94/04/08)'.
+- 0.241: Changed description to 'Power Instinct 2 (US, Ver. 94.04.08)' and clone (Japan, Ver. 94/04/08) to 'Gouketsuji Ichizoku 2 (Japan, Ver. 94.04.08)'.
+- 0.251: Sergio Galiano and Recreativos Piscis added Power Instinct 2 (US, Ver. 94.04.08, set 1). Sergio also added PLD dumps for Power Instinct 2 and clone. Changed (US, Ver. 94.04.08) to clone 'Power Instinct 2 (US, Ver. 94.04.08, set 2)'. Renamed (pwrinst2) to (pwrinst2a).
+
+
+Power Instinct 2 (US, Ver. 94.04.08, set 2)
+-------------------------------------------
+ROM set changed: yes
+0.106-0.121: pwrinst2 - "Power Instinct 2 (USA)"
+0.122-0.240: pwrinst2 - "Power Instinct 2 (US, Ver. 94/04/08)"
+0.241-0.250: pwrinst2 - "Power Instinct 2 (US, Ver. 94.04.08)"
+0.251-     : pwrinst2a - "Power Instinct 2 (US, Ver. 94.04.08, set 2)"
 
 Resolution, 0.106-0.113: 320x240 @ 57.550644Hz
-Resolution, 0.114-0.170: 320x240 @ 57.550645Hz
+Resolution, 0.114-0.251: 320x240 @ 57.550645Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Power Instinct 2 [USA]
+TG Game Entry: https://www.twingalaxies.com/game/power-instinct-2-usa/mame
+Rules, Points [Tournament Settings]: http://www.twingalaxies.com/scores.php?scores=78959
+
+
+Power Instinct 2 (US, Ver. 94.04.08, set 1)
+-------------------------------------------
+Note: not currently represented on TG.
+ROM set changed: no.  Added in 0.251.
+0.251-     : pwrinst2 - "Power Instinct 2 (US, Ver. 94.04.08, set 1)"
+
+Resolution, 0.251-     : 320x240 @ 57.550645Hz
+
+Rules: [no current tracks]

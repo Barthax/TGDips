@@ -1,9 +1,12 @@
 ROM set changed: no
 0.106-0.154: vendetta - "Vendetta (World 4 Players ver. T)"
-0.155-0.202: vendetta - "Vendetta (World, 4 Players, ver. T)"
+0.155-0.251: vendetta - "Vendetta (World, 4 Players, ver. T)"
+
+From MAMEINFO.DAT:
+- 0.155: Caius added clone Vendetta (World, 2 Players, ver. EB-A?). Changed parent description to 'Vendetta (World, 4 Players, ver. T)' and clones (World 4 Players ver. R) to 'Vendetta (World, 4 Players, ver. R)', (World 2 Players ver. W) to 'Vendetta (World, 2 Players, ver. W)', (Asia 2 Players ver. U) to 'Vendetta (Asia, 2 Players, ver. U)', (Asia 2 Players ver. D) to 'Vendetta (Asia, 2 Players, ver. D)' and 'Crime Fighters 2 (Japan 2 Players ver. P)' to 'Crime Fighters 2 (Japan, 2 Players, ver. P)'.
 
 Resolution, 0.106-0.145: 304x224 @ 60.000000Hz
-Resolution, 0.146-0.202: 304x224 @ 59.170000Hz
+Resolution, 0.146-0.251: 304x224 @ 59.170000Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/vendetta-world-4-players-ver-t/mame/
 Rules, Points [Single Player Only]: https://www.twingalaxies.com/scores.php?scores=21360

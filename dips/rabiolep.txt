@@ -1,6 +1,8 @@
 ROM set changed: no
-0.106-0.175: rabiolep - "Rabio Lepus (Japan)"
+0.106-0.245: rabiolep - "Rabio Lepus (Japan)"
 
-Resolution, 0.106-0.175: 288x216 @ 60.000000Hz
+Resolution, 0.106-0.245: 288x216 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Rabio Lepus
+TG Game Entry: https://www.twingalaxies.com/game/rabio-lepus/mame
+Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=91144
+Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=91145

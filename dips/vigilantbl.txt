@@ -3,16 +3,17 @@ ROM set changed: yes
 0.139u3-0.155: vigilant - "Vigilante (World, set 1)"
 0.156-0.161: vigilantb - "Vigilante (bootleg)"
 0.162: vigilanbl - "Vigilante (bootleg)"
-0.163-0.182: vigilantbl - "Vigilante (bootleg)"
+0.163-0.247: vigilantbl - "Vigilante (bootleg)"
 
-MAME History:
+From MAMEINFO.DAT:
 - 0.139u3: Porchy added clone Vigilante (World, set 2). Changed parent description to 'Vigilante (World, set 1)'.
 - 0.156: System11 added Vigilante (World, Rev E). Make the unknown World set a bootleg. Use the correct roms for the World Rev C version. Standardize a few rom names and or add IC location where possible. Added a note about need to verify / correct the rom sets for the US versions [Brian Troha]. Changed (World, set 1) to clone 'Vigilante (bootleg)' and clones (World, set 2) to 'Vigilante (World, Rev C)', (US) - Rev. G to 'Vigilante (US, Rev G)' and (Japan) to 'Vigilante (Japan, Rev D)'. Renamed (vigilant) to (vigilantb).
 - 0.162: System11 added clones Vigilante (US, Rev B) and (World, Rev A). Corrections to all Vigilante sets plus new clone [System11]. Fixed maincpu rom ($0) length to 32kb in parent set (World, Rev E) and clone (Japan, Rev D). Renamed (vigilantb) to (vigilanbl), (vigilant1) to (vigilantc), (vigilantj) to (vigilantd), (vigilantu) to (vigilano) and (vigilantu2) to (vigilantg).
 - 0.163: hap renamed (vigilano) to (vigilanto) and (vigilanbl) to (vigilantbl).
 
 Resolution, 0.106-0.179: 256x256 @ 55.000000Hz
-Resolution, 0.180-0.182: 254x256 @ 55.000000Hz
+Resolution, 0.180-0.243: 254x256 @ 55.000000Hz
+Resolution, 0.244-0.247: 256x256 @ 56.338028Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Vigilante+[World]
+TG Game Entry: https://www.twingalaxies.com/game/vigilante-world/mame
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=120557

@@ -1,9 +1,9 @@
 ROM set changed: yes
 0.106-0.107: toutrun - "Turbo Out Run (set 3, upgrade kit, FD1094 317-0118)"
-0.107u2-0.125u5: toutrun - "Turbo Out Run (Out Run upgrade, FD1094 317-0118)"    (minor description change only)
-0.125u6-0.137u3: toutrunu - "Turbo Out Run (Out Run upgrade, FD1094 317-0118)"
-0.137u4-0.165: toutrun - "Turbo Out Run (Out Run upgrade, FD1094 317-0118)"
-0.166-0.175: toutrun - "Turbo Out Run (Out Run upgrade) (FD1094 317-0118)"    (minor description change only)
+0.108-0.125: toutrun - "Turbo Out Run (Out Run upgrade, FD1094 317-0118)"
+0.126-0.137: toutrunu - "Turbo Out Run (Out Run upgrade, FD1094 317-0118)"
+0.138-0.165: toutrun - "Turbo Out Run (Out Run upgrade, FD1094 317-0118)"
+0.166-0.251: toutrun - "Turbo Out Run (Out Run upgrade) (FD1094 317-0118)"
 
 MAME History:
 - 0.107u2: Changed description to 'Turbo Out Run (Out Run upgrade, FD1094 317-0118)' and clones (set 1, FD1094 317-unknown) to 'Turbo Out Run (FD1094 317-unknown)' and (set 2, upright, FD1094 317-unknown) to 'Turbo Out Run (upright, FD1094 317-unknown)'.
@@ -14,7 +14,7 @@ MAME History:
 Resolution, 0.106-0.114: 320x224 @ 60.000000Hz
 Resolution, 0.115-0.116: 321x224 @ 59.637405Hz
 Resolution, 0.117-0.135: 320x224 @ 59.637405Hz
-Resolution, 0.136-0.175: 320x224 @ 60.054389Hz
+Resolution, 0.136-0.251: 320x224 @ 60.054389Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Turbo%20Out%20Run%20[set%203,%20upgrade%20kit,%20FD1094%20317-0118]
+TG Game Entry: https://www.twingalaxies.com/game/turbo-out-run-set-3-upgrade-kit-fd1094-317-0118/mame
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=120481

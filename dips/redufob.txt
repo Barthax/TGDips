@@ -1,13 +1,15 @@
 ROM set changed: yes
 0.106-0.138: redufo - "Defend the Terra Attack on the Red UFO"
-0.138u3-0.175: redufob - "Defend the Terra Attack on the Red UFO (bootleg)"
+0.139-0.201: redufob - "Defend the Terra Attack on the Red UFO (bootleg)"
+0.202-0.249: redufob - "Defend the Terra Attack on the Red UFO (bootleg, set 1)"
 
-MAME History:
+From MAMEINFO.DAT:
 - 0.138u3: The Dumping Union added 'Defend the Terra Attack on the Red UFO' (Artic 1981). Changed 'Defend the Terra Attack on the Red UFO' to clone 'Defend the Terra Attack on the Red UFO (bootleg)'. Renamed (redufo) to (redufob). hap made redufo Artic version the parent and bootleg version a clone.
+- 0.202: Siftware and MASH added clone Defend the Terra Attack on the Red UFO (bootleg, set 2). Changed description of clone (bootleg) to 'Defend the Terra Attack on the Red UFO (bootleg, set 1)'.
 
 Resolution, 0.106-0.113: 256x224 @ 60.606060Hz
 Resolution, 0.114-0.123: 256x224 @ 60.606061Hz
-Resolution, 0.125-0.175: 768x224 @ 60.606061Hz
+Resolution, 0.125-0.249: 768x224 @ 60.606061Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Defend+the+Terra+Attack+on+the+Red+UFO
+TG Game Entry: https://www.twingalaxies.com/game/defend-the-terra-attack-on-the-red-ufo/mame
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=24940

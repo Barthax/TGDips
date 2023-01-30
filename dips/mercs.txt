@@ -1,5 +1,5 @@
 ROM set changed: no
-0.106-0.205: mercs - "Mercs (World 900302)"
+0.106-0.245: mercs - "Mercs (World 900302)"
 
 From MAMEINFO.DAT:
 [cps1.cpp]
@@ -8,7 +8,7 @@ From MAMEINFO.DAT:
 Resolution, 0.106-0.126: 384x224 @ 60.000000Hz
 Resolution, 0.127-0.147: 384x224 @ 59.610000Hz
 Resolution, 0.148-0.152: 384x224 @ 59.629403Hz
-Resolution, 0.153-0.205: 384x224 @ 59.637405Hz
+Resolution, 0.153-0.245: 384x224 @ 59.637405Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/mercs-world-900302/mame/
 Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=38234

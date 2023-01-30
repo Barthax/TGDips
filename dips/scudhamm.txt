@@ -1,7 +1,28 @@
-ROM set changed: no
-0.106-0.199: scudhamm - "Scud Hammer"
+Note: two ROM sets represented here with changeover at 0.138u3.
 
-Resolution, 0.106-0.199: 256x224 @ 30.000000Hz
+From MAMEINFO.DAT:
+- 0.250: SpinalFeyd added Scud Hammer (ver 1.4). Changed Scud Hammer to clone 'Scud Hammer (older version?)'. Renamed (scudhamm) to (scudhamma).
+
+
+Scud Hammer (older version?)
+----------------------------
+ROM set changed: yes
+0.106-0.249: scudhamm - "Scud Hammer"
+0.250-     : scudhamma - "Scud Hammer (older version?)"
+
+Resolution, 0.106-0.221: 256x224 @ 30.000000Hz
+Resolution, 0.222-0.250: 256x224 @ 59.185606Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/scud-hammer/mame/
 Rules, Points: http://www.twingalaxies.com/scores.php?scores=110601
+
+
+Scud Hammer (ver 1.4)
+---------------------
+Note: not currently represented on TG.
+ROM set changed: no.  Added in 0.250.
+0.250-     : scudhamm - "Scud Hammer (ver 1.4)"
+
+Resolution, 0.250-     : 256x224 @ 59.185606Hz
+
+Rules: [no current tracks]
