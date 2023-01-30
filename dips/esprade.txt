@@ -1,13 +1,18 @@
 ROM set changed: no
 0.106-0.121: esprade - "ESP Ra.De. (International Ver 1998 4/22)"
-0.122-0.175: esprade - "ESP Ra.De. (International, Ver. 98/04/22)"
+0.122-0.240: esprade - "ESP Ra.De. (International, Ver. 98/04/22)"
+0.241-0.250: esprade - "ESP Ra.De. (World, 1998 4/22 International Ver.)"
 
 MAME History:
 - 0.122: Changed description to 'ESP Ra.De. (International, Ver. 98/04/22)' and clones (Japan Ver 1998 4/21) to 'ESP Ra.De. (Japan, Ver. 98/04/21)' and (Japan Ver 1998 4/14) to 'ESP Ra.De. (Japan, Ver. 98/04/14)'.
+- 0.241: Changed description to 'ESP Ra.De. (World, 1998 4/22 International Ver.)' and clones (Japan, Ver. 98/04/14) to 'ESP Ra.De. (Japan, 1998 4/14 Master Ver.)' and (Japan, Ver. 98/04/21)' to 'ESP Ra.De. (Japan, 1998 4/21 Master Ver.)'.
 
 Resolution, 0.106-0.113: 320x240 @ 57.550644Hz
-Resolution, 0.114-0.175: 320x240 @ 57.550645Hz
+Resolution, 0.114-0.250: 320x240 @ 57.550645Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=ESP%20Ra.De.%20[International%20Ver%201998%204/22]
-Rules, Points [1 Player Only]: http://www.twingalaxies.com/scores.php?scores=55964
-Rules, Points [2 Player Team]: http://www.twingalaxies.com/scores.php?scores=55965
+TG Game Entry: https://www.twingalaxies.com/game/esp-rade-international-ver-1998-4-22/mame/
+Rules, Points [1 Player Only]: https://www.twingalaxies.com/scores.php?scores=55964
+Rules, Points [2 Player Team]: https://www.twingalaxies.com/scores.php?scores=55965
+
+Service Mode:
+Service Mode is accessed using the Sevice Button (F2).  Note that holding the Service Mode button to enter Service Mode will also exit Service Mode as soon as the button is released.  All settings are internal and so can be checked after playback.

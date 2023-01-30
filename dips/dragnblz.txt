@@ -1,10 +1,14 @@
 ROM set changed: no
-0.106-0.234: dragnblz - "Dragon Blaze"
+0.106-0.250: dragnblz - "Dragon Blaze"
 
-Resolution, 0.106-0.234: 320x224 @ 60.000000Hz
+MAME History:
+- 0.165: Renamed 'Debug' dipswitch to 'Tilt (Enables Debug Mode)'.
+
+Resolution, 0.106-0.250: 320x224 @ 60.000000Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/dragon-blaze/mame
-Rules, Points [1 Player Only]: http://www.twingalaxies.com/scores.php?scores=26128
-Rules, Points [2 Player Team]: http://www.twingalaxies.com/scores.php?scores=26129
+Rules, Points [1 Player Only]: https://www.twingalaxies.com/scores.php?scores=26128
+Rules, Points [2 Player Team]: https://www.twingalaxies.com/scores.php?scores=26129
 
-NOTE: This game has both DIPs & internal settings covered by the rules. If not shown during playback, press F2 to access & check internal settings afterwards.
+Service Mode:
+This game has both DIPs & internal settings covered by the rules. Hardware DIP switches will reflect the local configuration after playback, not the recording.  If not shown during playback, internal settings can be accessed in Service Mode using the Service button (F2).  Navigation is with P1 Up & Down and selection with P1 Button 1.

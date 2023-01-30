@@ -1,7 +1,10 @@
 ROM set changed: no
-0.106-0.202: timetunl - "Time Tunnel"
+0.106-0.250: timetunl - "Time Tunnel"
 
-Resolution, 0.106-0.202: 256x224 @ 60.000000Hz
+Resolution, 0.106-0.250: 256x224 @ 60.000000Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/time-tunnel/mame/
-Rules, Points: http://www.twingalaxies.com/scores.php?scores=120436
+Rules, Points: https://www.twingalaxies.com/scores.php?scores=120436
+
+Service Mode:
+No Service Mode.

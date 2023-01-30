@@ -1,12 +1,15 @@
 ROM set changed: no
 0.106-0.177: phoenix - "Phoenix (Amstar)"
-0.178-0.220: phoenix - "Phoenix (Amstar, set 1)"
+0.178-0.250: phoenix - "Phoenix (Amstar, set 1)"
 
-From MAMEINFO.DAT:
+MAME History:
 - 0.178: MASH added clone Phoenix (Amstar, set 2). f205v added clone Condor (S C Novar bootleg of Phoenix). Changed parent description to 'Phoenix (Amstar, set 1)' and clone 'Condor (bootleg of Phoenix)' to 'Condor (Sidam bootleg of Phoenix)'.
 
 Resolution, 0.106-0.122: 248x208 @ 60.000000Hz
-Resolution, 0.123-0.220: 256x208 @ 61.035156Hz
+Resolution, 0.123-0.250: 256x208 @ 61.035156Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/phoenix-amstar/mame/
-Rules, Points: http://www.twingalaxies.com/scores.php?scores=7785
+Rules, Points: https://www.twingalaxies.com/scores.php?scores=7785
+
+Service Mode:
+No service mode.

@@ -1,12 +1,21 @@
 ROM set changed: no
-0.106-0.175: desertwr - "Desert War / Wangan Sensou"
+0.106-0.194: desertwr - "Desert War / Wangan Sensou"
+0.195-0.250: desertwr - "Desert War / Wangan Sensou (ver 1.0)"
 
-Resolution, 0.106-0.175: 320x224 @ 60.000000Hz
+MAME History:
+- 0.195: Changed description to 'Desert War / Wangan Sensou (ver 1.0)'.
+- 0.227: Added machine\jaleco_ms32_sysctrl.cpp/h, mame\etc\gen_device_defs.py and layout\f1superb.lay. Wrote a Jaleco MS32 System Control Unit device [Angelo Salese, Alex Marshall]. Fixed sprite transfer direction bit, removes an ugly per-game table. Fixed drawing honoring the wrong variable and causing a segmentation fault. Correct palette size. Move optional features (YUV, zooming) at init time (video\ms32_sprite.cpp) [Angelo Salese]. Changed VSync to 59.410646 7Hz.
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Desert%20War%20/%20Wangan%20Sensou
-Rules, Points [Average [4 Stages], Single Player Only]: http://www.twingalaxies.com/scores.php?scores=26094
-Rules, Points [Average [4 Stages], Two Player Team]: http://www.twingalaxies.com/scores.php?scores=26097
-Rules, Points [Beginner [3 Stages], Single Player Only]: http://www.twingalaxies.com/scores.php?scores=26093
-Rules, Points [Beginner [3 Stages], Two Player Team]: http://www.twingalaxies.com/scores.php?scores=26096
-Rules, Points [Expert [5 Stages], Single Player Only]: http://www.twingalaxies.com/scores.php?scores=26095
-Rules, Points [Expert [5 Stages], Two Player Team]: http://www.twingalaxies.com/scores.php?scores=26098
+Resolution, 0.106-0.226: 320x224 @ 60.000000Hz
+Resolution, 0.227-0.250: 320x224 @ 59.410646Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/desert-war-wangan-sensou/mame/
+Rules, Points [Average [4 Stages], Single Player Only]: https://www.twingalaxies.com/scores.php?scores=26094
+Rules, Points [Average [4 Stages], Two Player Team]: https://www.twingalaxies.com/scores.php?scores=26097
+Rules, Points [Beginner [3 Stages], Single Player Only]: https://www.twingalaxies.com/scores.php?scores=26093
+Rules, Points [Beginner [3 Stages], Two Player Team]: https://www.twingalaxies.com/scores.php?scores=26096
+Rules, Points [Expert [5 Stages], Single Player Only]: https://www.twingalaxies.com/scores.php?scores=26095
+Rules, Points [Expert [5 Stages], Two Player Team]: https://www.twingalaxies.com/scores.php?scores=26098
+
+Service Mode:
+Service Mode will reflect local configuration after playback, not the recording. Service Mode is accessed by enabling the DIP Switch which is toggled by the Service button (F2) then requires a reset.

@@ -1,8 +1,11 @@
 ROM set changed: no
-0.106-0.234: eightfrc - "Eight Forces"
+0.106-0.250: eightfrc - "Eight Forces"
 
-Resolution, 0.106-0.234: 384x224 @ 60.000000Hz
+Resolution, 0.106-0.250: 384x224 @ 60.000000Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/eight-forces/mame/
-Rules, Points [1 Player Only]: http://www.twingalaxies.com/scores.php?scores=55952
-Rules, Points [2 Player Team]: http://www.twingalaxies.com/scores.php?scores=55953
+Rules, Points [1 Player Only]: https://www.twingalaxies.com/scores.php?scores=55952
+Rules, Points [2 Player Team]: https://www.twingalaxies.com/scores.php?scores=55953
+
+Service Mode:
+Service Mode is accessed via DIP switch with the Service button (F2) used as a toggle. A reset is required to access the Service Mode so cannot be recorded in an INP file except if accessed at boot.

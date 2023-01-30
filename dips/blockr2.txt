@@ -1,17 +1,37 @@
-ROM set changed: yes
-0.106-0.170: block - "Block Block (World 910910)"
-0.171-0.175: blockr2 - "Block Block (World 910910)"
+Note: two ROM sets described here with changeover at 0.171.
 
 MAME History:
+- 0.133u1: Corrado Tomaselli changed VSync to 57.42 Hz in Block Block.
 - 0.171: Caius and The Dumping Union added Block Block (World 911219 Joystick). Updated PBC locations for other Block Block sets [Brian Troha]. Dumped clone (World 911106 Joystick) and noted only a rom label difference [Andrea Palazzetti]. Fixed rom names. Renamed (block) to (blockr2) and (blockjoy) to (blockr1).
 
+
+Block Block (World 910910)
+--------------------------
+ROM set changed: yes
+0.106-0.170: block - "Block Block (World 910910)"
+0.171-0.250: blockr2 - "Block Block (World 910910)"
+
 Resolution, 0.106-0.133: 384x240 @ 60.000000Hz
-Resolution, 0.134-0.175: 384x240 @ 57.420000Hz
+Resolution, 0.134-0.250: 384x240 @ 57.420000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Block%20Block%20[World%20910910]
-Rules, 1 Player Only [Points - Beginner Course]: http://www.twingalaxies.com/scores.php?scores=24354
-Rules, 1 Player Only [Points - Normal Course]: http://www.twingalaxies.com/scores.php?scores=24355
-Rules, 2 Player Only [Points - Beginner Course]: http://www.twingalaxies.com/scores.php?scores=24356
-Rules, 1 Player Only [Points - Normal Course]: http://www.twingalaxies.com/scores.php?scores=24357
+TG Game Entry: https://www.twingalaxies.com/game/block-block-world-910910/mame/
+Rules, 1 Player Only [Points - Beginner Course]: https://www.twingalaxies.com/scores.php?scores=24354
+Rules, 1 Player Only [Points - Normal Course]: https://www.twingalaxies.com/scores.php?scores=24355
+Rules, 2 Player Only [Points - Beginner Course]: https://www.twingalaxies.com/scores.php?scores=24356
+Rules, 1 Player Only [Points - Normal Course]: https://www.twingalaxies.com/scores.php?scores=24357
 
-NOTE: There are no hardware DIP switches.  Use Service Mode (F2) to access the internal settings after playback if not shown during playback.
+
+Block Block (World 911219 Joystick)
+-----------------------------------
+Note: this set is not represented on TG.
+0.171-0.250: block - "Block Block (World 911219 Joystick)"
+
+Resolution, 0.171-0.250: 384x240 @ 57.420000Hz
+
+Rules: [no current tracks]
+
+Service Mode:
+There are no hardware DIP switches.  Use Service Mode (F2) to access the internal settings after playback if not shown during playback.  Navigate with P1 Left to go down, P1 Right to go up.  P1 Button 1 selects or changes value.
+
+
+

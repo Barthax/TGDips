@@ -1,6 +1,7 @@
 Note: two ROM sets described here with changeover at 0.171.
 
 MAME History:
+- 0.133u1: Corrado Tomaselli changed VSync to 57.42 Hz in Block Block.
 - 0.171: Caius and The Dumping Union added Block Block (World 911219 Joystick). Updated PBC locations for other Block Block sets [Brian Troha]. Dumped clone (World 911106 Joystick) and noted only a rom label difference [Andrea Palazzetti]. Fixed rom names. Renamed (block) to (blockr2) and (blockjoy) to (blockr1).
 
 

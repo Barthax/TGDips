@@ -1,12 +1,20 @@
 ROM set changed: no
-0.106-0.175: dogyuun - "Dogyuun"
+0.106-0.250: dogyuun - "Dogyuun"
+
+MAME History:
+- 0.113u2: Changed VSync to 59.410646 Hz.
+- 0.122u5: Corrado Tomaselli verified/correct frequencies and OKI6295 pin 7 in Dogyuun. Changed 68000 CPU1 clock speed to 12.5MHz, OKI6295 to 1041666 Hz and VSync to 59Hz.
+- 0.141u4: Alex Jackson fixed description of clones (Unite Trading license) to 'Dogyuun (older set)' and (test location version) to 'Dogyuun (location test)'. Changed VSync to 59.410646 Hz. Renamed (dogyuunk) to (dogyuuna).
 
 Resolution, 0.106-0.113: 320x240 @ 59.410645Hz
 Resolution, 0.114-0.122: 320x240 @ 59.410646Hz
 Resolution, 0.123-0.141: 320x240 @ 59.000000Hz
 Resolution, 0.142-0.151: 320x240 @ 59.410646Hz
-Resolution, 0.152-0.175: 320x240 @ 59.637405Hz
+Resolution, 0.152-0.250: 320x240 @ 59.637405Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Dogyuun
-Rules, Points [1 Player Only]: http://www.twingalaxies.com/scores.php?scores=26114
-Rules, Points [2 Player Team]: http://www.twingalaxies.com/scores.php?scores=26115
+TG Game Entry: https://www.twingalaxies.com/game/dogyuun/mame/
+Rules, Points [1 Player Only]: https://www.twingalaxies.com/scores.php?scores=26114
+Rules, Points [2 Player Team]: https://www.twingalaxies.com/scores.php?scores=26115
+
+Service Mode:
+ervice Mode will reflect local configuration after playback, not the recording.  Service Mode is accessed by enabling the DIP Switch which is toggled by the Service button (F2) then requires a reset.
