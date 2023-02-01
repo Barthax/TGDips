@@ -1,6 +1,7 @@
 Note: two ROM sets represented here with changeover occuring at 0.138u3.
 
 MAME History:
+- 0.122u8: Changed description to 'Crazy Kong Part II'.
 - 0.138u3: Fred O. added 'Crazy Kong' (Falcon? 1981). Changed 'Crazy Kong (bootleg on Galaxian hardware)', 'Crazy Kong (bootleg on Moon Cresta hardware)', 'Crazy Kong (Alca bootleg)', 'Crazy Kong (Orca bootleg)', 'Crazy Kong (Scramble hardware)', 'Big Kong' and 'Monkey Donkey' from clones of 'Crazy Kong Part II' to clones of 'Crazy Kong'.
 - 0.138u3: cclimber/ckong sprite X was off by 1 (video\cclimber.c) [hap]. Renamed (ckong) to (ckongpt2), (ckonga) to (ckongpt2a), (ckongb) to (ckongpt2b), (ckong2j) to (ckongpt2j) and (ckongjeu) to (ckongpt2jeu).
 
@@ -10,22 +11,26 @@ Crazy Kong (set 1) / Crazy Kong Part II (set 1)
 ROM set changed: yes
 0.106-0.122: ckong - "Crazy Kong (set 1)"
 0.123-0.138: ckong - "Crazy Kong Part II (set 1)"
-0.138u3-0.200: ckongpt2 - "Crazy Kong Part II (set 1)"
+0.138u3-0.250: ckongpt2 - "Crazy Kong Part II (set 1)"
 
-Resolution, 0.106-0.200: 256x224 @ 60.000000Hz
+Resolution, 0.106-0.250: 256x224 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/crazy-kong-set-1/mame/
-Rules, Points: http://www.twingalaxies.com/scores.php?scores=7712
-Rules, Points [No Hammer Challenge]: http://www.twingalaxies.com/scores.php?scores=42190
-Rules, Wall Jumps - Rivet Stage: http://www.twingalaxies.com/scores.php?scores=198687
+TG Game Entry: https://www.twingalaxies.com/crazy-kong-set-1/mame/
+Rules, Points: https://www.twingalaxies.com/scores.php?scores=7712
+Rules, Points [No Hammer Challenge]: https://www.twingalaxies.com/scores.php?scores=42190
+Rules, Wall Jumps - Rivet Stage: https://www.twingalaxies.com/scores.php?scores=198687
 
 
 Crazy Kong
 ----------
 Note: not currently represented on TG.
 ROM set changed: no. Added in 0.138u3.
-0.138u3-0.200: ckong - "Crazy Kong"
+0.138u3-0.250: ckong - "Crazy Kong"
 
-Resolution, 0.139-0.200: 256x224 @ 60.000000Hz
+Resolution, 0.139-0.250: 256x224 @ 60.000000Hz
 
 Rules: [no current tracks]
+
+
+Service Mode:
+No service mode.
