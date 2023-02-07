@@ -8,7 +8,7 @@ Resolution, 0.128-0.152: 384x224 @ 59.629403Hz
 Resolution, 0.153-0.250: 384x224 @ 59.637405Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/19xx-the-war-against-destiny-us-951207/mame/
-Rules, One Player: http://www.twingalaxies.com/scores.php?scores=19622
-Rules, Two Player: http://www.twingalaxies.com/scores.php?scores=19623
+Rules, One Player: https://www.twingalaxies.com/scores.php?scores=19622
+Rules, Two Player: https://www.twingalaxies.com/scores.php?scores=19623
 
 NOTE: All relevant rules are covered by internal settings.  If not shown during playback, use F2 to access after playback completed.

@@ -1,10 +1,16 @@
 ROM set changed: no
 0.106-0.123: bjtwin - "Bombjack Twin"
-0.125-0.202: bjtwin - "Bombjack Twin (set 1)"
+0.125-0.250: bjtwin - "Bombjack Twin (set 1)"
+
+MAME History:
+- 0.124u1: Added clone Bombjack Twin (set 2). Changed parent description to 'Bombjack Twin (set 1)'.
 
 Resolution, 0.106-0.154: 384x224 @ 56.000000Hz
-Resolution, 0.155-0.202: 384x224 @ 56.180000Hz
+Resolution, 0.155-0.250: 384x224 @ 56.180000Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/bombjack-twin/mame/
-Rules, Points [1 Player Only]: http://www.twingalaxies.com/scores.php?scores=24365
-Rules, Points [2 Player Team]: http://www.twingalaxies.com/scores.php?scores=24366
+Rules, Points [1 Player Only]: https://www.twingalaxies.com/scores.php?scores=24365
+Rules, Points [2 Player Team]: https://www.twingalaxies.com/scores.php?scores=24366
+
+Service Mode:
+No service mode.

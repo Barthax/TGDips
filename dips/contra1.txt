@@ -1,17 +1,38 @@
+Note: two ROM sets are represented here with changeover at 0.123u1.
+
+MAME History: (re: renames)
+- 0.111u5: Canim fixed flip screen switch and changed COIN3 to SERVICE1 in the Contra driver.
+- 0.123u1: Brian Troha added clone Contra (bootleg). Changed clone 'Contra (US bootleg)' to parent 'Contra (US, Set 1)' and 'Contra (US)' to clone 'Contra (US, Set 2)'. Renamed (contra) to (contra1) and (contrab) to (contra).
+- 0.162: System11 added clone Contra (US / Asia, set 3). Made cocktail dipswitch apply to clones Gryzor (set 1/2) only, it has no function in the others [David Haywood]. Changed parent description to 'Contra (US / Asia, set 1)' and clone (US, set 2) to 'Contra (US / Asia, set 2)'.
+MAME History: (re: rules)
+
+Contra (US / Asia, set 2)
+-------------------------
 ROM set changed: yes
 0.106-0.123: contra - "Contra (US)"
 0.123u1-0.161: contra1 - "Contra (US, set 2)"
-0.162-0.182: contra1 - "Contra (US / Asia, set 2)" (minor description change)
+0.162-0.250: contra1 - "Contra (US / Asia, set 2)" (minor description change)
 
-MAME History: (re: renames)
-- 0.123u1: Brian Troha added clone Contra (bootleg). Changed clone 'Contra (US bootleg)' to parent 'Contra (US, Set 1)' and 'Contra (US)' to clone 'Contra (US, Set 2)'. Renamed (contra) to (contra1) and (contrab) to (contra).
-MAME History: (re: rules)
-- 0.111u5: Canim fixed flip screen switch and changed COIN3 to SERVICE1 in the Contra driver.
-
-Resolution, 0.106-0.182: 280x224 @ 60.000000Hz
+Resolution, 0.106-0.250: 280x224 @ 60.000000Hz
 
 TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Contra+[US]
 Rules, Points [1 Player Only]: http://www.twingalaxies.com/scores.php?scores=40015
 Rules, Points [2 Player Team]: http://www.twingalaxies.com/scores.php?scores=40016
 Rules, 1 Player Only [Points]: http://www.twingalaxies.com/scores.php?scores=15634
 Rules, 2 Players Team [Points]: http://www.twingalaxies.com/scores.php?scores=15635
+
+
+Contra (US / Asia, set 1)
+-------------------------
+Note: not currently represented on TG.
+ROM set changed: no. Added in 0.123u1.
+0.123u1-0.161: contra - "Contra (US, set 1)"
+0.162-0.250: contra - "Contra (US / Asia, set 1)"
+
+Resolution, 0.125-0.250: 280x224 @ 60.000000Hz
+
+Rules: [no current tracks]
+
+
+Service Mode:
+Service Mode will reflect the local configuration only, not the recording. Service Mode is entered by enabling the DIP switch which can be toggled with the Service button (9) and then a reset must occur, thus cannot be recorded.
