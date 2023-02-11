@@ -7,10 +7,10 @@ MAME History:
 In MAME 0.107 and earlier, "rev 2" was actually "rev 3" all along.
 
 Resolution, 0.106-0.152: vector @ 60.000000Hz
-Resolution, 0.153-0.189: vector @ 61.523438Hz
+Resolution, 0.153-0.250: vector @ 61.523438Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Asteroids+Deluxe+[Rev+2]
-Rules, Points: http://www.twingalaxies.com/scores.php?scores=7676
+TG Game Entry: https://www.twingalaxies.com/game/asteroids-deluxe-rev-2/mame/
+Rules, Points: https://www.twingalaxies.com/scores.php?scores=7676
 
 The rules were written to reflect MAME 0.106. MAME 0.106 had an "Asteroids Deluxe (rev 2)" in ROM set astdelux: so if this is what the OP has submitted then it is correct.
 In MAME 0.107u4 this set was renamed (description only) to be "Asteroids Deluxe (rev 3)" after rev 1 was added to MAME:

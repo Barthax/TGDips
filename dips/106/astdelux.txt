@@ -72,8 +72,8 @@ INPUT_PORTS_END
 
 Resolution: vector @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Asteroids+Deluxe+[Rev+2]
-Rules, Points: http://www.twingalaxies.com/scores.php?scores=7676
+TG Game Entry: https://www.twingalaxies.com/game/asteroids-deluxe-rev-2/mame/
+Rules, Points: https://www.twingalaxies.com/scores.php?scores=7676
 
 ROMSet: AstDelux
 Lives: 3-5
