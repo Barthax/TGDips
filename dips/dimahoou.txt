@@ -1,16 +1,41 @@
-ROM set changed: yes
-0.106-0.111: dimahoo - "Dimahoo (US 000121)"
-0.112-0.118: dimahoo - "Dimahoo (USA 000121)"
-0.119-0.245: dimahoou - "Dimahoo (USA 000121)"
+Note: two ROM sets represented here with changeover at 0.118u6.
 
 MAME History:
+- 0.113u2: Changed VSync to 59.633333 Hz.
 - 0.118u6: David Haywood added Dimahoo (Euro 000121). Renamed (dimahoo) to (dimahoou).
+- 0.127u1: Derived CPS2 video timing based on measurements. These are educated guesses. The logic behind the derivations is shown in the source. Fixes the disappearing volume bar in the test menu for msh, mshvsf, xmvsf, xmcota and nwarr for sound and voice [Aaron Giles]. Changed VSync to 59.629403 Hz.
+- 0.153: Cleanup QSound. No practical changes here except that i removed support for LOG_WAVE raw sound filewriting. Updated soundstream before writing (tsk). Reg 3 is key on. Small fix to sample start and loop. Guru measured qsound music timing. Modified CPS1 video params. Added DSP pin info from Guru [hap]. Eliminate pointless planar-to-chunky conversion of gfx ROMs, just decode them as-is [Alex Jackson]. Changed VSync to 59.637405 Hz.
+
+
+Dimahoo (USA 000121)
+--------------------
+ROM set changed: yes
+0.106-0.111: dimahoo - "Dimahoo (US 000121)"
+0.112-0.118: dimahoo - "Dimahoo (USA 000121)" (minor description change)
+0.119-0.250: dimahoou - "Dimahoo (USA 000121)"
 
 Resolution, 0.106-0.113: 384x224 @ 59.633331Hz
 Resolution, 0.114-0.127: 384x224 @ 59.633333Hz
 Resolution, 0.128-0.152: 384x224 @ 59.629403Hz
-Resolution, 0.153-0.245: 384x224 @ 59.637405Hz
+Resolution, 0.153-0.250: 384x224 @ 59.637405Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/dimahoo-us-000121/mame/
-Rules, Points [1 Player Only]: http://www.twingalaxies.com/scores.php?scores=26109
-Rules, Points [2 Player Team]: http://www.twingalaxies.com/scores.php?scores=26110
+Rules, 1 Player Only: https://www.twingalaxies.com/scores.php?scores=26109
+Rules, 2 Player Team: https://www.twingalaxies.com/scores.php?scores=26110
+
+
+Dimahoo (Euro 000121)
+---------------------
+ROM set changed: no.  Added in 0.118u6.
+0.119-0.250: dimahoo - "Dimahoo (Euro 000121)"
+
+Resolution, 0.119-0.127: 384x224 @ 59.633333Hz
+Resolution, 0.128-0.152: 384x224 @ 59.629403Hz
+Resolution, 0.153-0.250: 384x224 @ 59.637405Hz
+
+Rules: [no current tracks]
+
+
+Service Mode:
+Standard CPS2 BIOS.
+All relevant rules are covered by internal settings. If not shown during playback, use Service Mode button (F2) to access after playback completed. Navigation is with P1 Up and Down. Action options are given in the instructions at the bottom of the sreen.

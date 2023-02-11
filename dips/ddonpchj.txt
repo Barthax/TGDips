@@ -1,19 +1,22 @@
 ROM set changed: yes.
 0.37b5-0.121: ddonpchj - "DoDonPachi (Japan)"
 0.122-0.133: ddonpchj - "DoDonPachi (Japan, Master Ver. 97/02/05)"
-0.133u1-0.203: ddonpachj - "DoDonPachi (Japan, Master Ver. 97/02/05)"
-NB: 0.133u1 added one ROM to set, but no differences in emulation.
+0.133u1-0.240: ddonpachj - "DoDonPachi (Japan, Master Ver. 97/02/05)"
+0.241-0.250: ddonpachj - "DoDonPachi (Japan, 1997 2/ 5 Master Ver.)"
+NB: 0.136 added one ROM to set, but no differences in emulation.
 
-From MAMEINFO.DAT:
+MAME History:
 - 0.122: Changed description to 'DoDonPachi (International, Master Ver. 97/02/05)' and clone (Japan) to 'DoDonPachi (Japan, Master Ver. 97/02/05)'.
 - 0.133u1: Renamed (ddonpchj) to (ddonpachj).
 - 0.136: Added eeprom-ddonpach.bin EEPROM.
+- 0.241: Changed description to 'DoDonPachi (World, 1997 2/ 5 Master Ver.)' and clone (Japan, Master Ver. 97/02/05) to 'DoDonPachi (Japan, 1997 2/ 5 Master Ver.)'.
 
 Resolution, 0.106-0.113: 320x240 @ 57.550644Hz
-Resolution, 0.114-0.203: 320x240 @ 57.550645Hz
+Resolution, 0.114-0.250: 320x240 @ 57.550645Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/dodonpachi-japan/mame/
-Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=22925
-Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=22926
+Rules, Points [Single Player Only]: https://www.twingalaxies.com/scores.php?scores=22925
+Rules, Points [Two Player Team]: https://www.twingalaxies.com/scores.php?scores=22926
 
-NOTE: All relevant rules are covered by internal settings.  If not shown during playback, use F2 to access after playback completed.
+Service Mode:
+All relevant rules are covered by internal settings.  If not shown during playback, hold the Service button (F2) to access after playback completed.  Navigation is with P1 Up & Down.  Use P1 Button 1 to select top menu, instructions given on subsequent screens.

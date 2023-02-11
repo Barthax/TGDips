@@ -1,13 +1,19 @@
 ROM set changed: no
 0.106-0.137: desertbr - "Desert Breaker (FD1094 317-0196)"
 0.138-0.165: desertbr - "Desert Breaker (World, FD1094 317-0196)"
-0.166-0.175: desertbr - "Desert Breaker (World) (FD1094 317-0196)"
+0.166-0.250: desertbr - "Desert Breaker (World) (FD1094 317-0196)"
+
+MAME History:
+- 0.138: Team Japump and Dumping Union added clone Desert Breaker (Japan, FD1094 317-0194). Yasuhiroyasuhiro fixed coinage of Desert Breaker. Changed parent description to 'Desert Breaker (World, FD1094 317-0196)'. Fixed rom names.
+- 0.166: David Haywood added clones 'Desert Breaker (Japan) (bootleg of FD1094 317-0194 set)' and 'Desert Breaker (World) (bootleg of FD1094 317-0196 set)'. Changed parent description to 'Desert Breaker (World) (FD1094 317-0196)' and clone (FD1094 317-0194) to 'Desert Breaker (Japan) (FD1094 317-0194)'.
 
 Resolution, 0.106-0.133: 320x224 @ 60.000000Hz
-Resolution, 0.134-0.175: 320x224 @ 57.230000Hz
+Resolution, 0.134-0.250: 320x224 @ 57.230000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Desert%20Breaker%20[FD1094%20317-0196]
-Rules, Points [1 Player Only]: http://www.twingalaxies.com/scores.php?scores=26090
-Rules, Points [2 Player Team]: http://www.twingalaxies.com/scores.php?scores=26091
-Rules, Points [3 Player Team]: http://www.twingalaxies.com/scores.php?scores=55850
+TG Game Entry: https://www.twingalaxies.com/game/desert-breaker-fd1094-317-0196/mame/
+Rules, Points [1 Player Only]: https://www.twingalaxies.com/scores.php?scores=26090
+Rules, Points [2 Player Team]: https://www.twingalaxies.com/scores.php?scores=26091
+Rules, Points [3 Player Team]: https://www.twingalaxies.com/scores.php?scores=55850
 
+Service Mode:
+Service Mode will reflect the local configuration after playback, not the recording. Service Mode is entered by enabling the DIP switch which can be toggled with the Service button (F2).  Service Mode only shows the DIP switch assignments for the first switch which controls the coin interpretation.

@@ -1,12 +1,15 @@
 ROM set changed: no
 0.106-0.145: ffight - "Final Fight (World)"
-0.146-0.239: ffight - "Final Fight (World, set 1)"
+0.146-0.250: ffight - "Final Fight (World, set 1)"
 
 Resolution, 0.106-0.126: 384x224 @ 60.000000Hz
 Resolution, 0.127-0.147: 384x224 @ 59.610000Hz
 Resolution, 0.148-0.152: 384x224 @ 59.629403Hz
-Resolution, 0.153-0.239: 384x224 @ 59.637405Hz
+Resolution, 0.153-0.250: 384x224 @ 59.637405Hz
 
-TG Game Entry: http://www.twingalaxies.com/final-fight-world/mame/
-Rules, Points [Single Player Only]: http://www.twingalaxies.com/scores.php?scores=14431
-Rules, Points [Two Player Team]: http://www.twingalaxies.com/scores.php?scores=14432
+TG Game Entry: https://www.twingalaxies.com/final-fight-world/mame/
+Rules, Points [Single Player Only]: https://www.twingalaxies.com/scores.php?scores=14431
+Rules, Points [Two Player Team]: https://www.twingalaxies.com/scores.php?scores=14432
+
+Service Mode:
+Service Mode will reflect local configuration after playback, not the recording. Service Mode is accessed by enabling the DIP Switch which is toggled by the Service button (F2) then requires a reset.

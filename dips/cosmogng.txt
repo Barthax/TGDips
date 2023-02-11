@@ -5,7 +5,7 @@ Resolution, 0.106-0.113: 288x224 @ 60.606060Hz
 Resolution, 0.114-0.251: 288x224 @ 60.606061Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/cosmo-gang-the-video-us/mame
-Rules, 1 Player: http://www.twingalaxies.com/scores.php?scores=24499
-Rules, 2 Player: http://www.twingalaxies.com/scores.php?scores=24500
+Rules, 1 Player: https://www.twingalaxies.com/scores.php?scores=24499
+Rules, 2 Player: https://www.twingalaxies.com/scores.php?scores=24500
 
 NOTE: This game has both DIPs & internal settings covered by the rules. If not shown during playback, press F2 to access & check internal settings afterwards.

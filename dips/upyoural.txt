@@ -1,6 +1,10 @@
 ROM set changed: no
-0.106-0.175: upyoural - "Up Your Alley"
+0.106-0.250: upyoural - "Up Your Alley"
 
-Resolution, 0.106-0.175: 320x240 @ 60.000000Hz
+Resolution, 0.106-0.250: 320x240 @ 60.000000Hz
 
-TG Game Entry: http://www.twingalaxies.com/scores.php?platformid=46&gamename=Up Your Alley
+TG Game Entry: https://www.twingalaxies.com/game/up-your-alley/mame/
+Rules, Points: https://www.twingalaxies.com/game/up-your-alley/mame/points/
+
+Service Mode:
+Service Mode is entered using the combination of P1 Start button (1) and the Service Test button (9).  Navigation is with P1 Start button with selection made with P2 Start button (2).
