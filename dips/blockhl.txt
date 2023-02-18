@@ -1,8 +1,15 @@
 ROM set changed: no
-0.106-0.212: blockhl - "Block Hole"
+0.106-0.250: blockhl - "Block Hole"
+
+MAME History:
+- 0.124: RansAckeR added DIP locations and fixed unknown dipswitches in Block Hole. Changed 'Unknown' dipswitches to 'Unused'.
+- 0.165: Use bankdev for Block Hole and clean up driver. More cleanups, COIN3 is actually SERVICE1, properly reflect the controller configuration. Added notes and issues. Audiocpu runs in iM1, no point setting an interrupt vector. Plug in xtal values from PCB picture. Use new K052109 video support and added raw parameters to Block Hole [Dirk Best]. Changed VSync to 59.185606 Hz.
 
 Resolution, 0.106-0.164: 288x224 @ 60.000000Hz
-Resolution, 0.165-0.212: 288x224 @ 59.185606Hz
+Resolution, 0.165-0.250: 288x224 @ 59.185606Hz
 
-TG Game Entry: http://www.twingalaxies.com/game/block-hole/mame/
-Rules, Points: http://www.twingalaxies.com/scores.php?scores=24360
+TG Game Entry: https://www.twingalaxies.com/game/block-hole/mame/
+Rules, Points: https://www.twingalaxies.com/scores.php?scores=24360
+
+Service Mode:
+Service Mode will reflect the local configuration after playback, not the recording.  Service Mode is accessed using the DIP switch which is toggled with the Service button (F2) and then requires a reset, so cannot be recorded in an INP.  Screens in Service Mode are cycled through using the combination of P1 Start button and P2 Start button.

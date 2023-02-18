@@ -1,14 +1,15 @@
 ROM set changed: no
-0.106-0.247: dino - "Cadillacs and Dinosaurs (World 930201)"
+0.106-0.250: dino - "Cadillacs and Dinosaurs (World 930201)"
 
 Resolution, 0.106-0.126: 384x224 @ 60.000000Hz
 Resolution, 0.127-0.147: 384x224 @ 59.610000Hz
 Resolution, 0.148-0.152: 384x224 @ 59.629403Hz
-Resolution, 0.153-0.247: 384x224 @ 59.637405Hz
+Resolution, 0.153-0.250: 384x224 @ 59.637405Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/cadillacs-and-dinosaurs-world-930201/mame/
-Rules, Points [1 Player Only]: http://www.twingalaxies.com/scores.php?scores=10811
-Rules, Points [2 Player Team]: http://www.twingalaxies.com/scores.php?scores=10812
-Rules, Points [3 Player Team]: http://www.twingalaxies.com/scores.php?scores=10813
+Rules, Points [1 Player Only]: https://www.twingalaxies.com/scores.php?scores=10811
+Rules, Points [2 Player Team]: https://www.twingalaxies.com/scores.php?scores=10812
+Rules, Points [3 Player Team]: https://www.twingalaxies.com/scores.php?scores=10813
 
-NOTE: All relevant rules are covered by internal settings.  If not shown during playback, use F2 to access after playback completed.
+Service Mode:
+All relevant rules are covered by internal settings.  If not shown during playback, use F2 to access after playback completed.

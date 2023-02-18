@@ -1,9 +1,13 @@
 ROM set changed: no
-0.106-0.239: bubblem - "Bubble Memories: The Story Of Bubble Bobble III (Ver 2.4O 1996/02/15)"
+0.106-0.250: bubblem - "Bubble Memories: The Story Of Bubble Bobble III (Ver 2.4O 1996/02/15)"
 
 Resolution, 0.106-0.113: 320x224 @ 58.970001Hz
-Resolution, 0.114-0.239: 320x224 @ 58.970000Hz
+Resolution, 0.114-0.250: 320x224 @ 58.970000Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/bubble-memories-the-story-of-bubble-bobble-3-ver-24o-1996-02-15/mame
-Rules, Points [1 Player Only]: http://www.twingalaxies.com/scores.php?scores=24384
-Rules, Points [2 Player Team]: http://www.twingalaxies.com/scores.php?scores=31055
+Rules, Points [1 Player Only]: https://www.twingalaxies.com/scores.php?scores=24384
+Rules, Points [2 Player Team]: https://www.twingalaxies.com/scores.php?scores=31055
+
+Service Mode:
+Standard Taito F3 service mode.
+All relevant rules are covered by internal settings. If not shown during playback, use Service button (F2) to access after playback completed. Navigation is with P1 Up and Down. Selection with P1 Button 1.

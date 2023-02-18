@@ -16,8 +16,6 @@ TG Game Entry: https://www.twingalaxies.com/game/blaze-on-japan/mame/
 Rules, Points [1 Player Only]: https://www.twingalaxies.com/scores.php?scores=10805
 Rules, Points [2 Player Team]: https://www.twingalaxies.com/scores.php?scores=10806
 
-Note: do not use Service Mode after playback as it will only reflect local configuration not the recording.  Service Mode is accessed via the DIP Switch.  Service Mode requires a restart thus cannot be recorded in an INP.  Navigation is with P1 Up & Down; P1 Button 1 to select.  Sub-sections typically require an exit combination of P1 Start and P2 Start simultaneously.
-
 
 Blaze On (World)
 ----------------
@@ -28,3 +26,8 @@ ROM set changed: no.  Added in 0.206.
 Resolution, 0.206-0.251: 320x232 @ 60.000000Hz
 
 Rules: [no current tracks]
+
+
+Service Mode:
+Service Mode will reflect local configuration after playback, not the recording.  Service Mode is accessed via the DIP Switch and requires a restart thus cannot be recorded in an INP.  Navigation is with P1 Up & Down; P1 Button 1 to select.  Sub-sections typically require an exit combination of P1 Start and P2 Start simultaneously.
+

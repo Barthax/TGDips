@@ -1,10 +1,13 @@
 ROM set changed: no
-0.106-0.235: ssriders - "Sunset Riders (4 Players ver EAC)"
+0.106-0.250: ssriders - "Sunset Riders (4 Players ver EAC)"
 
-Resolution, 0.106-0.235: 288x224 @ 60.000000Hz
+Resolution, 0.106-0.250: 288x224 @ 60.000000Hz
 
 TG Game Entry: https://www.twingalaxies.com/game/sunset-riders-4-players-ver-eac/mame
 Rules, Points [Single Player Only]: https://www.twingalaxies.com/scores.php?scores=23006
 Rules, Points [Two Player Team]: https://www.twingalaxies.com/scores.php?scores=23007
 Rules, Points [Three Player Only]: https://www.twingalaxies.com/scores.php?scores=23008
 Rules, Points [Four Player Only]: https://www.twingalaxies.com/scores.php?scores=23009
+
+Service Mode:
+All relevant rules are covered by internal settings.  Service Mode is accessed using the Service Button (F2).  Navigation is with P1 Up and Down, selection is with P1 Button 1.  Instructions are given on each screen.
