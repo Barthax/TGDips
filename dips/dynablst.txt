@@ -1,0 +1,13 @@
+ROM set changes: no
+0.106-0.251: dynablst - "Dynablaster / Bomber Man"
+
+Resolution, 0.106-0.251: 320x240 @ 60.000000Hz
+
+TG Game Entry: https://www.twingalaxies.com/game/dynablaster-bomberman/mame/
+Rules, Points [1 Player Only]: https://www.twingalaxies.com/game/dynablaster-bomberman/mame/points-1-player-only/page/1
+Rules, Points [2 Player Team]: https://www.twingalaxies.com/game/dynablaster-bomberman/mame/points-2-player-team/
+Rules, Points [3 Player Team]: https://www.twingalaxies.com/game/dynablaster-bomberman/mame/points-3-player-team/
+Rules, Points [4 Player Team]: https://www.twingalaxies.com/game/dynablaster-bomberman/mame/points-4-player-team/
+
+Service Mode:
+Service Mode is accessed by enabling the DIP switch and then resetting the machine, thus cannot be recorded in an INP.  Service Mode only presents a series of test options.
